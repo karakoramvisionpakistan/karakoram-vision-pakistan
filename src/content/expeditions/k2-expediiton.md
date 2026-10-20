@@ -1,6 +1,6 @@
 ---
 title: K2 Expedition
-slug: k2-expediiton
+slug: k2-expedition
 permalink: /expeditions/k2-expedition/
 layout: layouts/journey.njk
 service_type: expeditions

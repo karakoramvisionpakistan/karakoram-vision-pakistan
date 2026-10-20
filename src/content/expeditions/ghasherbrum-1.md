@@ -1,6 +1,6 @@
 ---
 title: Gasherbrum-I
-slug: ghasherbrum-1
+slug: gasherbrum-i
 permalink: /expeditions/gasherbrum-i/
 layout: layouts/journey.njk
 service_type: expeditions
