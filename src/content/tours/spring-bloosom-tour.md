@@ -1,7 +1,7 @@
 ---
 title: Spring Bloosom Tour
 slug: spring-bloosom-tour
-permalink: /tours/spting-bloosom-tour/
+permalink: /tours/spring-blossom-tour/
 layout: layouts/journey.njk
 service_type: tours
 service_label: Tours
