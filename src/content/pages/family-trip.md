@@ -1,7 +1,7 @@
 ---
 title: Family Trip
 slug: family-trip
-permalink: family-trip
+permalink: /family-trip/
 layout: layouts/page.njk
 published: true
 featured: true

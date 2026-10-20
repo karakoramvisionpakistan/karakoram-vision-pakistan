@@ -1,7 +1,7 @@
 ---
 title: "Mountains & Villages Safari "
 slug: mountains-villages-safari
-permalink: jeep-safaries/mountains-villages-safari
+permalink: /jeep-safaris/mountains-villages-safari/
 layout: layouts/journey.njk
 service_type: jeep-safaris
 service_label: Jeep Safaris

@@ -1,7 +1,7 @@
 ---
 title: Gasherbrum-I
 slug: ghasherbrum-1
-permalink: expeditions/gasherbrum-i/
+permalink: /expeditions/gasherbrum-i/
 layout: layouts/journey.njk
 service_type: expeditions
 service_label: Expeditions

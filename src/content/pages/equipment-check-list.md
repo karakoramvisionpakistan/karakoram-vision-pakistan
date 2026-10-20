@@ -1,7 +1,7 @@
 ---
 title: Equipment Checklist
 slug: equipment-check-list
-permalink: equipment-checklist
+permalink: /equipment-checklist/
 layout: layouts/page.njk
 published: true
 featured: true
