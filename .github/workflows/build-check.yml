@@ -12,3 +12,24 @@ jobs:
           node-version: 22
       - run: npm install --no-audit --no-fund
       - run: npm run build
+      - name: Email on failure
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.MAIL_SERVER }}
+          server_port: ${{ secrets.MAIL_PORT }}
+          secure: ${{ secrets.MAIL_PORT == '465' }}
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          to: ${{ secrets.MAIL_TO }}
+          from: 'Karakoram Alerts <${{ secrets.MAIL_USERNAME }}>'
+          subject: 'Website update FAILED - ${{ github.ref_name }}'
+          body: |
+            A recent change to the Karakoram Vision Pakistan website could not be built, so it was NOT published.
+            The previous version of the website is still live and working.
+
+            Please contact your developer to fix it.
+
+            Branch: ${{ github.ref_name }}
+            Change: ${{ github.event.head_commit.message }}
+            Technical details: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
