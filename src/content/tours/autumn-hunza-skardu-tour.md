@@ -3,11 +3,11 @@ title: Autumn Colours of Hunza and Skardu
 slug: autumn-hunza-skardu-tour
 permalink: /tours/autumn-hunza-skardu-tour/
 published: true
-featured: false
-best_seller: false
+featured: true
+best_seller: true
 fixed_departure: false
-departure_type: Private
-trip_status: On request
+departure_type: Custom
+trip_status: Available
 summary: >-
   A ten-day photography-focused autumn journey through orchards, heritage villages and mountain
   viewpoints in Hunza and Skardu.
@@ -17,13 +17,13 @@ answer_summary: >-
 cover_image: /assets/uploads/journeys/autumn-hunza-skardu-tour.svg
 cover_image_alt: Autumn Colours of Hunza and Skardu mountain landscape in northern Pakistan
 gallery: []
-duration: 10 Days
+duration: 14 Days
 price_from: On request
 deposit: Confirmed with proposal
 price_currency: USD
 group_size: 2–12 travelers
 difficulty: Easy
-destination: Hunza & Skardu
+destination: Hunza, Skardu and Khaplu
 categories:
   - Tours
 tags:
@@ -31,6 +31,10 @@ tags:
   - photography
   - Hunza
   - Skardu
+  - summer
+  - winter
+  - khaplu
+  - spring
 departures: []
 departure_details: []
 highlights:
@@ -75,20 +79,21 @@ key_facts:
     value: Private dates on request
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
-last_verified: "2026-07-14"
+last_verified: "2026-06-14"
 seo:
-  title: Autumn Colours of Hunza and Skardu | Karakoram Vision Pakistan
+  title: Spring, Summer and Autumn Colours of Hunza and Skardu | Karakoram Vision Pakistan
   description: >-
     A ten-day photography-focused autumn journey through orchards, heritage villages and mountain
-    viewpoints in Hunza and Skardu.
-  keywords: autumn, photography, Hunza, Skardu
+    viewpoints in Hunza, Skardu and Khaplu
+  keywords: spring, summer, autumn,winter, photography, Hunza, Skardu, khaplu
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""
   social_image: /assets/uploads/journeys/autumn-hunza-skardu-tour.svg
 layout: layouts/journey.njk
 service_type: tours
 service_label: Tours
+duration_days: 14
 ---
 
 
-<h2>Journey overview</h2><p>A ten-day photography-focused autumn journey through orchards, heritage villages and mountain viewpoints in Hunza and Skardu.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions. </p><h2>Suggested itinerary</h2><h3>Day 1: Arrival in Gilgit</h3><p>Season and weather briefing.</p><h3>Day 2: Hunza transfer</h3><p>Scenic drive through Nagar.</p><h3>Day 3: Central Hunza</h3><p>Heritage sites and orchard villages.</p><h3>Day 4: Upper Hunza</h3><p>Passu, Gulmit and Attabad.</p><h3>Day 5: Photography day</h3><p>Flexible timing for light and seasonal colour.</p><h3>Day 6: Return to Gilgit</h3><p>Road transfer.</p><h3>Day 7: Drive to Skardu</h3><p>Indus valley journey.</p><h3>Day 8: Shigar Valley</h3><p>Fort and village photography.</p><h3>Day 9: Skardu highlights</h3><p>Lakes, desert and viewpoint options.</p><h3>Day 10: Departure</h3><p>Airport transfer.</p><h2>Planning notes</h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2>Responsible travel</h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+<h2><strong>Journey overview</strong></h2><p>A ten-day photography-focused autumn journey through orchards, heritage villages and mountain viewpoints in Hunza and Skardu.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><strong>Day 1: Arrival inIslamabad </strong></h3><p><strong>Day 2: Drive to Gilgit</strong></p><p>Season and weather briefing.</p><h3><strong>Day 3: Hunza transfer</strong></h3><p>Scenic drive through Nagar.</p><h3><strong>Day 4: Central Hunza</strong></h3><p>Heritage sites and orchard villages.</p><h3><strong>Day 5: Upper Hunza</strong></h3><p>Passu, Gulmit and Attabad.</p><h3><strong>Day 6: Photography day</strong></h3><p>Flexible timing for light and seasonal colour.</p><h3><strong>Day 7: Return to Gilgit</strong></h3><p>Road transfer.</p><h3><strong>Day 8: Drive to Skardu</strong></h3><p>Indus valley journey.</p><h3><strong>Day 9: Shigar Valley</strong></h3><p>Fort and village photography.</p><h3><strong>Day 10: Skardu highlights</strong></h3><p>Lakes, desert and viewpoint options.</p><p><strong>Day 11: Drive to Khaplu</strong></p><p>to see Chaqchan Mosque, Khaplu fort, Mashabrum View point,</p><p><strong>Day 12: Drive back to Skardu via Manthoka Water Fall </strong></p><p><strong>Day 13 Fly to Islamabad</strong></p><p>50 minutes fly</p><h3><strong>Day 14: Fly Out</strong></h3><p>Airport transfer for your own destinations</p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
