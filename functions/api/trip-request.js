@@ -143,6 +143,10 @@ export async function onRequestPost({ request, env }) {
   if (sheetResult.status === 'rejected' && sheetConfigured) console.error('trip-request: sheet failed:', sheetResult.reason && sheetResult.reason.message);
   if (dbResult.status === 'rejected' && dbConfigured) console.error('trip-request: database failed:', dbResult.reason && dbResult.reason.message);
   if (mailResult.status === 'fulfilled' || sheetResult.status === 'fulfilled' || dbResult.status === 'fulfilled') return succeed();
+  if (env.TRIP_DEBUG && asJson) {
+    const why = (x) => (x.status === 'rejected' ? String((x.reason && x.reason.message) || x.reason) : 'ok');
+    return json({ ok: false, error: 'send_failed', detail: { email: why(mailResult), sheet: why(sheetResult), db: why(dbResult) } }, 502);
+  }
   return fail(502, 'send_failed');
 }
 
