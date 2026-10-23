@@ -6,6 +6,7 @@
 //   SMTP_PASS   mailbox password   (secret)
 //   TRIP_MAIL_TO  where requests go, comma separated
 // Optional: TRIP_MAIL_FROM (defaults to SMTP_USER), TRIP_MAIL_FROM_NAME
+// Optional Google Sheet copy of every inquiry: SHEET_WEBHOOK_URL, SHEET_TOKEN
 import { connect } from 'cloudflare:sockets';
 import { sendMail } from '../_lib/smtp.js';
 
@@ -48,10 +49,18 @@ export async function onRequestPost({ request, env }) {
   if (!rows.length || rows.length > 60) return fail(400, 'empty_form');
 
   const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, TRIP_MAIL_TO } = env;
-  if (!SMTP_HOST || !SMTP_USER || !SMTP_PASS || !TRIP_MAIL_TO) {
-    console.error('trip-request: mail settings are missing in the Pages project');
+  const emailConfigured = Boolean(SMTP_HOST && SMTP_USER && SMTP_PASS && TRIP_MAIL_TO);
+  const sheetConfigured = Boolean(env.SHEET_WEBHOOK_URL && env.SHEET_TOKEN);
+  if (!emailConfigured && !sheetConfigured) {
+    console.error('trip-request: neither mail nor sheet settings are configured');
     return fail(500, 'not_configured');
   }
+
+  const meta = {
+    Page: request.headers.get('Referer') || url.origin,
+    Received: new Date().toISOString(),
+    IP: request.headers.get('CF-Connecting-IP') || 'unknown',
+  };
 
   const text = [
     'New trip request from the website',
@@ -59,12 +68,13 @@ export async function onRequestPost({ request, env }) {
     ...rows.map(([label, value]) => (value.includes('\n') ? `${label}:\n${value}` : `${label}: ${value}`)),
     '',
     '---',
-    `Page: ${request.headers.get('Referer') || url.origin}`,
-    `Received: ${new Date().toISOString()}`,
-    `IP: ${request.headers.get('CF-Connecting-IP') || 'unknown'}`,
+    `Page: ${meta.Page}`,
+    `Received: ${meta.Received}`,
+    `IP: ${meta.IP}`,
   ].join('\n');
 
-  try {
+  const sendEmail = async () => {
+    if (!emailConfigured) throw new Error('email not configured');
     await sendMail({
       connect,
       host: SMTP_HOST,
@@ -79,11 +89,29 @@ export async function onRequestPost({ request, env }) {
       subject: name ? `New trip request: ${name}` : 'New trip request',
       text,
     });
-  } catch (error) {
-    console.error('trip-request: sending failed:', error && error.message);
-    return fail(502, 'send_failed');
-  }
-  return succeed();
+  };
+
+  // Copy of the inquiry in a Google Sheet (a Google Apps Script web app receives it).
+  const saveToSheet = async () => {
+    if (!sheetConfigured) throw new Error('sheet not configured');
+    const body = new URLSearchParams({ token: env.SHEET_TOKEN });
+    for (const [label, value] of [...rows, ...Object.entries(meta)]) body.set(label, value);
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 10000);
+    try {
+      const response = await fetch(env.SHEET_WEBHOOK_URL, { method: 'POST', body, redirect: 'follow', signal: controller.signal });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok || !result.ok) throw new Error(`sheet responded ${response.status} ${result.error || ''}`.trim());
+    } finally { clearTimeout(timer); }
+  };
+
+  // Both run at the same time. The visitor sees success if at least one of them worked,
+  // so an inquiry is never lost because one of the two had a problem.
+  const [mailResult, sheetResult] = await Promise.allSettled([sendEmail(), saveToSheet()]);
+  if (mailResult.status === 'rejected' && emailConfigured) console.error('trip-request: email failed:', mailResult.reason && mailResult.reason.message);
+  if (sheetResult.status === 'rejected' && sheetConfigured) console.error('trip-request: sheet failed:', sheetResult.reason && sheetResult.reason.message);
+  if (mailResult.status === 'fulfilled' || sheetResult.status === 'fulfilled') return succeed();
+  return fail(502, 'send_failed');
 }
 
 export const onRequest = () => json({ ok: false, error: 'method_not_allowed' }, 405);
