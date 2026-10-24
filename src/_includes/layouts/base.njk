@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#062b69">
   <meta name="color-scheme" content="light">
   <meta name="format-detection" content="telephone=no">
-  <title>{{ seo.title or title }}{% if not (seo.title or title).includes(site.name) %} | {{ site.name }}{% endif %}</title>
+  <title>{{ seo.title or title }}{% if not (seo.title or title).includes('Karakoram Vision') %} | {{ site.name }}{% endif %}</title>
   <meta name="description" content="{{ seo.description or answer_summary or summary or site.description }}">
   <meta name="robots" content="{{ seo.robots or 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }}">
   {% if seo.keywords %}<meta name="keywords" content="{{ seo.keywords }}">{% endif %}
@@ -37,7 +37,7 @@
   <link rel="icon" href="{{ site.favicon }}">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} Travel Guides" href="/feed.xml">
-  <link rel="preload" href="/assets/css/site.css" as="style">
+  
   {% if pageImage %}<link rel="preload" as="image" href="{{ pageImage }}" fetchpriority="high">{% endif %}
   <link rel="stylesheet" href="/assets/css/site.css?v=11.0.0">
   <link rel="stylesheet" href="/assets/css/theme-vars.css?v=11.0.0">

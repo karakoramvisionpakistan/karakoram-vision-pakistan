@@ -2,6 +2,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"src/assets":"assets"});
   eleventyConfig.addPassthroughCopy({"src/_headers":"_headers"});
   eleventyConfig.addPassthroughCopy({"src/_redirects":"_redirects"});
+  eleventyConfig.addPassthroughCopy({"src/_routes.json":"_routes.json"});
   eleventyConfig.addPassthroughCopy({"src/sw.js":"sw.js"});
   const published = x => x.data.published !== false;
   const coll = (api, folder) => api.getFilteredByGlob(`src/content/${folder}/*.md`).filter(published);
