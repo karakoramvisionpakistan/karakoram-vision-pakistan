@@ -23,7 +23,7 @@ cover_image_alt: Gasherbrum-I
 gallery: []
 duration: 50 Days
 duration_days: 50
-price_from: On Request
+price_from: Request
 deposit: 50%
 price_currency: USD
 group_size: 04 +
@@ -128,6 +128,7 @@ seo:
   robots: climbing, photo, G1
 body: ""
 ---
+
 
 
 
