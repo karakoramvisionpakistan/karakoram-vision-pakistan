@@ -80,7 +80,7 @@ export async function sendMail({
   try {
     const hello = await readReply();
     if (hello.code !== 220) throw new Error(`SMTP ${hello.code} at greeting: ${hello.text}`);
-    await command(`EHLO ${heloName}`, [250], 'EHLO');
+    await command(`EHLO ${heloName === 'website.local' ? fromAddr.split('@')[1] : heloName}`, [250], 'EHLO');
     await command(`AUTH PLAIN ${b64(`\0${user}\0${pass}`)}`, [235], 'AUTH');
     await command(`MAIL FROM:<${fromAddr}>`, [250], 'MAIL FROM');
     for (const r of recipients) await command(`RCPT TO:<${r}>`, [250, 251], 'RCPT TO');
@@ -89,7 +89,7 @@ export async function sendMail({
     const safeName = oneLine(fromName).replace(/["\\<>]/g, '');
     const fromHeader = safeName ? `${encodeHeader(safeName)} <${fromAddr}>` : fromAddr;
     const domain = fromAddr.split('@')[1];
-    const body = (b64(String(text).replace(/\r?\n/g, '\r\n')).match(/.{1,76}/g) || []).join('\r\n');
+    const plain = String(text).replace(/\r?\n/g, '\r\n'); const sevenBit = /^[\x20-\x7e\r\n\t]*$/.test(plain) && plain.split('\r\n').every((line) => line.length <= 900); const body = sevenBit ? plain.replace(/^\./gm, '..') : (b64(plain).match(/.{1,76}/g) || []).join('\r\n');
     const headers = [
       `From: ${fromHeader}`,
       `To: ${recipients.join(', ')}`,
@@ -99,7 +99,7 @@ export async function sendMail({
       `Message-ID: <${crypto.randomUUID()}@${domain}>`,
       'MIME-Version: 1.0',
       'Content-Type: text/plain; charset=UTF-8',
-      'Content-Transfer-Encoding: base64',
+      `Content-Transfer-Encoding: ${sevenBit ? '7bit' : 'base64'}`,
     ];
     await send(`${headers.join('\r\n')}\r\n\r\n${body}\r\n.`);
     const done = await readReply();
