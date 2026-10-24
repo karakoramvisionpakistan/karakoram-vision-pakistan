@@ -122,7 +122,8 @@ for (const [file, intro] of Object.entries(INTROS)) {
     how = 'replaced overview';
     replaced++;
   } else {
-    body = block + body.replace(/^\s+/, '');
+    // front matter ke closing --- ke baad nayi line zaroori hai
+    body = nl + nl + block + body.replace(/^\s+/, '');
     how = 'added at top';
     added++;
   }

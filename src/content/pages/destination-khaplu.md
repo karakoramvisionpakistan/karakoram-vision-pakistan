@@ -4,11 +4,19 @@ slug: destination-khaplu
 permalink: /destinations/khaplu/
 published: true
 featured: true
-summary: Khaplu combines palace and mosque heritage with Shyok Valley landscapes and access toward Hushe.
-answer_summary: Khaplu combines palace and mosque heritage with Shyok Valley landscapes and access toward Hushe.
+summary: "Khaplu travel guide: the restored palace, the 14th-century mosque, the Shyok valley and Hushe road to the big peaks, with the best months to visit Baltistan's eastern valley."
+answer_summary: "Khaplu travel guide: the restored palace, the 14th-century mosque, the Shyok valley and Hushe road to the big peaks, with the best months to visit Baltistan's eastern valley."
 cover_image: ""
 gallery: []
-faqs: []
+faqs:
+  - question: "How far is Khaplu from Skardu?"
+    answer: "Two and a half to three hours by road, following the Indus and then the Shyok river east on a reasonable road."
+  - question: "What is Khaplu known for?"
+    answer: "The restored Khaplu Palace from the 1840s, the fourteenth-century Chaqchan Mosque, apricot orchards along the Shyok valley, and the Hushe road leading toward Masherbrum and Laila Peak."
+  - question: "How many days should you spend in Khaplu?"
+    answer: "One night covers the palace and the mosque. Two or three allows the Hushe road, village walks and proper time at the palace."
+  - question: "Can you stay in Khaplu Palace?"
+    answer: "Yes. It operates as a hotel and museum following its restoration by the Aga Khan Trust for Culture, and is worth a night for its own sake."
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
@@ -24,8 +32,33 @@ seo:
 layout: layouts/page.njk
 ---
 
+<h2><strong>Baltistan's eastern valley</strong></h2>
+<p>Khaplu sits at around 2,600m on the Shyok river, two and a half to three hours east of Skardu, and is the administrative centre of Ghanche district. It was historically the second-largest kingdom in Baltistan, ruled for centuries by the Yabgo dynasty, and that history is still standing: a palace above the town, old mosques in the villages, and irrigation channels that have watered the same apricot orchards for generations.</p>
+<p>It is greener and gentler than Skardu, and quieter than Hunza. For many travellers it is the valley they wish they had given another day to.</p>
 
-<h2><strong>Overview: </strong></h2><p>Khaplu is a scenic town and the administrative capital of the Ghanche District in Gilgit-Baltistan, Pakistan, sitting at an elevation of approximately 2,600 meters (8,500 feet) above sea level along the Shyok River.</p><ul><li><p><strong>Elevation:</strong> Around 2,600 meters (8,500 feet)&nbsp;</p></li><li><p><strong>Location:</strong> Ghanche District, Gilgit-Baltistan, Pakistan; roughly a 2.5 to 3-hour drive east of Skardu&nbsp;</p></li><li><p><strong>Best Time to Visit:</strong> May to October (ideal for pleasant weather and trekking)&nbsp;</p></li><li><p><strong>Known For:</strong> Royal heritage, centuries-old architecture, and dramatic mountain landscapes</p></li></ul><p><strong>History and Culture</strong></p><ul><li><p><strong>Ancient Kingdom:</strong> Historically the second-largest kingdom in Baltistan under the Yabgo dynasty, which ruled for over a thousand years.&nbsp;</p></li><li><p><strong>Rich Influences:</strong> Local Balti traditions and architecture reflect a unique blend of Tibetan, Persian, Kashmiri, and Mughal cultures.</p></li><li><p><strong>Spiritual Roots:</strong> Converted to Islam in the late 14th century following the influence of Islamic scholars like Syed Ali Hamdani.</p></li></ul><p><strong>Top Attractions</strong></p><ul><li><p>Khaplu Fort<strong>:</strong> Built around 1840 by Raja Daulat Ali Khan, this architectural masterpiece served as the royal residence. Restored by the Aga Khan Trust for Culture, it now functions as a heritage museum and a luxury Serena heritage hotel.</p></li><li><p><strong>Chaqchan Mosque:</strong> Dating back to the 14th century, it is one of the oldest mosques in the region, featuring exquisite woodcarvings and Tibetan-influenced architecture.</p></li><li><p><strong>Shyok River:</strong> Flowing right past the valley, the river offers stunning panoramic views, serene photography spots, and lush terraced agricultural fields.</p></li><li><p><strong>Gateway to Hushe Valley:</strong> Serves as the primary jumping-off point for major Karakoram expeditions and treks toward towering peaks like Masherbrum, K6, K7, Nangma Valley, Majrooh Top, Charakusa Valley and Chogolisa etc.&nbsp;</p></li></ul><p></p><p><strong>If you'd like, let us know:</strong></p><ul><li><p>Are you planning a trip from <strong>Skardu to Khaplu</strong>?</p></li><li><p>Do you want recommendations for <strong>local food</strong> or <strong>trekking routes</strong>?</p></li></ul><p></p>
+<h2><strong>Getting there</strong></h2>
+<p>By road from Skardu, following the Indus and then the Shyok river east — two and a half to three hours on a reasonable road, with the valley opening up as you go. The same road continues to Hushe, the last village before the Masherbrum and Gondogoro peaks.</p>
+
+<h2><strong>What to see</strong></h2>
+<p><strong>Khaplu Palace</strong>, built in the 1840s and restored by the Aga Khan Trust for Culture, stands above the town looking down the valley. It operates as a hotel and museum, and the restoration is widely regarded as one of the best heritage projects in the region.</p>
+<p><strong>Chaqchan Mosque</strong> in the old town dates from the fourteenth century and is one of the oldest mosques in Baltistan, with carved wooden architecture that shows the Tibetan and Kashmiri influences that run through Balti building.</p>
+<p><strong>The Shyok valley</strong> itself — orchards, terraced fields, poplar avenues and villages, best explored slowly on foot or by vehicle with stops.</p>
+<p><strong>The Hushe road</strong> climbs from Khaplu toward Masherbrum, Laila Peak and the Gondogoro glacier, past Kanday where the Nangma valley opens. Even a day trip up this road gives a sense of the high Karakoram without any trekking.</p>
+
+<h2><strong>How long to stay</strong></h2>
+<p>One night is enough to see the palace and the mosque. <strong>Two or three nights</strong> allows the Hushe road, a walk in the villages and time at the palace itself, which is a destination rather than just a hotel. Khaplu combines naturally with Shigar and Deosai, as in our <a href="/tours/deosai-khaplu-tour/">Deosai and Khaplu tour</a>.</p>
+
+<h2><strong>When to go</strong></h2>
+<p>May to October gives pleasant weather and open roads. April brings blossom to the orchards; late September and October bring autumn colour, which in Khaplu is particularly good against the bare rock. Winter is cold and quiet, and the Hushe road becomes difficult.</p>
+
+<h2><strong>Where to stay</strong></h2>
+<p>Khaplu Palace is the best-known option and worth a night for its own sake. There are also guest houses and simpler hotels in the town, and basic accommodation in Hushe for those continuing up the valley.</p>
+
+<h2><strong>Practical notes</strong></h2>
+<p>Mobile coverage is reasonable in Khaplu and fades up the Hushe road. There is no ATM, so bring cash from Skardu. Ghanche is a conservative district, slightly more so than Skardu or Hunza, and loose, modest clothing is appreciated in the villages. Ask before photographing people, particularly women.</p>
+
+<h2><strong>Journeys from Khaplu</strong></h2>
+<p>The <a href="/trekking/thalle-la-trek/">Thalle La trek</a> finishes here after crossing from Shigar, and the <a href="/trekking/nangma-valley-trek/">Nangma valley trek</a> starts from Kanday up the Hushe road. Climbers heading for <a href="/expeditions/laila-peak-expedition/">Laila Peak</a> pass through Khaplu on the way in.</p>
 
 <!-- related-journeys -->
 <h2><strong>Related journeys</strong></h2>
