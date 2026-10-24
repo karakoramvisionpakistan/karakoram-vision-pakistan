@@ -16,6 +16,7 @@ faqs: []
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
+cover_image_alt: "A local guide with travellers on a mountain trail in Gilgit-Baltistan"
 seo:
   title: Why Travel With Us | Karakoram Vision Pakistan
   description: >-

@@ -15,7 +15,7 @@ answer_summary: >-
   Compliance-first travel and field-logistics consultation for officially authorized wildlife
   programmes in Pakistan.
 cover_image: /assets/uploads/journeys/permit-mountain-expedition-logistics.svg
-cover_image_alt: Permit and Mountain Expedition Logistics Consultation mountain landscape in northern Pakistan
+cover_image_alt: "Himalayan ibex on a rocky ridge in Gilgit-Baltistan"
 gallery: []
 duration: On request
 price_from: On request
@@ -86,3 +86,8 @@ service_label: Hunting Services
 ---
 
 <p>Compliance-first travel and field-logistics consultation for officially authorized wildlife programmes in Pakistan.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions. This page does not offer weapons or guarantee a hunting permit. All activity is subject to official law, quota, season and conservation rules.</p><h2></h2><p><strong>Itinerary:</strong></p><h3><strong>Day 1: Initial compliance review</strong></h3><p>Confirm that the proposed activity is legally authorized and identify the responsible government authorities.</p><h3><strong>Day 2: Document checklist</strong></h3><p>Review permits, quotas, season, insurance and traveler documentation.</p><h3><strong>Day 3: Operational proposal</strong></h3><p>Define transport, accommodation, local staffing and field logistics within the legal permit.</p><h3><strong>Day 4: Final confirmation</strong></h3><p>Proceed only after written approvals and a signed service scope.</p><p></p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/destinations/khaplu/">Khaplu travel guide</a></li><li><a href="/plan-a-trip/">Plan a trip</a></li><li><a href="/faqs/">Travel FAQs</a></li></ul>
+<!-- /related-journeys -->

@@ -15,7 +15,7 @@ answer_summary: >-
   An eight-day highland and heritage journey linking Skardu, Deosai National Park, Shigar and
   Khaplu.
 cover_image: /assets/uploads/journeys/deosai-khaplu-tour.svg
-cover_image_alt: Deosai National Park and Khaplu Tour mountain landscape in northern Pakistan
+cover_image_alt: "Sheosar Lake on the Deosai plateau under an open sky"
 gallery: []
 duration: 8 Days
 price_from: On request
@@ -86,3 +86,8 @@ service_label: Tours
 ---
 
 <h2><strong>Journey overview</strong></h2><p>An eight-day highland and heritage journey linking Skardu, Deosai National Park, Shigar and Khaplu.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><strong>Day 1: Arrival in Skardu</strong></h3><p>Meet the team and review the road and weather plan.</p><h3><strong>Day 2: Drive to Deosai</strong></h3><p>Enter the high plateau via Satpara and camp or lodge according to the selected package.</p><h3><strong>Day 3: Deosai exploration</strong></h3><p>Visit suitable viewpoints and wildlife observation areas without disturbing habitats.</p><h3><strong>Day 4: Return to Skardu</strong></h3><p>Drive back with scenic stops.</p><h3><strong>Day 5: Shigar heritage</strong></h3><p>Visit Shigar Fort and the traditional settlement.</p><h3><strong>Day 6: Drive to Khaplu</strong></h3><p>Follow the Shyok Valley to Khaplu.</p><h3><strong>Day 7: Khaplu day</strong></h3><p>Visit Khaplu Palace, Chaqchan Mosque and nearby villages.</p><h3><strong>Day 8: Drop to the Skardu airport</strong></h3><p>Return or continue according to the confirmed transport plan.</p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/jeep-safaris/deosai-jeep-safari/">Deosai jeep safari</a></li><li><a href="/destinations/deosai/">Deosai National Park guide</a></li><li><a href="/destinations/khaplu/">Khaplu travel guide</a></li></ul>
+<!-- /related-journeys -->

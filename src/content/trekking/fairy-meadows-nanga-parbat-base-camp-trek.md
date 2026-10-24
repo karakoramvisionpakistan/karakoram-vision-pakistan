@@ -15,7 +15,7 @@ answer_summary: >-
   An eight-day moderate trek linking Fairy Meadows, Beyal Camp and the Nanga Parbat base-camp
   viewpoint route.
 cover_image: /assets/uploads/journeys/fairy-meadows-nanga-parbat-base-camp-trek.svg
-cover_image_alt: Fairy Meadows and Nanga Parbat Base Camp Trek mountain landscape in northern Pakistan
+cover_image_alt: "Green meadows at Fairy Meadows below the Raikot face of Nanga Parbat"
 gallery: []
 duration: 10 Days
 price_from: On request
@@ -88,3 +88,8 @@ duration_days: 10
 
 
 <h2><strong>Journey overview</strong></h2><p>An eight-day moderate trek linking Fairy Meadows, Beyal Camp and the Nanga Parbat base-camp viewpoint route.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>PROGRAM</strong></h2><p><strong>Day 1: Arrival in Islamabad</strong></p><p>           drop to the hotel and in the evening will do some </p><p>           sightseeing in Islamabad</p><p><strong>Day 2: Drive to Chilas</strong></p><p>            8-10 hours drive from Islamabad</p><h3><strong>Day 3: Drive to Raikot  and Jeep drive and walk to Fairy Meadow</strong></h3><p>            Local jeep to Tattu from Raikot and 2 hrs hike to the    </p><p>            meadows.</p><h3><strong>Day 4: Trek to Beyal Camp</strong></h3><p>             Move closer to the Raikot Glacier.</p><h3><strong>Day 5: Base-camp viewpoint day</strong></h3><p>            Continue as far as conditions and fitness safely allow.</p><h3><strong>Day 6: Return to Fairy Meadow</strong></h3><h3>            Descend to the meadows.</h3><h3><strong>Day 7: Rest day</strong></h3><p>            Flexible photography and recovery.</p><h3><strong>Day 8: Return to Raikot by Jeep and then further drive to Naran</strong></h3><p>             5-6 hrs drive time</p><p><strong>Day 9: Drive to Islamabad</strong></p><p>            5-6 hrs drive time</p><h3><strong>Day 10: Fly out</strong></h3><p>              Drop to the airport for your own destinations </p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/tours/fairy-meadows-nanga-parbat-tour/">Fairy Meadows tour</a></li><li><a href="/destinations/fairy-meadows/">Fairy Meadows travel guide</a></li><li><a href="/expeditions/nanga-parbat-expedition/">Nanga Parbat expedition</a></li></ul>
+<!-- /related-journeys -->

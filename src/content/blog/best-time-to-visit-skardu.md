@@ -7,7 +7,7 @@ featured: true
 summary: "A month-by-month guide to Skardu: when the roads and lakes open, when Deosai is reachable, when autumn colour peaks, and what each season actually feels like."
 answer_summary: "A month-by-month guide to Skardu: when the roads and lakes open, when Deosai is reachable, when autumn colour peaks, and what each season actually feels like."
 cover_image: /assets/uploads/journeys/best-time-to-visit-skardu.svg
-cover_image_alt: Best Time to Visit Skardu
+cover_image_alt: "Autumn colour along the Indus river near Skardu"
 categories:
   - Travel Guides
 tags:

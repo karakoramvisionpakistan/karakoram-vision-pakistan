@@ -6,7 +6,7 @@ published: true
 featured: true
 summary: On-request group transport for larger tour parties, subject to route suitability.
 cover_image: /assets/uploads/journeys/hunza-valley-heritage-tour.svg
-cover_image_alt: Coaster Group Transport
+cover_image_alt: "Coaster bus carrying a tour group through northern Pakistan"
 vehicle_type: Coaster Group Transport
 capacity: 15–22 passengers
 price_from: Route-based quote
@@ -32,3 +32,8 @@ layout: layouts/vehicle.njk
 ---
 
 <h2><strong>Coaster Group Transport</strong></h2><p>On-request group transport for larger tour parties, subject to route suitability.</p><p>Availability, driver duty hours, luggage space, fuel, road permissions and overnight charges are confirmed in the written transport quotation.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/vehicles/toyota-hiace-van/">Hiace van hire</a></li><li><a href="/vehicles/toyota-prado-4x4/">Prado 4x4 hire</a></li><li><a href="/plan-a-trip/">Plan a group trip</a></li></ul>
+<!-- /related-journeys -->

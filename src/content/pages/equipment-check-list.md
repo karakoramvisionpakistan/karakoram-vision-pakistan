@@ -24,7 +24,7 @@ summary: >
   can be bought in the many mountaineering shops in Skardu, the majority of gear is Chinese
   manufactured.
 cover_image: ""
-cover_image_alt: ""
+cover_image_alt: "Trekking equipment laid out before a Karakoram expedition"
 categories: []
 answer_summary: ""
 faqs: []

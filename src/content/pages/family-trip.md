@@ -13,7 +13,7 @@ summary: >-
   tour, Jeep safari or any tours, we will take care of your interest and will give you a never
   ending taste of beautiful Gilgit Baltistan of Pakistan.
 cover_image: ""
-cover_image_alt: ""
+cover_image_alt: "A family on a mountain viewpoint in northern Pakistan"
 categories: []
 answer_summary: ""
 faqs: []

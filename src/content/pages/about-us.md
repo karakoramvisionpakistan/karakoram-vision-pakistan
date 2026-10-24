@@ -16,6 +16,7 @@ faqs: []
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
+cover_image_alt: "The Karakoram Vision Pakistan team at the office in Skardu"
 seo:
   title: "About Us - Tour Operator in Skardu | Karakoram Vision"
   description: >-

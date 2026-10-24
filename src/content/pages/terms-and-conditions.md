@@ -12,6 +12,7 @@ faqs: []
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
+cover_image_alt: "Travel booking documents for a Karakoram Vision Pakistan journey"
 seo:
   title: Terms and Conditions | Karakoram Vision Pakistan
   description: >-

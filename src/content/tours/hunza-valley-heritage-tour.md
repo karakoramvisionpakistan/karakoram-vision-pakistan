@@ -15,7 +15,7 @@ answer_summary: >-
   An eight-day cultural journey through Gilgit, Nagar and Hunza with forts, village walks and
   Karakoram Highway viewpoints.
 cover_image: /assets/uploads/journeys/hunza-valley-heritage-tour.svg
-cover_image_alt: Hunza Valley Heritage Tour mountain landscape in northern Pakistan
+cover_image_alt: "Baltit Fort above Karimabad with the Hunza valley below"
 gallery: []
 duration: 10 Days
 price_from: On request
@@ -88,3 +88,8 @@ service_label: Tours
 
 
 <h2><strong>Journey overview</strong></h2><p>An eight-day cultural journey through Gilgit, Nagar and Hunza with forts, village walks and Karakoram Highway viewpoints.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2></h2><p><strong>Program</strong></p><h3><strong>Day 1: Arrival in Islamabad</strong></h3><p>transfer to hotel and afternoon time will do some sightseeing in Islamabad</p><h3><strong>Day 2: Drive to Gilgit</strong></h3><p>Hotel check-in and a relaxed orientation.</p><h3><strong>Day 3: Drive to Hunza</strong></h3><p>Travel through Nagar with stops at Rakaposhi View Point and village landscapes.</p><h3><strong>Day 4: Karimabad heritage</strong></h3><p>Visit Baltit Fort, Altit Fort and the historic settlement lanes.</p><h3><strong>Day 5: Upper Hunza</strong></h3><p>Explore Attabad Lake, Passu village and the dramatic cones of the upper valley.</p><h3><strong>Day 6: Khunjerab corridor</strong></h3><p>A full-day scenic drive toward the Pakistan–China border, subject to road access.</p><h3><strong>Day 7: Nagar valley</strong></h3><p>Visit local viewpoints and learn about the valley’s agricultural traditions.</p><h3><strong>Day 8: Return to Gilgit</strong></h3><p>Travel back with flexible stops for photography and local food.</p><h3><strong>Day 9: Drive to Islamabad</strong></h3><p>10 hours drive </p><p><strong>Day 10: Drop to the airport for your own destinations</strong></p><p></p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/destinations/hunza/">Hunza valley guide</a></li><li><a href="/tours/autumn-hunza-skardu-tour/">Autumn tour of Hunza and Skardu</a></li><li><a href="/trekking/rakaposhi-base-camp-trek/">Rakaposhi base camp trek</a></li></ul>
+<!-- /related-journeys -->

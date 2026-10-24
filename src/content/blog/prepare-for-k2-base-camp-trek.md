@@ -7,7 +7,7 @@ featured: true
 summary: "Training, altitude, gear, insurance and paperwork for the K2 base camp trek - a practical preparation plan from the team that runs the route from Skardu."
 answer_summary: "Training, altitude, gear, insurance and paperwork for the K2 base camp trek - a practical preparation plan from the team that runs the route from Skardu."
 cover_image: /assets/uploads/journeys/prepare-for-k2-base-camp-trek.svg
-cover_image_alt: How to Prepare for the K2 Base Camp Trek
+cover_image_alt: "A trekker walking the moraine of the Baltoro Glacier toward Concordia"
 categories:
   - Travel Guides
 tags:

@@ -15,7 +15,7 @@ answer_summary: >-
   A six-day road-and-walk journey to Fairy Meadows with clear views toward Nanga Parbat and the
   Raikot face.
 cover_image: /assets/uploads/1792832376446-nanga-parbat.kvp.webp
-cover_image_alt: Fairy Meadows and Nanga Parbat View Tour mountain landscape in northern Pakistan
+cover_image_alt: "View of Nanga Parbat from the meadow at Fairy Meadows"
 gallery: []
 duration: 8 Days
 price_from: On request
@@ -88,3 +88,8 @@ duration_days: 8
 
 
 <h2>Journey overview</h2><p>A six-day road-and-walk journey to Fairy Meadows with clear views toward Nanga Parbat and the Raikot face.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><p><strong>Day 1: Arrive in Islamabad</strong></p><h3><strong>Day 2: Drive to Chilas or Raikot</strong></h3><p>Travel along the Karakoram Highway with planned rest stops.</p><h3><strong>Day 3: Raikot Bridge to Fairy Meadows</strong></h3><p>Local jeep transfer to Tattu followed by the walk to Fairy Meadows.</p><h3><strong>Day 4: Beyal Camp walk</strong></h3><p>A guided day walk toward Beyal Camp, adjusted to guest fitness.</p><h3><strong>Day 5: Fairy Meadows leisure</strong></h3><p>Photography, village interaction and recovery time.</p><h3><strong>Day 6: Return to Chilas/Naran</strong></h3><p>Walk and jeep transfer back to the highway.</p><h3><strong>Day 7: Drive to Islamabad</strong></h3><p>5-6 hours drive </p><p><strong>Day 8: Drop to the Airport </strong></p><p>for your own destinations </p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/destinations/fairy-meadows/">Fairy Meadows travel guide</a></li><li><a href="/trekking/fairy-meadows-base-camp-trek/">Fairy Meadows base camp trek</a></li><li><a href="/expeditions/nanga-parbat-expedition/">Nanga Parbat expedition</a></li></ul>
+<!-- /related-journeys -->

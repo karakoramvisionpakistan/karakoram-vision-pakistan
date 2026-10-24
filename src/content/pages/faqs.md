@@ -12,6 +12,7 @@ faqs: []
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
+cover_image_alt: "Travellers planning a route on a map in northern Pakistan"
 seo:
   title: "Pakistan Travel FAQs: Visa & Permits | Karakoram Vision"
   description: >-

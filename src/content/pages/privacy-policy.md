@@ -12,6 +12,7 @@ faqs: []
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
+cover_image_alt: "Karakoram Vision Pakistan office desk with travel paperwork"
 seo:
   title: Privacy Policy | Karakoram Vision Pakistan
   description: >-

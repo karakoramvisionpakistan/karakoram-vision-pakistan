@@ -15,7 +15,7 @@ answer_summary: >-
   A nine-day cross-valley trek between Shigar and Khaplu through alpine pastures and the Thalle La
   route.
 cover_image: /assets/uploads/journeys/thalle-la-trek.svg
-cover_image_alt: Thalle La Trek mountain landscape in northern Pakistan
+cover_image_alt: "Summer pastures on the Thalle La route between Shigar and Khaplu"
 gallery: []
 duration: 9 Days
 price_from: On request
@@ -86,3 +86,8 @@ service_label: Trekking
 ---
 
 <h2><strong>Journey overview</strong></h2><p>A nine-day cross-valley trek between Shigar and Khaplu through alpine pastures and the Thalle La route.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><strong>Day 1: Arrival in Skardu</strong></h3><p>Briefing and preparation.</p><h3><strong>Day 2: Drive to Shigar and trailhead</strong></h3><p>Begin the valley approach.</p><h3><strong>Day 3: Trek through Thalle Valley</strong></h3><p>Move through villages and pasture.</p><h3><strong>Day 4: Upper camp</strong></h3><p>Gain altitude gradually.</p><h3><strong>Day 5: Thalle La crossing</strong></h3><p>Cross the pass when conditions are suitable.</p><h3><strong>Day 6: Descent camp</strong></h3><p>Enter the Khaplu side.</p><h3><strong>Day 7: Trek to road head</strong></h3><p>Complete the walking route.</p><h3><strong>Day 8: Khaplu and Skardu</strong></h3><p>Road transfer with heritage stop.</p><h3><strong>Day 9: Fly Out</strong></h3><p>Airport transfer.</p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/destinations/khaplu/">Khaplu travel guide</a></li><li><a href="/destinations/shigar/">Shigar valley guide</a></li><li><a href="/trekking/nangma-valley-trek/">Nangma Valley trek</a></li></ul>
+<!-- /related-journeys -->

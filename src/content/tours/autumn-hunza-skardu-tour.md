@@ -15,7 +15,7 @@ answer_summary: >-
   A ten-day photography-focused autumn journey through orchards, heritage villages and mountain
   viewpoints in Hunza and Skardu.
 cover_image: /assets/uploads/journeys/autumn-hunza-skardu-tour.svg
-cover_image_alt: Autumn Colours of Hunza and Skardu mountain landscape in northern Pakistan
+cover_image_alt: "Autumn colour in the orchards of Hunza below snow-covered peaks"
 gallery: []
 duration: 14 Days
 price_from: On request
@@ -91,3 +91,8 @@ duration_days: 14
 ---
 
 <h2><strong>Journey overview</strong></h2><p>A ten-day photography-focused autumn journey through orchards, heritage villages and mountain viewpoints in Hunza and Skardu.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><strong>Day 1: Arrival inIslamabad </strong></h3><p><strong>Day 2: Drive to Gilgit</strong></p><p>Season and weather briefing.</p><h3><strong>Day 3: Hunza transfer</strong></h3><p>Scenic drive through Nagar.</p><h3><strong>Day 4: Central Hunza</strong></h3><p>Heritage sites and orchard villages.</p><h3><strong>Day 5: Upper Hunza</strong></h3><p>Passu, Gulmit and Attabad.</p><h3><strong>Day 6: Photography day</strong></h3><p>Flexible timing for light and seasonal colour.</p><h3><strong>Day 7: Return to Gilgit</strong></h3><p>Road transfer.</p><h3><strong>Day 8: Drive to Skardu</strong></h3><p>Indus valley journey.</p><h3><strong>Day 9: Shigar Valley</strong></h3><p>Fort and village photography.</p><h3><strong>Day 10: Skardu highlights</strong></h3><p>Lakes, desert and viewpoint options.</p><p><strong>Day 11: Drive to Khaplu</strong></p><p>to see Chaqchan Mosque, Khaplu fort, Mashabrum View point,</p><p><strong>Day 12: Drive back to Skardu via Manthoka Water Fall </strong></p><p><strong>Day 13 Fly to Islamabad</strong></p><p>50 minutes fly</p><h3><strong>Day 14: Fly Out</strong></h3><p>Airport transfer for your own destinations</p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/blog/best-time-to-visit-skardu/">Best time to visit Skardu</a></li><li><a href="/tours/hunza-valley-heritage-tour/">Hunza valley tour</a></li><li><a href="/destinations/skardu/">Skardu travel guide</a></li></ul>
+<!-- /related-journeys -->

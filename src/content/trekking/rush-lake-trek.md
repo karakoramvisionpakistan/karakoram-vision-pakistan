@@ -15,7 +15,7 @@ answer_summary: >-
   A challenging Nagar Valley trek toward high-altitude Rush Lake with glacier terrain and wide
   Karakoram views.
 cover_image: /assets/uploads/journeys/rush-lake-trek.svg
-cover_image_alt: Rush Lake Trek mountain landscape in northern Pakistan
+cover_image_alt: "Rush Lake reflecting the Karakoram peaks above Nagar valley"
 gallery: []
 duration: 14 Days
 price_from: On request
@@ -86,3 +86,8 @@ service_label: Trekking
 ---
 
 <h2><strong>Journey overview</strong></h2><p>A challenging Nagar Valley trek toward high-altitude Rush Lake with glacier terrain and wide Karakoram views.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><strong>Day 1: Arrival in Islamabad</strong></h3><p>Briefing and logistics check.</p><h3><strong>Day 2: Drive to Gilgit </strong></h3><p>10 hours drive</p><p><strong>Day 3: Drive to Hoper</strong></p><p><strong>to start the trek </strong></p><h3><strong>Day 4: Trek to Bericho Kor</strong></h3><p>Cross the initial glacier terrain with local guidance.</p><h3><strong>Day 5: Trek to Chidin Harai</strong></h3><p>Climb through alpine camps.</p><h3><strong>Day 6: Trek to Rush Lake</strong></h3><p>Reach the high lake area.</p><h3><strong>Day 7: Acclimatisation and viewpoint</strong></h3><p>Optional higher walk according to conditions.</p><h3><strong>Day 8: Begin descent</strong></h3><p>Return through established camps.</p><h3><strong>Day 9: Glacier crossing stages</strong></h3><p>Continue toward Hoper.</p><h3><strong>Day 10: Return to Hoper</strong></h3><p>Complete trekking.</p><h3><strong>Day 11: Hunza recovery</strong></h3><p>Drive to Hunza for rest.</p><h3><strong>Day 12: Drive to Naran</strong></h3><p>8 hours drive</p><p><strong>Day 13: Drive to Islamabad </strong></p><p>5-6 hours drive</p><h3><strong>Day 14: Fly Out </strong></h3><p>transfer to the airport for your own destinations </p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates <strong>and group profile are received.</strong></p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/trekking/rakaposhi-base-camp-trek/">Rakaposhi base camp trek</a></li><li><a href="/expeditions/spantik-peak-expedition/">Spantik expedition</a></li><li><a href="/destinations/hunza/">Hunza valley guide</a></li></ul>
+<!-- /related-journeys -->

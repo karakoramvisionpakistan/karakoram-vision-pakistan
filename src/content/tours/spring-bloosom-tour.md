@@ -22,7 +22,7 @@ summary: >-
   full of intertamenent. Oh, Yes. Your reception will be honored for KVP team.
 answer_summary: ""
 cover_image: ""
-cover_image_alt: ""
+cover_image_alt: "Apricot blossom in a Hunza village with the Karakoram behind"
 gallery: []
 duration: 16 Days
 duration_days: 16
@@ -79,3 +79,8 @@ body: ""
 
 
 <p><strong>Fact &amp; Figures:</strong></p><p>Altitude: &nbsp;        2800M &nbsp; &nbsp; &nbsp; &nbsp;    Range:&nbsp; &nbsp; Karakoram &nbsp; &nbsp; &nbsp; &nbsp; </p><p>Location:&nbsp; &nbsp; &nbsp; &nbsp; Hunza Valley.   Duration: 16 Days &nbsp; &nbsp; &nbsp;&nbsp;</p><p>Type of Tour: &nbsp; &nbsp; Interesting &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Zone type: &nbsp; &nbsp; &nbsp; &nbsp;Open&nbsp; &nbsp; &nbsp; &nbsp;</p><p>&nbsp;Ideal Time:&nbsp; &nbsp; &nbsp; &nbsp;April- May</p><p>We feel pleasure to introduce blossom tours in the Gilgit Baltistan of Pakistan through Karakoram Vision Pakistan (KVP). However nature stays longer with its beauty, without any comparison, when this is a blossom in the unbelievable area of God given natural beauty, you can imagine, how it will be the contrast. Blossom season it is cherry, apricot, apple, pears, peaches, and It gives food for the human sole without any interpretation. Among the high snow capped mountains, beautiful landscape, when the there is blossom, there is a paradise and there is people who intend to see these paradise, when there is a folk music in this paradise, it gives you a full of joy and full of intertamenent. Oh, Yes. Your reception will be honored for KVP team.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/destinations/hunza/">Hunza valley guide</a></li><li><a href="/tours/hunza-valley-heritage-tour/">Hunza valley tour</a></li><li><a href="/blog/best-time-to-visit-skardu/">Best time to visit Skardu</a></li></ul>
+<!-- /related-journeys -->

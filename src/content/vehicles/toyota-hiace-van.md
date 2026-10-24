@@ -6,7 +6,7 @@ published: true
 featured: true
 summary: Group transport for tours, city transfers and long road journeys with luggage planning.
 cover_image: /assets/uploads/journeys/gilgit-baltistan-grand-circuit.svg
-cover_image_alt: Toyota Hiace Van
+cover_image_alt: "Toyota Hiace van parked on the Karakoram Highway"
 vehicle_type: Toyota Hiace Van
 capacity: 6–10 passengers
 price_from: Route-based quote
@@ -32,3 +32,8 @@ layout: layouts/vehicle.njk
 ---
 
 <h2><strong>Toyota Hiace Van</strong></h2><p>Group transport for tours, city transfers and long road journeys with luggage planning.</p><p>Availability, driver duty hours, luggage space, fuel, road permissions and overnight charges are confirmed in the written transport quotation.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/vehicles/toyota-prado-4x4/">Prado 4x4 hire</a></li><li><a href="/vehicles/coaster-group-transport/">Coaster hire for groups</a></li><li><a href="/tours/gilgit-baltistan-grand-circuit/">Gilgit-Baltistan grand circuit</a></li></ul>
+<!-- /related-journeys -->

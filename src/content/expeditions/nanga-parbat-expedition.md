@@ -18,7 +18,7 @@ answer_summary: >-
   If you are planing to climb Nanga Parbat then Karakoram Vision Pakistan team welcome to join us
   this summer.
 cover_image: ""
-cover_image_alt: ""
+cover_image_alt: "Nanga Parbat rising above the Diamir valley in northern Pakistan"
 gallery: []
 duration: 42 Days
 duration_days: 42
@@ -79,3 +79,8 @@ body: ""
 ---
 
 <p><strong>Fact &amp; Figures:</strong><br>Duration of Expedition:&nbsp; &nbsp;42 Days Islamabad to Islamabad<br>Hotel Nights: 05 Nights&nbsp;        Camping Nights:&nbsp; &nbsp;03 Nights<br>Days for Climbing: 34 Days&nbsp; &nbsp;            Group Size:&nbsp; 08+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p> &nbsp; Best Time: 15 May- 1 July<br>Type of Expedition: Unguided (services up to base camp only)</p><p></p><p><strong>PROGRAM</strong></p><p><strong>Day 01: Arrive Islamabad, transfer to hotel.</strong></p><p><strong>Day 02: Drive to Chilas and briefing at Tourism office</strong></p><p><strong>Day 03: Drive to Bunar</strong></p><p><strong>Day 4-6:  Trek to base camp.</strong></p><p><strong>Day 7-37: CLIMBING</strong></p><p><strong>Day 38-39:  Trek to Bunar and drive to Chilas and  Debriefing at Tourism office.</strong></p><p><strong>Day 40: Drive to Islamabad. Overnight at hotel</strong></p><p><strong>Day 41: Islamabad briefing at Ministry of Tourism</strong></p><p><strong>Day 42: Fly to on ward destination - End of our services.</strong></p><p></p><p>&nbsp;</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/trekking/fairy-meadows-base-camp-trek/">Fairy Meadows base camp trek</a></li><li><a href="/destinations/fairy-meadows/">Fairy Meadows travel guide</a></li><li><a href="/expeditions/k2-expedition/">K2 expedition</a></li></ul>
+<!-- /related-journeys -->

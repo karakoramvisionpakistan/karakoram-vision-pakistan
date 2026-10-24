@@ -15,7 +15,7 @@ answer_summary: >-
   A seven-day moderate trekking programme from Minapin toward Rakaposhi base camp with Nagar Valley
   scenery.
 cover_image: /assets/uploads/journeys/rakaposhi-base-camp-trek.svg
-cover_image_alt: Rakaposhi Base Camp Trek mountain landscape in northern Pakistan
+cover_image_alt: "Rakaposhi base camp meadow below the glacier in Nagar valley"
 gallery: []
 duration: 7 Days
 price_from: On request
@@ -87,3 +87,8 @@ service_label: Trekking
 
 
 <h2><strong>Journey overview</strong></h2><p>A seven-day moderate trekking programme from Minapin toward Rakaposhi base camp with Nagar Valley scenery.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Pgrogram</strong></h2><h3><strong>Day 1: Arrival in Gilgit</strong></h3><p>Meet and transfer.</p><h3><strong>Day 2: Drive to Minapin</strong></h3><p>Enter Nagar Valley and prepare for trekking.</p><h3>D<strong>ay 3: Trek to Hapakun</strong></h3><p>Climb through forest and pasture.</p><h3><strong>Day 4: Trek to Tagaphar</strong>i</h3><p>Reach the main Rakaposhi viewpoint area.</p><h3>D<strong>ay 5: Exploration day</strong></h3><p>Short walks and glacier views according to conditions.</p><h3><strong>Day 6: Descend to Minapin</strong></h3><p>Return to the village.</p><h3><strong>Day 7: Departure</strong></h3><p>Transfer to Gilgit or Hunza.</p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/tours/hunza-valley-heritage-tour/">Hunza valley tour</a></li><li><a href="/trekking/rush-lake-trek/">Rush Lake trek</a></li><li><a href="/destinations/hunza/">Hunza valley guide</a></li></ul>
+<!-- /related-journeys -->

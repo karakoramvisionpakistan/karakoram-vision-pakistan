@@ -8,7 +8,7 @@ summary: >-
   Comfortable 4x4 transport for private road journeys, airport transfers and selected mountain
   routes.
 cover_image: /assets/uploads/journeys/skardu-shigar-valley-explorer.svg
-cover_image_alt: Toyota Prado 4x4
+cover_image_alt: "Toyota Prado 4x4 on a mountain road in Gilgit-Baltistan"
 vehicle_type: Toyota Prado 4x4
 capacity: 1–4 passengers
 price_from: Route-based quote
@@ -34,3 +34,8 @@ layout: layouts/vehicle.njk
 ---
 
 <h2><strong>Toyota Prado 4x4</strong></h2><p>Comfortable 4x4 transport for private road journeys, airport transfers and selected mountain routes.</p><p>Availability, driver duty hours, luggage space, fuel, road permissions and overnight charges are confirmed in the written transport quotation.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/vehicles/toyota-hiace-van/">Hiace van hire</a></li><li><a href="/jeep-safaris/deosai-jeep-safari/">Deosai jeep safari</a></li><li><a href="/destinations/skardu/">Skardu travel guide</a></li></ul>
+<!-- /related-journeys -->

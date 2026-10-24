@@ -15,7 +15,7 @@ answer_summary: >-
   A technical expedition framework for Laila Peak in the Hushe region with approach, base-camp and
   local logistics.
 cover_image: /assets/uploads/journeys/laila-peak-expedition.svg
-cover_image_alt: Laila Peak Expedition mountain landscape in northern Pakistan
+cover_image_alt: "The blade-shaped summit of Laila Peak above the Gondogoro Glacier"
 gallery: []
 duration: 30 Days
 price_from: On request
@@ -88,3 +88,8 @@ service_label: Expeditions
 ---
 
 <h2><strong>Journey overview</strong></h2><p>Laila Peak is Situated just 2 days of trek, Laila Peak (6096m) is considered to be the most beautiful peak in Karakoram. This beautiful six thousand meter peak is unique in its own beauty in terms of climbing and having a panoramic view, standing at the footsteps of Gondogoro la towards Hushe, this is one of the technical six thousand meter high peaks. Laila Peak is one of the most beautiful mountains in Pakistan - if not the world with its summit forming a perfect needle shape. The peak is synonymous with its west face which drops down the mountains at almost uniform gradient forming a giant ramp Its northern and eastern sides consist of contrasting steep granite. The mountain is located east of the Gondogoro valley and west of the Chogolisa valley in the Masherbrum Mountains of Baltistan. Most people have set eyes on the peak after crossing the Gondogoro La from Concordia and K2 base camp.</p><p><strong>Program</strong></p><p><strong>Day 01: Arrival&nbsp; In Islamabad</strong></p><p><strong>Day 02: Flight to Skardu or drive to Chilas</strong></p><p><strong>Day 03: Free day in Skardu or drive to Skardu from Chilas Briefing in Skardu</strong></p><p><strong>Day 04: Drive to Hushe</strong></p><p><strong>Day 05: Trek to Shaicho</strong></p><p><strong>Day 06:  Trek &nbsp;to Base Camp</strong></p><p><strong>Day 07 to 25:  Climbing&nbsp;&nbsp; days</strong></p><p><strong>Day 26: Trek back to Hushe</strong></p><p><strong>Day 27: Drive back to Skardu and Debriefing</strong></p><p><strong>Day 28: Fly to Islamabad or drive to Chilas.</strong></p><p><strong>Day 29:  Sightseeing, or drive to Islamabad&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p><p><strong>Day 30:  Fly to your own destination.</strong></p><p></p><h2><strong>Planning notes:</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel:</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+
+<!-- related-journeys -->
+<h2><strong>Related journeys</strong></h2>
+<ul><li><a href="/trekking/nangma-valley-trek/">Nangma Valley trek</a></li><li><a href="/destinations/khaplu/">Khaplu travel guide</a></li><li><a href="/expeditions/trango-expedition/">Trango Tower expedition</a></li></ul>
+<!-- /related-journeys -->

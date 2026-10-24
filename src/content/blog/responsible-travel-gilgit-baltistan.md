@@ -7,7 +7,7 @@ featured: true
 summary: "Practical ways to travel well in Gilgit-Baltistan - waste, water, porter welfare, photography, dress and spending that actually reaches local families."
 answer_summary: "Practical ways to travel well in Gilgit-Baltistan - waste, water, porter welfare, photography, dress and spending that actually reaches local families."
 cover_image: /assets/uploads/journeys/responsible-travel-gilgit-baltistan.svg
-cover_image_alt: Responsible Travel in Gilgit-Baltistan
+cover_image_alt: "Porters and trekkers on a mountain trail in Gilgit-Baltistan"
 categories:
   - Travel Guides
 tags:

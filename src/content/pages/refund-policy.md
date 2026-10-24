@@ -16,6 +16,7 @@ faqs: []
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
+cover_image_alt: "Karakoram Vision Pakistan travel documents and planning notes"
 seo:
   title: Refund and Cancellation Policy | Karakoram Vision Pakistan
   description: >-
