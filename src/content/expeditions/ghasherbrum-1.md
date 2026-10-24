@@ -32,7 +32,9 @@ destination: "Gasherbrum-I "
 categories:
   - Expedition
   - Climbing
-  - "karakoram "
+  - Mountaineering
+  - Trekking
+  - ""
 tags:
   - climbing
   - trekking
@@ -40,6 +42,8 @@ tags:
   - mountaineering
   - karakoram
   - pakistan
+  - gilgitbaltistan
+  - skardu
 departures:
   - 22/06 to 10/08/2027
 departure_details:
@@ -47,12 +51,16 @@ departure_details:
     status: Looking
     places: Shigar
     deposit: 30 %
+    price: on request
+    note: Book in advance and secure your spot
 highlights:
   - karakoram range
   - "mountains "
   - 8000m peaks
   - climbing the mountain
   - trekking
+  - mountaineering
+  - tours
 included:
   - "Process of the climbing permit from ministry of tourism. "
   - "Assistance upon arrival/departure. "
@@ -91,7 +99,11 @@ trip_leader:
   image: ""
   bio: ""
 reviews: []
-faqs: []
+faqs:
+  - question: Are you interested to join us?
+    answer: Yes I do.
+  - question: Can I climb this peak?
+    answer: "It depend on your health and fitness level and also your climbing experience. "
 key_facts:
   - label: climbing
     value: important
@@ -99,7 +111,7 @@ key_facts:
     value: important
 author: KVP Office Team
 reviewed_by: "KVP Field staffs "
-last_verified: "2026-09-17"
+last_verified: ""
 sources:
   - label: Gasherbrum-I
     url: K5
@@ -116,6 +128,7 @@ seo:
   robots: climbing, photo, G1
 body: ""
 ---
+
 
 
 
