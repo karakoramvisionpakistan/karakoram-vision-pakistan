@@ -14,7 +14,7 @@ summary: >-
 answer_summary: >-
   A full Broad Peak expedition framework with Pakistan permit support, Baltoro approach, base-camp
   services and high-altitude logistics.
-cover_image: /assets/uploads/broad-peak.webp
+cover_image: /assets/uploads/1792826537160-broad-peak.webp
 cover_image_alt: Broad Peak Expedition mountain landscape in northern Pakistan
 gallery: []
 duration: 50 Days
@@ -104,6 +104,7 @@ service_label: Expeditions
 peak_8000m: true
 duration_days: 50
 ---
+
 
 
 
