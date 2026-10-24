@@ -76,7 +76,9 @@ seo:
     Trango Tower expedition, 33 days of big-wall climbing on the great granite walls of Baltoro, with permits, porters and base-camp support from Skardu.
   keywords: rockclimbing, trango, towers, karakoram
 body: ""
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>The Trango Towers rise above the Baltoro glacier as some of the largest granite walls on earth. Great Trango carries one of the world's highest cliffs; the Nameless Tower beside it is among the most sought-after big-wall objectives anywhere. Teams have been coming here since the 1970s and new lines are still being climbed.</p>
 <p><strong>What this programme is.</strong> Thirty-three days from Islamabad, covering the Baltoro trek in to base camp below the towers, the climbing period, and the return. Longer stays can be arranged for teams planning more than one route.</p>

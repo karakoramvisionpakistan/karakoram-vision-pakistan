@@ -115,7 +115,9 @@ seo:
   robots: " index, follow, max-image-preview:large"
   social_image: /assets/uploads/1792851049338-143.webp
 body: ""
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>K2 needs no introduction to climbers. At 8,611m it is the second highest mountain on earth and, by most accounts, the hardest of the fourteen 8,000m peaks - steep from low on the route, exposed to serious weather, and with summit windows that can be measured in hours rather than days.</p>
 <p><strong>What this programme is.</strong> Sixty days from Islamabad to Islamabad: travel and preparation, the seven-day Baltoro trek to base camp, roughly forty days on the mountain for rotations and a summit window, and the return. The schedule is built for the weather that actually occurs on the Baltoro, not the weather anyone hopes for.</p>

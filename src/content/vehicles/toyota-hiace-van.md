@@ -29,7 +29,9 @@ seo:
   canonical: ""
   social_image: /assets/uploads/journeys/gilgit-baltistan-grand-circuit.svg
 layout: layouts/vehicle.njk
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>The Hiace is the sensible choice for families and small groups travelling the main roads of northern Pakistan. It seats roughly eight to twelve passengers with room for luggage and trekking duffles, and it is comfortable on the long Karakoram Highway days between Islamabad, Gilgit, Hunza and Skardu.</p>
 <p><strong>What comes with it.</strong> An experienced driver who knows the highway and the mountain sections. Self-drive hire is not offered.</p>

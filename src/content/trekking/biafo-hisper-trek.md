@@ -68,7 +68,9 @@ seo:
   description: >-
     Biafo Hispar Pass trek, 22 days across the longest glacier system outside the poles, with Skardu logistics, permits and guides from Karakoram Vision.
 body: ""
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>Few treks anywhere cross an entire mountain range on ice. The Biafo Hispar traverse links Baltistan with Hunza along 116 kilometres of connected glacier - the longest glacial system outside the polar regions - crossing the Hispar La at 5,151m and passing Snow Lake, the great white basin that captured the imagination of early Karakoram explorers.</p>
 <p><strong>Who it suits.</strong> Experienced trekkers who are comfortable with long days, roped glacier travel and three weeks away from roads, shops and mobile signal. There is no technical climbing, but the commitment is real: once the team is on the Biafo there is no quick way out.</p>

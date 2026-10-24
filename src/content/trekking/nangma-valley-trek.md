@@ -93,7 +93,9 @@ seo:
     Nangma Valley trek from Kanday, 10 easy days in the big-wall valley known as the Yosemite of Pakistan. Guided and supported from Skardu, all seasons.
   keywords: NangmaValley, KandayValley, EasyTrek, Trekking, Trip, Tour
 body: ""
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>Nangma is the valley climbers call the Yosemite of Pakistan. Above Kanday village in the Hushe region, soft green pasture runs between vertical granite walls and towers that draw big-wall climbers from around the world. For trekkers the attraction is the same scenery without the ropes: an easy walk in, a base camp on the valley floor, and days spent wandering among the boulders and side valleys beneath the walls.</p>
 <p><strong>Who it suits.</strong> Beginners, families and anyone short of time. The walking days are short, the base camp is reached in a day or two from the village, and the altitude is gentle compared with the Baltoro routes.</p>

@@ -76,7 +76,9 @@ seo:
     Nanga Parbat 8,126m expedition, 42 days with permits, base camp, cooks, porters and high-altitude support from a Pakistani operator. Ask for route options.
   keywords: NangaParbat, Killer Mountain, Climbing, Adventure, Trekking in Pakistan
 body: ""
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>Nanga Parbat, 8,126m, stands alone at the western end of the Himalaya, visible for a hundred kilometres along the Karakoram Highway. It is the ninth highest mountain on earth and carries a reputation earned in the early attempts of the last century - the Rupal face above its southern side is the highest mountain wall in the world.</p>
 <p><strong>What this programme is.</strong> Forty-two days from Islamabad, covering the approach, acclimatisation rotations, a summit window and weather contingency. Unlike the Baltoro peaks, Nanga Parbat is reached from the Karakoram Highway rather than from Skardu, which shortens the approach considerably.</p>

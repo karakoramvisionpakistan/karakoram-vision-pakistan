@@ -77,7 +77,9 @@ seo:
     Majrooh Top trek, 10 easy days to 4,850m with wide Karakoram views. A short, non-technical route first explored by our own team, guided from Skardu.
   keywords: "Trekking, Tours, Sightseeing, Karakoramrange, "
 body: ""
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>Majrooh Top is the short route to a big view. At 4,850m the top gives a wide panorama across the central Karakoram, and the walk up is non-technical and quiet - this is not a trail that appears on every itinerary. It was explored in 2008 by Muhammad Ali, the founder of Karakoram Vision Pakistan, and we have run it ever since.</p>
 <p><strong>Who it suits.</strong> Travellers who want a high Karakoram viewpoint without committing two or three weeks to a glacier route. The grading is easy, but the top is high, so the days are planned to let the body adjust. Anyone comfortable walking uphill for a few hours a day will manage it.</p>

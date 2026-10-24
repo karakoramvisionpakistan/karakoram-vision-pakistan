@@ -83,7 +83,9 @@ seo:
 layout: layouts/journey.njk
 service_type: hunting-services
 service_label: Hunting Services
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>Gilgit-Baltistan runs one of the better-known community-based conservation hunting programmes in Asia. A limited number of permits are issued each season for named species in designated conservancies, and a substantial share of each permit fee goes directly to the community that protects the wildlife - which is why ibex and markhor numbers in these valleys have recovered rather than declined.</p>
 <p><strong>What we do.</strong> We handle the travel and field side: permit applications and paperwork, access to the authorised trophy areas, local guides and trackers who know the ground, camps, transport and all logistics inside Pakistan.</p>

@@ -86,7 +86,9 @@ seo:
   canonical: ""
   social_image: ""
 body: ""
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>This is the long loop: from Islamabad up the Karakoram Highway through Gilgit-Baltistan, west over the passes into Chitral, and back down through Swat. Twenty-two days covering most of what makes northern Pakistan remarkable - the Karakoram, the Hindu Kush, Kalash valleys, alpine lakes, and the green of Swat at the end.</p>
 <p><strong>Who it suits.</strong> Travellers with time who would rather see how the regions connect than fly between them. The grading is easy in terms of walking, but it is a long road journey and the pace matters - days are broken with sightseeing and the nights are in hotels and guest houses.</p>

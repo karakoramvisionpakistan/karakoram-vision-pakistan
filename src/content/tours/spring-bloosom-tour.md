@@ -74,7 +74,9 @@ seo:
   description: >-
     Spring blossom tour of Hunza and Gilgit-Baltistan, 16 easy days through apricot and cherry bloom, with hotels, 4x4 transport and a local guide.
 body: ""
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>In the first weeks of spring the valleys of Gilgit-Baltistan fill with apricot and cherry blossom while the peaks above are still deep in winter snow. It is a short season and an extraordinary one - white and pink orchards against bare rock and ice, village festivals, and roads still quiet before the summer crowds.</p>
 <p><strong>What the journey covers.</strong> Sixteen unhurried days through Gilgit-Baltistan, following the bloom as it moves up the valleys, with time in Hunza where the orchards are thickest and the viewpoints best.</p>

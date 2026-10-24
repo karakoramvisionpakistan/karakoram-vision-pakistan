@@ -29,7 +29,9 @@ seo:
   canonical: ""
   social_image: /assets/uploads/journeys/hunza-valley-heritage-tour.svg
 layout: layouts/vehicle.njk
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>When a group is large enough that three or four cars become awkward, a Coaster is the answer. It carries a full tour group, a student party or an extended family together on the main highways of northern Pakistan, which is usually both cheaper and easier than running several vehicles in convoy.</p>
 <p><strong>What comes with it.</strong> An experienced driver familiar with the Karakoram Highway and the long mountain days. Self-drive hire is not offered.</p>

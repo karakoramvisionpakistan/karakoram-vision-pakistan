@@ -130,7 +130,9 @@ seo:
   social_image: /assets/uploads/1792843663813-G1.KVP.webp
   robots: climbing, photo, G1
 body: ""
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>Gasherbrum I, 8,080m, is also known as Hidden Peak - the name given by early surveyors because the mountain stays out of sight behind the Gasherbrum wall until you are deep in the upper Baltoro. It is the eleventh highest mountain in the world and a considerably harder proposition than its neighbour Gasherbrum II, with steeper ground on the Japanese Couloir and a long, committing summit day.</p>
 <p><strong>What this programme is.</strong> Fifty days from Islamabad, including the Baltoro approach, acclimatisation rotations, the summit window in the usual July period, and the return.</p>

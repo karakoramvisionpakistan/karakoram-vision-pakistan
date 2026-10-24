@@ -31,7 +31,9 @@ seo:
   canonical: ""
   social_image: /assets/uploads/journeys/skardu-shigar-valley-explorer.svg
 layout: layouts/vehicle.njk
----<!-- page-intro -->
+---
+
+<!-- page-intro -->
 <h2><strong>About this journey</strong></h2>
 <p>The Prado is the vehicle we use most in the mountains. It handles the Karakoram Highway comfortably and keeps going where the road stops being a road - the Deosai tracks, the Shigar and Basho valleys, the Hushe and Astore roads - with enough space for a small family or group of four to five and their luggage.</p>
 <p><strong>What comes with it.</strong> An experienced mountain driver who knows the routes, the weather and the river crossings. We do not offer self-drive hire in these valleys, and no visiting driver should attempt them for the first time alone.</p>
