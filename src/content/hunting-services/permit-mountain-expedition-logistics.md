@@ -1,7 +1,7 @@
 ---
 title: Ibex Hunting in GB
-slug: permit-mountain-expedition-logistics
-permalink: /hunting-services/permit-mountain-expedition-logistics/
+slug: ibex-markhor-hunting-permits
+permalink: /hunting-services/ibex-markhor-hunting-permits/
 published: true
 featured: true
 best_seller: false

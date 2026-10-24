@@ -1,7 +1,7 @@
 ---
 title: Shigar, Basho and Khaplu Adventure Trip
-slug: shigar-basho-khaplu-adventure-trip
-permalink: /jeep-safaris/shigar-basho-khaplu-adventure-trip/
+slug: shigar-basho-khaplu-jeep-safari
+permalink: /jeep-safaris/shigar-basho-khaplu-jeep-safari/
 published: true
 featured: true
 best_seller: true

@@ -1,7 +1,7 @@
 ---
 title: Thaley La Trek
-slug: thalley-la-trek
-permalink: /trekking/thalley-la-trek/
+slug: thalle-la-trek
+permalink: /trekking/thalle-la-trek/
 published: true
 featured: true
 best_seller: true

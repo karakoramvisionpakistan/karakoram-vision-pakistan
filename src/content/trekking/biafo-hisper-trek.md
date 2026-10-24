@@ -1,7 +1,7 @@
 ---
 title: "Biafo Hisper Pass Trek "
-slug: biafo-hisper-trek
-permalink: /trekking/biafo-hisper-trek/
+slug: biafo-hispar-trek
+permalink: /trekking/biafo-hispar-trek/
 layout: layouts/journey.njk
 service_type: trekking
 service_label: Trekking

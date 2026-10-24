@@ -1,7 +1,7 @@
 ---
 title: Fairy Meadows and Nanga Parbat Base Camp Trek
-slug: fairy-meadows-nanga-parbat-base-camp-trek
-permalink: /trekking/fairy-meadows-nanga-parbat-base-camp-trek/
+slug: fairy-meadows-base-camp-trek
+permalink: /trekking/fairy-meadows-base-camp-trek/
 published: true
 featured: true
 best_seller: true

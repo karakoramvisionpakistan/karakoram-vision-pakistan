@@ -1,7 +1,7 @@
 ---
 title: Deosai High Plateau Trip
-slug: deosai-trip
-permalink: /jeep-safaris/deosai-trip/
+slug: deosai-jeep-safari
+permalink: /jeep-safaris/deosai-jeep-safari/
 published: true
 featured: true
 best_seller: true
