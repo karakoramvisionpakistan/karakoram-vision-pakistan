@@ -1,25 +1,25 @@
-{# Scroll karne par upar wapas jane ka button. Koi library nahi - sirf yeh file.
-   Baayein neeche rakha gaya hai, kyunke daayein neeche WhatsApp/Let's Talk ka
-   stack (z-index 220) aur chat widget pehle se mojood hain. #}
+{# Scroll karne par upar wapas jane ka button.
+   Daayein taraf, WhatsApp/Let's Talk ke stack ke theek upar.
+   Jagah JS naap kar tay karta hai, is liye stack mein jitne button hon overlap nahi hoga. #}
 <button type="button" id="bk-to-top" aria-label="Back to top" title="Back to top" hidden>
-  <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
-    <path d="M12 19V6M12 6l-6 6M12 6l6 6" fill="none" stroke="currentColor" stroke-width="2.2"
+  <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+    <path d="M12 19V6M12 6l-6 6M12 6l6 6" fill="none" stroke="currentColor" stroke-width="2.3"
           stroke-linecap="round" stroke-linejoin="round"></path>
   </svg>
 </button>
 <style>
   #bk-to-top{
-    position:fixed; left:1rem; bottom:1.25rem; z-index:210;
-    width:2.75rem; height:2.75rem; display:flex; align-items:center; justify-content:center;
-    border:0; border-radius:9999px; cursor:pointer;
-    background:#0f172a; color:#fff; box-shadow:0 10px 26px rgba(15,23,42,.34);
-    opacity:0; transform:translateY(8px); transition:opacity .2s ease, transform .2s ease, background .2s ease;
+    position:fixed; right:.75rem; bottom:1rem; z-index:210;
+    width:2.5rem; height:2.5rem; display:grid; place-items:center;
+    border:1px solid rgba(255,255,255,.2); border-radius:9999px; cursor:pointer;
+    background:#0f172a; color:#fff; box-shadow:0 8px 22px rgba(2,6,23,.3);
+    opacity:0; transform:translateY(6px); transition:opacity .2s ease, transform .2s ease, background .2s ease;
   }
   #bk-to-top[hidden]{ display:none; }
   #bk-to-top.is-visible{ opacity:1; transform:translateY(0); }
-  #bk-to-top:hover{ background:#1e293b; }
+  #bk-to-top:hover{ background:#1e293b; transform:translateY(-2px); }
   #bk-to-top:focus-visible{ outline:3px solid #ff5a1f; outline-offset:3px; }
-  @media (min-width:1024px){ #bk-to-top{ left:1.5rem; bottom:1.5rem; width:3rem; height:3rem; } }
+  @media (min-width:768px){ #bk-to-top{ right:1rem; width:2.75rem; height:2.75rem; } }
   @media (prefers-reduced-motion:reduce){ #bk-to-top{ transition:none; } }
   @media print{ #bk-to-top{ display:none !important; } }
 </style>
@@ -27,24 +27,51 @@
   (function () {
     var btn = document.getElementById('bk-to-top');
     if (!btn) return;
+
+    // Contact stack ko naap kar button ko us ke upar rakhna
+    function place() {
+      var stack = document.querySelector('.bk-floating-contact-stack');
+      if (!stack) return;
+      var box = stack.getBoundingClientRect();
+      if (!box.height) return;
+      btn.style.bottom = Math.round(window.innerHeight - box.top + 10) + 'px';
+      btn.style.right = Math.round(window.innerWidth - box.right) + 'px';
+    }
+
     var shown = false;
     function update() {
       var should = window.scrollY > 350;
       if (should === shown) return;
       shown = should;
-      if (should) { btn.hidden = false; requestAnimationFrame(function () { btn.classList.add('is-visible'); }); }
-      else { btn.classList.remove('is-visible'); setTimeout(function () { if (!shown) btn.hidden = true; }, 200); }
+      if (should) {
+        place();
+        btn.hidden = false;
+        requestAnimationFrame(function () { btn.classList.add('is-visible'); });
+      } else {
+        btn.classList.remove('is-visible');
+        setTimeout(function () { if (!shown) btn.hidden = true; }, 200);
+      }
     }
+
     var ticking = false;
     window.addEventListener('scroll', function () {
       if (ticking) return;
       ticking = true;
       requestAnimationFrame(function () { update(); ticking = false; });
     }, { passive: true });
+
+    var resizeTimer;
+    window.addEventListener('resize', function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(place, 150);
+    }, { passive: true });
+
     btn.addEventListener('click', function () {
       var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
     });
+
+    place();
     update();
   })();
 </script>

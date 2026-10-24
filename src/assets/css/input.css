@@ -781,11 +781,14 @@
 
 /* === Karakoram Vision Pakistan Contact Actions V10.1 === */
 [hidden]{display:none!important}
-.bk-floating-contact-stack{position:fixed;right:1rem;bottom:1rem;z-index:220;display:grid;justify-items:end;gap:.65rem}
-.bk-floating-contact-button{display:flex;min-height:52px;align-items:center;justify-content:center;gap:.55rem;border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:.7rem .95rem;color:#fff;font-weight:900;box-shadow:0 15px 38px rgba(2,6,23,.34);transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}
-.bk-floating-contact-button:hover{transform:translateY(-3px);box-shadow:0 22px 48px rgba(2,6,23,.42);filter:brightness(1.05)}
-.bk-floating-contact-button .bk-icon{width:1.55rem;height:1.55rem;flex:0 0 1.55rem}
-.bk-floating-contact-button>span{display:grid;line-height:1.05;text-align:left}.bk-floating-contact-button small{margin-top:.2rem;color:rgba(255,255,255,.78);font-size:.65rem}
+/* bk-floating v2 */
+.bk-floating-contact-stack{position:fixed;right:1rem;bottom:1rem;z-index:220;display:grid;justify-items:end;gap:.5rem}
+.bk-floating-contact-button{position:relative;display:grid;place-items:center;width:46px;height:46px;min-height:0;padding:0;border:1px solid rgba(255,255,255,.2);border-radius:999px;color:#fff;font-weight:900;box-shadow:0 8px 22px rgba(2,6,23,.28);transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}
+.bk-floating-contact-button:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(2,6,23,.36);filter:brightness(1.06)}
+.bk-floating-contact-button .bk-icon{width:1.3rem;height:1.3rem;flex:none}
+.bk-floating-contact-button>span{position:absolute;right:calc(100% + .5rem);top:50%;transform:translateY(-50%);display:block;white-space:nowrap;border-radius:8px;background:#0f172a;padding:.34rem .6rem;color:#fff;font-size:.72rem;font-weight:800;line-height:1.1;text-align:right;opacity:0;pointer-events:none;transition:opacity .18s ease;box-shadow:0 8px 20px rgba(2,6,23,.3)}
+.bk-floating-contact-button:hover>span,.bk-floating-contact-button:focus-visible>span{opacity:1}
+.bk-floating-contact-button small{display:none}
 .bk-floating-whatsapp{background:#16a34a}.bk-floating-wechat{background:#22c55e}.bk-floating-other{background:#ff5a1f}
 .bk-contact-channel-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.55rem;width:100%;margin-top:.75rem}
 .bk-contact-channel{display:inline-flex;min-height:44px;align-items:center;justify-content:center;gap:.4rem;border:1px solid #cbd5e1;border-radius:8px;background:#fff;padding:.62rem .72rem;color:#0f172a;font-size:.75rem;font-weight:950;text-align:center;transition:transform .18s ease,border-color .18s ease,color .18s ease,background-color .18s ease}
@@ -796,7 +799,7 @@
 .bk-trip-summary-card>.bk-contact-channel-actions{margin-top:.7rem}.bk-journey-contact-actions>.bk-contact-channel-actions{flex:1 1 100%;margin-top:0}
 .bk-plan-direct-contact{max-width:900px;margin:0 auto 4rem;padding:1.5rem;border:1px solid #e2e8f0;border-radius:16px;background:#f8fafc;text-align:center}.bk-plan-direct-contact h2{margin-top:.35rem;font-size:clamp(1.5rem,3vw,2.3rem);font-weight:950;color:#0f172a}.bk-plan-direct-contact>p:not(.eyebrow){max-width:680px;margin:.65rem auto 0;color:#64748b;line-height:1.7}.bk-plan-direct-contact .bk-contact-channel-actions{max-width:720px;margin:1rem auto 0}
 .bk-contact-modal{z-index:260}
-@media(max-width:767px){.bk-floating-contact-stack{right:.65rem;bottom:.65rem}.bk-floating-contact-button{width:54px;height:54px;min-height:54px;padding:.65rem}.bk-floating-contact-button>span{display:none}.bk-contact-channel-actions{grid-template-columns:1fr}.bk-contact-channel{min-height:48px}.bk-plan-direct-contact{margin:0 .85rem 3rem}}
+@media(max-width:767px){.bk-floating-contact-stack{right:.75rem;bottom:.75rem}.bk-floating-contact-button{width:46px;height:46px}.bk-floating-contact-button>span{display:none}.bk-contact-channel-actions{grid-template-columns:1fr}.bk-contact-channel{min-height:48px}.bk-plan-direct-contact{margin:0 .85rem 3rem}}
 /* === END Karakoram Vision Pakistan Contact Actions V10.1 === */
 
 /* === Karakoram Vision Pakistan Search + Direct Booking V10.2 === */
