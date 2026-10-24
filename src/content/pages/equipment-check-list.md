@@ -1,7 +1,7 @@
 ---
 title: Equipment Checklist
-slug: about-us-equipment-check-list
-permalink: /about-us/equipment-checklist/
+slug: equipment-check-list
+permalink: /equipment-checklist/
 layout: layouts/page.njk
 published: true
 featured: true
@@ -52,6 +52,7 @@ seo:
 body: ""
 _in_review: false
 ---
+
 
 
 
