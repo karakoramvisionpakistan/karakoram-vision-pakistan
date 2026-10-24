@@ -49,8 +49,20 @@
         "required": false,
         "label": "Number of travelers"
       },
-      "budget": {
+      "gender": {
         "enabled": true,
+        "required": false,
+        "label": "Gender (optional)",
+        "description": "Helps us plan room and tent sharing."
+      },
+      "nationality": {
+        "enabled": true,
+        "required": false,
+        "label": "Nationality",
+        "placeholder": "e.g. United Kingdom"
+      },
+      "budget": {
+        "enabled": false,
         "required": false,
         "label": "Approximate budget",
         "placeholder": "USD or PKR"
@@ -74,6 +86,12 @@
       "Jeep Safaris",
       "Vehicle Rental",
       "Permit-led Field Logistics"
+    ],
+    "gender_options": [
+      "Prefer not to say",
+      "Male",
+      "Female",
+      "Other"
     ]
   },
   "contact": {

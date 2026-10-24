@@ -37,7 +37,7 @@ layout: layouts/base.njk
       {% if difficulty %}<div><span class="bk-trip-difficulty-dot"></span><span><small>Difficulty</small><strong>{{ difficulty }}</strong></span></div>{% endif %}
       {% if trip_status %}<div><span class="bk-trip-status-dot"></span><span><small>Status</small><strong>{{ trip_status }}</strong></span></div>{% endif %}
     </div>
-    {% if tags and tags.length %}<div class="bk-trip-tags">{% for tag in tags %}<span>{{ tag }}</span>{% endfor %}</div>{% elseif categories and categories.length %}<div class="bk-trip-tags">{% for tag in categories %}<span>{{ tag }}</span>{% endfor %}</div>{% endif %}
+    {# Tags front matter mein mojood hain (search aur schema ke liye) lekin page par nahi dikhte #}
     <a class="bk-trip-inquiry-primary" href="/plan-a-trip/?journey={{ title | urlencode }}&service={{ service_type | urlencode }}#trip-request-form">Send Inquiry</a>
     {% include "components/contact-channel-buttons.njk" %}
     <div class="bk-trip-tools">
