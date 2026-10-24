@@ -53,8 +53,20 @@ departures: []
 departure_details: []
 highlights:
   - to see the villages and mountains of GB, Chitral and Swat
-included: []
-excluded: []
+included:
+  - "Vehicles and experienced drivers for every section of the route"
+  - "Airport pick and drop in Islamabad"
+  - "Hotel and guest house accommodation on a bed and breakfast basis"
+  - "Local guide throughout the journey"
+  - "Road permits and registration required for the districts on the route"
+  - "All road tolls, fuel and driver allowance"
+excluded:
+  - "International flights and Pakistan visa fee"
+  - "Travel insurance"
+  - "Lunch and dinner unless stated in the itinerary"
+  - "Personal expenses and optional activities"
+  - "Tips for the guide and drivers"
+  - "Any service not listed in the final written proposal"
 packing_list: []
 route_map_url: ""
 trip_leader:

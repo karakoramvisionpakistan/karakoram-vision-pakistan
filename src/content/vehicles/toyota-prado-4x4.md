@@ -22,6 +22,18 @@ faqs:
     answer: "Yes. Vehicles can be booked by the day, for a single transfer, or for a full itinerary. Tell us the dates and route for a quote."
   - question: "Is fuel included?"
     answer: "Fuel, driver allowance and tolls are confirmed in the written quote so there are no surprises on the road. Send your route and we will set it out clearly."
+included:
+  - "Toyota Prado 4x4 in good mechanical condition"
+  - "Experienced mountain driver familiar with the route"
+  - "Fuel for the agreed itinerary"
+  - "Driver allowance, meals and accommodation"
+  - "Road tolls and vehicle entry fees"
+excluded:
+  - "Accommodation and meals for passengers"
+  - "Entry tickets, permits and park fees for passengers"
+  - "Extra mileage beyond the agreed itinerary"
+  - "Tips for the driver"
+  - "Any service not listed in the written quote"
 seo:
   title: "Toyota Prado 4x4 Rental in Skardu | Karakoram Vision"
   description: >-

@@ -20,6 +20,18 @@ faqs:
     answer: "Yes, with an experienced driver who knows the routes. We do not offer self-drive hire."
   - question: "Can it carry trekking equipment?"
     answer: "Yes. There is room for duffles and expedition loads, and for larger teams we add a second vehicle or a cargo jeep. Tell us your group size and gear."
+included:
+  - "Toyota Hiace van in good mechanical condition, with luggage space"
+  - "Experienced driver familiar with the Karakoram Highway"
+  - "Fuel for the agreed itinerary"
+  - "Driver allowance, meals and accommodation"
+  - "Road tolls and vehicle entry fees"
+excluded:
+  - "Accommodation and meals for passengers"
+  - "Entry tickets, permits and park fees for passengers"
+  - "Extra mileage beyond the agreed itinerary"
+  - "Jeep transfers for rough sections, quoted separately"
+  - "Tips for the driver"
 seo:
   title: "Toyota Hiace Van Rental in Skardu | Karakoram Vision"
   description: >-

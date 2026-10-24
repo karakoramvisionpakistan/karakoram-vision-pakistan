@@ -47,8 +47,20 @@ tags:
 departures: []
 departure_details: []
 highlights: []
-included: []
-excluded: []
+included:
+  - "Trekking permit and trekker registration where applicable"
+  - "Jeep and road transport from Skardu to the trailhead and back"
+  - "Hotel bed and breakfast in Skardu"
+  - "Porters for group and personal loads, with limits as agreed"
+  - "Tents, sleeping mats and all camp equipment"
+  - "Cook, kitchen staff and all meals on trek"
+  - "Experienced local trekking guide"
+excluded:
+  - "International flights and Pakistan visa fee"
+  - "Travel insurance and emergency evacuation cover"
+  - "Personal trekking equipment, sleeping bag and clothing"
+  - "Tips for porters, guides and drivers"
+  - "Any service not listed in the final written proposal"
 packing_list: []
 route_map_url: ""
 trip_leader:

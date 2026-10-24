@@ -20,6 +20,18 @@ faqs:
     answer: "Yes, every vehicle comes with an experienced driver. Fuel, tolls and driver allowance are set out in the written quote."
   - question: "How far in advance should we book?"
     answer: "In the summer season larger vehicles get booked early, so a few weeks ahead is sensible. Send your dates and group size and we will confirm availability."
+included:
+  - "Coaster bus in good mechanical condition, with luggage space"
+  - "Experienced driver familiar with the main mountain highways"
+  - "Fuel for the agreed itinerary"
+  - "Driver allowance, meals and accommodation"
+  - "Road tolls and vehicle entry fees"
+excluded:
+  - "Accommodation and meals for passengers"
+  - "Entry tickets, permits and park fees for passengers"
+  - "Extra mileage beyond the agreed itinerary"
+  - "Jeep transfers for narrow or rough sections, quoted separately"
+  - "Tips for the driver"
 seo:
   title: "Coaster Rental for Groups, Skardu | Karakoram Vision"
   description: >-

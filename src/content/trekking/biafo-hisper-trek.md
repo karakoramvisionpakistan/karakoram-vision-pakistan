@@ -39,8 +39,20 @@ tags:
 departures: []
 departure_details: []
 highlights: []
-included: []
-excluded: []
+included:
+  - "Trekking permit, park fees and trekker registration"
+  - "Road transport Islamabad - Skardu - Askole, and Hispar - Karimabad - Islamabad"
+  - "Hotel bed and breakfast in Islamabad, Skardu and Karimabad"
+  - "Porters for the full traverse, with load limits as agreed"
+  - "Tents, sleeping mats and all camp equipment"
+  - "Cook, kitchen staff and all meals on trek"
+  - "Experienced trekking guide and glacier equipment for the roped sections"
+excluded:
+  - "International flights and Pakistan visa fee"
+  - "Travel insurance and emergency evacuation cover"
+  - "Personal trekking equipment, sleeping bag and clothing"
+  - "Tips for porters, guides and drivers"
+  - "Any service not listed in the final written proposal"
 packing_list: []
 route_map_url: ""
 trip_leader:

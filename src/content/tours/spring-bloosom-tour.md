@@ -44,8 +44,20 @@ tags:
 departures: []
 departure_details: []
 highlights: []
-included: []
-excluded: []
+included:
+  - "Private vehicle with an experienced mountain driver for the whole itinerary"
+  - "Airport pick and drop in Islamabad"
+  - "Hotel accommodation on a bed and breakfast basis"
+  - "Local guide throughout the journey"
+  - "Entry fees for the forts and sites listed in the itinerary"
+  - "All road tolls, fuel and driver allowance"
+excluded:
+  - "International flights and Pakistan visa fee"
+  - "Travel insurance"
+  - "Lunch and dinner unless stated in the itinerary"
+  - "Personal expenses, shopping and optional activities"
+  - "Tips for the guide and driver"
+  - "Any service not listed in the final written proposal"
 packing_list: []
 route_map_url: ""
 trip_leader:

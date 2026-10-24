@@ -46,8 +46,21 @@ highlights:
   - Chilas Village
   - Diamir Base Camp
   - Intersting Trek
-included: []
-excluded: []
+included:
+  - "Climbing permit, park fees and liaison officer expenses"
+  - "Invitation letter for the Pakistan mountaineering visa"
+  - "Airport pick and drop, and all ground transport in the itinerary"
+  - "Hotel bed and breakfast in Islamabad and on the approach"
+  - "Porters and transport to base camp"
+  - "Base camp services: kitchen tent, dining tent with tables and chairs, cook and kitchen staff"
+  - "All meals during the approach and at base camp"
+excluded:
+  - "International flights and Pakistan visa fee"
+  - "Travel insurance and emergency evacuation cover, including the helicopter rescue deposit"
+  - "Oxygen, personal climbing equipment and technical gear"
+  - "High-altitude porters and services above base camp"
+  - "Tips for porters, drivers and staff"
+  - "Any service not listed in the final written proposal"
 packing_list: []
 route_map_url: ""
 trip_leader:

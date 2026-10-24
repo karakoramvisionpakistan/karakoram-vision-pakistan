@@ -46,8 +46,21 @@ departure_details:
   - dates: 22/06/2027
 highlights:
   - Trango Towers are very beautiful rock walls in the karakoram
-included: []
-excluded: []
+included:
+  - "Climbing permit, Central Karakoram National Park fees and liaison officer expenses"
+  - "Invitation letter for the Pakistan mountaineering visa"
+  - "Airport pick and drop, and road transport Islamabad - Skardu - Askole"
+  - "Hotel bed and breakfast in Islamabad and Skardu"
+  - "Porters for the Baltoro approach and return"
+  - "Base camp with kitchen tent, dining tent, cook and kitchen staff"
+  - "All meals during the trek and at base camp"
+excluded:
+  - "International flights and Pakistan visa fee"
+  - "Travel insurance and emergency evacuation cover, including the helicopter rescue deposit"
+  - "All personal and technical climbing equipment, including wall gear and ropes"
+  - "Any service above base camp"
+  - "Tips for porters, drivers and staff"
+  - "Any service not listed in the final written proposal"
 packing_list: []
 route_map_url: ""
 trip_leader:

@@ -62,34 +62,20 @@ highlights:
   - mountaineering
   - tours
 included:
-  - "Process of the climbing permit from ministry of tourism. "
-  - "Assistance upon arrival/departure. "
-  - "Invitation letter for the visa "
-  - "Welcome reception in Islamabad Pakistan. "
-  - Hotel accommodation in Pakistan
-  - Transportation from Islamabad, Skardu, Askoli & back to Islamabad
-  - All meals during trek and at B.C only
-  - Low Porters for Equipment
-  - Road transfers between airport/hotel and within city as per itinerary.
-  - "Camping Equipment & Foods "
+  - "Climbing permit, Central Karakoram National Park fees and liaison officer expenses"
+  - "Invitation letter for the Pakistan mountaineering visa"
+  - "Airport pick and drop, and road transport Islamabad - Skardu - Askole"
+  - "Hotel bed and breakfast in Islamabad and Skardu"
+  - "Porters for the Baltoro approach to base camp"
+  - "Base camp services: kitchen tent, dining tent with tables and chairs, shower tent, cook and kitchen staff"
+  - "All meals during the trek and at base camp"
 excluded:
-  - International airfare, airport tax, excess baggage charges.
-  - Surface transfers in case of flight cancellations to the kick off point.
-  - High altitude porters/any crew above BC.
-  - >-
-    Sleeping bags, personal and climbing equipment of any kind beyond base camp including high
-    altitude food, tents, EPI Gas, oxygen and its porter’s cost.
-  - >-
-    Medications, ground evacuations and helicopter rescue charges for the expedition members and
-    local staff assigned with the expedition whose insurance cover does not include helicopter
-    rescue in Pakistan. 
-  - "Room services, laundry, beverages, phone/communication bills and items of personal nature. "
-  - "Insurance liability of member(s) and other under force majeure conditions.  "
-  - >-
-    Clearance of the cargo and clearing agent’s charges before arrival of the team and its storage
-    and its all-transportation cost from Islamabad to BC and return. 
-  - Any kind of  services from above the Base Camp
-  - "Tips to field staffs, drivers and porters etc. "
+  - "International flights and Pakistan visa fee"
+  - "Travel insurance and emergency evacuation cover, including the helicopter rescue deposit"
+  - "Oxygen, EPI gas and all personal climbing equipment"
+  - "High-altitude porters and services above base camp"
+  - "Tips for porters, drivers and staff"
+  - "Any service not listed in the final written proposal"
 packing_list:
   - Given on our website
 route_map_url: ""
