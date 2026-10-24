@@ -83,7 +83,13 @@ seo:
 layout: layouts/journey.njk
 service_type: hunting-services
 service_label: Hunting Services
----
+---<!-- page-intro -->
+<h2><strong>About this journey</strong></h2>
+<p>Gilgit-Baltistan runs one of the better-known community-based conservation hunting programmes in Asia. A limited number of permits are issued each season for named species in designated conservancies, and a substantial share of each permit fee goes directly to the community that protects the wildlife - which is why ibex and markhor numbers in these valleys have recovered rather than declined.</p>
+<p><strong>What we do.</strong> We handle the travel and field side: permit applications and paperwork, access to the authorised trophy areas, local guides and trackers who know the ground, camps, transport and all logistics inside Pakistan.</p>
+<p><strong>Species and season.</strong> Himalayan ibex and markhor, in the official winter season, under quotas set each year by the authorities. We confirm what is actually available before anything is planned.</p>
+<p><strong>Timing.</strong> Permits are limited and allocated ahead of the season, so enquiries a year in advance are normal. Tell us the species and the season you have in mind and we will tell you honestly what is possible.</p>
+<!-- /page-intro -->
 
 <p>Compliance-first travel and field-logistics consultation for officially authorized wildlife programmes in Pakistan.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions. This page does not offer weapons or guarantee a hunting permit. All activity is subject to official law, quota, season and conservation rules.</p><h2></h2><p><strong>Itinerary:</strong></p><h3><strong>Day 1: Initial compliance review</strong></h3><p>Confirm that the proposed activity is legally authorized and identify the responsible government authorities.</p><h3><strong>Day 2: Document checklist</strong></h3><p>Review permits, quotas, season, insurance and traveler documentation.</p><h3><strong>Day 3: Operational proposal</strong></h3><p>Define transport, accommodation, local staffing and field logistics within the legal permit.</p><h3><strong>Day 4: Final confirmation</strong></h3><p>Proceed only after written approvals and a signed service scope.</p><p></p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
 

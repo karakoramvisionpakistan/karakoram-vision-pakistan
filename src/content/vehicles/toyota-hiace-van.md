@@ -29,7 +29,13 @@ seo:
   canonical: ""
   social_image: /assets/uploads/journeys/gilgit-baltistan-grand-circuit.svg
 layout: layouts/vehicle.njk
----
+---<!-- page-intro -->
+<h2><strong>About this journey</strong></h2>
+<p>The Hiace is the sensible choice for families and small groups travelling the main roads of northern Pakistan. It seats roughly eight to twelve passengers with room for luggage and trekking duffles, and it is comfortable on the long Karakoram Highway days between Islamabad, Gilgit, Hunza and Skardu.</p>
+<p><strong>What comes with it.</strong> An experienced driver who knows the highway and the mountain sections. Self-drive hire is not offered.</p>
+<p><strong>Where it works, and where it does not.</strong> Excellent on sealed roads and main valley routes. For Deosai, Basho, Hushe or any rough track, we switch the group into jeeps for that section and arrange it as part of the same booking.</p>
+<p><strong>How it is booked.</strong> By the day, for airport transfers, or for a full itinerary. Fuel, driver allowance and tolls are confirmed in writing in advance. For expedition teams with heavy loads we add a cargo jeep or a second vehicle - tell us your group size and equipment and we will quote the right combination.</p>
+<!-- /page-intro -->
 
 <h2><strong>Toyota Hiace Van</strong></h2><p>Group transport for tours, city transfers and long road journeys with luggage planning.</p><p>Availability, driver duty hours, luggage space, fuel, road permissions and overnight charges are confirmed in the written transport quotation.</p>
 

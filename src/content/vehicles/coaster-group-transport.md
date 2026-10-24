@@ -29,7 +29,13 @@ seo:
   canonical: ""
   social_image: /assets/uploads/journeys/hunza-valley-heritage-tour.svg
 layout: layouts/vehicle.njk
----
+---<!-- page-intro -->
+<h2><strong>About this journey</strong></h2>
+<p>When a group is large enough that three or four cars become awkward, a Coaster is the answer. It carries a full tour group, a student party or an extended family together on the main highways of northern Pakistan, which is usually both cheaper and easier than running several vehicles in convoy.</p>
+<p><strong>What comes with it.</strong> An experienced driver familiar with the Karakoram Highway and the long mountain days. Self-drive hire is not offered.</p>
+<p><strong>Where it works.</strong> Main roads and sealed valley routes - Islamabad to Gilgit, Hunza, and the Skardu road. Larger vehicles cannot reach the narrow or rough valleys, so for Deosai, Basho or Hushe we move the group into jeeps for those days and arrange it within the same booking.</p>
+<p><strong>How it is booked.</strong> By the day or for a full itinerary, with fuel, driver allowance and tolls set out in the written quote. In the summer season larger vehicles are booked early, so send your dates well ahead.</p>
+<!-- /page-intro -->
 
 <h2><strong>Coaster Group Transport</strong></h2><p>On-request group transport for larger tour parties, subject to route suitability.</p><p>Availability, driver duty hours, luggage space, fuel, road permissions and overnight charges are confirmed in the written transport quotation.</p>
 

@@ -31,7 +31,13 @@ seo:
   canonical: ""
   social_image: /assets/uploads/journeys/skardu-shigar-valley-explorer.svg
 layout: layouts/vehicle.njk
----
+---<!-- page-intro -->
+<h2><strong>About this journey</strong></h2>
+<p>The Prado is the vehicle we use most in the mountains. It handles the Karakoram Highway comfortably and keeps going where the road stops being a road - the Deosai tracks, the Shigar and Basho valleys, the Hushe and Astore roads - with enough space for a small family or group of four to five and their luggage.</p>
+<p><strong>What comes with it.</strong> An experienced mountain driver who knows the routes, the weather and the river crossings. We do not offer self-drive hire in these valleys, and no visiting driver should attempt them for the first time alone.</p>
+<p><strong>How it is booked.</strong> By the day, for a single transfer such as Skardu airport, or for a full itinerary of several weeks. Fuel, driver allowance and tolls are set out in the written quote so there is nothing to settle on the road.</p>
+<p><strong>Good to know.</strong> For larger groups we combine vehicles - a Hiace or Coaster on the main highway and jeeps for the rough sections - so nobody pays for a 4x4 they do not need.</p>
+<!-- /page-intro -->
 
 <h2><strong>Toyota Prado 4x4</strong></h2><p>Comfortable 4x4 transport for private road journeys, airport transfers and selected mountain routes.</p><p>Availability, driver duty hours, luggage space, fuel, road permissions and overnight charges are confirmed in the written transport quotation.</p>
 
