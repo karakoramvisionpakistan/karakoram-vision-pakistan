@@ -1122,6 +1122,11 @@
               "url": "/faqs/"
             }
           ]
+        },
+        {
+          "label": "Equipment Check list",
+          "url": "/about-us/equipment-checklist/",
+          "enabled": true
         }
       ]
     }
