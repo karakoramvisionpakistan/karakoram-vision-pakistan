@@ -73,7 +73,15 @@ trip_leader:
   image: ""
   bio: ""
 reviews: []
-faqs: []
+faqs:
+  - question: "Why is Nangma called the Yosemite of Pakistan?"
+    answer: "Because of the granite. The valley is ringed by big vertical walls and towers that attract rock climbers from around the world, and the floor of the valley is soft green pasture — the contrast is what people remember."
+  - question: "Is this trek suitable for beginners?"
+    answer: "Yes. It is rated easy, the walking days are short, and the base camp is reached in a day or two from Kanday village. It works well for families and for travellers with limited time."
+  - question: "How do you reach Kanday?"
+    answer: "By road from Skardu, around five hours through the Shyok valley and Hushe road. We arrange the jeep, driver and the local porters from the village."
+  - question: "Can climbers use this as a base?"
+    answer: "Yes. Many teams camp in the valley for days or weeks to climb the surrounding walls. We can arrange extended camp support, cook and porters for climbing groups."
 key_facts: []
 author: KVP Office Team
 reviewed_by: KVP Team

@@ -63,7 +63,15 @@ trip_leader:
   image: ""
   bio: ""
 reviews: []
-faqs: []
+faqs:
+  - question: "Where does this 22-day road trip go?"
+    answer: "From Islamabad through Gilgit-Baltistan, over to Chitral, and back through Swat — the long loop that takes in the Karakoram Highway, the high passes and the valleys on both sides."
+  - question: "Which passes are crossed?"
+    answer: "The route uses the high mountain passes linking the regions, including the Shandur area between Gilgit and Chitral, which is only open in the warmer months."
+  - question: "Is this trip hard going?"
+    answer: "It is rated easy in terms of walking, but it is a long road journey. Driving days are broken up with sightseeing and the pace is relaxed, with hotels or guest houses each night."
+  - question: "When can it be done?"
+    answer: "Roughly June to September, when the passes are open. Outside that window the loop cannot be completed and we plan an alternative route."
 key_facts: []
 author: KVP Office Team
 reviewed_by: "KVP Experts "

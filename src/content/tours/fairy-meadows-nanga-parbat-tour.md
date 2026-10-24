@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "How do you reach Fairy Meadows from Islamabad?"
+    answer: "Drive the Karakoram Highway to Raikot Bridge, change into a local jeep for the climb to Tato, then walk up to the meadows. The jeep track is narrow and only local drivers operate it."
+  - question: "Is the walk difficult?"
+    answer: "Two to three hours uphill at a steady pace. Most travellers of reasonable fitness manage it, and porters or ponies can carry bags."
+  - question: "When can you see Nanga Parbat clearly?"
+    answer: "June to September gives the most reliable views of the Raikot face, with mornings usually clearest. The road is generally open from May to October."
+  - question: "Where do you stay?"
+    answer: "In wooden huts or tented camps at Fairy Meadows. They are simple and cold at night, with limited electricity, but the view from the door is the reason people come."
 reviews: []
 key_facts:
   - label: Operating base

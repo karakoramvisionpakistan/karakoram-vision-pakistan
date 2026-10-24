@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "When is Deosai open?"
+    answer: "Usually from late May or June until late September or October, depending on snow. Outside that the plateau roads are closed and the tour is planned without them."
+  - question: "Can you see brown bears on Deosai?"
+    answer: "Sometimes. The Himalayan brown bear lives on the plateau and sightings happen, most often early morning or evening, but no one can promise them. Marmots, foxes and birdlife are near certain."
+  - question: "How high is the Deosai plateau?"
+    answer: "Around 4,000m, which is high enough that some travellers feel the altitude. The itinerary reaches it after time in Skardu so you arrive partly acclimatised."
+  - question: "What is there to see in Khaplu?"
+    answer: "The restored Khaplu Palace, the old mosque and wooden village architecture, and the Shyok valley road with views toward the Hushe peaks."
 reviews: []
 key_facts:
   - label: Operating base

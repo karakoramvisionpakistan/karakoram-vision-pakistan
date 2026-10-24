@@ -49,7 +49,15 @@ trip_leader:
   image: ""
   bio: ""
 reviews: []
-faqs: []
+faqs:
+  - question: "What makes the Biafo Hispar traverse special?"
+    answer: "It links Baltistan with Hunza across 116km of connected glacier, the longest glacial system outside the polar regions, passing Snow Lake on the way. You cross from one side of the Karakoram to the other entirely on ice and high pasture."
+  - question: "How high is the Hispar La pass?"
+    answer: "The pass sits at 5,151m. The trek builds up to it slowly over several days, which gives the acclimatisation needed before the crossing."
+  - question: "When can this trek be done?"
+    answer: "Usually from the start of July to the end of August, when the snow bridges and crevasse conditions on Snow Lake are at their most reliable."
+  - question: "How fit do I need to be?"
+    answer: "Fit enough for 22 days of continuous glacier walking with no road access in the middle. There is no technical climbing, but the team is roped on the glacier sections and you should be comfortable with long days and camp life."
 key_facts: []
 author: ""
 reviewed_by: ""

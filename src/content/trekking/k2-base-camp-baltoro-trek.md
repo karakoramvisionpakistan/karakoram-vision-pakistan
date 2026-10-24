@@ -59,18 +59,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "How hard is the K2 base camp trek?"
+    answer: "It is a demanding trek rather than a climb. There is no technical climbing, but you walk six to eight hours a day for about two weeks, much of it on the rough moraine of the Baltoro Glacier, and you sleep above 4,000m for several nights. Regular hill walking with a loaded pack for three to four months beforehand is the best preparation."
+  - question: "When is the best time for the K2 base camp trek?"
+    answer: "Late June to early September. July and August are the most settled, which is also when the expedition teams are on the Baltoro, so the glacier feels busy and alive. Shoulder dates can bring snow on the higher camps."
+  - question: "Do I need a permit for the Baltoro and Concordia?"
+    answer: "Yes. The route runs through Central Karakoram National Park, so park fees and trekking paperwork apply, and foreign trekkers are registered before leaving Skardu. We handle the permits, registration and the Askole road arrangements."
+  - question: "What is included and what do I carry myself?"
+    answer: "Porters carry the group kit and your duffle up to an agreed weight; you walk with a daypack. Tents, kitchen, cook, guide, permits and transport from Skardu are arranged by us. Send your dates for a written list of inclusions and current costs."
 reviews: []
 key_facts:
   - label: Operating base

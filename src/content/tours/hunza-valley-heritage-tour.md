@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "What does the Hunza heritage tour cover?"
+    answer: "Ten days through Gilgit, Nagar and Hunza: Baltit and Altit forts in Karimabad, Attabad Lake, the Passu Cones, Rakaposhi viewpoint and village walks, with time to sit and watch the valley rather than rush through it."
+  - question: "When is the best time to visit Hunza?"
+    answer: "Late March to mid-April for apricot and cherry blossom, May to September for clear warm days, and mid-October to early November for autumn colour. Winter is quiet and cold but the valley stays open."
+  - question: "Is the tour private or in a group?"
+    answer: "Private by default: your own vehicle, driver and guide, and dates that suit you. Group sizes of two to twelve work comfortably on this route."
+  - question: "How do you travel there from Islamabad?"
+    answer: "By road along the Karakoram Highway, broken into comfortable driving days with stops. Flights to Gilgit are possible but weather-dependent, so we plan around road travel and adjust if a flight becomes available."
 reviews: []
 key_facts:
   - label: Operating base

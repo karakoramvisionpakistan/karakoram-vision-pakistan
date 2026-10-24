@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "How difficult is the Gondogoro La crossing?"
+    answer: "This is the hardest of our trekking routes. The pass itself is a pre-dawn climb on snow and ice with fixed ropes, harness and crampons, led by climbing guides. Everything below the pass is normal Baltoro trekking, but the crossing day demands fitness and a head for steep ground."
+  - question: "Is the pass always open?"
+    answer: "No. It opens only when the snow, ice and rope conditions allow, usually from mid-July to late August, and the decision is made on the mountain by the guides. If the pass is closed the group returns down the Baltoro the way it came, which is why the itinerary allows spare days."
+  - question: "Do I need climbing experience?"
+    answer: "Previous glacier or via ferrata experience helps, but is not essential. Our guides fix the ropes and brief the team beforehand. What matters more is strong trekking fitness and comfort on exposed, steep snow."
+  - question: "How is this different from the K2 base camp trek?"
+    answer: "The first part is the same — Askole, Baltoro, Concordia and K2 base camp. Instead of walking back the same way, this route crosses Gondogoro La into the Hushe valley, giving the famous view of K2, Broad Peak and the Gasherbrums from the pass."
 reviews: []
 key_facts:
   - label: Operating base

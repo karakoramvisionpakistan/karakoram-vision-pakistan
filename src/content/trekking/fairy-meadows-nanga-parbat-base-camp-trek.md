@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "How hard is the Fairy Meadows trek?"
+    answer: "Moderate. The walk from Tato to Fairy Meadows takes about two to three hours uphill, and the days beyond to Beyal and the base camp viewpoint are gentle by Karakoram standards. Most reasonably fit travellers manage it."
+  - question: "How do you get to Fairy Meadows?"
+    answer: "From the Karakoram Highway at Raikot Bridge a jeep climbs the narrow mountain track to Tato village, and from there it is a walk up to the meadows. The jeep road is seasonal and only local drivers run it."
+  - question: "When is Fairy Meadows open?"
+    answer: "Roughly May to October, depending on snow. June to September gives the most reliable weather and the clearest views of the Raikot face of Nanga Parbat."
+  - question: "Where do you sleep?"
+    answer: "In wooden huts or tented camps at Fairy Meadows and Beyal. They are simple — no heating beyond a stove and limited electricity — so warm clothing matters even in summer."
 reviews: []
 key_facts:
   - label: Operating base

@@ -94,10 +94,14 @@ trip_leader:
   bio: ""
 reviews: []
 faqs:
-  - question: "Can I join? "
-    answer: Yes you do.
-  - question: Can I climb K2?
-    answer: If you are experienced climber then yes you can try.
+  - question: "How long does a K2 expedition take?"
+    answer: "Sixty days from Islamabad to Islamabad: about a week of travel and preparation, seven days of trekking in to base camp, forty days on the mountain for rotations and the summit window, and the return."
+  - question: "What does Karakoram Vision provide on K2?"
+    answer: "Climbing permit and invitation letter, liaison officer, transport, hotels in Islamabad and Skardu, the full base camp setup with kitchen, dining, shower and generator, and porter logistics to base camp. Services above base camp are arranged separately on request."
+  - question: "Is oxygen and high-altitude support included?"
+    answer: "No. Oxygen, climbing gear, high-altitude porters above base camp and helicopter rescue deposits are quoted separately so each team pays only for what it uses. We arrange all of them on request."
+  - question: "What experience do you need for K2?"
+    answer: "Previous 8,000m experience is expected, or at the very least a successful 7,000m climb with high-altitude rotations. K2 is technical from low on the route and the weather windows are short."
 key_facts: []
 author: Karakoram Vision Pakistan office Team
 reviewed_by: "Karakoram Vision Pakistan Field Staff "

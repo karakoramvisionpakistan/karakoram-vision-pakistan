@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "What does this jeep route cover?"
+    answer: "Six days through Shigar valley and its fort-palace, the meadows and forest of Basho, and the Shyok valley road east to Khaplu with its restored palace."
+  - question: "Is Basho reachable by normal car?"
+    answer: "No. The track into Basho is rough and often wet, so a 4x4 with a local driver is needed. That is part of why the valley stays quiet."
+  - question: "Is the trip tiring?"
+    answer: "It is rated moderate — mostly driving with short walks, but mountain roads are bumpy and days can be long. Hotels and guest houses are used each night rather than camping."
+  - question: "When is the best time to go?"
+    answer: "May to October. Basho is greenest in June and July; September and October bring clear views and autumn colour in Shigar and Khaplu."
 reviews: []
 key_facts:
   - label: Operating base

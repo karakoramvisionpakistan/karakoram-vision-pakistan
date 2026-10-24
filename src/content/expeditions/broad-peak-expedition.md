@@ -68,18 +68,14 @@ packing_list:
   - Personal medication and travel documents
   - Complete packing list is given on our website
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "Is Broad Peak a good first 8,000m peak?"
+    answer: "It is often chosen as one, because the route is less technical than K2 and shares the same Baltoro approach and base camp area. The summit ridge is still long and exposed, and the altitude is unforgiving."
+  - question: "What is included in your Broad Peak expedition?"
+    answer: "Climbing and park permits, liaison officer expenses, the Mountaineering e-visa invitation letter, airport transfers, hotels, trekking meals and all logistics up to base camp."
+  - question: "How long are you on the mountain?"
+    answer: "The programme runs 50 days in total, which allows for the trek in, acclimatisation rotations, a realistic summit window and weather delays on the Baltoro."
+  - question: "Can Broad Peak be combined with K2 or Gasherbrum?"
+    answer: "Yes. Teams often share the same base camp period and add a second objective. Tell us both peaks and we will plan permits and logistics together."
 reviews: []
 key_facts:
   - label: Operating base

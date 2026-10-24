@@ -11,6 +11,15 @@ vehicle_type: Coaster Group Transport
 capacity: 15–22 passengers
 price_from: Route-based quote
 destination: Pakistan
+faqs:
+  - question: "When is a Coaster the right choice?"
+    answer: "For larger groups travelling together on the main highways — student trips, corporate groups and extended families — where a single vehicle is easier and cheaper than several cars."
+  - question: "Can a Coaster reach every valley?"
+    answer: "No. Larger buses are limited to the main roads. For narrow or rough sections we switch the group into jeeps, which we arrange as part of the same booking."
+  - question: "Is a driver included?"
+    answer: "Yes, every vehicle comes with an experienced driver. Fuel, tolls and driver allowance are set out in the written quote."
+  - question: "How far in advance should we book?"
+    answer: "In the summer season larger vehicles get booked early, so a few weeks ahead is sensible. Send your dates and group size and we will confirm availability."
 seo:
   title: "Coaster Rental for Groups, Skardu | Karakoram Vision"
   description: >-

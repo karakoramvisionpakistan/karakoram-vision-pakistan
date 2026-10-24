@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "When does the Deosai road open?"
+    answer: "Usually late May or June, once the snow clears, and it stays open until around late September or October. We only run this trip when the plateau route is officially open."
+  - question: "What kind of vehicle is used?"
+    answer: "A 4x4 jeep with an experienced mountain driver. The plateau tracks are rough and river crossings are part of the route, so a normal car cannot be used."
+  - question: "How high is Deosai and will I feel it?"
+    answer: "The plateau sits around 4,000m. Some people notice the altitude, so the itinerary starts in Skardu and climbs gradually, and nights are spent lower where possible."
+  - question: "What will we see?"
+    answer: "Sheosar Lake, wide open plateau, marmots and birdlife, and with luck a Himalayan brown bear. In July the plateau is covered in wildflowers."
 reviews: []
 key_facts:
   - label: Operating base

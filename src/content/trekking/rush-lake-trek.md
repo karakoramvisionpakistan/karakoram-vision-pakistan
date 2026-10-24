@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "How high is Rush Lake?"
+    answer: "Rush Lake lies at about 4,694m, with Rush Pari peak above it, and is counted among the highest alpine lakes in the world. The views take in Rakaposhi, Diran and the Spantik massif."
+  - question: "Why does this trek take 14 days?"
+    answer: "The extra days are for acclimatisation and weather. Gaining almost 4,700m from Nagar valley needs a careful profile, and spare days keep the summit-day views from depending on a single morning."
+  - question: "How difficult is it?"
+    answer: "Challenging. There is no technical climbing, but the ground is steep in places, the altitude is real, and camps are high and cold. Previous trekking experience is a good idea."
+  - question: "When is the best time for Rush Lake?"
+    answer: "Late June to mid-September, once the snow has cleared from the upper meadows and the lake is reachable."
 reviews: []
 key_facts:
   - label: Operating base

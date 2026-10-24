@@ -57,18 +57,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "What is special about Laila Peak?"
+    answer: "Its shape. The blade-like spire above the Gondogoro glacier is one of the most photographed mountains in Pakistan, and the line up its face has been both climbed and skied."
+  - question: "How technical is the climb?"
+    answer: "Serious. The face is sustained and steep, and teams need solid alpine experience with snow and ice. This is not a trekking peak despite its modest height compared with the 8,000ers."
+  - question: "How do you reach the mountain?"
+    answer: "By road from Skardu to the Hushe valley, then on foot up to the Gondogoro glacier with porters. The approach takes a few days and doubles as acclimatisation."
+  - question: "What is the season?"
+    answer: "June to August for climbing. The 30-day programme covers the approach, acclimatisation, the climb and the return to Skardu."
 reviews: []
 key_facts:
   - label: Operating base

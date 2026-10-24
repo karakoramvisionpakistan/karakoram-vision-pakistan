@@ -58,18 +58,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "Why do climbers choose Gasherbrum II?"
+    answer: "At 8,035m it is considered one of the more approachable 8,000m peaks, with a route that is mostly snow and ice rather than hard technical climbing, reached from the same Baltoro approach as K2."
+  - question: "What permits are needed?"
+    answer: "A climbing permit, Central Karakoram National Park fees and a liaison officer. We handle the applications and send an invitation letter for the Pakistan mountaineering visa."
+  - question: "How many days does the expedition run?"
+    answer: "Fifty days from Islamabad, including the Baltoro trek in, acclimatisation rotations, the summit window and the return."
+  - question: "Can Gasherbrum I and II be done in one trip?"
+    answer: "Yes, many teams do. Both share the same base camp, so the extra cost is mainly the second permit. Ask us for a combined quote."
 reviews: []
 key_facts:
   - label: Operating base

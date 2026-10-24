@@ -56,7 +56,15 @@ trip_leader:
   image: ""
   bio: ""
 reviews: []
-faqs: []
+faqs:
+  - question: "What are the Trango Towers?"
+    answer: "A group of granite towers above the Baltoro glacier with some of the largest cliffs on earth. Great Trango and the Nameless Tower draw big-wall climbers from everywhere."
+  - question: "Who is this expedition for?"
+    answer: "Experienced big-wall and aid climbers. The approach is a normal Baltoro trek, but the climbing is vertical granite at altitude and teams are self-sufficient on the wall."
+  - question: "What does Karakoram Vision arrange for Trango teams?"
+    answer: "Permits and liaison officer, transport and hotels, porters to base camp, and the base camp setup with cook and kitchen while your team works on the wall."
+  - question: "How long do teams stay?"
+    answer: "The programme runs 33 days, which is a usual length for one objective. Longer stays can be arranged for teams planning several routes."
 key_facts: []
 author: KVP Office Team
 reviewed_by: KVP Team

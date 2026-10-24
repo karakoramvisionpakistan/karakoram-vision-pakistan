@@ -54,7 +54,15 @@ trip_leader:
   image: ""
   bio: ""
 reviews: []
-faqs: []
+faqs:
+  - question: "When is blossom season in Hunza and Gilgit-Baltistan?"
+    answer: "Usually from late March to mid-April, starting lower in the valleys and moving upward. Apricot comes first, then cherry and apple. Dates shift by a week or two each year with the winter."
+  - question: "What does the 16-day tour include?"
+    answer: "Hotels, private transport with driver, a local guide and the main sightseeing across Gilgit-Baltistan, planned at an easy pace so you can stop whenever the orchards are at their best."
+  - question: "Is the weather reliable in spring?"
+    answer: "Spring is beautiful but changeable: warm afternoons, cold nights, and the chance of rain or late snow on the passes. The itinerary keeps flexibility for road conditions."
+  - question: "Can the tour be shortened?"
+    answer: "Yes. Shorter blossom trips focused on Hunza alone are possible. Send your dates and the number of days you have and we will propose a version that fits."
 key_facts: []
 author: KVP team
 reviewed_by: ""

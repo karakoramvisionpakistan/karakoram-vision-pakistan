@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "Is trophy hunting legal in Gilgit-Baltistan?"
+    answer: "Yes, within the official community-based conservation programme. The government issues a limited number of permits each season for named species and areas, and a share of the fee goes back to the local community that protects the wildlife."
+  - question: "Which species and seasons apply?"
+    answer: "Himalayan ibex and markhor are the main species, hunted in designated conservancies during the official winter season. Quotas and dates are set by the authorities each year, so we confirm what is available before anything is planned."
+  - question: "What do you arrange?"
+    answer: "Permit paperwork and applications, access to the authorised trophy areas, local guides and trackers, camps, transport and all travel logistics in Pakistan."
+  - question: "How far ahead should this be arranged?"
+    answer: "Well in advance. Permits are limited and allocated ahead of the season, so enquiries a year before are normal. Send your intended species and season to start the process."
 reviews: []
 key_facts:
   - label: Operating base

@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "Is Rakaposhi base camp a good first trek in Pakistan?"
+    answer: "Yes. Seven days, a short walk-in from Minapin, and a base camp with one of the most direct views of a 7,000m face anywhere. It suits travellers who want a real Karakoram trek without two weeks on a glacier."
+  - question: "How long is the walk each day?"
+    answer: "Four to six hours on trekking days, with one steeper climb to Hapakun and on to Tagafari base camp. Nights are in tents at around 3,000m to 3,500m."
+  - question: "What is the best season for Rakaposhi base camp?"
+    answer: "May to early October. The meadows are greenest in June and July; late September and October bring clear air and autumn colour in Nagar valley."
+  - question: "Can it be combined with Hunza?"
+    answer: "Easily. Minapin is on the Karakoram Highway between Gilgit and Hunza, so most travellers add Karimabad, Attabad Lake and Passu before or after the trek. Ask us to plan the combination."
 reviews: []
 key_facts:
   - label: Operating base

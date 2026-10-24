@@ -57,18 +57,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "Is Spantik a good first 7,000m peak?"
+    answer: "It is one of the most popular choices in Pakistan for exactly that reason. The normal route from the Nagar side is mostly a long snow climb without sustained technical difficulty, which makes it a realistic step up from trekking peaks."
+  - question: "How high is Spantik and why is it called Golden Peak?"
+    answer: "7,027m. The name comes from the colour the south-east face takes at sunset; the same mountain is known as Spantik from the Arandu side, where the famous Golden Pillar route lies."
+  - question: "What fitness and experience do I need?"
+    answer: "Comfort with crampons, ice axe and roped glacier travel, plus the stamina for several weeks of camp life. Previous experience above 5,000m is strongly recommended."
+  - question: "How long does the expedition take?"
+    answer: "Thirty-five days, covering the approach from Nagar or Arandu, acclimatisation rotations on the mountain, the summit window and the return."
 reviews: []
 key_facts:
   - label: Operating base

@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "Where does the Thalle La trek go?"
+    answer: "It crosses from the Shigar side over the Thalle La pass down into Khaplu, through summer pastures and small Balti villages. It is an old trading route between two valleys rather than a trek to a base camp."
+  - question: "Is it suitable for first-time trekkers?"
+    answer: "Yes. It is rated easy, the crossing is a walk rather than a climb, and at nine days it is one of the shortest ways to see village life in Baltistan on foot."
+  - question: "What is the accommodation like?"
+    answer: "Tented camps on the trek, with hotels in Skardu, Shigar and Khaplu at either end. Our cook travels with the group and all camp equipment is carried by porters."
+  - question: "When can it be walked?"
+    answer: "Usually June to September, when the pass is clear of snow and the shepherds are up at the summer settlements."
 reviews: []
 key_facts:
   - label: Operating base

@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "What does the grand circuit cover?"
+    answer: "Fourteen days linking Gilgit, Hunza, Skardu, Shigar and Khaplu — the Karakoram Highway, the forts and the Baltistan valleys in one journey, without doubling back."
+  - question: "Is 14 days enough for all of it?"
+    answer: "It is the shortest comfortable length for this route. Shorter versions mean long driving days; longer versions add Deosai, Fairy Meadows or free days in the valleys."
+  - question: "How much driving is involved each day?"
+    answer: "Mostly three to six hours, with a couple of longer legs between regions. Stops for tea, photographs and short walks are part of the plan rather than an interruption."
+  - question: "Which hotels do you use?"
+    answer: "Comfortable mid-range or better hotels, depending on the standard you choose. Baltistan and Hunza both have good options; the remoter valleys are simpler. The exact list is confirmed in your written proposal."
 reviews: []
 key_facts:
   - label: Operating base

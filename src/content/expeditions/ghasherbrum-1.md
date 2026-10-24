@@ -100,14 +100,14 @@ trip_leader:
   bio: ""
 reviews: []
 faqs:
-  - question: Are you interested to join us?
-    answer: Yes I do.
-  - question: Can I climb this peak?
-    answer: "It depend on your health and fitness level and also your climbing experience. "
-  - question: Can I request private dates?
-    answer: >-
-      Yes. Most starter journeys are designed for private dates and are priced after the group size
-      and route are confirmed.
+  - question: "How high is Gasherbrum I?"
+    answer: "8,080m, also known as Hidden Peak, the eleventh highest mountain in the world. It stands at the head of the Baltoro, deep in the Karakoram behind the Gasherbrum wall."
+  - question: "Is Gasherbrum I harder than Gasherbrum II?"
+    answer: "Yes. The Japanese Couloir and the upper route are steeper and more committing, and the summit day is longer. Teams usually come with previous 8,000m experience."
+  - question: "What does the expedition include?"
+    answer: "Permits and liaison officer, invitation letter, transport and hotels, Baltoro trek in with porters, and full base camp services. Oxygen, personal gear and services above base camp are arranged separately."
+  - question: "When is the climbing season?"
+    answer: "June to August. The 50-day programme is built around the summit windows that usually appear in July."
 key_facts:
   - label: ""
     value: ""

@@ -59,18 +59,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "When exactly is autumn colour at its best?"
+    answer: "Usually from mid-October into the first week of November, with Hunza turning before Skardu. Exact timing shifts each year with the weather, so we advise on dates once you tell us which week you can travel."
+  - question: "Why does this tour take 14 days?"
+    answer: "Because it covers both valleys. Hunza and Skardu are on different sides of the mountains, with a long drive or flight between them, and the extra days mean you see the colour in both rather than racing through one."
+  - question: "How cold is it in October and November?"
+    answer: "Pleasant in the day, cold at night, with frost in the high valleys by late October. Warm layers and a proper jacket are needed; hotels are heated but not always well."
+  - question: "Can photographers get extra time at viewpoints?"
+    answer: "Yes. This itinerary is often booked by photographers, and we build in early starts and unhurried stops. Tell us the shots you want and the driver and guide will plan around the light."
 reviews: []
 key_facts:
   - label: Operating base

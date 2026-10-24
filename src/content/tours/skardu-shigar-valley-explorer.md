@@ -55,18 +55,14 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: Can this journey be customized?
-    answer: >-
-      Yes. Dates, hotel category, transport, group size and route can be adjusted after an
-      operational review.
-  - question: Is the displayed itinerary guaranteed?
-    answer: >-
-      The outline is a planning framework. Weather, road access, permits and local conditions may
-      require responsible changes.
-  - question: How do I confirm availability and price?
-    answer: >-
-      Send your preferred dates and group details. The team will return a current written proposal
-      before any payment.
+  - question: "What do you see on this trip?"
+    answer: "Seven days around Skardu: Shangrila and Upper Kachura lakes, the Shigar fort-palace, the Sarfaranga cold desert, Katpana dunes and the Indus valley viewpoints, with free time to add more."
+  - question: "Is this a good short trip to Pakistan?"
+    answer: "Yes. If you have about a week, Skardu gives lakes, desert, heritage and high mountain views in one base, with short daily drives instead of constant travel."
+  - question: "How do you reach Skardu?"
+    answer: "By flight from Islamabad when weather allows, or by road along the Karakoram Highway and Indus valley. We plan for both so a cancelled flight does not end the trip."
+  - question: "Is it suitable for families?"
+    answer: "Yes. The days are short, the roads are reasonable, and nothing requires trekking. We can slow the pace further or add easy walks for older children."
 reviews: []
 key_facts:
   - label: Operating base

@@ -56,7 +56,15 @@ trip_leader:
   image: ""
   bio: ""
 reviews: []
-faqs: []
+faqs:
+  - question: "Why is Nanga Parbat called the Killer Mountain?"
+    answer: "Because of its history. The mountain claimed many lives in the early attempts before the first ascent in 1953, and its faces — especially the Rupal face, the highest mountain wall in the world — remain serious undertakings."
+  - question: "How long is the expedition?"
+    answer: "Forty-two days from Islamabad, which allows for the approach, acclimatisation rotations, the summit window and weather delays."
+  - question: "Which side do you climb from?"
+    answer: "Most teams use the Diamir side, reached from the Karakoram Highway rather than from Skardu. Tell us your intended route and we will plan permits and base camp accordingly."
+  - question: "What support do you provide?"
+    answer: "Permits and liaison officer, invitation letter for the mountaineering visa, transport, hotels, porters and the base camp setup with kitchen and dining. High-altitude support and oxygen are arranged on request."
 key_facts: []
 author: ""
 reviewed_by: ""

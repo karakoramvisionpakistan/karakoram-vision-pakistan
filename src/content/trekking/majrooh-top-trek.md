@@ -57,7 +57,15 @@ trip_leader:
   image: ""
   bio: ""
 reviews: []
-faqs: []
+faqs:
+  - question: "What do you see from Majrooh Top?"
+    answer: "A wide panorama of the central Karakoram from 4,850m, reached on a short, non-technical route. It gives a high mountain view without the two-week commitment of the Baltoro treks."
+  - question: "How hard is it?"
+    answer: "Easy by Karakoram standards, but the top is high, so the days are planned to let you acclimatise. Anyone comfortable with uphill walking for a few hours a day should manage it."
+  - question: "Who discovered this route?"
+    answer: "It was explored in 2008 by Muhammad Ali, the founder of Karakoram Vision Pakistan, and we have been running it since. It is still one of the quietest viewpoints in the region."
+  - question: "What is the best season?"
+    answer: "June to September, when the high pastures are open and the top is clear of snow."
 key_facts: []
 author: KVP Team
 reviewed_by: ""

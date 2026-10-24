@@ -11,6 +11,15 @@ vehicle_type: Toyota Hiace Van
 capacity: 6–10 passengers
 price_from: Route-based quote
 destination: Pakistan
+faqs:
+  - question: "How many people fit in a Hiace van?"
+    answer: "Comfortably around eight to twelve passengers with luggage, which makes it the usual choice for families and small tour groups on the Karakoram Highway."
+  - question: "Is it suitable for mountain roads?"
+    answer: "It is ideal for the main highways and sealed valley roads. For rough tracks such as Deosai or Basho, a 4x4 jeep is used instead, and we often combine the two on one trip."
+  - question: "Does it come with a driver?"
+    answer: "Yes, with an experienced driver who knows the routes. We do not offer self-drive hire."
+  - question: "Can it carry trekking equipment?"
+    answer: "Yes. There is room for duffles and expedition loads, and for larger teams we add a second vehicle or a cargo jeep. Tell us your group size and gear."
 seo:
   title: "Toyota Hiace Van Rental in Skardu | Karakoram Vision"
   description: >-
