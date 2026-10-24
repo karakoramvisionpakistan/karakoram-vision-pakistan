@@ -27,7 +27,7 @@ price_from: Request
 deposit: 50%
 price_currency: USD
 group_size: 04 +
-difficulty: Expedition
+difficulty: Challenging
 destination: "Gasherbrum-I "
 categories:
   - Expedition
@@ -105,10 +105,10 @@ faqs:
   - question: Can I climb this peak?
     answer: "It depend on your health and fitness level and also your climbing experience. "
 key_facts:
-  - label: climbing
-    value: important
-  - label: "life "
-    value: important
+  - label: ""
+    value: ""
+  - label: ""
+    value: ""
 author: KVP Office Team
 reviewed_by: "KVP Field staffs "
 last_verified: ""
@@ -128,6 +128,7 @@ seo:
   robots: climbing, photo, G1
 body: ""
 ---
+
 
 
 
