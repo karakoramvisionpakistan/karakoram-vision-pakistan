@@ -67,6 +67,10 @@
           "url": "/social-responsibility/"
         },
         {
+          "label": "Guest Reviews",
+          "url": "/guest-reviews/"
+        },
+        {
           "label": "FAQs",
           "url": "/faqs/"
         },
@@ -150,7 +154,7 @@
     ]
   },
   "bottom": {
-    "copyright_template": "\u00a9 {year} {site}. All rights reserved.",
+    "copyright_template": "© {year} {site}. All rights reserved.",
     "links": [
       {
         "label": "Terms",

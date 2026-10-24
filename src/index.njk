@@ -44,6 +44,9 @@ seo:
   {% elseif section == 'trust' and hp.trust.enabled !== false %}
   <section class="bk-trust-section"><div><p class="eyebrow">{{ hp.trust.eyebrow }}</p><h2>{{ hp.trust.heading }}</h2><p>{{ hp.trust.description }}</p></div><div class="bk-trust-grid">{% for point in hp.trust.items %}<article><strong>{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</strong><h3>{{ point.title }}</h3><p>{{ point.description }}</p></article>{% endfor %}</div></section>
 
+  {% elseif section == 'reviews' and hp.reviews.enabled !== false %}
+  {# Yeh section JS tab dikhata hai jab koi review publish ho - khali section nazar nahi aata #}
+  <section class="bk-home-section" data-reviews-section hidden><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.reviews.eyebrow }}</p><h2>{{ hp.reviews.heading }}</h2><p>{{ hp.reviews.description }}</p></div><a class="bk-heading-link" href="{{ hp.reviews.button_url or '/guest-reviews/' }}">{{ hp.reviews.button_label or 'Read all reviews' }}</a></header><div data-reviews-list data-reviews-limit="{{ hp.reviews.card_count or 3 }}" class="mt-8 grid gap-5 md:grid-cols-3"></div><script src="/assets/js/guest-reviews.js?v=11.1.0" defer></script></section>
   {% elseif section == 'guides' and hp.guides.enabled !== false %}
   <section class="bk-home-section"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.guides.eyebrow }}</p><h2>{{ hp.guides.heading }}</h2><p>{{ hp.guides.description }}</p></div><a class="bk-heading-link" href="{{ hp.guides.button_url }}">{{ hp.guides.button_label }}</a></header><div class="bk-card-grid">{% for item in collections.posts | limit(hp.guides.card_count or 6) %}{% include "components/post-card.njk" %}{% endfor %}</div></section>
 

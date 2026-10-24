@@ -2657,6 +2657,7 @@ content:
     - destinations
     - vehicles
     - trust
+    - reviews
     - guides
     - resources
     - faqs
@@ -2861,6 +2862,36 @@ content:
       - name: description
         label: Description
         type: text
+  - name: reviews
+    label: Guest reviews on homepage
+    type: object
+    fields:
+    - name: enabled
+      label: Show section
+      type: boolean
+      default: true
+      description: Reviews khud ba khud aati hain. Koi review publish na ho to section nazar nahi aayega.
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: heading
+      label: Heading
+      type: string
+    - name: description
+      label: Description
+      type: text
+    - name: button_label
+      label: Button label
+      type: string
+    - name: button_url
+      label: Button URL
+      type: string
+    - name: card_count
+      label: Reviews to show
+      type: number
+      options:
+        min: 1
+        max: 12
   - name: guides
     label: Travel guides
     type: object

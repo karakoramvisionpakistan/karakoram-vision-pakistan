@@ -1046,12 +1046,6 @@
         {
           "enabled": true,
           "target_blank": false,
-          "label": "Guest Reviews",
-          "url": "/guest-reviews/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
           "label": "Social Responsibility",
           "url": "/social-responsibility/"
         },
