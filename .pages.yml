@@ -114,11 +114,15 @@ content:
     - price_from
     - destination
   fields:
+  - name: _h_the_basics
+    label: "The basics"
+    type: heading
   - name: title
     label: Title
     type: string
     required: true
   - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
     label: Slug
     type: string
     required: true
@@ -126,6 +130,7 @@ content:
       regex: ^[a-z0-9-]+$
       message: Use lowercase letters, numbers and hyphens only.
   - name: permalink
+    hidden: true
     label: URL path
     type: string
     required: true
@@ -145,6 +150,9 @@ content:
     type: string
     default: Tours
     hidden: true
+  - name: _h_show_it_on_the_website
+    label: "Show it on the website"
+    type: heading
   - name: published
     label: Published
     type: boolean
@@ -178,27 +186,41 @@ content:
     - On request
     - Sold out
     - Draft
+  - name: _h_short_descriptions
+    label: "Short descriptions"
+    type: heading
   - name: summary
+    description: "Do ya teen line - yeh cards par aur Google par nazar aati hai."
     label: Short description
     type: text
     required: true
   - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
     label: Quick answer (AEO/GEO)
     type: text
+  - name: _h_photos
+    label: "Photos"
+    type: heading
   - name: cover_image
     label: Cover image
     type: image
   - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
     label: Cover image alt text
     type: string
   - name: gallery
+    description: "Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai."
     label: Gallery images
     type: image
     list: true
+  - name: _h_duration_price_group_size
+    label: "Duration, price & group size"
+    type: heading
   - name: duration
     label: Duration
     type: string
   - name: duration_days
+    hidden: true
     label: Duration in days
     type: number
     options:
@@ -211,6 +233,7 @@ content:
     label: Deposit
     type: string
   - name: price_currency
+    hidden: true
     label: Currency
     type: select
     options:
@@ -230,22 +253,36 @@ content:
     - Challenging
     - Strenuous
     - Expedition
+  - name: _h_destination
+    label: "Destination"
+    type: heading
   - name: destination
     label: Destination
     type: string
+  - name: _h_categories_tags
+    label: "Categories & tags"
+    type: heading
+    collapsed: true
   - name: categories
+    description: "Group banane ke liye - jaise \"Cultural\", \"Family\". Menu aur filters inhi se bante hain."
     label: Categories
     type: string
     list: true
   - name: tags
+    description: "Sirf search aur andar ke kaam ke liye - website par visitor ko nazar nahi aate."
     label: Tags
     type: string
     list: true
+  - name: _h_departure_dates
+    label: "Departure dates"
+    type: heading
+    collapsed: true
   - name: departures
     label: Departure dates
     type: date
     list: true
   - name: departure_details
+    description: "Sirf tab bharein jab fixed dates par group ja raha ho. Warna khali chhor dein."
     label: Detailed departure rows
     type: object
     list: true
@@ -268,15 +305,21 @@ content:
     - name: note
       label: Note
       type: text
+  - name: _h_highlights_inclusions_packin
+    label: "Highlights, inclusions & packing"
+    type: heading
   - name: highlights
+    description: "Chaar se chh chhoti lines - safar ki sab se khaas baatein."
     label: Highlights
     type: string
     list: true
   - name: included
+    description: "Qeemat mein kya shamil hai, ek line fi cheez."
     label: Included
     type: string
     list: true
   - name: excluded
+    description: "Qeemat mein kya shamil nahi, ek line fi cheez."
     label: Excluded
     type: string
     list: true
@@ -284,6 +327,10 @@ content:
     label: Packing list
     type: string
     list: true
+  - name: _h_extras_map_trip_leader_old_r
+    label: "Extras — map, trip leader, old reviews"
+    type: heading
+    collapsed: true
   - name: route_map_url
     label: Route map URL
     type: string
@@ -304,6 +351,7 @@ content:
       label: Biography
       type: text
   - name: reviews
+    description: "Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke \"Reviews\" wale hisse se publish hoti hain."
     label: Guest reviews
     type: object
     list: true
@@ -327,6 +375,9 @@ content:
     - name: date
       label: Date
       type: date
+  - name: _h_questions_key_facts_helps_go
+    label: "Questions & key facts (helps Google and AI)"
+    type: heading
   - name: faqs
     label: FAQs
     type: object
@@ -341,6 +392,7 @@ content:
       type: rich-text
       required: true
   - name: key_facts
+    description: "Chhoti label aur value - jaise \"Best season: May-September\". AI inhi ko seedha quote karta hai."
     label: Key facts
     type: object
     list: true
@@ -351,16 +403,24 @@ content:
     - name: value
       label: Value
       type: string
+  - name: _h_who_prepared_this_page
+    label: "Who prepared this page"
+    type: heading
+    collapsed: true
   - name: author
+    description: "Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai."
     label: Prepared by
     type: string
   - name: reviewed_by
+    description: "Kis ne check kiya. Google aur AI aise pages ko zyada ahmiyat dete hain."
     label: Reviewed by
     type: string
   - name: last_verified
+    description: "Aakhri baar kab check kiya tha. Saal mein ek do baar update kar dein."
     label: Last verified
     type: date
   - name: sources
+    description: "Hawale - sirf tab jab kisi sarkari safhe ya khabar ka hawala dena ho."
     label: Sources
     type: object
     list: true
@@ -371,6 +431,9 @@ content:
     - name: url
       label: Source URL
       type: string
+  - name: _h_search_social_sharing
+    label: "Search & social sharing"
+    type: heading
   - name: seo
     label: SEO, GEO, AEO & Social
     type: object
@@ -394,6 +457,9 @@ content:
     - name: social_image
       label: Social/OG image
       type: image
+  - name: _h_full_content_itinerary
+    label: "Full content / itinerary"
+    type: heading
   - name: body
     label: Full content / itinerary
     type: rich-text
@@ -419,11 +485,15 @@ content:
     - price_from
     - destination
   fields:
+  - name: _h_the_basics
+    label: "The basics"
+    type: heading
   - name: title
     label: Title
     type: string
     required: true
   - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
     label: Slug
     type: string
     required: true
@@ -431,6 +501,7 @@ content:
       regex: ^[a-z0-9-]+$
       message: Use lowercase letters, numbers and hyphens only.
   - name: permalink
+    hidden: true
     label: URL path
     type: string
     required: true
@@ -450,6 +521,9 @@ content:
     type: string
     default: Trekking
     hidden: true
+  - name: _h_show_it_on_the_website
+    label: "Show it on the website"
+    type: heading
   - name: published
     label: Published
     type: boolean
@@ -483,27 +557,41 @@ content:
     - On request
     - Sold out
     - Draft
+  - name: _h_short_descriptions
+    label: "Short descriptions"
+    type: heading
   - name: summary
+    description: "Do ya teen line - yeh cards par aur Google par nazar aati hai."
     label: Short description
     type: text
     required: true
   - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
     label: Quick answer (AEO/GEO)
     type: text
+  - name: _h_photos
+    label: "Photos"
+    type: heading
   - name: cover_image
     label: Cover image
     type: image
   - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
     label: Cover image alt text
     type: string
   - name: gallery
+    description: "Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai."
     label: Gallery images
     type: image
     list: true
+  - name: _h_duration_price_group_size
+    label: "Duration, price & group size"
+    type: heading
   - name: duration
     label: Duration
     type: string
   - name: duration_days
+    hidden: true
     label: Duration in days
     type: number
     options:
@@ -516,6 +604,7 @@ content:
     label: Deposit
     type: string
   - name: price_currency
+    hidden: true
     label: Currency
     type: select
     options:
@@ -535,22 +624,36 @@ content:
     - Challenging
     - Strenuous
     - Expedition
+  - name: _h_destination
+    label: "Destination"
+    type: heading
   - name: destination
     label: Destination
     type: string
+  - name: _h_categories_tags
+    label: "Categories & tags"
+    type: heading
+    collapsed: true
   - name: categories
+    description: "Group banane ke liye - jaise \"Cultural\", \"Family\". Menu aur filters inhi se bante hain."
     label: Categories
     type: string
     list: true
   - name: tags
+    description: "Sirf search aur andar ke kaam ke liye - website par visitor ko nazar nahi aate."
     label: Tags
     type: string
     list: true
+  - name: _h_departure_dates
+    label: "Departure dates"
+    type: heading
+    collapsed: true
   - name: departures
     label: Departure dates
     type: date
     list: true
   - name: departure_details
+    description: "Sirf tab bharein jab fixed dates par group ja raha ho. Warna khali chhor dein."
     label: Detailed departure rows
     type: object
     list: true
@@ -573,15 +676,21 @@ content:
     - name: note
       label: Note
       type: text
+  - name: _h_highlights_inclusions_packin
+    label: "Highlights, inclusions & packing"
+    type: heading
   - name: highlights
+    description: "Chaar se chh chhoti lines - safar ki sab se khaas baatein."
     label: Highlights
     type: string
     list: true
   - name: included
+    description: "Qeemat mein kya shamil hai, ek line fi cheez."
     label: Included
     type: string
     list: true
   - name: excluded
+    description: "Qeemat mein kya shamil nahi, ek line fi cheez."
     label: Excluded
     type: string
     list: true
@@ -589,6 +698,10 @@ content:
     label: Packing list
     type: string
     list: true
+  - name: _h_extras_map_trip_leader_old_r
+    label: "Extras — map, trip leader, old reviews"
+    type: heading
+    collapsed: true
   - name: route_map_url
     label: Route map URL
     type: string
@@ -609,6 +722,7 @@ content:
       label: Biography
       type: text
   - name: reviews
+    description: "Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke \"Reviews\" wale hisse se publish hoti hain."
     label: Guest reviews
     type: object
     list: true
@@ -632,6 +746,9 @@ content:
     - name: date
       label: Date
       type: date
+  - name: _h_questions_key_facts_helps_go
+    label: "Questions & key facts (helps Google and AI)"
+    type: heading
   - name: faqs
     label: FAQs
     type: object
@@ -646,6 +763,7 @@ content:
       type: rich-text
       required: true
   - name: key_facts
+    description: "Chhoti label aur value - jaise \"Best season: May-September\". AI inhi ko seedha quote karta hai."
     label: Key facts
     type: object
     list: true
@@ -656,16 +774,24 @@ content:
     - name: value
       label: Value
       type: string
+  - name: _h_who_prepared_this_page
+    label: "Who prepared this page"
+    type: heading
+    collapsed: true
   - name: author
+    description: "Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai."
     label: Prepared by
     type: string
   - name: reviewed_by
+    description: "Kis ne check kiya. Google aur AI aise pages ko zyada ahmiyat dete hain."
     label: Reviewed by
     type: string
   - name: last_verified
+    description: "Aakhri baar kab check kiya tha. Saal mein ek do baar update kar dein."
     label: Last verified
     type: date
   - name: sources
+    description: "Hawale - sirf tab jab kisi sarkari safhe ya khabar ka hawala dena ho."
     label: Sources
     type: object
     list: true
@@ -676,6 +802,9 @@ content:
     - name: url
       label: Source URL
       type: string
+  - name: _h_search_social_sharing
+    label: "Search & social sharing"
+    type: heading
   - name: seo
     label: SEO, GEO, AEO & Social
     type: object
@@ -699,6 +828,9 @@ content:
     - name: social_image
       label: Social/OG image
       type: image
+  - name: _h_full_content_itinerary
+    label: "Full content / itinerary"
+    type: heading
   - name: body
     label: Full content / itinerary
     type: rich-text
@@ -724,11 +856,15 @@ content:
     - price_from
     - destination
   fields:
+  - name: _h_the_basics
+    label: "The basics"
+    type: heading
   - name: title
     label: Title
     type: string
     required: true
   - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
     label: Slug
     type: string
     required: true
@@ -736,6 +872,7 @@ content:
       regex: ^[a-z0-9-]+$
       message: Use lowercase letters, numbers and hyphens only.
   - name: permalink
+    hidden: true
     label: URL path
     type: string
     required: true
@@ -755,6 +892,9 @@ content:
     type: string
     default: Expeditions
     hidden: true
+  - name: _h_show_it_on_the_website
+    label: "Show it on the website"
+    type: heading
   - name: published
     label: Published
     type: boolean
@@ -788,27 +928,41 @@ content:
     - On request
     - Sold out
     - Draft
+  - name: _h_short_descriptions
+    label: "Short descriptions"
+    type: heading
   - name: summary
+    description: "Do ya teen line - yeh cards par aur Google par nazar aati hai."
     label: Short description
     type: text
     required: true
   - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
     label: Quick answer (AEO/GEO)
     type: text
+  - name: _h_photos
+    label: "Photos"
+    type: heading
   - name: cover_image
     label: Cover image
     type: image
   - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
     label: Cover image alt text
     type: string
   - name: gallery
+    description: "Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai."
     label: Gallery images
     type: image
     list: true
+  - name: _h_duration_price_group_size
+    label: "Duration, price & group size"
+    type: heading
   - name: duration
     label: Duration
     type: string
   - name: duration_days
+    hidden: true
     label: Duration in days
     type: number
     options:
@@ -821,6 +975,7 @@ content:
     label: Deposit
     type: string
   - name: price_currency
+    hidden: true
     label: Currency
     type: select
     options:
@@ -840,22 +995,36 @@ content:
     - Challenging
     - Strenuous
     - Expedition
+  - name: _h_destination
+    label: "Destination"
+    type: heading
   - name: destination
     label: Destination
     type: string
+  - name: _h_categories_tags
+    label: "Categories & tags"
+    type: heading
+    collapsed: true
   - name: categories
+    description: "Group banane ke liye - jaise \"Cultural\", \"Family\". Menu aur filters inhi se bante hain."
     label: Categories
     type: string
     list: true
   - name: tags
+    description: "Sirf search aur andar ke kaam ke liye - website par visitor ko nazar nahi aate."
     label: Tags
     type: string
     list: true
+  - name: _h_departure_dates
+    label: "Departure dates"
+    type: heading
+    collapsed: true
   - name: departures
     label: Departure dates
     type: date
     list: true
   - name: departure_details
+    description: "Sirf tab bharein jab fixed dates par group ja raha ho. Warna khali chhor dein."
     label: Detailed departure rows
     type: object
     list: true
@@ -878,15 +1047,21 @@ content:
     - name: note
       label: Note
       type: text
+  - name: _h_highlights_inclusions_packin
+    label: "Highlights, inclusions & packing"
+    type: heading
   - name: highlights
+    description: "Chaar se chh chhoti lines - safar ki sab se khaas baatein."
     label: Highlights
     type: string
     list: true
   - name: included
+    description: "Qeemat mein kya shamil hai, ek line fi cheez."
     label: Included
     type: string
     list: true
   - name: excluded
+    description: "Qeemat mein kya shamil nahi, ek line fi cheez."
     label: Excluded
     type: string
     list: true
@@ -894,6 +1069,10 @@ content:
     label: Packing list
     type: string
     list: true
+  - name: _h_extras_map_trip_leader_old_r
+    label: "Extras — map, trip leader, old reviews"
+    type: heading
+    collapsed: true
   - name: route_map_url
     label: Route map URL
     type: string
@@ -914,6 +1093,7 @@ content:
       label: Biography
       type: text
   - name: reviews
+    description: "Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke \"Reviews\" wale hisse se publish hoti hain."
     label: Guest reviews
     type: object
     list: true
@@ -937,6 +1117,9 @@ content:
     - name: date
       label: Date
       type: date
+  - name: _h_questions_key_facts_helps_go
+    label: "Questions & key facts (helps Google and AI)"
+    type: heading
   - name: faqs
     label: FAQs
     type: object
@@ -951,6 +1134,7 @@ content:
       type: rich-text
       required: true
   - name: key_facts
+    description: "Chhoti label aur value - jaise \"Best season: May-September\". AI inhi ko seedha quote karta hai."
     label: Key facts
     type: object
     list: true
@@ -961,16 +1145,24 @@ content:
     - name: value
       label: Value
       type: string
+  - name: _h_who_prepared_this_page
+    label: "Who prepared this page"
+    type: heading
+    collapsed: true
   - name: author
+    description: "Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai."
     label: Prepared by
     type: string
   - name: reviewed_by
+    description: "Kis ne check kiya. Google aur AI aise pages ko zyada ahmiyat dete hain."
     label: Reviewed by
     type: string
   - name: last_verified
+    description: "Aakhri baar kab check kiya tha. Saal mein ek do baar update kar dein."
     label: Last verified
     type: date
   - name: sources
+    description: "Hawale - sirf tab jab kisi sarkari safhe ya khabar ka hawala dena ho."
     label: Sources
     type: object
     list: true
@@ -981,6 +1173,9 @@ content:
     - name: url
       label: Source URL
       type: string
+  - name: _h_search_social_sharing
+    label: "Search & social sharing"
+    type: heading
   - name: seo
     label: SEO, GEO, AEO & Social
     type: object
@@ -1004,6 +1199,9 @@ content:
     - name: social_image
       label: Social/OG image
       type: image
+  - name: _h_full_content_itinerary
+    label: "Full content / itinerary"
+    type: heading
   - name: body
     label: Full content / itinerary
     type: rich-text
@@ -1029,11 +1227,15 @@ content:
     - price_from
     - destination
   fields:
+  - name: _h_the_basics
+    label: "The basics"
+    type: heading
   - name: title
     label: Title
     type: string
     required: true
   - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
     label: Slug
     type: string
     required: true
@@ -1041,6 +1243,7 @@ content:
       regex: ^[a-z0-9-]+$
       message: Use lowercase letters, numbers and hyphens only.
   - name: permalink
+    hidden: true
     label: URL path
     type: string
     required: true
@@ -1060,6 +1263,9 @@ content:
     type: string
     default: Jeep Safaris
     hidden: true
+  - name: _h_show_it_on_the_website
+    label: "Show it on the website"
+    type: heading
   - name: published
     label: Published
     type: boolean
@@ -1093,27 +1299,41 @@ content:
     - On request
     - Sold out
     - Draft
+  - name: _h_short_descriptions
+    label: "Short descriptions"
+    type: heading
   - name: summary
+    description: "Do ya teen line - yeh cards par aur Google par nazar aati hai."
     label: Short description
     type: text
     required: true
   - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
     label: Quick answer (AEO/GEO)
     type: text
+  - name: _h_photos
+    label: "Photos"
+    type: heading
   - name: cover_image
     label: Cover image
     type: image
   - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
     label: Cover image alt text
     type: string
   - name: gallery
+    description: "Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai."
     label: Gallery images
     type: image
     list: true
+  - name: _h_duration_price_group_size
+    label: "Duration, price & group size"
+    type: heading
   - name: duration
     label: Duration
     type: string
   - name: duration_days
+    hidden: true
     label: Duration in days
     type: number
     options:
@@ -1126,6 +1346,7 @@ content:
     label: Deposit
     type: string
   - name: price_currency
+    hidden: true
     label: Currency
     type: select
     options:
@@ -1145,22 +1366,36 @@ content:
     - Challenging
     - Strenuous
     - Expedition
+  - name: _h_destination
+    label: "Destination"
+    type: heading
   - name: destination
     label: Destination
     type: string
+  - name: _h_categories_tags
+    label: "Categories & tags"
+    type: heading
+    collapsed: true
   - name: categories
+    description: "Group banane ke liye - jaise \"Cultural\", \"Family\". Menu aur filters inhi se bante hain."
     label: Categories
     type: string
     list: true
   - name: tags
+    description: "Sirf search aur andar ke kaam ke liye - website par visitor ko nazar nahi aate."
     label: Tags
     type: string
     list: true
+  - name: _h_departure_dates
+    label: "Departure dates"
+    type: heading
+    collapsed: true
   - name: departures
     label: Departure dates
     type: date
     list: true
   - name: departure_details
+    description: "Sirf tab bharein jab fixed dates par group ja raha ho. Warna khali chhor dein."
     label: Detailed departure rows
     type: object
     list: true
@@ -1183,15 +1418,21 @@ content:
     - name: note
       label: Note
       type: text
+  - name: _h_highlights_inclusions_packin
+    label: "Highlights, inclusions & packing"
+    type: heading
   - name: highlights
+    description: "Chaar se chh chhoti lines - safar ki sab se khaas baatein."
     label: Highlights
     type: string
     list: true
   - name: included
+    description: "Qeemat mein kya shamil hai, ek line fi cheez."
     label: Included
     type: string
     list: true
   - name: excluded
+    description: "Qeemat mein kya shamil nahi, ek line fi cheez."
     label: Excluded
     type: string
     list: true
@@ -1199,6 +1440,10 @@ content:
     label: Packing list
     type: string
     list: true
+  - name: _h_extras_map_trip_leader_old_r
+    label: "Extras — map, trip leader, old reviews"
+    type: heading
+    collapsed: true
   - name: route_map_url
     label: Route map URL
     type: string
@@ -1219,6 +1464,7 @@ content:
       label: Biography
       type: text
   - name: reviews
+    description: "Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke \"Reviews\" wale hisse se publish hoti hain."
     label: Guest reviews
     type: object
     list: true
@@ -1242,6 +1488,9 @@ content:
     - name: date
       label: Date
       type: date
+  - name: _h_questions_key_facts_helps_go
+    label: "Questions & key facts (helps Google and AI)"
+    type: heading
   - name: faqs
     label: FAQs
     type: object
@@ -1256,6 +1505,7 @@ content:
       type: rich-text
       required: true
   - name: key_facts
+    description: "Chhoti label aur value - jaise \"Best season: May-September\". AI inhi ko seedha quote karta hai."
     label: Key facts
     type: object
     list: true
@@ -1266,16 +1516,24 @@ content:
     - name: value
       label: Value
       type: string
+  - name: _h_who_prepared_this_page
+    label: "Who prepared this page"
+    type: heading
+    collapsed: true
   - name: author
+    description: "Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai."
     label: Prepared by
     type: string
   - name: reviewed_by
+    description: "Kis ne check kiya. Google aur AI aise pages ko zyada ahmiyat dete hain."
     label: Reviewed by
     type: string
   - name: last_verified
+    description: "Aakhri baar kab check kiya tha. Saal mein ek do baar update kar dein."
     label: Last verified
     type: date
   - name: sources
+    description: "Hawale - sirf tab jab kisi sarkari safhe ya khabar ka hawala dena ho."
     label: Sources
     type: object
     list: true
@@ -1286,6 +1544,9 @@ content:
     - name: url
       label: Source URL
       type: string
+  - name: _h_search_social_sharing
+    label: "Search & social sharing"
+    type: heading
   - name: seo
     label: SEO, GEO, AEO & Social
     type: object
@@ -1309,6 +1570,9 @@ content:
     - name: social_image
       label: Social/OG image
       type: image
+  - name: _h_full_content_itinerary
+    label: "Full content / itinerary"
+    type: heading
   - name: body
     label: Full content / itinerary
     type: rich-text
@@ -1334,11 +1598,15 @@ content:
     - price_from
     - destination
   fields:
+  - name: _h_the_basics
+    label: "The basics"
+    type: heading
   - name: title
     label: Title
     type: string
     required: true
   - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
     label: Slug
     type: string
     required: true
@@ -1346,6 +1614,7 @@ content:
       regex: ^[a-z0-9-]+$
       message: Use lowercase letters, numbers and hyphens only.
   - name: permalink
+    hidden: true
     label: URL path
     type: string
     required: true
@@ -1365,6 +1634,9 @@ content:
     type: string
     default: Licensed Hunting Services
     hidden: true
+  - name: _h_show_it_on_the_website
+    label: "Show it on the website"
+    type: heading
   - name: published
     label: Published
     type: boolean
@@ -1398,27 +1670,41 @@ content:
     - On request
     - Sold out
     - Draft
+  - name: _h_short_descriptions
+    label: "Short descriptions"
+    type: heading
   - name: summary
+    description: "Do ya teen line - yeh cards par aur Google par nazar aati hai."
     label: Short description
     type: text
     required: true
   - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
     label: Quick answer (AEO/GEO)
     type: text
+  - name: _h_photos
+    label: "Photos"
+    type: heading
   - name: cover_image
     label: Cover image
     type: image
   - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
     label: Cover image alt text
     type: string
   - name: gallery
+    description: "Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai."
     label: Gallery images
     type: image
     list: true
+  - name: _h_duration_price_group_size
+    label: "Duration, price & group size"
+    type: heading
   - name: duration
     label: Duration
     type: string
   - name: duration_days
+    hidden: true
     label: Duration in days
     type: number
     options:
@@ -1431,6 +1717,7 @@ content:
     label: Deposit
     type: string
   - name: price_currency
+    hidden: true
     label: Currency
     type: select
     options:
@@ -1450,22 +1737,36 @@ content:
     - Challenging
     - Strenuous
     - Expedition
+  - name: _h_destination
+    label: "Destination"
+    type: heading
   - name: destination
     label: Destination
     type: string
+  - name: _h_categories_tags
+    label: "Categories & tags"
+    type: heading
+    collapsed: true
   - name: categories
+    description: "Group banane ke liye - jaise \"Cultural\", \"Family\". Menu aur filters inhi se bante hain."
     label: Categories
     type: string
     list: true
   - name: tags
+    description: "Sirf search aur andar ke kaam ke liye - website par visitor ko nazar nahi aate."
     label: Tags
     type: string
     list: true
+  - name: _h_departure_dates
+    label: "Departure dates"
+    type: heading
+    collapsed: true
   - name: departures
     label: Departure dates
     type: date
     list: true
   - name: departure_details
+    description: "Sirf tab bharein jab fixed dates par group ja raha ho. Warna khali chhor dein."
     label: Detailed departure rows
     type: object
     list: true
@@ -1488,15 +1789,21 @@ content:
     - name: note
       label: Note
       type: text
+  - name: _h_highlights_inclusions_packin
+    label: "Highlights, inclusions & packing"
+    type: heading
   - name: highlights
+    description: "Chaar se chh chhoti lines - safar ki sab se khaas baatein."
     label: Highlights
     type: string
     list: true
   - name: included
+    description: "Qeemat mein kya shamil hai, ek line fi cheez."
     label: Included
     type: string
     list: true
   - name: excluded
+    description: "Qeemat mein kya shamil nahi, ek line fi cheez."
     label: Excluded
     type: string
     list: true
@@ -1504,6 +1811,10 @@ content:
     label: Packing list
     type: string
     list: true
+  - name: _h_extras_map_trip_leader_old_r
+    label: "Extras — map, trip leader, old reviews"
+    type: heading
+    collapsed: true
   - name: route_map_url
     label: Route map URL
     type: string
@@ -1524,6 +1835,7 @@ content:
       label: Biography
       type: text
   - name: reviews
+    description: "Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke \"Reviews\" wale hisse se publish hoti hain."
     label: Guest reviews
     type: object
     list: true
@@ -1547,6 +1859,9 @@ content:
     - name: date
       label: Date
       type: date
+  - name: _h_questions_key_facts_helps_go
+    label: "Questions & key facts (helps Google and AI)"
+    type: heading
   - name: faqs
     label: FAQs
     type: object
@@ -1561,6 +1876,7 @@ content:
       type: rich-text
       required: true
   - name: key_facts
+    description: "Chhoti label aur value - jaise \"Best season: May-September\". AI inhi ko seedha quote karta hai."
     label: Key facts
     type: object
     list: true
@@ -1571,16 +1887,24 @@ content:
     - name: value
       label: Value
       type: string
+  - name: _h_who_prepared_this_page
+    label: "Who prepared this page"
+    type: heading
+    collapsed: true
   - name: author
+    description: "Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai."
     label: Prepared by
     type: string
   - name: reviewed_by
+    description: "Kis ne check kiya. Google aur AI aise pages ko zyada ahmiyat dete hain."
     label: Reviewed by
     type: string
   - name: last_verified
+    description: "Aakhri baar kab check kiya tha. Saal mein ek do baar update kar dein."
     label: Last verified
     type: date
   - name: sources
+    description: "Hawale - sirf tab jab kisi sarkari safhe ya khabar ka hawala dena ho."
     label: Sources
     type: object
     list: true
@@ -1591,6 +1915,9 @@ content:
     - name: url
       label: Source URL
       type: string
+  - name: _h_search_social_sharing
+    label: "Search & social sharing"
+    type: heading
   - name: seo
     label: SEO, GEO, AEO & Social
     type: object
@@ -1614,6 +1941,9 @@ content:
     - name: social_image
       label: Social/OG image
       type: image
+  - name: _h_full_content_itinerary
+    label: "Full content / itinerary"
+    type: heading
   - name: body
     label: Full content / itinerary
     type: rich-text
@@ -1636,16 +1966,21 @@ content:
     - featured
     - date
   fields:
+  - name: _h_the_basics
+    label: "The basics"
+    type: heading
   - name: title
     label: Title
     type: string
     required: true
   - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
     label: Slug
     type: string
     required: true
     pattern: ^[a-z0-9-]+$
   - name: permalink
+    hidden: true
     label: URL path
     type: string
     required: true
@@ -1654,6 +1989,9 @@ content:
     type: string
     default: layouts/post.njk
     hidden: true
+  - name: _h_show_it_on_the_website
+    label: "Show it on the website"
+    type: heading
   - name: published
     label: Published
     type: boolean
@@ -1665,24 +2003,39 @@ content:
   - name: date
     label: Publication date
     type: date
+  - name: _h_description_photo
+    label: "Description & photo"
+    type: heading
   - name: summary
+    description: "Do ya teen line - yeh cards par aur Google par nazar aati hai."
     label: Summary
     type: text
   - name: cover_image
     label: Featured image
     type: image
   - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
     label: Image alt text
     type: string
+  - name: _h_categories_tags
+    label: "Categories & tags"
+    type: heading
+    collapsed: true
   - name: categories
+    description: "Group banane ke liye - jaise \"Cultural\", \"Family\". Menu aur filters inhi se bante hain."
     label: Categories
     type: string
     list: true
   - name: tags
+    description: "Sirf search aur andar ke kaam ke liye - website par visitor ko nazar nahi aate."
     label: Tags
     type: string
     list: true
+  - name: _h_questions_quick_answer_helps
+    label: "Questions & quick answer (helps Google and AI)"
+    type: heading
   - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
     label: Quick answer
     type: text
   - name: faqs
@@ -1698,15 +2051,25 @@ content:
       label: Answer
       type: rich-text
       required: true
+  - name: _h_who_prepared_this_page
+    label: "Who prepared this page"
+    type: heading
+    collapsed: true
   - name: author
+    description: "Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai."
     label: Author
     type: string
   - name: reviewed_by
+    description: "Kis ne check kiya. Google aur AI aise pages ko zyada ahmiyat dete hain."
     label: Reviewed by
     type: string
   - name: last_verified
+    description: "Aakhri baar kab check kiya tha. Saal mein ek do baar update kar dein."
     label: Last verified
     type: date
+  - name: _h_search_social_sharing
+    label: "Search & social sharing"
+    type: heading
   - name: seo
     label: SEO, GEO, AEO & Social
     type: object
@@ -1730,6 +2093,9 @@ content:
     - name: social_image
       label: Social/OG image
       type: image
+  - name: _h_article_content
+    label: "Article content"
+    type: heading
   - name: body
     label: Article content
     type: rich-text
@@ -1753,15 +2119,20 @@ content:
     - capacity
     - price_from
   fields:
+  - name: _h_the_basics
+    label: "The basics"
+    type: heading
   - name: title
     label: Vehicle name
     type: string
     required: true
   - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
     label: Slug
     type: string
     required: true
   - name: permalink
+    hidden: true
     label: URL path
     type: string
     required: true
@@ -1770,6 +2141,9 @@ content:
     type: string
     default: layouts/vehicle.njk
     hidden: true
+  - name: _h_show_it_on_the_website
+    label: "Show it on the website"
+    type: heading
   - name: published
     label: Published
     type: boolean
@@ -1778,16 +2152,24 @@ content:
     label: Featured
     type: boolean
     default: false
+  - name: _h_description_photos
+    label: "Description & photos"
+    type: heading
   - name: summary
+    description: "Do ya teen line - yeh cards par aur Google par nazar aati hai."
     label: Summary
     type: text
   - name: cover_image
     label: Cover image
     type: image
   - name: gallery
+    description: "Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai."
     label: Gallery
     type: image
     list: true
+  - name: _h_vehicle_details
+    label: "Vehicle details"
+    type: heading
   - name: capacity
     label: Passenger capacity
     type: string
@@ -1804,6 +2186,9 @@ content:
     label: Features
     type: string
     list: true
+  - name: _h_search_social_sharing
+    label: "Search & social sharing"
+    type: heading
   - name: seo
     label: SEO
     type: object
@@ -1827,11 +2212,14 @@ content:
     - name: social_image
       label: Social/OG image
       type: image
+  - name: _h_full_description
+    label: "Full description"
+    type: heading
   - name: body
     label: Full description
     type: rich-text
 - name: pages
-  label: General, Destination, Hotel & Policy Pages
+  label: Pages (About, Destinations, Policies)
   type: collection
   path: src/content/pages
   filename:
@@ -1849,11 +2237,15 @@ content:
     - permalink
     - featured
   fields:
+  - name: _h_the_basics
+    label: "The basics"
+    type: heading
   - name: title
     label: Page title
     type: string
     required: true
   - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
     label: Slug
     type: string
     required: true
@@ -1865,6 +2257,9 @@ content:
     label: Layout
     type: string
     default: layouts/page.njk
+  - name: _h_show_it_on_the_website
+    label: "Show it on the website"
+    type: heading
   - name: published
     label: Published
     type: boolean
@@ -1873,20 +2268,34 @@ content:
     label: Featured
     type: boolean
     default: false
+  - name: _h_description_photo
+    label: "Description & photo"
+    type: heading
   - name: summary
+    description: "Do ya teen line - yeh cards par aur Google par nazar aati hai."
     label: Summary
     type: text
   - name: cover_image
     label: Cover/hero image
     type: image
   - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
     label: Image alt text
     type: string
+  - name: _h_categories
+    label: "Categories"
+    type: heading
+    collapsed: true
   - name: categories
+    description: "Group banane ke liye - jaise \"Cultural\", \"Family\". Menu aur filters inhi se bante hain."
     label: Categories
     type: string
     list: true
+  - name: _h_questions_quick_answer_helps
+    label: "Questions & quick answer (helps Google and AI)"
+    type: heading
   - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
     label: Quick answer
     type: text
   - name: faqs
@@ -1902,6 +2311,9 @@ content:
       label: Answer
       type: rich-text
       required: true
+  - name: _h_search_social_sharing
+    label: "Search & social sharing"
+    type: heading
   - name: seo
     label: SEO, GEO, AEO & Social
     type: object
@@ -1925,11 +2337,14 @@ content:
     - name: social_image
       label: Social/OG image
       type: image
+  - name: _h_page_content
+    label: "Page content"
+    type: heading
   - name: body
     label: Page content
     type: rich-text
 - name: site
-  label: 01 — Site Identity, Logos, Contacts & Social
+  label: 01 — Business name & description
   type: file
   path: src/_data/site.json
   operations:
@@ -1943,15 +2358,24 @@ content:
   - name: tagline
     label: Tagline
     type: string
-  - name: url
-    label: Live website URL
-    type: string
   - name: description
     label: Default website description
     type: text
+  - name: url
+    label: Live website URL
+    type: string
   - name: language
     label: Default language code
     type: string
+
+- name: site_logos
+  label: 02 — Logos & favicon
+  type: file
+  path: src/_data/site.json
+  operations:
+    delete: false
+    rename: false
+  fields:
   - name: logo
     label: Main logo
     type: image
@@ -1967,34 +2391,39 @@ content:
   - name: favicon
     label: Favicon
     type: image
-  - name: email
-    label: Public email
-    type: string
-  - name: booking_email
-    label: Booking email
-    type: string
+
+- name: site_contact
+  label: 03 — Phone, email & address
+  type: file
+  path: src/_data/site.json
+  operations:
+    delete: false
+    rename: false
+  fields:
   - name: phone
     label: Phone
     type: string
   - name: phone_secondary
     label: Alternate phone
     type: string
+  - name: email
+    label: Public email
+    type: string
+  - name: booking_email
+    label: Booking email
+    type: string
   - name: address
     label: Primary office address
     type: text
-  - name: forms
-    label: Form endpoints
-    type: object
-    fields:
-    - name: booking_google_form
-      label: Booking Google Form URL
-      type: string
-    - name: contact_formspree
-      label: Contact Formspree endpoint
-      type: string
-    - name: newsletter_formspree
-      label: Newsletter Formspree endpoint
-      type: string
+
+- name: site_channels
+  label: 04 — WhatsApp & chat channels
+  type: file
+  path: src/_data/site.json
+  operations:
+    delete: false
+    rename: false
+  fields:
   - name: contact
     label: International messaging applications
     type: object
@@ -2041,6 +2470,25 @@ content:
     - name: skype
       label: Skype ID/URL
       type: string
+  - name: tawk
+    label: Tawk.to live chat
+    type: object
+    fields:
+    - name: property_id
+      label: Property ID
+      type: string
+    - name: widget_id
+      label: Widget ID
+      type: string
+
+- name: site_social
+  label: 05 — Social media links
+  type: file
+  path: src/_data/site.json
+  operations:
+    delete: false
+    rename: false
+  fields:
   - name: social
     label: Social accounts
     type: object
@@ -2078,6 +2526,40 @@ content:
     - name: bluesky
       label: Bluesky URL
       type: string
+
+- name: site_ratings
+  label: 06 — Review & rating links
+  type: file
+  path: src/_data/site.json
+  operations:
+    delete: false
+    rename: false
+  fields:
+  - name: ratings
+    label: Review profiles
+    type: object
+    fields:
+    - name: google_score
+      label: Google score
+      type: string
+    - name: google_url
+      label: Google reviews URL
+      type: string
+    - name: tripadvisor_score
+      label: Tripadvisor score
+      type: string
+    - name: tripadvisor_url
+      label: Tripadvisor reviews URL
+      type: string
+
+- name: site_business
+  label: 07 — Business details & map location
+  type: file
+  path: src/_data/site.json
+  operations:
+    delete: false
+    rename: false
+  fields:
   - name: business
     label: Business/legal details
     type: object
@@ -2122,6 +2604,28 @@ content:
       label: Service areas
       type: string
       list: true
+
+- name: site_verification
+  label: 08 — Google/Bing verification & sharing
+  type: file
+  path: src/_data/site.json
+  operations:
+    delete: false
+    rename: false
+  fields:
+  - name: verification
+    label: Search verification
+    type: object
+    fields:
+    - name: google
+      label: Google verification token
+      type: string
+    - name: bing
+      label: Bing verification token
+      type: string
+    - name: yandex
+      label: Yandex verification token
+      type: string
   - name: seo
     label: Global SEO
     type: object
@@ -2138,44 +2642,89 @@ content:
     - name: default_reviewer
       label: Default reviewer
       type: string
-  - name: verification
-    label: Search verification
+
+- name: site_faqs
+  label: 09 — Homepage questions & answers
+  type: file
+  path: src/_data/site.json
+  operations:
+    delete: false
+    rename: false
+  fields:
+  - name: home_faqs
+    label: Global/home FAQs
+    type: object
+    list: true
+    fields:
+    - name: question
+      label: Question
+      type: string
+      required: true
+    - name: answer
+      label: Answer
+      type: rich-text
+      required: true
+
+- name: site_team
+  label: 10 — Team members
+  type: file
+  path: src/_data/site.json
+  operations:
+    delete: false
+    rename: false
+  fields:
+  - name: team
+    label: Team members
+    type: object
+    list: true
+    fields:
+    - name: name
+      label: Name
+      type: string
+    - name: role
+      label: Role
+      type: string
+    - name: photo
+      label: Photo
+      type: image
+    - name: bio
+      label: Bio
+      type: text
+    - name: email
+      label: Email
+      type: string
+
+- name: site_advanced
+  label: 11 — Advanced (leave alone unless asked)
+  type: file
+  path: src/_data/site.json
+  operations:
+    delete: false
+    rename: false
+  fields:
+  - name: forms
+    label: Form endpoints
     type: object
     fields:
-    - name: google
-      label: Google verification token
+    - name: booking_google_form
+      label: Booking Google Form URL
       type: string
-    - name: bing
-      label: Bing verification token
+    - name: contact_formspree
+      label: Contact Formspree endpoint
       type: string
-    - name: yandex
-      label: Yandex verification token
+    - name: newsletter_formspree
+      label: Newsletter Formspree endpoint
       type: string
-  - name: ratings
-    label: Review profiles
+  - name: navigation
+    label: Homepage service cards (legacy fallback)
     type: object
+    list: true
     fields:
-    - name: google_score
-      label: Google score
+    - name: label
+      label: Label
       type: string
-    - name: google_url
-      label: Google reviews URL
-      type: string
-    - name: tripadvisor_score
-      label: Tripadvisor score
-      type: string
-    - name: tripadvisor_url
-      label: Tripadvisor reviews URL
-      type: string
-  - name: tawk
-    label: Tawk.to live chat
-    type: object
-    fields:
-    - name: property_id
-      label: Property ID
-      type: string
-    - name: widget_id
-      label: Widget ID
+    - name: url
+      label: URL
       type: string
   - name: performance
     label: Performance settings
@@ -2203,52 +2752,9 @@ content:
     - name: content_license
       label: Content license statement
       type: text
-  - name: navigation
-    label: Homepage service cards (legacy fallback)
-    type: object
-    list: true
-    fields:
-    - name: label
-      label: Label
-      type: string
-    - name: url
-      label: URL
-      type: string
-  - name: home_faqs
-    label: Global/home FAQs
-    type: object
-    list: true
-    fields:
-    - name: question
-      label: Question
-      type: string
-      required: true
-    - name: answer
-      label: Answer
-      type: rich-text
-      required: true
-  - name: team
-    label: Team members
-    type: object
-    list: true
-    fields:
-    - name: name
-      label: Name
-      type: string
-    - name: role
-      label: Role
-      type: string
-    - name: photo
-      label: Photo
-      type: image
-    - name: bio
-      label: Bio
-      type: text
-    - name: email
-      label: Email
-      type: string
+
 - name: site_header
-  label: 02 — Header & Top Bar
+  label: 12 — Header & top bar
   type: file
   path: src/_data/siteHeader.json
   operations:
@@ -2363,7 +2869,7 @@ content:
       label: Mobile menu button label
       type: string
 - name: navigation
-  label: 03 — Navbar & Multi-level Menus
+  label: 13 — Menus (what shows in the navbar)
   type: file
   path: src/_data/menu.json
   operations:
@@ -2452,7 +2958,7 @@ content:
           type: boolean
           default: false
 - name: site_footer
-  label: 04 — Footer, Newsletter & Link Columns
+  label: 14 — Footer & newsletter
   type: file
   path: src/_data/siteFooter.json
   operations:
@@ -2611,7 +3117,7 @@ content:
         type: boolean
         default: true
 - name: homepage
-  label: 05 — Homepage Builder & Section Order
+  label: 15 — Homepage sections & their order
   type: file
   path: src/_data/homePage.json
   operations:
@@ -2999,7 +3505,7 @@ content:
       label: Button URL
       type: string
 - name: theme
-  label: 06 — Theme Colors, Radius & Spacing
+  label: 16 — Colours, corners & spacing
   type: file
   path: src/_data/theme.json
   operations:
@@ -3081,7 +3587,7 @@ content:
       min: 900
       max: 1800
 - name: forms
-  label: 07 — Forms, Labels & Required Fields
+  label: 17 — Enquiry forms & their boxes
   type: file
   path: src/_data/formsConfig.json
   operations:
@@ -3350,7 +3856,7 @@ content:
       label: Endpoint help message
       type: text
 - name: taxonomies
-  label: 08 — Categories, Statuses & Taxonomy Lists
+  label: 18 — Categories, statuses & dropdown lists
   type: file
   path: src/_data/taxonomies.json
   operations:
