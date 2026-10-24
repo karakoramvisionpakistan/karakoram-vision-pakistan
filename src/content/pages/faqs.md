@@ -14,7 +14,8 @@ reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
   title: "Pakistan Travel FAQs: Visa & Permits | Karakoram Vision"
-  description: Answers about private dates, prices, transport, weather and booking a Pakistan mountain journey.
+  description: >-
+    Visas, permits, safety, altitude, costs, best season and how booking works - straight answers to the questions travellers ask us most about Pakistan.
   keywords: ""
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

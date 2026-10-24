@@ -123,8 +123,7 @@ sources:
 seo:
   title: "Gasherbrum I Expedition - 50 Days | Karakoram Vision"
   description: >-
-    Climb Gasherbrum-I 8080M (K5) with Karakoram Vision Pakistan team to make your climbing more
-    safe and secure. 
+    Gasherbrum I, Hidden Peak, 8,080m: a 50-day expedition with permits, Baltoro approach, base camp and high-altitude support. Ask for the full cost sheet.
   keywords: >-
     Gasherbrum, G1, Climbing, Tourist, VisitinPakistan, karakoram, mountaineering, trekking, Tours,
     GilgitBaltistan, K5

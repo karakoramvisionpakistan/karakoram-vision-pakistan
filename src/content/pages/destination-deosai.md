@@ -14,7 +14,8 @@ reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
   title: "Deosai National Park Guide & Trips | Karakoram Vision"
-  description: Deosai is a seasonal high-altitude plateau reached from Skardu and other authorized approaches.
+  description: >-
+    Deosai National Park guide: when the plateau opens, how to reach it from Skardu, the wildlife to look for, and the trips that include it.
   keywords: deosai, Gilgit-Baltistan destination
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

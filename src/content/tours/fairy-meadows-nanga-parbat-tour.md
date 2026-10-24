@@ -79,8 +79,7 @@ last_verified: "2026-06-14"
 seo:
   title: "Fairy Meadows Tour, Nanga Parbat - 8 Days | Karakoram Vision"
   description: >-
-    A six-day road-and-walk journey to Fairy Meadows with clear views toward Nanga Parbat and the
-    Raikot face.
+    Eight days to Fairy Meadows and the Raikot face of Nanga Parbat, with jeep transfer and an easy walk to the viewpoint. Ask for dates, hotels and costs.
   keywords: Fairy Meadows, Nanga Parbat, family adventure, short trek
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

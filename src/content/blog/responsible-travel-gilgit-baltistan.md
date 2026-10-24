@@ -33,8 +33,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Responsible Travel in Gilgit-Baltistan | Karakoram Vision"
   description: >-
-    Simple practices that help visitors respect communities, protected landscapes and mountain waste
-    systems.
+    Small things that make a real difference in Gilgit-Baltistan: waste, water, photography, dress, and spending that actually reaches local families.
   keywords: responsible travel, local communities, leave no trace
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

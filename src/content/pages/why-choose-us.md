@@ -19,8 +19,7 @@ last_verified: "2026-07-14"
 seo:
   title: Why Travel With Us | Karakoram Vision Pakistan
   description: >-
-    Local Skardu knowledge, flexible private planning and direct communication for journeys across
-    Gilgit-Baltistan.
+    A local Skardu team, private dates, and direct answers from the people who actually run your trip - no middlemen between you and the mountain.
   keywords: ""
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

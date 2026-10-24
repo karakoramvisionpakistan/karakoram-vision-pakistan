@@ -81,8 +81,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Spantik Golden Peak Expedition - 35 Days | Karakoram Vision"
   description: >-
-    A supported expedition plan for Spantik Peak with permit coordination, approach trekking,
-    base-camp logistics and weather contingency.
+    Spantik, the Golden Peak, 7,027m in 35 days - a realistic first 7,000er with full base camp support. Ask for dates, costs and the acclimatisation plan.
   keywords: Spantik, 7000m expedition, mountaineering, Karakoram
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

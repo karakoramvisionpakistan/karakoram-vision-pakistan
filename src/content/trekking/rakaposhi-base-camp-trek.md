@@ -79,8 +79,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Rakaposhi Base Camp Trek - 7 Days | Karakoram Vision"
   description: >-
-    A seven-day moderate trekking programme from Minapin toward Rakaposhi base camp with Nagar
-    Valley scenery.
+    Seven days from Minapin up to Rakaposhi base camp, with glacier views over Nagar valley. A good first Karakoram trek. Ask for dates, costs and the plan.
   keywords: Rakaposhi, Nagar, base camp, moderate trek
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

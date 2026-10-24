@@ -71,7 +71,8 @@ last_verified: "2026-09-20"
 sources: []
 seo:
   title: "Mountains & Villages Safari - 22 Days | Karakoram Vision"
-  description: To see the Gilgit Baltistan regions, Chitral and Swat valley by road trip
+  description: >-
+    A 22-day road trip from Islamabad through Gilgit-Baltistan, Chitral and Swat - high passes, villages and valleys at an easy pace. Ask for the route plan.
   keywords: safari, roadtrip, sightseeing, village, mountain, chitral, kailash, swat
   robots: ""
   canonical: ""

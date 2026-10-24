@@ -13,7 +13,8 @@ price_from: Route-based quote
 destination: Pakistan
 seo:
   title: "Coaster Rental for Groups, Skardu | Karakoram Vision"
-  description: On-request group transport for larger tour parties, subject to route suitability.
+  description: >-
+    Hire a Coaster bus with driver for larger groups on tours, airport transfers and long mountain road journeys in Pakistan. Ask for route and rate.
   keywords: Pakistan transport, mountain vehicle, group transfer
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

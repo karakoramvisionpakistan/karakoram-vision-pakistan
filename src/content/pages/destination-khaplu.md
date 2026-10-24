@@ -14,7 +14,8 @@ reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
   title: "Khaplu & Shyok Valley Travel Guide | Karakoram Vision"
-  description: Khaplu combines palace and mosque heritage with Shyok Valley landscapes and access toward Hushe.
+  description: >-
+    Khaplu travel guide: the restored palace, Shyok valley drives, the Hushe road toward the big peaks, and the best months to visit Baltistan.
   keywords: khaplu, Gilgit-Baltistan destination
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

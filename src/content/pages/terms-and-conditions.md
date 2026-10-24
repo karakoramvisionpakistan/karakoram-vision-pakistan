@@ -14,7 +14,8 @@ reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
   title: Terms and Conditions | Karakoram Vision Pakistan
-  description: General website and booking terms for Karakoram Vision Pakistan travel services.
+  description: >-
+    Booking and website terms for Karakoram Vision Pakistan: what we provide, what is expected of travellers, and how changes are handled.
   keywords: ""
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

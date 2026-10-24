@@ -79,8 +79,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Deosai Jeep Safari from Skardu - 5 Days | Karakoram Vision"
   description: >-
-    A five-day 4x4 programme through Skardu and the Deosai Plateau, operated only when seasonal
-    roads are officially open.
+    Five days by 4x4 from Skardu across the Deosai plateau, the Land of Giants, with lake stops and a chance of brown bear. Ask for open-season dates.
   keywords: Deosai, jeep safari, 4x4, Skardu
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

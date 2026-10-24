@@ -64,7 +64,8 @@ last_verified: "2026-09-18"
 sources: []
 seo:
   title: "Trango Tower Expedition - 33 Days | Karakoram Vision"
-  description: Rock Walls, Trango Towers
+  description: >-
+    Trango Tower expedition, 33 days of big-wall climbing on the great granite walls of Baltoro, with permits, porters and base-camp support from Skardu.
   keywords: rockclimbing, trango, towers, karakoram
 body: ""
 ---

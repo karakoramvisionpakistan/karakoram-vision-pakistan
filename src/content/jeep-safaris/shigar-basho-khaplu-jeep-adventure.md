@@ -79,8 +79,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Shigar & Khaplu Jeep Safari - 6 Days | Karakoram Vision"
   description: >-
-    A six-day private jeep journey combining Shigar heritage, Basho landscapes and the Shyok Valley
-    road to Khaplu.
+    Six days by jeep through Shigar, the Basho meadows and the Shyok valley to Khaplu palace. Private vehicle and driver. Ask for dates, hotels and costs.
   keywords: Shigar, Basho, Khaplu, jeep adventure
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

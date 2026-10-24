@@ -66,14 +66,7 @@ sources: []
 seo:
   title: "Majrooh Top Trek, Skardu - 10 Days | Karakoram Vision"
   description: >-
-    This route is a newly discovered, non-technical route, explored by Mr. Muhammad Ali Majrooh CEO
-    of Karakoram Vision Pakistan in 2008. This is the shortest possible trek in the area to see
-    central Karakoram Mountains including K-2, the second highest in the world and G-II, Broad peak,
-    Mashabrum and etc. Majrooh Top is at minimum 4850 meters having less traveled and still lesser
-    known trek in the vicinity of Kanday village. Five hours jeep drives take you to the Kanday
-    village from Skardu. The trek begins from the village for two days ascend through the summer
-    settlements to the top and two days descend to Kanday village for return road journey to Skardu
-    and Islamabad.
+    Majrooh Top trek, 10 easy days to 4,850m with wide Karakoram views. A short, non-technical route first explored by our own team, guided from Skardu.
   keywords: "Trekking, Tours, Sightseeing, Karakoramrange, "
 body: ""
 ---

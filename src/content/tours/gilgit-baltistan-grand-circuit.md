@@ -79,8 +79,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Gilgit-Baltistan Tour - 14 Days | Karakoram Vision"
   description: >-
-    A twelve-day private circuit covering Gilgit, Hunza, Skardu, Shigar and Khaplu with scenic road
-    travel.
+    A 14-day private circuit of Gilgit, Hunza, Skardu, Shigar and Khaplu along the Karakoram Highway. Hotels, 4x4 and guide included. Ask for dates and costs.
   keywords: Gilgit-Baltistan, Hunza, Skardu, grand tour
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

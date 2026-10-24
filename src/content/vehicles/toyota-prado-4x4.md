@@ -16,8 +16,7 @@ destination: Pakistan
 seo:
   title: "Toyota Prado 4x4 Rental in Skardu | Karakoram Vision"
   description: >-
-    Comfortable 4x4 transport for private road journeys, airport transfers and selected mountain
-    routes.
+    Hire a Toyota Prado 4x4 with an experienced mountain driver for Skardu, Deosai, Hunza and Khaplu roads. Daily or full-trip rates. Ask for a quote.
   keywords: Pakistan transport, mountain vehicle, group transfer
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

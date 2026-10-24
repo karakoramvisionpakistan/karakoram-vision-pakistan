@@ -57,7 +57,8 @@ last_verified: "2026-09-22"
 sources: []
 seo:
   title: "Biafo Hispar Pass Trek - 22 Days | Karakoram Vision"
-  description: ""
+  description: >-
+    Biafo Hispar Pass trek, 22 days across the longest glacier system outside the poles, with Skardu logistics, permits and guides from Karakoram Vision.
 body: ""
 ---
 

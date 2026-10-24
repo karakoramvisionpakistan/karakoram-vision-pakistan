@@ -33,8 +33,7 @@ last_verified: "2026-07-14"
 seo:
   title: "How to Prepare for K2 Base Camp Trek | Karakoram Vision"
   description: >-
-    Training, equipment, insurance and acclimatization considerations for a supported Baltoro and K2
-    base-camp trek.
+    How to train, what to carry, which insurance works and how to acclimatise for the K2 base camp trek - advice from the team that runs the route.
   keywords: K2 training, Baltoro gear, Altitude planning
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

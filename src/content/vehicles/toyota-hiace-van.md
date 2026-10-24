@@ -13,7 +13,8 @@ price_from: Route-based quote
 destination: Pakistan
 seo:
   title: "Toyota Hiace Van Rental in Skardu | Karakoram Vision"
-  description: Group transport for tours, city transfers and long road journeys with luggage planning.
+  description: >-
+    Hire a Toyota Hiace van with driver for family and group travel on the Karakoram Highway, with room for luggage and trekking gear. Ask for a quote.
   keywords: Pakistan transport, mountain vehicle, group transfer
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

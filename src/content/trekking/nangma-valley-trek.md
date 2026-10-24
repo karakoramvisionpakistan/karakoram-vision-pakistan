@@ -81,17 +81,8 @@ last_verified: "2026-09-18"
 sources: []
 seo:
   title: "Nangma Valley Trek, Kanday - 10 Days | Karakoram Vision"
-  description: >
-    Trekking to Nangma Valley (The Yosemite of Pakistan)
-
-    Where is Nangma Valley?
-
-    Nangma Valley is located in the Ghanche district of Gilgit-Baltistan, about a 5-hour drive from
-    the bustling trekker’s hub of Skardu. It is part of the Central Karakoram National Park, and one
-    of the more accessible treks to do in the region. The gateway to Nangma Valley is the village of
-    Khanday, or Kanday, or one of the many other spelling variations you’ll find in the area. While
-    Pakistan is starting to gain a little traction with international tourism, this region remains
-    more low-key and lesser-visited than the hubs of Skardu and the Hunza Valley.
+  description: >-
+    Nangma Valley trek from Kanday, 10 easy days in the big-wall valley known as the Yosemite of Pakistan. Guided and supported from Skardu, all seasons.
   keywords: NangmaValley, KandayValley, EasyTrek, Trekking, Trip, Tour
 body: ""
 ---

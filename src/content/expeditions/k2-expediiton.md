@@ -106,8 +106,7 @@ sources: []
 seo:
   title: "K2 Expedition, Pakistan - 60 Days | Karakoram Vision"
   description: >-
-    A K2 expedition is a 45 to 60-day high-altitude mountaineering journey to the summit of K2
-    (8,611 meters), Lets climb K2 with Karakoram Vision Pakistan.
+    K2 expedition, 60 days from Islamabad with permits, Baltoro approach, base camp services, high-altitude porters and oxygen support from Karakoram Vision.
   keywords: K2, Broad-Peak, Baltoro, Karakoram, Climb-K2, K2 Expedition 2027, Climb  in Pakistan
   robots: " index, follow, max-image-preview:large"
   social_image: /assets/uploads/1792851049338-143.webp

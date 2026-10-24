@@ -79,8 +79,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Fairy Meadows Base Camp Trek - 10 Days | Karakoram Vision"
   description: >-
-    An eight-day moderate trek linking Fairy Meadows, Beyal Camp and the Nanga Parbat base-camp
-    viewpoint route.
+    Ten days from Raikot Bridge to Fairy Meadows, Beyal camp and the Nanga Parbat base camp viewpoint. Small groups and local guides. Ask for the day plan.
   keywords: Nanga Parbat, Fairy Meadows, Beyal Camp, base camp
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

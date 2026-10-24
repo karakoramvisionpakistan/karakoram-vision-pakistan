@@ -19,8 +19,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Shigar Valley Travel Guide, Skardu | Karakoram Vision"
   description: >-
-    Shigar offers heritage architecture, village landscapes and the road approach toward the Braldu
-    and Baltoro regions.
+    Shigar valley guide: the fort-palace, the cold desert, and the Braldu road to Askole where every Baltoro trek and K2 expedition begins.
   keywords: shigar, Gilgit-Baltistan destination
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

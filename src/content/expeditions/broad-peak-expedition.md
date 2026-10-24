@@ -92,8 +92,7 @@ last_verified: "2026-09-14"
 seo:
   title: "Broad Peak Expedition 8051m - 50 Days | Karakoram Vision"
   description: >-
-    A full Broad Peak expedition framework with Pakistan permit support, Baltoro approach, base-camp
-    services and high-altitude logistics.
+    Broad Peak 8,051m expedition, 50 days from Islamabad with permits, Baltoro approach, stocked base camp and high-altitude support. Ask for the full plan.
   keywords: Broad Peak, 8000m, expedition, Baltoro
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

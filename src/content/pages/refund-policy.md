@@ -19,8 +19,7 @@ last_verified: "2026-07-14"
 seo:
   title: Refund and Cancellation Policy | Karakoram Vision Pakistan
   description: >-
-    A transparent framework for cancellation and refund terms, finalized in each written travel
-    proposal.
+    Cancellation and refund terms for tours, treks and expeditions, including deposits, and how they are confirmed in your written proposal.
   keywords: ""
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

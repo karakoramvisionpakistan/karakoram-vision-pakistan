@@ -82,8 +82,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Gasherbrum II Expedition - 50 Days | Karakoram Vision"
   description: >-
-    A Gasherbrum II expedition programme covering permits, Baltoro access, base camp and staged
-    high-altitude support.
+    Gasherbrum II 8,035m expedition, 50 days with permit handling, Baltoro approach, base camp and climbing support. Ask for dates, costs and what's included.
   keywords: Gasherbrum II, 8000m, expedition, Karakoram
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

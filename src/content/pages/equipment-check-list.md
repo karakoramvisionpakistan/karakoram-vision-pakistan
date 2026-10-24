@@ -30,24 +30,8 @@ answer_summary: ""
 faqs: []
 seo:
   title: "Trekking Equipment Checklist | Karakoram Vision Pakistan"
-  description: >
-    Karakoram Vision Pakistan (KVP) Team tried to show you the equipment for mountaineering and
-    trekking and if something is missing in our given list then please let us know, we will add
-    those missing things.  "Thanks in advance"
-
-    What clothing and equipment to take is normally caused for more consideration than any other
-    aspect of preparing for an adventure travel trip. We regularly receive reams of advice and
-    suggestions, good and bad, as to what equipment is needed for our trips. However, since being
-    suitably equipped is the single most important consideration contributing to your welfare, we
-    have provided the following information which we ask you to examine in a flexible manner,
-    adapting it where you feel necessary to your own outdoor experience or preference. There is a
-    fine balance between taking too much and too little, especially considering that you need to
-    equip yourself for all extremes of climate. Over the years we have seen all extremes, from
-    trekkers who have brought everything but the kitchen sink, to others with the bare minimum. The
-    following equipment list is suggested and necessary for both climbing & trekking in the
-    Karakoram. Use this list as a guideline; some of the equipment can be hired in Skardu as well.
-    Also bear in mind trekking gear can be bought in the many mountaineering shops in Skardu, the
-    majority of gear is Chinese manufactured.
+  description: >-
+    Trekking and mountaineering equipment checklist for northern Pakistan: clothing, footwear, sleeping gear and climbing kit, by altitude and season.
   keywords: Trekking, Tour and Climbing Equipment check list
 body: ""
 _in_review: false

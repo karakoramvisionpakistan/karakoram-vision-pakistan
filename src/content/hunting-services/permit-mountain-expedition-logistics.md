@@ -79,8 +79,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Ibex & Markhor Hunting Permits, Pakistan | Karakoram Vision"
   description: >-
-    Compliance-first travel and field-logistics consultation for officially authorized wildlife
-    programmes in Pakistan.
+    Ibex and markhor hunting in Gilgit-Baltistan: permit paperwork, trophy-area access, guides, camps and transport under official community quotas.
   keywords: permit logistics, wildlife programme, compliance, Pakistan
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

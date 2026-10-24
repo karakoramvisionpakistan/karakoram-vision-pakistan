@@ -19,8 +19,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Skardu Travel Guide: Best Time & Places | Karakoram Vision"
   description: >-
-    Skardu is the main gateway for Deosai, Shigar, Khaplu, Baltoro and many eastern Karakoram
-    journeys.
+    Skardu travel guide: when to go, what to see around the lakes and valleys, and which treks and tours start here. Plan the trip with a local team.
   keywords: skardu, Gilgit-Baltistan destination
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

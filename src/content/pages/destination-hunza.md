@@ -19,8 +19,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Hunza Valley Guide: Best Time & Places | Karakoram Vision"
   description: >-
-    Hunza combines Karakoram Highway scenery, heritage forts, village life and upper-valley
-    landscapes.
+    Hunza travel guide: forts, villages and viewpoints, the best months for blossom and autumn colour, and how many days to stay. Plan it with locals.
   keywords: hunza, Gilgit-Baltistan destination
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

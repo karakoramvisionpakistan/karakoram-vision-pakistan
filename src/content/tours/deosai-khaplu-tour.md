@@ -79,8 +79,7 @@ last_verified: "2026-06-14"
 seo:
   title: "Deosai & Khaplu Tour, Skardu - 8 Days | Karakoram Vision"
   description: >-
-    An eight-day highland and heritage journey linking Skardu, Deosai National Park, Shigar and
-    Khaplu.
+    Eight days linking Skardu, the Deosai plateau, Shigar and Khaplu palace - lakes, wildlife and Balti heritage in one trip. Ask for dates and prices.
   keywords: Deosai, Khaplu, Skardu, national park
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

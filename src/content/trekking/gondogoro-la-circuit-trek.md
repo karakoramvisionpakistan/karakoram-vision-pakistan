@@ -79,8 +79,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Gondogoro La Trek, Pakistan - 21 Days | Karakoram Vision"
   description: >-
-    A strenuous Baltoro circuit that links Concordia with the Hushe Valley through Gondogoro La when
-    conditions and team readiness permit.
+    Cross Gondogoro La on a 21-day Baltoro circuit from Concordia down to Hushe. Fixed ropes, climbing guides and permits handled. Ask for this season's dates.
   keywords: K2, Gondogoro La, Baltoro circuit, Hushe
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

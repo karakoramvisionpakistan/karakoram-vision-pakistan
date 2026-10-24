@@ -79,8 +79,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Skardu & Shigar Valley Tour - 7 Days | Karakoram Vision"
   description: >-
-    A seven-day Skardu holiday combining lakes, Shigar heritage, Sarfaranga landscapes and flexible
-    day excursions.
+    Seven days around Skardu - Shangrila and Kachura lakes, Shigar fort, the Sarfaranga cold desert, and free days to add more. Ask for dates and prices.
   keywords: Skardu, Shigar, family, scenic tour
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

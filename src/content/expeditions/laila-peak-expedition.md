@@ -81,8 +81,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Laila Peak Expedition, Hushe - 30 Days | Karakoram Vision"
   description: >-
-    A technical expedition framework for Laila Peak in the Hushe region with approach, base-camp and
-    local logistics.
+    Laila Peak expedition, 30 days in the Hushe valley for climbers after one of the steepest, most photographed lines in Pakistan. Ask for dates and costs.
   keywords: Laila Peak, technical expedition, Hushe, Karakoram
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

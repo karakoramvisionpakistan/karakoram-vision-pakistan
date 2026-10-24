@@ -20,12 +20,7 @@ faqs: []
 seo:
   title: "Family Tours in Pakistan | Karakoram Vision Pakistan"
   description: >-
-    Karakoram Vision Pakistan (KVP) organize customized family trips for families who are not
-    willing to be part of an organized trip with a strict itinerary rather want to enjoy a private
-    tour with your family. So, let KVP organize for you and your family an unforgettable experience
-    in our beautiful region of Pakistan with most dedicated and experienced staff. Whether it’s a
-    trekking tour, Jeep safari or any tours, we will take care of your interest and will give you a
-    never ending taste of beautiful Gilgit Baltistan of Pakistan.
+    Private family tours of northern Pakistan, planned around your own pace and dates, with comfortable hotels, safe transport and an experienced local guide.
   keywords: "family trip, honeymoon trip, "
 body: ""
 ---

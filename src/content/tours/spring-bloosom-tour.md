@@ -63,6 +63,8 @@ sources: []
 seo:
   keywords: spring, bloosom, tour, trip, hunza, skardu, baltistan, pakistan
   title: "Hunza Blossom Tour, Spring - 16 Days | Karakoram Vision"
+  description: >-
+    Spring blossom tour of Hunza and Gilgit-Baltistan, 16 easy days through apricot and cherry bloom, with hotels, 4x4 transport and a local guide.
 body: ""
 ---
 

@@ -33,8 +33,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Northern Pakistan Packing List | Karakoram Vision"
   description: >-
-    A flexible packing checklist for cultural tours, jeep journeys and moderate mountain travel in
-    northern Pakistan.
+    What to actually pack for northern Pakistan - layers, footwear, documents, and the gear you can hire in Skardu instead of carrying it from home.
   keywords: packing list, northern Pakistan, travel gear
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

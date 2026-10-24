@@ -64,7 +64,8 @@ last_verified: ""
 sources: []
 seo:
   title: "Nanga Parbat Expedition - 42 Days | Karakoram Vision"
-  description: "Climb Nanga Parbat with KVP to make it more memorable and successful Expedition. "
+  description: >-
+    Nanga Parbat 8,126m expedition, 42 days with permits, base camp, cooks, porters and high-altitude support from a Pakistani operator. Ask for route options.
   keywords: NangaParbat, Killer Mountain, Climbing, Adventure, Trekking in Pakistan
 body: ""
 ---

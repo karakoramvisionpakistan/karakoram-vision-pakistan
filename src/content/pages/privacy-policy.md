@@ -14,7 +14,8 @@ reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
   title: Privacy Policy | Karakoram Vision Pakistan
-  description: How Karakoram Vision Pakistan handles inquiry details and website information.
+  description: >-
+    How Karakoram Vision Pakistan collects, uses and protects the details you send through our enquiry forms, email and this website.
   keywords: ""
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

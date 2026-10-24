@@ -79,8 +79,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Thalle La Trek, Shigar to Khaplu - 9 Days | Karakoram Vision"
   description: >-
-    A nine-day cross-valley trek between Shigar and Khaplu through alpine pastures and the Thalle La
-    route.
+    Nine days over the Thalle La pass from Shigar to Khaplu, through summer pastures and Balti villages. Easy pace, full support. Ask for dates and prices.
   keywords: Thalle La, Shigar, Khaplu, pass trek
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

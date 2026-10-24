@@ -79,8 +79,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Hunza Valley Tour Package - 10 Days | Karakoram Vision"
   description: >-
-    An eight-day cultural journey through Gilgit, Nagar and Hunza with forts, village walks and
-    Karakoram Highway viewpoints.
+    Ten days through Gilgit, Nagar and Hunza: Baltit and Altit forts, village walks and Karakoram Highway viewpoints. Private dates. Ask for the day-by-day plan.
   keywords: Hunza, culture, heritage, family tour
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

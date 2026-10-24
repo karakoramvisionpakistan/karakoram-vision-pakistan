@@ -79,8 +79,7 @@ last_verified: "2026-07-14"
 seo:
   title: "Rush Lake Trek, Nagar Valley - 14 Days | Karakoram Vision"
   description: >-
-    A challenging Nagar Valley trek toward high-altitude Rush Lake with glacier terrain and wide
-    Karakoram views.
+    Fourteen days to Rush Lake, one of the world's highest alpine lakes, high above Nagar valley. Guides, porters and camps included. Ask for dates and costs.
   keywords: Rush Lake, Nagar, high altitude, glacier trek
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""

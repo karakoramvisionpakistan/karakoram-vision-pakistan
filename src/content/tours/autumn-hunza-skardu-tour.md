@@ -83,8 +83,7 @@ last_verified: "2026-06-14"
 seo:
   title: "Autumn Tour: Hunza & Skardu - 14 Days | Karakoram Vision"
   description: >-
-    A ten-day photography-focused autumn journey through orchards, heritage villages and mountain
-    viewpoints in Hunza, Skardu and Khaplu
+    Fourteen days of autumn colour through Hunza, Skardu and Khaplu - orchards, forts and mountain viewpoints at their best. Ask for October dates and costs.
   keywords: spring, summer, autumn,winter, photography, Hunza, Skardu, khaplu
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""
