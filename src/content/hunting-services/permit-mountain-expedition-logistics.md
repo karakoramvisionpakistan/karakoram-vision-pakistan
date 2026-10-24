@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Permit and Mountain Expedition Logistics Consultation | Karakoram Vision Pakistan
+  title: "Ibex & Markhor Hunting Permits, Pakistan | Karakoram Vision"
   description: >-
     Compliance-first travel and field-logistics consultation for officially authorized wildlife
     programmes in Pakistan.

@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Gilgit-Baltistan Grand Circuit | Karakoram Vision Pakistan
+  title: "Gilgit-Baltistan Tour - 14 Days | Karakoram Vision"
   description: >-
     A twelve-day private circuit covering Gilgit, Hunza, Skardu, Shigar and Khaplu with scenic road
     travel.

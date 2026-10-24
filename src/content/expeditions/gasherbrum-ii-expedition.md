@@ -80,7 +80,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Gasherbrum II Expedition | Karakoram Vision Pakistan
+  title: "Gasherbrum II Expedition - 50 Days | Karakoram Vision"
   description: >-
     A Gasherbrum II expedition programme covering permits, Baltoro access, base camp and staged
     high-altitude support.

@@ -31,7 +31,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: How to Prepare for the K2 Base Camp Trek | Karakoram Vision Pakistan
+  title: "How to Prepare for K2 Base Camp Trek | Karakoram Vision"
   description: >-
     Training, equipment, insurance and acclimatization considerations for a supported Baltoro and K2
     base-camp trek.

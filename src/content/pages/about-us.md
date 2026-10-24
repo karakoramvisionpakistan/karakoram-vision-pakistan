@@ -17,7 +17,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: About Karakoram Vision Pakistan | Karakoram Vision Pakistan
+  title: "About Us - Tour Operator in Skardu | Karakoram Vision"
   description: >-
     Karakoram Vision Pakistan is a Skardu-based travel company planning tours, treks, expeditions
     and mountain transport across northern Pakistan.

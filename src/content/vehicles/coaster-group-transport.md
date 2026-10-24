@@ -12,7 +12,7 @@ capacity: 15–22 passengers
 price_from: Route-based quote
 destination: Pakistan
 seo:
-  title: Coaster Group Transport | Karakoram Vision Pakistan
+  title: "Coaster Rental for Groups, Skardu | Karakoram Vision"
   description: On-request group transport for larger tour parties, subject to route suitability.
   keywords: Pakistan transport, mountain vehicle, group transfer
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1

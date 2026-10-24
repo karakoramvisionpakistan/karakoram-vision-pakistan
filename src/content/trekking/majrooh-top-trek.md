@@ -64,7 +64,7 @@ reviewed_by: ""
 last_verified: "2026-09-22"
 sources: []
 seo:
-  title: Majrooh Top Trek
+  title: "Majrooh Top Trek, Skardu - 10 Days | Karakoram Vision"
   description: >-
     This route is a newly discovered, non-technical route, explored by Mr. Muhammad Ali Majrooh CEO
     of Karakoram Vision Pakistan in 2008. This is the shortest possible trek in the area to see

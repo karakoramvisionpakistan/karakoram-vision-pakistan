@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Rush Lake Trek | Karakoram Vision Pakistan
+  title: "Rush Lake Trek, Nagar Valley - 14 Days | Karakoram Vision"
   description: >-
     A challenging Nagar Valley trek toward high-altitude Rush Lake with glacier terrain and wide
     Karakoram views.

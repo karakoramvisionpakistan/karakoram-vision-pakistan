@@ -27,7 +27,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Best Time to Visit Skardu | Karakoram Vision Pakistan
+  title: "Best Time to Visit Skardu, Pakistan | Karakoram Vision"
   description: A practical seasonal guide to Skardu for sightseeing, Deosai access, trekking and autumn travel.
   keywords: Skardu seasons, Summer road access, Autumn colours
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1

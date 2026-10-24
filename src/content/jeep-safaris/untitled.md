@@ -70,7 +70,7 @@ reviewed_by: "KVP Experts "
 last_verified: "2026-09-20"
 sources: []
 seo:
-  title: Mountains and Villages Safaries
+  title: "Mountains & Villages Safari - 22 Days | Karakoram Vision"
   description: To see the Gilgit Baltistan regions, Chitral and Swat valley by road trip
   keywords: safari, roadtrip, sightseeing, village, mountain, chitral, kailash, swat
   robots: ""

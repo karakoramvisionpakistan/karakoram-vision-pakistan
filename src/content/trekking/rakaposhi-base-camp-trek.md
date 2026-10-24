@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Rakaposhi Base Camp Trek | Karakoram Vision Pakistan
+  title: "Rakaposhi Base Camp Trek - 7 Days | Karakoram Vision"
   description: >-
     A seven-day moderate trekking programme from Minapin toward Rakaposhi base camp with Nagar
     Valley scenery.

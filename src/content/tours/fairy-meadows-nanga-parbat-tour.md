@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-06-14"
 seo:
-  title: Fairy Meadows and Nanga Parbat View Tour | Karakoram Vision Pakistan
+  title: "Fairy Meadows Tour, Nanga Parbat - 8 Days | Karakoram Vision"
   description: >-
     A six-day road-and-walk journey to Fairy Meadows with clear views toward Nanga Parbat and the
     Raikot face.

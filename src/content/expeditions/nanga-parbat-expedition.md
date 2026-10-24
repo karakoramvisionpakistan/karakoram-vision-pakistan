@@ -63,7 +63,7 @@ reviewed_by: ""
 last_verified: ""
 sources: []
 seo:
-  title: Nanga Parbat, Killer Mountain, Climbing in Pakistan, Nanga Parbat Expedition
+  title: "Nanga Parbat Expedition - 42 Days | Karakoram Vision"
   description: "Climb Nanga Parbat with KVP to make it more memorable and successful Expedition. "
   keywords: NangaParbat, Killer Mountain, Climbing, Adventure, Trekking in Pakistan
 body: ""

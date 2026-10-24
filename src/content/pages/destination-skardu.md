@@ -17,7 +17,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Skardu Travel Guide | Karakoram Vision Pakistan
+  title: "Skardu Travel Guide: Best Time & Places | Karakoram Vision"
   description: >-
     Skardu is the main gateway for Deosai, Shigar, Khaplu, Baltoro and many eastern Karakoram
     journeys.

@@ -31,7 +31,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Northern Pakistan Packing Checklist | Karakoram Vision Pakistan
+  title: "Northern Pakistan Packing List | Karakoram Vision"
   description: >-
     A flexible packing checklist for cultural tours, jeep journeys and moderate mountain travel in
     northern Pakistan.

@@ -13,7 +13,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Frequently Asked Questions | Karakoram Vision Pakistan
+  title: "Pakistan Travel FAQs: Visa & Permits | Karakoram Vision"
   description: Answers about private dates, prices, transport, weather and booking a Pakistan mountain journey.
   keywords: ""
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1

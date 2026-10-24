@@ -56,7 +56,7 @@ reviewed_by: ""
 last_verified: "2026-09-22"
 sources: []
 seo:
-  title: Biafo Hisper Trek
+  title: "Biafo Hispar Pass Trek - 22 Days | Karakoram Vision"
   description: ""
 body: ""
 ---

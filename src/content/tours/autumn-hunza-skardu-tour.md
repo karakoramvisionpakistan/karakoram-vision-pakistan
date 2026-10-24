@@ -81,7 +81,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-06-14"
 seo:
-  title: Spring, Summer and Autumn Colours of Hunza and Skardu | Karakoram Vision Pakistan
+  title: "Autumn Tour: Hunza & Skardu - 14 Days | Karakoram Vision"
   description: >-
     A ten-day photography-focused autumn journey through orchards, heritage villages and mountain
     viewpoints in Hunza, Skardu and Khaplu

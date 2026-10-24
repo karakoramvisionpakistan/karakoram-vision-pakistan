@@ -31,7 +31,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Responsible Travel in Gilgit-Baltistan | Karakoram Vision Pakistan
+  title: "Responsible Travel in Gilgit-Baltistan | Karakoram Vision"
   description: >-
     Simple practices that help visitors respect communities, protected landscapes and mountain waste
     systems.

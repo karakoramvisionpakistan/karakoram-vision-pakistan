@@ -90,7 +90,7 @@ author: Karakoram Vision Pakistan Editorial Team
 reviewed_by: Karakoram Vision Pakistan Travel Team
 last_verified: "2026-09-14"
 seo:
-  title: Broad Peak Expedition | Karakoram Vision Pakistan
+  title: "Broad Peak Expedition 8051m - 50 Days | Karakoram Vision"
   description: >-
     A full Broad Peak expedition framework with Pakistan permit support, Baltoro approach, base-camp
     services and high-altitude logistics.

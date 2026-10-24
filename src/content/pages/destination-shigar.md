@@ -17,7 +17,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Shigar Valley Guide | Karakoram Vision Pakistan
+  title: "Shigar Valley Travel Guide, Skardu | Karakoram Vision"
   description: >-
     Shigar offers heritage architecture, village landscapes and the road approach toward the Braldu
     and Baltoro regions.

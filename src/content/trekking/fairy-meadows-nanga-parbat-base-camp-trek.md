@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Fairy Meadows and Nanga Parbat Base Camp Trek | Karakoram Vision Pakistan
+  title: "Fairy Meadows Base Camp Trek - 10 Days | Karakoram Vision"
   description: >-
     An eight-day moderate trek linking Fairy Meadows, Beyal Camp and the Nanga Parbat base-camp
     viewpoint route.

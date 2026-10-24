@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-06-14"
 seo:
-  title: Deosai National Park and Khaplu Tour | Karakoram Vision Pakistan
+  title: "Deosai & Khaplu Tour, Skardu - 8 Days | Karakoram Vision"
   description: >-
     An eight-day highland and heritage journey linking Skardu, Deosai National Park, Shigar and
     Khaplu.

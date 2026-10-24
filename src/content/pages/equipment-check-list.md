@@ -29,7 +29,7 @@ categories: []
 answer_summary: ""
 faqs: []
 seo:
-  title: KVP Equipment Checklist
+  title: "Trekking Equipment Checklist | Karakoram Vision Pakistan"
   description: >
     Karakoram Vision Pakistan (KVP) Team tried to show you the equipment for mountaineering and
     trekking and if something is missing in our given list then please let us know, we will add

@@ -80,7 +80,7 @@ reviewed_by: KVP Team
 last_verified: "2026-09-18"
 sources: []
 seo:
-  title: Nangma Valley Trek
+  title: "Nangma Valley Trek, Kanday - 10 Days | Karakoram Vision"
   description: >
     Trekking to Nangma Valley (The Yosemite of Pakistan)
 

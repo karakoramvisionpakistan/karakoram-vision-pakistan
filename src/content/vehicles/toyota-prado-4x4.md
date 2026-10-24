@@ -14,7 +14,7 @@ capacity: 1–4 passengers
 price_from: Route-based quote
 destination: Pakistan
 seo:
-  title: Toyota Prado 4x4 | Karakoram Vision Pakistan
+  title: "Toyota Prado 4x4 Rental in Skardu | Karakoram Vision"
   description: >-
     Comfortable 4x4 transport for private road journeys, airport transfers and selected mountain
     routes.

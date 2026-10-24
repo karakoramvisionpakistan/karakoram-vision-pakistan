@@ -79,7 +79,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Spantik Peak Expedition | Karakoram Vision Pakistan
+  title: "Spantik Golden Peak Expedition - 35 Days | Karakoram Vision"
   description: >-
     A supported expedition plan for Spantik Peak with permit coordination, approach trekking,
     base-camp logistics and weather contingency.

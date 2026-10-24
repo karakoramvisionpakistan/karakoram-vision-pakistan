@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Skardu and Shigar Valley Explorer | Karakoram Vision Pakistan
+  title: "Skardu & Shigar Valley Tour - 7 Days | Karakoram Vision"
   description: >-
     A seven-day Skardu holiday combining lakes, Shigar heritage, Sarfaranga landscapes and flexible
     day excursions.

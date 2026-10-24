@@ -63,7 +63,7 @@ reviewed_by: KVP Team
 last_verified: "2026-09-18"
 sources: []
 seo:
-  title: Trango Tower Expedition
+  title: "Trango Tower Expedition - 33 Days | Karakoram Vision"
   description: Rock Walls, Trango Towers
   keywords: rockclimbing, trango, towers, karakoram
 body: ""

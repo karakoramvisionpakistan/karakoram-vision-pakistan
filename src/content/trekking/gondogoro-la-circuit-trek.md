@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Gondogoro La Circuit Trek | Karakoram Vision Pakistan
+  title: "Gondogoro La Trek, Pakistan - 21 Days | Karakoram Vision"
   description: >-
     A strenuous Baltoro circuit that links Concordia with the Hushe Valley through Gondogoro La when
     conditions and team readiness permit.

@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Thalle La Trek | Karakoram Vision Pakistan
+  title: "Thalle La Trek, Shigar to Khaplu - 9 Days | Karakoram Vision"
   description: >-
     A nine-day cross-valley trek between Shigar and Khaplu through alpine pastures and the Thalle La
     route.

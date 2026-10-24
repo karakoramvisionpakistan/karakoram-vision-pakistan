@@ -79,7 +79,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Laila Peak Expedition | Karakoram Vision Pakistan
+  title: "Laila Peak Expedition, Hushe - 30 Days | Karakoram Vision"
   description: >-
     A technical expedition framework for Laila Peak in the Hushe region with approach, base-camp and
     local logistics.

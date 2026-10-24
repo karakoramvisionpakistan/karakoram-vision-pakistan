@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Deosai High Plateau Jeep Safari | Karakoram Vision Pakistan
+  title: "Deosai Jeep Safari from Skardu - 5 Days | Karakoram Vision"
   description: >-
     A five-day 4x4 programme through Skardu and the Deosai Plateau, operated only when seasonal
     roads are officially open.

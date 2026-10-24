@@ -121,7 +121,7 @@ sources:
     url: K5
   - label: G-1
 seo:
-  title: "Gasherbrum-I Expedition-50 Days Karakoram Vision Pakistan "
+  title: "Gasherbrum I Expedition - 50 Days | Karakoram Vision"
   description: >-
     Climb Gasherbrum-I 8080M (K5) with Karakoram Vision Pakistan team to make your climbing more
     safe and secure. 

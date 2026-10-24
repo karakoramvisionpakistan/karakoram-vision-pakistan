@@ -12,7 +12,7 @@ capacity: 6–10 passengers
 price_from: Route-based quote
 destination: Pakistan
 seo:
-  title: Toyota Hiace Van | Karakoram Vision Pakistan
+  title: "Toyota Hiace Van Rental in Skardu | Karakoram Vision"
   description: Group transport for tours, city transfers and long road journeys with luggage planning.
   keywords: Pakistan transport, mountain vehicle, group transfer
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1

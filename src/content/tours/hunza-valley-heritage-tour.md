@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Hunza Valley Heritage Tour | Karakoram Vision Pakistan
+  title: "Hunza Valley Tour Package - 10 Days | Karakoram Vision"
   description: >-
     An eight-day cultural journey through Gilgit, Nagar and Hunza with forts, village walks and
     Karakoram Highway viewpoints.

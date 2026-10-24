@@ -62,7 +62,7 @@ last_verified: "2026-10-05"
 sources: []
 seo:
   keywords: spring, bloosom, tour, trip, hunza, skardu, baltistan, pakistan
-  title: spring bloosom tour
+  title: "Hunza Blossom Tour, Spring - 16 Days | Karakoram Vision"
 body: ""
 ---
 

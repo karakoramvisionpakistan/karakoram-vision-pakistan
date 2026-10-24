@@ -77,7 +77,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Shigar, Basho and Khaplu Jeep Adventure | Karakoram Vision Pakistan
+  title: "Shigar & Khaplu Jeep Safari - 6 Days | Karakoram Vision"
   description: >-
     A six-day private jeep journey combining Shigar heritage, Basho landscapes and the Shyok Valley
     road to Khaplu.
