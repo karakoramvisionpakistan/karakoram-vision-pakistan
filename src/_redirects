@@ -1,36 +1,44 @@
-# Purane / galat URLs ko sahi page par bhejte hain (301 = permanent).
+# Purane aur galat URLs ko sahi page par bhejta hai (301 = permanent).
 # Format:  /purana-url   /naya-url   301
 
 /contact/ /contact-us/ 301
 
+/trekking/biafo-hisper-trek/ /trekking/biafo-hispar-trek/ 301
+/trekking/biafo-hisper-trek /trekking/biafo-hispar-trek/ 301
+/trekking/biafo-hispar-pass-trek/ /trekking/biafo-hispar-trek/ 301
+/trekking/biafo-hispar-pass-trek /trekking/biafo-hispar-trek/ 301
+/trekking/thalley-la-trek/ /trekking/thalle-la-trek/ 301
+/trekking/thalley-la-trek /trekking/thalle-la-trek/ 301
+/trekking/fairy-meadows-nanga-parbat-base-camp-trek/ /trekking/fairy-meadows-base-camp-trek/ 301
+/trekking/fairy-meadows-nanga-parbat-base-camp-trek /trekking/fairy-meadows-base-camp-trek/ 301
 /trekking/k2-base-camp-baltoro-trek/ /trekking/k2-base-camp-trek/ 301
 /trekking/k2-base-camp-baltoro-trek /trekking/k2-base-camp-trek/ 301
-/trekking/thalle-la-trek/ /trekking/thalley-la-trek/ 301
-/trekking/thalle-la-trek /trekking/thalley-la-trek/ 301
-/trekking/biafo-hispar-trek/ /trekking/biafo-hisper-trek/ 301
-/trekking/biafo-hispar-trek /trekking/biafo-hisper-trek/ 301
-/trekking/biafo-hispar-pass-trek/ /trekking/biafo-hisper-trek/ 301
-/trekking/biafo-hispar-pass-trek /trekking/biafo-hisper-trek/ 301
 /expeditions/k2-expediiton/ /expeditions/k2-expedition/ 301
 /expeditions/k2-expediiton /expeditions/k2-expedition/ 301
-/expeditions/ghasherbrum-1/ /expeditions/gasherbrum-i/ 301
-/expeditions/ghasherbrum-1 /expeditions/gasherbrum-i/ 301
-/expeditions/gasherbrum-1/ /expeditions/gasherbrum-i/ 301
-/expeditions/gasherbrum-1 /expeditions/gasherbrum-i/ 301
-/expeditions/gasherbrum-i-expedition/ /expeditions/gasherbrum-i/ 301
-/expeditions/gasherbrum-i-expedition /expeditions/gasherbrum-i/ 301
+/expeditions/gasherbrum-i/ /expeditions/gasherbrum-i-expedition/ 301
+/expeditions/gasherbrum-i /expeditions/gasherbrum-i-expedition/ 301
+/expeditions/ghasherbrum-1/ /expeditions/gasherbrum-i-expedition/ 301
+/expeditions/ghasherbrum-1 /expeditions/gasherbrum-i-expedition/ 301
+/expeditions/gasherbrum-1/ /expeditions/gasherbrum-i-expedition/ 301
+/expeditions/gasherbrum-1 /expeditions/gasherbrum-i-expedition/ 301
 /expeditions/trango-tower-expedition/ /expeditions/trango-expedition/ 301
 /expeditions/trango-tower-expedition /expeditions/trango-expedition/ 301
 /tours/spring-bloosom-tour/ /tours/spring-blossom-tour/ 301
 /tours/spring-bloosom-tour /tours/spring-blossom-tour/ 301
 /tours/hunza-blossom-tour/ /tours/spring-blossom-tour/ 301
 /tours/hunza-blossom-tour /tours/spring-blossom-tour/ 301
-/jeep-safaris/deosai-jeep-safari/ /jeep-safaris/deosai-trip/ 301
-/jeep-safaris/deosai-jeep-safari /jeep-safaris/deosai-trip/ 301
-/jeep-safaris/shigar-basho-khaplu-jeep-adventure/ /jeep-safaris/shigar-basho-khaplu-adventure-trip/ 301
-/jeep-safaris/shigar-basho-khaplu-jeep-adventure /jeep-safaris/shigar-basho-khaplu-adventure-trip/ 301
+/jeep-safaris/deosai-trip/ /jeep-safaris/deosai-jeep-safari/ 301
+/jeep-safaris/deosai-trip /jeep-safaris/deosai-jeep-safari/ 301
+/jeep-safaris/shigar-basho-khaplu-adventure-trip/ /jeep-safaris/shigar-basho-khaplu-jeep-safari/ 301
+/jeep-safaris/shigar-basho-khaplu-adventure-trip /jeep-safaris/shigar-basho-khaplu-jeep-safari/ 301
+/jeep-safaris/shigar-basho-khaplu-jeep-adventure/ /jeep-safaris/shigar-basho-khaplu-jeep-safari/ 301
+/jeep-safaris/shigar-basho-khaplu-jeep-adventure /jeep-safaris/shigar-basho-khaplu-jeep-safari/ 301
 /jeep-safaris/untitled/ /jeep-safaris/mountains-villages-safari/ 301
 /jeep-safaris/untitled /jeep-safaris/mountains-villages-safari/ 301
+/hunting-services/permit-mountain-expedition-logistics/ /hunting-services/ibex-markhor-hunting-permits/ 301
+/hunting-services/permit-mountain-expedition-logistics /hunting-services/ibex-markhor-hunting-permits/ 301
+/family-trip/ /family-tours/ 301
+/family-trip /family-tours/ 301
 /destination-skardu/ /destinations/skardu/ 301
 /destination-skardu /destinations/skardu/ 301
 /destination-hunza/ /destinations/hunza/ 301
