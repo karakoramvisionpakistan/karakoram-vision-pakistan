@@ -14,9 +14,17 @@
       "description":{{ site.description | json | safe }},
       "email":{{ site.email | json | safe }},
       {% if site.phone %}"telephone":{{ site.phone | json | safe }},{% endif %}
+      {% set socialLinks = [] %}
+      {% for socialKey, socialUrl in site.social %}{% if socialUrl %}{% set _ = socialLinks.push(socialUrl) %}{% endif %}{% endfor %}
+      {% if site.ratings.google_url %}{% set _ = socialLinks.push(site.ratings.google_url) %}{% endif %}
+      {% if site.ratings.tripadvisor_url %}{% set _ = socialLinks.push(site.ratings.tripadvisor_url) %}{% endif %}
+      {% if socialLinks.length %}"sameAs":[{% for link in socialLinks %}{{ link | json | safe }}{% if not loop.last %},{% endif %}{% endfor %}],{% endif %}
+      {% if site.business.founded_year %}"foundingDate":{{ site.business.founded_year | json | safe }},{% endif %}
+      {% if site.business.opening_hours and site.business.opening_hours.opens %}"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":{{ site.business.opening_hours.opens | json | safe }},"closes":{{ site.business.opening_hours.closes | json | safe }}}],{% endif %}
+      "contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":{{ (site.booking_email or site.email) | json | safe }}{% if site.phone %},"telephone":{{ site.phone | json | safe }}{% endif %},"areaServed":"PK","availableLanguage":["English","Urdu"]}],
       "logo":{"@type":"ImageObject","url":{{ (site.logo | absoluteUrl(site.url)) | json | safe }}},
       "image":{{ (site.seo.default_social_image | absoluteUrl(site.url)) | json | safe }},
-      "address":{"@type":"PostalAddress","streetAddress":{{ site.address | json | safe }},"addressCountry":{{ (site.geo.country_code or 'PK') | json | safe }}},
+      "address":{"@type":"PostalAddress","streetAddress":{{ site.address | json | safe }}{% if site.geo.city %},"addressLocality":{{ site.geo.city | json | safe }}{% endif %}{% if site.geo.region %},"addressRegion":{{ site.geo.region | json | safe }}{% endif %},"addressCountry":{{ (site.geo.country_code or 'PK') | json | safe }}},
       {% if site.geo.latitude and site.geo.longitude %}"geo":{"@type":"GeoCoordinates","latitude":{{ site.geo.latitude | json | safe }},"longitude":{{ site.geo.longitude | json | safe }}},{% endif %}
       "areaServed":[{% for area in site.geo.service_areas %}{"@type":"Place","name":{{ area | json | safe }}}{% if not loop.last %},{% endif %}{% endfor %}],
       "knowsAbout":["Pakistan tours","Karakoram trekking","mountaineering expeditions","jeep safaris","travel planning"]

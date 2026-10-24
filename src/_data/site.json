@@ -90,7 +90,11 @@
     "legal_name": "Karakoram Vision Pakistan Private Limited",
     "founded_year": "2007",
     "license_number": "DTS-GB-TO-26-00071",
-    "price_currency": "USD"
+    "price_currency": "USD",
+    "opening_hours": {
+      "opens": "09:00",
+      "closes": "21:00"
+    }
   },
   "geo": {
     "country_code": "PK",
@@ -106,7 +110,8 @@
       "Karakoram",
       "Himalaya",
       "Hindu Kush"
-    ]
+    ],
+    "region": "Gilgit-Baltistan"
   },
   "verification": {
     "google": "",
