@@ -2,9 +2,9 @@
 title: Climbing
 published: true
 sections:
-  - ""
   - homepage
-order: null
+  - homepage
+order: 2
 image: /assets/uploads/1792942525273-115.webp
 image_alt: ""
 eyebrow: Climb K2 with us
@@ -14,4 +14,5 @@ button_label: ""
 button_url: ""
 slug: climbing
 ---
+
 
