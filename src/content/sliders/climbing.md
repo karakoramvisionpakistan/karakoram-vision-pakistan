@@ -11,7 +11,6 @@ heading: K2 8611M
 text: ""
 button_label: ""
 button_url: ""
-slug: climbing
 fit: smart
 ---
 

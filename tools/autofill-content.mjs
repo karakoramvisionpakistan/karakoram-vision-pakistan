@@ -55,9 +55,16 @@ const defaults = readJson(DEFAULTS, { auto_fill: {}, sections: {} });
 const brandShort = 'Karakoram Vision';
 const brandAuthor = site.business?.legal_name || site.name || brandShort;
 
+// Yeh folder content nahi hain - inhein chhor dena hai.
+// sliders: har slide sirf ek photo, heading aur text hai. Us ka apna page nahi
+// banta, is liye us mein slug, author, reviewed_by ya seo ka kuch kaam nahi -
+// woh sab wahan fazool parte hain.
+const SKIP_FOLDERS = new Set(['sliders']);
+
 const walk = (dir) => fs.readdirSync(dir).flatMap((name) => {
   const p = path.join(dir, name);
-  return fs.statSync(p).isDirectory() ? walk(p) : p.endsWith('.md') ? [p] : [];
+  if (fs.statSync(p).isDirectory()) return SKIP_FOLDERS.has(name) ? [] : walk(p);
+  return p.endsWith('.md') ? [p] : [];
 });
 
 // ------------------------------------------------------------------ helpers
