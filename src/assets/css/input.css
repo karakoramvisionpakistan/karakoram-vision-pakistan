@@ -121,9 +121,16 @@
 /* "Smart" slide: poori photo beech mein, peeche usi ki dhundhli copy jagah bharti hai.
    Is tarah kisi bhi naap ki photo na katti hai na khinchti hai. */
 .bk-hero-bg { position: absolute; inset: 0; z-index: 0; object-fit: cover;
-  filter: blur(34px) brightness(.62) saturate(1.1); transform: scale(1.14); }
-.bk-hero-slide.is-smart .bk-hero-photo { position: relative; z-index: 1; object-fit: contain; }
-@media (min-width: 1024px) { .bk-hero-slide.is-smart .bk-hero-photo { object-position: right center; } }
+  filter: blur(44px) brightness(.72) saturate(1.15); transform: scale(1.3); }
+/* Photo sirf apni chaurai leti hai (poora dabba nahi) aur dayein kinare se
+   lagti hai. Us ka bayan kinara dhundhli copy mein ghul jata hai, is liye
+   koi seedhi lakeer - yani "patti" - nazar nahi aati. Chhoti screen par
+   max-width is ko poora banner bhar dene deti hai. */
+.bk-hero-slide.is-smart .bk-hero-photo { position: relative; z-index: 1;
+  width: auto; height: 100%; max-width: 100%; margin-left: auto; display: block;
+  object-fit: cover; object-position: center;
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 13%);
+          mask-image: linear-gradient(to right, transparent 0, #000 13%); }
 /* Jahan asli photo nahi lagi, wahan placeholder khinche nahi */
 .bk-hero-slide img[src$="placeholder.svg"] { object-fit: contain; }
 .bk-hero-slide.is-active { opacity: 1; visibility: visible; transform: translate3d(0,0,0) rotateY(0) scale(1); z-index: 3; pointer-events: auto; }
