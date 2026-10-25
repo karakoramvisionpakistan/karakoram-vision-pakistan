@@ -3,7 +3,6 @@ title: Climbing
 published: true
 sections:
   - homepage
-  - homepage
 order: 3
 image: /assets/uploads/1792942525273-115.webp
 image_alt: ""
@@ -13,7 +12,9 @@ text: ""
 button_label: ""
 button_url: ""
 slug: climbing
+fit: smart
 ---
+
 
 
 
