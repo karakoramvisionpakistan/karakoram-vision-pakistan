@@ -2209,6 +2209,77 @@ content:
   - name: body
     label: Full description
     type: rich-text
+- name: sliders
+  label: Hero Sliders (big photos at the top of a page)
+  type: collection
+  path: src/content/sliders
+  filename: "{primary}.md"
+  view:
+    primary: title
+    fields:
+    - title
+    - sections
+    - order
+    - published
+  fields:
+  - name: title
+    label: Name (only you see this)
+    type: string
+    required: true
+    description: "Sirf is list mein pehchanne ke liye - website par nazar nahi aata."
+  - name: published
+    label: Show on the website
+    type: boolean
+    default: true
+  - name: sections
+    label: Which pages should show this slide
+    type: select
+    list: true
+    description: "Kam az kam ek chunna zaroori hai, warna slide kahin nazar nahi aayegi. Ek slide kai pages par bhi lag sakti hai; \"all\" ka matlab har woh page jahan bara slider hai."
+    options:
+    - homepage
+    - tours
+    - trekking
+    - expeditions
+    - jeep-safaris
+    - hunting-services
+    - vehicles
+    - blog
+    - destinations
+    - all
+  - name: order
+    label: Order
+    type: number
+    description: "Chhota number pehle. 1, 2, 3..."
+    options:
+      min: 1
+      max: 99
+  - name: image
+    label: Photo
+    type: image
+    description: "Chaurai mein kam az kam 1600px - yeh poori chaurai par dikhti hai. Upload karein ya library se chunein."
+  - name: image_alt
+    label: Photo description
+    type: string
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line. Google Images aur nabina logon ke liye."
+  - name: eyebrow
+    label: Small line above the headline
+    type: string
+  - name: heading
+    label: Headline
+    type: string
+  - name: text
+    label: Text under the headline
+    type: text
+  - name: button_label
+    label: Button text
+    type: string
+    description: "Khali chhor dein to button nazar nahi aayega."
+  - name: button_url
+    label: Button link
+    type: string
+    description: "Jaise /tours/ ya /plan-a-trip/"
+
 - name: pages
   label: Pages (About, Destinations, Policies)
   type: collection

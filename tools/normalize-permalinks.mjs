@@ -25,6 +25,9 @@ const SECTIONS = {
   blog: 'blog',
 };
 
+// Yeh folders pages nahi hain (sirf data), in ka koi URL nahi hota.
+const SKIP_FOLDERS = new Set(['sliders']);
+
 const slugify = (s) => String(s).toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
   .replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
@@ -46,6 +49,7 @@ for (const file of walk(root)) {
   const front = m[2];
   const nl = front.includes('\r\n') ? '\r\n' : '\n';
   const folder = relative(root, file).split(sep)[0];
+  if (SKIP_FOLDERS.has(folder)) continue;
   const section = SECTIONS[folder];
   const slug = slugify(getField(front, 'slug') || getField(front, 'title') || basename(file, '.md'));
   const current = getField(front, 'permalink');

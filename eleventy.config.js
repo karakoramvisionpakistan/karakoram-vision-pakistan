@@ -15,6 +15,18 @@ export default function(eleventyConfig) {
   eleventyConfig.addCollection("posts", api => coll(api,"blog"));
   eleventyConfig.addCollection("vehicles", api => coll(api,"vehicles"));
   eleventyConfig.addCollection("pages", api => coll(api,"pages"));
+  eleventyConfig.addCollection("sliders", api => coll(api,"sliders"));
+  // Kisi section ki slides nikalta hai. "all" wali slides har jagah aati hain.
+  eleventyConfig.addFilter("slidesFor", (sliders, section) => {
+    const key = String(section || "homepage").toLowerCase();
+    const of = item => [].concat(item.data.sections || item.data.section || [])
+      .map(x => String(x || "").toLowerCase()).filter(Boolean);
+    return (sliders || [])
+      .filter(item => { const s = of(item); return s.includes(key) || s.includes("all"); })
+      .sort((a,b) => (Number(a.data.order||0) - Number(b.data.order||0))
+        || String(a.data.title||"").localeCompare(String(b.data.title||"")))
+      .slice(0, 12);
+  });
   eleventyConfig.addCollection("indexable", api => api.getAll().filter(x => x.data.published !== false && x.url && !(String((x.data.seo || {}).robots || "").toLowerCase().includes("noindex")) && x.url !== "/404.html"));
   eleventyConfig.addFilter("json", v => JSON.stringify(v));
   eleventyConfig.addFilter("limit", (arr,n) => (arr || []).slice(0,n));

@@ -1,20 +1,48 @@
-{% set slides = heroItems | limit(6) %}
+{# Hero slider.
+   Do tareeqe se chalta hai:
+   1. Agar client ne CMS ke "Hero Sliders" mein us section ke liye slides banayi hain,
+      to wahi dikhti hain - har slide ki apni photo, heading, text aur button.
+   2. Agar koi slide na ho, to purana khud-kar slider chalta hai jo journeys ki
+      cover photos uthata hai. Yani kuch band nahi hota.
+   Section ka naam page ke `service_type` se aata hai (tours, trekking...) ya
+   `heroSection` se jo page khud set kar sakta hai; warna 'homepage'. #}
+{% set sliderKey = heroSection or service_type or 'homepage' %}
+{% set customSlides = collections.sliders | slidesFor(sliderKey) %}
+{% set autoSlides = heroItems | limit(6) %}
+{% set useCustom = customSlides.length > 0 %}
+{% set slides = customSlides if useCustom else autoSlides %}
 <section class="bk-hero{% if heroCompact %} bk-hero-compact{% endif %}" data-hero-slider data-autoplay="6500" aria-label="{{ heroHeading or title }} featured journeys">
   <div class="bk-hero-stage">
     {% for item in slides %}
-      {% set heroImage = item.data.cover_image | safeMedia(item.data.cover_source, '/assets/uploads/placeholder.svg') %}
+      {% if useCustom %}
+        {% set slideImage = item.data.image | safeMedia('', '/assets/uploads/placeholder.svg') %}
+        {% set slideHeading = item.data.heading or heroHeading or title %}
+      {% else %}
+        {% set slideImage = item.data.cover_image | safeMedia(item.data.cover_source, '/assets/uploads/placeholder.svg') %}
+        {% set slideHeading = heroHeading or title %}
+      {% endif %}
       <article class="bk-hero-slide{% if loop.first %} is-active{% elif loop.index0 == 1 %} is-next{% elif loop.last %} is-prev{% endif %}" data-hero-slide data-index="{{ loop.index0 }}" aria-hidden="{{ 'false' if loop.first else 'true' }}">
-        <img src="{{ heroImage }}" alt="{{ item.data.title }}" width="1920" height="1080" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
+        <img src="{{ slideImage }}" alt="{{ item.data.image_alt or item.data.heading or item.data.title }}" width="1920" height="1080" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
         <div class="bk-hero-shade"></div>
         <div class="bk-hero-copy">
-          <p class="bk-hero-eyebrow">{{ heroEyebrow or item.data.service_label or 'Karakoram Vision Pakistan' }}</p>
-          {% if loop.first %}<h1>{{ heroHeading or title }}</h1>{% else %}<h2>{{ heroHeading or title }}</h2>{% endif %}
-          <p class="bk-hero-feature-title">{{ item.data.title }}</p>
-          <p class="bk-hero-summary">{{ heroSummary or summary or item.data.summary }}</p>
-          <div class="bk-hero-actions">
-            <a class="bk-hero-primary" href="{{ item.url }}">View details</a>
-            <a class="bk-hero-secondary" href="/plan-a-trip/?journey={{ item.data.title | urlencode }}&service={{ item.data.service_type | urlencode }}#trip-request-form">Book now</a>
-          </div>
+          {% if useCustom %}
+            <p class="bk-hero-eyebrow">{{ item.data.eyebrow or heroEyebrow or site.tagline or site.name }}</p>
+            {% if loop.first %}<h1>{{ slideHeading }}</h1>{% else %}<h2>{{ slideHeading }}</h2>{% endif %}
+            {% if item.data.text %}<p class="bk-hero-summary">{{ item.data.text }}</p>{% endif %}
+            <div class="bk-hero-actions">
+              {% if item.data.button_url %}<a class="bk-hero-primary" href="{{ item.data.button_url }}">{{ item.data.button_label or 'View details' }}</a>{% endif %}
+              <a class="bk-hero-secondary" href="/plan-a-trip/#trip-request-form">Plan a trip</a>
+            </div>
+          {% else %}
+            <p class="bk-hero-eyebrow">{{ heroEyebrow or item.data.service_label or 'Karakoram Vision Pakistan' }}</p>
+            {% if loop.first %}<h1>{{ slideHeading }}</h1>{% else %}<h2>{{ slideHeading }}</h2>{% endif %}
+            <p class="bk-hero-feature-title">{{ item.data.title }}</p>
+            <p class="bk-hero-summary">{{ heroSummary or summary or item.data.summary }}</p>
+            <div class="bk-hero-actions">
+              <a class="bk-hero-primary" href="{{ item.url }}">View details</a>
+              <a class="bk-hero-secondary" href="/plan-a-trip/?journey={{ item.data.title | urlencode }}&service={{ item.data.service_type | urlencode }}#trip-request-form">Book now</a>
+            </div>
+          {% endif %}
         </div>
       </article>
     {% else %}
