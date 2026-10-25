@@ -2262,6 +2262,32 @@ content:
     label: Photo description
     type: string
     description: "Photo mein kya nazar aa raha hai, ek chhoti line. Google Images aur nabina logon ke liye."
+  - name: fit
+    label: How the photo sits in the banner
+    type: select
+    default: smart
+    description: "Pehla option chhor dein to har naap ki photo theek lagti hai - poori nazar aati hai aur peeche usi ki dhundhli copy jagah bhar deti hai. Doosra option sirf tab chunein jab photo pehle se bohot chauri ho."
+    options:
+    - value: smart
+      label: Show the whole photo (recommended)
+    - value: cover
+      label: Fill the banner (top and bottom get cut off)
+  - name: focus
+    label: Which part to keep when filling
+    type: select
+    default: top
+    description: "Sirf tab kaam aata hai jab oopar \"Fill the banner\" chuna ho. Pahari photos mein \"Top\" behtar rehta hai - choti bach jati hai."
+    options:
+    - value: top
+      label: Top (best for mountains)
+    - value: center
+      label: Middle
+    - value: bottom
+      label: Bottom
+    - value: left
+      label: Left
+    - value: right
+      label: Right
   - name: eyebrow
     label: Small line above the headline
     type: string
@@ -4151,3 +4177,300 @@ content:
         label: "Not included"
         type: string
         list: true
+
+- name: hero_banners
+  label: 20 — Big banner for each page (on/off, or one photo)
+  type: file
+  path: src/_data/heroSettings.json
+  operations:
+    delete: false
+    rename: false
+  fields:
+  - name: homepage
+    label: "Home page"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: tours
+    label: "Tours"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: trekking
+    label: "Trekking"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: expeditions
+    label: "Expeditions"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: jeep-safaris
+    label: "Jeep Safaris"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: hunting-services
+    label: "Hunting Services"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: vehicles
+    label: "Vehicles"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: blog
+    label: "Travel Guides (blog)"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: news
+    label: "News"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: destinations
+    label: "Destinations"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: holiday-types
+    label: "Holiday Types"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: special-interests
+    label: "Special Interests"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: journey-categories
+    label: "Journey Categories"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: international-travelers
+    label: "International Travelers"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: guest-reviews
+    label: "Guest Reviews"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: social-responsibility
+    label: "Social Responsibility"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: plan-a-trip
+    label: "Plan a Trip"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+  - name: contact-us
+    label: "Contact Us"
+    type: object
+    fields:
+    - name: enabled
+      label: Show the sliding banner
+      type: boolean
+      default: true
+    - name: image
+      label: Or one photo instead
+      type: image
+      description: "Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi."
+    - name: image_alt
+      label: Photo description
+      type: string
+      description: "Photo mein kya nazar aa raha hai, ek chhoti line."

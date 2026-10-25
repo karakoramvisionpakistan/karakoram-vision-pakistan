@@ -99,11 +99,33 @@
 }
 
 /* 3D hero slider */
-.bk-hero { position: relative; min-height: 720px; overflow: hidden; background: #020617; color: #fff; isolation: isolate; }
-.bk-hero-compact { min-height: 560px; }
+/* Banner band ho aur koi photo bhi na lagi ho, to yeh saada patti aati hai.
+   Page ka h1 isi mein rehta hai, warna page ka unwaan hi gayab ho jata. */
+.bk-page-header { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #fff;
+  padding: clamp(2.25rem, 5vw, 4rem) max(4vw, 1.25rem); }
+.bk-page-header-inner { max-width: 1440px; margin: 0 auto; }
+.bk-page-header .eyebrow { margin: 0; color: #bfdbfe; font-size: .75rem; font-weight: 900;
+  letter-spacing: .22em; text-transform: uppercase; }
+.bk-page-header h1 { margin: .65rem 0 0; max-width: 22ch; font-size: clamp(2rem, 4.5vw, 3.4rem);
+  font-weight: 950; line-height: 1.04; }
+.bk-page-header p { margin: .9rem 0 0; max-width: 64ch; color: #dbeafe;
+  font-size: clamp(1rem, 1.4vw, 1.15rem); line-height: 1.7; }
+.bk-page-header-finder { max-width: 1440px; margin: 1.75rem auto 0; }
+
+/* bulandi screen ke saath */
+.bk-hero { position: relative; height: clamp(520px, 52vw, 820px); overflow: hidden; background: #020617; color: #fff; isolation: isolate; }
+.bk-hero-compact { height: clamp(420px, 42vw, 660px); }
 .bk-hero-stage { position: absolute; inset: 0; perspective: 1800px; transform-style: preserve-3d; }
 .bk-hero-slide { position: absolute; inset: 0; opacity: 0; visibility: hidden; transform: translate3d(0,0,-360px) scale(.86); transition: transform .8s cubic-bezier(.2,.75,.2,1), opacity .65s ease, visibility .65s; pointer-events: none; }
-.bk-hero-slide img { width: 100%; height: 100%; object-fit: cover; }
+.bk-hero-slide img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+/* "Smart" slide: poori photo beech mein, peeche usi ki dhundhli copy jagah bharti hai.
+   Is tarah kisi bhi naap ki photo na katti hai na khinchti hai. */
+.bk-hero-bg { position: absolute; inset: 0; z-index: 0; object-fit: cover;
+  filter: blur(34px) brightness(.62) saturate(1.1); transform: scale(1.14); }
+.bk-hero-slide.is-smart .bk-hero-photo { position: relative; z-index: 1; object-fit: contain; }
+@media (min-width: 1024px) { .bk-hero-slide.is-smart .bk-hero-photo { object-position: right center; } }
+/* Jahan asli photo nahi lagi, wahan placeholder khinche nahi */
+.bk-hero-slide img[src$="placeholder.svg"] { object-fit: contain; }
 .bk-hero-slide.is-active { opacity: 1; visibility: visible; transform: translate3d(0,0,0) rotateY(0) scale(1); z-index: 3; pointer-events: auto; }
 .bk-hero-slide.is-prev { opacity: .28; visibility: visible; transform: translate3d(-45%,0,-240px) rotateY(12deg) scale(.88); z-index: 1; }
 .bk-hero-slide.is-next { opacity: .28; visibility: visible; transform: translate3d(45%,0,-240px) rotateY(-12deg) scale(.88); z-index: 1; }
@@ -239,8 +261,8 @@
 
 @media (max-width: 1279px) {
   .bk-brand-tools { display: none; }
-  .bk-hero { min-height: 680px; }
-  .bk-hero-compact { min-height: 520px; }
+  .bk-hero { height: clamp(480px, 58vw, 680px); }
+  .bk-hero-compact { height: clamp(400px, 46vw, 540px); }
   .bk-trip-finder { grid-template-columns: 1fr 1fr; }
   .bk-finder-submit { min-height: 64px; }
 }
@@ -249,7 +271,7 @@
   .bk-info-strip { display: none; }
   .bk-brand-inner { min-height: 68px; }
   .bk-brand-link img { height: 46px; max-width: 210px; }
-  .bk-hero, .bk-hero-compact { min-height: 690px; }
+  .bk-hero, .bk-hero-compact { height: clamp(440px, 118vw, 560px); }
   .bk-hero-copy { left: 1.25rem; top: 43%; width: calc(100% - 2.5rem); transform: translateY(-50%); }
   .bk-hero-copy h1, .bk-hero-copy h2, .bk-hero-compact .bk-hero-copy h1, .bk-hero-compact .bk-hero-copy h2 { font-size: clamp(2.35rem, 12vw, 4rem); }
   .bk-hero-feature-title { font-size: 1rem; }

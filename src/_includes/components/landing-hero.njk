@@ -1,11 +1,53 @@
-{# Hero slider.
-   Do tareeqe se chalta hai:
-   1. Agar client ne CMS ke "Hero Sliders" mein us section ke liye slides banayi hain,
-      to wahi dikhti hain - har slide ki apni photo, heading, text aur button.
-   2. Agar koi slide na ho, to purana khud-kar slider chalta hai jo journeys ki
-      cover photos uthata hai. Yani kuch band nahi hota.
-   Section ka naam page ke `service_type` se aata hai (tours, trekking...) ya
-   `heroSection` se jo page khud set kar sakta hai; warna 'homepage'. #}
+{# Hero banner.
+
+   CMS se control: "Big banner" wali screen par har page ke liye teen surtein -
+   slider chalu, ya slider band + ek jami hui photo, ya slider band aur sirf ek
+   saada patti. Teenon mein page ka unwaan (h1) rehta hai, kyunke usey gayab
+   karna Google ke liye nuqsan-deh hai.
+
+   Banner chalu ho to do tareeqe se chalta hai:
+   1. Client ne CMS ke "Hero Sliders" mein us section ki slides banayi hon to
+      wahi dikhti hain - har slide ki apni photo, heading, text aur button.
+   2. Warna purana khud-kar slider chalta hai jo journeys ki cover photos uthata hai.
+
+   Photo ki shakal: default "smart" - poori photo beech mein, peeche usi photo ki
+   dhundhli bari copy jagah bharti hai. Na kuch katta hai na khinchta hai. #}
+{% set heroPageKey = page.url | heroKey %}
+{% set heroCfg = heroSettings | heroConfig(heroPageKey) %}
+
+{% if not heroCfg.enabled and heroCfg.image %}
+  {# Slider band hai lekin client ne ek photo lagai hai - wahi jami hui dikhao.
+     Markup slider jaisa hi hai, bas data-hero-slider nahi, to JS isey nahi chhuta. #}
+  {% set staticImage = heroCfg.image | safeMedia('', '/assets/uploads/placeholder.svg') %}
+  <section class="bk-hero bk-hero-compact">
+    <div class="bk-hero-stage">
+      <article class="bk-hero-slide is-active is-smart">
+        <img class="bk-hero-bg" src="{{ staticImage }}" alt="" aria-hidden="true" width="1920" height="1080" decoding="async">
+        <img class="bk-hero-photo" src="{{ staticImage }}" alt="{{ heroCfg.image_alt or heroHeading or title }}" width="1920" height="1080" fetchpriority="high" decoding="async">
+        <div class="bk-hero-shade"></div>
+        <div class="bk-hero-copy">
+          <p class="bk-hero-eyebrow">{{ heroEyebrow or site.tagline or site.name }}</p>
+          <h1>{{ heroHeading or title }}</h1>
+          {% if heroSummary or summary %}<p class="bk-hero-summary">{{ heroSummary or summary }}</p>{% endif %}
+        </div>
+      </article>
+    </div>
+    {% if heroFinder %}<div class="bk-hero-finder-wrap">{% include "components/trip-finder.njk" %}</div>{% endif %}
+  </section>
+
+{% elif not heroCfg.enabled %}
+  {# Slider bhi band aur photo bhi nahi - saada patti. Unwaan phir bhi rehta hai. #}
+  <section class="bk-page-header">
+    <div class="bk-page-header-inner">
+      <p class="eyebrow">{{ heroEyebrow or site.tagline or site.name }}</p>
+      <h1>{{ heroHeading or title }}</h1>
+      {% if heroSummary or summary %}<p>{{ heroSummary or summary }}</p>{% endif %}
+    </div>
+    {% if heroFinder %}<div class="bk-page-header-finder">{% include "components/trip-finder.njk" %}</div>{% endif %}
+  </section>
+
+{% else %}
+
 {% set sliderKey = heroSection or service_type or 'homepage' %}
 {% set customSlides = collections.sliders | slidesFor(sliderKey) %}
 {% set autoSlides = heroItems | limit(6) %}
@@ -17,12 +59,15 @@
       {% if useCustom %}
         {% set slideImage = item.data.image | safeMedia('', '/assets/uploads/placeholder.svg') %}
         {% set slideHeading = item.data.heading or heroHeading or title %}
+        {% set slideFit = item.data.fit or 'smart' %}
       {% else %}
         {% set slideImage = item.data.cover_image | safeMedia(item.data.cover_source, '/assets/uploads/placeholder.svg') %}
         {% set slideHeading = heroHeading or title %}
+        {% set slideFit = 'cover' %}
       {% endif %}
-      <article class="bk-hero-slide{% if loop.first %} is-active{% elif loop.index0 == 1 %} is-next{% elif loop.last %} is-prev{% endif %}" data-hero-slide data-index="{{ loop.index0 }}" aria-hidden="{{ 'false' if loop.first else 'true' }}">
-        <img src="{{ slideImage }}" alt="{{ item.data.image_alt or item.data.heading or item.data.title }}" width="1920" height="1080" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
+      <article class="bk-hero-slide{% if loop.first %} is-active{% elif loop.index0 == 1 %} is-next{% elif loop.last %} is-prev{% endif %}{% if slideFit == 'smart' %} is-smart{% endif %}" data-hero-slide data-index="{{ loop.index0 }}" aria-hidden="{{ 'false' if loop.first else 'true' }}">
+        {% if slideFit == 'smart' %}<img class="bk-hero-bg" src="{{ slideImage }}" alt="" aria-hidden="true" width="1920" height="1080" loading="lazy" decoding="async">{% endif %}
+        <img class="bk-hero-photo" src="{{ slideImage }}" alt="{{ item.data.image_alt or item.data.heading or item.data.title }}" width="1920" height="1080"{% if useCustom and slideFit == 'cover' %} style="object-position: {{ item.data.focus or 'top' }}"{% endif %} {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
         <div class="bk-hero-shade"></div>
         <div class="bk-hero-copy">
           {% if useCustom %}
@@ -47,7 +92,7 @@
       </article>
     {% else %}
       <article class="bk-hero-slide is-active" data-hero-slide data-index="0" aria-hidden="false">
-        <img src="/assets/uploads/placeholder.svg" alt="Karakoram Vision Pakistan mountain journey" width="1920" height="1080" fetchpriority="high" decoding="async">
+        <img class="bk-hero-photo" src="/assets/uploads/placeholder.svg" alt="Karakoram Vision Pakistan mountain journey" width="1920" height="1080" fetchpriority="high" decoding="async">
         <div class="bk-hero-shade"></div>
         <div class="bk-hero-copy"><p class="bk-hero-eyebrow">Karakoram Vision Pakistan</p><h1>{{ heroHeading or title }}</h1><p class="bk-hero-summary">{{ heroSummary or summary }}</p><div class="bk-hero-actions"><a class="bk-hero-primary" href="/plan-a-trip/#trip-request-form">Plan a trip</a></div></div>
       </article>
@@ -62,3 +107,4 @@
   {% endif %}
   {% if heroFinder %}<div class="bk-hero-finder-wrap">{% include "components/trip-finder.njk" %}</div>{% endif %}
 </section>
+{% endif %}

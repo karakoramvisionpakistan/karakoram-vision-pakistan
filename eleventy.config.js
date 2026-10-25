@@ -28,6 +28,19 @@ export default function(eleventyConfig) {
       .slice(0, 12);
   });
   eleventyConfig.addCollection("indexable", api => api.getAll().filter(x => x.data.published !== false && x.url && !(String((x.data.seo || {}).robots || "").toLowerCase().includes("noindex")) && x.url !== "/404.html"));
+  // Page ke URL se banner ki setting ka naam: "/" -> homepage,
+  // "/tours/" aur "/tours/fixed-departures/" dono -> tours.
+  eleventyConfig.addFilter("heroKey", url => {
+    const first = String(url || "/").split("/").filter(Boolean)[0];
+    return first ? first.toLowerCase() : "homepage";
+  });
+  // Us page ki banner setting. Purani shakal (sirf true/false) bhi chalti hai.
+  eleventyConfig.addFilter("heroConfig", (settings, key) => {
+    const raw = (settings || {})[key];
+    if (raw === undefined || raw === null) return { enabled: true, image: "", image_alt: "" };
+    if (typeof raw === "boolean") return { enabled: raw, image: "", image_alt: "" };
+    return { enabled: raw.enabled !== false, image: raw.image || "", image_alt: raw.image_alt || "" };
+  });
   eleventyConfig.addFilter("json", v => JSON.stringify(v));
   eleventyConfig.addFilter("limit", (arr,n) => (arr || []).slice(0,n));
   eleventyConfig.addFilter("year", () => new Date().getFullYear());
