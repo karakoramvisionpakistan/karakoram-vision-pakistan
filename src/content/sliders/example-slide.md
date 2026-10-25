@@ -16,7 +16,11 @@ author: Karakoram Vision Pakistan Private Limited
 reviewed_by: Karakoram Vision Pakistan Private Limited
 seo:
   title: Example slide — change or delete me | Karakoram Vision
+_trashed: true
+_trashed_at: "2026-10-25T13:43:05.422Z"
+_trashed_by: Muhammad Ali
 ---
+
 
 
 
