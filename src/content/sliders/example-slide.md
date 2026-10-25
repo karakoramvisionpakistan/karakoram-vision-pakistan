@@ -3,10 +3,9 @@ title: Example slide — change or delete me
 published: false
 sections:
   - homepage
-  - trekking
-order: 2
-image: /assets/uploads/1792935428622-Biafo.webp
-image_alt: ""
+order: 1
+image: /assets/uploads/1792850035755-IMG_2429.webp
+image_alt: Trekking
 eyebrow: Karakoram Vision Pakistan
 heading: Your headline for this slide
 text: One or two lines of text that sit under the headline.
@@ -18,4 +17,5 @@ reviewed_by: Karakoram Vision Pakistan Private Limited
 seo:
   title: Example slide — change or delete me | Karakoram Vision
 ---
+
 
