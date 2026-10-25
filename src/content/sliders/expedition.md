@@ -11,7 +11,12 @@ heading: ""
 text: ""
 button_label: ""
 button_url: ""
-slug: expedition
+slug: "expedition"
+author: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
+last_verified: "2026-10-25"
+seo:
+  title: "Expedition | Karakoram Vision"
 ---
 
 

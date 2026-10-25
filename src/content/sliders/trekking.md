@@ -11,7 +11,12 @@ heading: Biafo Glacier
 text: Jinab
 button_label: ""
 button_url: ""
-slug: trekking
+slug: "trekking"
+author: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
+last_verified: "2026-10-25"
+seo:
+  title: "Trekking | Karakoram Vision"
 ---
 
 

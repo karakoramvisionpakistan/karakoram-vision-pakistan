@@ -112,12 +112,12 @@
   font-size: clamp(1rem, 1.4vw, 1.15rem); line-height: 1.7; }
 .bk-page-header-finder { max-width: 1440px; margin: 1.75rem auto 0; }
 
-/* bulandi screen ke saath */
-.bk-hero { position: relative; height: clamp(520px, 52vw, 820px); overflow: hidden; background: #020617; color: #fff; isolation: isolate; }
-.bk-hero-compact { height: clamp(420px, 42vw, 660px); }
+/* bulandi: kahin chhoti nahi, bari screen par thori zyada */
+.bk-hero { position: relative; min-height: clamp(720px, 52vw, 860px); overflow: hidden; background: #020617; color: #fff; isolation: isolate; }
+.bk-hero-compact { min-height: clamp(560px, 42vw, 700px); }
 .bk-hero-stage { position: absolute; inset: 0; perspective: 1800px; transform-style: preserve-3d; }
 .bk-hero-slide { position: absolute; inset: 0; opacity: 0; visibility: hidden; transform: translate3d(0,0,-360px) scale(.86); transition: transform .8s cubic-bezier(.2,.75,.2,1), opacity .65s ease, visibility .65s; pointer-events: none; }
-.bk-hero-slide img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.bk-hero-slide img { width: 100%; height: 100%; object-fit: cover; object-position: center; background: transparent; }
 /* "Smart" slide: poori photo beech mein, peeche usi ki dhundhli copy jagah bharti hai.
    Is tarah kisi bhi naap ki photo na katti hai na khinchti hai. */
 .bk-hero-bg { position: absolute; inset: 0; z-index: 0; object-fit: cover;
@@ -261,8 +261,8 @@
 
 @media (max-width: 1279px) {
   .bk-brand-tools { display: none; }
-  .bk-hero { height: clamp(480px, 58vw, 680px); }
-  .bk-hero-compact { height: clamp(400px, 46vw, 540px); }
+  .bk-hero { min-height: 680px; }
+  .bk-hero-compact { min-height: 520px; }
   .bk-trip-finder { grid-template-columns: 1fr 1fr; }
   .bk-finder-submit { min-height: 64px; }
 }
@@ -271,7 +271,7 @@
   .bk-info-strip { display: none; }
   .bk-brand-inner { min-height: 68px; }
   .bk-brand-link img { height: 46px; max-width: 210px; }
-  .bk-hero, .bk-hero-compact { height: clamp(440px, 118vw, 560px); }
+  .bk-hero, .bk-hero-compact { min-height: 690px; }
   .bk-hero-copy { left: 1.25rem; top: 43%; width: calc(100% - 2.5rem); transform: translateY(-50%); }
   .bk-hero-copy h1, .bk-hero-copy h2, .bk-hero-compact .bk-hero-copy h1, .bk-hero-compact .bk-hero-copy h2 { font-size: clamp(2.35rem, 12vw, 4rem); }
   .bk-hero-feature-title { font-size: 1rem; }
