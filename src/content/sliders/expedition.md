@@ -1,7 +1,8 @@
 ---
 title: Expedition
 published: true
-sections: []
+sections:
+  - homepage
 order: 4
 image: /assets/uploads/1792942699991-116.webp
 image_alt: ""
@@ -12,4 +13,5 @@ button_label: ""
 button_url: ""
 slug: expedition
 ---
+
 
