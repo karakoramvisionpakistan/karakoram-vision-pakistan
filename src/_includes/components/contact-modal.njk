@@ -44,6 +44,15 @@
     </section>
     {% endif %}
 
+    {% if site.contact_extra and site.contact_extra.length %}
+    <section class="bk-contact-group" aria-labelledby="contact-extra">
+      <h3 id="contact-extra">More ways to reach us</h3>
+      <div class="bk-contact-app-grid">
+        {% for c in site.contact_extra %}{% if c.copy_text %}<button class="bk-contact-app-card" type="button" data-copy-text="{{ c.copy_text }}">{{ icon(c.icon or 'chat') }}<span><strong>{{ c.label }}</strong><small>{{ c.note or c.copy_text }}</small></span></button>{% elif c.url %}<a class="bk-contact-app-card" href="{{ c.url }}" target="_blank" rel="noopener">{{ icon(c.icon or 'chat') }}<span><strong>{{ c.label }}</strong>{% if c.note %}<small>{{ c.note }}</small>{% endif %}</span></a>{% endif %}{% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
     <div class="bk-contact-modal-actions">
       <a class="btn-primary" href="/plan-a-trip/#trip-request-form">Open complete trip planner</a>
       <a class="bk-contact-secondary" href="/contact-us/">Contact page</a>

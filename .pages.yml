@@ -2472,6 +2472,48 @@ content:
     - name: widget_id
       label: Widget ID
       type: string
+  - name: contact_extra
+    label: More chat channels — add as many as you like
+    type: object
+    list: true
+    description: "Jo app oopar ki list mein nahi hai, usey yahan add karein. Hatane ke liye us row ka X dabayein."
+    fields:
+    - name: icon
+      label: "Icon"
+      type: select
+      options:
+      - whatsapp
+      - telegram
+      - messenger
+      - signal
+      - skype
+      - line
+      - wechat
+      - viber
+      - kakao
+      - zalo
+      - imo
+      - vk
+      - max
+      - chat
+      - mail
+      - phone
+    - name: label
+      label: "Name"
+      type: string
+      description: "Jaise \"Discord\" ya \"Botim\"."
+    - name: note
+      label: "Small text under the name"
+      type: string
+      description: "Ikhtiyari - jaise \"Middle East\" ya \"Calls only\"."
+    - name: url
+      label: "Link"
+      type: string
+      description: "Poora link. Agar sirf ID copy karani ho to yeh khali chhor dein."
+    - name: copy_text
+      label: "Or an ID to copy"
+      type: string
+      description: "Link ke bajaye ID/number - visitor click kar ke copy kar lega."
 
 - name: site_social
   label: 05 — Social media links
@@ -2518,6 +2560,37 @@ content:
     - name: bluesky
       label: Bluesky URL
       type: string
+  - name: social_extra
+    label: More social accounts — add as many as you like
+    type: object
+    list: true
+    description: "Jo platform oopar ki list mein nahi hai, usey yahan add karein. Hatane ke liye us row ka X dabayein."
+    fields:
+    - name: icon
+      label: "Icon"
+      type: select
+      options:
+      - facebook
+      - instagram
+      - youtube
+      - linkedin
+      - tripadvisor
+      - x
+      - tiktok
+      - pinterest
+      - threads
+      - google
+      - chat
+      - share
+      - mail
+    - name: label
+      label: "Name"
+      type: string
+      description: "Jaise \"Snapchat\". Yeh screen reader aur hover par nazar aata hai."
+    - name: url
+      label: "Link"
+      type: string
+      description: "Poora link, https:// ke saath."
 
 - name: site_ratings
   label: 06 — Review & rating links

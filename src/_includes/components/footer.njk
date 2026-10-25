@@ -44,12 +44,8 @@
       {% if f.contact.show_contact_hub !== false %}<button type="button" class="bk-footer-contact-hub" data-open-contact>{{ icon('chat') }} {{ f.contact.contact_hub_label or 'International contact hub' }}</button>{% endif %}
       {% if f.social.enabled !== false %}
       <div class="bk-social-links" aria-label="Social media accounts">
-        {% set shownSocial = false %}
-        {% for platform in f.social.platform_order %}
-          {% set socialUrl = site.social[platform.key] %}
-          {% if socialUrl %}{% set shownSocial = true %}<a href="{{ socialUrl }}" target="_blank" rel="noopener" aria-label="{{ platform.label }}">{{ icon(platform.icon or 'chat') }}</a>{% endif %}
-        {% endfor %}
-        {% if not shownSocial %}<a href="mailto:{{ site.email }}" aria-label="Email">{{ icon('mail') }}</a>{% endif %}
+        {% for platform in f.social.platform_order %}{% if site.social[platform.key] %}<a href="{{ site.social[platform.key] }}" target="_blank" rel="noopener" aria-label="{{ platform.label }}">{{ icon(platform.icon or 'chat') }}</a>{% endif %}{% endfor %}
+        {% for extra in site.social_extra %}{% if extra.url %}<a href="{{ extra.url }}" target="_blank" rel="noopener" aria-label="{{ extra.label or 'Social account' }}">{{ icon(extra.icon or 'share') }}</a>{% endif %}{% endfor %}
       </div>
       {% endif %}
     </section>

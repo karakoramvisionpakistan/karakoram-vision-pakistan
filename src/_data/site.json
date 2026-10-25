@@ -35,6 +35,7 @@
     "imo": "",
     "skype": ""
   },
+  "contact_extra": [],
   "tawk": {
     "property_id": "",
     "widget_id": "default"
@@ -52,6 +53,7 @@
     "google_business": "",
     "bluesky": ""
   },
+  "social_extra": [],
   "ratings": {
     "google_score": "",
     "google_url": "",
