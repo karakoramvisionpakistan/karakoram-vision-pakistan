@@ -269,20 +269,28 @@ for (const [name, label] of Object.entries(RELABEL)) {
 // unwaan interleave hote hain, automatic khane aakhir mein ek band hisse mein
 // chale jate hain, aur madad ke jumle lag jate hain. Khane ki tafseel (type,
 // options, nested fields) jaisi hai waisi copy hoti hai - chhui nahi jati.
-let rebuilt = 0, autoMoved = 0, helpCount = 0;
+let rebuilt = 0, autoMoved = 0, helpCount = 0, alreadyOk = 0;
 
 for (const cname of ALL_COLLECTIONS) {
   const e = byName[cname];
   if (!e) continue;
-  const { blocks } = fieldBlocks(e);
-  if (!blocks.length) continue;
-  if (blocks.some((b) => b.name.startsWith('_h_'))) { skipped++; continue; }
+  const allBlocks = fieldBlocks(e).blocks;
+  if (!allBlocks.length) continue;
 
+  // Purane unwaan nikaal dete hain - har baar nayi tarteeb se banaye jate hain.
+  const blocks = allBlocks.filter((b) => !b.name.startsWith('_h_'));
   const isSection = SECTION_COLLECTIONS.includes(cname);
 
-  // block ka text, madad aur hidden ke saath
+  // block ka text: purana "hidden: true" hata kar (sirf automatic khanon se),
+  // zaroori "hidden" laga kar, aur madad ka jumla jor kar.
   const textOf = (b) => {
-    const body = lines.slice(b.start, b.end);
+    let body = lines.slice(b.start, b.end);
+
+    // Automatic khane chhupne nahi chahiye - client ko badalne ka mauqa mile.
+    if (AUTO_FIELDS.includes(b.name)) {
+      body = body.filter((l) => !/^\s{4}hidden:\s*true\s*$/.test(l));
+    }
+
     const joined = body.join('\n');
     const extra = [];
     if (isSection && KEEP_HIDDEN_IN_SECTIONS.includes(b.name) && !/^\s{4}hidden:\s*true\s*$/m.test(joined)) {
@@ -331,7 +339,11 @@ for (const cname of ALL_COLLECTIONS) {
   }
   placeAuto(); // agar seo na ho to aakhir mein
 
-  edits.push({ from: blocks[0].start, to: blocks[blocks.length - 1].end, replacement: out });
+  const from = allBlocks[0].start;
+  const to = allBlocks[allBlocks.length - 1].end;
+  // Agar nateeja bilkul wahi hai jo pehle se likha hai, to kuch na karein.
+  if (lines.slice(from, to).join('\n') === out.join('\n')) { alreadyOk++; continue; }
+  edits.push({ from, to, replacement: out });
   rebuilt++;
 }
 
@@ -339,7 +351,7 @@ if (rebuilt) {
   note(`${WRITE ? 'bana' : 'banega'}: ${rebuilt} forms unwaan ke hisson mein, ${autoMoved} automatic khane band hisse mein, ${helpCount} madad ke jumle`);
   changed++;
 } else {
-  note('   pehle se theek: forms ki tarteeb');
+  note(`   pehle se theek: forms ki tarteeb (${alreadyOk} collections)`);
   skipped++;
 }
 

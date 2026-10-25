@@ -121,14 +121,6 @@ content:
     label: Title
     type: string
     required: true
-  - name: slug
-    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
-    label: Slug
-    type: string
-    required: true
-    pattern:
-      regex: ^[a-z0-9-]+$
-      message: Use lowercase letters, numbers and hyphens only.
   - name: permalink
     hidden: true
     label: URL path
@@ -169,14 +161,6 @@ content:
     label: Fixed departure
     type: boolean
     default: false
-  - name: departure_type
-    label: Departure type
-    type: select
-    options:
-    - Private
-    - Fixed Departure
-    - Group Departure
-    - Custom
   - name: trip_status
     label: Availability/status
     type: select
@@ -194,20 +178,12 @@ content:
     label: Short description
     type: text
     required: true
-  - name: answer_summary
-    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
-    label: Quick answer (AEO/GEO)
-    type: text
   - name: _h_photos
     label: "Photos"
     type: heading
   - name: cover_image
     label: Cover image
     type: image
-  - name: cover_image_alt
-    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
-    label: Cover image alt text
-    type: string
   - name: gallery
     description: "Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai."
     label: Gallery images
@@ -219,28 +195,12 @@ content:
   - name: duration
     label: Duration
     type: string
-  - name: duration_days
-    hidden: true
-    label: Duration in days
-    type: number
-    options:
-      min: 1
-      max: 365
   - name: price_from
     label: Price from
     type: string
   - name: deposit
     label: Deposit
     type: string
-  - name: price_currency
-    hidden: true
-    label: Currency
-    type: select
-    options:
-    - USD
-    - PKR
-    - EUR
-    - GBP
   - name: group_size
     label: Group size
     type: string
@@ -327,8 +287,8 @@ content:
     label: Packing list
     type: string
     list: true
-  - name: _h_extras_map_trip_leader_old_r
-    label: "Extras — map, trip leader, old reviews"
+  - name: _h_extras_route_map_trip_leader
+    label: "Extras — route map & trip leader"
     type: heading
     collapsed: true
   - name: route_map_url
@@ -350,6 +310,64 @@ content:
     - name: bio
       label: Biography
       type: text
+  - name: _h_questions_key_facts_helps_go
+    label: "Questions & key facts (helps Google and AI)"
+    type: heading
+  - name: faqs
+    label: FAQs
+    type: object
+    list: true
+    fields:
+    - name: question
+      label: Question
+      type: string
+      required: true
+    - name: answer
+      label: Answer
+      type: rich-text
+      required: true
+  - name: _h_filled_in_automatically_open
+    label: "Filled in automatically — open only to change something"
+    type: heading
+    collapsed: true
+  - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
+    label: Slug
+    type: string
+    required: true
+    pattern:
+      regex: ^[a-z0-9-]+$
+      message: Use lowercase letters, numbers and hyphens only.
+  - name: departure_type
+    label: Departure type
+    type: select
+    options:
+    - Private
+    - Fixed Departure
+    - Group Departure
+    - Custom
+  - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
+    label: Quick answer (AEO/GEO)
+    type: text
+  - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
+    label: Cover image alt text
+    type: string
+  - name: duration_days
+    label: Duration in days
+    type: number
+    options:
+      min: 1
+      max: 365
+  - name: price_currency
+    label: Currency
+    type: select
+    options:
+    - USD
+    - PKR
+    - EUR
+    - GBP
   - name: reviews
     description: "Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke \"Reviews\" wale hisse se publish hoti hain."
     label: Guest reviews
@@ -375,22 +393,6 @@ content:
     - name: date
       label: Date
       type: date
-  - name: _h_questions_key_facts_helps_go
-    label: "Questions & key facts (helps Google and AI)"
-    type: heading
-  - name: faqs
-    label: FAQs
-    type: object
-    list: true
-    fields:
-    - name: question
-      label: Question
-      type: string
-      required: true
-    - name: answer
-      label: Answer
-      type: rich-text
-      required: true
   - name: key_facts
     description: "Chhoti label aur value - jaise \"Best season: May-September\". AI inhi ko seedha quote karta hai."
     label: Key facts
@@ -403,10 +405,6 @@ content:
     - name: value
       label: Value
       type: string
-  - name: _h_who_prepared_this_page
-    label: "Who prepared this page"
-    type: heading
-    collapsed: true
   - name: author
     description: "Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai."
     label: Prepared by
@@ -492,14 +490,6 @@ content:
     label: Title
     type: string
     required: true
-  - name: slug
-    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
-    label: Slug
-    type: string
-    required: true
-    pattern:
-      regex: ^[a-z0-9-]+$
-      message: Use lowercase letters, numbers and hyphens only.
   - name: permalink
     hidden: true
     label: URL path
@@ -540,14 +530,6 @@ content:
     label: Fixed departure
     type: boolean
     default: false
-  - name: departure_type
-    label: Departure type
-    type: select
-    options:
-    - Private
-    - Fixed Departure
-    - Group Departure
-    - Custom
   - name: trip_status
     label: Availability/status
     type: select
@@ -565,20 +547,12 @@ content:
     label: Short description
     type: text
     required: true
-  - name: answer_summary
-    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
-    label: Quick answer (AEO/GEO)
-    type: text
   - name: _h_photos
     label: "Photos"
     type: heading
   - name: cover_image
     label: Cover image
     type: image
-  - name: cover_image_alt
-    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
-    label: Cover image alt text
-    type: string
   - name: gallery
     description: "Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai."
     label: Gallery images
@@ -590,28 +564,12 @@ content:
   - name: duration
     label: Duration
     type: string
-  - name: duration_days
-    hidden: true
-    label: Duration in days
-    type: number
-    options:
-      min: 1
-      max: 365
   - name: price_from
     label: Price from
     type: string
   - name: deposit
     label: Deposit
     type: string
-  - name: price_currency
-    hidden: true
-    label: Currency
-    type: select
-    options:
-    - USD
-    - PKR
-    - EUR
-    - GBP
   - name: group_size
     label: Group size
     type: string
@@ -698,8 +656,8 @@ content:
     label: Packing list
     type: string
     list: true
-  - name: _h_extras_map_trip_leader_old_r
-    label: "Extras — map, trip leader, old reviews"
+  - name: _h_extras_route_map_trip_leader
+    label: "Extras — route map & trip leader"
     type: heading
     collapsed: true
   - name: route_map_url
@@ -721,6 +679,64 @@ content:
     - name: bio
       label: Biography
       type: text
+  - name: _h_questions_key_facts_helps_go
+    label: "Questions & key facts (helps Google and AI)"
+    type: heading
+  - name: faqs
+    label: FAQs
+    type: object
+    list: true
+    fields:
+    - name: question
+      label: Question
+      type: string
+      required: true
+    - name: answer
+      label: Answer
+      type: rich-text
+      required: true
+  - name: _h_filled_in_automatically_open
+    label: "Filled in automatically — open only to change something"
+    type: heading
+    collapsed: true
+  - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
+    label: Slug
+    type: string
+    required: true
+    pattern:
+      regex: ^[a-z0-9-]+$
+      message: Use lowercase letters, numbers and hyphens only.
+  - name: departure_type
+    label: Departure type
+    type: select
+    options:
+    - Private
+    - Fixed Departure
+    - Group Departure
+    - Custom
+  - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
+    label: Quick answer (AEO/GEO)
+    type: text
+  - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
+    label: Cover image alt text
+    type: string
+  - name: duration_days
+    label: Duration in days
+    type: number
+    options:
+      min: 1
+      max: 365
+  - name: price_currency
+    label: Currency
+    type: select
+    options:
+    - USD
+    - PKR
+    - EUR
+    - GBP
   - name: reviews
     description: "Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke \"Reviews\" wale hisse se publish hoti hain."
     label: Guest reviews
@@ -746,22 +762,6 @@ content:
     - name: date
       label: Date
       type: date
-  - name: _h_questions_key_facts_helps_go
-    label: "Questions & key facts (helps Google and AI)"
-    type: heading
-  - name: faqs
-    label: FAQs
-    type: object
-    list: true
-    fields:
-    - name: question
-      label: Question
-      type: string
-      required: true
-    - name: answer
-      label: Answer
-      type: rich-text
-      required: true
   - name: key_facts
     description: "Chhoti label aur value - jaise \"Best season: May-September\". AI inhi ko seedha quote karta hai."
     label: Key facts
@@ -774,10 +774,6 @@ content:
     - name: value
       label: Value
       type: string
-  - name: _h_who_prepared_this_page
-    label: "Who prepared this page"
-    type: heading
-    collapsed: true
   - name: author
     description: "Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai."
     label: Prepared by
@@ -863,14 +859,6 @@ content:
     label: Title
     type: string
     required: true
-  - name: slug
-    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
-    label: Slug
-    type: string
-    required: true
-    pattern:
-      regex: ^[a-z0-9-]+$
-      message: Use lowercase letters, numbers and hyphens only.
   - name: permalink
     hidden: true
     label: URL path
@@ -911,14 +899,6 @@ content:
     label: Fixed departure
     type: boolean
     default: false
-  - name: departure_type
-    label: Departure type
-    type: select
-    options:
-    - Private
-    - Fixed Departure
-    - Group Departure
-    - Custom
   - name: trip_status
     label: Availability/status
     type: select
@@ -936,20 +916,12 @@ content:
     label: Short description
     type: text
     required: true
-  - name: answer_summary
-    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
-    label: Quick answer (AEO/GEO)
-    type: text
   - name: _h_photos
     label: "Photos"
     type: heading
   - name: cover_image
     label: Cover image
     type: image
-  - name: cover_image_alt
-    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
-    label: Cover image alt text
-    type: string
   - name: gallery
     description: "Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai."
     label: Gallery images
@@ -961,28 +933,12 @@ content:
   - name: duration
     label: Duration
     type: string
-  - name: duration_days
-    hidden: true
-    label: Duration in days
-    type: number
-    options:
-      min: 1
-      max: 365
   - name: price_from
     label: Price from
     type: string
   - name: deposit
     label: Deposit
     type: string
-  - name: price_currency
-    hidden: true
-    label: Currency
-    type: select
-    options:
-    - USD
-    - PKR
-    - EUR
-    - GBP
   - name: group_size
     label: Group size
     type: string
@@ -1069,8 +1025,8 @@ content:
     label: Packing list
     type: string
     list: true
-  - name: _h_extras_map_trip_leader_old_r
-    label: "Extras — map, trip leader, old reviews"
+  - name: _h_extras_route_map_trip_leader
+    label: "Extras — route map & trip leader"
     type: heading
     collapsed: true
   - name: route_map_url
@@ -1092,6 +1048,64 @@ content:
     - name: bio
       label: Biography
       type: text
+  - name: _h_questions_key_facts_helps_go
+    label: "Questions & key facts (helps Google and AI)"
+    type: heading
+  - name: faqs
+    label: FAQs
+    type: object
+    list: true
+    fields:
+    - name: question
+      label: Question
+      type: string
+      required: true
+    - name: answer
+      label: Answer
+      type: rich-text
+      required: true
+  - name: _h_filled_in_automatically_open
+    label: "Filled in automatically — open only to change something"
+    type: heading
+    collapsed: true
+  - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
+    label: Slug
+    type: string
+    required: true
+    pattern:
+      regex: ^[a-z0-9-]+$
+      message: Use lowercase letters, numbers and hyphens only.
+  - name: departure_type
+    label: Departure type
+    type: select
+    options:
+    - Private
+    - Fixed Departure
+    - Group Departure
+    - Custom
+  - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
+    label: Quick answer (AEO/GEO)
+    type: text
+  - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
+    label: Cover image alt text
+    type: string
+  - name: duration_days
+    label: Duration in days
+    type: number
+    options:
+      min: 1
+      max: 365
+  - name: price_currency
+    label: Currency
+    type: select
+    options:
+    - USD
+    - PKR
+    - EUR
+    - GBP
   - name: reviews
     description: "Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke \"Reviews\" wale hisse se publish hoti hain."
     label: Guest reviews
@@ -1117,22 +1131,6 @@ content:
     - name: date
       label: Date
       type: date
-  - name: _h_questions_key_facts_helps_go
-    label: "Questions & key facts (helps Google and AI)"
-    type: heading
-  - name: faqs
-    label: FAQs
-    type: object
-    list: true
-    fields:
-    - name: question
-      label: Question
-      type: string
-      required: true
-    - name: answer
-      label: Answer
-      type: rich-text
-      required: true
   - name: key_facts
     description: "Chhoti label aur value - jaise \"Best season: May-September\". AI inhi ko seedha quote karta hai."
     label: Key facts
@@ -1145,10 +1143,6 @@ content:
     - name: value
       label: Value
       type: string
-  - name: _h_who_prepared_this_page
-    label: "Who prepared this page"
-    type: heading
-    collapsed: true
   - name: author
     description: "Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai."
     label: Prepared by
@@ -1234,14 +1228,6 @@ content:
     label: Title
     type: string
     required: true
-  - name: slug
-    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
-    label: Slug
-    type: string
-    required: true
-    pattern:
-      regex: ^[a-z0-9-]+$
-      message: Use lowercase letters, numbers and hyphens only.
   - name: permalink
     hidden: true
     label: URL path
@@ -1282,14 +1268,6 @@ content:
     label: Fixed departure
     type: boolean
     default: false
-  - name: departure_type
-    label: Departure type
-    type: select
-    options:
-    - Private
-    - Fixed Departure
-    - Group Departure
-    - Custom
   - name: trip_status
     label: Availability/status
     type: select
@@ -1307,20 +1285,12 @@ content:
     label: Short description
     type: text
     required: true
-  - name: answer_summary
-    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
-    label: Quick answer (AEO/GEO)
-    type: text
   - name: _h_photos
     label: "Photos"
     type: heading
   - name: cover_image
     label: Cover image
     type: image
-  - name: cover_image_alt
-    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
-    label: Cover image alt text
-    type: string
   - name: gallery
     description: "Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai."
     label: Gallery images
@@ -1332,28 +1302,12 @@ content:
   - name: duration
     label: Duration
     type: string
-  - name: duration_days
-    hidden: true
-    label: Duration in days
-    type: number
-    options:
-      min: 1
-      max: 365
   - name: price_from
     label: Price from
     type: string
   - name: deposit
     label: Deposit
     type: string
-  - name: price_currency
-    hidden: true
-    label: Currency
-    type: select
-    options:
-    - USD
-    - PKR
-    - EUR
-    - GBP
   - name: group_size
     label: Group size
     type: string
@@ -1440,8 +1394,8 @@ content:
     label: Packing list
     type: string
     list: true
-  - name: _h_extras_map_trip_leader_old_r
-    label: "Extras — map, trip leader, old reviews"
+  - name: _h_extras_route_map_trip_leader
+    label: "Extras — route map & trip leader"
     type: heading
     collapsed: true
   - name: route_map_url
@@ -1463,6 +1417,64 @@ content:
     - name: bio
       label: Biography
       type: text
+  - name: _h_questions_key_facts_helps_go
+    label: "Questions & key facts (helps Google and AI)"
+    type: heading
+  - name: faqs
+    label: FAQs
+    type: object
+    list: true
+    fields:
+    - name: question
+      label: Question
+      type: string
+      required: true
+    - name: answer
+      label: Answer
+      type: rich-text
+      required: true
+  - name: _h_filled_in_automatically_open
+    label: "Filled in automatically — open only to change something"
+    type: heading
+    collapsed: true
+  - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
+    label: Slug
+    type: string
+    required: true
+    pattern:
+      regex: ^[a-z0-9-]+$
+      message: Use lowercase letters, numbers and hyphens only.
+  - name: departure_type
+    label: Departure type
+    type: select
+    options:
+    - Private
+    - Fixed Departure
+    - Group Departure
+    - Custom
+  - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
+    label: Quick answer (AEO/GEO)
+    type: text
+  - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
+    label: Cover image alt text
+    type: string
+  - name: duration_days
+    label: Duration in days
+    type: number
+    options:
+      min: 1
+      max: 365
+  - name: price_currency
+    label: Currency
+    type: select
+    options:
+    - USD
+    - PKR
+    - EUR
+    - GBP
   - name: reviews
     description: "Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke \"Reviews\" wale hisse se publish hoti hain."
     label: Guest reviews
@@ -1488,22 +1500,6 @@ content:
     - name: date
       label: Date
       type: date
-  - name: _h_questions_key_facts_helps_go
-    label: "Questions & key facts (helps Google and AI)"
-    type: heading
-  - name: faqs
-    label: FAQs
-    type: object
-    list: true
-    fields:
-    - name: question
-      label: Question
-      type: string
-      required: true
-    - name: answer
-      label: Answer
-      type: rich-text
-      required: true
   - name: key_facts
     description: "Chhoti label aur value - jaise \"Best season: May-September\". AI inhi ko seedha quote karta hai."
     label: Key facts
@@ -1516,10 +1512,6 @@ content:
     - name: value
       label: Value
       type: string
-  - name: _h_who_prepared_this_page
-    label: "Who prepared this page"
-    type: heading
-    collapsed: true
   - name: author
     description: "Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai."
     label: Prepared by
@@ -1605,14 +1597,6 @@ content:
     label: Title
     type: string
     required: true
-  - name: slug
-    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
-    label: Slug
-    type: string
-    required: true
-    pattern:
-      regex: ^[a-z0-9-]+$
-      message: Use lowercase letters, numbers and hyphens only.
   - name: permalink
     hidden: true
     label: URL path
@@ -1653,14 +1637,6 @@ content:
     label: Fixed departure
     type: boolean
     default: false
-  - name: departure_type
-    label: Departure type
-    type: select
-    options:
-    - Private
-    - Fixed Departure
-    - Group Departure
-    - Custom
   - name: trip_status
     label: Availability/status
     type: select
@@ -1678,20 +1654,12 @@ content:
     label: Short description
     type: text
     required: true
-  - name: answer_summary
-    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
-    label: Quick answer (AEO/GEO)
-    type: text
   - name: _h_photos
     label: "Photos"
     type: heading
   - name: cover_image
     label: Cover image
     type: image
-  - name: cover_image_alt
-    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
-    label: Cover image alt text
-    type: string
   - name: gallery
     description: "Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai."
     label: Gallery images
@@ -1703,28 +1671,12 @@ content:
   - name: duration
     label: Duration
     type: string
-  - name: duration_days
-    hidden: true
-    label: Duration in days
-    type: number
-    options:
-      min: 1
-      max: 365
   - name: price_from
     label: Price from
     type: string
   - name: deposit
     label: Deposit
     type: string
-  - name: price_currency
-    hidden: true
-    label: Currency
-    type: select
-    options:
-    - USD
-    - PKR
-    - EUR
-    - GBP
   - name: group_size
     label: Group size
     type: string
@@ -1811,8 +1763,8 @@ content:
     label: Packing list
     type: string
     list: true
-  - name: _h_extras_map_trip_leader_old_r
-    label: "Extras — map, trip leader, old reviews"
+  - name: _h_extras_route_map_trip_leader
+    label: "Extras — route map & trip leader"
     type: heading
     collapsed: true
   - name: route_map_url
@@ -1834,6 +1786,64 @@ content:
     - name: bio
       label: Biography
       type: text
+  - name: _h_questions_key_facts_helps_go
+    label: "Questions & key facts (helps Google and AI)"
+    type: heading
+  - name: faqs
+    label: FAQs
+    type: object
+    list: true
+    fields:
+    - name: question
+      label: Question
+      type: string
+      required: true
+    - name: answer
+      label: Answer
+      type: rich-text
+      required: true
+  - name: _h_filled_in_automatically_open
+    label: "Filled in automatically — open only to change something"
+    type: heading
+    collapsed: true
+  - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
+    label: Slug
+    type: string
+    required: true
+    pattern:
+      regex: ^[a-z0-9-]+$
+      message: Use lowercase letters, numbers and hyphens only.
+  - name: departure_type
+    label: Departure type
+    type: select
+    options:
+    - Private
+    - Fixed Departure
+    - Group Departure
+    - Custom
+  - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
+    label: Quick answer (AEO/GEO)
+    type: text
+  - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
+    label: Cover image alt text
+    type: string
+  - name: duration_days
+    label: Duration in days
+    type: number
+    options:
+      min: 1
+      max: 365
+  - name: price_currency
+    label: Currency
+    type: select
+    options:
+    - USD
+    - PKR
+    - EUR
+    - GBP
   - name: reviews
     description: "Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke \"Reviews\" wale hisse se publish hoti hain."
     label: Guest reviews
@@ -1859,22 +1869,6 @@ content:
     - name: date
       label: Date
       type: date
-  - name: _h_questions_key_facts_helps_go
-    label: "Questions & key facts (helps Google and AI)"
-    type: heading
-  - name: faqs
-    label: FAQs
-    type: object
-    list: true
-    fields:
-    - name: question
-      label: Question
-      type: string
-      required: true
-    - name: answer
-      label: Answer
-      type: rich-text
-      required: true
   - name: key_facts
     description: "Chhoti label aur value - jaise \"Best season: May-September\". AI inhi ko seedha quote karta hai."
     label: Key facts
@@ -1887,10 +1881,6 @@ content:
     - name: value
       label: Value
       type: string
-  - name: _h_who_prepared_this_page
-    label: "Who prepared this page"
-    type: heading
-    collapsed: true
   - name: author
     description: "Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai."
     label: Prepared by
@@ -1973,12 +1963,6 @@ content:
     label: Title
     type: string
     required: true
-  - name: slug
-    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
-    label: Slug
-    type: string
-    required: true
-    pattern: ^[a-z0-9-]+$
   - name: permalink
     hidden: true
     label: URL path
@@ -2013,10 +1997,6 @@ content:
   - name: cover_image
     label: Featured image
     type: image
-  - name: cover_image_alt
-    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
-    label: Image alt text
-    type: string
   - name: _h_categories_tags
     label: "Categories & tags"
     type: heading
@@ -2031,13 +2011,6 @@ content:
     label: Tags
     type: string
     list: true
-  - name: _h_questions_quick_answer_helps
-    label: "Questions & quick answer (helps Google and AI)"
-    type: heading
-  - name: answer_summary
-    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
-    label: Quick answer
-    type: text
   - name: faqs
     label: FAQs
     type: object
@@ -2051,10 +2024,24 @@ content:
       label: Answer
       type: rich-text
       required: true
-  - name: _h_who_prepared_this_page
-    label: "Who prepared this page"
+  - name: _h_filled_in_automatically_open
+    label: "Filled in automatically — open only to change something"
     type: heading
     collapsed: true
+  - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
+    label: Slug
+    type: string
+    required: true
+    pattern: ^[a-z0-9-]+$
+  - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
+    label: Image alt text
+    type: string
+  - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
+    label: Quick answer
+    type: text
   - name: author
     description: "Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai."
     label: Author
@@ -2126,11 +2113,6 @@ content:
     label: Vehicle name
     type: string
     required: true
-  - name: slug
-    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
-    label: Slug
-    type: string
-    required: true
   - name: permalink
     hidden: true
     label: URL path
@@ -2186,6 +2168,15 @@ content:
     label: Features
     type: string
     list: true
+  - name: _h_filled_in_automatically_open
+    label: "Filled in automatically — open only to change something"
+    type: heading
+    collapsed: true
+  - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
+    label: Slug
+    type: string
+    required: true
   - name: _h_search_social_sharing
     label: "Search & social sharing"
     type: heading
@@ -2244,11 +2235,6 @@ content:
     label: Page title
     type: string
     required: true
-  - name: slug
-    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
-    label: Slug
-    type: string
-    required: true
   - name: permalink
     label: URL path
     type: string
@@ -2278,10 +2264,6 @@ content:
   - name: cover_image
     label: Cover/hero image
     type: image
-  - name: cover_image_alt
-    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
-    label: Image alt text
-    type: string
   - name: _h_categories
     label: "Categories"
     type: heading
@@ -2291,13 +2273,6 @@ content:
     label: Categories
     type: string
     list: true
-  - name: _h_questions_quick_answer_helps
-    label: "Questions & quick answer (helps Google and AI)"
-    type: heading
-  - name: answer_summary
-    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
-    label: Quick answer
-    type: text
   - name: faqs
     label: FAQs
     type: object
@@ -2311,6 +2286,23 @@ content:
       label: Answer
       type: rich-text
       required: true
+  - name: _h_filled_in_automatically_open
+    label: "Filled in automatically — open only to change something"
+    type: heading
+    collapsed: true
+  - name: slug
+    description: "Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai."
+    label: Slug
+    type: string
+    required: true
+  - name: cover_image_alt
+    description: "Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye."
+    label: Image alt text
+    type: string
+  - name: answer_summary
+    description: "Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain."
+    label: Quick answer
+    type: text
   - name: _h_search_social_sharing
     label: "Search & social sharing"
     type: heading
