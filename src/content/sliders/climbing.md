@@ -4,7 +4,7 @@ published: true
 sections:
   - homepage
   - homepage
-order: 2
+order: 3
 image: /assets/uploads/1792942525273-115.webp
 image_alt: ""
 eyebrow: Climb K2 with us
@@ -14,5 +14,6 @@ button_label: ""
 button_url: ""
 slug: climbing
 ---
+
 
 
