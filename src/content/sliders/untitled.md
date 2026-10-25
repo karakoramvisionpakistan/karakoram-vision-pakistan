@@ -12,5 +12,9 @@ text: ""
 button_label: ""
 button_url: ""
 slug: untitled
+_trashed: true
+_trashed_at: "2026-10-25T17:13:58.901Z"
+_trashed_by: Muhammad Ali
 ---
+
 
