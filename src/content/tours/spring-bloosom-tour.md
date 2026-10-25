@@ -20,7 +20,7 @@ summary: >-
   beautiful landscape, when the there is blossom, there is a paradise and there is people who intend
   to see these paradise, when there is a folk music in this paradise, it gives you a full of joy and
   full of intertamenent. Oh, Yes. Your reception will be honored for KVP team.
-answer_summary: ""
+answer_summary: "We feel pleasure to introduce blossom tours in the Gilgit Baltistan of Pakistan through Karakoram Vision Pakistan (KVP). However nature stays longer with its beauty, without any comparison, when this is a blossom in the"
 cover_image: ""
 cover_image_alt: "Apricot blossom in a Hunza village with the Karakoram behind"
 gallery: []
@@ -58,7 +58,15 @@ excluded:
   - "Personal expenses, shopping and optional activities"
   - "Tips for the guide and driver"
   - "Any service not listed in the final written proposal"
-packing_list: []
+packing_list:
+  - "Comfortable walking shoes and a pair of sandals"
+  - "Light jacket or fleece for the evenings"
+  - "Warm layer for high passes and early mornings"
+  - "Sun hat, sunglasses and high-factor sunscreen"
+  - "Refillable water bottle"
+  - "Personal medication and a small first-aid kit"
+  - "Power bank and a universal plug adapter"
+  - "Copy of passport and travel insurance details"
 route_map_url: ""
 trip_leader:
   name: ""
@@ -75,9 +83,17 @@ faqs:
     answer: "Spring is beautiful but changeable: warm afternoons, cold nights, and the chance of rain or late snow on the passes. The itinerary keeps flexibility for road conditions."
   - question: "Can the tour be shortened?"
     answer: "Yes. Shorter blossom trips focused on Hunza alone are possible. Send your dates and the number of days you have and we will propose a version that fits."
-key_facts: []
+key_facts:
+  - label: "Duration"
+    value: "16 Days"
+  - label: "Difficulty"
+    value: "Easy"
+  - label: "Destination"
+    value: "Gilgit Baltistan"
+  - label: "Price from"
+    value: "on request"
 author: KVP team
-reviewed_by: ""
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
 last_verified: "2026-10-05"
 sources: []
 seo:

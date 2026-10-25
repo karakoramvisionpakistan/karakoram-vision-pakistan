@@ -4,8 +4,9 @@
 //   1. "01 — Site Identity, Logos, Contacts & Social" mein 29 khane ek sath thay.
 //      Ab woh 11 chhoti screens mein bant gaya hai (file wahi src/_data/site.json rehti hai).
 //   2. Baqi screens ke naam saaf zubaan mein, aur naya number.
-//   3. Journey forms se woh khane chhup jate hain jo build khud bharta hai
-//      (URL path, duration in days, currency) - data waisa hi rehta hai.
+//   3. Journey forms chhote hisson mein bant jate hain, aur jo khane build khud
+//      bharta hai woh "Filled in automatically" naam ke BAND hisse mein chale jate
+//      hain - gayab nahi hote, client jab chahe khol kar apni value likh sakta hai.
 //   4. Jo khane confusing thay un par madad ka jumla aa gaya.
 //
 //   node tools/apply-cms-simplify.mjs           -> sirf dikhata hai
@@ -45,10 +46,31 @@ const RELABEL = {
 
 // ---------------------------------------------------------------- collections
 const SECTION_COLLECTIONS = ['tours', 'trekking', 'expeditions', 'jeep_safaris', 'hunting_services', 'blog', 'vehicles'];
+const ALL_COLLECTIONS = [...SECTION_COLLECTIONS, 'pages'];
 
-// Yeh khane build khud bharta hai ya koi istemal nahi karta -> form se chhupa dete hain.
-// `hidden: true` sirf form se hatata hai; front matter ki value jaisi hai waisi rehti hai.
-const HIDE_IN_SECTIONS = ['permalink', 'duration_days', 'price_currency'];
+// Yeh khane tools/autofill-content.mjs build ke waqt khud bhar deta hai.
+// Inhein chhupaya NAHI jata - ek band hisse ("Filled in automatically") mein
+// daal diya jata hai, taake form chhota rahe lekin client jab chahe badal sake.
+const AUTO_FIELDS = [
+  'slug',             // file ke naam se - isi liye title badalne par URL nahi toot-ta
+  'duration_days',    // itinerary ke "Day N" se
+  'departure_type',   // "Fixed departure" wale khane se
+  'price_currency',   // default USD
+  'cover_image_alt',  // title + destination se
+  'answer_summary',   // summary ke pehle jumle se
+  'key_facts',        // duration / difficulty / destination / group size / price se
+  'author',           // site settings ke business naam se
+  'reviewed_by',      // wahi
+  'last_verified',    // git mein is file ke aakhri commit ki tareekh se
+  'sources',          // bohot kam zarurat parti hai
+  'reviews',          // mehmanon ki reviews ab dashboard ke Reviews hisse se aati hain
+];
+
+// Sirf yeh khana chhupa rehta hai: build har baar slug se dobara banata hai,
+// is liye client ki likhi value bach nahi sakti - usey dikhana dhoka hoga.
+const KEEP_HIDDEN_IN_SECTIONS = ['permalink'];
+
+const AUTO_HEADING = 'Filled in automatically — open only to change something';
 
 // Form ko hisson mein baantne wale unwaan. Har entry: [kis khane se pehle, unwaan, band rahe?]
 // "collapsed" wale hisse default band rehte hain - client unhein kabhi kabhi hi kholta hai.
@@ -63,7 +85,7 @@ const HEADINGS = {
     ['categories',    'Categories & tags', true],
     ['departures',    'Departure dates', true],
     ['highlights',    'Highlights, inclusions & packing', false],
-    ['route_map_url', 'Extras — map, trip leader, old reviews', true],
+    ['route_map_url', 'Extras — route map & trip leader', true],
     ['faqs',          'Questions & key facts (helps Google and AI)', false],
     ['author',        'Who prepared this page', true],
     ['seo',           'Search & social sharing', false],
@@ -242,70 +264,171 @@ for (const [name, label] of Object.entries(RELABEL)) {
   changed++;
 }
 
-// ---------------------------------------------------------------- 3. khane chhupana + madad
-let hidCount = 0, helpCount = 0;
-for (const cname of [...SECTION_COLLECTIONS, 'pages']) {
+// ------------------------------------------------- 3. collections ko dobara tarteeb dena
+// Har collection ke `fields:` ka poora hissa ek hi baar dobara likha jata hai:
+// unwaan interleave hote hain, automatic khane aakhir mein ek band hisse mein
+// chale jate hain, aur madad ke jumle lag jate hain. Khane ki tafseel (type,
+// options, nested fields) jaisi hai waisi copy hoti hai - chhui nahi jati.
+let rebuilt = 0, autoMoved = 0, helpCount = 0;
+
+for (const cname of ALL_COLLECTIONS) {
   const e = byName[cname];
   if (!e) continue;
   const { blocks } = fieldBlocks(e);
-  for (const b of blocks) {
-    const blockText = lines.slice(b.start, b.end).join('\n');
-    const inserts = [];
+  if (!blocks.length) continue;
+  if (blocks.some((b) => b.name.startsWith('_h_'))) { skipped++; continue; }
 
-    const wantHidden = SECTION_COLLECTIONS.includes(cname) && HIDE_IN_SECTIONS.includes(b.name);
-    if (wantHidden && !/^\s{4}hidden:\s*true\s*$/m.test(blockText)) {
-      inserts.push('    hidden: true');
-      hidCount++;
+  const isSection = SECTION_COLLECTIONS.includes(cname);
+
+  // block ka text, madad aur hidden ke saath
+  const textOf = (b) => {
+    const body = lines.slice(b.start, b.end);
+    const joined = body.join('\n');
+    const extra = [];
+    if (isSection && KEEP_HIDDEN_IN_SECTIONS.includes(b.name) && !/^\s{4}hidden:\s*true\s*$/m.test(joined)) {
+      extra.push('    hidden: true');
     }
-
     const help = HELP[b.name];
-    if (help && !/^\s{4}description:/m.test(blockText)) {
-      inserts.push(`    description: ${JSON.stringify(help)}`);
+    if (help && !/^\s{4}description:/m.test(joined)) {
+      extra.push(`    description: ${JSON.stringify(help)}`);
       helpCount++;
     }
+    return extra.length ? [body[0], ...extra, ...body.slice(1)] : body;
+  };
 
-    if (inserts.length) {
-      edits.push({ from: b.start + 1, to: b.start + 1, replacement: inserts });
+  const autoNames = blocks.filter((b) => AUTO_FIELDS.includes(b.name)).map((b) => b.name);
+  const keep = blocks.filter((b) => !AUTO_FIELDS.includes(b.name));
+  const headings = headingsFor(cname);
+  const headingBefore = new Map();
+  for (const [before, label, collapsed] of headings) headingBefore.set(before, [label, collapsed]);
+
+  const out = [];
+  const pushHeading = (label, collapsed) => {
+    out.push(`  - name: ${headingName(label)}`);
+    out.push(`    label: ${JSON.stringify(label)}`);
+    out.push('    type: heading');
+    if (collapsed) out.push('    collapsed: true');
+  };
+
+  let autoPlaced = false;
+  const placeAuto = () => {
+    if (autoPlaced || !autoNames.length) return;
+    autoPlaced = true;
+    pushHeading(AUTO_HEADING, true);
+    for (const name of autoNames) {
+      const b = blocks.find((x) => x.name === name);
+      out.push(...textOf(b));
+      autoMoved++;
     }
+  };
+
+  for (const b of keep) {
+    // automatic hissa SEO se thora pehle - taake aakhir mein content aaye
+    if (b.name === 'seo') placeAuto();
+    const h = headingBefore.get(b.name);
+    if (h) pushHeading(h[0], h[1]);
+    out.push(...textOf(b));
   }
+  placeAuto(); // agar seo na ho to aakhir mein
+
+  edits.push({ from: blocks[0].start, to: blocks[blocks.length - 1].end, replacement: out });
+  rebuilt++;
 }
-if (hidCount || helpCount) {
-  note(`${WRITE ? 'laga' : 'lagega'}: ${hidCount} khane chhupaye jayenge, ${helpCount} par madad ka jumla aayega`);
+
+if (rebuilt) {
+  note(`${WRITE ? 'bana' : 'banega'}: ${rebuilt} forms unwaan ke hisson mein, ${autoMoved} automatic khane band hisse mein, ${helpCount} madad ke jumle`);
   changed++;
 } else {
-  note('   pehle se theek: chhupane aur madad wale jumle');
+  note('   pehle se theek: forms ki tarteeb');
   skipped++;
 }
 
-// ---------------------------------------------------------------- 4. unwaan daalna
-let headingCount = 0, headingSkipped = 0;
-for (const cname of [...SECTION_COLLECTIONS, 'pages']) {
-  const e = byName[cname];
-  if (!e) continue;
-  const { blocks } = fieldBlocks(e);
-  const have = new Set(blocks.map((b) => b.name));
-  if ([...have].some((n) => n.startsWith('_h_'))) { headingSkipped++; continue; }
+// ---------------------------------------------------------------- 5. defaults ki screen
+const DEFAULTS_SECTIONS = ['tours', 'trekking', 'expeditions', 'jeep-safaris', 'hunting-services', 'vehicles'];
+const DEFAULTS_LABELS = {
+  tours: 'Tours', trekking: 'Trekking', expeditions: 'Expeditions',
+  'jeep-safaris': 'Jeep safaris', 'hunting-services': 'Hunting services', vehicles: 'Vehicles',
+};
 
-  const blockByName = Object.fromEntries(blocks.map((b) => [b.name, b]));
-  for (const [before, label, collapsed] of headingsFor(cname)) {
-    const b = blockByName[before];
-    if (!b) continue;
-    const block = [
-      `  - name: ${headingName(label)}`,
-      `    label: ${JSON.stringify(label)}`,
-      '    type: heading',
-    ];
-    if (collapsed) block.push('    collapsed: true');
-    edits.push({ from: b.start, to: b.start, replacement: block });
-    headingCount++;
+if (entries.some((e) => e.name === 'content_defaults')) {
+  note('   pehle se theek: defaults wali screen');
+  skipped++;
+} else {
+  const screen = [
+    '',
+    '- name: content_defaults',
+    '  label: 19 — Default packing list & inclusions',
+    '  type: file',
+    '  path: src/_data/contentDefaults.json',
+    '  operations:',
+    '    delete: false',
+    '    rename: false',
+    '  fields:',
+    '  - name: auto_fill',
+    '    label: Fill these in automatically when a page leaves them empty',
+    '    type: object',
+    '    fields:',
+    '    - name: packing_list',
+    '      label: Packing list',
+    '      type: boolean',
+    '      default: true',
+    '    - name: included',
+    '      label: What is included',
+    '      type: boolean',
+    '      default: false',
+    '      description: "Pehle neeche likhi list padh kar client se confirm karwa lein - yeh qeemat ka waada hai."',
+    '    - name: excluded',
+    '      label: What is not included',
+    '      type: boolean',
+    '      default: false',
+    '      description: "Pehle neeche likhi list padh kar client se confirm karwa lein."',
+    '  - name: sections',
+    '    label: Default lists for each kind of journey',
+    '    type: object',
+    '    fields:',
+  ];
+  for (const s of DEFAULTS_SECTIONS) {
+    screen.push(`    - name: ${s}`);
+    screen.push(`      label: ${JSON.stringify(DEFAULTS_LABELS[s])}`);
+    screen.push('      type: object');
+    screen.push('      fields:');
+    for (const [key, label] of [['packing_list', 'Packing list'], ['included', 'Included'], ['excluded', 'Not included']]) {
+      screen.push(`      - name: ${key}`);
+      screen.push(`        label: ${JSON.stringify(label)}`);
+      screen.push('        type: string');
+      screen.push('        list: true');
+    }
   }
-}
-if (headingCount) {
-  note(`${WRITE ? 'laga' : 'lagega'}: ${headingCount} unwaan - form chhote hisson mein bant jayega`);
+  screen.push('');
+  edits.push({ from: lines.length, to: lines.length, replacement: screen });
+  note(`${WRITE ? 'bana' : 'banega'}: nayi screen "19 — Default packing list & inclusions"`);
   changed++;
-} else if (headingSkipped) {
-  note(`   pehle se theek: unwaan (${headingSkipped} collections)`);
-  skipped++;
+}
+
+// ---------------------------------------------------------------- 6. build chain
+const PKG = 'package.json';
+if (!fs.existsSync(PKG)) {
+  note('!! package.json nahi mila - autofill build chain mein nahi laga');
+  problems++;
+} else {
+  const pkgText = fs.readFileSync(PKG, 'utf8');
+  const pkg = JSON.parse(pkgText);
+  const current = pkg.scripts?.['build:assets'] || '';
+  if (!current) {
+    note('!! package.json mein "build:assets" nahi mila');
+    problems++;
+  } else if (current.includes('autofill-content.mjs')) {
+    note('   pehle se theek: autofill build chain mein');
+    skipped++;
+  } else {
+    pkg.scripts['build:assets'] = `node tools/autofill-content.mjs && ${current}`;
+    note(`${WRITE ? 'laga' : 'lagega'}: autofill build chain mein (build se pehle khane bhar dega)`);
+    changed++;
+    if (WRITE) {
+      const nlPkg = pkgText.includes('\r\n') ? '\r\n' : '\n';
+      fs.writeFileSync(PKG, JSON.stringify(pkg, null, 2).replace(/\n/g, nlPkg) + nlPkg, 'utf8');
+    }
+  }
 }
 
 // ---------------------------------------------------------------- likhna

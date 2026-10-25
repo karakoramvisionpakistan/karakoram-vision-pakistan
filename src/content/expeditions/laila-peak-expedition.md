@@ -74,6 +74,7 @@ key_facts:
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
+duration_days: "30"
 seo:
   title: "Laila Peak Expedition, Hushe - 30 Days | Karakoram Vision"
   description: >-

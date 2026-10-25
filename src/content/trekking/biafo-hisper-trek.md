@@ -53,7 +53,17 @@ excluded:
   - "Personal trekking equipment, sleeping bag and clothing"
   - "Tips for porters, guides and drivers"
   - "Any service not listed in the final written proposal"
-packing_list: []
+packing_list:
+  - "Broken-in trekking boots and camp shoes"
+  - "Sleeping bag rated to -10C or lower"
+  - "Insulated jacket, fleece and waterproof shell"
+  - "Trekking trousers, thermal base layers and warm socks"
+  - "Daypack of 30-40 litres"
+  - "Trekking poles, head torch and spare batteries"
+  - "Sun hat, glacier sunglasses and high-factor sunscreen"
+  - "Water bottles or hydration bladder and purification tablets"
+  - "Personal medication, blister kit and basic first aid"
+  - "Power bank - there is no mains electricity on trek"
 route_map_url: ""
 trip_leader:
   name: ""
@@ -70,9 +80,17 @@ faqs:
     answer: "Usually from the start of July to the end of August, when the snow bridges and crevasse conditions on Snow Lake are at their most reliable."
   - question: "How fit do I need to be?"
     answer: "Fit enough for 22 days of continuous glacier walking with no road access in the middle. There is no technical climbing, but the team is roped on the glacier sections and you should be comfortable with long days and camp life."
-key_facts: []
-author: ""
-reviewed_by: ""
+key_facts:
+  - label: "Duration"
+    value: "22 Days"
+  - label: "Difficulty"
+    value: "Moderate"
+  - label: "Destination"
+    value: "Biafo Hisper"
+  - label: "Price from"
+    value: "On Request"
+author: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
 last_verified: "2026-09-22"
 sources: []
 seo:

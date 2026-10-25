@@ -32,6 +32,10 @@ excluded:
   - "Extra mileage beyond the agreed itinerary"
   - "Jeep transfers for rough sections, quoted separately"
   - "Tips for the driver"
+answer_summary: "Group transport for tours, city transfers and long road journeys with luggage planning."
+author: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
+last_verified: "2026-10-24"
 seo:
   title: "Toyota Hiace Van Rental in Skardu | Karakoram Vision"
   description: >-

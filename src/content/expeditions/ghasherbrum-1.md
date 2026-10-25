@@ -101,7 +101,7 @@ key_facts:
     value: ""
 author: KVP Office Team
 reviewed_by: "KVP Field staffs "
-last_verified: ""
+last_verified: "2026-10-24"
 sources:
   - label: Gasherbrum-I
     url: K5

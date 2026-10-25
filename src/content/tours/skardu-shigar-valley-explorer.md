@@ -72,6 +72,7 @@ key_facts:
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
+duration_days: "7"
 seo:
   title: "Skardu & Shigar Valley Tour - 7 Days | Karakoram Vision"
   description: >-

@@ -72,6 +72,7 @@ key_facts:
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-06-14"
+duration_days: "8"
 seo:
   title: "Deosai & Khaplu Tour, Skardu - 8 Days | Karakoram Vision"
   description: >-

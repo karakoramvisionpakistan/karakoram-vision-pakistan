@@ -61,7 +61,16 @@ excluded:
   - "High-altitude porters and services above base camp"
   - "Tips for porters, drivers and staff"
   - "Any service not listed in the final written proposal"
-packing_list: []
+packing_list:
+  - "Double boots suitable for high altitude"
+  - "Down suit or heavy down jacket and trousers"
+  - "Sleeping bag rated to -30C with an insulated mat"
+  - "Harness, helmet, crampons, ice axe and jumar"
+  - "Glacier glasses, goggles and expedition-grade gloves"
+  - "Head torch with spare batteries"
+  - "Personal medication and altitude first-aid kit"
+  - "Duffle bags for porter loads"
+  - "Solar charger or power bank for base camp"
 route_map_url: ""
 trip_leader:
   name: ""
@@ -78,10 +87,20 @@ faqs:
     answer: "Most teams use the Diamir side, reached from the Karakoram Highway rather than from Skardu. Tell us your intended route and we will plan permits and base camp accordingly."
   - question: "What support do you provide?"
     answer: "Permits and liaison officer, invitation letter for the mountaineering visa, transport, hotels, porters and the base camp setup with kitchen and dining. High-altitude support and oxygen are arranged on request."
-key_facts: []
-author: ""
-reviewed_by: ""
-last_verified: ""
+key_facts:
+  - label: "Duration"
+    value: "42 Days"
+  - label: "Difficulty"
+    value: "Challenging"
+  - label: "Destination"
+    value: "Nanga Parbat BC "
+  - label: "Group size"
+    value: "Minimum 04 +"
+  - label: "Price from"
+    value: "4500 $"
+author: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
+last_verified: "2026-10-24"
 sources: []
 seo:
   title: "Nanga Parbat Expedition - 42 Days | Karakoram Vision"

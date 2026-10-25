@@ -61,7 +61,16 @@ excluded:
   - "Any service above base camp"
   - "Tips for porters, drivers and staff"
   - "Any service not listed in the final written proposal"
-packing_list: []
+packing_list:
+  - "Double boots suitable for high altitude"
+  - "Down suit or heavy down jacket and trousers"
+  - "Sleeping bag rated to -30C with an insulated mat"
+  - "Harness, helmet, crampons, ice axe and jumar"
+  - "Glacier glasses, goggles and expedition-grade gloves"
+  - "Head torch with spare batteries"
+  - "Personal medication and altitude first-aid kit"
+  - "Duffle bags for porter loads"
+  - "Solar charger or power bank for base camp"
 route_map_url: ""
 trip_leader:
   name: ""
@@ -78,7 +87,17 @@ faqs:
     answer: "Permits and liaison officer, transport and hotels, porters to base camp, and the base camp setup with cook and kitchen while your team works on the wall."
   - question: "How long do teams stay?"
     answer: "The programme runs 33 days, which is a usual length for one objective. Longer stays can be arranged for teams planning several routes."
-key_facts: []
+key_facts:
+  - label: "Duration"
+    value: "33 Days"
+  - label: "Difficulty"
+    value: "Challenging"
+  - label: "Destination"
+    value: "Trango Tower"
+  - label: "Group size"
+    value: "2+"
+  - label: "Price from"
+    value: "On Request"
 author: KVP Office Team
 reviewed_by: KVP Team
 last_verified: "2026-09-18"

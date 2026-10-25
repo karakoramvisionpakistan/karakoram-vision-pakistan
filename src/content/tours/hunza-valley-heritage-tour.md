@@ -72,6 +72,7 @@ key_facts:
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
+duration_days: "10"
 seo:
   title: "Hunza Valley Tour Package - 10 Days | Karakoram Vision"
   description: >-

@@ -102,10 +102,20 @@ faqs:
     answer: "No. Oxygen, climbing gear, high-altitude porters above base camp and helicopter rescue deposits are quoted separately so each team pays only for what it uses. We arrange all of them on request."
   - question: "What experience do you need for K2?"
     answer: "Previous 8,000m experience is expected, or at the very least a successful 7,000m climb with high-altitude rotations. K2 is technical from low on the route and the weather windows are short."
-key_facts: []
+key_facts:
+  - label: "Duration"
+    value: "60 Days"
+  - label: "Difficulty"
+    value: "Challenging"
+  - label: "Destination"
+    value: "Mount K2"
+  - label: "Group size"
+    value: "Minimum 04 PAX"
+  - label: "Price from"
+    value: "On Request "
 author: Karakoram Vision Pakistan office Team
 reviewed_by: "Karakoram Vision Pakistan Field Staff "
-last_verified: ""
+last_verified: "2026-10-24"
 sources: []
 seo:
   title: "K2 Expedition, Pakistan - 60 Days | Karakoram Vision"

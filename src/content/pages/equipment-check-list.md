@@ -26,8 +26,11 @@ summary: >
 cover_image: ""
 cover_image_alt: "Trekking equipment laid out before a Karakoram expedition"
 categories: []
-answer_summary: ""
+answer_summary: "Karakoram Vision Pakistan (KVP) Team tried to show you the equipment for mountaineering and trekking and if something is missing in our given list then please let us know, we will add those missing things. \"Thanks in advance\""
 faqs: []
+author: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
+last_verified: "2026-10-24"
 seo:
   title: "Trekking Equipment Checklist | Karakoram Vision Pakistan"
   description: >-

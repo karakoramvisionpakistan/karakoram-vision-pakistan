@@ -34,6 +34,10 @@ excluded:
   - "Extra mileage beyond the agreed itinerary"
   - "Tips for the driver"
   - "Any service not listed in the written quote"
+answer_summary: "Comfortable 4x4 transport for private road journeys, airport transfers and selected mountain routes."
+author: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
+last_verified: "2026-10-24"
 seo:
   title: "Toyota Prado 4x4 Rental in Skardu | Karakoram Vision"
   description: >-

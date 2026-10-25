@@ -1,0 +1,168 @@
+{
+  "auto_fill": {
+    "packing_list": true,
+    "included": false,
+    "excluded": false
+  },
+  "sections": {
+    "tours": {
+      "packing_list": [
+        "Comfortable walking shoes and a pair of sandals",
+        "Light jacket or fleece for the evenings",
+        "Warm layer for high passes and early mornings",
+        "Sun hat, sunglasses and high-factor sunscreen",
+        "Refillable water bottle",
+        "Personal medication and a small first-aid kit",
+        "Power bank and a universal plug adapter",
+        "Copy of passport and travel insurance details"
+      ],
+      "included": [
+        "Private vehicle with an experienced mountain driver for the whole itinerary",
+        "Airport pick and drop in Islamabad",
+        "Hotel accommodation on a bed and breakfast basis",
+        "Local guide throughout the journey",
+        "Entry fees for the forts and sites listed in the itinerary",
+        "All road tolls, fuel and driver allowance"
+      ],
+      "excluded": [
+        "International flights and Pakistan visa fee",
+        "Travel insurance",
+        "Lunch and dinner unless stated in the itinerary",
+        "Personal expenses, shopping and optional activities",
+        "Tips for the guide and driver",
+        "Any service not listed in the final written proposal"
+      ]
+    },
+    "trekking": {
+      "packing_list": [
+        "Broken-in trekking boots and camp shoes",
+        "Sleeping bag rated to -10C or lower",
+        "Insulated jacket, fleece and waterproof shell",
+        "Trekking trousers, thermal base layers and warm socks",
+        "Daypack of 30-40 litres",
+        "Trekking poles, head torch and spare batteries",
+        "Sun hat, glacier sunglasses and high-factor sunscreen",
+        "Water bottles or hydration bladder and purification tablets",
+        "Personal medication, blister kit and basic first aid",
+        "Power bank - there is no mains electricity on trek"
+      ],
+      "included": [
+        "Trekking permit, park fees and trekker registration",
+        "Road transport from Skardu to the trailhead and back",
+        "Hotel bed and breakfast in Islamabad and Skardu",
+        "Porters for group and personal loads, with limits as agreed",
+        "Tents, sleeping mats and all camp equipment",
+        "Cook, kitchen staff and all meals on trek",
+        "Experienced local trekking guide"
+      ],
+      "excluded": [
+        "International flights and Pakistan visa fee",
+        "Travel insurance and emergency evacuation cover",
+        "Personal trekking equipment, sleeping bag and clothing",
+        "Tips for porters, guides and drivers",
+        "Any service not listed in the final written proposal"
+      ]
+    },
+    "expeditions": {
+      "packing_list": [
+        "Double boots suitable for high altitude",
+        "Down suit or heavy down jacket and trousers",
+        "Sleeping bag rated to -30C with an insulated mat",
+        "Harness, helmet, crampons, ice axe and jumar",
+        "Glacier glasses, goggles and expedition-grade gloves",
+        "Head torch with spare batteries",
+        "Personal medication and altitude first-aid kit",
+        "Duffle bags for porter loads",
+        "Solar charger or power bank for base camp"
+      ],
+      "included": [
+        "Climbing permit, park fees and liaison officer expenses",
+        "Invitation letter for the Pakistan mountaineering visa",
+        "Airport pick and drop, and all ground transport in the itinerary",
+        "Hotel bed and breakfast in Islamabad and on the approach",
+        "Porters and transport to base camp",
+        "Base camp services: kitchen tent, dining tent, cook and kitchen staff",
+        "All meals during the approach and at base camp"
+      ],
+      "excluded": [
+        "International flights and Pakistan visa fee",
+        "Travel insurance and emergency evacuation cover, including the helicopter rescue deposit",
+        "Oxygen, personal climbing equipment and technical gear",
+        "High-altitude porters and services above base camp",
+        "Tips for porters, drivers and staff",
+        "Any service not listed in the final written proposal"
+      ]
+    },
+    "jeep-safaris": {
+      "packing_list": [
+        "Comfortable clothes for long days on rough roads",
+        "Warm layer and windproof jacket for high passes",
+        "Sun hat, sunglasses and sunscreen",
+        "Dust scarf or buff",
+        "Refillable water bottle and snacks",
+        "Personal medication and motion-sickness tablets",
+        "Camera, power bank and plug adapter"
+      ],
+      "included": [
+        "Vehicles and experienced drivers for every section of the route",
+        "Airport pick and drop in Islamabad",
+        "Hotel and guest house accommodation on a bed and breakfast basis",
+        "Local guide throughout the journey",
+        "Road permits and registration required for the districts on the route",
+        "All road tolls, fuel and driver allowance"
+      ],
+      "excluded": [
+        "International flights and Pakistan visa fee",
+        "Travel insurance",
+        "Lunch and dinner unless stated in the itinerary",
+        "Personal expenses and optional activities",
+        "Tips for the guide and drivers",
+        "Any service not listed in the final written proposal"
+      ]
+    },
+    "hunting-services": {
+      "packing_list": [
+        "Warm, quiet layers suitable for high-altitude stalking",
+        "Sturdy mountain boots, broken in",
+        "Binoculars and range finder",
+        "Gloves, warm hat and neck gaiter",
+        "Sleeping bag rated to -20C",
+        "Personal medication and first-aid kit",
+        "All licence and firearm paperwork"
+      ],
+      "included": [
+        "Permit handling and liaison with the wildlife department",
+        "Community guides, spotters and trackers",
+        "Airport pick and drop, and all ground transport in the itinerary",
+        "Hotel and camp accommodation as per the itinerary",
+        "Camp services, cook and all meals in the field",
+        "Trophy preparation and export paperwork support"
+      ],
+      "excluded": [
+        "International flights and Pakistan visa fee",
+        "Trophy fee and community conservation fee",
+        "Firearm import permit and ammunition",
+        "Travel insurance and emergency evacuation cover",
+        "Taxidermy and shipping of the trophy",
+        "Tips for guides, spotters and staff"
+      ]
+    },
+    "vehicles": {
+      "packing_list": [],
+      "included": [
+        "Vehicle in good mechanical condition",
+        "Experienced mountain driver familiar with the route",
+        "Fuel for the agreed itinerary",
+        "Driver allowance, meals and accommodation",
+        "Road tolls and vehicle entry fees"
+      ],
+      "excluded": [
+        "Accommodation and meals for passengers",
+        "Entry tickets, permits and park fees for passengers",
+        "Extra mileage beyond the agreed itinerary",
+        "Tips for the driver",
+        "Any service not listed in the written quote"
+      ]
+    }
+  }
+}

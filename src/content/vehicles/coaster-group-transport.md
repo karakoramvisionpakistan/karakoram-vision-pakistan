@@ -32,6 +32,10 @@ excluded:
   - "Extra mileage beyond the agreed itinerary"
   - "Jeep transfers for narrow or rough sections, quoted separately"
   - "Tips for the driver"
+answer_summary: "On-request group transport for larger tour parties, subject to route suitability."
+author: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
+last_verified: "2026-10-24"
 seo:
   title: "Coaster Rental for Groups, Skardu | Karakoram Vision"
   description: >-

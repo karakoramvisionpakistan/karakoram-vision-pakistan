@@ -15,8 +15,11 @@ summary: >-
 cover_image: ""
 cover_image_alt: "A family on a mountain viewpoint in northern Pakistan"
 categories: []
-answer_summary: ""
+answer_summary: "Karakoram Vision Pakistan (KVP) organize customized family trips for families who are not willing to be part of an organized trip with a strict itinerary rather want to enjoy a private tour with your family. So, let KVP organize"
 faqs: []
+author: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
+last_verified: "2026-10-24"
 seo:
   title: "Family Tours in Pakistan | Karakoram Vision Pakistan"
   description: >-

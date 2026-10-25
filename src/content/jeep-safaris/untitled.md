@@ -67,7 +67,14 @@ excluded:
   - "Personal expenses and optional activities"
   - "Tips for the guide and drivers"
   - "Any service not listed in the final written proposal"
-packing_list: []
+packing_list:
+  - "Comfortable clothes for long days on rough roads"
+  - "Warm layer and windproof jacket for high passes"
+  - "Sun hat, sunglasses and sunscreen"
+  - "Dust scarf or buff"
+  - "Refillable water bottle and snacks"
+  - "Personal medication and motion-sickness tablets"
+  - "Camera, power bank and plug adapter"
 route_map_url: ""
 trip_leader:
   name: ""
@@ -84,7 +91,17 @@ faqs:
     answer: "It is rated easy in terms of walking, but it is a long road journey. Driving days are broken up with sightseeing and the pace is relaxed, with hotels or guest houses each night."
   - question: "When can it be done?"
     answer: "Roughly June to September, when the passes are open. Outside that window the loop cannot be completed and we plan an alternative route."
-key_facts: []
+key_facts:
+  - label: "Duration"
+    value: "22 Days"
+  - label: "Difficulty"
+    value: "Easy"
+  - label: "Destination"
+    value: "Islamabad, Gilgit Baltistan, Chitral and Swat "
+  - label: "Group size"
+    value: "02 - 20 Persons "
+  - label: "Price from"
+    value: "On request"
 author: KVP Office Team
 reviewed_by: "KVP Experts "
 last_verified: "2026-09-20"

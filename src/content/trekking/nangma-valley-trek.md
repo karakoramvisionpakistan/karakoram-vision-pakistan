@@ -77,7 +77,17 @@ excluded:
   - "Personal trekking and climbing equipment"
   - "Tips for porters, guides and drivers"
   - "Any service not listed in the final written proposal"
-packing_list: []
+packing_list:
+  - "Broken-in trekking boots and camp shoes"
+  - "Sleeping bag rated to -10C or lower"
+  - "Insulated jacket, fleece and waterproof shell"
+  - "Trekking trousers, thermal base layers and warm socks"
+  - "Daypack of 30-40 litres"
+  - "Trekking poles, head torch and spare batteries"
+  - "Sun hat, glacier sunglasses and high-factor sunscreen"
+  - "Water bottles or hydration bladder and purification tablets"
+  - "Personal medication, blister kit and basic first aid"
+  - "Power bank - there is no mains electricity on trek"
 route_map_url: ""
 trip_leader:
   name: ""
@@ -94,7 +104,17 @@ faqs:
     answer: "By road from Skardu, around five hours through the Shyok valley and Hushe road. We arrange the jeep, driver and the local porters from the village."
   - question: "Can climbers use this as a base?"
     answer: "Yes. Many teams camp in the valley for days or weeks to climb the surrounding walls. We can arrange extended camp support, cook and porters for climbing groups."
-key_facts: []
+key_facts:
+  - label: "Duration"
+    value: "10 Days"
+  - label: "Difficulty"
+    value: "Easy"
+  - label: "Destination"
+    value: "Nangma Valley Kanday"
+  - label: "Group size"
+    value: "Minimum 02 PAX"
+  - label: "Price from"
+    value: "On request"
 author: KVP Office Team
 reviewed_by: KVP Team
 last_verified: "2026-09-18"

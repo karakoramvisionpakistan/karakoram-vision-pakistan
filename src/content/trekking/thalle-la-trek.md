@@ -72,6 +72,7 @@ key_facts:
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
+duration_days: "9"
 seo:
   title: "Thalle La Trek, Shigar to Khaplu - 9 Days | Karakoram Vision"
   description: >-

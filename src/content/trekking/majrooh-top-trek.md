@@ -61,7 +61,17 @@ excluded:
   - "Personal trekking equipment, sleeping bag and clothing"
   - "Tips for porters, guides and drivers"
   - "Any service not listed in the final written proposal"
-packing_list: []
+packing_list:
+  - "Broken-in trekking boots and camp shoes"
+  - "Sleeping bag rated to -10C or lower"
+  - "Insulated jacket, fleece and waterproof shell"
+  - "Trekking trousers, thermal base layers and warm socks"
+  - "Daypack of 30-40 litres"
+  - "Trekking poles, head torch and spare batteries"
+  - "Sun hat, glacier sunglasses and high-factor sunscreen"
+  - "Water bottles or hydration bladder and purification tablets"
+  - "Personal medication, blister kit and basic first aid"
+  - "Power bank - there is no mains electricity on trek"
 route_map_url: ""
 trip_leader:
   name: ""
@@ -78,9 +88,19 @@ faqs:
     answer: "It was explored in 2008 by Muhammad Ali, the founder of Karakoram Vision Pakistan, and we have been running it since. It is still one of the quietest viewpoints in the region."
   - question: "What is the best season?"
     answer: "June to September, when the high pastures are open and the top is clear of snow."
-key_facts: []
+key_facts:
+  - label: "Duration"
+    value: "10 Days"
+  - label: "Difficulty"
+    value: "Easy"
+  - label: "Destination"
+    value: "Majrooh Top Trek"
+  - label: "Group size"
+    value: "02 - 15"
+  - label: "Price from"
+    value: "On Request"
 author: KVP Team
-reviewed_by: ""
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
 last_verified: "2026-09-22"
 sources: []
 seo:

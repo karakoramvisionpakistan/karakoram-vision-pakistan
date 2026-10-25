@@ -3887,3 +3887,131 @@ content:
     label: Journey statuses
     type: string
     list: true
+
+
+- name: content_defaults
+  label: 19 — Default packing list & inclusions
+  type: file
+  path: src/_data/contentDefaults.json
+  operations:
+    delete: false
+    rename: false
+  fields:
+  - name: auto_fill
+    label: Fill these in automatically when a page leaves them empty
+    type: object
+    fields:
+    - name: packing_list
+      label: Packing list
+      type: boolean
+      default: true
+    - name: included
+      label: What is included
+      type: boolean
+      default: false
+      description: "Pehle neeche likhi list padh kar client se confirm karwa lein - yeh qeemat ka waada hai."
+    - name: excluded
+      label: What is not included
+      type: boolean
+      default: false
+      description: "Pehle neeche likhi list padh kar client se confirm karwa lein."
+  - name: sections
+    label: Default lists for each kind of journey
+    type: object
+    fields:
+    - name: tours
+      label: "Tours"
+      type: object
+      fields:
+      - name: packing_list
+        label: "Packing list"
+        type: string
+        list: true
+      - name: included
+        label: "Included"
+        type: string
+        list: true
+      - name: excluded
+        label: "Not included"
+        type: string
+        list: true
+    - name: trekking
+      label: "Trekking"
+      type: object
+      fields:
+      - name: packing_list
+        label: "Packing list"
+        type: string
+        list: true
+      - name: included
+        label: "Included"
+        type: string
+        list: true
+      - name: excluded
+        label: "Not included"
+        type: string
+        list: true
+    - name: expeditions
+      label: "Expeditions"
+      type: object
+      fields:
+      - name: packing_list
+        label: "Packing list"
+        type: string
+        list: true
+      - name: included
+        label: "Included"
+        type: string
+        list: true
+      - name: excluded
+        label: "Not included"
+        type: string
+        list: true
+    - name: jeep-safaris
+      label: "Jeep safaris"
+      type: object
+      fields:
+      - name: packing_list
+        label: "Packing list"
+        type: string
+        list: true
+      - name: included
+        label: "Included"
+        type: string
+        list: true
+      - name: excluded
+        label: "Not included"
+        type: string
+        list: true
+    - name: hunting-services
+      label: "Hunting services"
+      type: object
+      fields:
+      - name: packing_list
+        label: "Packing list"
+        type: string
+        list: true
+      - name: included
+        label: "Included"
+        type: string
+        list: true
+      - name: excluded
+        label: "Not included"
+        type: string
+        list: true
+    - name: vehicles
+      label: "Vehicles"
+      type: object
+      fields:
+      - name: packing_list
+        label: "Packing list"
+        type: string
+        list: true
+      - name: included
+        label: "Included"
+        type: string
+        list: true
+      - name: excluded
+        label: "Not included"
+        type: string
+        list: true
