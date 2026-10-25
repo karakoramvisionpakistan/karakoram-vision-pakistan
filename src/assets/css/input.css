@@ -113,8 +113,8 @@
 .bk-page-header-finder { max-width: 1440px; margin: 1.75rem auto 0; }
 
 /* bulandi: kahin chhoti nahi, bari screen par thori zyada */
-.bk-hero { position: relative; min-height: clamp(720px, 52vw, 860px); overflow: hidden; background: #020617; color: #fff; isolation: isolate; }
-.bk-hero-compact { min-height: clamp(560px, 42vw, 700px); }
+.bk-hero { position: relative; min-height: clamp(700px, 62vw, 1000px); overflow: hidden; background: #020617; color: #fff; isolation: isolate; }
+.bk-hero-compact { min-height: clamp(560px, 50vw, 820px); }
 .bk-hero-stage { position: absolute; inset: 0; perspective: 1800px; transform-style: preserve-3d; }
 .bk-hero-slide { position: absolute; inset: 0; opacity: 0; visibility: hidden; transform: translate3d(0,0,-360px) scale(.86); transition: transform .8s cubic-bezier(.2,.75,.2,1), opacity .65s ease, visibility .65s; pointer-events: none; }
 .bk-hero-slide img { width: 100%; height: 100%; object-fit: cover; object-position: center; background: transparent; }
