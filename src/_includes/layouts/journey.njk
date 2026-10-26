@@ -9,16 +9,16 @@ layout: layouts/base.njk
 <section class="bk-trip-showcase" data-trip-gallery>
   <div class="bk-trip-gallery-shell">
     <button type="button" class="bk-trip-main-image" data-trip-main-button aria-label="Open {{ title }} image gallery">
-      <img data-trip-main-image src="{{ journeyImage }}" alt="{{ title }}" width="1400" height="930" fetchpriority="high" decoding="async">
+      <img data-trip-main-image src="{{ journeyImage }}"{{ journeyImage | srcsetAttr('(max-width: 1023px) 100vw, 900px') | safe }} alt="{{ title }}" width="1400" height="930" fetchpriority="high" decoding="async">
       <span class="bk-trip-gallery-count">Gallery · {{ (journeyGallery.length or 0) + 1 }} images</span>
     </button>
     {% if journeyGallery and journeyGallery.length %}
     <div class="bk-trip-thumbnails" aria-label="{{ title }} gallery thumbnails">
-      <button type="button" class="is-active" data-trip-thumb data-full="{{ journeyImage }}" data-alt="{{ title }}"><img src="{{ journeyImage }}" alt="{{ title }} thumbnail" width="180" height="120" loading="lazy" decoding="async"></button>
+      <button type="button" class="is-active" data-trip-thumb data-full="{{ journeyImage }}" data-alt="{{ title }}"><img src="{{ journeyImage }}"{{ journeyImage | srcsetAttr('180px') | safe }} alt="{{ title }} thumbnail" width="180" height="120" loading="lazy" decoding="async"></button>
       {% for image in journeyGallery | limit(5) %}
         {% set gallerySrc = (image.image or image.src or image) | safeMedia('', '/assets/uploads/placeholder.svg') %}
         {% set galleryAlt = image.alt or (title + ' gallery image ' + loop.index) %}
-        <button type="button" data-trip-thumb data-full="{{ gallerySrc }}" data-alt="{{ galleryAlt }}"><img src="{{ gallerySrc }}" alt="{{ galleryAlt }}" width="180" height="120" loading="lazy" decoding="async"></button>
+        <button type="button" data-trip-thumb data-full="{{ gallerySrc }}" data-alt="{{ galleryAlt }}"><img src="{{ gallerySrc }}"{{ gallerySrc | srcsetAttr('180px') | safe }} alt="{{ galleryAlt }}" width="180" height="120" loading="lazy" decoding="async"></button>
       {% endfor %}
     </div>
     {% endif %}
@@ -96,7 +96,7 @@ layout: layouts/base.njk
 
     {% if packing_list and packing_list.length %}<section id="packing" class="bk-trip-content-section"><p class="eyebrow">Trip preparation</p><h2>Packing list</h2><ul class="bk-packing-list">{% for item in packing_list %}<li>{{ item }}</li>{% endfor %}</ul><a href="/travel-resources/" class="bk-text-link">Read all travel preparation resources →</a></section>{% endif %}
 
-    {% if trip_leader %}<section id="trip-leader" class="bk-trip-content-section"><p class="eyebrow">Meet your expert</p><h2>Trip leader</h2><article class="bk-trip-leader-card">{% if trip_leader.image %}<img src="{{ trip_leader.image | safeMedia('', '/assets/uploads/placeholder.svg') }}" alt="{{ trip_leader.name or 'Karakoram Vision Pakistan trip leader' }}" width="320" height="320" loading="lazy" decoding="async">{% endif %}<div><h3>{{ trip_leader.name or 'Karakoram Vision Travel Team' }}</h3>{% if trip_leader.role %}<strong>{{ trip_leader.role }}</strong>{% endif %}{% if trip_leader.bio %}<p>{{ trip_leader.bio }}</p>{% endif %}</div></article></section>{% endif %}
+    {% if trip_leader %}<section id="trip-leader" class="bk-trip-content-section"><p class="eyebrow">Meet your expert</p><h2>Trip leader</h2><article class="bk-trip-leader-card">{% if trip_leader.image %}<img src="{{ trip_leader.image | safeMedia('', '/assets/uploads/placeholder.svg') }}"{{ trip_leader.image | safeMedia('', '/assets/uploads/placeholder.svg') | srcsetAttr('320px') | safe }} alt="{{ trip_leader.name or 'Karakoram Vision Pakistan trip leader' }}" width="320" height="320" loading="lazy" decoding="async">{% endif %}<div><h3>{{ trip_leader.name or 'Karakoram Vision Travel Team' }}</h3>{% if trip_leader.role %}<strong>{{ trip_leader.role }}</strong>{% endif %}{% if trip_leader.bio %}<p>{{ trip_leader.bio }}</p>{% endif %}</div></article></section>{% endif %}
 
     {% if faqs and faqs.length %}<section id="faqs" class="bk-trip-content-section">{% include "components/faq-block.njk" %}</section>{% endif %}
 
@@ -107,4 +107,4 @@ layout: layouts/base.njk
   <aside class="bk-trip-sticky-inquiry"><p class="eyebrow">Start planning</p><h2>Have a question?</h2><p>Share your dates, group size and preferred experience. No login is required.</p>{% include "components/contact-buttons.njk" %}{% if service_type == 'hunting-services' %}<p class="bk-compliance-note"><strong>Compliance:</strong> Services are subject to official permits, quotas, seasons and wildlife rules. No permit is guaranteed.</p>{% endif %}</aside>
 </div>
 
-{% if journeyGallery and journeyGallery.length %}<section class="bk-full-gallery" aria-labelledby="full-gallery-heading"><div class="bk-trip-section-heading"><div><p class="eyebrow">Gallery</p><h2 id="full-gallery-heading">Journey images</h2></div></div><div>{% for image in journeyGallery %}{% set gallerySrc = (image.image or image.src or image) | safeMedia('', '/assets/uploads/placeholder.svg') %}<button type="button" data-trip-gallery-open data-full="{{ gallerySrc }}" data-alt="{{ image.alt or (title + ' gallery image ' + loop.index) }}"><img src="{{ gallerySrc }}" alt="{{ image.alt or (title + ' gallery image ' + loop.index) }}" width="800" height="600" loading="lazy" decoding="async"></button>{% endfor %}</div></section>{% endif %}
+{% if journeyGallery and journeyGallery.length %}<section class="bk-full-gallery" aria-labelledby="full-gallery-heading"><div class="bk-trip-section-heading"><div><p class="eyebrow">Gallery</p><h2 id="full-gallery-heading">Journey images</h2></div></div><div>{% for image in journeyGallery %}{% set gallerySrc = (image.image or image.src or image) | safeMedia('', '/assets/uploads/placeholder.svg') %}<button type="button" data-trip-gallery-open data-full="{{ gallerySrc }}" data-alt="{{ image.alt or (title + ' gallery image ' + loop.index) }}"><img src="{{ gallerySrc }}"{{ gallerySrc | srcsetAttr('(max-width: 639px) 100vw, 400px') | safe }} alt="{{ image.alt or (title + ' gallery image ' + loop.index) }}" width="800" height="600" loading="lazy" decoding="async"></button>{% endfor %}</div></section>{% endif %}

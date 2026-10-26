@@ -1,7 +1,7 @@
 {% set cardImage = item.data.cover_image | safeMedia(item.data.cover_source, '/assets/uploads/placeholder.svg') %}
 <article class="bk-journey-card">
   <a class="bk-card-media" href="{{ item.url }}">
-    <img src="{{ cardImage }}" alt="{{ item.data.title }}" width="800" height="500" loading="lazy" decoding="async">
+    <img src="{{ cardImage }}"{{ cardImage | srcsetAttr('(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 420px') | safe }} alt="{{ item.data.title }}" width="800" height="500" loading="lazy" decoding="async">
     <span class="bk-card-type">{{ item.data.service_label or item.data.service_type or 'Journey' }}</span>
     {% if item.data.featured %}<span class="bk-card-star" aria-label="Featured journey">★</span>{% endif %}
   </a>

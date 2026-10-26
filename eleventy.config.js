@@ -1,3 +1,4 @@
+import { readFileSync as __readFileForSizes } from "node:fs";
 export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"src/assets":"assets"});
   eleventyConfig.addPassthroughCopy({"src/_headers":"_headers"});
@@ -56,6 +57,20 @@ export default function(eleventyConfig) {
       wide: line(entry.wide), mid: line(entry.mid), tall: line(entry.tall),
       fallback: big.src, w: big.w, h: big.h,
     };
+  });
+  // Har photo ke naap ki fehrist - tools/image-sizes.mjs build ke waqt banata
+  // hai. Yahan ek dafa parh lete hain taake har <img> ko alag se dena na pare.
+  const __imageSizes = (() => {
+    try { return JSON.parse(__readFileForSizes("src/_data/imageSizes.json", "utf8")); }
+    catch { return {}; }
+  })();
+  // Photo ka pata do, srcset aur sizes wapas milte hain. Naap na bane hon to
+  // khali - us surat mein <img> waisa hi rehta hai jaisa pehle tha.
+  eleventyConfig.addFilter("srcsetAttr", (imagePath, sizes) => {
+    const list = __imageSizes[String(imagePath || "").trim()];
+    if (!list || list.length < 2) return "";
+    const srcset = list.map(v => `${v.src} ${v.w}w`).join(", ");
+    return ` srcset="${srcset}" sizes="${sizes || "100vw"}"`;
   });
   eleventyConfig.addFilter("json", v => JSON.stringify(v));
   eleventyConfig.addFilter("limit", (arr,n) => (arr || []).slice(0,n));
