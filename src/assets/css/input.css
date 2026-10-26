@@ -855,11 +855,22 @@
    wahin khatam: neechay aur dayein photo bilkul saaf rehti hai.
    Rang halka rakha hai (55%) - gehri photo par yeh nazar hi nahi aata,
    aur barf wali photo par itna hai ke likhai parhi ja sake. */
-.bk-hero-mark { display: inline; background: rgba(2,6,23,.42);
+/* Rang ab "background" ki soorat mein hai aur us ki bulandi khud muqarrar
+   ki hui hai. Wajah: inline likhai ke peechay ka rang font ke apne dabbe se
+   bharta hai, jis mein oopar neechay khali jagah shamil hoti hai - padding
+   sifar kar dein tab bhi. background-size us ko kaat deta hai, to band utna
+   hi uncha rehta hai jitni likhai.
+   Rang badalna ho to neechay DONO jagah badalna hoga, kyunke gradient ko
+   do rang chahiye hote hain (dono ek hi rakhne se saada rang banta hai). */
+.bk-hero-mark { display: inline; background-color: transparent;
+  background-image: linear-gradient(rgba(2,6,23,.42), rgba(2,6,23,.42));
+  background-size: 100% .84em; background-position: 0 .26em; background-repeat: no-repeat;
   -webkit-box-decoration-break: clone; box-decoration-break: clone;
-  padding: .02em .14em; border-radius: .08em; }
-.bk-hero-eyebrow .bk-hero-mark { padding: .16em .32em; }
-.bk-hero-summary .bk-hero-mark, .bk-hero-feature-title .bk-hero-mark { padding: .06em .2em; }
+  padding: 0 .14em; }
+.bk-hero-eyebrow .bk-hero-mark { background-size: 100% 1.3em; background-position: 0 -.14em;
+  padding: 0 .3em; }
+.bk-hero-summary .bk-hero-mark, .bk-hero-feature-title .bk-hero-mark {
+  background-size: 100% 1.12em; background-position: 0 0; padding: 0 .22em; }
 /* Lines ke darmiyan itni jagah ke har chaukor alag rahe - 1.08 par woh ek
    doosre par charh kar ek bara block ban jate thay.
    max-width purani 14ch thi, jis se "Broad Peak 8047M" jaise unwaan do line
