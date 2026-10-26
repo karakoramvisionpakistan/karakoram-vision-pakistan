@@ -4,14 +4,15 @@ published: true
 sections:
   - homepage
 order: 4
-image: /assets/uploads/1792942699991-116.webp
+image: /assets/uploads/1792994509864-Biafo.webp
 image_alt: ""
-eyebrow: ""
-heading: ""
+eyebrow: Karakoram Mountains
+heading: Snow Lake
 text: ""
 button_label: ""
 button_url: ""
 ---
+
 
 
 
