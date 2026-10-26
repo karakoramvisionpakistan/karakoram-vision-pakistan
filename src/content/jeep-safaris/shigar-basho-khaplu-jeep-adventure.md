@@ -14,8 +14,8 @@ summary: >-
 answer_summary: >-
   A six-day private jeep journey combining Shigar heritage, Basho landscapes and the Shyok Valley
   road to Khaplu.
-cover_image: /assets/uploads/journeys/shigar-basho-khaplu-jeep-adventure.svg
-cover_image_alt: "Jeep track through the green meadows of Basho valley near Shigar"
+cover_image: /assets/uploads/1792996037202-Shigar-Valley.webp
+cover_image_alt: Jeep track through the green meadows of Basho valley near Shigar
 gallery: []
 duration: 6 Days
 price_from: On request
@@ -55,14 +55,22 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: "What does this jeep route cover?"
-    answer: "Six days through Shigar valley and its fort-palace, the meadows and forest of Basho, and the Shyok valley road east to Khaplu with its restored palace."
-  - question: "Is Basho reachable by normal car?"
-    answer: "No. The track into Basho is rough and often wet, so a 4x4 with a local driver is needed. That is part of why the valley stays quiet."
-  - question: "Is the trip tiring?"
-    answer: "It is rated moderate — mostly driving with short walks, but mountain roads are bumpy and days can be long. Hotels and guest houses are used each night rather than camping."
-  - question: "When is the best time to go?"
-    answer: "May to October. Basho is greenest in June and July; September and October bring clear views and autumn colour in Shigar and Khaplu."
+  - question: What does this jeep route cover?
+    answer: >-
+      Six days through Shigar valley and its fort-palace, the meadows and forest of Basho, and the
+      Shyok valley road east to Khaplu with its restored palace.
+  - question: Is Basho reachable by normal car?
+    answer: >-
+      No. The track into Basho is rough and often wet, so a 4x4 with a local driver is needed. That
+      is part of why the valley stays quiet.
+  - question: Is the trip tiring?
+    answer: >-
+      It is rated moderate — mostly driving with short walks, but mountain roads are bumpy and days
+      can be long. Hotels and guest houses are used each night rather than camping.
+  - question: When is the best time to go?
+    answer: >-
+      May to October. Basho is greenest in June and July; September and October bring clear views
+      and autumn colour in Shigar and Khaplu.
 reviews: []
 key_facts:
   - label: Operating base
@@ -74,9 +82,10 @@ reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 duration_days: "6"
 seo:
-  title: "Shigar & Khaplu Jeep Safari - 6 Days | Karakoram Vision"
+  title: Shigar & Khaplu Jeep Safari - 6 Days | Karakoram Vision
   description: >-
-    Six days by jeep through Shigar, the Basho meadows and the Shyok valley to Khaplu palace. Private vehicle and driver. Ask for dates, hotels and costs.
+    Six days by jeep through Shigar, the Basho meadows and the Shyok valley to Khaplu palace.
+    Private vehicle and driver. Ask for dates, hotels and costs.
   keywords: Shigar, Basho, Khaplu, jeep adventure
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""
@@ -86,21 +95,4 @@ service_type: jeep-safaris
 service_label: Jeep Safaris
 ---
 
-
-
-
-<!-- page-intro -->
-<h2><strong>About this journey</strong></h2>
-<p>This journey takes the two best valleys near Skardu and the quiet green one in between. Shigar has its fort-palace and the road toward Askole; Khaplu has the restored palace above the Shyok river and the Hushe road climbing toward the big peaks. Between them lies Basho - forest, meadows and streams, reachable only by jeep, which is why it stays empty.</p>
-<p><strong>What the journey covers.</strong> Six days by 4x4 through all three valleys, with nights in hotels and guest houses rather than camps.</p>
-<p><strong>Who it suits.</strong> Travellers who want to get off the main road without trekking. The grading is moderate - mostly driving with short walks, but mountain tracks are bumpy and the Basho road in particular is rough.</p>
-<p><strong>When to go.</strong> May to October. Basho is greenest in June and July; September and October bring clear views and autumn colour in Shigar and Khaplu.</p>
-<p><strong>What we handle.</strong> Private 4x4 and driver, hotels, meals and a local guide who knows which tracks are passable that week.</p>
-<!-- /page-intro -->
-
-<p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions. </p><h2>Suggested itinerary</h2><h3>Day 1: Skardu arrival</h3><p>Meet the driver and review the road plan.</p><h3>Day 2: Shigar Valley</h3><p>Heritage visits and village roads.</p><h3>Day 3: Basho excursion</h3><p>4x4 day trip subject to track conditions.</p><h3>Day 4: Drive to Khaplu</h3><p>Follow the Shyok Valley.</p><h3>Day 5: Khaplu exploration</h3><p>Palace, mosque and nearby villages.</p><h3>Day 6: Return or departure</h3><p>Transfer according to onward plans.</p><h2>Planning notes</h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2>Responsible travel</h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
-
-<!-- related-journeys -->
-<h2><strong>Related journeys</strong></h2>
-<ul><li><a href="/destinations/shigar/">Shigar valley guide</a></li><li><a href="/destinations/khaplu/">Khaplu travel guide</a></li><li><a href="/tours/skardu-shigar-valley-explorer/">Skardu and Shigar valley tour</a></li></ul>
-<!-- /related-journeys -->
+<h2><strong>About this journey</strong></h2><p>This journey takes the two best valleys near Skardu and the quiet green one in between. Shigar has its fort-palace and the road toward Askole; Khaplu has the restored palace above the Shyok river and the Hushe road climbing toward the big peaks. Between them lies Basho - forest, meadows and streams, reachable only by jeep, which is why it stays empty.</p><p><strong>What the journey covers.</strong> Six days by 4x4 through all three valleys, with nights in hotels and guest houses rather than camps.</p><p><strong>Who it suits.</strong> Travellers who want to get off the main road without trekking. The grading is moderate - mostly driving with short walks, but mountain tracks are bumpy and the Basho road in particular is rough.</p><p><strong>When to go.</strong> May to October. Basho is greenest in June and July; September and October bring clear views and autumn colour in Shigar and Khaplu.</p><p><strong>What we handle.</strong> Private 4x4 and driver, hotels, meals and a local guide who knows which tracks are passable that week.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2>Suggested itinerary</h2><h3>Day 1: Skardu arrival</h3><p>Meet the driver and review the road plan.</p><h3>Day 2: Shigar Valley</h3><p>Heritage visits and village roads.</p><h3>Day 3: Basho excursion</h3><p>4x4 day trip subject to track conditions.</p><h3>Day 4: Drive to Khaplu</h3><p>Follow the Shyok Valley.</p><h3>Day 5: Khaplu exploration</h3><p>Palace, mosque and nearby villages.</p><h3>Day 6: Return or departure</h3><p>Transfer according to onward plans.</p><h2>Planning notes</h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2>Responsible travel</h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p><h2><strong>Related journeys</strong></h2><ul><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/destinations/shigar/">Shigar valley guide</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/destinations/khaplu/">Khaplu travel guide</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/tours/skardu-shigar-valley-explorer/">Skardu and Shigar valley tour</a></p></li></ul><p></p>
