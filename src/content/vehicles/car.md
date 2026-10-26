@@ -7,7 +7,7 @@ featured: true
 summary: ""
 cover_image: /assets/uploads/1792994772643-Car.webp
 gallery: []
-capacity: "4"
+capacity: "3 "
 luggage: ""
 vehicle_type: Car
 price_from: ""
@@ -18,5 +18,6 @@ seo:
   keywords: "vehicle, Transport, Car,  "
 body: ""
 ---
+
 
 <p>Karakoram Vision Pakistan offers private car rental services with professional drivers throughout Gilgit-Baltistan, Pakistan. Enjoy comfortable, safe, and reliable transportation for sightseeing, family holidays, and customized private trips across the breathtaking Karakoram region.</p>
