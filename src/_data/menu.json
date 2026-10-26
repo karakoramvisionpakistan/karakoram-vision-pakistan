@@ -5,7 +5,7 @@
       "target_blank": false,
       "label": "Home",
       "url": "/",
-      "icon": "Ã¢Å’â€š"
+      "icon": "⌂"
     },
     {
       "enabled": true,
@@ -91,7 +91,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Best Sellers",
-          "icon": "Ã¢Ëœâ€¦",
+          "icon": "★",
           "featured": true,
           "children": [
             {
@@ -222,7 +222,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Fixed Departures",
-          "icon": "Ã¢â€”Â·",
+          "icon": "◷",
           "url": "/tours/fixed-departures/"
         },
         {
@@ -230,14 +230,14 @@
           "target_blank": false,
           "label": "View All Tours (6)",
           "url": "/tours/",
-          "icon": "Ã¢â‚¬Âº"
+          "icon": "›"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Trip Calendar",
           "url": "/trip-calendar/",
-          "icon": "Ã¢â€”Â·"
+          "icon": "◷"
         }
       ]
     },
@@ -263,7 +263,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Best Sellers",
-          "icon": "Ã¢Ëœâ€¦",
+          "icon": "★",
           "featured": true,
           "children": [
             {
@@ -339,7 +339,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Tour Calendar",
-          "icon": "Ã¢â€“Â¦",
+          "icon": "▦",
           "url": "/trip-calendar/"
         }
       ]
@@ -355,13 +355,13 @@
           "target_blank": false,
           "label": "All Fixed Departures",
           "url": "/trekking/fixed-departures/",
-          "icon": "Ã¢â€”Â·"
+          "icon": "◷"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "K2 Treks",
-          "icon": "Ã¢Ëœâ€¦",
+          "icon": "★",
           "featured": true,
           "children": [
             {
@@ -401,7 +401,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Best Sellers",
-          "icon": "Ã¢Ëœâ€¦",
+          "icon": "★",
           "featured": true,
           "children": [
             {
@@ -516,7 +516,7 @@
           "target_blank": false,
           "label": "View All Treks (6)",
           "url": "/trekking/",
-          "icon": "Ã¢â‚¬Âº"
+          "icon": "›"
         }
       ]
     },
@@ -530,7 +530,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Best Sellers",
-          "icon": "Ã¢Ëœâ€¦",
+          "icon": "★",
           "featured": true,
           "children": [
             {
@@ -600,7 +600,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Mountain Ranges",
-          "icon": "Ã¢â€”â€°",
+          "icon": "◉",
           "children": [
             {
               "enabled": true,
@@ -830,7 +830,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "All Fixed Departures",
-          "icon": "Ã¢â€”Â·",
+          "icon": "◷",
           "url": "/expeditions/fixed-departures/"
         }
       ]
