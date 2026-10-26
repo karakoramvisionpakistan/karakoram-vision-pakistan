@@ -132,8 +132,33 @@
 .bk-hero-slide.is-active { opacity: 1; visibility: visible; transform: translate3d(0,0,0) rotateY(0) scale(1); z-index: 3; pointer-events: auto; }
 .bk-hero-slide.is-prev { opacity: .28; visibility: visible; transform: translate3d(-45%,0,-240px) rotateY(12deg) scale(.88); z-index: 1; }
 .bk-hero-slide.is-next { opacity: .28; visibility: visible; transform: translate3d(45%,0,-240px) rotateY(-12deg) scale(.88); z-index: 1; }
-.bk-hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(2,6,23,.96) 0%, rgba(2,6,23,.72) 44%, rgba(2,6,23,.2) 75%, rgba(2,6,23,.55) 100%); }
-.bk-hero-shade::after { content: ""; position: absolute; inset: auto 0 0; height: 42%; background: linear-gradient(0deg, rgba(2,6,23,.82), transparent); }
+/* parda v3: bohot halka, likhai ki hifazat saye se */
+/* Likhai bayein taraf hai, to thora sa parda wahin se aata hai aur beech
+   tak khatam ho jata hai. Dayein taraf bilkul kuch nahi - pehle wahan bhi
+   55% ki chadar pari rehti thi, halanke wahan koi likhai hai hi nahi.
+   pointer-events: none is liye ke parda button ke raaste mein na aaye. */
+.bk-hero-shade { position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(90deg, rgba(2,6,23,.58) 0%, rgba(2,6,23,.26) 34%,
+    rgba(2,6,23,0) 62%); }
+.bk-hero-shade::after { content: ""; position: absolute; inset: auto 0 0; height: 44%;
+  background: linear-gradient(0deg, rgba(2,6,23,.42), transparent); }
+
+/* Parda bohot halka hai, is liye likhai apni hifazat khud karti hai: har
+   harf ke peechay ek narm saya. Saya sirf harfon par parta hai, photo par
+   nahi - is liye pahar saaf rehta hai. Button safed hai, us par saye ki
+   zaroorat nahi. */
+.bk-hero-copy { text-shadow: 0 1px 2px rgba(2,6,23,.5), 0 4px 18px rgba(2,6,23,.6); }
+.bk-hero-copy h1, .bk-hero-copy h2 { text-shadow: 0 2px 4px rgba(2,6,23,.55), 0 8px 32px rgba(2,6,23,.65); }
+.bk-hero-actions a { text-shadow: none; }
+
+@media (max-width: 767px) {
+  /* Chhoti screen par likhai photo ke beech mein aati hai - to bojh neechay
+     se, bayein se bilkul kam. */
+  .bk-hero-shade { background: linear-gradient(90deg, rgba(2,6,23,.34) 0%,
+    rgba(2,6,23,.12) 45%, rgba(2,6,23,0) 100%); }
+  .bk-hero-shade::after { height: 60%; background: linear-gradient(0deg,
+    rgba(2,6,23,.70), rgba(2,6,23,.20) 48%, transparent); }
+}
 .bk-hero-copy { position: absolute; z-index: 2; left: max(4vw, 2rem); top: 50%; width: min(760px, 72vw); transform: translateY(-55%); }
 .bk-hero-compact .bk-hero-copy { width: min(720px, 72vw); }
 .bk-hero-eyebrow { margin: 0 0 1rem; font-size: .75rem; font-weight: 900; letter-spacing: .22em; text-transform: uppercase; color: #bfdbfe; }
