@@ -142,7 +142,7 @@
 
 .bk-hero-copy { position: absolute; z-index: 2; left: max(4vw, 2rem); top: 50%; width: min(760px, 72vw); transform: translateY(-55%); }
 .bk-hero-compact .bk-hero-copy { width: min(720px, 72vw); }
-.bk-hero-eyebrow { margin: 0 0 1rem; font-size: .75rem; font-weight: 900; letter-spacing: .22em; text-transform: uppercase; color: #bfdbfe; }
+.bk-hero-eyebrow { margin: 0 0 .3rem; font-size: .75rem; font-weight: 900; letter-spacing: .22em; text-transform: uppercase; color: #bfdbfe; }
 .bk-hero-copy h1, .bk-hero-copy h2 { margin: 0; max-width: 14ch; font-size: clamp(2.7rem, 6vw, 6rem); font-weight: 950; line-height: .93; }
 .bk-hero-compact .bk-hero-copy h1, .bk-hero-compact .bk-hero-copy h2 { font-size: clamp(2.5rem, 5vw, 5rem); }
 .bk-hero-feature-title { margin: 1.3rem 0 0; font-size: clamp(1rem, 2vw, 1.45rem); font-weight: 850; color: #fff; }
@@ -864,7 +864,7 @@
    do rang chahiye hote hain (dono ek hi rakhne se saada rang banta hai). */
 .bk-hero-mark { display: inline; background-color: transparent;
   background-image: linear-gradient(rgba(2,6,23,.42), rgba(2,6,23,.42));
-  background-size: 100% .84em; background-position: 0 .26em; background-repeat: no-repeat;
+  background-size: 100% .94em; background-position: 0 .16em; background-repeat: no-repeat;
   -webkit-box-decoration-break: clone; box-decoration-break: clone;
   padding: 0 .14em; }
 .bk-hero-eyebrow .bk-hero-mark { background-size: 100% 1.3em; background-position: 0 -.14em;
