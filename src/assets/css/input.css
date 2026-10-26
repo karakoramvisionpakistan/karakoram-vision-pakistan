@@ -855,7 +855,7 @@
    wahin khatam: neechay aur dayein photo bilkul saaf rehti hai.
    Rang halka rakha hai (55%) - gehri photo par yeh nazar hi nahi aata,
    aur barf wali photo par itna hai ke likhai parhi ja sake. */
-.bk-hero-mark { display: inline; background: rgba(2,6,23,.55);
+.bk-hero-mark { display: inline; background: rgba(2,6,23,.42);
   -webkit-box-decoration-break: clone; box-decoration-break: clone;
   padding: .06em .22em; border-radius: .12em; }
 .bk-hero-eyebrow .bk-hero-mark { padding: .25em .45em; }
