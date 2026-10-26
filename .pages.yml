@@ -4466,3 +4466,53 @@ content:
       label: Photo description
       type: string
       description: "Photo mein kya nazar aa raha hai, ek chhoti line."
+
+- name: page_control
+  label: 21 — Pages: show or hide
+  type: file
+  path: src/_data/pageControl.json
+  operations:
+    delete: false
+    rename: false
+  fields:
+  - name: pages
+    label: Website pages
+    type: object
+    list: true
+    description: "Website ke sare pages. Kisi page ko website se hatana ho to us ka switch band kar dein - page CMS mein mojood rahega lekin website par bilkul nahi aayega. Yeh fehrist khud banti hai; naya page banay to woh apne aap yahan aa jata hai."
+    fields:
+    - name: label
+      label: Page
+      type: string
+    - name: url
+      label: Address
+      type: string
+    - name: published
+      label: Show on website
+      type: boolean
+      default: true
+    - name: redirect_to
+      label: If hidden, send visitors to
+      type: string
+      description: "Khali chhor dein to page bas gayab ho jata hai - naye ya adhoore pages ke liye yahi theek hai. Lekin agar is page ka pata Google mein ya kisi aur website par maujood hai, to yahan us page ka address likh dein jahan log jana chahiye - jaise /tours/. Is se aane wala khali hath nahi lautta aur Google is page ki kamai nayi jagah ko de deta hai."
+    - name: file
+      label: File
+      type: string
+      hidden: true
+  - name: hidden
+    label: Hidden pages (automatic)
+    type: string
+    list: true
+    hidden: true
+  - name: redirects
+    label: Redirects (automatic)
+    type: object
+    list: true
+    hidden: true
+    fields:
+    - name: from
+      label: From
+      type: string
+    - name: to
+      label: To
+      type: string

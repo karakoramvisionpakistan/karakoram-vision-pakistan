@@ -72,6 +72,17 @@ export default function(eleventyConfig) {
     const srcset = list.map(v => `${v.src} ${v.w}w`).join(", ");
     return ` srcset="${srcset}" sizes="${sizes || "100vw"}"`;
   });
+  // Jo pages CMS se chhupaye gaye hain unhein build hi mat karo. Yeh sirf
+  // menu se hatana nahi - page banta hi nahi, is liye na us ka address
+  // khulta hai, na woh sitemap ya search mein aata hai, aur Google ko bhi
+  // nazar nahi aata. Fehrist tools/page-control.mjs banata hai, build ke
+  // shuru mein. Fehrist na mile to sab pages pehle ki tarah chalte hain.
+  try {
+    const control = JSON.parse(__readFileForSizes("src/_data/pageControl.json", "utf8"));
+    for (const file of control.hidden || []) eleventyConfig.ignores.add(file);
+  } catch {
+    // koi baat nahi
+  }
   eleventyConfig.addFilter("json", v => JSON.stringify(v));
   eleventyConfig.addFilter("limit", (arr,n) => (arr || []).slice(0,n));
   eleventyConfig.addFilter("year", () => new Date().getFullYear());

@@ -1,0 +1,190 @@
+{
+  "pages": [
+    {
+      "label": "8,000m Peak Expeditions",
+      "url": "/expeditions/8000m-peaks/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/expeditions/8000m-peaks/index.njk"
+    },
+    {
+      "label": "Best-Selling Treks",
+      "url": "/trekking/best-sellers/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/trekking/best-sellers/index.njk"
+    },
+    {
+      "label": "Contact Karakoram Vision Pakistan",
+      "url": "/contact-us/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/contact-us/index.njk"
+    },
+    {
+      "label": "Cultural Tours",
+      "url": "/tours/cultural-tours/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/tours/cultural-tours/index.njk"
+    },
+    {
+      "label": "Destinations",
+      "url": "/destinations/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/destinations/index.njk"
+    },
+    {
+      "label": "Expeditions",
+      "url": "/expeditions/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/expeditions/index.njk"
+    },
+    {
+      "label": "Fixed Departure Expeditions",
+      "url": "/expeditions/fixed-departures/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/expeditions/fixed-departures/index.njk"
+    },
+    {
+      "label": "Fixed Departure Tours",
+      "url": "/tours/fixed-departures/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/tours/fixed-departures/index.njk"
+    },
+    {
+      "label": "Fixed Departure Treks",
+      "url": "/trekking/fixed-departures/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/trekking/fixed-departures/index.njk"
+    },
+    {
+      "label": "Guest Reviews",
+      "url": "/guest-reviews/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/guest-reviews/index.njk"
+    },
+    {
+      "label": "Holiday Types",
+      "url": "/holiday-types/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/holiday-types/index.njk"
+    },
+    {
+      "label": "International Travelers",
+      "url": "/international-travelers/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/international-travelers/index.njk"
+    },
+    {
+      "label": "Jeep Safaris",
+      "url": "/jeep-safaris/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/jeep-safaris/index.njk"
+    },
+    {
+      "label": "Journey Categories",
+      "url": "/journey-categories/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/journey-categories/index.njk"
+    },
+    {
+      "label": "K2 Treks",
+      "url": "/trekking/k2-treks/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/trekking/k2-treks/index.njk"
+    },
+    {
+      "label": "Licensed Hunting Services",
+      "url": "/hunting-services/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/hunting-services/index.njk"
+    },
+    {
+      "label": "News & Updates",
+      "url": "/news/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/news/index.njk"
+    },
+    {
+      "label": "Plan a Custom Trip",
+      "url": "/plan-a-trip/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/plan-a-trip/index.njk"
+    },
+    {
+      "label": "Social Responsibility",
+      "url": "/social-responsibility/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/social-responsibility/index.njk"
+    },
+    {
+      "label": "Special Interests",
+      "url": "/special-interests/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/special-interests/index.njk"
+    },
+    {
+      "label": "Tours",
+      "url": "/tours/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/tours/index.njk"
+    },
+    {
+      "label": "Travel Guides",
+      "url": "/blog/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/blog/index.njk"
+    },
+    {
+      "label": "Travel Resources",
+      "url": "/travel-resources/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/travel-resources/index.njk"
+    },
+    {
+      "label": "Trekking",
+      "url": "/trekking/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/trekking/index.njk"
+    },
+    {
+      "label": "Trip Calendar",
+      "url": "/trip-calendar/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/trip-calendar/index.njk"
+    },
+    {
+      "label": "Vehicles",
+      "url": "/vehicles/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/vehicles/index.njk"
+    }
+  ],
+  "hidden": [
+    "src/content/vehicles/coaster-group-transport.md"
+  ],
+  "redirects": []
+}
