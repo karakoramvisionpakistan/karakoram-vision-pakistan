@@ -110,9 +110,11 @@
   </div>
 
   {% if h.navigation.enabled !== false %}
+  {# Jo pages CMS se chhupaye gaye hain, un ke menu khanay yahan nikal jate hain. #}
+  {% set liveMenuItems = menu.items | liveMenu %}
   <div class="bk-navigation-wrap">
     <nav class="bk-desktop-nav bk-header-container" aria-label="Primary navigation">
-      {% for item in menu.items %}{% if item.enabled !== false %}
+      {% for item in liveMenuItems %}{% if item.enabled !== false %}
         {% if item.children %}
           <div class="bk-nav-item bk-has-menu" data-nav-menu>
             <a class="bk-nav-link" href="{{ item.url or '#' }}"{% if item.target_blank %} target="_blank" rel="noopener"{% endif %}>{% if item.icon %}<span aria-hidden="true">{{ item.icon }}</span>{% endif %}<span>{{ item.label }}</span></a>
@@ -126,7 +128,7 @@
     </nav>
 
     <nav id="bk-mobile-menu" class="bk-mobile-nav" data-mobile-menu x-ref="mobileNav" x-show="mobileOpen" x-cloak aria-label="Mobile navigation" hx-boost="false" @click="if ($event.target.tagName.toLowerCase() === 'a' || $event.target.closest('a')) { closeMobileMenu(); }">
-      {{ mobileChildren(menu.items) }}
+      {{ mobileChildren(liveMenuItems) }}
       {% if h.primary_cta.enabled !== false %}
         <a class="bk-mobile-plan" href="{{ h.primary_cta.url or '/plan-a-trip/#trip-request-form' }}" hx-boost="false" @click="closeMobileMenu()">{{ h.primary_cta.label or 'Plan a Trip' }}</a>
       {% endif %}

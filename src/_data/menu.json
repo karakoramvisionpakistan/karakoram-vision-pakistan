@@ -5,7 +5,7 @@
       "target_blank": false,
       "label": "Home",
       "url": "/",
-      "icon": "⌂"
+      "icon": "âŒ‚"
     },
     {
       "enabled": true,
@@ -91,7 +91,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Best Sellers",
-          "icon": "★",
+          "icon": "â˜…",
           "featured": true,
           "children": [
             {
@@ -222,7 +222,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Fixed Departures",
-          "icon": "◷",
+          "icon": "â—·",
           "url": "/tours/fixed-departures/"
         },
         {
@@ -230,14 +230,14 @@
           "target_blank": false,
           "label": "View All Tours (6)",
           "url": "/tours/",
-          "icon": "›"
+          "icon": "â€º"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Trip Calendar",
           "url": "/trip-calendar/",
-          "icon": "◷"
+          "icon": "â—·"
         }
       ]
     },
@@ -263,7 +263,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Best Sellers",
-          "icon": "★",
+          "icon": "â˜…",
           "featured": true,
           "children": [
             {
@@ -276,7 +276,7 @@
               "enabled": true,
               "target_blank": false,
               "label": "K2 Base Camp Trek",
-              "url": "/trekking/k2-base-camp-baltoro-trek/"
+              "url": "/trekking/k2-base-camp-trek/"
             },
             {
               "enabled": true,
@@ -339,7 +339,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Tour Calendar",
-          "icon": "▦",
+          "icon": "â–¦",
           "url": "/trip-calendar/"
         }
       ]
@@ -355,20 +355,20 @@
           "target_blank": false,
           "label": "All Fixed Departures",
           "url": "/trekking/fixed-departures/",
-          "icon": "◷"
+          "icon": "â—·"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "K2 Treks",
-          "icon": "★",
+          "icon": "â˜…",
           "featured": true,
           "children": [
             {
               "enabled": true,
               "target_blank": false,
               "label": "K2 Base Camp Trek",
-              "url": "/trekking/k2-base-camp-baltoro-trek/"
+              "url": "/trekking/k2-base-camp-trek/"
             },
             {
               "enabled": true,
@@ -401,14 +401,14 @@
           "enabled": true,
           "target_blank": false,
           "label": "Best Sellers",
-          "icon": "★",
+          "icon": "â˜…",
           "featured": true,
           "children": [
             {
               "enabled": true,
               "target_blank": false,
               "label": "K2 Base Camp Trek",
-              "url": "/trekking/k2-base-camp-baltoro-trek/"
+              "url": "/trekking/k2-base-camp-trek/"
             },
             {
               "enabled": true,
@@ -516,7 +516,7 @@
           "target_blank": false,
           "label": "View All Treks (6)",
           "url": "/trekking/",
-          "icon": "›"
+          "icon": "â€º"
         }
       ]
     },
@@ -530,7 +530,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Best Sellers",
-          "icon": "★",
+          "icon": "â˜…",
           "featured": true,
           "children": [
             {
@@ -600,7 +600,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Mountain Ranges",
-          "icon": "◉",
+          "icon": "â—‰",
           "children": [
             {
               "enabled": true,
@@ -830,7 +830,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "All Fixed Departures",
-          "icon": "◷",
+          "icon": "â—·",
           "url": "/expeditions/fixed-departures/"
         }
       ]

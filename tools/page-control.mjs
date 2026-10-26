@@ -69,25 +69,34 @@ function labelFor(fm, url, file) {
 // Template wale pages: woh .njk jin ka apna layout aur apna address hai.
 // sitemap, robots, feed wagera chhoot jate hain kyunke un ka address file ke
 // naam par khatam hota hai, folder par nahi.
-const templates = walk(SRC)
+const allTemplates = walk(SRC)
   .map(rel)
   .filter((p) => p.endsWith('.njk'))
   .filter((p) => !p.startsWith('src/_includes/') && !p.startsWith('src/_data/'))
-  .filter((p) => !NEVER.has(p))
   .map((p) => ({ file: p, fm: frontMatter(p) }))
-  .filter(({ fm }) => fmValue(fm, 'layout') && /^\/.*\/$/.test(fmValue(fm, 'permalink')))
+  .filter(({ fm }) => fmValue(fm, 'layout') && /^\/.*\/?$/.test(fmValue(fm, 'permalink')))
   .map(({ file, fm }) => {
     const url = fmValue(fm, 'permalink');
-    return { file, url, label: labelFor(fm, url, file), kind: 'page' };
+    return { file, url, label: labelFor(fm, url, file) };
   });
+
+// Fehrist mein woh pages aate hain jinhein chhupaya ja sakta hai.
+const templates = allTemplates.filter((t) => !NEVER.has(t.file));
+// Yeh hamesha chalte hain - fehrist mein nahi, lekin menu ke link in par ja
+// sakte hain, is liye inhein "zinda" mein ginna zaroori hai.
+const alwaysOn = allTemplates.filter((t) => NEVER.has(t.file)).map((t) => t.url);
 
 // Content wale pages: in par switch pehle se un ki apni file mein hai, is liye
 // yeh fehrist mein nahi aate - lekin chhupane ka kaam wahi hona chahiye jo
 // yahan hota hai. Is liye un mein se band kiye hue jama kar lete hain.
-const hiddenContent = walk(CONTENT)
+const contentPages = walk(CONTENT)
   .map(rel)
   .filter((p) => p.endsWith('.md'))
-  .filter((p) => fmValue(frontMatter(p), 'published').toLowerCase() === 'false');
+  .map((p) => {
+    const fm = frontMatter(p);
+    return { file: p, url: fmValue(fm, 'permalink'), live: fmValue(fm, 'published').toLowerCase() !== 'false' };
+  });
+const hiddenContent = contentPages.filter((c) => !c.live).map((c) => c.file);
 
 // ------------------------------------------------------------------ fehrist
 let old = { pages: [] };
@@ -144,7 +153,49 @@ if (!CHECK && fs.existsSync(REDIR)) {
   if (out !== raw) fs.writeFileSync(REDIR, out, 'utf8');
 }
 
-const data = { pages, hidden, redirects };
+// Chhupe hue pages ke pate - menu inhi ko dekh kar apne khanay chhupata hai.
+const hiddenUrls = [
+  ...pages.filter((p) => p.published === false).map((p) => p.url),
+  ...contentPages.filter((c) => !c.live && c.url).map((c) => c.url),
+].filter(Boolean).sort();
+
+// ------------------------------------------------------------------ menu ki jaanch
+// menu.json mein 31 KB ke link haath se likhe hue hain. Un mein se kai aise ho
+// sakte hain jo kisi maujood page par jate hi nahi - aur abhi tak yeh maloom
+// karne ka koi tareeqa nahi tha. Yahan har build mein un ki fehrist nikal aati
+// hai. Yeh sirf khabar hai; build nahi rukti.
+const liveUrls = new Set([
+  '/',
+  ...alwaysOn,
+  ...pages.filter((p) => p.published !== false).map((p) => p.url),
+  ...contentPages.filter((c) => c.live && c.url).map((c) => c.url),
+]);
+
+const menuLinks = [];
+(function collect(list, trail) {
+  for (const item of list || []) {
+    const where = [...trail, item.label || '?'];
+    if (item.url) menuLinks.push({ url: item.url, where: where.join(' > ') });
+    if (item.children) collect(item.children, where);
+  }
+})((() => {
+  try { return JSON.parse(fs.readFileSync('src/_data/menu.json', 'utf8')).items; }
+  catch { return []; }
+})(), []);
+
+const broken = menuLinks
+  // sirf apni website ke pate dekhte hain - bahar ke link hamara maamla nahi
+  .filter((l) => l.url.startsWith('/'))
+  // sawal aur nishan hata kar sirf page ka pata rakhte hain
+  .map((l) => ({ ...l, path: l.url.split('?')[0].split('#')[0] }))
+  .filter((l) => l.path && !liveUrls.has(l.path))
+  // Jo page jaan boojh kar chhupaya gaya hai us ka khana menu khud hata deta
+  // hai - usey "toota hua" kehna fazool hai.
+  .filter((l) => !hiddenUrls.includes(l.path))
+  // ek hi pata kai jagah ho to ek dafa
+  .filter((l, i, all) => all.findIndex((x) => x.path === l.path) === i);
+
+const data = { pages, hidden, hiddenUrls, redirects };
 const json = `${JSON.stringify(data, null, 2)}\n`;
 
 if (!CHECK) {
@@ -163,4 +214,11 @@ console.log(
 if (hidden.length) {
   for (const f of hidden.slice(0, 10)) console.log(`   chhupa hua: ${f}`);
   if (hidden.length > 10) console.log(`   …aur ${hidden.length - 10} aur`);
+}
+
+if (broken.length) {
+  console.log(`\nMenu mein ${broken.length} link aise hain jo kisi page par nahi jate:`);
+  for (const l of broken.slice(0, 12)) console.log(`   ${l.path.padEnd(42)} ${l.where}`);
+  if (broken.length > 12) console.log(`   …aur ${broken.length - 12} aur`);
+  console.log('   (Yeh sirf khabar hai - website phir bhi ban jati hai.)');
 }

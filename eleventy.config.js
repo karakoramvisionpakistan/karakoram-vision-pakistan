@@ -83,6 +83,27 @@ export default function(eleventyConfig) {
   } catch {
     // koi baat nahi
   }
+  // Menu mein se un khanon ko nikal deta hai jin ke page chhupaye gaye hain.
+  // menu.json mein kuch nahi badalta - khana wahin likha rehta hai, bas dikhta
+  // nahi. Page wapas chalu karte hi link bhi lout aata hai.
+  const __hiddenUrls = (() => {
+    try {
+      const c = JSON.parse(__readFileForSizes("src/_data/pageControl.json", "utf8"));
+      return new Set(c.hiddenUrls || []);
+    } catch { return new Set(); }
+  })();
+  eleventyConfig.addFilter("liveMenu", function liveMenu(items) {
+    return (items || []).map((item) => {
+      const kids = item.children ? liveMenu(item.children) : null;
+      const dead = item.url && __hiddenUrls.has(item.url);
+      // Page bhi chhupa hua aur andar bhi kuch nahi bacha - poora khana hata do
+      if (dead && (!kids || !kids.length)) return null;
+      const out = { ...item };
+      if (dead) delete out.url;            // khana rehta hai, click nahi hota
+      if (kids) { if (kids.length) out.children = kids; else delete out.children; }
+      return out;
+    }).filter(Boolean);
+  });
   eleventyConfig.addFilter("json", v => JSON.stringify(v));
   eleventyConfig.addFilter("limit", (arr,n) => (arr || []).slice(0,n));
   eleventyConfig.addFilter("year", () => new Date().getFullYear());
