@@ -1,0 +1,787 @@
+{
+  "/assets/uploads/1792994179291-K2.BP.KVP.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792994179291-k2-bp-kvp--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792994179291-k2-bp-kvp--wide-1920.webp",
+        "w": 1920,
+        "h": 1200
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792994179291-k2-bp-kvp--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792994179291-k2-bp-kvp--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792994179291-k2-bp-kvp--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792994179291-k2-bp-kvp--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
+  "/assets/uploads/1792994509864-Biafo.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792994509864-biafo--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792994509864-biafo--wide-1500.webp",
+        "w": 1500,
+        "h": 938
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792994509864-biafo--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792994509864-biafo--mid-1250.webp",
+        "w": 1250,
+        "h": 1000
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792994509864-biafo--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792994509864-biafo--tall-563.webp",
+        "w": 563,
+        "h": 1000
+      }
+    ]
+  },
+  "/assets/uploads/1792993862389-Baltoro.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792993862389-baltoro--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792993862389-baltoro--wide-1920.webp",
+        "w": 1920,
+        "h": 1200
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792993862389-baltoro--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792993862389-baltoro--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792993862389-baltoro--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792993862389-baltoro--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
+  "/assets/uploads/1792993788748-concordia.kvp.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792993788748-concordia-kvp--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792993788748-concordia-kvp--wide-1920.webp",
+        "w": 1920,
+        "h": 1200
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792993788748-concordia-kvp--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792993788748-concordia-kvp--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792993788748-concordia-kvp--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792993788748-concordia-kvp--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
+  "/assets/uploads/1792933344337-nanga-parbat.kvp.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792933344337-nanga-parbat-kvp--wide-640.webp",
+        "w": 640,
+        "h": 400
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792933344337-nanga-parbat-kvp--mid-600.webp",
+        "w": 600,
+        "h": 480
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792933344337-nanga-parbat-kvp--tall-270.webp",
+        "w": 270,
+        "h": 480
+      }
+    ]
+  },
+  "/assets/uploads/1792995980556-Deosai.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792995980556-deosai--wide-1242.webp",
+        "w": 1242,
+        "h": 776
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792995980556-deosai--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792995980556-deosai--mid-1242.webp",
+        "w": 1242,
+        "h": 994
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792995980556-deosai--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792995980556-deosai--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
+  "/assets/uploads/1792832376446-nanga-parbat.kvp.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792832376446-nanga-parbat-kvp--wide-640.webp",
+        "w": 640,
+        "h": 400
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792832376446-nanga-parbat-kvp--mid-600.webp",
+        "w": 600,
+        "h": 480
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792832376446-nanga-parbat-kvp--tall-270.webp",
+        "w": 270,
+        "h": 480
+      }
+    ]
+  },
+  "/assets/uploads/1792996010652-Khaplu-Valley.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792996010652-khaplu-valley--wide-415.webp",
+        "w": 415,
+        "h": 259
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792996010652-khaplu-valley--mid-415.webp",
+        "w": 415,
+        "h": 332
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792996010652-khaplu-valley--tall-415.webp",
+        "w": 415,
+        "h": 738
+      }
+    ]
+  },
+  "/assets/uploads/1792997236591-Biafo-glacier.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792997236591-biafo-glacier--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792997236591-biafo-glacier--wide-1500.webp",
+        "w": 1500,
+        "h": 938
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792997236591-biafo-glacier--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792997236591-biafo-glacier--mid-1250.webp",
+        "w": 1250,
+        "h": 1000
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792997236591-biafo-glacier--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792997236591-biafo-glacier--tall-563.webp",
+        "w": 563,
+        "h": 1000
+      }
+    ]
+  },
+  "/assets/uploads/1792840088009-L1280423--Copy-.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792840088009-l1280423-copy--wide-640.webp",
+        "w": 640,
+        "h": 400
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792840088009-l1280423-copy--mid-600.webp",
+        "w": 600,
+        "h": 480
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792840088009-l1280423-copy--tall-270.webp",
+        "w": 270,
+        "h": 480
+      }
+    ]
+  },
+  "/assets/uploads/1792998193959-Majrooh-Top.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792998193959-majrooh-top--wide-960.webp",
+        "w": 960,
+        "h": 600
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792998193959-majrooh-top--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792998193959-majrooh-top--mid-900.webp",
+        "w": 900,
+        "h": 720
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792998193959-majrooh-top--tall-405.webp",
+        "w": 405,
+        "h": 720
+      }
+    ]
+  },
+  "/assets/uploads/1792998495291-IMG_9381.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792998495291-img-9381--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792998495291-img-9381--wide-1500.webp",
+        "w": 1500,
+        "h": 938
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792998495291-img-9381--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792998495291-img-9381--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792998495291-img-9381--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792998495291-img-9381--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
+  "/assets/uploads/1792826537160-broad-peak.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792826537160-broad-peak--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792826537160-broad-peak--wide-1920.webp",
+        "w": 1920,
+        "h": 1200
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792826537160-broad-peak--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792826537160-broad-peak--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792826537160-broad-peak--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792826537160-broad-peak--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
+  "/assets/uploads/1792838375911-G1.KVP.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792838375911-g1-kvp--wide-640.webp",
+        "w": 640,
+        "h": 400
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792838375911-g1-kvp--mid-600.webp",
+        "w": 600,
+        "h": 480
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792838375911-g1-kvp--tall-270.webp",
+        "w": 270,
+        "h": 480
+      }
+    ]
+  },
+  "/assets/uploads/1792850365010-K2-KVP.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792850365010-k2-kvp--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792850365010-k2-kvp--wide-1600.webp",
+        "w": 1600,
+        "h": 1000
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792850365010-k2-kvp--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792850365010-k2-kvp--mid-1333.webp",
+        "w": 1333,
+        "h": 1066
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792850365010-k2-kvp--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792850365010-k2-kvp--tall-600.webp",
+        "w": 600,
+        "h": 1066
+      }
+    ]
+  },
+  "/assets/uploads/1792997162644-Laila-Peak.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792997162644-laila-peak--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792997162644-laila-peak--wide-1800.webp",
+        "w": 1800,
+        "h": 1125
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792997162644-laila-peak--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792997162644-laila-peak--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792997162644-laila-peak--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792997162644-laila-peak--tall-633.webp",
+        "w": 633,
+        "h": 1125
+      }
+    ]
+  },
+  "/assets/uploads/1792933304428-nanga--Copy-.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792933304428-nanga-copy--wide-640.webp",
+        "w": 640,
+        "h": 400
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792933304428-nanga-copy--mid-600.webp",
+        "w": 600,
+        "h": 480
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792933304428-nanga-copy--tall-270.webp",
+        "w": 270,
+        "h": 480
+      }
+    ]
+  },
+  "/assets/uploads/1792996783273-Spantik-peak.KVP.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792996783273-spantik-peak-kvp--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792996783273-spantik-peak-kvp--wide-1920.webp",
+        "w": 1920,
+        "h": 1200
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792996783273-spantik-peak-kvp--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792996783273-spantik-peak-kvp--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792996783273-spantik-peak-kvp--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792996783273-spantik-peak-kvp--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
+  "/assets/uploads/1792997042059-Trango.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792997042059-trango--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792997042059-trango--wide-1920.webp",
+        "w": 1920,
+        "h": 1200
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792997042059-trango--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792997042059-trango--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792997042059-trango--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792997042059-trango--tall-750.webp",
+        "w": 750,
+        "h": 1333
+      }
+    ]
+  },
+  "/assets/uploads/1792996037202-Shigar-Valley.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792996037202-shigar-valley--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792996037202-shigar-valley--wide-1728.webp",
+        "w": 1728,
+        "h": 1080
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792996037202-shigar-valley--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792996037202-shigar-valley--mid-1350.webp",
+        "w": 1350,
+        "h": 1080
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792996037202-shigar-valley--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792996037202-shigar-valley--tall-608.webp",
+        "w": 608,
+        "h": 1080
+      }
+    ]
+  },
+  "/assets/uploads/1792996651736-Himalayan-Ibex.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792996651736-himalayan-ibex--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792996651736-himalayan-ibex--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792996651736-himalayan-ibex--mid-1200.webp",
+        "w": 1200,
+        "h": 960
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792996651736-himalayan-ibex--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792996651736-himalayan-ibex--tall-540.webp",
+        "w": 540,
+        "h": 960
+      }
+    ]
+  },
+  "/assets/uploads/1792994772643-Car.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792994772643-car--wide-504.webp",
+        "w": 504,
+        "h": 315
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792994772643-car--mid-394.webp",
+        "w": 394,
+        "h": 315
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792994772643-car--tall-177.webp",
+        "w": 177,
+        "h": 315
+      }
+    ]
+  },
+  "/assets/uploads/1792994621774-Coaster.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792994621774-coaster--wide-554.webp",
+        "w": 554,
+        "h": 346
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792994621774-coaster--mid-554.webp",
+        "w": 554,
+        "h": 443
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792994621774-coaster--tall-311.webp",
+        "w": 311,
+        "h": 554
+      },
+      {
+        "src": "/assets/hero/1792994621774-coaster--tall-312.webp",
+        "w": 312,
+        "h": 554
+      }
+    ]
+  },
+  "/assets/uploads/1792994704174-Hiace-Van.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792994704174-hiace-van--wide-563.webp",
+        "w": 563,
+        "h": 352
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792994704174-hiace-van--mid-440.webp",
+        "w": 440,
+        "h": 352
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792994704174-hiace-van--tall-198.webp",
+        "w": 198,
+        "h": 352
+      }
+    ]
+  },
+  "/assets/uploads/1792994729639-Prado.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792994729639-prado--wide-638.webp",
+        "w": 638,
+        "h": 399
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792994729639-prado--mid-600.webp",
+        "w": 600,
+        "h": 480
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792994729639-prado--tall-270.webp",
+        "w": 270,
+        "h": 480
+      }
+    ]
+  }
+}

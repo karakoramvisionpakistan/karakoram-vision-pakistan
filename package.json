@@ -9,7 +9,7 @@
     "build:vendor": "node tools/copy-vendors.mjs",
     "build:css": "tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/site.css --minify",
     "build:data": "node tools/generate_runtime_catalog.mjs",
-    "build:assets": "node tools/autofill-content.mjs && node tools/normalize-permalinks.mjs && node tools/validate-content.mjs && node tools/optimize-images.mjs && npm run build:vendor && npm run build:css && npm run build:data",
+    "build:assets": "node tools/autofill-content.mjs && node tools/normalize-permalinks.mjs && node tools/validate-content.mjs && node tools/optimize-images.mjs && node tools/hero-crops.mjs && npm run build:vendor && npm run build:css && npm run build:data",
     "build": "npm run build:assets && eleventy",
     "test": "node tools/run-python.mjs tests/final_audit.py",
     "audit:seo": "node tools/run-python.mjs tests/seo_audit.py",

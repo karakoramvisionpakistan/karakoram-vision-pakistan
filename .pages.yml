@@ -2262,24 +2262,16 @@ content:
     label: Photo description
     type: string
     description: "Photo mein kya nazar aa raha hai, ek chhoti line. Google Images aur nabina logon ke liye."
-  - name: fit
-    label: How the photo sits in the banner
-    type: select
-    default: smart
-    description: "Pehla option chhor dein to har naap ki photo theek lagti hai - poori nazar aati hai aur peeche usi ki dhundhli copy jagah bhar deti hai. Doosra option sirf tab chunein jab photo pehle se bohot chauri ho."
-    options:
-    - value: smart
-      label: Show the whole photo (recommended)
-    - value: cover
-      label: Fill the banner (top and bottom get cut off)
   - name: focus
-    label: Which part to keep when filling
+    label: Which part of the photo matters most
     type: select
-    default: top
-    description: "Sirf tab kaam aata hai jab oopar \"Fill the banner\" chuna ho. Pahari photos mein \"Top\" behtar rehta hai - choti bach jati hai."
+    default: auto
+    description: "Ise chhor dein. Website khud pehchan leti hai ke photo mein ahem hissa kahan hai aur usey bachati hai. Sirf tab badlein jab kisi photo mein galat hissa nazar aaye."
     options:
+    - value: auto
+      label: Work it out automatically (recommended)
     - value: top
-      label: Top (best for mountains)
+      label: Top
     - value: center
       label: Middle
     - value: bottom

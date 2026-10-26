@@ -10,8 +10,13 @@
       wahi dikhti hain - har slide ki apni photo, heading, text aur button.
    2. Warna purana khud-kar slider chalta hai jo journeys ki cover photos uthata hai.
 
-   Photo ki shakal: default "smart" - poori photo beech mein, peeche usi photo ki
-   dhundhli bari copy jagah bharti hai. Na kuch katta hai na khinchta hai. #}
+   PHOTO KI SHAKAL
+   Har photo ki teen katayein pehle se bani hoti hain - bari screen ke liye
+   chauri, tablet ke liye darmiyani, mobile ke liye lambi. Browser apni screen
+   ke mutabiq sahi wali uthata hai. Na kuch khinchta hai, na koi khali patti
+   banti hai, aur mobile par chhoti file utarti hai to page tez khulta hai.
+   Katai tools/hero-crops.mjs banata hai; fehrist src/_data/heroImages.json
+   mein hoti hai. Kisi photo ki katai na bani ho to asli photo chal jati hai. #}
 {% set heroPageKey = page.url | heroKey %}
 {% set heroCfg = heroSettings | heroConfig(heroPageKey) %}
 
@@ -19,11 +24,21 @@
   {# Slider band hai lekin client ne ek photo lagai hai - wahi jami hui dikhao.
      Markup slider jaisa hi hai, bas data-hero-slider nahi, to JS isey nahi chhuta. #}
   {% set staticImage = heroCfg.image | safeMedia('', '/assets/uploads/placeholder.svg') %}
+  {% set staticAlt = heroCfg.image_alt or heroHeading or title %}
+  {% set staticPic = heroImages | heroPicture(staticImage) %}
   <section class="bk-hero bk-hero-compact">
     <div class="bk-hero-stage">
-      <article class="bk-hero-slide is-active is-smart">
-        <img class="bk-hero-bg" src="{{ staticImage }}" alt="" aria-hidden="true" width="1920" height="1080" decoding="async">
-        <img class="bk-hero-photo" src="{{ staticImage }}" alt="{{ heroCfg.image_alt or heroHeading or title }}" width="1920" height="1080" fetchpriority="high" decoding="async">
+      <article class="bk-hero-slide is-active">
+        {% if staticPic %}
+        <picture>
+          <source media="(max-width: 767px)" sizes="100vw" srcset="{{ staticPic.tall }}">
+          <source media="(max-width: 1279px)" sizes="100vw" srcset="{{ staticPic.mid }}">
+          <source sizes="100vw" srcset="{{ staticPic.wide }}">
+          <img class="bk-hero-photo" src="{{ staticPic.fallback }}" alt="{{ staticAlt }}" width="{{ staticPic.w }}" height="{{ staticPic.h }}" fetchpriority="high" decoding="async">
+        </picture>
+        {% else %}
+        <img class="bk-hero-photo" src="{{ staticImage }}" alt="{{ staticAlt }}" width="1920" height="1080" fetchpriority="high" decoding="async">
+        {% endif %}
         <div class="bk-hero-shade"></div>
         <div class="bk-hero-copy">
           <p class="bk-hero-eyebrow">{{ heroEyebrow or site.tagline or site.name }}</p>
@@ -59,15 +74,24 @@
       {% if useCustom %}
         {% set slideImage = item.data.image | safeMedia('', '/assets/uploads/placeholder.svg') %}
         {% set slideHeading = item.data.heading or heroHeading or title %}
-        {% set slideFit = item.data.fit or 'smart' %}
+        {% set slideAlt = item.data.image_alt or item.data.heading or item.data.title %}
       {% else %}
         {% set slideImage = item.data.cover_image | safeMedia(item.data.cover_source, '/assets/uploads/placeholder.svg') %}
         {% set slideHeading = heroHeading or title %}
-        {% set slideFit = 'cover' %}
+        {% set slideAlt = item.data.cover_image_alt or item.data.title %}
       {% endif %}
-      <article class="bk-hero-slide{% if loop.first %} is-active{% elif loop.index0 == 1 %} is-next{% elif loop.last %} is-prev{% endif %}{% if slideFit == 'smart' %} is-smart{% endif %}" data-hero-slide data-index="{{ loop.index0 }}" aria-hidden="{{ 'false' if loop.first else 'true' }}">
-        {% if slideFit == 'smart' %}<img class="bk-hero-bg" src="{{ slideImage }}" alt="" aria-hidden="true" width="1920" height="1080" loading="lazy" decoding="async">{% endif %}
-        <img class="bk-hero-photo" src="{{ slideImage }}" alt="{{ item.data.image_alt or item.data.heading or item.data.title }}" width="1920" height="1080"{% if useCustom and slideFit == 'cover' %} style="object-position: {{ item.data.focus or 'top' }}"{% endif %} {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
+      {% set slidePic = heroImages | heroPicture(slideImage) %}
+      <article class="bk-hero-slide{% if loop.first %} is-active{% elif loop.index0 == 1 %} is-next{% elif loop.last %} is-prev{% endif %}" data-hero-slide data-index="{{ loop.index0 }}" aria-hidden="{{ 'false' if loop.first else 'true' }}">
+        {% if slidePic %}
+        <picture>
+          <source media="(max-width: 767px)" sizes="100vw" srcset="{{ slidePic.tall }}">
+          <source media="(max-width: 1279px)" sizes="100vw" srcset="{{ slidePic.mid }}">
+          <source sizes="100vw" srcset="{{ slidePic.wide }}">
+          <img class="bk-hero-photo" src="{{ slidePic.fallback }}" alt="{{ slideAlt }}" width="{{ slidePic.w }}" height="{{ slidePic.h }}" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
+        </picture>
+        {% else %}
+        <img class="bk-hero-photo" src="{{ slideImage }}" alt="{{ slideAlt }}" width="1920" height="1080" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
+        {% endif %}
         <div class="bk-hero-shade"></div>
         <div class="bk-hero-copy">
           {% if useCustom %}

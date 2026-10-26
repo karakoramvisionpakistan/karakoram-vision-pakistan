@@ -41,6 +41,22 @@ export default function(eleventyConfig) {
     if (typeof raw === "boolean") return { enabled: raw, image: "", image_alt: "" };
     return { enabled: raw.enabled !== false, image: raw.image || "", image_alt: raw.image_alt || "" };
   });
+  // Banner ki photo ke liye har shakal ka srcset. tools/hero-crops.mjs ne jo
+  // katai banai hai, yeh us ki fehrist (src/_data/heroImages.json) mein se us
+  // photo ka hissa nikal kar deta hai. Kuch na mile to null - template phir
+  // asli photo laga deta hai, to kuch toota nahi.
+  eleventyConfig.addFilter("heroPicture", (images, imagePath) => {
+    const entry = (images || {})[String(imagePath || "").trim()];
+    if (!entry) return null;
+    const line = (list) => (list || []).map(v => `${v.src} ${v.w}w`).join(", ");
+    const wide = entry.wide || [];
+    const big = wide[wide.length - 1];
+    if (!big) return null;
+    return {
+      wide: line(entry.wide), mid: line(entry.mid), tall: line(entry.tall),
+      fallback: big.src, w: big.w, h: big.h,
+    };
+  });
   eleventyConfig.addFilter("json", v => JSON.stringify(v));
   eleventyConfig.addFilter("limit", (arr,n) => (arr || []).slice(0,n));
   eleventyConfig.addFilter("year", () => new Date().getFullYear());

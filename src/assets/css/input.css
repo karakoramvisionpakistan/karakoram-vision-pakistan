@@ -117,6 +117,9 @@
 .bk-hero-compact { min-height: clamp(560px, 50vw, 820px); }
 .bk-hero-stage { position: absolute; inset: 0; perspective: 1800px; transform-style: preserve-3d; }
 .bk-hero-slide { position: absolute; inset: 0; opacity: 0; visibility: hidden; transform: translate3d(0,0,-360px) scale(.86); transition: transform .8s cubic-bezier(.2,.75,.2,1), opacity .65s ease, visibility .65s; pointer-events: none; }
+/* <picture> khud koi jagah nahi gherta, is liye usey banner jitna kar dete
+   hain - warna andar ki photo ko naap hi nahi milta. */
+.bk-hero-slide picture { position: absolute; inset: 0; display: block; }
 .bk-hero-slide img { width: 100%; height: 100%; object-fit: cover; object-position: center; background: transparent; }
 /* Dhundhli copy ki ab zaroorat nahi - photo khud poori jagah bhar deti hai. */
 .bk-hero-bg { display: none; }
