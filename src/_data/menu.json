@@ -10,99 +10,6 @@
     {
       "enabled": true,
       "target_blank": false,
-      "label": "About",
-      "url": "/about-us/",
-      "children": [
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "About Karakoram Vision Pakistan",
-          "url": "/about-us/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Social Responsibility",
-          "url": "/social-responsibility/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Vehicles",
-          "url": "/vehicles/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "FAQs",
-          "url": "/faqs/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Privacy Policy",
-          "url": "/privacy-policy/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Refund Policy",
-          "url": "/refund-policy/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Terms & Conditions",
-          "url": "/terms-and-conditions/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Travel Resources",
-          "url": "/travel-resources/",
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Trip Preparedness",
-              "url": "/travel-resources/"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Gear & Packing",
-              "url": "/search/?type=blog&q=packing"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Travel Insurance",
-              "url": "/search/?type=blog&q=insurance"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Health & Altitude",
-              "url": "/search/?type=blog&q=altitude"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "FAQs",
-              "url": "/faqs/"
-            }
-          ]
-        },
-        {
-          "label": "Equipment Check list",
-          "url": "/equipment-checklist/",
-          "enabled": true
-        }
-      ]
-    },
-    {
-      "enabled": true,
-      "target_blank": false,
       "label": "Holiday Types",
       "url": "/holiday-types/",
       "children": [
@@ -171,6 +78,75 @@
           "target_blank": false,
           "label": "Weekend Retreats",
           "url": "/search/?type=tours&q=weekend"
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "About",
+      "url": "/about-us/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "About Karakoram Vision Pakistan",
+          "url": "/about-us/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "FAQs",
+          "url": "/faqs/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Terms & Conditions",
+          "url": "/terms-and-conditions/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Travel Resources",
+          "url": "/travel-resources/",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Trip Preparedness",
+              "url": "/travel-resources/"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Gear & Packing",
+              "url": "/search/?type=blog&q=packing"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Travel Insurance",
+              "url": "/search/?type=blog&q=insurance"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Health & Altitude",
+              "url": "/search/?type=blog&q=altitude"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "FAQs",
+              "url": "/faqs/"
+            }
+          ]
+        },
+        {
+          "label": "Equipment Check list",
+          "url": "/equipment-checklist/",
+          "enabled": true
         }
       ]
     },
@@ -1123,6 +1099,64 @@
           "url": "/news/"
         }
       ]
+    }
+  ],
+  "trash": [
+    {
+      "id": 4,
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Refund Policy",
+        "url": "/refund-policy/"
+      },
+      "parentPath": [
+        2
+      ],
+      "index": 2,
+      "label": "Refund Policy"
+    },
+    {
+      "id": 3,
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Privacy Policy",
+        "url": "/privacy-policy/"
+      },
+      "parentPath": [
+        2
+      ],
+      "index": 2,
+      "label": "Privacy Policy"
+    },
+    {
+      "id": 2,
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Vehicles",
+        "url": "/vehicles/"
+      },
+      "parentPath": [
+        2
+      ],
+      "index": 1,
+      "label": "Vehicles"
+    },
+    {
+      "id": 1,
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Social Responsibility",
+        "url": "/social-responsibility/"
+      },
+      "parentPath": [
+        2
+      ],
+      "index": 1,
+      "label": "Social Responsibility"
     }
   ]
 }
