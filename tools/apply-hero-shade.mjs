@@ -1,31 +1,32 @@
-// Banner par likhai ka parda bohot halka karta hai, aur likhai ki hifazat
-// parde ke bajaye harfon ke saye se karta hai.
+// Banner ka parda poori photo se utha kar har line ke peechay chhote chaukor
+// mein badal deta hai.
 //
-// Banner ki photo pehla tassur hai - us par chadar nahi parni chahiye. Lekin
-// likhai safed hai, aur roshan barf par safed likhai parhi nahi jati. Ab tak
-// is ka hal yeh tha ke poori photo par gehra parda daal do:
+// Ab tak photo par ek chadar pari rehti thi - poori chaurai par, kinare se
+// kinare tak (bayein 96%, dayein 55%, neechay 82%). Photo hi pehla tassur hai,
+// aur us par chadar nahi parni chahiye.
 //
-//   bayein taraf   96%     beech mein  72%
-//   dayein kinare  55%     neechay se  82%
+// Parda bilkul hatana bhi theek nahi: aap ki photos pahar aur BARF ki hain,
+// aur safed barf par safed likhai parhi hi nahi jati.
 //
-// Behtar tareeqa yeh hai jo bari websites istemal karti hain: parda bohot
-// halka rakho, aur har harf ke peechay ek narm saya daal do. Saya sirf harfon
-// ke kinare par parta hai - photo par nahi. Is tarah pahar saaf nazar aata hai
-// aur likhai phir bhi parhi jati hai, chahe us ke neechay barf ho.
+// Hal: parda sirf wahin jahan harf hain. Har line ka apna chhota chaukor, aur
+// jahan likhai khatam hoti hai wahan chaukor bhi khatam. Us ke neechay, oopar
+// aur dayein - photo bilkul saaf.
 //
-//   bayein taraf   58%     beech mein  26%
-//   dayein kinare   0%     neechay se  42%
-//   + har harf ke peechay saya
+// YEH CSS AKELE NAHI HO SAKTA: har line ko apna chaukor dene ke liye likhai ko
+// ek <span> mein lapetna parta hai. Is liye landing-hero.njk ka naya version
+// bhi copy karna zaroori hai, warna chaukor nazar nahi aayenge.
+//
+// PEHLE: src/_includes/components/landing-hero.njk copy karein.
 //
 //   node tools/apply-hero-shade.mjs           -> sirf dikhata hai
 //   node tools/apply-hero-shade.mjs --write   -> files badal deta hai
-// Dobara chalane par kuch kharab nahi hota. Agar is script ka pehla version
-// chal chuka ho to us ka kaam khud saaf kar deti hai.
+// Dobara chalane par kuch kharab nahi hota. Is script ke purane version chal
+// chuke hon to un ka kaam khud saaf kar deti hai.
 import fs from 'node:fs';
 
 const WRITE = process.argv.includes('--write');
-const CSS_VER = '11.10.0';
-const MARK = '/* parda v3: bohot halka, likhai ki hifazat saye se */';
+const CSS_VER = '11.12.0';
+const MARK = '/* parda v5: har line ka apna chaukor */';
 let changed = 0, skipped = 0, problems = 0;
 
 function patch(file, label, fn) {
@@ -42,59 +43,75 @@ function patch(file, label, fn) {
 
 const nlOf = (s) => (s.includes('\r\n') ? '\r\n' : '\n');
 
-patch('src/assets/css/input.css', 'Banner ka parda bohot halka + harfon ka saya', (t) => {
+// ---------------------------------------------- 0. template naya hai ya nahi
+const njk = 'src/_includes/components/landing-hero.njk';
+if (!fs.existsSync(njk)) {
+  console.log(`MISSING FILE  ${njk}`);
+  process.exit(1);
+}
+if (!fs.readFileSync(njk, 'utf8').includes('bk-hero-mark')) {
+  console.log('!! landing-hero.njk ka naya version copy nahi hua.');
+  console.log('   Us ke baghair chaukor nazar nahi aayenge - pehle woh file copy karein.');
+  console.log('\n0 tabdeeliyan, 0 pehle se theek, 1 problem.');
+  process.exit(1);
+}
+console.log('   theek: landing-hero.njk ka naya version mojood hai');
+
+patch('src/assets/css/input.css', 'Parda hataya, har line ko apna chaukor', (t) => {
   if (t.includes(MARK)) return null;
 
   const nl = nlOf(t);
   let out = t;
 
-  // Is script ke purane version ka kaam saaf karo, warna do parde lag jayenge.
+  // Purane version ka kaam saaf karo, warna do parde lag jayenge.
   out = out
-    .replace(/\/\* parda(?: v2)?: [^\n]*\*\/\r?\n/g, '')
+    .replace(/\/\* parda(?: v\d)?: [^\n]*\*\/\r?\n/g, '')
     .replace(/\/\* Safed likhai ke liye photo par parda[\s\S]*?\*\/\r?\n/, '')
-    .replace(/\/\* Likhai bayein taraf hai, to parda[\s\S]*?\*\/\r?\n/, '')
-    .replace(/@media \(max-width: 767px\) \{\r?\n\s*\/\* Chhoti screen par likhai[\s\S]*?\}\r?\n\}\r?\n/, '')
-    .replace(/\/\* Parda bohot halka hai[\s\S]*?\*\/\r?\n\.bk-hero-copy \{ text-shadow[\s\S]*?\}\r?\n\.bk-hero-copy h1[^\n]*\r?\n/, '');
+    .replace(/\/\* Likhai bayein taraf hai[\s\S]*?\*\/\r?\n/, '')
+    .replace(/\/\* Parda (?:bohot halka hai|ab poori chaurai)[\s\S]*?\*\/\r?\n/, '')
+    .replace(/\/\* Daira halka hai[\s\S]*?\*\/\r?\n/, '')
+    .replace(/^\.bk-hero-copy \{ text-shadow:[^\n]*\r?\n/m, '')
+    .replace(/^\.bk-hero-copy h1, \.bk-hero-copy h2 \{ text-shadow:[^\n]*\r?\n/m, '')
+    .replace(/^\.bk-hero-actions a \{ text-shadow: none; \}\r?\n/m, '')
+    .replace(/@media \(max-width: 767px\) \{\r?\n\s*\/\* Chhoti screen par likhai[\s\S]*?\}\r?\n\}\r?\n/, '');
 
-  // 1. Bayein se aane wali tehh (::after wala rule chhor kar)
+  // 1. Poora parda khatam
   const mainRule = /\.bk-hero-shade(?!::)\s*\{[^}]*\}/;
   if (!mainRule.test(out)) throw new Error('input.css mein .bk-hero-shade ka rule nahi mila');
   out = out.replace(mainRule, [
     MARK,
-    '/* Likhai bayein taraf hai, to thora sa parda wahin se aata hai aur beech',
-    '   tak khatam ho jata hai. Dayein taraf bilkul kuch nahi - pehle wahan bhi',
-    '   55% ki chadar pari rehti thi, halanke wahan koi likhai hai hi nahi.',
-    '   pointer-events: none is liye ke parda button ke raaste mein na aaye. */',
-    '.bk-hero-shade { position: absolute; inset: 0; pointer-events: none;',
-    '  background: linear-gradient(90deg, rgba(2,6,23,.58) 0%, rgba(2,6,23,.26) 34%,',
-    '    rgba(2,6,23,0) 62%); }',
+    '/* Photo par ab koi chadar nahi. Likhai ki hifazat neechay bk-hero-mark',
+    '   karta hai - har line ka apna chhota chaukor. */',
+    '.bk-hero-shade { position: absolute; inset: 0; pointer-events: none; background: none; }',
   ].join(nl));
 
-  // 2. Neechay wali tehh + chhoti screen ka hukum (yeh base ke BAAD aana zaroori
-  //    hai - CSS mein jo baad mein likha ho wohi chalta hai)
+  // 2. Neechay ki tehh bhi takreeban khatam - sirf itni ke slider ke dots aur
+  //    kinare ka button photo mein gum na ho jayein.
   const afterRule = /\.bk-hero-shade::after\s*\{[^}]*\}/;
   if (!afterRule.test(out)) throw new Error('input.css mein .bk-hero-shade::after ka rule nahi mila');
   out = out.replace(afterRule, [
-    '.bk-hero-shade::after { content: ""; position: absolute; inset: auto 0 0; height: 44%;',
-    '  background: linear-gradient(0deg, rgba(2,6,23,.42), transparent); }',
-    '',
-    '/* Parda bohot halka hai, is liye likhai apni hifazat khud karti hai: har',
-    '   harf ke peechay ek narm saya. Saya sirf harfon par parta hai, photo par',
-    '   nahi - is liye pahar saaf rehta hai. Button safed hai, us par saye ki',
-    '   zaroorat nahi. */',
-    '.bk-hero-copy { text-shadow: 0 1px 2px rgba(2,6,23,.5), 0 4px 18px rgba(2,6,23,.6); }',
-    '.bk-hero-copy h1, .bk-hero-copy h2 { text-shadow: 0 2px 4px rgba(2,6,23,.55), 0 8px 32px rgba(2,6,23,.65); }',
-    '.bk-hero-actions a { text-shadow: none; }',
-    '',
-    '@media (max-width: 767px) {',
-    '  /* Chhoti screen par likhai photo ke beech mein aati hai - to bojh neechay',
-    '     se, bayein se bilkul kam. */',
-    '  .bk-hero-shade { background: linear-gradient(90deg, rgba(2,6,23,.34) 0%,',
-    '    rgba(2,6,23,.12) 45%, rgba(2,6,23,0) 100%); }',
-    '  .bk-hero-shade::after { height: 60%; background: linear-gradient(0deg,',
-    '    rgba(2,6,23,.70), rgba(2,6,23,.20) 48%, transparent); }',
-    '}',
+    '.bk-hero-shade::after { content: ""; position: absolute; inset: auto 0 0; height: 22%;',
+    '  background: linear-gradient(0deg, rgba(2,6,23,.20), transparent); }',
   ].join(nl));
+
+  // 3. Chaukor khud. Yeh file ke AAKHIR mein jaate hain, kyunke in mein h1 ki
+  //    line-height badalni hai aur CSS mein jo baad mein likha ho wohi chalta hai.
+  out = `${out.replace(/\s+$/, '')}${nl}${nl}${[
+    MARK,
+    '/* Har line ke peechay apna chhota chaukor. box-decoration-break: clone woh',
+    '   cheez hai jo har line ko alag chaukor deti hai - us ke baghair poori',
+    '   likhai ka ek hi lamba dabba ban jata. Likhai jahan khatam, chaukor bhi',
+    '   wahin khatam: neechay aur dayein photo bilkul saaf rehti hai.',
+    '   Rang halka rakha hai (55%) - gehri photo par yeh nazar hi nahi aata,',
+    '   aur barf wali photo par itna hai ke likhai parhi ja sake. */',
+    '.bk-hero-mark { display: inline; background: rgba(2,6,23,.55);',
+    '  -webkit-box-decoration-break: clone; box-decoration-break: clone;',
+    '  padding: .06em .22em; border-radius: .12em; }',
+    '.bk-hero-eyebrow .bk-hero-mark { padding: .25em .45em; }',
+    '.bk-hero-summary .bk-hero-mark, .bk-hero-feature-title .bk-hero-mark { padding: .12em .3em; }',
+    '/* Lines ke darmiyan thori jagah, warna chaukor ek doosre par charh jate hain. */',
+    '.bk-hero-copy h1, .bk-hero-copy h2 { line-height: 1.08; }',
+  ].join(nl)}${nl}`;
 
   return out;
 });
@@ -114,3 +131,4 @@ patch('src/_headers', `_headers mein site.css ka version ${CSS_VER}`, (t) => {
 
 console.log(`\n${changed} ${WRITE ? 'tabdeeliyan ho gayin' : 'tabdeeliyan hongi'}, ${skipped} pehle se theek, ${problems} problem.`);
 if (!WRITE && changed) console.log('Abhi kuch change nahi hua. Apply karne ke liye --write ke saath chalayein.');
+if (WRITE && changed) console.log('\nChaukor zyada gehra ya halka karna ho to input.css mein ".bk-hero-mark" dhoond kar\n0.55 ko badal dein - 0.45 halka, 0.65 gehra.');

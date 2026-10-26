@@ -16,7 +16,12 @@
    ke mutabiq sahi wali uthata hai. Na kuch khinchta hai, na koi khali patti
    banti hai, aur mobile par chhoti file utarti hai to page tez khulta hai.
    Katai tools/hero-crops.mjs banata hai; fehrist src/_data/heroImages.json
-   mein hoti hai. Kisi photo ki katai na bani ho to asli photo chal jati hai. #}
+   mein hoti hai. Kisi photo ki katai na bani ho to asli photo chal jati hai.
+
+   LIKHAI: har line ke peechay apna chhota chaukor hota hai (bk-hero-mark).
+   Isi liye har likhai ek <span> ke andar lipti hui hai - CSS us span par
+   background lagata hai, aur box-decoration-break har line ko alag chaukor
+   deta hai. Photo par koi chadar nahi parti. #}
 {% set heroPageKey = page.url | heroKey %}
 {% set heroCfg = heroSettings | heroConfig(heroPageKey) %}
 
@@ -41,9 +46,9 @@
         {% endif %}
         <div class="bk-hero-shade"></div>
         <div class="bk-hero-copy">
-          <p class="bk-hero-eyebrow">{{ heroEyebrow or site.tagline or site.name }}</p>
-          <h1>{{ heroHeading or title }}</h1>
-          {% if heroSummary or summary %}<p class="bk-hero-summary">{{ heroSummary or summary }}</p>{% endif %}
+          <p class="bk-hero-eyebrow"><span class="bk-hero-mark">{{ heroEyebrow or site.tagline or site.name }}</span></p>
+          <h1><span class="bk-hero-mark">{{ heroHeading or title }}</span></h1>
+          {% if heroSummary or summary %}<p class="bk-hero-summary"><span class="bk-hero-mark">{{ heroSummary or summary }}</span></p>{% endif %}
         </div>
       </article>
     </div>
@@ -95,18 +100,18 @@
         <div class="bk-hero-shade"></div>
         <div class="bk-hero-copy">
           {% if useCustom %}
-            <p class="bk-hero-eyebrow">{{ item.data.eyebrow or heroEyebrow or site.tagline or site.name }}</p>
-            {% if loop.first %}<h1>{{ slideHeading }}</h1>{% else %}<h2>{{ slideHeading }}</h2>{% endif %}
-            {% if item.data.text %}<p class="bk-hero-summary">{{ item.data.text }}</p>{% endif %}
+            <p class="bk-hero-eyebrow"><span class="bk-hero-mark">{{ item.data.eyebrow or heroEyebrow or site.tagline or site.name }}</span></p>
+            {% if loop.first %}<h1><span class="bk-hero-mark">{{ slideHeading }}</span></h1>{% else %}<h2><span class="bk-hero-mark">{{ slideHeading }}</span></h2>{% endif %}
+            {% if item.data.text %}<p class="bk-hero-summary"><span class="bk-hero-mark">{{ item.data.text }}</span></p>{% endif %}
             <div class="bk-hero-actions">
               {% if item.data.button_url %}<a class="bk-hero-primary" href="{{ item.data.button_url }}">{{ item.data.button_label or 'View details' }}</a>{% endif %}
               <a class="bk-hero-secondary" href="/plan-a-trip/#trip-request-form">Plan a trip</a>
             </div>
           {% else %}
-            <p class="bk-hero-eyebrow">{{ heroEyebrow or item.data.service_label or 'Karakoram Vision Pakistan' }}</p>
-            {% if loop.first %}<h1>{{ slideHeading }}</h1>{% else %}<h2>{{ slideHeading }}</h2>{% endif %}
-            <p class="bk-hero-feature-title">{{ item.data.title }}</p>
-            <p class="bk-hero-summary">{{ heroSummary or summary or item.data.summary }}</p>
+            <p class="bk-hero-eyebrow"><span class="bk-hero-mark">{{ heroEyebrow or item.data.service_label or 'Karakoram Vision Pakistan' }}</span></p>
+            {% if loop.first %}<h1><span class="bk-hero-mark">{{ slideHeading }}</span></h1>{% else %}<h2><span class="bk-hero-mark">{{ slideHeading }}</span></h2>{% endif %}
+            <p class="bk-hero-feature-title"><span class="bk-hero-mark">{{ item.data.title }}</span></p>
+            <p class="bk-hero-summary"><span class="bk-hero-mark">{{ heroSummary or summary or item.data.summary }}</span></p>
             <div class="bk-hero-actions">
               <a class="bk-hero-primary" href="{{ item.url }}">View details</a>
               <a class="bk-hero-secondary" href="/plan-a-trip/?journey={{ item.data.title | urlencode }}&service={{ item.data.service_type | urlencode }}#trip-request-form">Book now</a>
@@ -118,7 +123,7 @@
       <article class="bk-hero-slide is-active" data-hero-slide data-index="0" aria-hidden="false">
         <img class="bk-hero-photo" src="/assets/uploads/placeholder.svg" alt="Karakoram Vision Pakistan mountain journey" width="1920" height="1080" fetchpriority="high" decoding="async">
         <div class="bk-hero-shade"></div>
-        <div class="bk-hero-copy"><p class="bk-hero-eyebrow">Karakoram Vision Pakistan</p><h1>{{ heroHeading or title }}</h1><p class="bk-hero-summary">{{ heroSummary or summary }}</p><div class="bk-hero-actions"><a class="bk-hero-primary" href="/plan-a-trip/#trip-request-form">Plan a trip</a></div></div>
+        <div class="bk-hero-copy"><p class="bk-hero-eyebrow"><span class="bk-hero-mark">Karakoram Vision Pakistan</span></p><h1><span class="bk-hero-mark">{{ heroHeading or title }}</span></h1><p class="bk-hero-summary"><span class="bk-hero-mark">{{ heroSummary or summary }}</span></p><div class="bk-hero-actions"><a class="bk-hero-primary" href="/plan-a-trip/#trip-request-form">Plan a trip</a></div></div>
       </article>
     {% endfor %}
   </div>
