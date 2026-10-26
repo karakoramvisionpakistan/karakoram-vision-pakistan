@@ -14,7 +14,7 @@ summary: >-
 answer_summary: >-
   A Gasherbrum II expedition programme covering permits, Baltoro access, base camp and staged
   high-altitude support.
-cover_image: /assets/uploads/1792831409941-G2-kvp.webp
+cover_image: /assets/uploads/1792831335601-g2--3---Copy-.webp
 cover_image_alt: "Gasherbrum II snow slopes seen from the upper Baltoro"
 gallery:
   - ""
