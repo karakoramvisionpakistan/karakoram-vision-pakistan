@@ -288,7 +288,7 @@ content:
     type: string
     list: true
   - name: _h_extras_route_map_trip_leader
-    label: "Extras — route map & trip leader"
+    label: "Extras â€” route map & trip leader"
     type: heading
     collapsed: true
   - name: route_map_url
@@ -327,7 +327,7 @@ content:
       type: rich-text
       required: true
   - name: _h_filled_in_automatically_open
-    label: "Filled in automatically — open only to change something"
+    label: "Filled in automatically â€” open only to change something"
     type: heading
     collapsed: true
   - name: slug
@@ -657,7 +657,7 @@ content:
     type: string
     list: true
   - name: _h_extras_route_map_trip_leader
-    label: "Extras — route map & trip leader"
+    label: "Extras â€” route map & trip leader"
     type: heading
     collapsed: true
   - name: route_map_url
@@ -696,7 +696,7 @@ content:
       type: rich-text
       required: true
   - name: _h_filled_in_automatically_open
-    label: "Filled in automatically — open only to change something"
+    label: "Filled in automatically â€” open only to change something"
     type: heading
     collapsed: true
   - name: slug
@@ -1026,7 +1026,7 @@ content:
     type: string
     list: true
   - name: _h_extras_route_map_trip_leader
-    label: "Extras — route map & trip leader"
+    label: "Extras â€” route map & trip leader"
     type: heading
     collapsed: true
   - name: route_map_url
@@ -1065,7 +1065,7 @@ content:
       type: rich-text
       required: true
   - name: _h_filled_in_automatically_open
-    label: "Filled in automatically — open only to change something"
+    label: "Filled in automatically â€” open only to change something"
     type: heading
     collapsed: true
   - name: slug
@@ -1395,7 +1395,7 @@ content:
     type: string
     list: true
   - name: _h_extras_route_map_trip_leader
-    label: "Extras — route map & trip leader"
+    label: "Extras â€” route map & trip leader"
     type: heading
     collapsed: true
   - name: route_map_url
@@ -1434,7 +1434,7 @@ content:
       type: rich-text
       required: true
   - name: _h_filled_in_automatically_open
-    label: "Filled in automatically — open only to change something"
+    label: "Filled in automatically â€” open only to change something"
     type: heading
     collapsed: true
   - name: slug
@@ -1764,7 +1764,7 @@ content:
     type: string
     list: true
   - name: _h_extras_route_map_trip_leader
-    label: "Extras — route map & trip leader"
+    label: "Extras â€” route map & trip leader"
     type: heading
     collapsed: true
   - name: route_map_url
@@ -1803,7 +1803,7 @@ content:
       type: rich-text
       required: true
   - name: _h_filled_in_automatically_open
-    label: "Filled in automatically — open only to change something"
+    label: "Filled in automatically â€” open only to change something"
     type: heading
     collapsed: true
   - name: slug
@@ -2025,7 +2025,7 @@ content:
       type: rich-text
       required: true
   - name: _h_filled_in_automatically_open
-    label: "Filled in automatically — open only to change something"
+    label: "Filled in automatically â€” open only to change something"
     type: heading
     collapsed: true
   - name: slug
@@ -2169,7 +2169,7 @@ content:
     type: string
     list: true
   - name: _h_filled_in_automatically_open
-    label: "Filled in automatically — open only to change something"
+    label: "Filled in automatically â€” open only to change something"
     type: heading
     collapsed: true
   - name: slug
@@ -2376,7 +2376,7 @@ content:
       type: rich-text
       required: true
   - name: _h_filled_in_automatically_open
-    label: "Filled in automatically — open only to change something"
+    label: "Filled in automatically â€” open only to change something"
     type: heading
     collapsed: true
   - name: slug
@@ -2425,7 +2425,7 @@ content:
     label: Page content
     type: rich-text
 - name: site
-  label: 01 — Business name & description
+  label: 01 â€” Business name & description
   type: file
   path: src/_data/site.json
   operations:
@@ -2450,7 +2450,7 @@ content:
     type: string
 
 - name: site_logos
-  label: 02 — Logos & favicon
+  label: 02 â€” Logos & favicon
   type: file
   path: src/_data/site.json
   operations:
@@ -2474,7 +2474,7 @@ content:
     type: image
 
 - name: site_contact
-  label: 03 — Phone, email & address
+  label: 03 â€” Phone, email & address
   type: file
   path: src/_data/site.json
   operations:
@@ -2498,7 +2498,7 @@ content:
     type: text
 
 - name: site_channels
-  label: 04 — WhatsApp & chat channels
+  label: 04 â€” WhatsApp & chat channels
   type: file
   path: src/_data/site.json
   operations:
@@ -2562,7 +2562,7 @@ content:
       label: Widget ID
       type: string
   - name: contact_extra
-    label: More chat channels — add as many as you like
+    label: More chat channels â€” add as many as you like
     type: object
     list: true
     description: "Jo app oopar ki list mein nahi hai, usey yahan add karein. Hatane ke liye us row ka X dabayein."
@@ -2605,7 +2605,7 @@ content:
       description: "Link ke bajaye ID/number - visitor click kar ke copy kar lega."
 
 - name: site_social
-  label: 05 — Social media links
+  label: 05 â€” Social media links
   type: file
   path: src/_data/site.json
   operations:
@@ -2650,7 +2650,7 @@ content:
       label: Bluesky URL
       type: string
   - name: social_extra
-    label: More social accounts — add as many as you like
+    label: More social accounts â€” add as many as you like
     type: object
     list: true
     description: "Jo platform oopar ki list mein nahi hai, usey yahan add karein. Hatane ke liye us row ka X dabayein."
@@ -2682,7 +2682,7 @@ content:
       description: "Poora link, https:// ke saath."
 
 - name: site_ratings
-  label: 06 — Review & rating links
+  label: 06 â€” Review & rating links
   type: file
   path: src/_data/site.json
   operations:
@@ -2707,7 +2707,7 @@ content:
       type: string
 
 - name: site_business
-  label: 07 — Business details & map location
+  label: 07 â€” Business details & map location
   type: file
   path: src/_data/site.json
   operations:
@@ -2760,7 +2760,7 @@ content:
       list: true
 
 - name: site_verification
-  label: 08 — Google/Bing verification & sharing
+  label: 08 â€” Google/Bing verification & sharing
   type: file
   path: src/_data/site.json
   operations:
@@ -2798,7 +2798,7 @@ content:
       type: string
 
 - name: site_faqs
-  label: 09 — Homepage questions & answers
+  label: 09 â€” Homepage questions & answers
   type: file
   path: src/_data/site.json
   operations:
@@ -2820,7 +2820,7 @@ content:
       required: true
 
 - name: site_team
-  label: 10 — Team members
+  label: 10 â€” Team members
   type: file
   path: src/_data/site.json
   operations:
@@ -2849,7 +2849,7 @@ content:
       type: string
 
 - name: site_advanced
-  label: 11 — Advanced (leave alone unless asked)
+  label: 11 â€” Advanced (leave alone unless asked)
   type: file
   path: src/_data/site.json
   operations:
@@ -2908,7 +2908,7 @@ content:
       type: text
 
 - name: site_header
-  label: 12 — Header & top bar
+  label: 12 â€” Header & top bar
   type: file
   path: src/_data/siteHeader.json
   operations:
@@ -3023,7 +3023,7 @@ content:
       label: Mobile menu button label
       type: string
 - name: navigation
-  label: 13 — Menus (what shows in the navbar)
+  label: 13 â€” Menus (what shows in the navbar)
   type: file
   path: src/_data/menu.json
   operations:
@@ -3112,7 +3112,7 @@ content:
           type: boolean
           default: false
 - name: site_footer
-  label: 14 — Footer & newsletter
+  label: 14 â€” Footer & newsletter
   type: file
   path: src/_data/siteFooter.json
   operations:
@@ -3271,7 +3271,7 @@ content:
         type: boolean
         default: true
 - name: homepage
-  label: 15 — Homepage sections & their order
+  label: 15 â€” Homepage sections & their order
   type: file
   path: src/_data/homePage.json
   operations:
@@ -3659,7 +3659,7 @@ content:
       label: Button URL
       type: string
 - name: theme
-  label: 16 — Colours, corners & spacing
+  label: 16 â€” Colours, corners & spacing
   type: file
   path: src/_data/theme.json
   operations:
@@ -3741,7 +3741,7 @@ content:
       min: 900
       max: 1800
 - name: forms
-  label: 17 — Enquiry forms & their boxes
+  label: 17 â€” Enquiry forms & their boxes
   type: file
   path: src/_data/formsConfig.json
   operations:
@@ -4010,7 +4010,7 @@ content:
       label: Endpoint help message
       type: text
 - name: taxonomies
-  label: 18 — Categories, statuses & dropdown lists
+  label: 18 â€” Categories, statuses & dropdown lists
   type: file
   path: src/_data/taxonomies.json
   operations:
@@ -4044,7 +4044,7 @@ content:
 
 
 - name: content_defaults
-  label: 19 — Default packing list & inclusions
+  label: 19 â€” Default packing list & inclusions
   type: file
   path: src/_data/contentDefaults.json
   operations:
@@ -4171,7 +4171,7 @@ content:
         list: true
 
 - name: hero_banners
-  label: 20 — Big banner for each page (on/off, or one photo)
+  label: 20 â€” Big banner for each page (on/off, or one photo)
   type: file
   path: src/_data/heroSettings.json
   operations:
@@ -4468,7 +4468,7 @@ content:
       description: "Photo mein kya nazar aa raha hai, ek chhoti line."
 
 - name: page_control
-  label: 21 — Pages: show or hide
+  label: "21 - Pages: show or hide"
   type: file
   path: src/_data/pageControl.json
   operations:
