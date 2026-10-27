@@ -2570,13 +2570,16 @@ content:
         label: Page content
         type: rich-text
   - name: site
-    label: 01 — Business name & description
+    label: Business details
     type: file
     path: src/_data/site.json
     operations:
       delete: false
       rename: false
     fields:
+      - name: _h_merged_site
+        label: Business name & description
+        type: heading
       - name: name
         label: Business/website name
         type: string
@@ -2593,14 +2596,10 @@ content:
       - name: language
         label: Default language code
         type: string
-  - name: site_logos
-    label: 02 — Logos & favicon
-    type: file
-    path: src/_data/site.json
-    operations:
-      delete: false
-      rename: false
-    fields:
+      - name: _h_merged_site_logos
+        label: Logos & favicon
+        type: heading
+        collapsed: true
       - name: logo
         label: Main logo
         type: image
@@ -2616,14 +2615,10 @@ content:
       - name: favicon
         label: Favicon
         type: image
-  - name: site_contact
-    label: 03 — Phone, email & address
-    type: file
-    path: src/_data/site.json
-    operations:
-      delete: false
-      rename: false
-    fields:
+      - name: _h_merged_site_contact
+        label: Phone, email & address
+        type: heading
+        collapsed: true
       - name: phone
         label: Phone
         type: string
@@ -2639,14 +2634,89 @@ content:
       - name: address
         label: Primary office address
         type: text
+      - name: _h_merged_site_business
+        label: Business details & map location
+        type: heading
+        collapsed: true
+      - name: business
+        label: Business/legal details
+        type: object
+        fields:
+          - name: legal_name
+            label: Legal name
+            type: string
+          - name: founded_year
+            label: Founded year
+            type: string
+          - name: license_number
+            label: Tourism/license number
+            type: string
+          - name: price_currency
+            label: Default currency
+            type: select
+            options:
+              - USD
+              - PKR
+              - EUR
+              - GBP
+      - name: geo
+        label: Geographic details
+        type: object
+        fields:
+          - name: country_code
+            label: Country code
+            type: string
+          - name: country
+            label: Country
+            type: string
+          - name: city
+            label: City
+            type: string
+          - name: latitude
+            label: Latitude
+            type: string
+          - name: longitude
+            label: Longitude
+            type: string
+          - name: service_areas
+            label: Service areas
+            type: string
+            list: true
+      - name: _h_merged_site_team
+        label: Team members
+        type: heading
+        collapsed: true
+      - name: team
+        label: Team members
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: role
+            label: Role
+            type: string
+          - name: photo
+            label: Photo
+            type: image
+          - name: bio
+            label: Bio
+            type: text
+          - name: email
+            label: Email
+            type: string
   - name: site_channels
-    label: 04 — WhatsApp & chat channels
+    label: Contact channels & social
     type: file
     path: src/_data/site.json
     operations:
       delete: false
       rename: false
     fields:
+      - name: _h_merged_site_channels
+        label: WhatsApp & chat channels
+        type: heading
       - name: contact
         label: International messaging applications
         type: object
@@ -2747,14 +2817,10 @@ content:
             label: Or an ID to copy
             type: string
             description: Link ke bajaye ID/number - visitor click kar ke copy kar lega.
-  - name: site_social
-    label: 05 — Social media links
-    type: file
-    path: src/_data/site.json
-    operations:
-      delete: false
-      rename: false
-    fields:
+      - name: _h_merged_site_social
+        label: Social media links
+        type: heading
+        collapsed: true
       - name: social
         label: Social accounts
         type: object
@@ -2825,14 +2891,10 @@ content:
             label: Link
             type: string
             description: Poora link, https:// ke saath.
-  - name: site_ratings
-    label: 06 — Review & rating links
-    type: file
-    path: src/_data/site.json
-    operations:
-      delete: false
-      rename: false
-    fields:
+      - name: _h_merged_site_ratings
+        label: Review & rating links
+        type: heading
+        collapsed: true
       - name: ratings
         label: Review profiles
         type: object
@@ -2849,66 +2911,38 @@ content:
           - name: tripadvisor_url
             label: Tripadvisor reviews URL
             type: string
-  - name: site_business
-    label: 07 — Business details & map location
+  - name: site_faqs
+    label: Homepage questions & answers
     type: file
     path: src/_data/site.json
     operations:
       delete: false
       rename: false
     fields:
-      - name: business
-        label: Business/legal details
+      - name: home_faqs
+        label: Global/home FAQs
         type: object
+        list: true
         fields:
-          - name: legal_name
-            label: Legal name
+          - name: question
+            label: Question
             type: string
-          - name: founded_year
-            label: Founded year
-            type: string
-          - name: license_number
-            label: Tourism/license number
-            type: string
-          - name: price_currency
-            label: Default currency
-            type: select
-            options:
-              - USD
-              - PKR
-              - EUR
-              - GBP
-      - name: geo
-        label: Geographic details
-        type: object
-        fields:
-          - name: country_code
-            label: Country code
-            type: string
-          - name: country
-            label: Country
-            type: string
-          - name: city
-            label: City
-            type: string
-          - name: latitude
-            label: Latitude
-            type: string
-          - name: longitude
-            label: Longitude
-            type: string
-          - name: service_areas
-            label: Service areas
-            type: string
-            list: true
-  - name: site_verification
-    label: 08 — Google/Bing verification & sharing
+            required: true
+          - name: answer
+            label: Answer
+            type: rich-text
+            required: true
+  - name: site_advanced
+    label: Advanced (leave alone unless asked)
     type: file
     path: src/_data/site.json
     operations:
       delete: false
       rename: false
     fields:
+      - name: _h_merged_site_verification
+        label: Google/Bing verification & sharing
+        type: heading
       - name: verification
         label: Search verification
         type: object
@@ -2938,63 +2972,10 @@ content:
           - name: default_reviewer
             label: Default reviewer
             type: string
-  - name: site_faqs
-    label: 09 — Homepage questions & answers
-    type: file
-    path: src/_data/site.json
-    operations:
-      delete: false
-      rename: false
-    fields:
-      - name: home_faqs
-        label: Global/home FAQs
-        type: object
-        list: true
-        fields:
-          - name: question
-            label: Question
-            type: string
-            required: true
-          - name: answer
-            label: Answer
-            type: rich-text
-            required: true
-  - name: site_team
-    label: 10 — Team members
-    type: file
-    path: src/_data/site.json
-    operations:
-      delete: false
-      rename: false
-    fields:
-      - name: team
-        label: Team members
-        type: object
-        list: true
-        fields:
-          - name: name
-            label: Name
-            type: string
-          - name: role
-            label: Role
-            type: string
-          - name: photo
-            label: Photo
-            type: image
-          - name: bio
-            label: Bio
-            type: text
-          - name: email
-            label: Email
-            type: string
-  - name: site_advanced
-    label: 11 — Advanced (leave alone unless asked)
-    type: file
-    path: src/_data/site.json
-    operations:
-      delete: false
-      rename: false
-    fields:
+      - name: _h_merged_site_advanced
+        label: Advanced (leave alone unless asked)
+        type: heading
+        collapsed: true
       - name: forms
         label: Form endpoints
         type: object
@@ -3046,7 +3027,7 @@ content:
             label: Content license statement
             type: text
   - name: site_header
-    label: 12 — Header & top bar
+    label: Header & top bar
     type: file
     path: src/_data/siteHeader.json
     operations:
@@ -3161,7 +3142,7 @@ content:
             label: Mobile menu button label
             type: string
   - name: navigation
-    label: 13 — Menus (what shows in the navbar)
+    label: Menus
     type: file
     path: src/_data/menu.json
     operations:
@@ -3250,7 +3231,7 @@ content:
                     type: boolean
                     default: false
   - name: site_footer
-    label: 14 — Footer & newsletter
+    label: Footer & newsletter
     type: file
     path: src/_data/siteFooter.json
     operations:
@@ -3409,7 +3390,7 @@ content:
                 type: boolean
                 default: true
   - name: homepage
-    label: 15 — Homepage sections & their order
+    label: Homepage sections
     type: file
     path: src/_data/homePage.json
     operations:
@@ -3799,7 +3780,7 @@ content:
             label: Button URL
             type: string
   - name: theme
-    label: 16 — Colours, corners & spacing
+    label: Colours, corners & spacing
     type: file
     path: src/_data/theme.json
     operations:
@@ -3881,7 +3862,7 @@ content:
           min: 900
           max: 1800
   - name: forms
-    label: 17 — Enquiry forms & their boxes
+    label: Enquiry forms
     type: file
     path: src/_data/formsConfig.json
     operations:
@@ -4150,7 +4131,7 @@ content:
             label: Endpoint help message
             type: text
   - name: taxonomies
-    label: 18 — Categories, statuses & dropdown lists
+    label: Categories & dropdown lists
     type: file
     path: src/_data/taxonomies.json
     operations:
@@ -4182,7 +4163,7 @@ content:
         type: string
         list: true
   - name: content_defaults
-    label: 19 — Default packing list & inclusions
+    label: Default packing list & inclusions
     type: file
     path: src/_data/contentDefaults.json
     operations:
@@ -4310,7 +4291,7 @@ content:
                 type: string
                 list: true
   - name: hero_banners
-    label: 20 — Big banner for each page (on/off, or one photo)
+    label: Page banners
     type: file
     path: src/_data/heroSettings.json
     operations:
@@ -4660,7 +4641,7 @@ content:
             type: string
             description: Photo mein kya nazar aa raha hai, ek chhoti line.
   - name: page_control
-    label: "21 - Pages: show or hide"
+    label: "Pages: show or hide"
     type: file
     path: src/_data/pageControl.json
     operations:
@@ -4721,7 +4702,7 @@ content:
   - name: landing
     label: Menu Pages
     type: collection
-    path: src/content/landing
+    path: content/landing
     filename:
       template: "{slug}.md"
       field: create

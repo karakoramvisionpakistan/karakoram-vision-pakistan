@@ -35,7 +35,11 @@ catch { console.log('js-yaml nahi mila. Pehle "npm install" chalayein.'); proces
 const must = (f) => { if (!fs.existsSync(f)) { console.log(`${f} nahi mili. Website wale folder mein chalayein.`); process.exit(1); } };
 must('.pages.yml'); must('eleventy.config.js'); must('src/_data/pageControl.json');
 
-const LANDING_DIR = 'src/content/landing';
+// Yeh files sirf mawad hain, page nahi. src/content/ ke andar rakhein to
+// build ke tools (autofill, normalize-permalinks) inhein asli page samajh
+// kar un mein slug aur permalink daal dete hain - aur permalink asli page
+// se takra sakta hai. Is liye src/ se bahar.
+const LANDING_DIR = 'content/landing';
 let made = 0, patched = 0, skipped = 0, problems = 0;
 const plan = [];           // { file, before, after }
 const files = new Map();   // naya banne wali files
@@ -197,7 +201,7 @@ files.set('src/_data/landing.js', `// Hub pages ka mawad - CMS ki likhi hui file
 import fs from "node:fs";
 import yaml from "js-yaml";
 
-const DIR = "src/content/landing";
+const DIR = "content/landing";
 
 export default function () {
   const out = {};
@@ -258,10 +262,6 @@ export default {
       problems++;
     } else {
       const add = [
-        '  // Hub pages ka mawad CMS mein hai: src/content/landing/ ki files.',
-        '  // Woh khud koi page nahi bantin - sirf mawad hain - is liye build se',
-        '  // bahar. Unhein src/_data/landing.js parh kar templates tak pohanchata hai.',
-        '  eleventyConfig.ignores.add("src/content/landing/*.md");',
         '  // Card ki list mein se woh card nikal deta hai jo chhupaye gaye hain.',
         '  eleventyConfig.addFilter("liveCards", (arr) => (arr || []).filter(c => c && c.enabled !== false));',
         anchor,

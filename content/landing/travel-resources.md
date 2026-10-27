@@ -1,15 +1,10 @@
 ---
 url: /travel-resources/
 title: Travel Resources
-permalink: /travel-resources/
 summary: >-
   Use these guides as a starting point for fitness, gear, insurance, health,
   visas, altitude and responsible mountain travel. Final requirements vary by
   route and season.
-seo_title: Pakistan Travel Resources & Permits | Karakoram Vision
-seo_description: >-
-  Permits, packing, insurance, altitude and gear - the practical pages worth
-  reading before a trek or expedition in Pakistan.
 hero_eyebrow: Prepare with confidence
 section_eyebrow: Need a specific answer?
 section_heading: Talk directly with the travel team
@@ -44,11 +39,8 @@ cards:
   - title: Vehicles & logistics
     description: Road transfers, expedition cargo and mountain-access transport.
     url: /vehicles/
-slug: "travel-resources"
-answer_summary: "Use these guides as a starting point for fitness, gear, insurance, health, visas, altitude and responsible mountain travel. Final requirements vary by route and season."
-author: "Karakoram Vision Pakistan Private Limited"
-reviewed_by: "Karakoram Vision Pakistan Private Limited"
-seo:
-  description: "Use these guides as a starting point for fitness, gear, insurance, health, visas, altitude and responsible mountain travel. Final requirements vary by…"
-  title: "Travel Resources | Karakoram Vision"
+seo_title: Pakistan Travel Resources & Permits | Karakoram Vision
+seo_description: >-
+  Permits, packing, insurance, altitude and gear - the practical pages worth
+  reading before a trek or expedition in Pakistan.
 ---

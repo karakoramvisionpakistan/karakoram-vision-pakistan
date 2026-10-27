@@ -1,14 +1,9 @@
 ---
 url: /destinations/
 title: Destinations
-permalink: /destinations/
 summary: >-
   Explore Pakistan’s mountain regions, heritage cities, valleys, national parks
   and trekking gateways.
-seo_title: Destinations in Northern Pakistan | Karakoram Vision
-seo_description: >-
-  Where to go in northern Pakistan - Skardu, Hunza, Deosai, Fairy Meadows,
-  Shigar and Khaplu, with the best season for each. Start planning your route.
 hero_eyebrow: Where will you go next?
 section_eyebrow: Explore by place
 section_heading: Popular destinations
@@ -43,11 +38,8 @@ cards:
   - title: Lahore & Punjab
     description: Heritage, food, architecture and cultural journeys
     url: /search/?type=all&q=lahore
-slug: "destinations"
-answer_summary: "Explore Pakistan’s mountain regions, heritage cities, valleys, national parks and trekking gateways."
-author: "Karakoram Vision Pakistan Private Limited"
-reviewed_by: "Karakoram Vision Pakistan Private Limited"
-seo:
-  description: "Explore Pakistan’s mountain regions, heritage cities, valleys, national parks and trekking gateways."
-  title: "Destinations | Karakoram Vision"
+seo_title: Destinations in Northern Pakistan | Karakoram Vision
+seo_description: >-
+  Where to go in northern Pakistan - Skardu, Hunza, Deosai, Fairy Meadows,
+  Shigar and Khaplu, with the best season for each. Start planning your route.
 ---

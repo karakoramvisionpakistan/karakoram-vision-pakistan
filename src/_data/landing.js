@@ -9,7 +9,7 @@
 import fs from "node:fs";
 import yaml from "js-yaml";
 
-const DIR = "src/content/landing";
+const DIR = "content/landing";
 
 export default function () {
   const out = {};
