@@ -4892,3 +4892,41 @@ content:
         label: Show on the website
         type: boolean
         default: true
+  - name: announcements
+    label: Announcement Bar (top of every page)
+    description: >-
+      A thin strip at the very top of the site. With more than one message they
+      take turns. A reader can close it; it comes back when you change the
+      wording.
+    type: collection
+    path: content/announcements
+    filename:
+      template: "{year}-{month}-{day}-{hour}{minute}.md"
+      field: message
+    view:
+      primary: message
+      fields:
+        - message
+        - published
+    fields:
+      - name: message
+        label: Message
+        type: text
+        required: true
+        description: Keep it to one line — it sits above everything else.
+      - name: link_url
+        label: Link
+        type: string
+        description: Optional. Where the message leads.
+      - name: link_label
+        label: Link wording
+        type: string
+        description: Leave empty for "Find out more".
+      - name: order
+        label: Order
+        type: number
+        description: Lower numbers come first.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true

@@ -44,6 +44,7 @@
   {% include "components/schema.njk" %}
 </head>
 <body data-ui-version="11.0.0" data-tawk-property="{{ site.tawk.property_id }}" data-tawk-widget="{{ site.tawk.widget_id }}" data-vitals-endpoint="{{ site.performance.web_vitals_endpoint }}" class="min-h-screen bg-white text-slate-950 antialiased" hx-boost="false" hx-indicator="#global-loader">
+{% include "components/announcement-bar.njk" %}
   <a href="#main-content" class="skip-link">Skip to main content</a>
   <div id="global-loader" class="htmx-indicator fixed left-0 top-0 z-[100] h-1 w-full bg-blue-700" role="progressbar" aria-label="Loading" aria-hidden="true"></div>
   <noscript><div class="bg-blue-950 px-4 py-3 text-center text-sm font-semibold text-white">Core pages and contact links work without JavaScript. Search, galleries and interactive menus need JavaScript.</div></noscript>

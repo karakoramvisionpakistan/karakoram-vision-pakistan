@@ -962,3 +962,29 @@
   .bk-client { width: 13rem; }
   .bk-client-photo { width: 8rem; height: 8rem; }
 }
+
+/* ---------------------------------------------------------- announcement bar */
+.bk-announce {
+  display: flex; align-items: center; gap: .75rem;
+  padding: .55rem 1rem;
+  background: var(--color-navy-950, #041d52);
+  color: #fff;
+  font-size: .85rem;
+  text-align: center;
+}
+.bk-announce-track { flex: 1 1 auto; min-width: 0; }
+.bk-announce-item { margin: 0; display: flex; justify-content: center; gap: .5rem; flex-wrap: wrap; }
+.bk-announce-item a {
+  color: var(--color-orange-500, #f97316);
+  font-weight: 700; text-decoration: underline; text-underline-offset: 2px;
+}
+.bk-announce-close {
+  flex: 0 0 auto; display: flex; align-items: center; justify-content: center;
+  width: 1.75rem; height: 1.75rem; border-radius: 9999px;
+  color: rgb(255 255 255 / .7);
+  transition: background .15s, color .15s;
+}
+.bk-announce-close:hover { background: rgb(255 255 255 / .12); color: #fff; }
+
+/* a sliding row of journey cards */
+.bk-strip-card { width: min(22rem, 80vw); }

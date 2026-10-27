@@ -1,0 +1,48 @@
+{# The thin strip above everything. Nothing written, nothing shown.
+
+   It starts hidden and JavaScript reveals it, so a reader who already closed
+   it never sees it flash on the way past. Closing is remembered against the
+   messages themselves - change the wording and it comes back for everyone. #}
+{% if announcements and announcements.length %}
+{% set announceKey = announcements.length ~ "-" ~ (announcements[0].message | length) %}
+<div class="bk-announce" data-announce data-announce-key="{{ announceKey }}" hidden>
+  <div class="bk-announce-track">
+    {% for a in announcements %}
+    <p class="bk-announce-item"{% if not loop.first %} hidden{% endif %}>
+      <span>{{ a.message }}</span>
+      {% if a.link_url %}<a href="{{ a.link_url }}">{{ a.link_label or "Find out more" }}</a>{% endif %}
+    </p>
+    {% endfor %}
+  </div>
+  <button type="button" class="bk-announce-close" data-announce-close aria-label="Close this message">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+</div>
+<script>
+(function () {
+  var bar = document.querySelector("[data-announce]");
+  if (!bar) return;
+  var key = "kv-announce-" + bar.getAttribute("data-announce-key");
+
+  // Private windows and blocked storage both throw here - in that case the bar
+  // simply shows, which is better than not showing at all.
+  try { if (localStorage.getItem(key) === "closed") return; } catch (e) {}
+  bar.hidden = false;
+
+  var close = bar.querySelector("[data-announce-close]");
+  if (close) close.addEventListener("click", function () {
+    bar.hidden = true;
+    try { localStorage.setItem(key, "closed"); } catch (e) {}
+  });
+
+  var items = bar.querySelectorAll(".bk-announce-item");
+  if (items.length < 2) return;
+  var at = 0;
+  setInterval(function () {
+    items[at].hidden = true;
+    at = (at + 1) % items.length;
+    items[at].hidden = false;
+  }, 6000);
+})();
+</script>
+{% endif %}

@@ -110,6 +110,10 @@ export default function(eleventyConfig) {
   eleventyConfig.ignores.add("src/content/landing/*.md");
   // Card ki list mein se woh card nikal deta hai jo chhupaye gaye hain.
   eleventyConfig.addFilter("liveCards", (arr) => (arr || []).filter(c => c && c.enabled !== false));
+  // Trips whose "Fixed departure" switch is on. Pehle yeh row alfaz
+  // dhoondti thi ("fixed departure" likha hua ho) - us se koi trip reh
+  // jata tha aur koi galti se aa jata tha. Ab switch hi faisla karta hai.
+  eleventyConfig.addFilter("fixedDepartures", (arr) => (arr || []).filter(i => i && i.data && i.data.fixed_departure === true));
   eleventyConfig.addFilter("json", v => JSON.stringify(v));
   eleventyConfig.addFilter("limit", (arr,n) => (arr || []).slice(0,n));
   eleventyConfig.addFilter("year", () => new Date().getFullYear());
