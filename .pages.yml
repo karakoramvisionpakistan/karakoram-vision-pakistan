@@ -4719,6 +4719,10 @@ content:
       - name: _h_page
         label: Page basics
         type: heading
+        description: >-
+          These are the pages themselves — their heading, intro text and link
+          cards. The tours, treks and articles that appear on them are edited in
+          their own cards (Tours, Trekking, Travel Guides & News, and so on).
       - name: title
         label: Page title
         type: string
@@ -4779,3 +4783,7 @@ content:
         label: Page URL
         type: string
         hidden: true
+    description: >-
+      These are the pages themselves — their heading, intro text and link cards.
+      The tours, treks and articles that appear on them are edited in their own
+      cards (Tours, Trekking, Travel Guides & News, and so on).
