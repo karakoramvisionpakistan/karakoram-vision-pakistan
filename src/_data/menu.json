@@ -96,8 +96,32 @@
         {
           "enabled": true,
           "target_blank": false,
+          "label": "Social Responsibility",
+          "url": "/social-responsibility/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Vehicles",
+          "url": "/vehicles/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
           "label": "FAQs",
           "url": "/faqs/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Privacy Policy",
+          "url": "/privacy-policy/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Refund Policy",
+          "url": "/refund-policy/"
         },
         {
           "enabled": true,
@@ -1037,6 +1061,11 @@
       ]
     },
     {
+      "label": "Naya khana",
+      "url": "",
+      "enabled": true
+    },
+    {
       "enabled": true,
       "target_blank": false,
       "label": "Contact",
@@ -1101,62 +1130,5 @@
       ]
     }
   ],
-  "trash": [
-    {
-      "id": 4,
-      "item": {
-        "enabled": true,
-        "target_blank": false,
-        "label": "Refund Policy",
-        "url": "/refund-policy/"
-      },
-      "parentPath": [
-        2
-      ],
-      "index": 2,
-      "label": "Refund Policy"
-    },
-    {
-      "id": 3,
-      "item": {
-        "enabled": true,
-        "target_blank": false,
-        "label": "Privacy Policy",
-        "url": "/privacy-policy/"
-      },
-      "parentPath": [
-        2
-      ],
-      "index": 2,
-      "label": "Privacy Policy"
-    },
-    {
-      "id": 2,
-      "item": {
-        "enabled": true,
-        "target_blank": false,
-        "label": "Vehicles",
-        "url": "/vehicles/"
-      },
-      "parentPath": [
-        2
-      ],
-      "index": 1,
-      "label": "Vehicles"
-    },
-    {
-      "id": 1,
-      "item": {
-        "enabled": true,
-        "target_blank": false,
-        "label": "Social Responsibility",
-        "url": "/social-responsibility/"
-      },
-      "parentPath": [
-        2
-      ],
-      "index": 1,
-      "label": "Social Responsibility"
-    }
-  ]
+  "trash": []
 }
