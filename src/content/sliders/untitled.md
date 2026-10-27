@@ -1,5 +1,5 @@
 ---
-title: ""
+title: 1792933344337 Nanga Parbat.Kvp
 published: true
 sections:
   - trekking
@@ -15,5 +15,6 @@ _trashed: true
 _trashed_at: "2026-10-25T17:13:58.901Z"
 _trashed_by: Muhammad Ali
 ---
+
 
 
