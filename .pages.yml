@@ -4973,3 +4973,43 @@ content:
         label: Show on the website
         type: boolean
         default: true
+  - name: gallery
+    label: Photo Gallery
+    description: >-
+      Albums of photographs shown on the Gallery page. Each album becomes a
+      filter button at the top of that page. An album with no photos is not
+      shown.
+    type: collection
+    path: content/gallery
+    filename:
+      template: "{title}.md"
+      field: title
+    view:
+      primary: title
+      fields:
+        - title
+        - published
+    fields:
+      - name: title
+        label: Album name
+        type: string
+        required: true
+        description: >-
+          Shown on the filter button — keep it short, like "K2 Base Camp" or
+          "Hunza Valley".
+      - name: photos
+        label: Photos
+        type: image
+        list: true
+        required: true
+        description: >-
+          Upload or pick from the Media Library. Drag the arrows to set the
+          order.
+      - name: order
+        label: Order
+        type: number
+        description: Lower numbers come first.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true

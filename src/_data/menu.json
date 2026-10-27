@@ -1061,6 +1061,10 @@
       ]
     },
     {
+      "label": "Gallery",
+      "url": "/gallery/"
+    },
+    {
       "enabled": true,
       "target_blank": false,
       "label": "Contact",

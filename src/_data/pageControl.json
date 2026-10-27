@@ -120,6 +120,13 @@
       "file": "src/news/index.njk"
     },
     {
+      "label": "Photo Gallery",
+      "url": "/gallery/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/gallery/index.njk"
+    },
+    {
       "label": "Plan a Custom Trip",
       "url": "/plan-a-trip/",
       "published": true,

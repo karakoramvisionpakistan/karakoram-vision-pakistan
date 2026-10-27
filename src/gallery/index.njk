@@ -1,0 +1,68 @@
+---
+layout: layouts/base.njk
+permalink: /gallery/
+title: Photo Gallery
+summary: Photographs from our tours, treks and expeditions across northern Pakistan.
+seo:
+  title: "Photo Gallery - Pakistan Tours & Treks | Karakoram Vision"
+  description: >-
+    Photographs from the Karakoram, Hunza, Skardu and Deosai, taken on our own tours, treks and expeditions.
+---
+{% set lp = landing[page.url] or {} %}
+{% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = lp.title or title %}{% set heroSummary = lp.summary or summary %}{% set heroEyebrow = lp.hero_eyebrow or 'From our own journeys' %}{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+
+{% if gallery and gallery.length %}
+<section class="bk-gallery">
+  <header class="bk-section-heading"><div>
+    <p class="eyebrow">{{ lp.section_eyebrow or 'Photographs' }}</p>
+    <h2>{{ lp.section_heading or 'Browse by journey' }}</h2>
+    <p>{{ lp.section_intro or 'Every photograph here was taken on one of our own departures.' }}</p>
+  </div></header>
+
+  {# Chips. "All" first, then one per album. With a single album there is
+     nothing to filter, so they stay hidden. #}
+  {% if gallery.length > 1 %}
+  <div class="bk-gallery-chips" data-gallery-chips>
+    <button type="button" class="is-on" data-filter="all">All</button>
+    {% for album in gallery %}
+    <button type="button" data-filter="{{ loop.index }}">{{ album.title }} <span>{{ album.count }}</span></button>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="bk-gallery-grid" data-gallery>
+    {% for album in gallery %}{% set albumIndex = loop.index %}
+      {% for photo in album.photos %}
+      <figure class="bk-gallery-item" data-album="{{ albumIndex }}">
+        <button type="button" data-photo="{{ photo }}" data-caption="{{ album.title }}">
+          <img src="{{ photo }}"{{ photo | srcsetAttr('(min-width:1024px) 25vw, (min-width:640px) 33vw, 50vw') }} alt="{{ album.title }}" loading="lazy" decoding="async">
+        </button>
+      </figure>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
+
+{# Full screen viewer. Empty until a photo is clicked. #}
+<div class="bk-lightbox" data-lightbox hidden>
+  <button type="button" class="bk-lightbox-close" data-lightbox-close aria-label="Close">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <button type="button" class="bk-lightbox-nav is-prev" data-lightbox-prev aria-label="Previous photo">
+    <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <figure>
+    <img data-lightbox-img src="" alt="">
+    <figcaption data-lightbox-caption></figcaption>
+  </figure>
+  <button type="button" class="bk-lightbox-nav is-next" data-lightbox-next aria-label="Next photo">
+    <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+</div>
+<script src="/assets/js/gallery.js" defer></script>
+{% else %}
+<section class="bk-gallery">
+  <p class="bk-gallery-empty">Photographs are on their way.</p>
+</section>
+{% endif %}
