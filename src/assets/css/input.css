@@ -988,3 +988,27 @@
 
 /* a sliding row of journey cards */
 .bk-strip-card { width: min(22rem, 80vw); }
+
+/* ---------------------------------------------------------- affiliated with
+   Quieter than the partner strip: smaller, greyer, and it wraps instead of
+   sliding - there are rarely more than a handful, and a footer is no place
+   for arrows. */
+.bk-affiliations {
+  margin-top: 2rem; padding-top: 1.5rem;
+  border-top: 1px solid rgb(255 255 255 / .12);
+  text-align: center;
+}
+.bk-affiliations-label {
+  font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em;
+  opacity: .55; margin-bottom: .9rem;
+}
+.bk-affiliations-list {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+  gap: 1.5rem 2rem; margin: 0; padding: 0; list-style: none;
+}
+.bk-affiliations-list img {
+  max-height: 2.5rem; width: auto; object-fit: contain;
+  opacity: .6; filter: grayscale(1);
+  transition: opacity .2s, filter .2s;
+}
+.bk-affiliations-list a:hover img { opacity: 1; filter: none; }

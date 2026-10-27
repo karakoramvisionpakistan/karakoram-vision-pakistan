@@ -3389,6 +3389,10 @@ content:
                 label: Visible
                 type: boolean
                 default: true
+      - name: affiliations_label
+        label: Wording above the badges
+        type: string
+        description: Leave empty for "Affiliated with".
   - name: homepage
     label: Homepage sections
     type: file
@@ -4922,6 +4926,45 @@ content:
         label: Link wording
         type: string
         description: Leave empty for "Find out more".
+      - name: order
+        label: Order
+        type: number
+        description: Lower numbers come first.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true
+  - name: affiliations
+    label: Affiliated With (footer)
+    description: >-
+      Bodies you belong to or are licensed by — a tourism board, an alpine club,
+      a ministry. Shown small inside the footer. Partner companies go in Our
+      Partners instead.
+    type: collection
+    path: content/affiliations
+    filename:
+      template: "{name}.md"
+      field: name
+    view:
+      primary: name
+      fields:
+        - name
+        - url
+        - published
+    fields:
+      - name: name
+        label: Name
+        type: string
+        required: true
+      - name: logo
+        label: Logo
+        type: image
+        required: true
+        description: A see-through background works best — these are shown in grey.
+      - name: url
+        label: Their website
+        type: string
+        description: Optional. Opens in a new tab.
       - name: order
         label: Order
         type: number

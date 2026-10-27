@@ -1,0 +1,16 @@
+{# The membership badges, low in the footer. Small and grey on purpose - they
+   are proof, not advertising. Nothing added, nothing shown. #}
+{% if affiliations and affiliations.length %}
+<div class="bk-affiliations">
+  <p class="bk-affiliations-label">{{ siteFooter.affiliations_label or "Affiliated with" }}</p>
+  <ul class="bk-affiliations-list">
+    {% for item in affiliations %}
+    <li>
+      {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" title="{{ item.name }}">{% endif %}
+        <img src="{{ item.logo }}" alt="{{ item.name }}" height="40" loading="lazy" decoding="async">
+      {% if item.url %}</a>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

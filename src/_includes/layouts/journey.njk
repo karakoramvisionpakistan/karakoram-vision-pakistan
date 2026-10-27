@@ -100,7 +100,8 @@ layout: layouts/base.njk
 
     {% if faqs and faqs.length %}<section id="faqs" class="bk-trip-content-section">{% include "components/faq-block.njk" %}</section>{% endif %}
 
-    {% if reviews and reviews.length %}<section id="reviews" class="bk-trip-content-section"><p class="eyebrow">Traveller feedback</p><h2>Guest reviews</h2><div class="bk-trip-reviews">{% for review in reviews %}<blockquote><p>“{{ review.quote or review.text }}”</p><footer><strong>{{ review.name or 'Verified traveller' }}</strong>{% if review.country %}<span>{{ review.country }}</span>{% endif %}{% if review.rating %}<span aria-label="{{ review.rating }} out of 5 stars">★ {{ review.rating }}/5</span>{% endif %}</footer></blockquote>{% endfor %}</div></section>{% endif %}
+    {% if reviews and reviews.length %}<section id="reviews" class="bk-trip-content-section"><p class="eyebrow">Traveller feedback</p><h2>Guest reviews</h2><div class="bk-trip-reviews">{% for review in reviews %}<blockquote><p>“{{ review.quote or review.text }}”</p><footer><strong>{{ review.name or 'Verified traveller' }}</strong>{% if review.country %}<span>{{ review.country }}</span>{% endif %}{% if review.rating %}<span aria-label="{{ review.rating }} out of 5 stars">★ {{ review.rating }}/5</span>{% endif %}{% include "components/affiliated-with.njk" %}
+</footer></blockquote>{% endfor %}</div></section>{% endif %}
 
     {% include "components/trust-block.njk" %}
   </main>
