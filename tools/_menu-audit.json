@@ -1,0 +1,589 @@
+{
+  "cmsFolders": [
+    {
+      "name": "tours",
+      "label": "Tours",
+      "path": "src/content/tours"
+    },
+    {
+      "name": "trekking",
+      "label": "Trekking",
+      "path": "src/content/trekking"
+    },
+    {
+      "name": "expeditions",
+      "label": "Expeditions",
+      "path": "src/content/expeditions"
+    },
+    {
+      "name": "jeep_safaris",
+      "label": "Jeep Safaris",
+      "path": "src/content/jeep-safaris"
+    },
+    {
+      "name": "hunting_services",
+      "label": "Hunting Services",
+      "path": "src/content/hunting-services"
+    },
+    {
+      "name": "blog",
+      "label": "Travel Guides & News",
+      "path": "src/content/blog"
+    },
+    {
+      "name": "vehicles",
+      "label": "Vehicles",
+      "path": "src/content/vehicles"
+    },
+    {
+      "name": "sliders",
+      "label": "Hero Sliders (big photos at the top of a page)",
+      "path": "src/content/sliders"
+    },
+    {
+      "name": "pages",
+      "label": "Pages (About, Destinations, Policies)",
+      "path": "src/content/pages"
+    }
+  ],
+  "cmsFiles": [
+    {
+      "name": "site",
+      "label": "01 — Business name & description",
+      "path": "src/_data/site.json"
+    },
+    {
+      "name": "site_logos",
+      "label": "02 — Logos & favicon",
+      "path": "src/_data/site.json"
+    },
+    {
+      "name": "site_contact",
+      "label": "03 — Phone, email & address",
+      "path": "src/_data/site.json"
+    },
+    {
+      "name": "site_channels",
+      "label": "04 — WhatsApp & chat channels",
+      "path": "src/_data/site.json"
+    },
+    {
+      "name": "site_social",
+      "label": "05 — Social media links",
+      "path": "src/_data/site.json"
+    },
+    {
+      "name": "site_ratings",
+      "label": "06 — Review & rating links",
+      "path": "src/_data/site.json"
+    },
+    {
+      "name": "site_business",
+      "label": "07 — Business details & map location",
+      "path": "src/_data/site.json"
+    },
+    {
+      "name": "site_verification",
+      "label": "08 — Google/Bing verification & sharing",
+      "path": "src/_data/site.json"
+    },
+    {
+      "name": "site_faqs",
+      "label": "09 — Homepage questions & answers",
+      "path": "src/_data/site.json"
+    },
+    {
+      "name": "site_team",
+      "label": "10 — Team members",
+      "path": "src/_data/site.json"
+    },
+    {
+      "name": "site_advanced",
+      "label": "11 — Advanced (leave alone unless asked)",
+      "path": "src/_data/site.json"
+    },
+    {
+      "name": "site_header",
+      "label": "12 — Header & top bar",
+      "path": "src/_data/siteHeader.json"
+    },
+    {
+      "name": "navigation",
+      "label": "13 — Menus (what shows in the navbar)",
+      "path": "src/_data/menu.json"
+    },
+    {
+      "name": "site_footer",
+      "label": "14 — Footer & newsletter",
+      "path": "src/_data/siteFooter.json"
+    },
+    {
+      "name": "homepage",
+      "label": "15 — Homepage sections & their order",
+      "path": "src/_data/homePage.json"
+    },
+    {
+      "name": "theme",
+      "label": "16 — Colours, corners & spacing",
+      "path": "src/_data/theme.json"
+    },
+    {
+      "name": "forms",
+      "label": "17 — Enquiry forms & their boxes",
+      "path": "src/_data/formsConfig.json"
+    },
+    {
+      "name": "taxonomies",
+      "label": "18 — Categories, statuses & dropdown lists",
+      "path": "src/_data/taxonomies.json"
+    },
+    {
+      "name": "content_defaults",
+      "label": "19 — Default packing list & inclusions",
+      "path": "src/_data/contentDefaults.json"
+    },
+    {
+      "name": "hero_banners",
+      "label": "20 — Big banner for each page (on/off, or one photo)",
+      "path": "src/_data/heroSettings.json"
+    },
+    {
+      "name": "page_control",
+      "label": "21 - Pages: show or hide",
+      "path": "src/_data/pageControl.json"
+    }
+  ],
+  "rows": [
+    {
+      "label": "Home",
+      "trail": [],
+      "url": "/",
+      "file": "src/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Holiday Types",
+      "trail": [],
+      "url": "/holiday-types/",
+      "file": "src/holiday-types/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "All Holidays",
+      "trail": [
+        "Holiday Types"
+      ],
+      "url": "/tours/",
+      "file": "src/tours/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Air Travel",
+      "trail": [
+        "Holiday Types"
+      ],
+      "url": "/search/",
+      "file": "src/search/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Cultural Tours",
+      "trail": [
+        "Holiday Types"
+      ],
+      "url": "/tours/cultural-tours/",
+      "file": "src/tours/cultural-tours/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Hiking Adventures",
+      "trail": [
+        "Holiday Types"
+      ],
+      "url": "/trekking/",
+      "file": "src/trekking/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Gilgit-Baltistan Grand Circuit",
+      "trail": [
+        "Tours",
+        "Best Sellers"
+      ],
+      "url": "/tours/gilgit-baltistan-grand-circuit/",
+      "file": "src/content/tours/gilgit-baltistan-grand-circuit.md",
+      "kind": "md",
+      "built": true,
+      "cms": {
+        "how": "collection",
+        "screen": "Tours"
+      },
+      "status": "CMS mein hai"
+    },
+    {
+      "label": "View destinations",
+      "trail": [
+        "Tours",
+        "Pakistan Destinations"
+      ],
+      "url": "/destinations/",
+      "file": "src/destinations/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Fixed Departures",
+      "trail": [
+        "Tours"
+      ],
+      "url": "/tours/fixed-departures/",
+      "file": "src/tours/fixed-departures/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Trip Calendar",
+      "trail": [
+        "Tours"
+      ],
+      "url": "/trip-calendar/",
+      "file": "src/trip-calendar/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "International Travelers",
+      "trail": [],
+      "url": "/international-travelers/",
+      "file": "src/international-travelers/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Pakistan Travel Information",
+      "trail": [
+        "International Travelers"
+      ],
+      "url": "/blog/",
+      "file": "src/blog/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "K2 Base Camp Trek",
+      "trail": [
+        "International Travelers",
+        "Best Sellers"
+      ],
+      "url": "/trekking/k2-base-camp-trek/",
+      "file": "src/content/trekking/k2-base-camp-baltoro-trek.md",
+      "kind": "md",
+      "built": true,
+      "cms": {
+        "how": "collection",
+        "screen": "Trekking"
+      },
+      "status": "CMS mein hai"
+    },
+    {
+      "label": "All Fixed Departures",
+      "trail": [
+        "Trekking"
+      ],
+      "url": "/trekking/fixed-departures/",
+      "file": "src/trekking/fixed-departures/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "K2 Treks",
+      "trail": [
+        "Trekking"
+      ],
+      "url": "/trekking/k2-treks/",
+      "file": "src/trekking/k2-treks/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Best Sellers",
+      "trail": [
+        "Trekking"
+      ],
+      "url": "/trekking/best-sellers/",
+      "file": "src/trekking/best-sellers/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Expeditions",
+      "trail": [],
+      "url": "/expeditions/",
+      "file": "src/expeditions/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Broad Peak (8,051m)",
+      "trail": [
+        "Expeditions",
+        "Best Sellers"
+      ],
+      "url": "/expeditions/broad-peak-expedition/",
+      "file": "src/content/expeditions/broad-peak-expedition.md",
+      "kind": "md",
+      "built": true,
+      "cms": {
+        "how": "collection",
+        "screen": "Expeditions"
+      },
+      "status": "CMS mein hai"
+    },
+    {
+      "label": "8,000m Peaks",
+      "trail": [
+        "Expeditions"
+      ],
+      "url": "/expeditions/8000m-peaks/",
+      "file": "src/expeditions/8000m-peaks/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "All Fixed Departures",
+      "trail": [
+        "Expeditions"
+      ],
+      "url": "/expeditions/fixed-departures/",
+      "file": "src/expeditions/fixed-departures/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Special Interests",
+      "trail": [],
+      "url": "/special-interests/",
+      "file": "src/special-interests/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Jeep Safaris",
+      "trail": [],
+      "url": "/jeep-safaris/",
+      "file": "src/jeep-safaris/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Hunting",
+      "trail": [],
+      "url": "/hunting-services/",
+      "file": "src/hunting-services/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Request an Inquiry",
+      "trail": [
+        "Hunting"
+      ],
+      "url": "/plan-a-trip/",
+      "file": "src/plan-a-trip/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "News",
+      "trail": [],
+      "url": "/news/",
+      "file": "src/news/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Contact",
+      "trail": [],
+      "url": "/contact-us/",
+      "file": "src/contact-us/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "About",
+      "trail": [],
+      "url": "/about-us/",
+      "file": "src/content/pages/about-us.md",
+      "kind": "md",
+      "built": true,
+      "cms": {
+        "how": "collection",
+        "screen": "Pages (About, Destinations, Policies)"
+      },
+      "status": "CMS mein hai"
+    },
+    {
+      "label": "Social Responsibility",
+      "trail": [
+        "About"
+      ],
+      "url": "/social-responsibility/",
+      "file": "src/social-responsibility/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Vehicles",
+      "trail": [
+        "About"
+      ],
+      "url": "/vehicles/",
+      "file": "src/vehicles/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "FAQs",
+      "trail": [
+        "About"
+      ],
+      "url": "/faqs/",
+      "file": "src/content/pages/faqs.md",
+      "kind": "md",
+      "built": true,
+      "cms": {
+        "how": "collection",
+        "screen": "Pages (About, Destinations, Policies)"
+      },
+      "status": "CMS mein hai"
+    },
+    {
+      "label": "Privacy Policy",
+      "trail": [
+        "About"
+      ],
+      "url": "/privacy-policy/",
+      "file": "src/content/pages/privacy-policy.md",
+      "kind": "md",
+      "built": true,
+      "cms": {
+        "how": "collection",
+        "screen": "Pages (About, Destinations, Policies)"
+      },
+      "status": "CMS mein hai"
+    },
+    {
+      "label": "Refund Policy",
+      "trail": [
+        "About"
+      ],
+      "url": "/refund-policy/",
+      "file": "src/content/pages/refund-policy.md",
+      "kind": "md",
+      "built": true,
+      "cms": {
+        "how": "collection",
+        "screen": "Pages (About, Destinations, Policies)"
+      },
+      "status": "CMS mein hai"
+    },
+    {
+      "label": "Terms & Conditions",
+      "trail": [
+        "About"
+      ],
+      "url": "/terms-and-conditions/",
+      "file": "src/content/pages/terms-and-conditions.md",
+      "kind": "md",
+      "built": true,
+      "cms": {
+        "how": "collection",
+        "screen": "Pages (About, Destinations, Policies)"
+      },
+      "status": "CMS mein hai"
+    },
+    {
+      "label": "Travel Resources",
+      "trail": [
+        "About"
+      ],
+      "url": "/travel-resources/",
+      "file": "src/travel-resources/index.njk",
+      "kind": "njk",
+      "built": true,
+      "cms": null,
+      "status": "CMS mein nahi - likhai code ke andar"
+    },
+    {
+      "label": "Equipment Check list",
+      "trail": [
+        "About"
+      ],
+      "url": "/equipment-checklist/",
+      "file": "src/content/pages/equipment-check-list.md",
+      "kind": "md",
+      "built": true,
+      "cms": {
+        "how": "collection",
+        "screen": "Pages (About, Destinations, Policies)"
+      },
+      "status": "CMS mein hai"
+    }
+  ]
+}

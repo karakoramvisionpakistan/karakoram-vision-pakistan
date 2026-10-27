@@ -104,6 +104,12 @@ export default function(eleventyConfig) {
       return out;
     }).filter(Boolean);
   });
+  // Hub pages ka mawad CMS mein hai: src/content/landing/ ki files.
+  // Woh khud koi page nahi bantin - sirf mawad hain - is liye build se
+  // bahar. Unhein src/_data/landing.js parh kar templates tak pohanchata hai.
+  eleventyConfig.ignores.add("src/content/landing/*.md");
+  // Card ki list mein se woh card nikal deta hai jo chhupaye gaye hain.
+  eleventyConfig.addFilter("liveCards", (arr) => (arr || []).filter(c => c && c.enabled !== false));
   eleventyConfig.addFilter("json", v => JSON.stringify(v));
   eleventyConfig.addFilter("limit", (arr,n) => (arr || []).slice(0,n));
   eleventyConfig.addFilter("year", () => new Date().getFullYear());

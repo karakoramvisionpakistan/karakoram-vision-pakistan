@@ -8,8 +8,10 @@ seo:
   description: >-
     Call, WhatsApp or email our Skardu office about tours, treks and expeditions in Pakistan. Open 9am to 9pm Pakistan time, seven days a week.
 ---
+{% set lp = landing[page.url] or {} %}
+
 {% set contactForm = formsConfig.contact %}
-{% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = 'International inquiries' %}{% set heroCompact = true %}
+{% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = lp.hero_eyebrow or 'International inquiries' %}{% set heroCompact = true %}
 {% include "components/landing-hero.njk" %}
 <section class="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:grid-cols-2">
   <div class="rounded-2xl border border-blue-100 p-7 shadow-sm"><p class="eyebrow">Email</p><h2 class="mt-2 text-2xl font-black">Direct inquiry</h2><a class="mt-5 block font-bold text-blue-800" href="mailto:{{ site.email }}">{{ site.email }}</a><a class="mt-2 block font-bold text-blue-800" href="mailto:{{ site.booking_email }}">{{ site.booking_email }}</a>{% include "components/contact-channel-buttons.njk" %}</div>

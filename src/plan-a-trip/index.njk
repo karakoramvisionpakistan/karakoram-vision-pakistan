@@ -8,8 +8,10 @@ seo:
   description: >-
     Tell us your dates, group size and interests, and get a private itinerary with costs for a tour, trek or expedition. You decide after you see the plan.
 ---
+{% set lp = landing[page.url] or {} %}
+
 {% set form = formsConfig.plan_trip %}
-{% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = 'Plan a Trip' %}{% set heroSummary = summary %}{% set heroEyebrow = 'Custom journey planner' %}{% set heroCompact = true %}
+{% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = 'Plan a Trip' %}{% set heroSummary = summary %}{% set heroEyebrow = lp.hero_eyebrow or 'Custom journey planner' %}{% set heroCompact = true %}
 {% include "components/landing-hero.njk" %}
 {% if form.enabled !== false %}
 <section id="trip-request-form" class="bk-trip-request-anchor mx-auto max-w-5xl px-4 py-12" data-trip-request-section tabindex="-1">
@@ -33,4 +35,4 @@ seo:
   </form>
 </section>
 {% endif %}
-<section class="bk-plan-direct-contact" aria-labelledby="plan-direct-contact-heading"><p class="eyebrow">Prefer instant messaging?</p><h2 id="plan-direct-contact-heading">Email, WhatsApp or another contact app</h2><p>Use the channel most familiar in your country.</p>{% include "components/contact-channel-buttons.njk" %}</section>
+<section class="bk-plan-direct-contact" aria-labelledby="plan-direct-contact-heading"><p class="eyebrow">{{ lp.section_eyebrow or 'Prefer instant messaging?' }}</p><h2>{{ lp.section_heading or 'Email, WhatsApp or another contact app' }}</h2><p>{{ lp.section_intro or 'Use the channel most familiar in your country.' }}</p>{% include "components/contact-channel-buttons.njk" %}</section>

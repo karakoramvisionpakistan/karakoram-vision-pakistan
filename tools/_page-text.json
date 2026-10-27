@@ -1,0 +1,429 @@
+[
+  {
+    "file": "src/trip-calendar/index.njk",
+    "lines": 26,
+    "chunks": 16,
+    "words": 66,
+    "fm": [
+      "title: Trip Calendar",
+      "title: \"Trip Calendar & Fixed Departures | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": [
+      "Plan by date",
+      "Trip Calendar",
+      "Browse scheduled departures, availability and starting prices. Exact dates, permits and places remain subject to confirmation by our travel team.",
+      "Scheduled journeys",
+      "Upcoming departure options",
+      "Request custom dates",
+      "Dates",
+      "Status",
+      "Deposit",
+      "Price",
+      "Inquire",
+      "Duration"
+    ]
+  },
+  {
+    "file": "src/travel-resources/index.njk",
+    "lines": 25,
+    "chunks": 9,
+    "words": 62,
+    "fm": [
+      "title: Travel Resources",
+      "title: \"Pakistan Travel Resources & Permits | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": [
+      "Prepare with confidence",
+      "Travel Resources",
+      "Use these guides as a starting point for fitness, gear, insurance, health, visas, altitude and responsible mountain travel. Final requirements vary by route and season.",
+      "Resource",
+      "Open resource →",
+      "Need a specific answer?",
+      "Talk directly with the travel team",
+      "Choose email, phone, WhatsApp, Telegram, Messenger, LINE, WeChat, Viber, KakaoTalk, VK or another configured channel.",
+      "Choose contact app"
+    ]
+  },
+  {
+    "file": "src/search/index.njk",
+    "lines": 37,
+    "chunks": 16,
+    "words": 51,
+    "fm": [
+      "title: Search Karakoram Vision Pakistan",
+      "summary: Search tours, trekking routes, expeditions, jeep safaris, travel guides and vehicles.",
+      "title: \"Search | Karakoram Vision Pakistan\"",
+      "description: >-"
+    ],
+    "sample": [
+      "Site search",
+      "Search Karakoram Vision Pakistan",
+      "Find tours, trekking, expeditions, guides and services.",
+      "All content",
+      "Tours",
+      "Trekking",
+      "Expeditions",
+      "Jeep Safaris",
+      "Hunting Services",
+      "Travel Guides",
+      "Vehicles",
+      "Destinations & Pages"
+    ]
+  },
+  {
+    "file": "src/social-responsibility/index.njk",
+    "lines": 14,
+    "chunks": 6,
+    "words": 37,
+    "fm": [
+      "title: Social Responsibility",
+      "summary: Responsible travel, local employment, conservation and community respect across our journeys.",
+      "title: Social Responsibility | Karakoram Vision Pakistan",
+      "description: >-"
+    ],
+    "sample": [
+      "Local communities",
+      "Priority for local guides, drivers, porters, suppliers and community partners.",
+      "Conservation",
+      "Low-impact practices, waste awareness and compliance with protected-area requirements.",
+      "Safe and lawful travel",
+      "Permits, licensed services and transparent traveler guidance for every regulated activity."
+    ]
+  },
+  {
+    "file": "src/index.njk",
+    "lines": 63,
+    "chunks": 5,
+    "words": 27,
+    "fm": [
+      "title: Karakoram Vision Pakistan",
+      "title: \"Pakistan Tours, Treks & K2 Expeditions | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": [
+      "Google traveller reviews",
+      "Tripadvisor reviews",
+      "Explore →",
+      "Browse dedicated    pages, routes and trip options.",
+      "Add homepage FAQs in Pages CMS → Site Identity, Logos, Contacts & Social."
+    ]
+  },
+  {
+    "file": "src/holiday-types/index.njk",
+    "lines": 26,
+    "chunks": 3,
+    "words": 18,
+    "fm": [
+      "title: Holiday Types",
+      "summary: Find cultural tours, family holidays, luxury journeys, road trips, trekking holidays and weekend escapes.",
+      "title: Holiday Types in Pakistan | Karakoram Vision Pakistan",
+      "description: >-"
+    ],
+    "sample": [
+      "Travel your way",
+      "Browse by holiday style",
+      "Start with a category, then refine by destination, duration and interests."
+    ]
+  },
+  {
+    "file": "src/blog/index.njk",
+    "lines": 18,
+    "chunks": 4,
+    "words": 18,
+    "fm": [
+      "title: Travel Guides",
+      "summary: Destination research, practical travel information, culture, food, safety and route inspiration.",
+      "title: \"Pakistan Travel Guides & Tips | Karakoram Vision Pakistan\"",
+      "description: >-"
+    ],
+    "sample": [
+      "Plan with context",
+      "Latest travel guides",
+      "Use these articles to research destinations before requesting a tailored trip.",
+      "guides"
+    ]
+  },
+  {
+    "file": "src/international-travelers/index.njk",
+    "lines": 25,
+    "chunks": 3,
+    "words": 17,
+    "fm": [
+      "title: International Travelers",
+      "summary: Practical information, destination ideas, group journeys and planning support for visitors traveling to Pakistan.",
+      "title: \"Travel to Pakistan: Guide for Visitors | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": [
+      "Plan with confidence",
+      "Useful starting points",
+      "Research destinations, city tours, travel insurance, group journeys and local transport."
+    ]
+  },
+  {
+    "file": "src/plan-a-trip/index.njk",
+    "lines": 37,
+    "chunks": 3,
+    "words": 17,
+    "fm": [
+      "title: Plan a Custom Trip",
+      "summary: Tell Karakoram Vision Pakistan where you want to travel and our team will prepare a tailored proposal.",
+      "title: \"Plan a Custom Pakistan Trip | Karakoram Vision Pakistan\"",
+      "description: >-"
+    ],
+    "sample": [
+      "Prefer instant messaging?",
+      "Email, WhatsApp or another contact app",
+      "Use the channel most familiar in your country."
+    ]
+  },
+  {
+    "file": "src/contact-us/index.njk",
+    "lines": 20,
+    "chunks": 7,
+    "words": 17,
+    "fm": [
+      "title: Contact Karakoram Vision Pakistan",
+      "summary: Send a booking request or contact our team through the app you prefer.",
+      "title: \"Contact Us - Tour Operator in Skardu | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": [
+      "Email",
+      "Direct inquiry",
+      "Booking",
+      "Trip request form",
+      "Open complete trip planner",
+      "Messaging apps",
+      "Choose your preferred app"
+    ]
+  },
+  {
+    "file": "src/destinations/index.njk",
+    "lines": 27,
+    "chunks": 3,
+    "words": 16,
+    "fm": [
+      "title: Destinations",
+      "summary: Explore Pakistan’s mountain regions, heritage cities, valleys, national parks and trekking gateways.",
+      "title: \"Destinations in Northern Pakistan | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": [
+      "Explore by place",
+      "Popular destinations",
+      "Each destination connects to relevant tours, treks, expeditions and travel guides."
+    ]
+  },
+  {
+    "file": "src/vehicles/index.njk",
+    "lines": 18,
+    "chunks": 4,
+    "words": 16,
+    "fm": [
+      "title: Vehicles",
+      "summary: Mountain jeeps, SUVs, vans, coasters and transport options for tours and expeditions.",
+      "title: \"Vehicle Rental in Skardu & Gilgit | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": [
+      "Choose your transport",
+      "Available vehicles",
+      "Request availability and a route-based quote through the trip planner.",
+      "vehicles"
+    ]
+  },
+  {
+    "file": "src/news/index.njk",
+    "lines": 14,
+    "chunks": 4,
+    "words": 15,
+    "fm": [
+      "title: News & Updates",
+      "summary: Expedition updates, destination stories, travel announcements and new Karakoram Vision Pakistan journeys.",
+      "title: \"Travel News & Updates | Karakoram Vision Pakistan\"",
+      "description: >-"
+    ],
+    "sample": [
+      "Latest",
+      "Travel stories and updates",
+      "Browse our latest guides and expedition-related articles.",
+      "All travel guides"
+    ]
+  },
+  {
+    "file": "src/special-interests/index.njk",
+    "lines": 25,
+    "chunks": 3,
+    "words": 14,
+    "fm": [
+      "title: Special Interests",
+      "summary: Cycle touring, eco travel, motorcycle journeys, mountain passes, festivals, photography and winter adventures.",
+      "title: \"Special Interest Tours in Pakistan | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": [
+      "Focused journeys",
+      "Choose an interest",
+      "Use these categories to discover experiences beyond standard sightseeing."
+    ]
+  },
+  {
+    "file": "src/tours/index.njk",
+    "lines": 14,
+    "chunks": 0,
+    "words": 0,
+    "fm": [
+      "title: Tours",
+      "summary: Cultural journeys, sightseeing, family holidays and custom travel programmes.",
+      "title: \"Pakistan Tour Packages - Hunza & Skardu | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": []
+  },
+  {
+    "file": "src/tours/cultural-tours/index.njk",
+    "lines": 16,
+    "chunks": 0,
+    "words": 0,
+    "fm": [
+      "title: Cultural Tours",
+      "summary: Explore heritage, history, festivals, communities and cultural landscapes across Pakistan.",
+      "title: \"Cultural Tours in Pakistan | Karakoram Vision Pakistan\"",
+      "description: >-"
+    ],
+    "sample": []
+  },
+  {
+    "file": "src/trekking/index.njk",
+    "lines": 14,
+    "chunks": 0,
+    "words": 0,
+    "fm": [
+      "title: Trekking",
+      "summary: High-altitude treks, base-camp routes, glacier crossings and short mountain hikes.",
+      "title: \"Trekking in Pakistan - Karakoram Treks | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": []
+  },
+  {
+    "file": "src/tours/fixed-departures/index.njk",
+    "lines": 16,
+    "chunks": 0,
+    "words": 0,
+    "fm": [
+      "title: Fixed Departure Tours",
+      "summary: Browse scheduled group tours and published departure opportunities from Karakoram Vision Pakistan.",
+      "title: \"Fixed Departure Tours in Pakistan | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": []
+  },
+  {
+    "file": "src/trekking/fixed-departures/index.njk",
+    "lines": 16,
+    "chunks": 0,
+    "words": 0,
+    "fm": [
+      "title: Fixed Departure Treks",
+      "summary: Browse scheduled trekking departures, published dates and group journeys across the Karakoram, Himalaya and Hindu Kush.",
+      "title: \"Fixed Departure Treks in Pakistan | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": []
+  },
+  {
+    "file": "src/trekking/k2-treks/index.njk",
+    "lines": 16,
+    "chunks": 0,
+    "words": 0,
+    "fm": [
+      "title: K2 Treks",
+      "summary: Explore K2 Base Camp, Gondogoro La and related Karakoram trekking routes.",
+      "title: \"K2 Treks & Baltoro Glacier Routes | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": []
+  },
+  {
+    "file": "src/trekking/best-sellers/index.njk",
+    "lines": 16,
+    "chunks": 0,
+    "words": 0,
+    "fm": [
+      "title: Best-Selling Treks",
+      "summary: Explore featured and most-requested trekking journeys from Karakoram Vision Pakistan.",
+      "title: \"Best-Selling Treks in Pakistan | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": []
+  },
+  {
+    "file": "src/expeditions/index.njk",
+    "lines": 14,
+    "chunks": 0,
+    "words": 0,
+    "fm": [
+      "title: Expeditions",
+      "summary: Technical and non-technical mountaineering expeditions with logistics and local coordination.",
+      "title: \"Mountaineering Expeditions in Pakistan | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": []
+  },
+  {
+    "file": "src/expeditions/8000m-peaks/index.njk",
+    "lines": 16,
+    "chunks": 0,
+    "words": 0,
+    "fm": [
+      "title: 8,000m Peak Expeditions",
+      "summary: Explore Karakoram Vision Pakistan expedition pages connected with Pakistan's 8,000-metre peaks.",
+      "title: \"8000m Peak Expeditions in Pakistan | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": []
+  },
+  {
+    "file": "src/expeditions/fixed-departures/index.njk",
+    "lines": 16,
+    "chunks": 0,
+    "words": 0,
+    "fm": [
+      "title: Fixed Departure Expeditions",
+      "summary: Browse published climbing-expedition schedules and group departure opportunities.",
+      "title: Fixed Departure Expeditions | Karakoram Vision Pakistan",
+      "description: >-"
+    ],
+    "sample": []
+  },
+  {
+    "file": "src/jeep-safaris/index.njk",
+    "lines": 14,
+    "chunks": 0,
+    "words": 0,
+    "fm": [
+      "title: Jeep Safaris",
+      "summary: Mountain road journeys, remote valley access and private 4x4 safari programmes.",
+      "title: \"Jeep Safaris in Pakistan - 4x4 Tours | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": []
+  },
+  {
+    "file": "src/hunting-services/index.njk",
+    "lines": 14,
+    "chunks": 0,
+    "words": 0,
+    "fm": [
+      "title: Licensed Hunting Services",
+      "summary: Compliance-led logistics and travel coordination for officially authorized conservation programmes.",
+      "title: \"Hunting Permits & Logistics in Pakistan | Karakoram Vision\"",
+      "description: >-"
+    ],
+    "sample": []
+  }
+]

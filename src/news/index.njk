@@ -8,6 +8,8 @@ seo:
   description: >-
     Expedition news, new routes, and road and season updates from Gilgit-Baltistan, posted by the Karakoram Vision team in Skardu.
 ---
-{% set heroItems = collections.posts | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = 'Stories from the mountains' %}{% set heroCompact = true %}
+{% set lp = landing[page.url] or {} %}
+
+{% set heroItems = collections.posts | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = lp.hero_eyebrow or 'Stories from the mountains' %}{% set heroCompact = true %}
 {% include "components/landing-hero.njk" %}
-<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">Latest</p><h2>Travel stories and updates</h2><p>Browse our latest guides and expedition-related articles.</p></div><a class="bk-heading-link" href="/blog/">All travel guides</a></header><div class="bk-card-grid">{% for item in collections.posts | limit(18) %}{% include "components/post-card.njk" %}{% endfor %}</div></section>
+<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">{{ lp.section_eyebrow or 'Latest' }}</p><h2>{{ lp.section_heading or 'Travel stories and updates' }}</h2><p>{{ lp.section_intro or 'Browse our latest guides and expedition-related articles.' }}</p></div><a class="bk-heading-link" href="/blog/">All travel guides</a></header><div class="bk-card-grid">{% for item in collections.posts | limit(18) %}{% include "components/post-card.njk" %}{% endfor %}</div></section>

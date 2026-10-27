@@ -7,18 +7,20 @@ seo:
   description: >-
     Permits, packing, insurance, altitude and gear - the practical pages worth reading before a trek or expedition in Pakistan.
 ---
-<section class="bk-page-hero-simple"><div><p class="eyebrow">Prepare with confidence</p><h1>Travel Resources</h1><p>Use these guides as a starting point for fitness, gear, insurance, health, visas, altitude and responsible mountain travel. Final requirements vary by route and season.</p></div></section>
+{% set lp = landing[page.url] or {} %}
+
+<section class="bk-page-hero-simple"><div><p class="eyebrow">{{ lp.hero_eyebrow or 'Prepare with confidence' }}</p><h1>{{ lp.title or 'Travel Resources' }}</h1><p>{{ lp.summary or 'Use these guides as a starting point for fitness, gear, insurance, health, visas, altitude and responsible mountain travel. Final requirements vary by route and season.' }}</p></div></section>
 <section class="bk-resources-shell"><div class="bk-resource-grid">
-  {% set resources = [
-    ['Trip preparedness','Fitness, training and realistic expectations for active journeys.','/search/?type=blog&q=preparation'],
-    ['Gear & packing','Layering, footwear, sleeping systems and technical equipment.','/search/?type=blog&q=packing'],
-    ['Travel insurance','Coverage considerations for trekking, altitude and evacuation.','/search/?type=blog&q=insurance'],
-    ['Health & altitude','Acclimatization, hydration, medication discussions and warning signs.','/search/?type=blog&q=altitude'],
-    ['Pakistan travel information','Transport, culture, money, connectivity and arrival guidance.','/international-travelers/'],
-    ['Permits & compliance','Route permits, restricted areas, climbing and wildlife programme rules.','/contact-us/'],
-    ['Responsible travel','Local communities, conservation, waste and respectful conduct.','/social-responsibility/'],
-    ['Frequently asked questions','Fast answers about bookings, groups, safety and customization.','/faqs/'],
-    ['Vehicles & logistics','Road transfers, expedition cargo and mountain-access transport.','/vehicles/']
-  ] %}
-  {% for resource in resources %}<article class="bk-resource-card"><span>Resource {{ loop.index }}</span><h2>{{ resource[0] }}</h2><p>{{ resource[1] }}</p><a href="{{ resource[2] }}">Open resource →</a></article>{% endfor %}
-</div><section class="bk-home-contact"><div><p class="eyebrow">Need a specific answer?</p><h2>Talk directly with the travel team</h2><p>Choose email, phone, WhatsApp, Telegram, Messenger, LINE, WeChat, Viber, KakaoTalk, VK or another configured channel.</p></div><button type="button" class="btn-primary" data-open-contact>Choose contact app</button></section></section>
+  {% set resources = (lp.cards or [
+{"title":"Trip preparedness","description":"Fitness, training and realistic expectations for active journeys.","url":"/search/?type=blog&q=preparation"},
+{"title":"Gear & packing","description":"Layering, footwear, sleeping systems and technical equipment.","url":"/search/?type=blog&q=packing"},
+{"title":"Travel insurance","description":"Coverage considerations for trekking, altitude and evacuation.","url":"/search/?type=blog&q=insurance"},
+{"title":"Health & altitude","description":"Acclimatization, hydration, medication discussions and warning signs.","url":"/search/?type=blog&q=altitude"},
+{"title":"Pakistan travel information","description":"Transport, culture, money, connectivity and arrival guidance.","url":"/international-travelers/"},
+{"title":"Permits & compliance","description":"Route permits, restricted areas, climbing and wildlife programme rules.","url":"/contact-us/"},
+{"title":"Responsible travel","description":"Local communities, conservation, waste and respectful conduct.","url":"/social-responsibility/"},
+{"title":"Frequently asked questions","description":"Fast answers about bookings, groups, safety and customization.","url":"/faqs/"},
+{"title":"Vehicles & logistics","description":"Road transfers, expedition cargo and mountain-access transport.","url":"/vehicles/"}
+]) | liveCards %}
+  {% for resource in resources %}<article class="bk-resource-card"><span>Resource {{ loop.index }}</span><h2>{{ resource.title }}</h2><p>{{ resource.description }}</p><a href="{{ resource.url }}">Open resource →</a></article>{% endfor %}
+</div><section class="bk-home-contact"><div><p class="eyebrow">{{ lp.section_eyebrow or 'Need a specific answer?' }}</p><h2>{{ lp.section_heading or 'Talk directly with the travel team' }}</h2><p>{{ lp.section_intro or 'Choose email, phone, WhatsApp, Telegram, Messenger, LINE, WeChat, Viber, KakaoTalk, VK or another configured channel.' }}</p></div><button type="button" class="btn-primary" data-open-contact>Choose contact app</button></section></section>

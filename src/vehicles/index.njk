@@ -8,10 +8,12 @@ seo:
   description: >-
     Hire a Prado, Hiace or Coaster with an experienced mountain driver for Skardu, Hunza and Karakoram Highway travel. Ask for daily or per-trip rates.
 ---
+{% set lp = landing[page.url] or {} %}
+
 {% set heroItems = collections.vehicles | limit(6) %}
 {% set heroHeading = title %}
 {% set heroSummary = summary %}
-{% set heroEyebrow = 'Ground transport' %}
+{% set heroEyebrow = lp.hero_eyebrow or 'Ground transport' %}
 {% set heroCompact = true %}
 {% include "components/landing-hero.njk" %}
-<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">Choose your transport</p><h2>Available vehicles</h2><p>Request availability and a route-based quote through the trip planner.</p></div><span class="bk-count-pill">{{ collections.vehicles.length }} vehicles</span></header><div class="bk-card-grid">{% for item in collections.vehicles %}{% include "components/vehicle-card.njk" %}{% endfor %}</div></section>
+<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">{{ lp.section_eyebrow or 'Choose your transport' }}</p><h2>{{ lp.section_heading or 'Available vehicles' }}</h2><p>{{ lp.section_intro or 'Request availability and a route-based quote through the trip planner.' }}</p></div><span class="bk-count-pill">{{ collections.vehicles.length }} vehicles</span></header><div class="bk-card-grid">{% for item in collections.vehicles %}{% include "components/vehicle-card.njk" %}{% endfor %}</div></section>

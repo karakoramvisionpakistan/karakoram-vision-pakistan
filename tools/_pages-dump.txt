@@ -1,0 +1,608 @@
+
+===== FILE: src/blog/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /blog/
+title: Travel Guides
+summary: Destination research, practical travel information, culture, food, safety and route inspiration.
+seo:
+  title: "Pakistan Travel Guides & Tips | Karakoram Vision Pakistan"
+  description: >-
+    Travel guides for northern Pakistan: best seasons, packing, permits and trek preparation, written by a Skardu-based team that runs these routes.
+---
+{% set heroItems = collections.posts | limit(6) %}
+{% set heroHeading = title %}
+{% set heroSummary = summary %}
+{% set heroEyebrow = 'Knowledge for better journeys' %}
+{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">Plan with context</p><h2>Latest travel guides</h2><p>Use these articles to research destinations before requesting a tailored trip.</p></div><span class="bk-count-pill">{{ collections.posts.length }} guides</span></header><div class="bk-card-grid">{% for item in collections.posts | limit(24) %}{% include "components/post-card.njk" %}{% endfor %}</div></section>
+
+
+===== FILE: src/contact-us/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /contact-us/
+title: Contact Karakoram Vision Pakistan
+summary: Send a booking request or contact our team through the app you prefer.
+seo:
+  title: "Contact Us - Tour Operator in Skardu | Karakoram Vision"
+  description: >-
+    Call, WhatsApp or email our Skardu office about tours, treks and expeditions in Pakistan. Open 9am to 9pm Pakistan time, seven days a week.
+---
+{% set contactForm = formsConfig.contact %}
+{% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = 'International inquiries' %}{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+<section class="mx-auto grid max-w-7xl gap-6 px-4 py-14 md:grid-cols-2">
+  <div class="rounded-2xl border border-blue-100 p-7 shadow-sm"><p class="eyebrow">Email</p><h2 class="mt-2 text-2xl font-black">Direct inquiry</h2><a class="mt-5 block font-bold text-blue-800" href="mailto:{{ site.email }}">{{ site.email }}</a><a class="mt-2 block font-bold text-blue-800" href="mailto:{{ site.booking_email }}">{{ site.booking_email }}</a>{% include "components/contact-channel-buttons.njk" %}</div>
+  <div class="rounded-2xl border border-blue-100 p-7 shadow-sm"><p class="eyebrow">Booking</p><h2 class="mt-2 text-2xl font-black">Trip request form</h2><a class="btn-primary mt-5" href="/plan-a-trip/#trip-request-form">Open complete trip planner</a></div>
+  {% if contactForm.enabled !== false %}<div class="rounded-2xl border border-blue-100 p-7 shadow-sm"><p class="eyebrow">{{ contactForm.eyebrow }}</p><h2 class="mt-2 text-2xl font-black">{{ contactForm.heading }}</h2>{% if site.forms.contact_formspree %}<form class="mt-5 grid gap-4" action="{{ site.forms.contact_formspree }}" method="post"><label class="grid gap-1 font-bold">{{ contactForm.name_label }}<input class="rounded-md border border-slate-300 px-4 py-3 font-normal" name="name" required></label><label class="grid gap-1 font-bold">{{ contactForm.email_label }}<input class="rounded-md border border-slate-300 px-4 py-3 font-normal" type="email" name="email" required></label><label class="grid gap-1 font-bold">{{ contactForm.message_label }}<textarea class="min-h-40 rounded-md border border-slate-300 px-4 py-3 font-normal" name="message" required></textarea></label><button class="btn-primary" type="submit">{{ contactForm.submit_label }}</button></form>{% else %}<p class="mt-4 text-slate-600">{{ contactForm.endpoint_help }}</p>{% endif %}</div>{% endif %}
+  <div class="rounded-2xl border border-blue-100 p-7 shadow-sm"><p class="eyebrow">Messaging apps</p><h2 class="mt-2 text-2xl font-black">Choose your preferred app</h2>{% include "components/contact-channel-buttons.njk" %}</div>
+</section>
+
+
+===== FILE: src/destinations/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /destinations/
+title: Destinations
+summary: Explore Pakistan’s mountain regions, heritage cities, valleys, national parks and trekking gateways.
+seo:
+  title: "Destinations in Northern Pakistan | Karakoram Vision"
+  description: >-
+    Where to go in northern Pakistan - Skardu, Hunza, Deosai, Fairy Meadows, Shigar and Khaplu, with the best season for each. Start planning your route.
+---
+{% set heroItems = collections.journeys | keywordItems('hunza,skardu,gilgit,chitral,kashmir,deosai') | limit(6) %}
+{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = 'Where will you go next?' %}{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">Explore by place</p><h2>Popular destinations</h2><p>Each destination connects to relevant tours, treks, expeditions and travel guides.</p></div></header><div class="bk-destination-grid">
+{% set destinations = [
+['Hunza','Karakoram valleys, forts, villages and scenic road journeys','/search/?type=all&q=hunza'],
+['Skardu','Gateway to K2, Baltoro, Deosai and the eastern Karakoram','/search/?type=all&q=skardu'],
+['Gilgit-Baltistan','High-mountain travel across Pakistan’s northern regions','/search/?type=all&q=gilgit'],
+['Chitral & Kalash','Hindu Kush valleys, festivals and cultural travel','/search/?type=all&q=chitral'],
+['Kashmir','Alpine lakes, forest routes and mountain escapes','/search/?type=all&q=kashmir'],
+['Nanga Parbat Region','Base camps, Fairy Meadows and Himalayan routes','/search/?type=all&q=nanga%20parbat'],
+['Deosai Plateau','Wildlife, high plains and 4x4 journeys','/search/?type=all&q=deosai'],
+['Islamabad & Rawalpindi','Arrival services, city tours and road-trip gateways','/search/?type=all&q=islamabad'],
+['Lahore & Punjab','Heritage, food, architecture and cultural journeys','/search/?type=all&q=lahore']
+] %}
+{% for place in destinations %}<a href="{{ place[2] }}"><span>{{ loop.index }}</span><h3>{{ place[0] }}</h3><p>{{ place[1] }}</p></a>{% endfor %}</div></section>
+
+
+===== FILE: src/expeditions/8000m-peaks/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /expeditions/8000m-peaks/
+title: 8,000m Peak Expeditions
+summary: Explore Karakoram Vision Pakistan expedition pages connected with Pakistan's 8,000-metre peaks.
+service_type: expeditions
+structured_filter: 8000m-peaks
+filter_label: 8,000m Peaks
+filter_eyebrow: High-altitude expeditions
+seo:
+  title: "8000m Peak Expeditions in Pakistan | Karakoram Vision"
+  description: >-
+    Pakistan's 8,000m peaks - K2, Nanga Parbat, Gasherbrum I and II, Broad Peak - with permits, base camp and high-altitude support from Skardu.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+
+===== FILE: src/expeditions/fixed-departures/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /expeditions/fixed-departures/
+title: Fixed Departure Expeditions
+summary: Browse published climbing-expedition schedules and group departure opportunities.
+service_type: expeditions
+structured_filter: fixed-departures
+filter_label: Fixed Departures
+filter_eyebrow: Scheduled expeditions
+seo:
+  title: Fixed Departure Expeditions | Karakoram Vision Pakistan
+  description: >-
+    Expeditions with published dates this season - join an existing team for K2, Broad Peak, Gasherbrum or Spantik. See what is still open.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+
+===== FILE: src/expeditions/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /expeditions/
+title: Expeditions
+summary: Technical and non-technical mountaineering expeditions with logistics and local coordination.
+service_type: expeditions
+seo:
+  title: "Mountaineering Expeditions in Pakistan | Karakoram Vision"
+  description: >-
+    Expeditions in Pakistan - K2, Broad Peak, Gasherbrum, Nanga Parbat, Spantik and Trango. Permits, base camp and high-altitude support arranged from Skardu.
+---
+{% set items = collections | serviceCollection(service_type) %}
+{% include "components/catalog-landing.njk" %}
+
+
+===== FILE: src/holiday-types/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /holiday-types/
+title: Holiday Types
+summary: Find cultural tours, family holidays, luxury journeys, road trips, trekking holidays and weekend escapes.
+seo:
+  title: Holiday Types in Pakistan | Karakoram Vision Pakistan
+  description: >-
+    Cultural tours, family holidays, road trips, luxury travel and weekend escapes in northern Pakistan. Find the kind of trip that suits you.
+---
+{% set heroItems = collections.tours | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = 'Choose your travel style' %}{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">Travel your way</p><h2>Browse by holiday style</h2><p>Start with a category, then refine by destination, duration and interests.</p></div></header><div class="bk-destination-grid">
+{% set types = [
+['Cultural Tours','Heritage, food, architecture and living traditions','/search/?type=tours&q=cultural'],
+['Family Holidays','Flexible routes and family-friendly pacing','/search/?type=tours&q=family'],
+['Hiking Adventures','Day hikes, short treks and scenic walks','/search/?type=trekking&q=hike'],
+['Honeymoon Journeys','Private scenic journeys and premium stays','/search/?type=tours&q=honeymoon'],
+['Luxury Tours','Private transport, premium hotels and tailored service','/search/?type=tours&q=luxury'],
+['Road Trips','Multi-region journeys by private vehicle','/search/?type=tours&q=road%20trip'],
+['Trekking Holidays','Base camps, glaciers, passes and high valleys','/trekking/'],
+['Weekend Retreats','Short escapes from major cities','/search/?type=tours&q=weekend'],
+['Camping','Outdoor journeys and mountain camps','/search/?type=tours&q=camping']
+] %}
+{% for type in types %}<a href="{{ type[2] }}"><span>{{ loop.index }}</span><h3>{{ type[0] }}</h3><p>{{ type[1] }}</p></a>{% endfor %}</div></section>
+
+
+===== FILE: src/hunting-services/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /hunting-services/
+title: Licensed Hunting Services
+summary: Compliance-led logistics and travel coordination for officially authorized conservation programmes.
+service_type: hunting-services
+seo:
+  title: "Hunting Permits & Logistics in Pakistan | Karakoram Vision"
+  description: >-
+    Permit paperwork, trophy-area access, guides and camps for officially authorised ibex and markhor programmes in Gilgit-Baltistan. Ask about quotas.
+---
+{% set items = collections | serviceCollection(service_type) %}
+{% include "components/catalog-landing.njk" %}
+
+
+===== FILE: src/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /
+title: Karakoram Vision Pakistan
+seo:
+  title: "Pakistan Tours, Treks & K2 Expeditions | Karakoram Vision"
+  description: >-
+    Skardu-based tour operator for Pakistan: Hunza and Gilgit-Baltistan tours, Karakoram treks, 8,000m expeditions and jeep safaris. Plan your trip with us.
+---
+{% set hp = homePage or {} %}
+{% if hp.hero.enabled !== false %}
+  {% set heroItems = collections.journeys | limit(hp.hero.slides_count or 6) %}
+  {% set heroHeading = hp.hero.heading or 'Journey Beyond the Ordinary' %}
+  {% set heroSummary = hp.hero.summary or site.description %}
+  {% set heroEyebrow = hp.hero.eyebrow or site.tagline %}
+  {% set heroFinder = hp.hero.show_trip_finder !== false %}
+  {% include "components/landing-hero.njk" %}
+{% endif %}
+{% from "components/icon.njk" import icon %}
+
+{% for section in hp.section_order %}
+  {% if section == 'proof' and hp.proof.enabled !== false %}
+  <section class="bk-home-proof"><div class="bk-home-proof-inner"><div><p class="eyebrow">{{ hp.proof.eyebrow }}</p><h2>{{ hp.proof.heading }}</h2><p>{{ hp.proof.description }}</p></div>{% if site.ratings.google_url %}<a class="bk-proof-card" href="{{ site.ratings.google_url }}" target="_blank" rel="noopener">{{ icon('google') }}<span><strong>{{ site.ratings.google_score or 'Google' }}</strong><small>Google traveller reviews</small></span></a>{% endif %}{% if site.ratings.tripadvisor_url or site.social.tripadvisor %}<a class="bk-proof-card" href="{{ site.ratings.tripadvisor_url or site.social.tripadvisor }}" target="_blank" rel="noopener">{{ icon('tripadvisor') }}<span><strong>{{ site.ratings.tripadvisor_score or 'Tripadvisor' }}</strong><small>Tripadvisor reviews</small></span></a>{% endif %}</div></section>
+
+  {% elseif section == 'services' and hp.services.enabled !== false %}
+  <section class="bk-home-section"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.services.eyebrow }}</p><h2>{{ hp.services.heading }}</h2><p>{{ hp.services.description }}</p></div></header><div class="bk-service-grid">
+    {% if hp.services.cards and hp.services.cards.length %}{% for card in hp.services.cards %}<a href="{{ card.url }}"><span>0{{ loop.index }}</span><h3>{{ card.label }}</h3><p>{{ card.description }}</p><strong>Explore →</strong></a>{% endfor %}
+    {% else %}{% for nav in site.navigation %}<a href="{{ nav.url }}"><span>0{{ loop.index }}</span><h3>{{ nav.label }}</h3><p>Browse dedicated {{ nav.label | lower }} pages, routes and trip options.</p><strong>Explore →</strong></a>{% endfor %}{% endif %}
+  </div></section>
+
+  {% elseif section == 'latest' and hp.latest.enabled !== false %}
+  <section class="bk-home-section bk-home-section-muted"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.latest.eyebrow }}</p><h2>{{ hp.latest.heading }}</h2><p>{{ hp.latest.description }}</p></div><a class="bk-heading-link" href="{{ hp.latest.button_url }}">{{ hp.latest.button_label }}</a></header><div class="bk-card-grid">{% for item in collections.journeys | limit(hp.latest.card_count or 9) %}{% include "components/journey-card.njk" %}{% endfor %}</div></section>
+
+  {% elseif section == 'fixed' and hp.fixed.enabled !== false %}
+  {% set fixedItems = collections.journeys | keywordItems('fixed departure,departure dates,group departure') %}
+  <section class="bk-home-section"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.fixed.eyebrow }}</p><h2>{{ hp.fixed.heading }}</h2><p>{{ hp.fixed.description }}</p></div><a class="bk-heading-link" href="{{ hp.fixed.button_url }}">{{ hp.fixed.button_label }}</a></header><div class="bk-card-grid">{% for item in fixedItems | limit(hp.fixed.card_count or 6) %}{% include "components/journey-card.njk" %}{% else %}{% for item in collections.journeys | limit(hp.fixed.card_count or 6) %}{% include "components/journey-card.njk" %}{% endfor %}{% endfor %}</div></section>
+
+  {% elseif section == 'destinations' and hp.destinations.enabled !== false %}
+  <section class="bk-destination-section"><div class="bk-section-heading"><div><p class="eyebrow">{{ hp.destinations.eyebrow }}</p><h2>{{ hp.destinations.heading }}</h2><p>{{ hp.destinations.description }}</p></div><a class="bk-heading-link" href="{{ hp.destinations.button_url }}">{{ hp.destinations.button_label }}</a></div><div class="bk-destination-grid">{% for place in hp.destinations.items %}<a href="{{ place.url }}"><span>{{ loop.index }}</span><h3>{{ place.title }}</h3><p>{{ place.description }}</p></a>{% endfor %}</div></section>
+
+  {% elseif section == 'vehicles' and hp.vehicles.enabled !== false %}
+  <section class="bk-home-section bk-home-section-muted"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.vehicles.eyebrow }}</p><h2>{{ hp.vehicles.heading }}</h2><p>{{ hp.vehicles.description }}</p></div><a class="bk-heading-link" href="{{ hp.vehicles.button_url }}">{{ hp.vehicles.button_label }}</a></header><div class="bk-card-grid">{% for item in collections.vehicles | limit(hp.vehicles.card_count or 4) %}{% include "components/vehicle-card.njk" %}{% endfor %}</div></section>
+
+  {% elseif section == 'trust' and hp.trust.enabled !== false %}
+  <section class="bk-trust-section"><div><p class="eyebrow">{{ hp.trust.eyebrow }}</p><h2>{{ hp.trust.heading }}</h2><p>{{ hp.trust.description }}</p></div><div class="bk-trust-grid">{% for point in hp.trust.items %}<article><strong>{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</strong><h3>{{ point.title }}</h3><p>{{ point.description }}</p></article>{% endfor %}</div></section>
+
+  {% elseif section == 'reviews' and hp.reviews.enabled !== false %}
+  {# Yeh section JS tab dikhata hai jab koi review publish ho - khali section nazar nahi aata #}
+  <section class="bk-home-section" data-reviews-section hidden><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.reviews.eyebrow }}</p><h2>{{ hp.reviews.heading }}</h2><p>{{ hp.reviews.description }}</p></div><a class="bk-heading-link" href="{{ hp.reviews.button_url or '/guest-reviews/' }}">{{ hp.reviews.button_label or 'Read all reviews' }}</a></header><div data-reviews-list data-reviews-limit="{{ hp.reviews.card_count or 3 }}" class="mt-8 grid gap-5 md:grid-cols-3"></div><script src="/assets/js/guest-reviews.js?v=11.1.0" defer></script></section>
+  {% elseif section == 'guides' and hp.guides.enabled !== false %}
+  <section class="bk-home-section"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.guides.eyebrow }}</p><h2>{{ hp.guides.heading }}</h2><p>{{ hp.guides.description }}</p></div><a class="bk-heading-link" href="{{ hp.guides.button_url }}">{{ hp.guides.button_label }}</a></header><div class="bk-card-grid">{% for item in collections.posts | limit(hp.guides.card_count or 6) %}{% include "components/post-card.njk" %}{% endfor %}</div></section>
+
+  {% elseif section == 'resources' and hp.resources.enabled !== false %}
+  <section class="bk-home-section bk-home-section-muted"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.resources.eyebrow }}</p><h2>{{ hp.resources.heading }}</h2><p>{{ hp.resources.description }}</p></div><a class="bk-heading-link" href="{{ hp.resources.button_url }}">{{ hp.resources.button_label }}</a></header><div class="bk-service-grid">{% for resource in hp.resources.items %}<a href="{{ resource.url }}"><span>{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</span><h3>{{ resource.title }}</h3><p>{{ resource.description }}</p><strong>{{ resource.link_label or 'Learn more' }} →</strong></a>{% endfor %}</div></section>
+
+  {% elseif section == 'faqs' and hp.faqs.enabled !== false %}
+  <section class="bk-home-faq"><header><p class="eyebrow">{{ hp.faqs.eyebrow }}</p><h2>{{ hp.faqs.heading }}</h2></header><div class="bk-home-faq-list">{% for faq in site.home_faqs %}<details><summary>{{ faq.question }}</summary><p>{{ faq.answer }}</p></details>{% else %}<p>Add homepage FAQs in Pages CMS → Site Identity, Logos, Contacts & Social.</p>{% endfor %}</div></section>
+
+  {% elseif section == 'cta' and hp.cta.enabled !== false %}
+  <section class="bk-home-contact"><div><p class="eyebrow">{{ hp.cta.eyebrow }}</p><h2>{{ hp.cta.heading }}</h2><p>{{ hp.cta.description }}</p></div><a href="{{ hp.cta.button_url }}">{{ hp.cta.button_label }}</a></section>
+  {% endif %}
+{% endfor %}
+
+
+===== FILE: src/international-travelers/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /international-travelers/
+title: International Travelers
+summary: Practical information, destination ideas, group journeys and planning support for visitors traveling to Pakistan.
+seo:
+  title: "Travel to Pakistan: Guide for Visitors | Karakoram Vision"
+  description: >-
+    Planning Pakistan from abroad: visa and permit basics, flights to Skardu, what a trip really costs, and the support you get on the ground.
+---
+{% set heroItems = collections.journeys | keywordItems('hunza,k2,kalash,nanga parbat,islamabad') | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = 'Arrive informed' %}{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">Plan with confidence</p><h2>Useful starting points</h2><p>Research destinations, city tours, travel insurance, group journeys and local transport.</p></div></header><div class="bk-destination-grid">
+{% set links = [
+['Pakistan Travel Information','Culture, transport, safety and practical guidance','/blog/'],
+['Travel Insurance Guidance','Read current travel-insurance guides and considerations','/search/?type=blog&q=travel%20insurance'],
+['Best Sellers','Popular routes for first-time and returning visitors','/search/?type=all&q=best'],
+['City Tours','Islamabad, Lahore, Peshawar and Karachi experiences','/search/?type=tours&q=city'],
+['Group Tours','Join scheduled journeys or request a private group','/search/?type=tours&q=group'],
+['Tour Calendar','Search fixed departures and upcoming programmes','/search/?type=all&q=fixed%20departure'],
+['Vehicle Support','Airport, city and mountain transport options','/vehicles/'],
+['Plan a Custom Trip','Share your route, dates and group requirements','/plan-a-trip/']
+] %}
+{% for link in links %}<a href="{{ link[2] }}"><span>{{ loop.index }}</span><h3>{{ link[0] }}</h3><p>{{ link[1] }}</p></a>{% endfor %}</div></section>
+
+
+===== FILE: src/jeep-safaris/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /jeep-safaris/
+title: Jeep Safaris
+summary: Mountain road journeys, remote valley access and private 4x4 safari programmes.
+service_type: jeep-safaris
+seo:
+  title: "Jeep Safaris in Pakistan - 4x4 Tours | Karakoram Vision"
+  description: >-
+    Private 4x4 journeys through Deosai, Shigar, Basho and Khaplu, from 5 to 22 days, with driver and hotels. Compare routes and ask for open-season dates.
+---
+{% set items = collections | serviceCollection(service_type) %}
+{% include "components/catalog-landing.njk" %}
+
+
+===== FILE: src/news/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /news/
+title: News & Updates
+summary: Expedition updates, destination stories, travel announcements and new Karakoram Vision Pakistan journeys.
+seo:
+  title: "Travel News & Updates | Karakoram Vision Pakistan"
+  description: >-
+    Expedition news, new routes, and road and season updates from Gilgit-Baltistan, posted by the Karakoram Vision team in Skardu.
+---
+{% set heroItems = collections.posts | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = 'Stories from the mountains' %}{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">Latest</p><h2>Travel stories and updates</h2><p>Browse our latest guides and expedition-related articles.</p></div><a class="bk-heading-link" href="/blog/">All travel guides</a></header><div class="bk-card-grid">{% for item in collections.posts | limit(18) %}{% include "components/post-card.njk" %}{% endfor %}</div></section>
+
+
+===== FILE: src/plan-a-trip/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /plan-a-trip/
+title: Plan a Custom Trip
+summary: Tell Karakoram Vision Pakistan where you want to travel and our team will prepare a tailored proposal.
+seo:
+  title: "Plan a Custom Pakistan Trip | Karakoram Vision Pakistan"
+  description: >-
+    Tell us your dates, group size and interests, and get a private itinerary with costs for a tour, trek or expedition. You decide after you see the plan.
+---
+{% set form = formsConfig.plan_trip %}
+{% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = 'Plan a Trip' %}{% set heroSummary = summary %}{% set heroEyebrow = 'Custom journey planner' %}{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+{% if form.enabled !== false %}
+<section id="trip-request-form" class="bk-trip-request-anchor mx-auto max-w-5xl px-4 py-12" data-trip-request-section tabindex="-1">
+  <div class="mb-8"><p class="eyebrow">{{ form.eyebrow }}</p><h2 class="mt-2 text-4xl font-black">{{ form.heading }}</h2><p class="mt-3 text-slate-600">{{ form.description }}</p></div>
+  <form action="/api/trip-request" method="post" data-trip-planner class="grid gap-5 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm md:grid-cols-2 md:p-9">
+    <input type="hidden" name="request_type" value="trip">
+    {% if form.fields.name.enabled !== false %}<label class="grid gap-2 font-bold">{{ form.fields.name.label }}<input class="rounded-md border border-slate-300 px-4 py-3 font-normal" name="name"{% if form.fields.name.required %} required{% endif %} autocomplete="name"{% if form.fields.name.placeholder %} placeholder="{{ form.fields.name.placeholder }}"{% endif %}></label>{% endif %}
+    {% if form.fields.email.enabled !== false %}<label class="grid gap-2 font-bold">{{ form.fields.email.label }}<input class="rounded-md border border-slate-300 px-4 py-3 font-normal" type="email" name="email"{% if form.fields.email.required %} required{% endif %} autocomplete="email"{% if form.fields.email.placeholder %} placeholder="{{ form.fields.email.placeholder }}"{% endif %}></label>{% endif %}
+    {% if form.fields.phone.enabled !== false %}<label class="grid gap-2 font-bold">{{ form.fields.phone.label }}<input class="rounded-md border border-slate-300 px-4 py-3 font-normal" name="phone"{% if form.fields.phone.required %} required{% endif %} autocomplete="tel"{% if form.fields.phone.placeholder %} placeholder="{{ form.fields.phone.placeholder }}"{% endif %}></label>{% endif %}
+    {% if form.fields.service.enabled !== false %}<label class="grid gap-2 font-bold">{{ form.fields.service.label }}<select class="rounded-md border border-slate-300 px-4 py-3 font-normal" name="service"{% if form.fields.service.required %} required{% endif %}>{% for option in form.service_options %}<option value="{{ option }}">{{ option }}</option>{% endfor %}</select></label>{% endif %}
+    {% if form.fields.journey.enabled !== false %}<label class="grid gap-2 font-bold md:col-span-2">{{ form.fields.journey.label }}<input class="rounded-md border border-slate-300 px-4 py-3 font-normal" name="journey"{% if form.fields.journey.required %} required{% endif %} placeholder="{{ form.fields.journey.placeholder }}"></label>{% endif %}
+    {% if form.fields.start_date.enabled !== false %}<label class="grid gap-2 font-bold">{{ form.fields.start_date.label }}<input class="rounded-md border border-slate-300 px-4 py-3 font-normal" type="date" name="start_date"{% if form.fields.start_date.required %} required{% endif %}></label>{% endif %}
+    {% if form.fields.end_date.enabled !== false %}<label class="grid gap-2 font-bold">{{ form.fields.end_date.label }}<input class="rounded-md border border-slate-300 px-4 py-3 font-normal" type="date" name="end_date"{% if form.fields.end_date.required %} required{% endif %}></label>{% endif %}
+    {% if form.fields.travelers.enabled !== false %}<label class="grid gap-2 font-bold">{{ form.fields.travelers.label }}<input class="rounded-md border border-slate-300 px-4 py-3 font-normal" type="number" min="1" name="travelers"{% if form.fields.travelers.required %} required{% endif %}
+    {% if form.fields.nationality.enabled !== false %}<label class="grid gap-2 font-bold">{{ form.fields.nationality.label }}<input class="rounded-md border border-slate-300 px-4 py-3 font-normal" name="nationality"{% if form.fields.nationality.required %} required{% endif %} autocomplete="country-name"{% if form.fields.nationality.placeholder %} placeholder="{{ form.fields.nationality.placeholder }}"{% endif %}></label>{% endif %}
+    {% if form.fields.gender.enabled !== false %}<label class="grid gap-2 font-bold">{{ form.fields.gender.label }}<select class="rounded-md border border-slate-300 px-4 py-3 font-normal" name="gender"{% if form.fields.gender.required %} required{% endif %}>{% for option in form.gender_options %}<option value="{{ option }}">{{ option }}</option>{% endfor %}</select></label>{% endif %}></label>{% endif %}
+    {% if form.fields.budget.enabled !== false %}<label class="grid gap-2 font-bold">{{ form.fields.budget.label }}<input class="rounded-md border border-slate-300 px-4 py-3 font-normal" name="budget"{% if form.fields.budget.required %} required{% endif %} placeholder="{{ form.fields.budget.placeholder }}"></label>{% endif %}
+    {% if form.fields.destination.enabled !== false %}<label class="grid gap-2 font-bold md:col-span-2">{{ form.fields.destination.label }}<input class="rounded-md border border-slate-300 px-4 py-3 font-normal" name="destination"{% if form.fields.destination.required %} required{% endif %}></label>{% endif %}
+    {% if form.fields.requirements.enabled !== false %}<label class="grid gap-2 font-bold md:col-span-2">{{ form.fields.requirements.label }}<textarea class="min-h-40 rounded-md border border-slate-300 px-4 py-3 font-normal" name="requirements"{% if form.fields.requirements.required %} required{% endif %} placeholder="{{ form.fields.requirements.placeholder }}"></textarea></label>{% endif %}
+    <div class="md:col-span-2"><button class="btn-primary" type="submit">{{ form.submit_label }}</button>{% if form.fallback_note %}<p class="mt-3 text-sm text-slate-600">{{ form.fallback_note }}</p>{% endif %}</div>
+  </form>
+</section>
+{% endif %}
+<section class="bk-plan-direct-contact" aria-labelledby="plan-direct-contact-heading"><p class="eyebrow">Prefer instant messaging?</p><h2 id="plan-direct-contact-heading">Email, WhatsApp or another contact app</h2><p>Use the channel most familiar in your country.</p>{% include "components/contact-channel-buttons.njk" %}</section>
+
+
+===== FILE: src/search/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /search/
+title: Search Karakoram Vision Pakistan
+summary: Search tours, trekking routes, expeditions, jeep safaris, travel guides and vehicles.
+seo:
+  title: "Search | Karakoram Vision Pakistan"
+  description: >-
+    Search tours, treks, expeditions, jeep safaris, vehicles and travel guides across the Karakoram Vision Pakistan website.
+  robots: noindex, follow
+---
+<section class="bg-slate-950 py-16 text-white">
+  <div class="mx-auto max-w-7xl px-4">
+    <p class="eyebrow text-blue-200">Site search</p>
+    <h1 class="mt-3 text-4xl font-black md:text-6xl">Search Karakoram Vision Pakistan</h1>
+    <p class="mt-4 max-w-3xl text-slate-200">Find tours, trekking, expeditions, guides and services.</p>
+  </div>
+</section>
+<section class="mx-auto max-w-7xl px-4 py-12" data-catalog-search-page>
+  <form action="/search/" method="get" autocomplete="off" data-global-search-main class="grid gap-3 rounded-xl border border-slate-200 bg-slate-50 p-4 md:grid-cols-[180px_1fr_auto]" data-catalog-search-form hx-boost="false">
+    <select name="type" class="rounded-md border border-slate-300 bg-white px-4 py-3" aria-label="Content type">
+      <option value="all">All content</option><option value="tours">Tours</option><option value="trekking">Trekking</option><option value="expeditions">Expeditions</option><option value="jeep-safaris">Jeep Safaris</option><option value="hunting-services">Hunting Services</option><option value="blog">Travel Guides</option><option value="vehicles">Vehicles</option><option value="pages">Destinations & Pages</option>
+    </select>
+    <input class="rounded-md border border-slate-300 bg-white px-4 py-3" type="search" name="q" autocomplete="off" placeholder="Search by destination, activity or route" aria-label="Search query">
+    <input type="hidden" name="filter" value="">
+    <button class="btn-primary" type="submit">Search</button>
+  </form>
+  <div class="mt-4 flex min-h-10 flex-wrap gap-2" id="active-search-filters" aria-label="Active search filters"></div>
+  <div class="mt-3 flex flex-wrap items-center justify-between gap-3">
+    <p id="search-context" class="text-sm font-bold text-slate-700" aria-live="polite">Choose a category or enter a search term.</p>
+    <a class="text-sm font-bold text-blue-800 hover:text-orange-600" href="/journey-categories/">Browse all journey categories →</a>
+  </div>
+  <div id="search-results" class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3" aria-live="polite" aria-busy="false">
+    <p class="col-span-full rounded-xl bg-slate-50 p-8 text-slate-600">Choose a category or enter a search term above.</p>
+  </div>
+</section>
+
+
+===== FILE: src/social-responsibility/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /social-responsibility/
+title: Social Responsibility
+summary: Responsible travel, local employment, conservation and community respect across our journeys.
+seo:
+  title: Social Responsibility | Karakoram Vision Pakistan
+  description: >-
+    How we work with porters, local staff and mountain communities, and what we do about waste on trekking and expedition routes.
+---
+{% set heroItems = collections.journeys | keywordItems('eco,community,wildlife,conservation') | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = 'Responsible travel' %}{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+<section class="mx-auto grid max-w-5xl gap-6 px-4 py-12 md:grid-cols-3"><article class="rounded-2xl border border-blue-100 p-6"><h2 class="text-xl font-black">Local communities</h2><p class="mt-3 text-slate-700">Priority for local guides, drivers, porters, suppliers and community partners.</p></article><article class="rounded-2xl border border-blue-100 p-6"><h2 class="text-xl font-black">Conservation</h2><p class="mt-3 text-slate-700">Low-impact practices, waste awareness and compliance with protected-area requirements.</p></article><article class="rounded-2xl border border-blue-100 p-6"><h2 class="text-xl font-black">Safe and lawful travel</h2><p class="mt-3 text-slate-700">Permits, licensed services and transparent traveler guidance for every regulated activity.</p></article></section>
+
+
+===== FILE: src/special-interests/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /special-interests/
+title: Special Interests
+summary: Cycle touring, eco travel, motorcycle journeys, mountain passes, festivals, photography and winter adventures.
+seo:
+  title: "Special Interest Tours in Pakistan | Karakoram Vision"
+  description: >-
+    Cycling, motorcycling, photography, festivals, winter travel and eco tourism in northern Pakistan - trips built around one interest. Ask for ideas.
+---
+{% set heroItems = collections.journeys | keywordItems('cycle,festival,mountain pass,winter,photography,eco') | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = 'Travel around your passion' %}{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">Focused journeys</p><h2>Choose an interest</h2><p>Use these categories to discover experiences beyond standard sightseeing.</p></div></header><div class="bk-destination-grid">
+{% set interests = [
+['Cycle Touring','Long-distance road and valley cycling programmes','/search/?type=tours&q=cycle'],
+['Eco Tourism','Nature, wildlife and community-conscious travel','/search/?type=tours&q=eco'],
+['Motorcycle Touring','Scenic road journeys and high-pass routes','/search/?type=tours&q=motorcycle'],
+['Mountain Passes','Trekking routes across high passes','/search/?type=trekking&q=pass'],
+['Festivals of Pakistan','Cultural celebrations and seasonal events','/search/?type=tours&q=festival'],
+['Photography Tours','Landscapes, culture and wildlife photography','/search/?type=tours&q=photography'],
+['Winter Adventures','Snow journeys, festivals and winter landscapes','/search/?type=tours&q=winter'],
+['Rock Climbing','Climbing routes and expedition-style support','/search/?type=expeditions&q=rock%20climbing']
+] %}
+{% for interest in interests %}<a href="{{ interest[2] }}"><span>{{ loop.index }}</span><h3>{{ interest[0] }}</h3><p>{{ interest[1] }}</p></a>{% endfor %}</div></section>
+
+
+===== FILE: src/tours/cultural-tours/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /tours/cultural-tours/
+title: Cultural Tours
+summary: Explore heritage, history, festivals, communities and cultural landscapes across Pakistan.
+service_type: tours
+structured_filter: cultural-tours
+filter_label: Cultural Tours
+filter_eyebrow: Culture and heritage
+seo:
+  title: "Cultural Tours in Pakistan | Karakoram Vision Pakistan"
+  description: >-
+    Forts, festivals, Balti and Burusho villages, and the people of the Karakoram - tours built around culture rather than distance covered.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+
+===== FILE: src/tours/fixed-departures/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /tours/fixed-departures/
+title: Fixed Departure Tours
+summary: Browse scheduled group tours and published departure opportunities from Karakoram Vision Pakistan.
+service_type: tours
+structured_filter: fixed-departures
+filter_label: Fixed Departures
+filter_eyebrow: Scheduled tours
+seo:
+  title: "Fixed Departure Tours in Pakistan | Karakoram Vision"
+  description: >-
+    Group tours with published dates - join other travellers instead of booking privately, and share the cost of transport and guide.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+
+===== FILE: src/tours/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /tours/
+title: Tours
+summary: Cultural journeys, sightseeing, family holidays and custom travel programmes.
+service_type: tours
+seo:
+  title: "Pakistan Tour Packages - Hunza & Skardu | Karakoram Vision"
+  description: >-
+    Pakistan tour packages from 7 to 16 days - Hunza, Skardu, Deosai and Khaplu, with hotels, transport and a local guide. Compare trips and ask for dates.
+---
+{% set items = collections | serviceCollection(service_type) %}
+{% include "components/catalog-landing.njk" %}
+
+
+===== FILE: src/travel-resources/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /travel-resources/
+title: Travel Resources
+seo:
+  title: "Pakistan Travel Resources & Permits | Karakoram Vision"
+  description: >-
+    Permits, packing, insurance, altitude and gear - the practical pages worth reading before a trek or expedition in Pakistan.
+---
+<section class="bk-page-hero-simple"><div><p class="eyebrow">Prepare with confidence</p><h1>Travel Resources</h1><p>Use these guides as a starting point for fitness, gear, insurance, health, visas, altitude and responsible mountain travel. Final requirements vary by route and season.</p></div></section>
+<section class="bk-resources-shell"><div class="bk-resource-grid">
+  {% set resources = [
+    ['Trip preparedness','Fitness, training and realistic expectations for active journeys.','/search/?type=blog&q=preparation'],
+    ['Gear & packing','Layering, footwear, sleeping systems and technical equipment.','/search/?type=blog&q=packing'],
+    ['Travel insurance','Coverage considerations for trekking, altitude and evacuation.','/search/?type=blog&q=insurance'],
+    ['Health & altitude','Acclimatization, hydration, medication discussions and warning signs.','/search/?type=blog&q=altitude'],
+    ['Pakistan travel information','Transport, culture, money, connectivity and arrival guidance.','/international-travelers/'],
+    ['Permits & compliance','Route permits, restricted areas, climbing and wildlife programme rules.','/contact-us/'],
+    ['Responsible travel','Local communities, conservation, waste and respectful conduct.','/social-responsibility/'],
+    ['Frequently asked questions','Fast answers about bookings, groups, safety and customization.','/faqs/'],
+    ['Vehicles & logistics','Road transfers, expedition cargo and mountain-access transport.','/vehicles/']
+  ] %}
+  {% for resource in resources %}<article class="bk-resource-card"><span>Resource {{ loop.index }}</span><h2>{{ resource[0] }}</h2><p>{{ resource[1] }}</p><a href="{{ resource[2] }}">Open resource →</a></article>{% endfor %}
+</div><section class="bk-home-contact"><div><p class="eyebrow">Need a specific answer?</p><h2>Talk directly with the travel team</h2><p>Choose email, phone, WhatsApp, Telegram, Messenger, LINE, WeChat, Viber, KakaoTalk, VK or another configured channel.</p></div><button type="button" class="btn-primary" data-open-contact>Choose contact app</button></section></section>
+
+
+===== FILE: src/trekking/best-sellers/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /trekking/best-sellers/
+title: Best-Selling Treks
+summary: Explore featured and most-requested trekking journeys from Karakoram Vision Pakistan.
+service_type: trekking
+structured_filter: best-sellers
+filter_label: Best Sellers
+filter_eyebrow: Featured trekking journeys
+seo:
+  title: "Best-Selling Treks in Pakistan | Karakoram Vision"
+  description: >-
+    The treks travellers ask for most: K2 base camp, Fairy Meadows, Rakaposhi and Nangma valley. Compare days, difficulty and the right season.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+
+===== FILE: src/trekking/fixed-departures/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /trekking/fixed-departures/
+title: Fixed Departure Treks
+summary: Browse scheduled trekking departures, published dates and group journeys across the Karakoram, Himalaya and Hindu Kush.
+service_type: trekking
+structured_filter: fixed-departures
+filter_label: Fixed Departures
+filter_eyebrow: Scheduled trekking journeys
+seo:
+  title: "Fixed Departure Treks in Pakistan | Karakoram Vision"
+  description: >-
+    Treks with set dates you can join as an individual or a small group, from Baltoro to Nagar valley. See this season's departures.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+
+===== FILE: src/trekking/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /trekking/
+title: Trekking
+summary: High-altitude treks, base-camp routes, glacier crossings and short mountain hikes.
+service_type: trekking
+seo:
+  title: "Trekking in Pakistan - Karakoram Treks | Karakoram Vision"
+  description: >-
+    Karakoram treks from 7 to 22 days, from Rakaposhi base camp to K2 and Gondogoro La. Permits, porters and guides arranged. Compare routes and seasons.
+---
+{% set items = collections | serviceCollection(service_type) %}
+{% include "components/catalog-landing.njk" %}
+
+
+===== FILE: src/trekking/k2-treks/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /trekking/k2-treks/
+title: K2 Treks
+summary: Explore K2 Base Camp, Gondogoro La and related Karakoram trekking routes.
+service_type: trekking
+structured_filter: k2-treks
+filter_label: K2 Treks
+filter_eyebrow: K2 trekking collection
+seo:
+  title: "K2 Treks & Baltoro Glacier Routes | Karakoram Vision"
+  description: >-
+    Routes to K2 base camp - the classic Baltoro trek and the Gondogoro La circuit - with permits, porters and guides arranged from Skardu.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+
+===== FILE: src/trip-calendar/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /trip-calendar/
+title: Trip Calendar
+seo:
+  title: "Trip Calendar & Fixed Departures | Karakoram Vision"
+  description: >-
+    See which tours, treks and expeditions have fixed dates this season, and which can be arranged privately on dates that suit you.
+---
+<section class="bk-page-hero-simple"><div><p class="eyebrow">Plan by date</p><h1>Trip Calendar</h1><p>Browse scheduled departures, availability and starting prices. Exact dates, permits and places remain subject to confirmation by our travel team.</p></div></section>
+<section class="bk-calendar-shell">
+  <div class="bk-calendar-intro"><div><p class="eyebrow">Scheduled journeys</p><h2 class="text-3xl font-black">Upcoming departure options</h2></div><a class="btn-primary" href="/plan-a-trip/#trip-request-form">Request custom dates</a></div>
+  <div class="bk-calendar-grid">
+    {% for item in collections.journeys | limit(150) %}
+      {% if item.data.departure_details and item.data.departure_details.length %}
+        {% for departure in item.data.departure_details | limit(3) %}
+        <article class="bk-calendar-card"><div><a class="bk-calendar-title" href="{{ item.url }}">{{ item.data.title }}</a><p class="bk-calendar-meta">{{ item.data.service_label }}{% if item.data.destination %} · {{ item.data.destination }}{% endif %}</p></div><div><small>Dates</small><strong>{{ departure.dates or departure.date }}</strong></div><div><small>Status</small><strong>{{ departure.status or 'Ask us' }}</strong></div><div><small>Deposit</small><strong>{{ departure.deposit or item.data.deposit or 'Ask us' }}</strong></div><div><small>Price</small><strong>{{ departure.price or item.data.price_from or 'Ask us' }}</strong></div><a href="/plan-a-trip/?journey={{ item.data.title | urlencode }}&start={{ (departure.dates or departure.date) | urlencode }}#trip-request-form">Inquire</a></article>
+        {% endfor %}
+      {% elseif item.data.departures and item.data.departures.length %}
+        {% for departure in item.data.departures | limit(2) %}<article class="bk-calendar-card"><div><a class="bk-calendar-title" href="{{ item.url }}">{{ item.data.title }}</a><p class="bk-calendar-meta">{{ item.data.service_label }}{% if item.data.destination %} · {{ item.data.destination }}{% endif %}</p></div><div><small>Dates</small><strong>{{ departure }}</strong></div><div><small>Status</small><strong>{{ item.data.trip_status or 'On request' }}</strong></div><div><small>Duration</small><strong>{{ item.data.duration or 'Ask us' }}</strong></div><div><small>Price</small><strong>{{ item.data.price_from or 'Ask us' }}</strong></div><a href="/plan-a-trip/?journey={{ item.data.title | urlencode }}&start={{ departure | urlencode }}#trip-request-form">Inquire</a></article>{% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="bk-landing-cta"><div><p class="eyebrow">Private departure</p><h2>None of these dates work?</h2><p>Send your preferred dates, travelers, budget and journey style. Our team will review route feasibility and availability.</p></div><a href="/plan-a-trip/#trip-request-form">Plan private dates</a></div>
+</section>
+
+
+===== FILE: src/vehicles/index.njk =====
+---
+layout: layouts/base.njk
+permalink: /vehicles/
+title: Vehicles
+summary: Mountain jeeps, SUVs, vans, coasters and transport options for tours and expeditions.
+seo:
+  title: "Vehicle Rental in Skardu & Gilgit | Karakoram Vision"
+  description: >-
+    Hire a Prado, Hiace or Coaster with an experienced mountain driver for Skardu, Hunza and Karakoram Highway travel. Ask for daily or per-trip rates.
+---
+{% set heroItems = collections.vehicles | limit(6) %}
+{% set heroHeading = title %}
+{% set heroSummary = summary %}
+{% set heroEyebrow = 'Ground transport' %}
+{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">Choose your transport</p><h2>Available vehicles</h2><p>Request availability and a route-based quote through the trip planner.</p></div><span class="bk-count-pill">{{ collections.vehicles.length }} vehicles</span></header><div class="bk-card-grid">{% for item in collections.vehicles %}{% include "components/vehicle-card.njk" %}{% endfor %}</div></section>

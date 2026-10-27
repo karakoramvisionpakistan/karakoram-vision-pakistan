@@ -7,7 +7,9 @@ seo:
   description: >-
     See which tours, treks and expeditions have fixed dates this season, and which can be arranged privately on dates that suit you.
 ---
-<section class="bk-page-hero-simple"><div><p class="eyebrow">Plan by date</p><h1>Trip Calendar</h1><p>Browse scheduled departures, availability and starting prices. Exact dates, permits and places remain subject to confirmation by our travel team.</p></div></section>
+{% set lp = landing[page.url] or {} %}
+
+<section class="bk-page-hero-simple"><div><p class="eyebrow">{{ lp.hero_eyebrow or 'Plan by date' }}</p><h1>{{ lp.title or 'Trip Calendar' }}</h1><p>{{ lp.summary or 'Browse scheduled departures, availability and starting prices. Exact dates, permits and places remain subject to confirmation by our travel team.' }}</p></div></section>
 <section class="bk-calendar-shell">
   <div class="bk-calendar-intro"><div><p class="eyebrow">Scheduled journeys</p><h2 class="text-3xl font-black">Upcoming departure options</h2></div><a class="btn-primary" href="/plan-a-trip/#trip-request-form">Request custom dates</a></div>
   <div class="bk-calendar-grid">
@@ -21,5 +23,5 @@ seo:
       {% endif %}
     {% endfor %}
   </div>
-  <div class="bk-landing-cta"><div><p class="eyebrow">Private departure</p><h2>None of these dates work?</h2><p>Send your preferred dates, travelers, budget and journey style. Our team will review route feasibility and availability.</p></div><a href="/plan-a-trip/#trip-request-form">Plan private dates</a></div>
+  <div class="bk-landing-cta"><div><p class="eyebrow">{{ lp.section_eyebrow or 'Private departure' }}</p><h2>{{ lp.section_heading or 'None of these dates work?' }}</h2><p>{{ lp.section_intro or 'Send your preferred dates, travelers, budget and journey style. Our team will review route feasibility and availability.' }}</p></div><a href="/plan-a-trip/#trip-request-form">Plan private dates</a></div>
 </section>

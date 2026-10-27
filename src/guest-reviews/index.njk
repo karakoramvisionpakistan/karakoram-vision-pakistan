@@ -8,7 +8,9 @@ seo:
   description: >-
     Read what travellers say after their trips with Karakoram Vision Pakistan - and leave your own review if you have travelled with our team.
 ---
-{% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = 'Traveler experiences' %}{% set heroCompact = true %}
+{% set lp = landing[page.url] or {} %}
+
+{% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = lp.hero_eyebrow or 'Traveler experiences' %}{% set heroCompact = true %}
 {% include "components/landing-hero.njk" %}
 <section class="mx-auto max-w-5xl px-4 pt-12"><h2 class="text-2xl font-black">What our guests say</h2>
 <div data-reviews-list class="mt-6 grid gap-5 md:grid-cols-2"></div>

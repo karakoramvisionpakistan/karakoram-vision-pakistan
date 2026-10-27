@@ -1,0 +1,185 @@
+[
+  {
+    "kahan": "content[19].fields[1]",
+    "screen": {
+      "name": "navigation",
+      "label": "Homepage service cards (legacy fallback)",
+      "type": "object",
+      "list": true,
+      "fields": [
+        {
+          "name": "label",
+          "label": "Label",
+          "type": "string"
+        },
+        {
+          "name": "url",
+          "label": "URL",
+          "type": "string"
+        }
+      ]
+    }
+  },
+  {
+    "kahan": "content[20].fields[7]",
+    "screen": {
+      "name": "navigation",
+      "label": "Navigation row",
+      "type": "object",
+      "fields": [
+        {
+          "name": "enabled",
+          "label": "Show navigation",
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "name": "mobile_button_label",
+          "label": "Mobile menu button label",
+          "type": "string"
+        }
+      ]
+    }
+  },
+  {
+    "kahan": "content[21]",
+    "screen": {
+      "name": "navigation",
+      "label": "13 — Menus (what shows in the navbar)",
+      "type": "file",
+      "path": "src/_data/menu.json",
+      "operations": {
+        "delete": false,
+        "rename": false
+      },
+      "fields": [
+        {
+          "name": "items",
+          "label": "Menu items (drag to reorder)",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "label",
+              "label": "Label",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "url",
+              "label": "URL",
+              "type": "string"
+            },
+            {
+              "name": "icon",
+              "label": "Icon/star",
+              "type": "string"
+            },
+            {
+              "name": "featured",
+              "label": "Featured style",
+              "type": "boolean",
+              "default": false
+            },
+            {
+              "name": "enabled",
+              "label": "Visible",
+              "type": "boolean",
+              "default": true
+            },
+            {
+              "name": "target_blank",
+              "label": "Open in new tab",
+              "type": "boolean",
+              "default": false
+            },
+            {
+              "name": "children",
+              "label": "Submenu items",
+              "type": "object",
+              "list": true,
+              "fields": [
+                {
+                  "name": "label",
+                  "label": "Label",
+                  "type": "string",
+                  "required": true
+                },
+                {
+                  "name": "url",
+                  "label": "URL",
+                  "type": "string"
+                },
+                {
+                  "name": "icon",
+                  "label": "Icon/star",
+                  "type": "string"
+                },
+                {
+                  "name": "featured",
+                  "label": "Featured style",
+                  "type": "boolean",
+                  "default": false
+                },
+                {
+                  "name": "enabled",
+                  "label": "Visible",
+                  "type": "boolean",
+                  "default": true
+                },
+                {
+                  "name": "target_blank",
+                  "label": "Open in new tab",
+                  "type": "boolean",
+                  "default": false
+                },
+                {
+                  "name": "children",
+                  "label": "Third-level items",
+                  "type": "object",
+                  "list": true,
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Label",
+                      "type": "string",
+                      "required": true
+                    },
+                    {
+                      "name": "url",
+                      "label": "URL",
+                      "type": "string"
+                    },
+                    {
+                      "name": "icon",
+                      "label": "Icon/star",
+                      "type": "string"
+                    },
+                    {
+                      "name": "featured",
+                      "label": "Featured style",
+                      "type": "boolean",
+                      "default": false
+                    },
+                    {
+                      "name": "enabled",
+                      "label": "Visible",
+                      "type": "boolean",
+                      "default": true
+                    },
+                    {
+                      "name": "target_blank",
+                      "label": "Open in new tab",
+                      "type": "boolean",
+                      "default": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

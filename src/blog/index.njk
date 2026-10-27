@@ -8,10 +8,12 @@ seo:
   description: >-
     Travel guides for northern Pakistan: best seasons, packing, permits and trek preparation, written by a Skardu-based team that runs these routes.
 ---
+{% set lp = landing[page.url] or {} %}
+
 {% set heroItems = collections.posts | limit(6) %}
 {% set heroHeading = title %}
 {% set heroSummary = summary %}
-{% set heroEyebrow = 'Knowledge for better journeys' %}
+{% set heroEyebrow = lp.hero_eyebrow or 'Knowledge for better journeys' %}
 {% set heroCompact = true %}
 {% include "components/landing-hero.njk" %}
-<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">Plan with context</p><h2>Latest travel guides</h2><p>Use these articles to research destinations before requesting a tailored trip.</p></div><span class="bk-count-pill">{{ collections.posts.length }} guides</span></header><div class="bk-card-grid">{% for item in collections.posts | limit(24) %}{% include "components/post-card.njk" %}{% endfor %}</div></section>
+<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">{{ lp.section_eyebrow or 'Plan with context' }}</p><h2>{{ lp.section_heading or 'Latest travel guides' }}</h2><p>{{ lp.section_intro or 'Use these articles to research destinations before requesting a tailored trip.' }}</p></div><span class="bk-count-pill">{{ collections.posts.length }} guides</span></header><div class="bk-card-grid">{% for item in collections.posts | limit(24) %}{% include "components/post-card.njk" %}{% endfor %}</div></section>

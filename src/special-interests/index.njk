@@ -8,17 +8,19 @@ seo:
   description: >-
     Cycling, motorcycling, photography, festivals, winter travel and eco tourism in northern Pakistan - trips built around one interest. Ask for ideas.
 ---
-{% set heroItems = collections.journeys | keywordItems('cycle,festival,mountain pass,winter,photography,eco') | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = 'Travel around your passion' %}{% set heroCompact = true %}
+{% set lp = landing[page.url] or {} %}
+
+{% set heroItems = collections.journeys | keywordItems('cycle,festival,mountain pass,winter,photography,eco') | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = lp.hero_eyebrow or 'Travel around your passion' %}{% set heroCompact = true %}
 {% include "components/landing-hero.njk" %}
-<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">Focused journeys</p><h2>Choose an interest</h2><p>Use these categories to discover experiences beyond standard sightseeing.</p></div></header><div class="bk-destination-grid">
-{% set interests = [
-['Cycle Touring','Long-distance road and valley cycling programmes','/search/?type=tours&q=cycle'],
-['Eco Tourism','Nature, wildlife and community-conscious travel','/search/?type=tours&q=eco'],
-['Motorcycle Touring','Scenic road journeys and high-pass routes','/search/?type=tours&q=motorcycle'],
-['Mountain Passes','Trekking routes across high passes','/search/?type=trekking&q=pass'],
-['Festivals of Pakistan','Cultural celebrations and seasonal events','/search/?type=tours&q=festival'],
-['Photography Tours','Landscapes, culture and wildlife photography','/search/?type=tours&q=photography'],
-['Winter Adventures','Snow journeys, festivals and winter landscapes','/search/?type=tours&q=winter'],
-['Rock Climbing','Climbing routes and expedition-style support','/search/?type=expeditions&q=rock%20climbing']
-] %}
-{% for interest in interests %}<a href="{{ interest[2] }}"><span>{{ loop.index }}</span><h3>{{ interest[0] }}</h3><p>{{ interest[1] }}</p></a>{% endfor %}</div></section>
+<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">{{ lp.section_eyebrow or 'Focused journeys' }}</p><h2>{{ lp.section_heading or 'Choose an interest' }}</h2><p>{{ lp.section_intro or 'Use these categories to discover experiences beyond standard sightseeing.' }}</p></div></header><div class="bk-destination-grid">
+{% set interests = (lp.cards or [
+{"title":"Cycle Touring","description":"Long-distance road and valley cycling programmes","url":"/search/?type=tours&q=cycle"},
+{"title":"Eco Tourism","description":"Nature, wildlife and community-conscious travel","url":"/search/?type=tours&q=eco"},
+{"title":"Motorcycle Touring","description":"Scenic road journeys and high-pass routes","url":"/search/?type=tours&q=motorcycle"},
+{"title":"Mountain Passes","description":"Trekking routes across high passes","url":"/search/?type=trekking&q=pass"},
+{"title":"Festivals of Pakistan","description":"Cultural celebrations and seasonal events","url":"/search/?type=tours&q=festival"},
+{"title":"Photography Tours","description":"Landscapes, culture and wildlife photography","url":"/search/?type=tours&q=photography"},
+{"title":"Winter Adventures","description":"Snow journeys, festivals and winter landscapes","url":"/search/?type=tours&q=winter"},
+{"title":"Rock Climbing","description":"Climbing routes and expedition-style support","url":"/search/?type=expeditions&q=rock%20climbing"}
+]) | liveCards %}
+{% for interest in interests %}<a href="{{ interest.url }}"><span>{{ loop.index }}</span><h3>{{ interest.title }}</h3><p>{{ interest.description }}</p></a>{% endfor %}</div></section>

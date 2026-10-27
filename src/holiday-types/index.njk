@@ -8,18 +8,19 @@ seo:
   description: >-
     Cultural tours, family holidays, road trips, luxury travel and weekend escapes in northern Pakistan. Find the kind of trip that suits you.
 ---
-{% set heroItems = collections.tours | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = 'Choose your travel style' %}{% set heroCompact = true %}
+{% set lp = landing[page.url] or {} %}
+{% set heroItems = collections.tours | limit(6) %}{% set heroHeading = title %}{% set heroSummary = summary %}{% set heroEyebrow = lp.hero_eyebrow or 'Choose your travel style' %}{% set heroCompact = true %}
 {% include "components/landing-hero.njk" %}
-<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">Travel your way</p><h2>Browse by holiday style</h2><p>Start with a category, then refine by destination, duration and interests.</p></div></header><div class="bk-destination-grid">
-{% set types = [
-['Cultural Tours','Heritage, food, architecture and living traditions','/search/?type=tours&q=cultural'],
-['Family Holidays','Flexible routes and family-friendly pacing','/search/?type=tours&q=family'],
-['Hiking Adventures','Day hikes, short treks and scenic walks','/search/?type=trekking&q=hike'],
-['Honeymoon Journeys','Private scenic journeys and premium stays','/search/?type=tours&q=honeymoon'],
-['Luxury Tours','Private transport, premium hotels and tailored service','/search/?type=tours&q=luxury'],
-['Road Trips','Multi-region journeys by private vehicle','/search/?type=tours&q=road%20trip'],
-['Trekking Holidays','Base camps, glaciers, passes and high valleys','/trekking/'],
-['Weekend Retreats','Short escapes from major cities','/search/?type=tours&q=weekend'],
-['Camping','Outdoor journeys and mountain camps','/search/?type=tours&q=camping']
-] %}
-{% for type in types %}<a href="{{ type[2] }}"><span>{{ loop.index }}</span><h3>{{ type[0] }}</h3><p>{{ type[1] }}</p></a>{% endfor %}</div></section>
+<section class="bk-catalog-shell"><header class="bk-section-heading"><div><p class="eyebrow">{{ lp.section_eyebrow or 'Travel your way' }}</p><h2>{{ lp.section_heading or 'Browse by holiday style' }}</h2><p>{{ lp.section_intro or 'Start with a category, then refine by destination, duration and interests.' }}</p></div></header><div class="bk-destination-grid">
+{% set types = (lp.cards or [
+{"title":"Cultural Tours","description":"Heritage, food, architecture and living traditions","url":"/search/?type=tours&q=cultural"},
+{"title":"Family Holidays","description":"Flexible routes and family-friendly pacing","url":"/search/?type=tours&q=family"},
+{"title":"Hiking Adventures","description":"Day hikes, short treks and scenic walks","url":"/search/?type=trekking&q=hike"},
+{"title":"Honeymoon Journeys","description":"Private scenic journeys and premium stays","url":"/search/?type=tours&q=honeymoon"},
+{"title":"Luxury Tours","description":"Private transport, premium hotels and tailored service","url":"/search/?type=tours&q=luxury"},
+{"title":"Road Trips","description":"Multi-region journeys by private vehicle","url":"/search/?type=tours&q=road%20trip"},
+{"title":"Trekking Holidays","description":"Base camps, glaciers, passes and high valleys","url":"/trekking/"},
+{"title":"Weekend Retreats","description":"Short escapes from major cities","url":"/search/?type=tours&q=weekend"},
+{"title":"Camping","description":"Outdoor journeys and mountain camps","url":"/search/?type=tours&q=camping"}
+]) | liveCards %}
+{% for type in types %}<a href="{{ type.url }}"><span>{{ loop.index }}</span><h3>{{ type.title }}</h3><p>{{ type.description }}</p></a>{% endfor %}</div></section>
