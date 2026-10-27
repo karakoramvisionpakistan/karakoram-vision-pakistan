@@ -1,0 +1,26 @@
+{# Our partners - the logo strip just above the footer. Each logo opens that
+   partner's own site in a new tab. No entries, no section. #}
+{% if partners and partners.length %}
+<section class="bk-partners">
+  <h2>{{ homePage.partners.heading or 'Our partners' }}</h2>
+  {% if homePage.partners.description %}<p class="bk-partners-note">{{ homePage.partners.description }}</p>{% endif %}
+
+  <div class="bk-strip" data-strip>
+    <button class="bk-strip-btn" type="button" data-strip-prev aria-label="Previous partners">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <ul class="bk-strip-track" data-strip-track>
+      {% for partner in partners %}
+      <li class="bk-partner">
+        {% if partner.url %}<a href="{{ partner.url }}" target="_blank" rel="noopener noreferrer" title="{{ partner.name }}">{% endif %}
+          <img src="{{ partner.logo }}" alt="{{ partner.name }}" height="72" loading="lazy" decoding="async">
+        {% if partner.url %}</a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    <button class="bk-strip-btn" type="button" data-strip-next aria-label="Next partners">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+</section>
+{% endif %}

@@ -60,3 +60,10 @@ seo:
   <section class="bk-home-contact"><div><p class="eyebrow">{{ hp.cta.eyebrow }}</p><h2>{{ hp.cta.heading }}</h2><p>{{ hp.cta.description }}</p></div><a href="{{ hp.cta.button_url }}">{{ hp.cta.button_label }}</a></section>
   {% endif %}
 {% endfor %}
+
+{# These two always sit at the very bottom, in this order, so partners are
+   the last thing above the footer. They are not part of the section list
+   above because their place on the page is fixed. #}
+{% include "components/happy-clients.njk" %}
+{% include "components/our-partners.njk" %}
+{% if (clients and clients.length) or (partners and partners.length) %}<script src="/assets/js/strip.js" defer></script>{% endif %}

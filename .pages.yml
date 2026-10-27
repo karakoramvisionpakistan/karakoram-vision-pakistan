@@ -3779,6 +3779,32 @@ content:
           - name: button_url
             label: Button URL
             type: string
+      - name: _h_bottom_sections
+        label: Bottom of the homepage
+        type: heading
+        collapsed: true
+      - name: clients
+        label: Happy clients
+        type: object
+        fields:
+          - name: heading
+            label: Heading
+            type: string
+            description: Leave empty for "Happy clients".
+          - name: description
+            label: Line underneath
+            type: string
+      - name: partners
+        label: Our partners
+        type: object
+        fields:
+          - name: heading
+            label: Heading
+            type: string
+            description: Leave empty for "Our partners".
+          - name: description
+            label: Line underneath
+            type: string
   - name: theme
     label: Colours, corners & spacing
     type: file
@@ -4787,3 +4813,82 @@ content:
       These are the pages themselves — their heading, intro text and link cards.
       The tours, treks and articles that appear on them are edited in their own
       cards (Tours, Trekking, Travel Guides & News, and so on).
+  - name: clients
+    label: Happy Clients (homepage)
+    description: >-
+      The travellers you want on the homepage, with their photo and a line about
+      their trip. These are yours to choose — guest reviews that people send in
+      are handled separately under Reviews.
+    type: collection
+    path: content/clients
+    filename:
+      template: "{name}.md"
+      field: name
+    view:
+      primary: name
+      fields:
+        - name
+        - country
+        - published
+    fields:
+      - name: name
+        label: Name
+        type: string
+        required: true
+      - name: photo
+        label: Photo
+        type: image
+        description: A square photo works best — it is shown in a circle.
+      - name: country
+        label: Country
+        type: string
+      - name: quote
+        label: What they said
+        type: text
+        required: true
+      - name: order
+        label: Order
+        type: number
+        description: Lower numbers come first.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true
+  - name: partners
+    label: Our Partners (homepage)
+    description: >-
+      Partner and affiliate logos, shown just above the footer. Each logo opens
+      that partner's own website.
+    type: collection
+    path: content/partners
+    filename:
+      template: "{name}.md"
+      field: name
+    view:
+      primary: name
+      fields:
+        - name
+        - url
+        - published
+    fields:
+      - name: name
+        label: Partner name
+        type: string
+        required: true
+      - name: logo
+        label: Logo
+        type: image
+        required: true
+        description: PNG or SVG with a see-through background looks best.
+      - name: url
+        label: Their website
+        type: string
+        description: Opens in a new tab. Leave empty for a logo with no link.
+      - name: order
+        label: Order
+        type: number
+        description: Lower numbers come first.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true

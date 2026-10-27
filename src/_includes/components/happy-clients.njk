@@ -1,0 +1,35 @@
+{# Happy clients - the few travellers you pick yourself, with their photo.
+   Guest reviews are a separate thing: those arrive from travellers and you
+   approve them. This strip is yours to curate.
+   No entries, no section - nothing empty ever shows. #}
+{% if clients and clients.length %}
+<section class="bk-clients">
+  <header class="bk-clients-head">
+    <h2>{{ homePage.clients.heading or 'Happy clients' }}</h2>
+    <p>{{ homePage.clients.description or 'A good word means a lot' }}</p>
+  </header>
+
+  <div class="bk-strip" data-strip>
+    <button class="bk-strip-btn" type="button" data-strip-prev aria-label="Previous clients">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <ul class="bk-strip-track" data-strip-track>
+      {% for person in clients %}
+      <li class="bk-client">
+        {% if person.photo %}
+        <div class="bk-client-photo">
+          <img src="{{ person.photo }}" alt="{{ person.name }}" width="180" height="180" loading="lazy" decoding="async">
+        </div>
+        {% endif %}
+        <h3>{{ person.name }}</h3>
+        {% if person.country %}<p class="bk-client-where">{{ person.country }}</p>{% endif %}
+        <p class="bk-client-quote">{{ person.quote }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+    <button class="bk-strip-btn" type="button" data-strip-next aria-label="Next clients">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+</section>
+{% endif %}
