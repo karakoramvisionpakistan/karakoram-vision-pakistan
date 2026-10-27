@@ -96,6 +96,12 @@
         {
           "enabled": true,
           "target_blank": false,
+          "label": "Social Responsibility",
+          "url": "/social-responsibility/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
           "label": "Vehicles",
           "url": "/vehicles/"
         },
@@ -1124,21 +1130,5 @@
       ]
     }
   ],
-  "trash": [
-    {
-      "id": "1793089806003-zzrwah",
-      "item": {
-        "enabled": true,
-        "target_blank": false,
-        "label": "Social Responsibility",
-        "url": "/social-responsibility/"
-      },
-      "parentPath": [
-        2
-      ],
-      "index": 1,
-      "label": "Social Responsibility",
-      "at": "2026-10-27T08:30:06.003Z"
-    }
-  ]
+  "trash": []
 }
