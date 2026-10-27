@@ -1125,18 +1125,5 @@
       ]
     }
   ],
-  "trash": [
-    {
-      "id": "1793094196856-mw6wvu",
-      "item": {
-        "label": "Naya khana",
-        "url": "",
-        "enabled": true
-      },
-      "parentPath": [],
-      "index": 10,
-      "label": "Naya khana",
-      "at": "2026-10-27T09:43:16.856Z"
-    }
-  ]
+  "trash": []
 }
