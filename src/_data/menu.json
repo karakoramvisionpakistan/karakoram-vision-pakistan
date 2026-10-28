@@ -716,7 +716,14 @@
           "enabled": true,
           "target_blank": false,
           "label": "6,000m Peaks",
-          "url": "/search/?type=expeditions&q=6000m"
+          "url": "/search/?type=expeditions&q=6000m",
+          "children": [
+            {
+              "label": "Trango Expedition",
+              "url": "expeditions/trango-expedition/",
+              "enabled": true
+            }
+          ]
         },
         {
           "enabled": true,
