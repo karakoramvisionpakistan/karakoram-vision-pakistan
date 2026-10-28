@@ -2,16 +2,17 @@
 url: /holiday-types/
 title: Holiday Types
 summary: >-
-  Find cultural tours, family holidays, luxury journeys, road trips, trekking
-  holidays and weekend escapes.
+  Find cultural tours, family holidays, luxury journeys, road trips, trekking holidays and weekend
+  escapes.
 hero_eyebrow: Choose your travel style
 section_eyebrow: Travel your way
 section_heading: Browse by holiday style
 section_intro: Start with a category, then refine by destination, duration and interests.
 cards:
-  - title: Cultural Tours
-    description: Heritage, food, architecture and living traditions
+  - title: Hunza Valley Tour
+    description: Villages, Rivers, Heritage, food, architecture and living traditions
     url: /search/?type=tours&q=cultural
+    enabled: true
   - title: Family Holidays
     description: Flexible routes and family-friendly pacing
     url: /search/?type=tours&q=family
@@ -33,11 +34,13 @@ cards:
   - title: Weekend Retreats
     description: Short escapes from major cities
     url: /search/?type=tours&q=weekend
+    enabled: true
   - title: Camping
     description: Outdoor journeys and mountain camps
     url: /search/?type=tours&q=camping
 seo_title: Holiday Types in Pakistan | Karakoram Vision Pakistan
 seo_description: >-
-  Cultural tours, family holidays, road trips, luxury travel and weekend escapes
-  in northern Pakistan. Find the kind of trip that suits you.
+  Cultural tours, family holidays, road trips, luxury travel and weekend escapes in northern
+  Pakistan. Find the kind of trip that suits you.
 ---
+
