@@ -625,43 +625,6 @@
         {
           "enabled": true,
           "target_blank": false,
-          "label": "Sub-Ranges",
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Baltoro Muztagh",
-              "url": "/search/?type=expeditions&q=baltoro"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Batura Muztagh",
-              "url": "/search/?type=expeditions&q=batura"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Hispar Muztagh",
-              "url": "/search/?type=expeditions&q=hispar"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Masherbrum Group",
-              "url": "/search/?type=expeditions&q=masherbrum"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Rakaposhi / Haramosh",
-              "url": "/search/?type=expeditions&q=rakaposhi"
-            }
-          ]
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
           "label": "8,000m Peaks",
           "children": [
             {
@@ -732,88 +695,8 @@
         {
           "enabled": true,
           "target_blank": false,
-          "label": "5,000m Peaks",
-          "url": "/search/?type=expeditions&q=5000m"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
           "label": "Rock Climbing",
           "url": "/search/?type=expeditions&q=rock%20climbing"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Sort by Difficulty",
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Technical Difficulty 1",
-              "url": "/search/?type=expeditions&q=difficulty%201"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Technical Difficulty 2",
-              "url": "/search/?type=expeditions&q=difficulty%202"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Technical Difficulty 3",
-              "url": "/search/?type=expeditions&q=difficulty%203"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Technical Difficulty 4",
-              "url": "/search/?type=expeditions&q=difficulty%204"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Technical Difficulty 5",
-              "url": "/search/?type=expeditions&q=difficulty%205"
-            }
-          ]
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Sort by Fitness",
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Fitness A",
-              "url": "/search/?type=expeditions&q=fitness%20a"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Fitness B",
-              "url": "/search/?type=expeditions&q=fitness%20b"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Fitness C",
-              "url": "/search/?type=expeditions&q=fitness%20c"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Fitness D",
-              "url": "/search/?type=expeditions&q=fitness%20d"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Fitness E",
-              "url": "/search/?type=expeditions&q=fitness%20e"
-            }
-          ]
         },
         {
           "enabled": true,
@@ -1147,5 +1030,159 @@
       ]
     }
   ],
-  "trash": []
+  "trash": [
+    {
+      "id": "1793193524970-gteyk5",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Sort by Fitness",
+        "children": [
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Fitness A",
+            "url": "/search/?type=expeditions&q=fitness%20a"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Fitness B",
+            "url": "/search/?type=expeditions&q=fitness%20b"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Fitness C",
+            "url": "/search/?type=expeditions&q=fitness%20c"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Fitness D",
+            "url": "/search/?type=expeditions&q=fitness%20d"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Fitness E",
+            "url": "/search/?type=expeditions&q=fitness%20e"
+          }
+        ]
+      },
+      "parentPath": [
+        5
+      ],
+      "index": 7,
+      "label": "Sort by Fitness",
+      "at": "2026-10-28T13:18:44.970Z"
+    },
+    {
+      "id": "1793193518166-y4gtnj",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Sort by Difficulty",
+        "children": [
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Technical Difficulty 1",
+            "url": "/search/?type=expeditions&q=difficulty%201"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Technical Difficulty 2",
+            "url": "/search/?type=expeditions&q=difficulty%202"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Technical Difficulty 3",
+            "url": "/search/?type=expeditions&q=difficulty%203"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Technical Difficulty 4",
+            "url": "/search/?type=expeditions&q=difficulty%204"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Technical Difficulty 5",
+            "url": "/search/?type=expeditions&q=difficulty%205"
+          }
+        ]
+      },
+      "parentPath": [
+        5
+      ],
+      "index": 7,
+      "label": "Sort by Difficulty",
+      "at": "2026-10-28T13:18:38.166Z"
+    },
+    {
+      "id": "1793193499562-gkjczf",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "5,000m Peaks",
+        "url": "/search/?type=expeditions&q=5000m"
+      },
+      "parentPath": [
+        5
+      ],
+      "index": 6,
+      "label": "5,000m Peaks",
+      "at": "2026-10-28T13:18:19.562Z"
+    },
+    {
+      "id": "1793193487987-ufcs1k",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Sub-Ranges",
+        "children": [
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Baltoro Muztagh",
+            "url": "/search/?type=expeditions&q=baltoro"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Batura Muztagh",
+            "url": "/search/?type=expeditions&q=batura"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Hispar Muztagh",
+            "url": "/search/?type=expeditions&q=hispar"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Masherbrum Group",
+            "url": "/search/?type=expeditions&q=masherbrum"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Rakaposhi / Haramosh",
+            "url": "/search/?type=expeditions&q=rakaposhi"
+          }
+        ]
+      },
+      "parentPath": [
+        5
+      ],
+      "index": 3,
+      "label": "Sub-Ranges",
+      "at": "2026-10-28T13:18:07.987Z"
+    }
+  ]
 }
