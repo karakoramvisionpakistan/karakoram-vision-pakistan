@@ -10,80 +10,6 @@
     {
       "enabled": true,
       "target_blank": false,
-      "label": "Holiday Types",
-      "url": "/holiday-types/",
-      "children": [
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "All Holidays",
-          "url": "/tours/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Air Travel",
-          "url": "/search/?type=blog&q=airline"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Camping",
-          "url": "/search/?type=tours&q=camping"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Cultural Tours",
-          "url": "/tours/cultural-tours/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Family Holidays",
-          "url": "/search/?type=tours&q=family"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Hiking Adventures",
-          "url": "/trekking/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Honeymoon",
-          "url": "/search/?type=tours&q=honeymoon"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Luxury Tours",
-          "url": "/search/?type=tours&q=luxury"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Road Trips",
-          "url": "/search/?type=tours&q=road%20trip"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Trekking Holidays",
-          "url": "/trekking/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Weekend Retreats",
-          "url": "/search/?type=tours&q=weekend"
-        }
-      ]
-    },
-    {
-      "enabled": true,
-      "target_blank": false,
       "label": "About",
       "url": "/about-us/",
       "children": [
@@ -171,6 +97,80 @@
           "label": "Equipment Check list",
           "url": "/equipment-checklist/",
           "enabled": true
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "Holiday Types",
+      "url": "/holiday-types/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "All Holidays",
+          "url": "/tours/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Air Travel",
+          "url": "/search/?type=blog&q=airline"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Camping",
+          "url": "/search/?type=tours&q=camping"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Cultural Tours",
+          "url": "/tours/cultural-tours/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Family Holidays",
+          "url": "/search/?type=tours&q=family"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Hiking Adventures",
+          "url": "/trekking/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Honeymoon",
+          "url": "/search/?type=tours&q=honeymoon"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Luxury Tours",
+          "url": "/search/?type=tours&q=luxury"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Road Trips",
+          "url": "/search/?type=tours&q=road%20trip"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Trekking Holidays",
+          "url": "/trekking/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Weekend Retreats",
+          "url": "/search/?type=tours&q=weekend"
         }
       ]
     },
@@ -331,109 +331,6 @@
           "label": "Trip Calendar",
           "url": "/trip-calendar/",
           "icon": "◷"
-        }
-      ]
-    },
-    {
-      "enabled": true,
-      "target_blank": false,
-      "label": "International Travelers",
-      "url": "/international-travelers/",
-      "children": [
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Pakistan Travel Information",
-          "url": "/blog/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Travel Insurance Guidance",
-          "url": "/search/?type=blog&q=travel%20insurance"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Best Sellers",
-          "icon": "★",
-          "featured": true,
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Hunza Valley",
-              "url": "/search/?type=tours&q=hunza"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "K2 Base Camp Trek",
-              "url": "/trekking/k2-base-camp-trek/"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Kalash Festival",
-              "url": "/search/?type=tours&q=kalash"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Nanga Parbat Trek",
-              "url": "/search/?type=trekking&q=nanga%20parbat"
-            }
-          ]
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "City Tours",
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Lahore Tour",
-              "url": "/search/?type=tours&q=lahore"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Islamabad Tour",
-              "url": "/search/?type=tours&q=islamabad"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Peshawar Tour",
-              "url": "/search/?type=tours&q=peshawar"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Karachi Tour",
-              "url": "/search/?type=tours&q=karachi"
-            }
-          ]
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Holiday Itineraries",
-          "url": "/tours/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Group Tours",
-          "url": "/search/?type=tours&q=group"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Tour Calendar",
-          "icon": "▦",
-          "url": "/trip-calendar/"
         }
       ]
     },
@@ -931,6 +828,153 @@
     {
       "enabled": true,
       "target_blank": false,
+      "label": "Jeep Safaris",
+      "url": "/jeep-safaris/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Gilgit-Baltistan Safaris",
+          "url": "/search/?type=jeep-safaris&q=gilgit"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Hunza Safaris",
+          "url": "/search/?type=jeep-safaris&q=hunza"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Skardu Safaris",
+          "url": "/search/?type=jeep-safaris&q=skardu"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Deosai Safaris",
+          "url": "/search/?type=jeep-safaris&q=deosai"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Chitral Safaris",
+          "url": "/search/?type=jeep-safaris&q=chitral"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "View All Jeep Safaris",
+          "url": "/jeep-safaris/"
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "International Travelers",
+      "url": "/international-travelers/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Pakistan Travel Information",
+          "url": "/blog/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Travel Insurance Guidance",
+          "url": "/search/?type=blog&q=travel%20insurance"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Best Sellers",
+          "icon": "★",
+          "featured": true,
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Hunza Valley",
+              "url": "/search/?type=tours&q=hunza"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "K2 Base Camp Trek",
+              "url": "/trekking/k2-base-camp-trek/"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Kalash Festival",
+              "url": "/search/?type=tours&q=kalash"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Nanga Parbat Trek",
+              "url": "/search/?type=trekking&q=nanga%20parbat"
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "City Tours",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Lahore Tour",
+              "url": "/search/?type=tours&q=lahore"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Islamabad Tour",
+              "url": "/search/?type=tours&q=islamabad"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Peshawar Tour",
+              "url": "/search/?type=tours&q=peshawar"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Karachi Tour",
+              "url": "/search/?type=tours&q=karachi"
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Holiday Itineraries",
+          "url": "/tours/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Group Tours",
+          "url": "/search/?type=tours&q=group"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Tour Calendar",
+          "icon": "▦",
+          "url": "/trip-calendar/"
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
       "label": "Special Interests",
       "url": "/special-interests/",
       "children": [
@@ -975,50 +1019,6 @@
           "target_blank": false,
           "label": "Ski & Winter Adventures",
           "url": "/search/?type=tours&q=winter"
-        }
-      ]
-    },
-    {
-      "enabled": true,
-      "target_blank": false,
-      "label": "Jeep Safaris",
-      "url": "/jeep-safaris/",
-      "children": [
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Gilgit-Baltistan Safaris",
-          "url": "/search/?type=jeep-safaris&q=gilgit"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Hunza Safaris",
-          "url": "/search/?type=jeep-safaris&q=hunza"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Skardu Safaris",
-          "url": "/search/?type=jeep-safaris&q=skardu"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Deosai Safaris",
-          "url": "/search/?type=jeep-safaris&q=deosai"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Chitral Safaris",
-          "url": "/search/?type=jeep-safaris&q=chitral"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "View All Jeep Safaris",
-          "url": "/jeep-safaris/"
         }
       ]
     },
