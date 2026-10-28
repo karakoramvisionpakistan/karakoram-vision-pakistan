@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+permalink: /our-team/
+title: Our Guides & Team
+summary: The guides, drivers and office staff who plan and run every journey.
+seo:
+  title: "Our Guides & Team | Karakoram Vision Pakistan"
+  description: >-
+    The Skardu-based guides, high-altitude porters, drivers and planners behind every Karakoram Vision tour, trek and expedition.
+---
+{% set lp = landing[page.url] or {} %}
+{% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = lp.title or title %}{% set heroSummary = lp.summary or summary %}{% set heroEyebrow = lp.hero_eyebrow or 'The people behind the journeys' %}{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+
+{% if team and team.length %}
+{% for group in team %}
+<section class="bk-team">
+  <h2 class="bk-team-title">{{ group.title }}</h2>
+  <div class="bk-team-grid">
+    {% for person in group.people %}
+    <article class="bk-team-card">
+      <div class="bk-team-photo">
+        {% if person.photo %}
+        <img src="{{ person.photo }}"{{ person.photo | srcsetAttr('(min-width:1024px) 25vw, (min-width:640px) 33vw, 50vw') }} alt="{{ person.name }}" loading="lazy" decoding="async">
+        {% endif %}
+        {% if person.bio %}
+        <div class="bk-team-bio"><p>{{ person.bio }}</p></div>
+        {% endif %}
+      </div>
+      <h3>{{ person.name }}</h3>
+      {% if person.role %}<p class="bk-team-role">{{ person.role }}</p>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% else %}
+<section class="bk-team"><p class="bk-team-empty">Team members will be listed here shortly.</p></section>
+{% endif %}

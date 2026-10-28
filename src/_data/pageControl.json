@@ -120,6 +120,13 @@
       "file": "src/news/index.njk"
     },
     {
+      "label": "Our Guides & Team",
+      "url": "/our-team/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/our-team/index.njk"
+    },
+    {
       "label": "Photo Gallery",
       "url": "/gallery/",
       "published": true,

@@ -1091,3 +1091,53 @@
   .bk-lightbox-nav.is-prev { left: 25%; }
   .bk-lightbox-nav.is-next { right: 25%; }
 }
+
+/* ---------------------------------------------------------- our team
+   The story slides up over the photo on hover. On a touch screen there is no
+   hover, so it simply sits there instead - a panel nobody can open is worse
+   than one that is always open. */
+.bk-team { max-width: 80rem; margin-inline: auto; padding: 2.5rem 1rem; }
+.bk-team-title {
+  font-size: clamp(1.35rem, 2.4vw, 1.9rem); font-weight: 800;
+  color: var(--color-navy-900, #062a72);
+  margin-bottom: 1.5rem;
+}
+.bk-team-empty { text-align: center; color: #64748b; padding: 3rem 0; }
+
+.bk-team-grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (min-width: 640px)  { .bk-team-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .bk-team-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+.bk-team-card { text-align: center; }
+.bk-team-photo {
+  position: relative; overflow: hidden;
+  aspect-ratio: 3 / 4;
+  border-radius: var(--radius-lg, 6px);
+  background: var(--color-navy-100, #e8edf7);
+}
+.bk-team-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.bk-team-bio {
+  position: absolute; inset: 0;
+  display: flex; align-items: flex-end;
+  padding: 1.1rem;
+  color: #fff;
+  background: linear-gradient(to top, rgb(2 6 23 / .92) 35%, rgb(2 6 23 / .55));
+  opacity: 0; transform: translateY(12%);
+  transition: opacity .25s ease, transform .25s ease;
+}
+.bk-team-bio p { margin: 0; font-size: .85rem; line-height: 1.55; text-align: left; }
+.bk-team-card:hover .bk-team-bio,
+.bk-team-card:focus-within .bk-team-bio { opacity: 1; transform: none; }
+
+.bk-team-card h3 {
+  margin-top: .85rem; font-size: 1.05rem; font-weight: 700;
+  color: var(--color-navy-900, #062a72);
+}
+.bk-team-role {
+  font-size: .8rem; font-weight: 600; margin-top: .15rem;
+  color: var(--color-orange-600, #d9600c);
+}
+
+@media (hover: none) {
+  .bk-team-bio { opacity: 1; transform: none; }
+}

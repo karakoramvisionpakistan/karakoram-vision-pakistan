@@ -997,6 +997,15 @@ content:
           - Challenging
           - Strenuous
           - Expedition
+      - name: peak_class
+        label: Peak height
+        type: select
+        description: Which height band this peak falls in. Used for grouping expeditions.
+        options:
+          - Trekking peak (under 6,000m)
+          - 6,000m peaks
+          - 7,000m peaks
+          - 8,000m peaks
       - name: _h_destination
         label: Destination
         type: heading
@@ -5009,6 +5018,59 @@ content:
         label: Order
         type: number
         description: Lower numbers come first.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true
+  - name: team
+    label: Our Team
+    description: >-
+      Guides, drivers and office staff, shown on the Our Team page. The group
+      name decides which heading a person appears under — type the same group
+      name for everyone who belongs together.
+    type: collection
+    path: content/team
+    filename:
+      template: "{name}.md"
+      field: name
+    view:
+      primary: name
+      fields:
+        - name
+        - role
+        - section
+        - published
+    fields:
+      - name: name
+        label: Name
+        type: string
+        required: true
+      - name: role
+        label: Role
+        type: string
+        description: >-
+          Shown under the name — "Expedition Leader", "Driver", "Office
+          Manager".
+      - name: photo
+        label: Photo
+        type: image
+        description: A standing photo works best — it is shown taller than it is wide.
+      - name: bio
+        label: About them
+        type: text
+        description: A few lines. These slide up over the photo when someone hovers.
+      - name: section
+        label: Group
+        type: string
+        description: >-
+          The heading they appear under — "Mountain Guides", "Office Team",
+          "Drivers". Leave empty for "Our Team".
+      - name: order
+        label: Order
+        type: number
+        description: >-
+          Lower numbers come first. The first person's group is the first group
+          on the page.
       - name: published
         label: Show on the website
         type: boolean

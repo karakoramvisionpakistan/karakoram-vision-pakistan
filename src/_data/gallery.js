@@ -1,36 +1,84 @@
-// Photo albums - from content/gallery/.
+// Photo albums.
 //
-// Outside src/ on purpose: these are entries, not pages, and the build tools
-// treat anything under src/content/ as a page.
+// Two sources, in this order:
 //
-// Each album keeps its photos together; the page flattens them into one grid
-// and uses the album name for the filter chips.
+//   content/gallery/   albums you put together by hand
+//   src/content/...    every photo already attached to a journey
+//
+// The second one is the point: a trek's cover photo and its gallery are
+// already in the CMS, so asking anyone to upload them again for the gallery
+// would be busy-work - and the two copies would drift apart.
+//
+// A photo that appears in both is shown once, in the hand-made album, because
+// that is where someone chose to put it.
 import fs from "node:fs";
 import yaml from "js-yaml";
 
-const DIR = "content/gallery";
+const BY_HAND = "content/gallery";
+
+// folder -> the name shown on the filter button
+const JOURNEYS = [
+  ["tours", "Tours"],
+  ["trekking", "Trekking"],
+  ["expeditions", "Expeditions"],
+  ["jeep-safaris", "Jeep Safaris"],
+  ["hunting-services", "Hunting"],
+  ["vehicles", "Vehicles"],
+  ["pages", "Destinations"],
+];
+
+function frontMatter(file) {
+  let text = "";
+  try { text = fs.readFileSync(file, "utf8"); } catch { return null; }
+  if (!text.startsWith("---")) return null;
+  const end = text.indexOf("\n---", 3);
+  if (end < 0) return null;
+  try { return yaml.load(text.slice(3, end)); } catch { return null; }
+}
+
+// A drawing standing in for a missing photo is not worth showing.
+const real = (src) => {
+  const s = String(src || "").trim();
+  return s && !/\.svg(\?|$)/i.test(s) && !/placeholder/i.test(s);
+};
 
 export default function () {
+  const albums = [];
+  const seen = new Set();
+
+  // ---- by hand
   let names = [];
-  try { names = fs.readdirSync(DIR).filter((f) => f.endsWith(".md")); } catch { return []; }
-
-  const out = [];
+  try { names = fs.readdirSync(BY_HAND).filter((f) => f.endsWith(".md")); } catch {}
   for (const name of names) {
-    let text = "";
-    try { text = fs.readFileSync(`${DIR}/${name}`, "utf8"); } catch { continue; }
-    if (!text.startsWith("---")) continue;
-    const end = text.indexOf("\n---", 3);
-    if (end < 0) continue;
-    let data;
-    try { data = yaml.load(text.slice(3, end)); } catch { continue; }
+    const data = frontMatter(`${BY_HAND}/${name}`);
     if (!data || data.published === false) continue;
-
-    const photos = (data.photos || []).filter(Boolean);
-    if (!photos.length) continue;              // khali album dikhane ka koi faida nahi
-    out.push({ ...data, photos, count: photos.length });
+    const photos = (data.photos || []).filter(real);
+    if (!photos.length) continue;
+    photos.forEach((p) => seen.add(p));
+    albums.push({ ...data, photos, count: photos.length, source: "manual" });
   }
-
-  return out.sort((a, b) =>
+  albums.sort((a, b) =>
     (Number(a.order || 0) - Number(b.order || 0))
     || String(a.title || "").localeCompare(String(b.title || "")));
+
+  // ---- from the journeys
+  for (const [folder, label] of JOURNEYS) {
+    const dir = `src/content/${folder}`;
+    let files = [];
+    try { files = fs.readdirSync(dir).filter((f) => f.endsWith(".md")); } catch { continue; }
+
+    const photos = [];
+    for (const file of files.sort()) {
+      const data = frontMatter(`${dir}/${file}`);
+      if (!data || data.published === false) continue;
+      for (const src of [data.cover_image, ...(data.gallery || [])]) {
+        if (!real(src) || seen.has(src)) continue;
+        seen.add(src);
+        photos.push(src);
+      }
+    }
+    if (photos.length) albums.push({ title: label, photos, count: photos.length, source: "journeys" });
+  }
+
+  return albums;
 }
