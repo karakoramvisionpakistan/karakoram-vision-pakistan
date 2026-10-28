@@ -670,7 +670,7 @@
               "enabled": true,
               "target_blank": false,
               "label": "Nanga Parbat",
-              "url": "/search/?type=expeditions&q=nanga%20parbat"
+              "url": "/expeditions/nanga-parbat-expedition/"
             },
             {
               "enabled": true,
