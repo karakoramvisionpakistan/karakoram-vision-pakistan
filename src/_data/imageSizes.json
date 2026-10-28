@@ -765,6 +765,42 @@
       "w": 1500
     }
   ],
+  "/assets/uploads/1793174186833-gb-logo.webp": [
+    {
+      "src": "/assets/sized/1793174186833-gb-logo-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/1793174186833-gb-logo-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/sized/1793174186833-gb-logo-1400.webp",
+      "w": 1400
+    },
+    {
+      "src": "/assets/uploads/1793174186833-gb-logo.webp",
+      "w": 2000
+    }
+  ],
+  "/assets/uploads/1793174428585-ali1.webp": [
+    {
+      "src": "/assets/sized/1793174428585-ali1-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/1793174428585-ali1-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/sized/1793174428585-ali1-1400.webp",
+      "w": 1400
+    },
+    {
+      "src": "/assets/uploads/1793174428585-ali1.webp",
+      "w": 1504
+    }
+  ],
   "/assets/uploads/brand/karakoram-vision-logo-blue.png": [
     {
       "src": "/assets/sized/brand-karakoram-vision-logo-blue-400.webp",

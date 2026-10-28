@@ -41,7 +41,10 @@
       {% if f.contact.show_email !== false and site.email %}<p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>{% endif %}
       {% if f.contact.show_address !== false and site.address %}<p><strong>Office:</strong> {{ site.address }}</p>{% endif %}
       {% if f.contact.description %}<p>{{ f.contact.description }}</p>{% endif %}
+      <div class="bk-footer-hub-row">
       {% if f.contact.show_contact_hub !== false %}<button type="button" class="bk-footer-contact-hub" data-open-contact>{{ icon('chat') }} {{ f.contact.contact_hub_label or 'International contact hub' }}</button>{% endif %}
+        {% include "components/affiliated-with.njk" %}
+      </div>
       {% if f.social.enabled !== false %}
       <div class="bk-social-links" aria-label="Social media accounts">
         {% for platform in f.social.platform_order %}{% if site.social[platform.key] %}<a href="{{ site.social[platform.key] }}" target="_blank" rel="noopener" aria-label="{{ platform.label }}">{{ icon(platform.icon or 'chat') }}</a>{% endif %}{% endfor %}
@@ -55,6 +58,5 @@
     <span>{{ (f.bottom.copyright_template or '© {year} {site}. All rights reserved.') | replace('{year}', ('' | year)) | replace('{site}', site.name) }}</span>
     <nav aria-label="Footer navigation">{% for link in f.bottom.links %}{% if link.enabled !== false %}<a href="{{ link.url }}"{% if link.target_blank %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>{% endif %}{% endfor %}</nav>
   </div>
-{% include "components/affiliated-with.njk" %}
 </footer>
 {% endif %}

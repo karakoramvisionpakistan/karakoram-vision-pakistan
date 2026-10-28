@@ -1,5 +1,9 @@
-{# The membership badges, low in the footer. Small and grey on purpose - they
-   are proof, not advertising. Nothing added, nothing shown. #}
+{# The membership badges, beside the contact hub button in the footer.
+
+   Each logo carries its own size, in the tag and in a style attribute. That
+   is on purpose: the build fills in width="1200" for images that have none,
+   and a browser holding an older stylesheet has nothing to cap them with -
+   which is how one of these once filled a whole screen. #}
 {% if affiliations and affiliations.length %}
 <div class="bk-affiliations">
   <p class="bk-affiliations-label">{{ siteFooter.affiliations_label or "Affiliated with" }}</p>
@@ -7,7 +11,7 @@
     {% for item in affiliations %}
     <li>
       {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" title="{{ item.name }}">{% endif %}
-        <img src="{{ item.logo }}" alt="{{ item.name }}" height="40" loading="lazy" decoding="async">
+        <img src="{{ item.logo }}" alt="{{ item.name }}" width="56" height="56" style="width:56px;height:56px;object-fit:contain" loading="lazy" decoding="async">
       {% if item.url %}</a>{% endif %}
     </li>
     {% endfor %}

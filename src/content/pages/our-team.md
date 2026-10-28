@@ -12,7 +12,10 @@ categories: []
 faqs: []
 slug: our-team
 cover_image_alt: ""
-answer_summary: ""
+answer_summary: "Connect with our experienced team to discuss customized itineraries, travel information, tour packages, and reliable travel services in the magnificent Karakoram region of Pakistan."
+author: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
+last_verified: "2026-10-28"
 seo:
   description: >-
     Connect with our experienced team to discuss customized itineraries, travel information, tour
