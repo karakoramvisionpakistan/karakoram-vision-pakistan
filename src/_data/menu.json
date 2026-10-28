@@ -703,7 +703,14 @@
           "enabled": true,
           "target_blank": false,
           "label": "7,000m Peaks",
-          "url": "/search/?type=expeditions&q=7000m"
+          "url": "/search/?type=expeditions&q=7000m",
+          "children": [
+            {
+              "label": "Spantik Expedition",
+              "url": "/expeditions/spantik-peak-expedition/",
+              "enabled": true
+            }
+          ]
         },
         {
           "enabled": true,
