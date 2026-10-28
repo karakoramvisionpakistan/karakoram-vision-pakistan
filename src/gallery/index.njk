@@ -36,7 +36,7 @@ seo:
       {% for photo in album.photos %}
       <figure class="bk-gallery-item" data-album="{{ albumIndex }}">
         <button type="button" data-photo="{{ photo }}" data-caption="{{ album.title }}">
-          <img src="{{ photo }}"{{ photo | srcsetAttr('(min-width:1024px) 25vw, (min-width:640px) 33vw, 50vw') }} alt="{{ album.title }}" loading="lazy" decoding="async">
+          <img src="{{ photo }}"{{ photo | srcsetAttr('(min-width:1024px) 25vw, (min-width:640px) 33vw, 50vw') | safe }} alt="{{ album.title }}" loading="lazy" decoding="async">
         </button>
       </figure>
       {% endfor %}

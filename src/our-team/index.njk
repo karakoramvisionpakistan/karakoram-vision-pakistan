@@ -21,7 +21,7 @@ seo:
     <article class="bk-team-card">
       <div class="bk-team-photo">
         {% if person.photo %}
-        <img src="{{ person.photo }}"{{ person.photo | srcsetAttr('(min-width:1024px) 25vw, (min-width:640px) 33vw, 50vw') }} alt="{{ person.name }}" loading="lazy" decoding="async">
+        <img src="{{ person.photo }}"{{ person.photo | srcsetAttr('(min-width:1024px) 25vw, (min-width:640px) 33vw, 50vw') | safe }} alt="{{ person.name }}" loading="lazy" decoding="async">
         {% endif %}
         {% if person.bio %}
         <div class="bk-team-bio"><p>{{ person.bio }}</p></div>

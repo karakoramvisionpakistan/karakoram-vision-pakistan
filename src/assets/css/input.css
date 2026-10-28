@@ -1127,10 +1127,10 @@
   gap: 1rem 1.5rem;
   margin-top: 1rem;
 }
-.bk-affiliations { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; }
+.bk-affiliations { display: flex; flex-direction: column; align-items: flex-start; gap: .45rem; }
 .bk-affiliations-label {
-  font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em;
-  opacity: .5; margin: 0; white-space: nowrap;
+  font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .1em;
+  opacity: .8; margin: 0; white-space: nowrap;
 }
 .bk-affiliations-list {
   display: flex; flex-wrap: wrap; align-items: center;
