@@ -102,6 +102,6 @@
     "name_label": "Name",
     "email_label": "Email",
     "message_label": "Message",
-    "endpoint_help": "Add your Formspree endpoint in Pages CMS. Direct email and messaging options remain available."
+    "endpoint_help": ""
   }
 }
