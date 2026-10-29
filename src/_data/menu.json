@@ -773,109 +773,6 @@
     {
       "enabled": true,
       "target_blank": false,
-      "label": "International Travelers",
-      "url": "/international-travelers/",
-      "children": [
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Pakistan Travel Information",
-          "url": "/blog/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Travel Insurance Guidance",
-          "url": "/search/?type=blog&q=travel%20insurance"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Best Sellers",
-          "icon": "★",
-          "featured": true,
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Hunza Valley",
-              "url": "/search/?type=tours&q=hunza"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "K2 Base Camp Trek",
-              "url": "/trekking/k2-base-camp-trek/"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Kalash Festival",
-              "url": "/search/?type=tours&q=kalash"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Nanga Parbat Trek",
-              "url": "/search/?type=trekking&q=nanga%20parbat"
-            }
-          ]
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "City Tours",
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Lahore Tour",
-              "url": "/search/?type=tours&q=lahore"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Islamabad Tour",
-              "url": "/search/?type=tours&q=islamabad"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Peshawar Tour",
-              "url": "/search/?type=tours&q=peshawar"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Karachi Tour",
-              "url": "/search/?type=tours&q=karachi"
-            }
-          ]
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Holiday Itineraries",
-          "url": "/tours/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Group Tours",
-          "url": "/search/?type=tours&q=group"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Tour Calendar",
-          "icon": "▦",
-          "url": "/trip-calendar/"
-        }
-      ]
-    },
-    {
-      "enabled": true,
-      "target_blank": false,
       "label": "Special Interests",
       "url": "/special-interests/",
       "children": [
@@ -1031,6 +928,116 @@
     }
   ],
   "trash": [
+    {
+      "id": "1793280134157-9gh1s8",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "International Travelers",
+        "url": "/international-travelers/",
+        "children": [
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Pakistan Travel Information",
+            "url": "/blog/"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Travel Insurance Guidance",
+            "url": "/search/?type=blog&q=travel%20insurance"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Best Sellers",
+            "icon": "★",
+            "featured": true,
+            "children": [
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Hunza Valley",
+                "url": "/search/?type=tours&q=hunza"
+              },
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "K2 Base Camp Trek",
+                "url": "/trekking/k2-base-camp-trek/"
+              },
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Kalash Festival",
+                "url": "/search/?type=tours&q=kalash"
+              },
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Nanga Parbat Trek",
+                "url": "/search/?type=trekking&q=nanga%20parbat"
+              }
+            ]
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "City Tours",
+            "children": [
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Lahore Tour",
+                "url": "/search/?type=tours&q=lahore"
+              },
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Islamabad Tour",
+                "url": "/search/?type=tours&q=islamabad"
+              },
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Peshawar Tour",
+                "url": "/search/?type=tours&q=peshawar"
+              },
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Karachi Tour",
+                "url": "/search/?type=tours&q=karachi"
+              }
+            ]
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Holiday Itineraries",
+            "url": "/tours/"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Group Tours",
+            "url": "/search/?type=tours&q=group"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Tour Calendar",
+            "icon": "▦",
+            "url": "/trip-calendar/"
+          }
+        ]
+      },
+      "parentPath": [],
+      "index": 7,
+      "label": "International Travelers",
+      "at": "2026-10-29T13:22:14.157Z"
+    },
     {
       "id": "1793193524970-gteyk5",
       "item": {
