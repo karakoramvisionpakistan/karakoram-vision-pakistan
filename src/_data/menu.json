@@ -829,30 +829,6 @@
         {
           "enabled": true,
           "target_blank": false,
-          "label": "Licensed Programmes",
-          "url": "/hunting-services/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Regions & Species Information",
-          "url": "/hunting-services/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Permit & Quota Guidance",
-          "url": "/hunting-services/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Conservation & Compliance",
-          "url": "/hunting-services/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
           "label": "Request an Inquiry",
           "url": "/plan-a-trip/?service=Licensed%20Hunting%20Services"
         }
@@ -897,7 +873,7 @@
     {
       "enabled": true,
       "target_blank": false,
-      "label": "News & Updates",
+      "label": "News",
       "url": "/news/",
       "children": [
         {
@@ -928,6 +904,66 @@
     }
   ],
   "trash": [
+    {
+      "id": "1793281657203-62a353",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Conservation & Compliance",
+        "url": "/hunting-services/"
+      },
+      "parentPath": [
+        8
+      ],
+      "index": 0,
+      "label": "Conservation & Compliance",
+      "at": "2026-10-29T13:47:37.203Z"
+    },
+    {
+      "id": "1793281653395-nnrj9w",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Permit & Quota Guidance",
+        "url": "/hunting-services/"
+      },
+      "parentPath": [
+        8
+      ],
+      "index": 0,
+      "label": "Permit & Quota Guidance",
+      "at": "2026-10-29T13:47:33.395Z"
+    },
+    {
+      "id": "1793281650067-2znc2k",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Regions & Species Information",
+        "url": "/hunting-services/"
+      },
+      "parentPath": [
+        8
+      ],
+      "index": 0,
+      "label": "Regions & Species Information",
+      "at": "2026-10-29T13:47:30.067Z"
+    },
+    {
+      "id": "1793281646851-a3d3wt",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Licensed Programmes",
+        "url": "/hunting-services/"
+      },
+      "parentPath": [
+        8
+      ],
+      "index": 0,
+      "label": "Licensed Programmes",
+      "at": "2026-10-29T13:47:26.851Z"
+    },
     {
       "id": "1793280134157-9gh1s8",
       "item": {
