@@ -80,7 +80,7 @@
     {
       "label": "International Travelers",
       "url": "/international-travelers/",
-      "published": true,
+      "published": false,
       "redirect_to": "",
       "file": "src/international-travelers/index.njk"
     },
