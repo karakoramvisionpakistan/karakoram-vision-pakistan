@@ -119,19 +119,13 @@
         {
           "enabled": true,
           "target_blank": false,
-          "label": "Air Travel",
-          "url": "/search/?type=blog&q=airline"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
           "label": "Camping",
           "url": "/search/?type=tours&q=camping"
         },
         {
           "enabled": true,
           "target_blank": false,
-          "label": "Cultural Tours",
+          "label": "Tours",
           "url": "/tours/cultural-tours/"
         },
         {
@@ -879,6 +873,21 @@
     }
   ],
   "trash": [
+    {
+      "id": "1793282408630-csnkcw",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Air Travel",
+        "url": "/search/?type=blog&q=airline"
+      },
+      "parentPath": [
+        2
+      ],
+      "index": 1,
+      "label": "Air Travel",
+      "at": "2026-10-29T14:00:08.630Z"
+    },
     {
       "id": "1793281958574-27vkuz",
       "item": {
