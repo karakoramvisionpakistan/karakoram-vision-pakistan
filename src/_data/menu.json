@@ -208,7 +208,7 @@
               "enabled": true,
               "target_blank": false,
               "label": "Islamabad",
-              "url": "/search/?type=tours&q=islamabad"
+              "url": "tours/islamabad-city-tour"
             },
             {
               "enabled": true,
