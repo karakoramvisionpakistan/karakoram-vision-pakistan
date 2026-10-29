@@ -72,13 +72,25 @@ faqs:
       pleasant for sightseeing and outdoor activities. Spring and autumn are especially popular for
       enjoying the city's natural beauty.
 slug: islamabad-city-tour
-departure_type: ""
-answer_summary: ""
-cover_image_alt: ""
-duration_days: null
-price_currency: ""
+departure_type: Custom
+answer_summary: >-
+  The Islamabad City Tour is a guided sightseeing experience that lets you explore Pakistan’s
+  capital, including Faisal Mosque, Pakistan Monument, Daman-e-Koh, and the city’s beautiful natural
+  landscapes and cultural attractions.
+cover_image_alt: >-
+  Islamabad City Tour mein Faisal Mosque, Pakistan Monument, Margalla Hills aur Islamabad ke
+  khoobsurat tourist attractions ke manazir dekhein.
+duration_days: 1
+price_currency: USD
 reviews: []
-key_facts: []
+key_facts:
+  - label: Top Attraction
+    value: " Faisal Mosque"
+  - label: Best Season
+    value: "October-April "
+  - label: Tour Duration
+    value: 4-8
+  - {}
 author: ""
 reviewed_by: ""
 last_verified: ""
@@ -92,5 +104,6 @@ seo:
   robots: index, follow, max-image-preview:large
 body: ""
 ---
+
 
 <p>Discover the beauty of Islamabad, the capital city of Pakistan, with an unforgettable city tour. Explore iconic landmarks such as Faisal Mosque, Pakistan Monument, Daman-e-Koh, and the scenic Margalla Hills. Experience the city’s peaceful atmosphere, modern architecture, lush green landscapes, and rich cultural heritage. Our Islamabad City Tour offers a wonderful opportunity to enjoy the city’s famous attractions, capture beautiful memories, and experience the charm of Pakistan’s capital.</p>
