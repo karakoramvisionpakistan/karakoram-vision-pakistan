@@ -5,87 +5,87 @@
     "image_alt": ""
   },
   "tours": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "trekking": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "expeditions": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "jeep-safaris": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "hunting-services": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "vehicles": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "blog": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "news": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "destinations": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "holiday-types": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "special-interests": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "journey-categories": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "international-travelers": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "guest-reviews": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "social-responsibility": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "plan-a-trip": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   },
   "contact-us": {
-    "enabled": true,
+    "enabled": false,
     "image": "",
     "image_alt": ""
   }
