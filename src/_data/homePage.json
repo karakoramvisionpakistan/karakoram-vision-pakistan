@@ -70,7 +70,7 @@
     "card_count": 9
   },
   "fixed": {
-    "enabled": false,
+    "enabled": true,
     "eyebrow": "Travel calendar",
     "heading": "Fixed departures and group journeys",
     "description": "Start with a scheduled option or ask our team to tailor a private departure.",
@@ -199,7 +199,7 @@
       },
       {
         "title": "Insurance",
-        "description": "Coverage considerations for remote mountain travel.",
+        "description": "Insurance policy is must for the travellers who are coming for Trekking and climbing in the Karakoram with KVP and without have any insurance we will not be responsible.  ",
         "url": "/search/?type=blog&q=insurance",
         "link_label": "Learn more"
       },
@@ -226,7 +226,7 @@
     "enabled": true,
     "eyebrow": "Start a conversation",
     "heading": "Share your dates and ideal route",
-    "description": "The Skardu team will prepare a current proposal for your group.",
+    "description": "The office team will prepare a current proposal for your group.",
     "button_label": "Request a trip plan",
     "button_url": "/plan-a-trip/#trip-request-form"
   }
