@@ -212,6 +212,29 @@
       }
     ]
   },
+  "/assets/uploads/1793270056058-Baltit-Fort.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793270056058-baltit-fort--wide-399.webp",
+        "w": 399,
+        "h": 249
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793270056058-baltit-fort--mid-399.webp",
+        "w": 399,
+        "h": 319
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793270056058-baltit-fort--tall-282.webp",
+        "w": 282,
+        "h": 501
+      }
+    ]
+  },
   "/assets/uploads/1792995980556-Deosai.webp": {
     "wide": [
       {
@@ -291,6 +314,90 @@
       }
     ]
   },
+  "/assets/uploads/1793270184022-Baltit-fort-kvp.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793270184022-baltit-fort-kvp--wide-640.webp",
+        "w": 640,
+        "h": 400
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793270184022-baltit-fort-kvp--mid-599.webp",
+        "w": 599,
+        "h": 479
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793270184022-baltit-fort-kvp--tall-269.webp",
+        "w": 269,
+        "h": 479
+      }
+    ]
+  },
+  "/assets/uploads/1793270418264-Skardu-City.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793270418264-skardu-city--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1793270418264-skardu-city--wide-1552.webp",
+        "w": 1552,
+        "h": 970
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793270418264-skardu-city--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793270418264-skardu-city--mid-1213.webp",
+        "w": 1213,
+        "h": 970
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793270418264-skardu-city--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793270418264-skardu-city--tall-546.webp",
+        "w": 546,
+        "h": 970
+      }
+    ]
+  },
+  "/assets/uploads/1793270667431-Spting-Blossom.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793270667431-spting-blossom--wide-510.webp",
+        "w": 510,
+        "h": 319
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793270667431-spting-blossom--mid-510.webp",
+        "w": 510,
+        "h": 408
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793270667431-spting-blossom--tall-338.webp",
+        "w": 338,
+        "h": 601
+      }
+    ]
+  },
   "/assets/uploads/1792840088009-L1280423--Copy-.webp": {
     "wide": [
       {
@@ -311,6 +418,44 @@
         "src": "/assets/hero/1792840088009-l1280423-copy--tall-270.webp",
         "w": 270,
         "h": 480
+      }
+    ]
+  },
+  "/assets/uploads/1793271325131-KVP.K2.Concordia.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793271325131-kvp-k2-concordia--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1793271325131-kvp-k2-concordia--wide-1920.webp",
+        "w": 1920,
+        "h": 1200
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793271325131-kvp-k2-concordia--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793271325131-kvp-k2-concordia--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793271325131-kvp-k2-concordia--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793271325131-kvp-k2-concordia--tall-830.webp",
+        "w": 830,
+        "h": 1476
       }
     ]
   },
@@ -377,6 +522,29 @@
         "src": "/assets/hero/1792998495291-img-9381--tall-840.webp",
         "w": 840,
         "h": 1493
+      }
+    ]
+  },
+  "/assets/uploads/1793271552139-Rakaposhi-Trek-KVP.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793271552139-rakaposhi-trek-kvp--wide-678.webp",
+        "w": 678,
+        "h": 424
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793271552139-rakaposhi-trek-kvp--mid-565.webp",
+        "w": 565,
+        "h": 452
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793271552139-rakaposhi-trek-kvp--tall-254.webp",
+        "w": 254,
+        "h": 452
       }
     ]
   },
