@@ -3,11 +3,15 @@ title: Northern Pakistan Packing Checklist
 slug: northern-pakistan-packing-checklist
 permalink: /blog/northern-pakistan-packing-checklist/
 published: true
-featured: true
-summary: "What to actually pack for northern Pakistan, by trip type - clothing, footwear, documents and health kit, plus the gear you can hire in Skardu instead of carrying from home."
-answer_summary: "What to actually pack for northern Pakistan, by trip type - clothing, footwear, documents and health kit, plus the gear you can hire in Skardu instead of carrying from home."
-cover_image: /assets/uploads/journeys/northern-pakistan-packing-checklist.svg
-cover_image_alt: "Trekking clothing and gear packed for a journey in the Karakoram"
+featured: false
+summary: >-
+  What to actually pack for northern Pakistan, by trip type - clothing, footwear, documents and
+  health kit, plus the gear you can hire in Skardu instead of carrying from home.
+answer_summary: >-
+  What to actually pack for northern Pakistan, by trip type - clothing, footwear, documents and
+  health kit, plus the gear you can hire in Skardu instead of carrying from home.
+cover_image: /assets/uploads/1792935730426-Biafo-glacier.webp
+cover_image_alt: Trekking clothing and gear packed for a journey in the Karakoram
 categories:
   - Travel Guides
 tags:
@@ -15,27 +19,39 @@ tags:
   - northern Pakistan
   - travel gear
 faqs:
-  - question: "What is the most important item to get right?"
-    answer: "Footwear. Broken-in boots with ankle support for trekking, and comfortable shoes with grip for tours. New boots on a 10-day trek cause blisters that can end a trip."
-  - question: "Can I hire trekking equipment in Skardu?"
-    answer: "Usually yes - sleeping bags, down jackets, mats and poles are generally available, though quality varies. Tell us in advance what you would rather hire and we will confirm what we can arrange."
-  - question: "How should women travellers dress in Gilgit-Baltistan?"
-    answer: "Loose clothing covering shoulders and knees, with a scarf for mosques and villages. The region is used to visitors and nothing is enforced on travellers, but modest dress is noticed and appreciated."
-  - question: "Can I bring a drone?"
-    answer: "Drones require permission in Pakistan. Ask us well before you travel rather than arriving with one, as equipment can be held at the airport."
+  - question: What is the most important item to get right?
+    answer: >-
+      Footwear. Broken-in boots with ankle support for trekking, and comfortable shoes with grip for
+      tours. New boots on a 10-day trek cause blisters that can end a trip.
+  - question: Can I hire trekking equipment in Skardu?
+    answer: >-
+      Usually yes - sleeping bags, down jackets, mats and poles are generally available, though
+      quality varies. Tell us in advance what you would rather hire and we will confirm what we can
+      arrange.
+  - question: How should women travellers dress in Gilgit-Baltistan?
+    answer: >-
+      Loose clothing covering shoulders and knees, with a scarf for mosques and villages. The region
+      is used to visitors and nothing is enforced on travellers, but modest dress is noticed and
+      appreciated.
+  - question: Can I bring a drone?
+    answer: >-
+      Drones require permission in Pakistan. Ask us well before you travel rather than arriving with
+      one, as equipment can be held at the airport.
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: "Northern Pakistan Packing List | Karakoram Vision"
+  title: Northern Pakistan Packing List | Karakoram Vision
   description: >-
-    What to actually pack for northern Pakistan - layers, footwear, documents, and the gear you can hire in Skardu instead of carrying it from home.
+    What to actually pack for northern Pakistan - layers, footwear, documents, and the gear you can
+    hire in Skardu instead of carrying it from home.
   keywords: packing list, northern Pakistan, travel gear
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""
   social_image: /assets/uploads/journeys/northern-pakistan-packing-checklist.svg
 layout: layouts/post.njk
 ---
+
 
 <h2><strong>Pack for altitude, not for a country</strong></h2>
 <p>The mistake most first-time visitors make is packing for &quot;Pakistan&quot;. Islamabad in July is hot and humid; the same week at a camp on the Baltoro is below freezing at night. What you need depends almost entirely on how high you will sleep and for how long.</p>
