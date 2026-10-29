@@ -4853,16 +4853,16 @@ content:
     type: collection
     path: content/clients
     filename:
-      template: "{name}.md"
-      field: name
+      template: "{title}.md"
+      field: title
     view:
-      primary: name
+      primary: title
       fields:
-        - name
+        - title
         - country
         - published
     fields:
-      - name: name
+      - name: title
         label: Name
         type: string
         required: true
@@ -4893,16 +4893,16 @@ content:
     type: collection
     path: content/partners
     filename:
-      template: "{name}.md"
-      field: name
+      template: "{title}.md"
+      field: title
     view:
-      primary: name
+      primary: title
       fields:
-        - name
+        - title
         - url
         - published
     fields:
-      - name: name
+      - name: title
         label: Partner name
         type: string
         required: true
@@ -4932,14 +4932,21 @@ content:
     type: collection
     path: content/announcements
     filename:
-      template: "{year}-{month}-{day}-{hour}{minute}.md"
-      field: message
+      template: "{title}.md"
+      field: title
     view:
-      primary: message
+      primary: title
       fields:
         - message
         - published
     fields:
+      - name: title
+        label: Name for this list
+        type: string
+        required: true
+        description: >-
+          Just so you can find it again — "Winter closure", "2027 Baltoro
+          dates". Not shown on the website.
       - name: message
         label: Message
         type: text
@@ -4970,16 +4977,16 @@ content:
     type: collection
     path: content/affiliations
     filename:
-      template: "{name}.md"
-      field: name
+      template: "{title}.md"
+      field: title
     view:
-      primary: name
+      primary: title
       fields:
-        - name
+        - title
         - url
         - published
     fields:
-      - name: name
+      - name: title
         label: Name
         type: string
         required: true
@@ -5049,17 +5056,17 @@ content:
     type: collection
     path: content/team
     filename:
-      template: "{name}.md"
-      field: name
+      template: "{title}.md"
+      field: title
     view:
-      primary: name
+      primary: title
       fields:
-        - name
+        - title
         - role
         - section
         - published
     fields:
-      - name: name
+      - name: title
         label: Name
         type: string
         required: true

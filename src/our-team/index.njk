@@ -24,16 +24,43 @@ seo:
         <img src="{{ person.photo }}"{{ person.photo | srcsetAttr('(min-width:1024px) 25vw, (min-width:640px) 33vw, 50vw') | safe }} alt="{{ person.name }}" loading="lazy" decoding="async">
         {% endif %}
         {% if person.bio %}
-        <div class="bk-team-bio"><p>{{ person.bio }}</p></div>
+        {# The panel keeps to the lower part of the photo and the words are
+           trimmed to fit. A long biography used to stretch it until the
+           picture was gone. #}
+        <div class="bk-team-panel">
+          <h3>{{ person.name }}</h3>
+          {% if person.role %}<p class="bk-team-panel-role">{{ person.role }}</p>{% endif %}
+          <p class="bk-team-panel-bio">{{ person.bio }}</p>
+          {% if person.bio | length > 180 %}
+          <button type="button" class="bk-team-more"
+                  data-team-more
+                  data-name="{{ person.name }}"
+                  data-role="{{ person.role }}"
+                  data-bio="{{ person.bio }}">More</button>
+          {% endif %}
+        </div>
         {% endif %}
       </div>
-      <h3>{{ person.name }}</h3>
+      <h3 class="bk-team-name">{{ person.name }}</h3>
       {% if person.role %}<p class="bk-team-role">{{ person.role }}</p>{% endif %}
     </article>
     {% endfor %}
   </div>
 </section>
 {% endfor %}
+
+{# The whole biography, for when "More" is pressed. #}
+<div class="bk-team-modal" data-team-modal hidden>
+  <div class="bk-team-modal-box" role="dialog" aria-modal="true" aria-labelledby="team-modal-name">
+    <button type="button" class="bk-team-modal-close" data-team-close aria-label="Close">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <h3 id="team-modal-name" data-team-modal-name></h3>
+    <p class="bk-team-modal-role" data-team-modal-role></p>
+    <p class="bk-team-modal-bio" data-team-modal-bio></p>
+  </div>
+</div>
+<script src="/assets/js/team.js" defer></script>
 {% else %}
 <section class="bk-team"><p class="bk-team-empty">Team members will be listed here shortly.</p></section>
 {% endif %}
