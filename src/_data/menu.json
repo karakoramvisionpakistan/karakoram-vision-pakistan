@@ -843,32 +843,7 @@
       "target_blank": false,
       "label": "Contact",
       "url": "/contact-us/",
-      "children": [
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Customize My Tour",
-          "url": "/plan-a-trip/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Contact Karakoram Vision Pakistan",
-          "url": "/contact-us/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Request a Meeting",
-          "url": "/plan-a-trip/?request=meeting"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Request a Call",
-          "url": "/plan-a-trip/?request=call"
-        }
-      ]
+      "children": []
     },
     {
       "enabled": true,
@@ -904,6 +879,66 @@
     }
   ],
   "trash": [
+    {
+      "id": "1793281958574-27vkuz",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Contact Karakoram Vision Pakistan",
+        "url": "/contact-us/"
+      },
+      "parentPath": [
+        10
+      ],
+      "index": 0,
+      "label": "Contact Karakoram Vision Pakistan",
+      "at": "2026-10-29T13:52:38.574Z"
+    },
+    {
+      "id": "1793281914004-u0vr8c",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Request a Call",
+        "url": "/plan-a-trip/?request=call"
+      },
+      "parentPath": [
+        10
+      ],
+      "index": 1,
+      "label": "Request a Call",
+      "at": "2026-10-29T13:51:54.004Z"
+    },
+    {
+      "id": "1793281909668-vp9m1l",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Request a Meeting",
+        "url": "/plan-a-trip/?request=meeting"
+      },
+      "parentPath": [
+        10
+      ],
+      "index": 1,
+      "label": "Request a Meeting",
+      "at": "2026-10-29T13:51:49.668Z"
+    },
+    {
+      "id": "1793281889516-b61xxu",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Customize My Tour",
+        "url": "/plan-a-trip/"
+      },
+      "parentPath": [
+        10
+      ],
+      "index": 0,
+      "label": "Customize My Tour",
+      "at": "2026-10-29T13:51:29.516Z"
+    },
     {
       "id": "1793281657203-62a353",
       "item": {
