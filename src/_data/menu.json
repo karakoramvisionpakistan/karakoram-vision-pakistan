@@ -143,18 +143,6 @@
         {
           "enabled": true,
           "target_blank": false,
-          "label": "Honeymoon",
-          "url": "/search/?type=tours&q=honeymoon"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Luxury Tours",
-          "url": "/search/?type=tours&q=luxury"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
           "label": "Road Trips",
           "url": "/search/?type=tours&q=road%20trip"
         },
@@ -163,12 +151,6 @@
           "target_blank": false,
           "label": "Trekking Holidays",
           "url": "/trekking/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Weekend Retreats",
-          "url": "/search/?type=tours&q=weekend"
         }
       ]
     },
@@ -873,6 +855,51 @@
     }
   ],
   "trash": [
+    {
+      "id": "1793282456246-7tnimn",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Weekend Retreats",
+        "url": "/search/?type=tours&q=weekend"
+      },
+      "parentPath": [
+        2
+      ],
+      "index": 7,
+      "label": "Weekend Retreats",
+      "at": "2026-10-29T14:00:56.246Z"
+    },
+    {
+      "id": "1793282450462-5d2600",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Luxury Tours",
+        "url": "/search/?type=tours&q=luxury"
+      },
+      "parentPath": [
+        2
+      ],
+      "index": 5,
+      "label": "Luxury Tours",
+      "at": "2026-10-29T14:00:50.462Z"
+    },
+    {
+      "id": "1793282446750-3b1way",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Honeymoon",
+        "url": "/search/?type=tours&q=honeymoon"
+      },
+      "parentPath": [
+        2
+      ],
+      "index": 5,
+      "label": "Honeymoon",
+      "at": "2026-10-29T14:00:46.750Z"
+    },
     {
       "id": "1793282408630-csnkcw",
       "item": {
