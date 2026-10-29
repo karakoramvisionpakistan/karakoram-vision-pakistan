@@ -13,10 +13,8 @@ section: Office Team
 order: 2
 published: true
 slug: mushtaq-ahmed
-_trashed: true
-_trashed_at: "2026-10-29T12:08:50.647Z"
-_trashed_by: Muhammad Ali
 ---
+
 
 
 
