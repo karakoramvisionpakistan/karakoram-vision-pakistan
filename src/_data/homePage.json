@@ -15,11 +15,11 @@
     "destinations",
     "vehicles",
     "trust",
-    "reviews",
     "guides",
     "resources",
     "faqs",
-    "cta"
+    "cta",
+    "reviews"
   ],
   "proof": {
     "enabled": true,
@@ -34,7 +34,7 @@
     "description": "Tours, trekking and expeditions remain separate so travelers can find the right level of adventure quickly.",
     "cards": [
       {
-        "label": "Cultural Tours",
+        "label": "Tours",
         "description": "Private journeys across Hunza, Skardu, Shigar, Khaplu and Gilgit.",
         "url": "/tours/"
       },
