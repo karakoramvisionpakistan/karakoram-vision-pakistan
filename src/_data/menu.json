@@ -897,7 +897,7 @@
     {
       "enabled": true,
       "target_blank": false,
-      "label": "News",
+      "label": "News & Updates",
       "url": "/news/",
       "children": [
         {
