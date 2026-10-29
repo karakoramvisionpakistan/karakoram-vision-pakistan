@@ -14,9 +14,10 @@ order: 2
 published: true
 slug: mushtaq-ahmed
 _trashed: true
-_trashed_at: "2026-10-29T12:11:22.621Z"
+_trashed_at: "2026-10-29T12:11:32.605Z"
 _trashed_by: Muhammad Ali
 ---
+
 
 
 
