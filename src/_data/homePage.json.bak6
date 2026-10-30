@@ -1,0 +1,233 @@
+{
+  "hero": {
+    "enabled": true,
+    "eyebrow": "Skardu • Hunza • Karakoram • Gilgit-Baltistan",
+    "heading": "See the Karakoram with Karakoram Vision Pakistan",
+    "summary": "Private tours, supported treks, expedition logistics and mountain road journeys planned from Skardu.",
+    "slides_count": 6,
+    "show_trip_finder": true
+  },
+  "section_order": [
+    "proof",
+    "services",
+    "latest",
+    "fixed",
+    "destinations",
+    "vehicles",
+    "trust",
+    "guides",
+    "resources",
+    "faqs",
+    "cta",
+    "reviews"
+  ],
+  "proof": {
+    "enabled": true,
+    "eyebrow": "Plan directly from Skardu",
+    "heading": "Local route knowledge with clear communication",
+    "description": "Start with a researched itinerary, then confirm current roads, flights, permits, hotels and services in one written proposal."
+  },
+  "services": {
+    "enabled": true,
+    "eyebrow": "Choose your journey",
+    "heading": "Distinct travel services, one expert team",
+    "description": "Tours, trekking and expeditions remain separate so travelers can find the right level of adventure quickly.",
+    "cards": [
+      {
+        "label": "Tours",
+        "description": "Private journeys across Hunza, Skardu, Shigar, Khaplu and Gilgit.",
+        "url": "/tours/"
+      },
+      {
+        "label": "Trekking",
+        "description": "Supported base-camp, glacier and high-valley routes.",
+        "url": "/trekking/"
+      },
+      {
+        "label": "Expeditions",
+        "description": "Permit, approach, base-camp and high-altitude logistics.",
+        "url": "/expeditions/"
+      },
+      {
+        "label": "Jeep Adventures",
+        "description": "4x4 access to Deosai, Basho and mountain valleys.",
+        "url": "/jeep-safaris/"
+      },
+      {
+        "label": "Transport",
+        "description": "Private and group vehicles with route-based quotations.",
+        "url": "/vehicles/"
+      }
+    ]
+  },
+  "latest": {
+    "enabled": true,
+    "eyebrow": "Latest journeys",
+    "heading": "Featured Karakoram Journeys",
+    "description": "Choose the journey which you want to do",
+    "button_label": "Browse all journeys",
+    "button_url": "/journey-categories/",
+    "card_count": 9
+  },
+  "fixed": {
+    "enabled": true,
+    "eyebrow": "Travel calendar",
+    "heading": "Fixed departures and group journeys",
+    "description": "Start with a scheduled option or ask our team to tailor a private departure.",
+    "button_label": "Browse trip calendar",
+    "button_url": "/trip-calendar/",
+    "card_count": 6
+  },
+  "destinations": {
+    "enabled": true,
+    "eyebrow": "Destinations",
+    "heading": "Explore Gilgit Baltistan by region",
+    "description": "Discover high mountains, heritage cities, national parks and remote valleys.",
+    "button_label": "All destinations",
+    "button_url": "/destinations/",
+    "items": [
+      {
+        "title": "Skardu",
+        "description": "Lakes, Shigar, Deosai and Baltoro gateway",
+        "url": "/destinations/skardu/"
+      },
+      {
+        "title": "Hunza",
+        "description": "Forts, villages and Karakoram Highway scenery",
+        "url": "/destinations/hunza/"
+      },
+      {
+        "title": "Deosai",
+        "description": "Seasonal high plateau and wildlife landscapes",
+        "url": "/destinations/deosai/"
+      },
+      {
+        "title": "Shigar",
+        "description": "Heritage valley and Braldu access",
+        "url": "/destinations/shigar/"
+      },
+      {
+        "title": "Khaplu",
+        "description": "Shyok Valley heritage and Hushe gateway",
+        "url": "/destinations/khaplu/"
+      },
+      {
+        "title": "Fairy Meadows",
+        "description": "Nanga Parbat views and mountain walks",
+        "url": "/destinations/fairy-meadows/"
+      }
+    ]
+  },
+  "vehicles": {
+    "enabled": true,
+    "eyebrow": "Ground transport",
+    "heading": "Vehicles for mountain and city travel",
+    "description": "Choose the right vehicle for airport transfers, road trips, expedition cargo and high-mountain access.",
+    "button_label": "View all vehicles",
+    "button_url": "/vehicles/",
+    "card_count": 4
+  },
+  "trust": {
+    "enabled": false,
+    "eyebrow": "Why You Choose Us",
+    "heading": "Straight Forward Planning for Complex Mountain travel",
+    "description": "Client details, route realities and supplier commitments are aligned before confirmation.",
+    "items": [
+      {
+        "title": "Handpicked journeys",
+        "description": "Travel programmes organized by destination, activity and difficulty."
+      },
+      {
+        "title": "Detailed descriptions",
+        "description": "Itineraries, inclusions, exclusions, equipment and practical guidance."
+      },
+      {
+        "title": "Local knowledge",
+        "description": "Travel support rooted in Pakistan’s mountain regions and access realities."
+      },
+      {
+        "title": "Custom planning",
+        "description": "Private dates, group size, budget and comfort preferences considered."
+      },
+      {
+        "title": "Responsible travel",
+        "description": "Compliance, conservation and local-community considerations built in."
+      },
+      {
+        "title": "Direct support",
+        "description": "Email, live chat and international messaging channels managed from CMS."
+      }
+    ]
+  },
+  "reviews": {
+    "enabled": true,
+    "eyebrow": "Traveller feedback",
+    "heading": "What our guests say",
+    "description": "Reviews from travellers who have joined our tours, treks and expeditions.",
+    "button_label": "Read all reviews",
+    "button_url": "/guest-reviews/",
+    "card_count": 3
+  },
+  "guides": {
+    "enabled": true,
+    "eyebrow": "Travel knowledge",
+    "heading": "Latest guides and destination information",
+    "description": "Research routes, culture, safety, food, transport and places to visit.",
+    "button_label": "Read all guides",
+    "button_url": "/blog/",
+    "card_count": 6
+  },
+  "resources": {
+    "enabled": true,
+    "eyebrow": "Prepare for the journey",
+    "heading": "Travel resources before you depart",
+    "description": "Review fitness, equipment, insurance, altitude, permits and responsible-travel guidance.",
+    "button_label": "View all resources",
+    "button_url": "/travel-resources/",
+    "items": [
+      {
+        "title": "Trip preparation",
+        "description": "Training, health, altitude and safety planning.",
+        "url": "/travel-resources/",
+        "link_label": "Prepare"
+      },
+      {
+        "title": "Gear & packing",
+        "description": "Clothing, footwear, equipment and personal items.",
+        "url": "/search/?type=blog&q=packing",
+        "link_label": "Pack well"
+      },
+      {
+        "title": "Insurance",
+        "description": "Insurance policy is must for the travellers who are coming for Trekking and climbing in the Karakoram with KVP and without have any insurance we will not be responsible.  ",
+        "url": "/search/?type=blog&q=insurance",
+        "link_label": "Learn more"
+      },
+      {
+        "title": "Trip calendar",
+        "description": "Compare scheduled dates, status and starting prices.",
+        "url": "/trip-calendar/",
+        "link_label": "Browse dates"
+      },
+      {
+        "title": "FAQs",
+        "description": "Booking, groups, customization and practical answers.",
+        "url": "/faqs/",
+        "link_label": "Get answers"
+      }
+    ]
+  },
+  "faqs": {
+    "enabled": true,
+    "eyebrow": "Frequently asked questions",
+    "heading": "Answers before you book"
+  },
+  "cta": {
+    "enabled": true,
+    "eyebrow": "Start a conversation",
+    "heading": "Share your dates and ideal route",
+    "description": "The office team will prepare a current proposal for your group.",
+    "button_label": "Request a trip plan",
+    "button_url": "/plan-a-trip/#trip-request-form"
+  }
+}

@@ -26,7 +26,7 @@ seo:
   </div></section>
 
   {% elseif section == 'latest' and hp.latest.enabled !== false %}
-  <section class="bk-home-section bk-home-section-muted"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.latest.eyebrow }}</p><h2>{{ hp.latest.heading }}</h2><p>{{ hp.latest.description }}</p></div><a class="bk-heading-link" href="{{ hp.latest.button_url }}">{{ hp.latest.button_label }}</a></header><div class="bk-card-grid">{% for item in collections.journeys | limit(hp.latest.card_count or 9) %}{% include "components/journey-card.njk" %}{% endfor %}</div></section>
+  <section class="bk-home-section bk-home-section-muted"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.latest.eyebrow }}</p><h2>{{ hp.latest.heading }}</h2><p>{{ hp.latest.description }}</p></div><a class="bk-heading-link" href="{{ hp.latest.button_url }}">{{ hp.latest.button_label }}</a></header>{% set per = hp.latest.card_count or 9 %}{% set pageCount = hp.latest.pages or 3 %}{% set latestItems = collections.journeys | limit(per * pageCount) %}{% set totalPages = (latestItems.length + per - 1) // per %}<div data-card-pager>{% for p in range(0, totalPages) %}<div class="bk-card-grid" data-pager-page="{{ loop.index }}"{% if not loop.first %} hidden{% endif %}>{% for item in latestItems.slice(p * per, (p + 1) * per) %}{% include "components/journey-card.njk" %}{% endfor %}</div>{% endfor %}{% if totalPages > 1 %}<nav class="mt-8 flex flex-wrap items-center justify-center gap-2" aria-label="More journeys">{% for p in range(0, totalPages) %}<button type="button" data-pager-go="{{ loop.index }}" aria-label="Show page {{ loop.index }} of journeys" aria-current="{{ 'true' if loop.first else 'false' }}" class="h-10 min-w-[2.5rem] rounded-full border px-4 text-sm font-bold transition {% if loop.first %}border-orange-500 bg-orange-500 text-white{% else %}border-slate-300 bg-white text-slate-700{% endif %}">{{ loop.index }}</button>{% endfor %}</nav>{% endif %}</div></section>
 
   {% elseif section == 'fixed' and hp.fixed.enabled !== false %}
   {% set fixedItems = collections.journeys | fixedDepartures %}
@@ -73,3 +73,4 @@ seo:
 {% include "components/happy-clients.njk" %}
 {% include "components/our-partners.njk" %}
 <script src="/assets/js/strip.js" defer></script>
+<script src="/assets/js/pager.js" defer></script>

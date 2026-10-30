@@ -1,0 +1,79 @@
+﻿===== src/index.njk
+---
+layout: layouts/base.njk
+permalink: /
+title: Karakoram Vision Pakistan
+seo:
+  title: "Pakistan Tours, Treks & K2 Expeditions | Karakoram Vision"
+  description: >-
+    Skardu-based tour operator for Pakistan: Hunza and Gilgit-Baltistan tours, Karakoram treks, 8,000m expeditions and jeep safaris. Plan your trip with us.
+---
+{% set hp = homePage or {} %}
+{% if hp.hero.enabled !== false %}
+  {% set heroItems = collections.journeys | limit(hp.hero.slides_count or 6) %}
+  {% set heroHeading = hp.hero.heading or 'Journey Beyond the Ordinary' %}
+  {% set heroSummary = hp.hero.summary or site.description %}
+  {% set heroEyebrow = hp.hero.eyebrow or site.tagline %}
+  {% set heroFinder = hp.hero.show_trip_finder !== false %}
+  {% include "components/landing-hero.njk" %}
+{% endif %}
+{% from "components/icon.njk" import icon %}
+
+{% for section in hp.section_order %}
+  {% if section == 'services' and hp.services.enabled !== false %}
+  <section class="bk-home-section"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.services.eyebrow }}</p><h2>{{ hp.services.heading }}</h2><p>{{ hp.services.description }}</p></div></header><div class="bk-service-grid">
+    {% if hp.services.cards and hp.services.cards.length %}{% for card in hp.services.cards %}<a href="{{ card.url }}"><span>0{{ loop.index }}</span><h3>{{ card.label }}</h3><p>{{ card.description }}</p><strong>Explore →</strong></a>{% endfor %}
+    {% else %}{% for nav in site.navigation %}<a href="{{ nav.url }}"><span>0{{ loop.index }}</span><h3>{{ nav.label }}</h3><p>Browse dedicated {{ nav.label | lower }} pages, routes and trip options.</p><strong>Explore →</strong></a>{% endfor %}{% endif %}
+  </div></section>
+
+  {% elseif section == 'latest' and hp.latest.enabled !== false %}
+  <section class="bk-home-section bk-home-section-muted"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.latest.eyebrow }}</p><h2>{{ hp.latest.heading }}</h2><p>{{ hp.latest.description }}</p></div><a class="bk-heading-link" href="{{ hp.latest.button_url }}">{{ hp.latest.button_label }}</a></header><div class="bk-card-grid">{% for item in collections.journeys | limit(hp.latest.card_count or 9) %}{% include "components/journey-card.njk" %}{% endfor %}</div></section>
+
+  {% elseif section == 'fixed' and hp.fixed.enabled !== false %}
+  {% set fixedItems = collections.journeys | fixedDepartures %}
+  {% if fixedItems.length %}
+  <section class="bk-home-section"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.fixed.eyebrow }}</p><h2>{{ hp.fixed.heading }}</h2><p>{{ hp.fixed.description }}</p></div><a class="bk-heading-link" href="{{ hp.fixed.button_url }}">{{ hp.fixed.button_label }}</a></header>
+  <div class="bk-strip" data-strip>
+    <button class="bk-strip-btn" type="button" data-strip-prev aria-label="Previous"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <ul class="bk-strip-track" data-strip-track>
+      {% for item in fixedItems %}<li class="bk-strip-card">{% include "components/journey-card.njk" %}</li>{% endfor %}
+    </ul>
+    <button class="bk-strip-btn" type="button" data-strip-next aria-label="Next"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div></section>
+  {% endif %}
+
+  {% elseif section == 'destinations' and hp.destinations.enabled !== false %}
+  <section class="bk-destination-section"><div class="bk-section-heading"><div><p class="eyebrow">{{ hp.destinations.eyebrow }}</p><h2>{{ hp.destinations.heading }}</h2><p>{{ hp.destinations.description }}</p></div><a class="bk-heading-link" href="{{ hp.destinations.button_url }}">{{ hp.destinations.button_label }}</a></div><div class="bk-destination-grid">{% for place in hp.destinations.items %}<a href="{{ place.url }}"><span>{{ loop.index }}</span><h3>{{ place.title }}</h3><p>{{ place.description }}</p></a>{% endfor %}</div></section>
+
+  {% elseif section == 'vehicles' and hp.vehicles.enabled !== false %}
+  <section class="bk-home-section bk-home-section-muted"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.vehicles.eyebrow }}</p><h2>{{ hp.vehicles.heading }}</h2><p>{{ hp.vehicles.description }}</p></div><a class="bk-heading-link" href="{{ hp.vehicles.button_url }}">{{ hp.vehicles.button_label }}</a></header><div class="bk-card-grid">{% for item in collections.vehicles | limit(hp.vehicles.card_count or 4) %}{% include "components/vehicle-card.njk" %}{% endfor %}</div></section>
+
+  {% elseif section == 'trust' and hp.trust.enabled !== false %}
+  <section class="bk-trust-section"><div><p class="eyebrow">{{ hp.trust.eyebrow }}</p><h2>{{ hp.trust.heading }}</h2><p>{{ hp.trust.description }}</p></div><div class="bk-trust-grid">{% for point in hp.trust.items %}<article><strong>{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</strong><h3>{{ point.title }}</h3><p>{{ point.description }}</p></article>{% endfor %}</div></section>
+
+  {% elseif section == 'reviews' and hp.reviews.enabled !== false %}
+  {# Yeh section JS tab dikhata hai jab koi review publish ho - khali section nazar nahi aata #}
+  <section class="bk-home-section" data-reviews-section hidden><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.reviews.eyebrow }}</p><h2>{{ hp.reviews.heading }}</h2><p>{{ hp.reviews.description }}</p></div><a class="bk-heading-link" href="{{ hp.reviews.button_url or '/guest-reviews/' }}">{{ hp.reviews.button_label or 'Read all reviews' }}</a></header><div data-reviews-list data-reviews-limit="{{ hp.reviews.card_count or 3 }}" class="mt-8 grid gap-5 md:grid-cols-3"></div><script src="/assets/js/guest-reviews.js?v=11.1.0" defer></script></section>
+  {% elseif section == 'guides' and hp.guides.enabled !== false %}
+  <section class="bk-home-section"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.guides.eyebrow }}</p><h2>{{ hp.guides.heading }}</h2><p>{{ hp.guides.description }}</p></div><a class="bk-heading-link" href="{{ hp.guides.button_url }}">{{ hp.guides.button_label }}</a></header><div class="bk-card-grid">{% for item in collections.posts | limit(hp.guides.card_count or 6) %}{% include "components/post-card.njk" %}{% endfor %}</div></section>
+
+  {% elseif section == 'resources' and hp.resources.enabled !== false %}
+  <section class="bk-home-section bk-home-section-muted"><header class="bk-section-heading"><div><p class="eyebrow">{{ hp.resources.eyebrow }}</p><h2>{{ hp.resources.heading }}</h2><p>{{ hp.resources.description }}</p></div><a class="bk-heading-link" href="{{ hp.resources.button_url }}">{{ hp.resources.button_label }}</a></header><div class="bk-service-grid">{% for resource in hp.resources.items %}<a href="{{ resource.url }}"><span>{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</span><h3>{{ resource.title }}</h3><p>{{ resource.description }}</p><strong>{{ resource.link_label or 'Learn more' }} →</strong></a>{% endfor %}</div></section>
+
+  {% elseif section == 'faqs' and hp.faqs.enabled !== false %}
+  <section class="bk-home-faq"><header><p class="eyebrow">{{ hp.faqs.eyebrow }}</p><h2>{{ hp.faqs.heading }}</h2></header><div class="bk-home-faq-list">{% for faq in site.home_faqs %}<details><summary>{{ faq.question }}</summary><p>{{ faq.answer }}</p></details>{% else %}<p>Add homepage FAQs in Pages CMS → Site Identity, Logos, Contacts & Social.</p>{% endfor %}</div></section>
+
+  {% elseif section == 'cta' and hp.cta.enabled !== false %}
+  <section class="bk-home-contact"><div><p class="eyebrow">{{ hp.cta.eyebrow }}</p><h2>{{ hp.cta.heading }}</h2><p>{{ hp.cta.description }}</p></div><a href="{{ hp.cta.button_url }}">{{ hp.cta.button_label }}</a></section>
+  {% endif %}
+{% endfor %}
+
+{# These two always sit at the very bottom, in this order, so partners are
+   the last thing above the footer. They are not part of the section list
+   above because their place on the page is fixed. #}
+{% include "components/happy-clients.njk" %}
+{% include "components/our-partners.njk" %}
+<script src="/assets/js/strip.js" defer></script>
+
+===== homepage ke components
+journey-card.njk

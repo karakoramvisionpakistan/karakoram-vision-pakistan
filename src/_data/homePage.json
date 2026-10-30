@@ -67,7 +67,8 @@
     "description": "Choose the journey which you want to do",
     "button_label": "Browse all journeys",
     "button_url": "/journey-categories/",
-    "card_count": 9
+    "card_count": 9,
+    "pages": 3
   },
   "fixed": {
     "enabled": true,
