@@ -73,7 +73,8 @@ export async function onRequestPost({ request, env }) {
   const emailConfigured = Boolean(SMTP_HOST && SMTP_USER && SMTP_PASS && TRIP_MAIL_TO);
   const sheetConfigured = Boolean(env.SHEET_WEBHOOK_URL && env.SHEET_TOKEN);
   const dbConfigured = Boolean(isReview && env.DB);
-  if (!emailConfigured && !sheetConfigured && !dbConfigured) {
+  const inquiryDbConfigured = Boolean(!isReview && env.DB);
+  if (!emailConfigured && !sheetConfigured && !dbConfigured && !inquiryDbConfigured) {
     console.error('trip-request: neither mail, sheet nor database settings are configured');
     return fail(500, 'not_configured');
   }
@@ -138,14 +139,43 @@ export async function onRequestPost({ request, env }) {
 
   // All of them run at the same time. The visitor sees success if at least one of them worked,
   // so an inquiry is never lost because one of the two had a problem.
-  const [mailResult, sheetResult, dbResult] = await Promise.allSettled([sendEmail(), saveToSheet(), saveReview()]);
+  // Darkhwast dashboard ke inbox mein mehfooz hoti hai. Email aur Sheet
+  // pehle ki tarah chalte rahenge — yeh un ke alawa hai, un ki jagah nahi.
+  const saveInquiry = async () => {
+    if (!inquiryDbConfigured) throw new Error('inquiry database not used');
+    const pick = (...keys) => {
+      for (const key of keys) {
+        const value = form.get(key);
+        if (typeof value === 'string' && value.trim()) return value.trim().slice(0, 400);
+      }
+      return null;
+    };
+    await env.DB.prepare(
+      'INSERT INTO inquiries (name, email, phone, journey, service, travel_date, group_size, message, payload, page, ip) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
+    ).bind(
+      name || pick('full_name', 'name'),
+      email || pick('email'),
+      pick('phone', 'whatsapp', 'contact_number', 'mobile'),
+      pick('journey', 'trip', 'package', 'tour'),
+      pick('service', 'service_type'),
+      pick('travel_date', 'start_date', 'start', 'dates', 'travel_dates'),
+      pick('group_size', 'travellers', 'travelers', 'people', 'adults'),
+      pick('message', 'notes', 'details', 'comments', 'requirements'),
+      JSON.stringify(Object.fromEntries(rows)),
+      meta.Page,
+      meta.IP
+    ).run();
+  };
+
+  const [mailResult, sheetResult, dbResult, inquiryResult] = await Promise.allSettled([sendEmail(), saveToSheet(), saveReview(), saveInquiry()]);
   if (mailResult.status === 'rejected' && emailConfigured) console.error('trip-request: email failed:', mailResult.reason && mailResult.reason.message);
   if (sheetResult.status === 'rejected' && sheetConfigured) console.error('trip-request: sheet failed:', sheetResult.reason && sheetResult.reason.message);
   if (dbResult.status === 'rejected' && dbConfigured) console.error('trip-request: database failed:', dbResult.reason && dbResult.reason.message);
-  if (mailResult.status === 'fulfilled' || sheetResult.status === 'fulfilled' || dbResult.status === 'fulfilled') return succeed();
+  if (inquiryResult.status === 'rejected' && inquiryDbConfigured) console.error('trip-request: inquiry save failed:', inquiryResult.reason && inquiryResult.reason.message);
+  if (mailResult.status === 'fulfilled' || sheetResult.status === 'fulfilled' || dbResult.status === 'fulfilled' || inquiryResult.status === 'fulfilled') return succeed();
   if (env.TRIP_DEBUG && asJson) {
     const why = (x) => (x.status === 'rejected' ? String((x.reason && x.reason.message) || x.reason) : 'ok');
-    return json({ ok: false, error: 'send_failed', detail: { email: why(mailResult), sheet: why(sheetResult), db: why(dbResult) } }, 502);
+    return json({ ok: false, error: 'send_failed', detail: { email: why(mailResult), sheet: why(sheetResult), db: why(dbResult), inquiry: why(inquiryResult) } }, 502);
   }
   return fail(502, 'send_failed');
 }
