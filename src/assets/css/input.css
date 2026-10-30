@@ -1441,23 +1441,27 @@ h1, h2, h3, h4,
    Mobile ka drawer bilkul nahi chhua ja raha, sirf baRi screen. */
 @media (min-width: 1024px) {
   .bk-navigation-wrap {
-    background: #ffffff;
-    border-top: 1px solid rgba(15, 23, 42, 0.08);
-    border-bottom: 1px solid rgba(15, 23, 42, 0.10);
+    background: #E6E1CA;
+    border-top: 1px solid rgba(15, 23, 42, 0.10);
+    border-bottom: 1px solid rgba(15, 23, 42, 0.14);
   }
   .bk-desktop-nav { gap: 0.05rem; }
   .bk-nav-link {
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
-    color: #0f172a;
+    color: #16233d;
     font-size: 0.9rem;
   }
-  .bk-nav-toggle { color: #64748b; }
+  .bk-nav-toggle { color: #4A5A75; }
   .bk-nav-link:hover,
   .bk-nav-toggle:hover,
   .bk-nav-item:hover .bk-nav-link,
   .bk-nav-item:hover .bk-nav-toggle {
-    color: var(--bk-accent);
+    color: #C2410C;
+  }
+  .bk-nav-link:hover,
+  .bk-nav-item:hover .bk-nav-link {
+    box-shadow: inset 0 -2px 0 var(--bk-accent);
   }
 }
 
