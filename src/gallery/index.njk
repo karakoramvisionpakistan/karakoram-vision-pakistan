@@ -12,7 +12,7 @@ seo:
 {% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = lp.title or title %}{% set heroSummary = lp.summary or summary %}{% set heroEyebrow = lp.hero_eyebrow or 'From our own journeys' %}{% set heroCompact = true %}
 {% include "components/landing-hero.njk" %}
 
-{% if gallery and gallery.length %}
+{% if photoGallery and photoGallery.length %}
 <section class="bk-gallery">
   <header class="bk-section-heading"><div>
     <p class="eyebrow">{{ lp.section_eyebrow or 'Photographs' }}</p>
@@ -22,17 +22,17 @@ seo:
 
   {# Chips. "All" first, then one per album. With a single album there is
      nothing to filter, so they stay hidden. #}
-  {% if gallery.length > 1 %}
+  {% if photoGallery.length > 1 %}
   <div class="bk-gallery-chips" data-gallery-chips>
     <button type="button" class="is-on" data-filter="all">All</button>
-    {% for album in gallery %}
+    {% for album in photoGallery %}
     <button type="button" data-filter="{{ loop.index }}">{{ album.title }} <span>{{ album.count }}</span></button>
     {% endfor %}
   </div>
   {% endif %}
 
   <div class="bk-gallery-grid" data-gallery>
-    {% for album in gallery %}{% set albumIndex = loop.index %}
+    {% for album in photoGallery %}{% set albumIndex = loop.index %}
       {% for photo in album.photos %}
       <figure class="bk-gallery-item" data-album="{{ albumIndex }}">
         <button type="button" data-photo="{{ photo }}" data-caption="{{ album.title }}">
