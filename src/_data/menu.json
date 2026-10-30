@@ -197,7 +197,8 @@
               "label": "Kalash Festival",
               "url": "/search/?type=tours&q=kalash"
             }
-          ]
+          ],
+          "url": "/tours/best-sellers/"
         },
         {
           "enabled": true,
@@ -234,7 +235,8 @@
               "label": "Skardu",
               "url": "/search/?type=tours&q=skardu"
             }
-          ]
+          ],
+          "url": "/tours/city-tours/"
         },
         {
           "enabled": true,
@@ -283,13 +285,14 @@
               "label": "View destinations",
               "url": "/destinations/"
             }
-          ]
+          ],
+          "url": "/tours/pakistan-destinations/"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Group Tours",
-          "url": "/search/?type=tours&q=group"
+          "url": "/tours/group-tours/"
         },
         {
           "enabled": true,
@@ -448,7 +451,8 @@
               "label": "Rush Lake Trek",
               "url": "/search/?type=trekking&q=rush%20lake"
             }
-          ]
+          ],
+          "url": "/trekking/trending-treks/"
         },
         {
           "enabled": true,
@@ -479,7 +483,8 @@
               "label": "Khayrut Peak",
               "url": "/search/?type=trekking&q=khayrut"
             }
-          ]
+          ],
+          "url": "/trekking/trekking-peaks/"
         },
         {
           "enabled": true,
@@ -533,7 +538,8 @@
               "label": "Nanga Parbat (8,126m)",
               "url": "/search/?type=expeditions&q=nanga%20parbat"
             }
-          ]
+          ],
+          "url": "/expeditions/best-sellers/"
         },
         {
           "enabled": true,
@@ -564,7 +570,8 @@
               "label": "Minglik Sar",
               "url": "/search/?type=expeditions&q=minglik"
             }
-          ]
+          ],
+          "url": "/expeditions/trekking-peaks/"
         },
         {
           "enabled": true,
@@ -596,7 +603,8 @@
               "label": "Pamir Range",
               "url": "/search/?type=expeditions&q=pamir"
             }
-          ]
+          ],
+          "url": "/expeditions/mountain-ranges/"
         },
         {
           "enabled": true,
@@ -646,7 +654,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "7,000m Peaks",
-          "url": "/search/?type=expeditions&q=7000m",
+          "url": "/expeditions/7000m-peaks/",
           "children": [
             {
               "label": "Spantik Expedition",
@@ -659,7 +667,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "6,000m Peaks",
-          "url": "/search/?type=expeditions&q=6000m",
+          "url": "/expeditions/6000m-peaks/",
           "children": [
             {
               "label": "Trango Expedition",
@@ -672,7 +680,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Rock Climbing",
-          "url": "/search/?type=expeditions&q=rock%20climbing"
+          "url": "/expeditions/rock-climbing/"
         },
         {
           "enabled": true,
@@ -691,7 +699,8 @@
               "label": "Expedition Style",
               "url": "/search/?type=expeditions&q=expedition%20style"
             }
-          ]
+          ],
+          "url": "/expeditions/climbing-style/"
         },
         {
           "enabled": true,
@@ -712,31 +721,31 @@
           "enabled": true,
           "target_blank": false,
           "label": "Gilgit-Baltistan Safaris",
-          "url": "/search/?type=jeep-safaris&q=gilgit"
+          "url": "/jeep-safaris/gilgit-baltistan-safaris/"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Hunza Safaris",
-          "url": "/search/?type=jeep-safaris&q=hunza"
+          "url": "/jeep-safaris/hunza-safaris/"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Skardu Safaris",
-          "url": "/search/?type=jeep-safaris&q=skardu"
+          "url": "/jeep-safaris/skardu-safaris/"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Deosai Safaris",
-          "url": "/search/?type=jeep-safaris&q=deosai"
+          "url": "/jeep-safaris/deosai-safaris/"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Chitral Safaris",
-          "url": "/search/?type=jeep-safaris&q=chitral"
+          "url": "/jeep-safaris/chitral-safaris/"
         },
         {
           "enabled": true,

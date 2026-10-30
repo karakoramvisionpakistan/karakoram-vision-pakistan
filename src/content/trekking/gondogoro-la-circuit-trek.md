@@ -101,6 +101,10 @@ service_type: trekking
 service_label: Trekking
 k2_trek: true
 duration_days: 11
+menu_sections:
+  - Best Sellers
+  - All Fixed Departures
+  - K2 Treks
 ---
 
 

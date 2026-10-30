@@ -88,6 +88,10 @@ service_type: expeditions
 service_label: Expeditions
 peak_8000m: true
 duration_days: 50
+menu_sections:
+  - Best Sellers
+  - All Fixed Departures
+  - 8,000m Peaks
 ---
 
 

@@ -84,6 +84,8 @@ layout: layouts/journey.njk
 service_type: tours
 service_label: Tours
 duration_days: 8
+menu_sections:
+  - Best Sellers
 ---
 
 

@@ -7,6 +7,20 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '..');
 const folders = ['tours','trekking','expeditions','jeep-safaris','hunting-services','blog','vehicles','pages'];
 const items = [];
+const sectionLookup = (() => {
+  // naam ("K2 Treks") aur slug ("k2-treks") dono ko slug par le jata hai
+  const map = {};
+  try {
+    const raw = fs.readFileSync(path.join(root, 'src', '_data', 'menuSections.json'), 'utf8');
+    for (const list of Object.values(JSON.parse(raw))) {
+      for (const s of list) {
+        map[String(s.label).toLowerCase().trim()] = s.slug;
+        map[String(s.slug).toLowerCase().trim()] = s.slug;
+      }
+    }
+  } catch {}
+  return map;
+})();
 const knowledge = [];
 
 const normalize = value => String(value ?? '')
@@ -68,16 +82,41 @@ for (const folder of folders) {
     const normalizedSummary = normalize(data.summary);
     const normalizedDepartures = normalize(departuresText);
 
-    const fixedDeparture = boolValue(data.fixed_departure)
+    const guessFixedDeparture = boolValue(data.fixed_departure)
       || String(data.departure_type || '').toLowerCase() === 'fixed'
       || /fixed\s+departures?|scheduled\s+departures?|group\s+departures?/.test(normalize(`${metadataText} ${body}`))
       || (Array.isArray(data.departures) && data.departures.length > 0)
       || (Array.isArray(data.departure_details) && data.departure_details.length > 0);
-    const bestSeller = boolValue(data.best_seller) || boolValue(data.featured)
+    const guessBestSeller = boolValue(data.best_seller) || boolValue(data.featured)
       || /best\s*seller|bestselling|most\s+popular/.test(normalizedText);
-    const k2Trek = folder === 'trekking' && /\bk2\b/.test(normalizedText);
-    const culturalTour = folder === 'tours' && /cultur|heritage|histor|festival|archaeolog/.test(normalizedText);
-    const peak8000 = folder === 'expeditions' && /(8\s*000|8000|8611|8126|8080|8051|8035|eight thousand)/.test(normalizedText);
+    const guessK2Trek = folder === 'trekking' && /\bk2\b/.test(normalizedText);
+    const guessCulturalTour = folder === 'tours' && /cultur|heritage|histor|festival|archaeolog/.test(normalizedText);
+    const guessPeak8000 = folder === 'expeditions' && /(8\s*000|8000|8611|8126|8080|8051|8035|eight thousand)/.test(normalizedText);
+    
+    // ---- menu sections: client ka chunaav sab se oopar ----
+    const slugifySection = (value) => String(value ?? '').toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    const sectionsChosen = (Array.isArray(data.menu_sections) ? data.menu_sections : [])
+      .map(v => sectionLookup[String(v ?? '').toLowerCase().trim()] || slugifySection(v))
+      .filter(Boolean);
+    const hasChoice = sectionsChosen.length > 0;
+    // chunaav mojood ho to sirf wahi; warna purana tareeqa (switch + matn)
+    const inSection = (slug, legacy, guess) =>
+      hasChoice ? sectionsChosen.includes(slug) : (boolValue(legacy) || guess);
+
+    const fixedDeparture = inSection('fixed-departures', data.fixed_departure, guessFixedDeparture);
+    const bestSeller = inSection('best-sellers', data.best_seller || data.featured, guessBestSeller);
+    const k2Trek = folder === 'trekking' && inSection('k2-treks', data.k2_trek, guessK2Trek);
+    const culturalTour = folder === 'tours' && inSection('cultural-tours', data.cultural_tour, guessCulturalTour);
+    const peak8000 = folder === 'expeditions' && inSection('8000m-peaks', data.peak_8000m, guessPeak8000);
+
+    const sections = hasChoice ? sectionsChosen : [
+      fixedDeparture && 'fixed-departures',
+      bestSeller && 'best-sellers',
+      k2Trek && 'k2-treks',
+      culturalTour && 'cultural-tours',
+      peak8000 && '8000m-peaks',
+    ].filter(Boolean);
 
     const flat = {
       title: data.title ?? '',
@@ -96,6 +135,7 @@ for (const folder of folders) {
       k2_trek: k2Trek,
       cultural_tour: culturalTour,
       peak_8000m: peak8000,
+      sections,
       normalized_title: normalizedTitle,
       normalized_slug: normalizedSlug,
       normalized_tags: normalizedTags,
@@ -134,6 +174,7 @@ const structured = items.map(item => ({
   k2_trek: item.k2_trek,
   cultural_tour: item.cultural_tour,
   peak_8000m: item.peak_8000m,
+  sections: item.sections || [],
   data: {
     title: item.title, permalink: item.url, service_type: item.type,
     service_label: ({tours:'Tour',trekking:'Trekking',expeditions:'Expedition','jeep-safaris':'Jeep Safari','hunting-services':'Hunting Service',blog:'Travel Guide',vehicles:'Vehicle',pages:'Destination'})[item.type] || item.type,

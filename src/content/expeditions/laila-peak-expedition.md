@@ -96,6 +96,9 @@ layout: layouts/journey.njk
 service_type: expeditions
 service_label: Expeditions
 peak_class: Trekking peak (under 6,000m)
+menu_sections:
+  - Best Sellers
+  - All Fixed Departures
 ---
 
 

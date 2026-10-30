@@ -1,0 +1,181 @@
+﻿===== src\tours\index.njk
+---
+layout: layouts/base.njk
+permalink: /tours/
+title: Tours
+summary: Cultural journeys, sightseeing, family holidays and custom travel programmes.
+service_type: tours
+seo:
+  title: "Pakistan Tour Packages - Hunza & Skardu | Karakoram Vision"
+  description: >-
+    Pakistan tour packages from 7 to 16 days - Hunza, Skardu, Deosai and Khaplu, with hotels, transport and a local guide. Compare trips and ask for dates.
+---
+{% set items = collections | serviceCollection(service_type) %}
+{% include "components/catalog-landing.njk" %}
+
+===== src\tours\cultural-tours\index.njk
+---
+layout: layouts/base.njk
+permalink: /tours/cultural-tours/
+title: Cultural Tours
+summary: Explore heritage, history, festivals, communities and cultural landscapes across Pakistan.
+service_type: tours
+structured_filter: cultural-tours
+filter_label: Cultural Tours
+filter_eyebrow: Culture and heritage
+seo:
+  title: "Cultural Tours in Pakistan | Karakoram Vision Pakistan"
+  description: >-
+    Forts, festivals, Balti and Burusho villages, and the people of the Karakoram - tours built around culture rather than distance covered.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+===== src\tours\fixed-departures\index.njk
+---
+layout: layouts/base.njk
+permalink: /tours/fixed-departures/
+title: Fixed Departure Tours
+summary: Browse scheduled group tours and published departure opportunities from Karakoram Vision Pakistan.
+service_type: tours
+structured_filter: fixed-departures
+filter_label: Fixed Departures
+filter_eyebrow: Scheduled tours
+seo:
+  title: "Fixed Departure Tours in Pakistan | Karakoram Vision"
+  description: >-
+    Group tours with published dates - join other travellers instead of booking privately, and share the cost of transport and guide.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+===== src\trekking\index.njk
+---
+layout: layouts/base.njk
+permalink: /trekking/
+title: Trekking
+summary: High-altitude treks, base-camp routes, glacier crossings and short mountain hikes.
+service_type: trekking
+seo:
+  title: "Trekking in Pakistan - Karakoram Treks | Karakoram Vision"
+  description: >-
+    Karakoram treks from 7 to 22 days, from Rakaposhi base camp to K2 and Gondogoro La. Permits, porters and guides arranged. Compare routes and seasons.
+---
+{% set items = collections | serviceCollection(service_type) %}
+{% include "components/catalog-landing.njk" %}
+
+===== src\trekking\best-sellers\index.njk
+---
+layout: layouts/base.njk
+permalink: /trekking/best-sellers/
+title: Best-Selling Treks
+summary: Explore featured and most-requested trekking journeys from Karakoram Vision Pakistan.
+service_type: trekking
+structured_filter: best-sellers
+filter_label: Best Sellers
+filter_eyebrow: Featured trekking journeys
+seo:
+  title: "Best-Selling Treks in Pakistan | Karakoram Vision"
+  description: >-
+    The treks travellers ask for most: K2 base camp, Fairy Meadows, Rakaposhi and Nangma valley. Compare days, difficulty and the right season.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+===== src\trekking\fixed-departures\index.njk
+---
+layout: layouts/base.njk
+permalink: /trekking/fixed-departures/
+title: Fixed Departure Treks
+summary: Browse scheduled trekking departures, published dates and group journeys across the Karakoram, Himalaya and Hindu Kush.
+service_type: trekking
+structured_filter: fixed-departures
+filter_label: Fixed Departures
+filter_eyebrow: Scheduled trekking journeys
+seo:
+  title: "Fixed Departure Treks in Pakistan | Karakoram Vision"
+  description: >-
+    Treks with set dates you can join as an individual or a small group, from Baltoro to Nagar valley. See this season's departures.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+===== src\trekking\k2-treks\index.njk
+---
+layout: layouts/base.njk
+permalink: /trekking/k2-treks/
+title: K2 Treks
+summary: Explore K2 Base Camp, Gondogoro La and related Karakoram trekking routes.
+service_type: trekking
+structured_filter: k2-treks
+filter_label: K2 Treks
+filter_eyebrow: K2 trekking collection
+seo:
+  title: "K2 Treks & Baltoro Glacier Routes | Karakoram Vision"
+  description: >-
+    Routes to K2 base camp - the classic Baltoro trek and the Gondogoro La circuit - with permits, porters and guides arranged from Skardu.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+===== src\expeditions\index.njk
+---
+layout: layouts/base.njk
+permalink: /expeditions/
+title: Expeditions
+summary: Technical and non-technical mountaineering expeditions with logistics and local coordination.
+service_type: expeditions
+seo:
+  title: "Mountaineering Expeditions in Pakistan | Karakoram Vision"
+  description: >-
+    Expeditions in Pakistan - K2, Broad Peak, Gasherbrum, Nanga Parbat, Spantik and Trango. Permits, base camp and high-altitude support arranged from Skardu.
+---
+{% set items = collections | serviceCollection(service_type) %}
+{% include "components/catalog-landing.njk" %}
+
+===== src\expeditions\8000m-peaks\index.njk
+---
+layout: layouts/base.njk
+permalink: /expeditions/8000m-peaks/
+title: 8,000m Peak Expeditions
+summary: Explore Karakoram Vision Pakistan expedition pages connected with Pakistan's 8,000-metre peaks.
+service_type: expeditions
+structured_filter: 8000m-peaks
+filter_label: 8,000m Peaks
+filter_eyebrow: High-altitude expeditions
+seo:
+  title: "8000m Peak Expeditions in Pakistan | Karakoram Vision"
+  description: >-
+    Pakistan's 8,000m peaks - K2, Nanga Parbat, Gasherbrum I and II, Broad Peak - with permits, base camp and high-altitude support from Skardu.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+===== src\expeditions\fixed-departures\index.njk
+---
+layout: layouts/base.njk
+permalink: /expeditions/fixed-departures/
+title: Fixed Departure Expeditions
+summary: Browse published climbing-expedition schedules and group departure opportunities.
+service_type: expeditions
+structured_filter: fixed-departures
+filter_label: Fixed Departures
+filter_eyebrow: Scheduled expeditions
+seo:
+  title: Fixed Departure Expeditions | Karakoram Vision Pakistan
+  description: >-
+    Expeditions with published dates this season - join an existing team for K2, Broad Peak, Gasherbrum or Spantik. See what is still open.
+---
+{% include "components/structured-catalog-landing.njk" %}
+
+===== LAYOUTS
+base.njk
+journey.njk
+page.njk
+post.njk
+vehicle.njk
+===== content/landing/trekking-k2-treks.md
+---
+url: /trekking/k2-treks/
+title: K2 Treks
+summary: Explore K2 Base Camp, Gondogoro La and related Karakoram trekking routes.
+seo_title: K2 Treks & Baltoro Glacier Routes | Karakoram Vision
+seo_description: >-
+  Routes to K2 base camp - the classic Baltoro trek and the Gondogoro La circuit
+  - with permits, porters and guides arranged from Skardu.
+---
+

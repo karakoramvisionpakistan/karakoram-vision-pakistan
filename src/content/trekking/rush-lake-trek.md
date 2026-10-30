@@ -84,6 +84,8 @@ seo:
 layout: layouts/journey.njk
 service_type: trekking
 service_label: Trekking
+menu_sections:
+  - Best Sellers
 ---
 
 <!-- page-intro -->

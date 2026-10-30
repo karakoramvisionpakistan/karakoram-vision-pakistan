@@ -97,6 +97,9 @@ layout: layouts/journey.njk
 service_type: expeditions
 service_label: Expeditions
 peak_class: 7,000m peaks
+menu_sections:
+  - Best Sellers
+  - All Fixed Departures
 ---
 
 

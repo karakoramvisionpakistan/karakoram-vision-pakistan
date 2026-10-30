@@ -1,6 +1,20 @@
 {
   "pages": [
     {
+      "label": "6,000m Peaks",
+      "url": "/expeditions/6000m-peaks/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/expeditions/6000m-peaks/index.njk"
+    },
+    {
+      "label": "7,000m Peaks",
+      "url": "/expeditions/7000m-peaks/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/expeditions/7000m-peaks/index.njk"
+    },
+    {
       "label": "8,000m Peak Expeditions",
       "url": "/expeditions/8000m-peaks/",
       "published": true,
@@ -8,11 +22,46 @@
       "file": "src/expeditions/8000m-peaks/index.njk"
     },
     {
+      "label": "Best Sellers",
+      "url": "/expeditions/best-sellers/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/expeditions/best-sellers/index.njk"
+    },
+    {
+      "label": "Best Sellers",
+      "url": "/tours/best-sellers/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/tours/best-sellers/index.njk"
+    },
+    {
       "label": "Best-Selling Treks",
       "url": "/trekking/best-sellers/",
       "published": true,
       "redirect_to": "",
       "file": "src/trekking/best-sellers/index.njk"
+    },
+    {
+      "label": "Chitral Safaris",
+      "url": "/jeep-safaris/chitral-safaris/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/jeep-safaris/chitral-safaris/index.njk"
+    },
+    {
+      "label": "City Tours",
+      "url": "/tours/city-tours/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/tours/city-tours/index.njk"
+    },
+    {
+      "label": "Climbing Style",
+      "url": "/expeditions/climbing-style/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/expeditions/climbing-style/index.njk"
     },
     {
       "label": "Contact Karakoram Vision Pakistan",
@@ -27,6 +76,13 @@
       "published": true,
       "redirect_to": "",
       "file": "src/tours/cultural-tours/index.njk"
+    },
+    {
+      "label": "Deosai Safaris",
+      "url": "/jeep-safaris/deosai-safaris/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/jeep-safaris/deosai-safaris/index.njk"
     },
     {
       "label": "Destinations",
@@ -64,6 +120,20 @@
       "file": "src/trekking/fixed-departures/index.njk"
     },
     {
+      "label": "Gilgit-Baltistan Safaris",
+      "url": "/jeep-safaris/gilgit-baltistan-safaris/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/jeep-safaris/gilgit-baltistan-safaris/index.njk"
+    },
+    {
+      "label": "Group Tours",
+      "url": "/tours/group-tours/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/tours/group-tours/index.njk"
+    },
+    {
       "label": "Guest Reviews",
       "url": "/guest-reviews/",
       "published": true,
@@ -76,6 +146,13 @@
       "published": true,
       "redirect_to": "",
       "file": "src/holiday-types/index.njk"
+    },
+    {
+      "label": "Hunza Safaris",
+      "url": "/jeep-safaris/hunza-safaris/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/jeep-safaris/hunza-safaris/index.njk"
     },
     {
       "label": "International Travelers",
@@ -113,6 +190,13 @@
       "file": "src/hunting-services/index.njk"
     },
     {
+      "label": "Mountain Ranges",
+      "url": "/expeditions/mountain-ranges/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/expeditions/mountain-ranges/index.njk"
+    },
+    {
       "label": "News & Updates",
       "url": "/news/",
       "published": true,
@@ -127,6 +211,13 @@
       "file": "src/our-team/index.njk"
     },
     {
+      "label": "Pakistan Destinations",
+      "url": "/tours/pakistan-destinations/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/tours/pakistan-destinations/index.njk"
+    },
+    {
       "label": "Photo Gallery",
       "url": "/gallery/",
       "published": true,
@@ -139,6 +230,20 @@
       "published": true,
       "redirect_to": "",
       "file": "src/plan-a-trip/index.njk"
+    },
+    {
+      "label": "Rock Climbing",
+      "url": "/expeditions/rock-climbing/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/expeditions/rock-climbing/index.njk"
+    },
+    {
+      "label": "Skardu Safaris",
+      "url": "/jeep-safaris/skardu-safaris/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/jeep-safaris/skardu-safaris/index.njk"
     },
     {
       "label": "Social Responsibility",
@@ -181,6 +286,27 @@
       "published": true,
       "redirect_to": "",
       "file": "src/trekking/index.njk"
+    },
+    {
+      "label": "Trekking Peaks",
+      "url": "/expeditions/trekking-peaks/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/expeditions/trekking-peaks/index.njk"
+    },
+    {
+      "label": "Trekking Peaks",
+      "url": "/trekking/trekking-peaks/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/trekking/trekking-peaks/index.njk"
+    },
+    {
+      "label": "Trending Treks",
+      "url": "/trekking/trending-treks/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/trekking/trending-treks/index.njk"
     },
     {
       "label": "Trip Calendar",

@@ -1,0 +1,1302 @@
+{
+  "items": [
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "Home",
+      "url": "/",
+      "icon": "⌂"
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "About",
+      "url": "/about-us/",
+      "children": [
+        {
+          "label": "Our Team",
+          "url": "/our-team/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "About Karakoram Vision Pakistan",
+          "url": "/about-us/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Social Responsibility",
+          "url": "/social-responsibility/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Vehicles",
+          "url": "/vehicles/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "FAQs",
+          "url": "/faqs/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Privacy Policy",
+          "url": "/privacy-policy/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Refund Policy",
+          "url": "/refund-policy/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Terms & Conditions",
+          "url": "/terms-and-conditions/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Travel Resources",
+          "url": "/travel-resources/",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Trip Preparedness",
+              "url": "/travel-resources/"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Gear & Packing",
+              "url": "/search/?type=blog&q=packing"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Travel Insurance",
+              "url": "/search/?type=blog&q=insurance"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Health & Altitude",
+              "url": "/search/?type=blog&q=altitude"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "FAQs",
+              "url": "/faqs/"
+            }
+          ]
+        },
+        {
+          "label": "Equipment Check list",
+          "url": "/equipment-checklist/",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "Holiday Types",
+      "url": "/holiday-types/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "All Holidays",
+          "url": "/tours/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Camping",
+          "url": "/search/?type=tours&q=camping"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Tours",
+          "url": "/tours/cultural-tours/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Family Holidays",
+          "url": "/search/?type=tours&q=family"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Hiking Adventures",
+          "url": "/trekking/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Road Trips",
+          "url": "/search/?type=tours&q=road%20trip"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Trekking Holidays",
+          "url": "/trekking/"
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "Tours",
+      "url": "/tours/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Best Sellers",
+          "icon": "★",
+          "featured": true,
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Gilgit-Baltistan Grand Circuit",
+              "url": "/tours/gilgit-baltistan-grand-circuit/"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Gilgit & Hunza Tours",
+              "url": "/search/?type=tours&q=hunza"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Deosai National Park",
+              "url": "/search/?type=tours&q=deosai"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Skardu Holidays",
+              "url": "/search/?type=tours&q=skardu"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Kalash Festival",
+              "url": "/search/?type=tours&q=kalash"
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "City Tours",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Islamabad",
+              "url": "tours/islamabad-city-tour"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Lahore",
+              "url": "/search/?type=tours&q=lahore"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Peshawar",
+              "url": "/search/?type=tours&q=peshawar"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Karachi",
+              "url": "/search/?type=tours&q=karachi"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Skardu",
+              "url": "/search/?type=tours&q=skardu"
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Pakistan Destinations",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Gilgit-Baltistan",
+              "url": "/search/?type=tours&q=gilgit"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Hunza",
+              "url": "/search/?type=tours&q=hunza"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Skardu",
+              "url": "/search/?type=tours&q=skardu"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Chitral",
+              "url": "/search/?type=tours&q=chitral"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Swat",
+              "url": "/search/?type=tours&q=swat"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Kashmir",
+              "url": "/search/?type=tours&q=kashmir"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "View destinations",
+              "url": "/destinations/"
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Group Tours",
+          "url": "/search/?type=tours&q=group"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Fixed Departures",
+          "icon": "◷",
+          "url": "/tours/fixed-departures/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "View All Tours (6)",
+          "url": "/tours/",
+          "icon": "›"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Trip Calendar",
+          "url": "/trip-calendar/",
+          "icon": "◷"
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "Trekking",
+      "url": "/trekking/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "All Fixed Departures",
+          "url": "/trekking/fixed-departures/",
+          "icon": "◷"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "K2 Treks",
+          "icon": "★",
+          "featured": true,
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "K2 Base Camp Trek",
+              "url": "/trekking/k2-base-camp-trek/"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "K2 & Gondogoro La",
+              "url": "/search/?type=trekking&q=gondogoro%20la"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Four 8,000m Base Camps",
+              "url": "/search/?type=trekking&q=four%20base%20camps"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Five 8,000m Base Camps",
+              "url": "/search/?type=trekking&q=five%20base%20camps"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "View all K2 treks",
+              "url": "/trekking/k2-treks/"
+            }
+          ],
+          "url": "/trekking/k2-treks/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Best Sellers",
+          "icon": "★",
+          "featured": true,
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "K2 Base Camp Trek",
+              "url": "/trekking/k2-base-camp-trek/"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Gondogoro La Circuit",
+              "url": "/search/?type=trekking&q=gondogoro"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Nanga Parbat Trek",
+              "url": "/search/?type=trekking&q=nanga%20parbat"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Fairy Meadows Trek",
+              "url": "/search/?type=trekking&q=fairy%20meadows"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Rakaposhi Base Camp",
+              "url": "/search/?type=trekking&q=rakaposhi"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "View all best-selling treks",
+              "url": "/trekking/best-sellers/"
+            }
+          ],
+          "url": "/trekking/best-sellers/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Trending Treks",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Snow Lake Trek",
+              "url": "/search/?type=trekking&q=snow%20lake"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Nanga Parbat Circular",
+              "url": "/search/?type=trekking&q=nanga%20parbat%20circular"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Shimshal Pass Trek",
+              "url": "/search/?type=trekking&q=shimshal%20pass"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Batura Glacier Trek",
+              "url": "/search/?type=trekking&q=batura"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Rush Lake Trek",
+              "url": "/search/?type=trekking&q=rush%20lake"
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Trekking Peaks",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Gondogoro Peak",
+              "url": "/search/?type=trekking&q=gondogoro%20peak"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Khosar Gang Peak",
+              "url": "/search/?type=trekking&q=khosar%20gang"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Pastore Peak",
+              "url": "/search/?type=trekking&q=pastore"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Khayrut Peak",
+              "url": "/search/?type=trekking&q=khayrut"
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "View All Treks (6)",
+          "url": "/trekking/",
+          "icon": "›"
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "Expeditions",
+      "url": "/expeditions/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Best Sellers",
+          "icon": "★",
+          "featured": true,
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "K2 (8,611m)",
+              "url": "/search/?type=expeditions&q=k2"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Gasherbrum II (8,035m)",
+              "url": "/search/?type=expeditions&q=gasherbrum%20ii"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Broad Peak (8,051m)",
+              "url": "/expeditions/broad-peak-expedition/"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Spantik (7,027m)",
+              "url": "/search/?type=expeditions&q=spantik"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Nanga Parbat (8,126m)",
+              "url": "/search/?type=expeditions&q=nanga%20parbat"
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Trekking Peaks",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Gondogoro Peak",
+              "url": "/search/?type=expeditions&q=gondogoro%20peak"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Khosar Gang",
+              "url": "/search/?type=expeditions&q=khosar%20gang"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Pastore Peak",
+              "url": "/search/?type=expeditions&q=pastore"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Minglik Sar",
+              "url": "/search/?type=expeditions&q=minglik"
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Mountain Ranges",
+          "icon": "◉",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Karakoram Range",
+              "url": "/search/?type=expeditions&q=karakoram"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Himalayan Range",
+              "url": "/search/?type=expeditions&q=himalaya"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Hindu Kush Range",
+              "url": "/search/?type=expeditions&q=hindu%20kush"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Pamir Range",
+              "url": "/search/?type=expeditions&q=pamir"
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "8,000m Peaks",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "K2",
+              "url": "/search/?type=expeditions&q=k2"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Nanga Parbat",
+              "url": "/expeditions/nanga-parbat-expedition/"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Gasherbrum I",
+              "url": "/search/?type=expeditions&q=gasherbrum%20i"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Broad Peak",
+              "url": "/expeditions/broad-peak-expedition/"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Gasherbrum II",
+              "url": "/search/?type=expeditions&q=gasherbrum%20ii"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "View all 8,000m expeditions",
+              "url": "/expeditions/8000m-peaks/"
+            }
+          ],
+          "url": "/expeditions/8000m-peaks/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "7,000m Peaks",
+          "url": "/search/?type=expeditions&q=7000m",
+          "children": [
+            {
+              "label": "Spantik Expedition",
+              "url": "/expeditions/spantik-peak-expedition/",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "6,000m Peaks",
+          "url": "/search/?type=expeditions&q=6000m",
+          "children": [
+            {
+              "label": "Trango Expedition",
+              "url": "expeditions/trango-expedition/",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Rock Climbing",
+          "url": "/search/?type=expeditions&q=rock%20climbing"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Climbing Style",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Alpine Style",
+              "url": "/search/?type=expeditions&q=alpine%20style"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Expedition Style",
+              "url": "/search/?type=expeditions&q=expedition%20style"
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "All Fixed Departures",
+          "icon": "◷",
+          "url": "/expeditions/fixed-departures/"
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "Jeep Safaris",
+      "url": "/jeep-safaris/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Gilgit-Baltistan Safaris",
+          "url": "/search/?type=jeep-safaris&q=gilgit"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Hunza Safaris",
+          "url": "/search/?type=jeep-safaris&q=hunza"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Skardu Safaris",
+          "url": "/search/?type=jeep-safaris&q=skardu"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Deosai Safaris",
+          "url": "/search/?type=jeep-safaris&q=deosai"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Chitral Safaris",
+          "url": "/search/?type=jeep-safaris&q=chitral"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "View All Jeep Safaris",
+          "url": "/jeep-safaris/"
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "Special Interests",
+      "url": "/special-interests/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Cycle Touring",
+          "url": "/search/?type=tours&q=cycle"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Eco Tourism",
+          "url": "/search/?type=tours&q=eco"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Motorcycle Touring",
+          "url": "/search/?type=tours&q=motorcycle"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Mountain Passes",
+          "url": "/search/?type=trekking&q=pass"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Festivals of Pakistan",
+          "url": "/search/?type=tours&q=festival"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Photography Tours",
+          "url": "/search/?type=tours&q=photography"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Ski & Winter Adventures",
+          "url": "/search/?type=tours&q=winter"
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "Hunting",
+      "url": "/hunting-services/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Request an Inquiry",
+          "url": "/plan-a-trip/?service=Licensed%20Hunting%20Services"
+        }
+      ]
+    },
+    {
+      "label": "Gallery",
+      "url": "/gallery/"
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "Contact",
+      "url": "/contact-us/",
+      "children": []
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "News & Updates",
+      "url": "/news/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Travel Guides",
+          "url": "/blog/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "K2 & Expedition Updates",
+          "url": "/search/?type=blog&q=k2"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Destination Guides",
+          "url": "/destinations/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Latest Updates",
+          "url": "/news/"
+        }
+      ]
+    }
+  ],
+  "trash": [
+    {
+      "id": "1793282456246-7tnimn",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Weekend Retreats",
+        "url": "/search/?type=tours&q=weekend"
+      },
+      "parentPath": [
+        2
+      ],
+      "index": 7,
+      "label": "Weekend Retreats",
+      "at": "2026-10-29T14:00:56.246Z"
+    },
+    {
+      "id": "1793282450462-5d2600",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Luxury Tours",
+        "url": "/search/?type=tours&q=luxury"
+      },
+      "parentPath": [
+        2
+      ],
+      "index": 5,
+      "label": "Luxury Tours",
+      "at": "2026-10-29T14:00:50.462Z"
+    },
+    {
+      "id": "1793282446750-3b1way",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Honeymoon",
+        "url": "/search/?type=tours&q=honeymoon"
+      },
+      "parentPath": [
+        2
+      ],
+      "index": 5,
+      "label": "Honeymoon",
+      "at": "2026-10-29T14:00:46.750Z"
+    },
+    {
+      "id": "1793282408630-csnkcw",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Air Travel",
+        "url": "/search/?type=blog&q=airline"
+      },
+      "parentPath": [
+        2
+      ],
+      "index": 1,
+      "label": "Air Travel",
+      "at": "2026-10-29T14:00:08.630Z"
+    },
+    {
+      "id": "1793281958574-27vkuz",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Contact Karakoram Vision Pakistan",
+        "url": "/contact-us/"
+      },
+      "parentPath": [
+        10
+      ],
+      "index": 0,
+      "label": "Contact Karakoram Vision Pakistan",
+      "at": "2026-10-29T13:52:38.574Z"
+    },
+    {
+      "id": "1793281914004-u0vr8c",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Request a Call",
+        "url": "/plan-a-trip/?request=call"
+      },
+      "parentPath": [
+        10
+      ],
+      "index": 1,
+      "label": "Request a Call",
+      "at": "2026-10-29T13:51:54.004Z"
+    },
+    {
+      "id": "1793281909668-vp9m1l",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Request a Meeting",
+        "url": "/plan-a-trip/?request=meeting"
+      },
+      "parentPath": [
+        10
+      ],
+      "index": 1,
+      "label": "Request a Meeting",
+      "at": "2026-10-29T13:51:49.668Z"
+    },
+    {
+      "id": "1793281889516-b61xxu",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Customize My Tour",
+        "url": "/plan-a-trip/"
+      },
+      "parentPath": [
+        10
+      ],
+      "index": 0,
+      "label": "Customize My Tour",
+      "at": "2026-10-29T13:51:29.516Z"
+    },
+    {
+      "id": "1793281657203-62a353",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Conservation & Compliance",
+        "url": "/hunting-services/"
+      },
+      "parentPath": [
+        8
+      ],
+      "index": 0,
+      "label": "Conservation & Compliance",
+      "at": "2026-10-29T13:47:37.203Z"
+    },
+    {
+      "id": "1793281653395-nnrj9w",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Permit & Quota Guidance",
+        "url": "/hunting-services/"
+      },
+      "parentPath": [
+        8
+      ],
+      "index": 0,
+      "label": "Permit & Quota Guidance",
+      "at": "2026-10-29T13:47:33.395Z"
+    },
+    {
+      "id": "1793281650067-2znc2k",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Regions & Species Information",
+        "url": "/hunting-services/"
+      },
+      "parentPath": [
+        8
+      ],
+      "index": 0,
+      "label": "Regions & Species Information",
+      "at": "2026-10-29T13:47:30.067Z"
+    },
+    {
+      "id": "1793281646851-a3d3wt",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Licensed Programmes",
+        "url": "/hunting-services/"
+      },
+      "parentPath": [
+        8
+      ],
+      "index": 0,
+      "label": "Licensed Programmes",
+      "at": "2026-10-29T13:47:26.851Z"
+    },
+    {
+      "id": "1793280134157-9gh1s8",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "International Travelers",
+        "url": "/international-travelers/",
+        "children": [
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Pakistan Travel Information",
+            "url": "/blog/"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Travel Insurance Guidance",
+            "url": "/search/?type=blog&q=travel%20insurance"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Best Sellers",
+            "icon": "★",
+            "featured": true,
+            "children": [
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Hunza Valley",
+                "url": "/search/?type=tours&q=hunza"
+              },
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "K2 Base Camp Trek",
+                "url": "/trekking/k2-base-camp-trek/"
+              },
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Kalash Festival",
+                "url": "/search/?type=tours&q=kalash"
+              },
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Nanga Parbat Trek",
+                "url": "/search/?type=trekking&q=nanga%20parbat"
+              }
+            ]
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "City Tours",
+            "children": [
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Lahore Tour",
+                "url": "/search/?type=tours&q=lahore"
+              },
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Islamabad Tour",
+                "url": "/search/?type=tours&q=islamabad"
+              },
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Peshawar Tour",
+                "url": "/search/?type=tours&q=peshawar"
+              },
+              {
+                "enabled": true,
+                "target_blank": false,
+                "label": "Karachi Tour",
+                "url": "/search/?type=tours&q=karachi"
+              }
+            ]
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Holiday Itineraries",
+            "url": "/tours/"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Group Tours",
+            "url": "/search/?type=tours&q=group"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Tour Calendar",
+            "icon": "▦",
+            "url": "/trip-calendar/"
+          }
+        ]
+      },
+      "parentPath": [],
+      "index": 7,
+      "label": "International Travelers",
+      "at": "2026-10-29T13:22:14.157Z"
+    },
+    {
+      "id": "1793193524970-gteyk5",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Sort by Fitness",
+        "children": [
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Fitness A",
+            "url": "/search/?type=expeditions&q=fitness%20a"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Fitness B",
+            "url": "/search/?type=expeditions&q=fitness%20b"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Fitness C",
+            "url": "/search/?type=expeditions&q=fitness%20c"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Fitness D",
+            "url": "/search/?type=expeditions&q=fitness%20d"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Fitness E",
+            "url": "/search/?type=expeditions&q=fitness%20e"
+          }
+        ]
+      },
+      "parentPath": [
+        5
+      ],
+      "index": 7,
+      "label": "Sort by Fitness",
+      "at": "2026-10-28T13:18:44.970Z"
+    },
+    {
+      "id": "1793193518166-y4gtnj",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Sort by Difficulty",
+        "children": [
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Technical Difficulty 1",
+            "url": "/search/?type=expeditions&q=difficulty%201"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Technical Difficulty 2",
+            "url": "/search/?type=expeditions&q=difficulty%202"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Technical Difficulty 3",
+            "url": "/search/?type=expeditions&q=difficulty%203"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Technical Difficulty 4",
+            "url": "/search/?type=expeditions&q=difficulty%204"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Technical Difficulty 5",
+            "url": "/search/?type=expeditions&q=difficulty%205"
+          }
+        ]
+      },
+      "parentPath": [
+        5
+      ],
+      "index": 7,
+      "label": "Sort by Difficulty",
+      "at": "2026-10-28T13:18:38.166Z"
+    },
+    {
+      "id": "1793193499562-gkjczf",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "5,000m Peaks",
+        "url": "/search/?type=expeditions&q=5000m"
+      },
+      "parentPath": [
+        5
+      ],
+      "index": 6,
+      "label": "5,000m Peaks",
+      "at": "2026-10-28T13:18:19.562Z"
+    },
+    {
+      "id": "1793193487987-ufcs1k",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Sub-Ranges",
+        "children": [
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Baltoro Muztagh",
+            "url": "/search/?type=expeditions&q=baltoro"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Batura Muztagh",
+            "url": "/search/?type=expeditions&q=batura"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Hispar Muztagh",
+            "url": "/search/?type=expeditions&q=hispar"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Masherbrum Group",
+            "url": "/search/?type=expeditions&q=masherbrum"
+          },
+          {
+            "enabled": true,
+            "target_blank": false,
+            "label": "Rakaposhi / Haramosh",
+            "url": "/search/?type=expeditions&q=rakaposhi"
+          }
+        ]
+      },
+      "parentPath": [
+        5
+      ],
+      "index": 3,
+      "label": "Sub-Ranges",
+      "at": "2026-10-28T13:18:07.987Z"
+    }
+  ]
+}

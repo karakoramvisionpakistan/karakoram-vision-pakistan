@@ -125,6 +125,10 @@ seo:
 body: ""
 peak_8000m: true
 peak_class: 8,000m peaks
+menu_sections:
+  - Best Sellers
+  - All Fixed Departures
+  - 8,000m Peaks
 ---
 
 

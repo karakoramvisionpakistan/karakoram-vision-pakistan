@@ -1,0 +1,166 @@
+﻿===== src\_includes\components\structured-catalog-landing.njk
+{% set items = structuredCatalog | catalogFilter(service_type, structured_filter, structured_query) %}
+{% set heroItems = items | limit(6) %}
+{% set heroHeading = title %}
+{% set heroSummary = summary %}
+{% set heroEyebrow = filter_eyebrow or 'Curated Karakoram Vision Pakistan journeys' %}
+{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+<section class="bk-catalog-shell bk-structured-landing">
+  <header class="bk-section-heading">
+    <div><p class="eyebrow">{{ filter_eyebrow or 'Structured journey collection' }}</p><h2>{{ title }}</h2><p>{{ summary }}</p></div>
+    <span class="bk-count-pill">{{ items.length }} matching journeys</span>
+  </header>
+  <div class="bk-active-filter-row" aria-label="Active filters">
+    {% if service_type %}<span class="bk-search-chip">{{ service_type | replace('-', ' ') | title }}</span>{% endif %}
+    {% if filter_label %}<span class="bk-search-chip">{{ filter_label }}</span>{% endif %}
+  </div>
+  {% if items.length %}
+  <div class="bk-card-grid">
+    {% for item in items | limit(48) %}{% include "components/journey-card.njk" %}{% endfor %}
+  </div>
+  {% if items.length > 48 %}<div class="bk-load-more" hx-get="/api/catalog?type={{ service_type }}&filter={{ structured_filter }}&page=2&size=48" hx-trigger="revealed" hx-swap="outerHTML"><span>Loading more matching journeys…</span></div>{% endif %}
+  {% else %}<div class="rounded-xl bg-slate-50 p-8 text-slate-700"><h2 class="text-xl font-black">No matching journeys are published yet</h2><p class="mt-2">Update the relevant journey records in Pages CMS, then rebuild the website.</p></div>{% endif %}
+</section>
+<section class="bk-landing-cta"><div><p class="eyebrow">Need different dates?</p><h2>Request a private or tailored departure</h2><p>Share your route, preferred dates, group size and comfort level.</p></div><a href="/plan-a-trip/?service={{ service_type | urlencode }}#trip-request-form">Plan a custom trip</a></section>
+
+===== src\_includes\components\catalog-landing.njk
+{% set heroItems = items | limit(6) %}
+{% set heroHeading = title %}
+{% set heroSummary = summary %}
+{% set heroEyebrow = 'Karakoram Vision Pakistan ' ~ (title | lower) %}
+{% set heroCompact = true %}
+{% include "components/landing-hero.njk" %}
+<section class="bk-catalog-shell" x-data="catalogFilters">
+  <header class="bk-section-heading">
+    <div><p class="eyebrow">Explore the collection</p><h2>{{ title }} experiences</h2><p>{{ summary }}</p></div>
+    <span class="bk-count-pill">{{ items.length }} published</span>
+  </header>
+  <form action="/search/" method="get" class="bk-catalog-filter" hx-get="/api/catalog" hx-target="#catalog-results" hx-trigger="submit, input changed delay:350ms from:input[name='q']" hx-push-url="false">
+    <input type="hidden" name="type" value="{{ service_type }}">
+    <label><span>Search {{ title | lower }}</span><input type="search" name="q" placeholder="Destination, activity, peak or route" aria-label="Search {{ title }}"></label>
+    <button type="submit">Search</button>
+  </form>
+  <div id="catalog-results" class="bk-card-grid" aria-live="polite">
+    {% for item in items | limit(24) %}{% include "components/journey-card.njk" %}{% endfor %}
+  </div>
+  {% if items.length > 24 %}<div class="bk-load-more" hx-get="/api/catalog?type={{ service_type }}&page=2" hx-trigger="revealed" hx-swap="outerHTML"><span>Loading more {{ title | lower }}…</span></div>{% endif %}
+</section>
+<section class="bk-landing-cta"><div><p class="eyebrow">Need a tailored itinerary?</p><h2>Build this journey around your dates and group</h2><p>Share your route, preferred comfort level, budget and travel window.</p></div><a href="/plan-a-trip/?service={{ title | urlencode }}#trip-request-form">Plan a custom trip</a></section>
+
+===== kaun structuredCatalog / structured_filter istemaal karta hai
+eleventy.config.js:161: eleventyConfig.addFilter("serviceCollection", (collections,type) => { const map={"tours":"tours","trekking":"trekking","expeditions":"expeditions","jeep-safaris":"jeepSafaris","hunting-services":"huntingServices"}; return collections[map[type]]||[]; });
+src\expeditions\index.njk:12: {% set items = collections | serviceCollection(service_type) %}
+src\expeditions\8000m-peaks\index.njk:7: structured_filter: 8000m-peaks
+src\expeditions\fixed-departures\index.njk:7: structured_filter: fixed-departures
+src\hunting-services\index.njk:12: {% set items = collections | serviceCollection(service_type) %}
+src\jeep-safaris\index.njk:12: {% set items = collections | serviceCollection(service_type) %}
+src\tours\index.njk:12: {% set items = collections | serviceCollection(service_type) %}
+src\tours\cultural-tours\index.njk:7: structured_filter: cultural-tours
+src\tours\fixed-departures\index.njk:7: structured_filter: fixed-departures
+src\trekking\index.njk:12: {% set items = collections | serviceCollection(service_type) %}
+src\trekking\best-sellers\index.njk:7: structured_filter: best-sellers
+src\trekking\fixed-departures\index.njk:7: structured_filter: fixed-departures
+src\trekking\k2-treks\index.njk:7: structured_filter: k2-treks
+src\_includes\components\structured-catalog-landing.njk:1: {% set items = structuredCatalog | catalogFilter(service_type, structured_filter, structured_query) %}
+src\_includes\components\structured-catalog-landing.njk:21: {% if items.length > 48 %}<div class="bk-load-more" hx-get="/api/catalog?type={{ service_type }}&filter={{ structured_filter }}&page=2&size=48" hx-trigger="revealed" hx-swap="outerHTML"><span>Loading more matching journeys…</span></div>{% endif %}
+tools\check-structured-search-v10-3.mjs:13: structured_data:fs.existsSync(path.join(root,'src/_data/structuredCatalog.json')),
+tools\generate_runtime_catalog.mjs:147: fs.writeFileSync(path.join(root, 'src', '_data', 'structuredCatalog.json'), JSON.stringify(structured), 'utf8');
+===== tools/ folder
+add-affiliations.mjs
+add-gallery.mjs
+add-home-sections.mjs
+apply-blog-content.mjs
+apply-cms-simplify.mjs
+apply-destination-guides.mjs
+apply-extra-lists.mjs
+apply-faqs.mjs
+apply-full-flex-cms-v11.mjs
+apply-hero-blend.mjs
+apply-hero-fill.mjs
+apply-hero-fix.mjs
+apply-hero-height.mjs
+apply-hero-mark-gap.mjs
+apply-hero-mark-height.mjs
+apply-hero-mark-tune.mjs
+apply-hero-picture.mjs
+apply-hero-shade.mjs
+apply-hero-toggle.mjs
+apply-inclusions.mjs
+apply-menu-link.mjs
+apply-meta-descriptions.mjs
+apply-page-control.mjs
+apply-page-extras.mjs
+apply-page-intros.mjs
+apply-seo-titles-v2.mjs
+apply-slider-cleanup.mjs
+apply-slider-view.mjs
+apply-sliders.mjs
+apply-srcset.mjs
+apply-structured-navigation-v10-3.mjs
+apply-ui-batch1.mjs
+apply-ui-batch2.mjs
+apply-ui-batch3.mjs
+apply-v10-settings.mjs
+audit-menu-pages.mjs
+autofill-content.mjs
+brand-media-audit.mjs
+check-client-full-nav-v1-1.mjs
+check-contact-v10-1.mjs
+check-full-flex-cms-v11.mjs
+check-global-search-v10-4.mjs
+check-karakoram-vision-clone.mjs
+check-schema.mjs
+check-search-booking-v10-2.mjs
+check-structured-search-v10-3.mjs
+check-toggles.mjs
+check_complete_v7.mjs
+check_global_experience_v10.mjs
+check_premium_v8.mjs
+check_recursive_nav.mjs
+collect-pages.mjs
+configure-contact-v10-1.mjs
+copy-vendors.mjs
+dump-menu-schema.mjs
+dump-structure.mjs
+dump-structure2.mjs
+fix-cache-and-images.mjs
+fix-encoding.mjs
+fix-encoding2.mjs
+fix-filename-template.mjs
+fix-front-matter.mjs
+fix-gallery-collision.mjs
+fix-gallery-src.mjs
+fix-landing-location.mjs
+fix-menu-visibility.mjs
+fix-page-urls.mjs
+fix-slugs-and-team.mjs
+fix-thumb-lightbox.mjs
+footer-and-filters.mjs
+generate_runtime_catalog.mjs
+generate_runtime_catalog.py
+hero-crops.mjs
+home-tweaks.mjs
+image-sizes.mjs
+label-menu-pages.mjs
+make-landing.mjs
+merge-settings.mjs
+normalize-permalinks.mjs
+optimize-images.mjs
+page-control.mjs
+rename-entry-files.mjs
+run-python.mjs
+scan-page-text.mjs
+scan_mobile_nav.cjs
+site-cleanup.mjs
+submit-indexnow.mjs
+team-gallery-peaks.mjs
+update-plan-links-v10-2.mjs
+update-site-data.mjs
+validate-content.mjs
+_menu-audit.json
+_menu-schema.json
+_page-text.json
+_pages-dump.txt
+===== structuredCatalog.json ka shuru ka hissa
+[{"url":"/about-us/","search_text":"about karakoram vision pakistan karakoram vision pakistan is a skardu based travel company planning tours treks expeditions and mountain transport across northern pakistan karakoram vision pakistan skardu tour company company profile karakoram vision pakistan private limited kvp introduce ourselves as tour operator travel agency is a leading adventure company of pakistan kvp is an experienced organisation in handling expeditions trekking adventure tours biking and sightseeing tours in the karakoram of gilgit baltistan pakistan and having its head office in skardu city kvp established with a set of selected and trained personals that hold excellent experience in tourism kvp is a native personalised adventure company with in depth local expertise and regional knowledge and very high service standards our native and dedicated team is committed to cater quality service personal attention and care to keep our staff updated regarding modern techniques of customers care and field related services we provide training facilities to our staff with international instructors our tourism service history spans more than decades we have delivered services in the remotest areas of gilgit baltistan the other all parts of pakistan and across the border in china karakoram vision pakistan is a private limited inbound tourism company based in pakistan dedicated to providing exceptional travel experiences through mountaineering expeditions trekking adventures cultural journeys and customised tours we specialise in showcasing the breathtaking landscapes rich cultural heritage and extraordinary natural beauty of pakistan to traveler s from around the world with a focus on adventure tourism in the magnificent karakoram himalayan and hindu kush mountain ranges
