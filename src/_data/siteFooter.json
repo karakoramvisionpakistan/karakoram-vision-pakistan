@@ -11,39 +11,6 @@
   },
   "columns": [
     {
-      "heading": "Journeys",
-      "links": [
-        {
-          "label": "Holiday Types",
-          "url": "/holiday-types/"
-        },
-        {
-          "label": "Tours",
-          "url": "/tours/"
-        },
-        {
-          "label": "Trekking",
-          "url": "/trekking/"
-        },
-        {
-          "label": "Expeditions",
-          "url": "/expeditions/"
-        },
-        {
-          "label": "Jeep Safaris",
-          "url": "/jeep-safaris/"
-        },
-        {
-          "label": "Licensed Hunting Services",
-          "url": "/hunting-services/"
-        },
-        {
-          "label": "Vehicles",
-          "url": "/vehicles/"
-        }
-      ]
-    },
-    {
       "heading": "Plan & prepare",
       "links": [
         {

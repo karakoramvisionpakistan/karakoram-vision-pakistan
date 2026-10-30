@@ -27,7 +27,7 @@
     {% endif %}
 
     {% for column in f.columns %}
-    <section>
+    <section class="bk-footer-links">
       <h2>{{ column.heading }}</h2>
       {% for link in column.links %}{% if link.enabled !== false %}<a href="{{ link.url }}"{% if link.target_blank %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>{% endif %}{% endfor %}
     </section>
@@ -36,7 +36,7 @@
     {% if f.contact.enabled !== false %}
     <section>
       <h2>{{ f.contact.heading or site.business.legal_name or site.name }}</h2>
-      {% if f.contact.show_phone !== false and site.phone %}<p><strong>Phone:</strong> <a href="tel:{{ site.phone }}">{{ site.phone }}</a></p>{% endif %}{% if f.contact.show_phone !== false and site.phone_secondary %}<p><strong>Alternate:</strong> <a href="tel:{{ site.phone_secondary }}">{{ site.phone_secondary }}</a></p>{% endif %}
+      {% if f.contact.show_phone !== false and site.phone %}<p><strong>Phone:</strong> <a href="tel:{{ site.phone }}">{{ site.phone }}</a>{% if site.phone_secondary %} <span aria-hidden="true">·</span> <a href="tel:{{ site.phone_secondary }}">{{ site.phone_secondary }}</a>{% endif %}</p>{% endif %}
       {% if f.contact.show_whatsapp !== false and site.contact.whatsapp %}<p><strong>WhatsApp:</strong> <a href="https://wa.me/{{ site.contact.whatsapp }}">{{ site.contact.whatsapp }}</a></p>{% endif %}
       {% if f.contact.show_email !== false and site.email %}<p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>{% endif %}
       {% if f.contact.show_address !== false and site.address %}<p><strong>Office:</strong> {{ site.address }}</p>{% endif %}

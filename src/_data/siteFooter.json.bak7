@@ -1,0 +1,181 @@
+{
+  "enabled": true,
+  "newsletter": {
+    "enabled": true,
+    "eyebrow": "Travel updates",
+    "heading": "Get current departures and route ideas",
+    "description": "Receive occasional journey updates. No spam.",
+    "email_placeholder": "Your email address",
+    "button_label": "Subscribe",
+    "fallback_label": "Subscribe by email"
+  },
+  "columns": [
+    {
+      "heading": "Journeys",
+      "links": [
+        {
+          "label": "Holiday Types",
+          "url": "/holiday-types/"
+        },
+        {
+          "label": "Tours",
+          "url": "/tours/"
+        },
+        {
+          "label": "Trekking",
+          "url": "/trekking/"
+        },
+        {
+          "label": "Expeditions",
+          "url": "/expeditions/"
+        },
+        {
+          "label": "Jeep Safaris",
+          "url": "/jeep-safaris/"
+        },
+        {
+          "label": "Licensed Hunting Services",
+          "url": "/hunting-services/"
+        },
+        {
+          "label": "Vehicles",
+          "url": "/vehicles/"
+        }
+      ]
+    },
+    {
+      "heading": "Plan & prepare",
+      "links": [
+        {
+          "label": "Destinations",
+          "url": "/destinations/"
+        },
+        {
+          "label": "Travel Resources",
+          "url": "/travel-resources/"
+        },
+        {
+          "label": "Travel Guides",
+          "url": "/blog/"
+        },
+        {
+          "label": "News & Updates",
+          "url": "/news/"
+        },
+        {
+          "label": "Social Responsibility",
+          "url": "/social-responsibility/"
+        },
+        {
+          "label": "Guest Reviews",
+          "url": "/guest-reviews/"
+        },
+        {
+          "label": "FAQs",
+          "url": "/faqs/"
+        },
+        {
+          "label": "Customize My Tour",
+          "url": "/plan-a-trip/#trip-request-form"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "enabled": true,
+    "heading": "Karakoram Vision Pakistan",
+    "description": "Skardu-based tours, treks, expedition logistics, jeep journeys and transport across northern Pakistan.",
+    "show_phone": true,
+    "show_whatsapp": true,
+    "show_email": true,
+    "show_address": true,
+    "show_contact_hub": true,
+    "contact_hub_label": "International contact hub"
+  },
+  "social": {
+    "enabled": true,
+    "show_ratings": true,
+    "platform_order": [
+      {
+        "key": "facebook",
+        "label": "Facebook",
+        "icon": "facebook"
+      },
+      {
+        "key": "instagram",
+        "label": "Instagram",
+        "icon": "instagram"
+      },
+      {
+        "key": "youtube",
+        "label": "YouTube",
+        "icon": "youtube"
+      },
+      {
+        "key": "linkedin",
+        "label": "LinkedIn",
+        "icon": "linkedin"
+      },
+      {
+        "key": "tripadvisor",
+        "label": "Tripadvisor",
+        "icon": "tripadvisor"
+      },
+      {
+        "key": "x",
+        "label": "X",
+        "icon": "x"
+      },
+      {
+        "key": "tiktok",
+        "label": "TikTok",
+        "icon": "tiktok"
+      },
+      {
+        "key": "pinterest",
+        "label": "Pinterest",
+        "icon": "pinterest"
+      },
+      {
+        "key": "threads",
+        "label": "Threads",
+        "icon": "threads"
+      },
+      {
+        "key": "google_business",
+        "label": "Google Business",
+        "icon": "google"
+      },
+      {
+        "key": "bluesky",
+        "label": "Bluesky",
+        "icon": "chat"
+      }
+    ]
+  },
+  "bottom": {
+    "copyright_template": "© {year} {site}. All rights reserved.",
+    "links": [
+      {
+        "label": "Terms",
+        "url": "/terms-and-conditions/"
+      },
+      {
+        "label": "Privacy",
+        "url": "/privacy-policy/"
+      },
+      {
+        "label": "Refunds",
+        "url": "/refund-policy/"
+      },
+      {
+        "label": "Contact",
+        "url": "/contact-us/"
+      },
+      {
+        "label": "Sitemap",
+        "url": "/sitemap.xml"
+      }
+    ]
+  }
+}

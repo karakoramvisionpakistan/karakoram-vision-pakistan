@@ -1,0 +1,238 @@
+﻿===== footer.njk
+{% from "components/icon.njk" import icon %}
+{% set f = siteFooter or {} %}
+{% if f.enabled !== false %}
+<footer class="bk-footer">
+  <div class="bk-footer-top">
+    {% if f.newsletter.enabled !== false %}
+    <section>
+      <p class="eyebrow">{{ f.newsletter.eyebrow or 'Travel updates' }}</p>
+      <h2>{{ f.newsletter.heading or 'Get current departures and route ideas' }}</h2>
+      <p>{{ f.newsletter.description or 'Receive occasional journey updates.' }}</p>
+      {% if site.forms.newsletter_formspree %}
+      <form class="bk-newsletter-form" action="{{ site.forms.newsletter_formspree }}" method="post">
+        <label class="sr-only" for="footer-newsletter-email">Email address</label>
+        <input id="footer-newsletter-email" name="email" type="email" placeholder="{{ f.newsletter.email_placeholder or 'Your email address' }}" required>
+        <button type="submit">{{ f.newsletter.button_label or 'Subscribe' }}</button>
+      </form>
+      {% else %}
+      <a class="bk-footer-cta" href="mailto:{{ site.email }}?subject=Karakoram%20Vision%20Pakistan%20tour%20updates">{{ f.newsletter.fallback_label or 'Subscribe by email' }}</a>
+      {% endif %}
+      {% if f.social.show_ratings !== false %}
+      <div class="bk-footer-rating-links">
+        {% if site.ratings.google_url %}<a href="{{ site.ratings.google_url }}" target="_blank" rel="noopener">{{ icon('google') }}<span><strong>{{ site.ratings.google_score or 'Google' }}</strong><small>Google reviews</small></span></a>{% endif %}
+        {% if site.ratings.tripadvisor_url or site.social.tripadvisor %}<a href="{{ site.ratings.tripadvisor_url or site.social.tripadvisor }}" target="_blank" rel="noopener">{{ icon('tripadvisor') }}<span><strong>{{ site.ratings.tripadvisor_score or 'Tripadvisor' }}</strong><small>Traveller reviews</small></span></a>{% endif %}
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    {% for column in f.columns %}
+    <section>
+      <h2>{{ column.heading }}</h2>
+      {% for link in column.links %}{% if link.enabled !== false %}<a href="{{ link.url }}"{% if link.target_blank %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>{% endif %}{% endfor %}
+    </section>
+    {% endfor %}
+
+    {% if f.contact.enabled !== false %}
+    <section>
+      <h2>{{ f.contact.heading or site.business.legal_name or site.name }}</h2>
+      {% if f.contact.show_phone !== false and site.phone %}<p><strong>Phone:</strong> <a href="tel:{{ site.phone }}">{{ site.phone }}</a></p>{% endif %}{% if f.contact.show_phone !== false and site.phone_secondary %}<p><strong>Alternate:</strong> <a href="tel:{{ site.phone_secondary }}">{{ site.phone_secondary }}</a></p>{% endif %}
+      {% if f.contact.show_whatsapp !== false and site.contact.whatsapp %}<p><strong>WhatsApp:</strong> <a href="https://wa.me/{{ site.contact.whatsapp }}">{{ site.contact.whatsapp }}</a></p>{% endif %}
+      {% if f.contact.show_email !== false and site.email %}<p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>{% endif %}
+      {% if f.contact.show_address !== false and site.address %}<p><strong>Office:</strong> {{ site.address }}</p>{% endif %}
+      {% if f.contact.description %}<p>{{ f.contact.description }}</p>{% endif %}
+      <div class="bk-footer-hub-row">
+      {% if f.contact.show_contact_hub !== false %}<button type="button" class="bk-footer-contact-hub" data-open-contact>{{ icon('chat') }} {{ f.contact.contact_hub_label or 'International contact hub' }}</button>{% endif %}
+        {% include "components/affiliated-with.njk" %}
+      </div>
+      {% if f.social.enabled !== false %}
+      <div class="bk-social-links" aria-label="Social media accounts">
+        {% for platform in f.social.platform_order %}{% if site.social[platform.key] %}<a href="{{ site.social[platform.key] }}" target="_blank" rel="noopener" aria-label="{{ platform.label }}">{{ icon(platform.icon or 'chat') }}</a>{% endif %}{% endfor %}
+        {% for extra in site.social_extra %}{% if extra.url %}<a href="{{ extra.url }}" target="_blank" rel="noopener" aria-label="{{ extra.label or 'Social account' }}">{{ icon(extra.icon or 'share') }}</a>{% endif %}{% endfor %}
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+  </div>
+  <div class="bk-footer-bottom">
+    <span>{{ (f.bottom.copyright_template or '© {year} {site}. All rights reserved.') | replace('{year}', ('' | year)) | replace('{site}', site.name) }}</span>
+    <nav aria-label="Footer navigation">{% for link in f.bottom.links %}{% if link.enabled !== false %}<a href="{{ link.url }}"{% if link.target_blank %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>{% endif %}{% endfor %}</nav>
+  </div>
+</footer>
+{% endif %}
+
+===== CSS: footer wale hissay
+--- input.css
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:236:  .bk-footer { @apply mt-20 bg-slate-950 text-blue-100; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:237:  .bk-footer-top { @apply mx-auto flex max-w-[1440px] flex-col items-start justify-between gap-6 border-b border-white/10 px-6 py-10 md:flex-row md:items-center; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:238:  .bk-footer-top h2 { @apply mt-2 text-3xl font-black text-white; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:239:  .bk-footer-top p:not(.eyebrow) { @apply mt-2 max-w-2xl text-blue-200; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:240:  .bk-footer-top > a { @apply whitespace-nowrap rounded-full bg-blue-600 px-6 py-3 font-black text-white hover:bg-white hover:text-slate-950; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:241:  .bk-footer-grid { @apply mx-auto grid max-w-[1440px] gap-10 px-6 py-14 md:grid-cols-2 xl:grid-cols-4; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:242:  .bk-footer h2 { @apply mb-5 text-xl font-black text-white; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:243:  .bk-footer section > a { @apply mb-2 block text-blue-100 hover:text-white; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:244:  .bk-footer p { @apply mb-3 leading-7 text-blue-200; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:245:  .bk-newsletter-form { @apply grid gap-3; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:246:  .bk-newsletter-form input { @apply rounded-full border border-white/20 bg-white/10 px-4 py-3 text-white placeholder:text-blue-200; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:247:  .bk-newsletter-form button, .bk-footer-cta { @apply inline-flex w-fit rounded-full bg-blue-600 px-5 py-3 font-black text-white hover:bg-white hover:text-slate-950; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:248:  .bk-social-links { @apply mt-5 flex flex-wrap gap-2; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:249:  .bk-social-links a { @apply grid h-10 w-10 place-items-center rounded-full bg-white/10 font-black text-white hover:bg-blue-600; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:250:  .bk-footer-bottom { @apply mx-auto flex max-w-[1440px] flex-col justify-between gap-4 border-t border-white/10 px-6 py-5 text-sm text-blue-200 md:flex-row; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:251:  .bk-footer-bottom nav { @apply flex flex-wrap gap-5; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:252:  .bk-footer-bottom a:hover { @apply text-white; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:253:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:254:
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:255:/* Long-form content */
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:256:@layer components {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:257:  .prose-clean { @apply min-w-0 text-[1.04rem] leading-8 text-slate-800; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:258:  .prose-clean h2 { @apply mt-12 border-l-4 border-blue-700 pl-4 text-3xl font-black leading-tight text-slate-950; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:259:  .prose-clean h3 { @apply mt-8 text-2xl font-black text-slate-950; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:260:  .prose-clean h4 { @apply mt-6 text-xl font-black text-slate-950; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:261:  .prose-clean p { @apply my-5; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:262:  .prose-clean ul { @apply my-5 list-disc space-y-2 pl-6; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:263:  .prose-clean ol { @apply my-5 list-decimal space-y-2 pl-6; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:264:  .prose-clean a { @apply font-semibold text-blue-700 underline decoration-blue-300 underline-offset-4; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:265:  .prose-clean img { @apply my-7 h-auto max-w-full rounded-lg; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:266:  .prose-clean table { @apply my-7 block w-full overflow-x-auto border-collapse; }
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:635:.bk-footer {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:636:  background: var(--bk-dark);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:637:  color: rgba(255, 255, 255, 0.78);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:638:  border-top: 1px solid var(--bk-border);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:639:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:640:
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:641:.bk-footer h2,
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:642:.bk-footer-top h2 {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:643:  color: #ffffff;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:644:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:645:
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:646:.bk-footer p,
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:647:.bk-footer-top p:not(.eyebrow),
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:648:.bk-footer-bottom {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:649:  color: rgba(255, 255, 255, 0.68);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:650:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:651:
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:652:.bk-footer .eyebrow {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:653:  color: var(--bk-accent);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:654:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:655:
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:656:.bk-footer section > a,
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:657:.bk-footer-bottom a,
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:658:.bk-footer a {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:659:  color: rgba(255, 255, 255, 0.82);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:660:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:661:
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:662:.bk-footer section > a:hover,
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:663:.bk-footer-bottom a:hover,
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:664:.bk-footer a:hover {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:665:  color: var(--bk-accent);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:666:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:667:
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:668:.bk-footer-top > a,
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:669:.bk-newsletter-form button,
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:670:.bk-footer-cta {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:671:  border-radius: 6px;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:672:  background: var(--bk-accent);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:673:  color: #ffffff;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:674:  box-shadow: 0 10px 24px rgba(255, 90, 31, 0.25);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:675:  transition: transform 0.22s ease, box-shadow 0.22s ease, background-color 0.22s ease;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:676:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:677:
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:678:.bk-footer-top > a:hover,
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:679:.bk-newsletter-form button:hover,
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:680:.bk-footer-cta:hover {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:681:  background: var(--bk-accent-hover);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:682:  color: #ffffff;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:683:  transform: translateY(-2px);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:684:  box-shadow: 0 15px 30px rgba(255, 90, 31, 0.35);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:685:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:686:
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:687:.bk-newsletter-form input {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:688:  border: 1px solid rgba(255, 255, 255, 0.14);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:689:  border-radius: 6px;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:690:  background: rgba(255, 255, 255, 0.07);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:691:  color: #ffffff;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:692:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:693:
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:694:.bk-newsletter-form input::placeholder {
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:704:.bk-footer-top,
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:705:.bk-footer-bottom {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:706:  border-color: var(--bk-border);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:707:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:708:
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:709:.bk-social-links a {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:710:  border: 1px solid var(--bk-border);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:711:  background: rgba(255, 255, 255, 0.07);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:712:  color: #ffffff;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:713:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:714:
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:715:.bk-social-links a:hover {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:716:  border-color: var(--bk-accent);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:717:  background: var(--bk-accent);
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:718:  color: #ffffff;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:719:  transform: translateY(-2px);
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:740:  .bk-footer-top > a,
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:741:  .bk-newsletter-form button,
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:742:  .bk-footer-cta {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:743:    transition: none;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:744:  }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:745:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:746:/* === BK PREMIUM GLASS ORANGE THEME V9 END === */
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:747:
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:748:/* === Karakoram Vision Pakistan Global Contact + Trip Experience V10 === */
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:749:.bk-icon{width:1.25rem;height:1.25rem;display:inline-block;flex:0 0 auto;fill:currentColor}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:750:
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:751:/* Floating international contact hub */
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:752:.bk-contact-dock{position:fixed;right:1rem;bottom:1rem;z-index:105;display:grid;justify-items:end;gap:.75rem;font-family:inherit}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:753:.bk-contact-dock-toggle{position:relative;display:flex;align-items:center;gap:.7rem;min-height:58px;border:1px solid rgba(255,255,255,.18);border-radius:999px;background:#ff5a1f;padding:.65rem 1.05rem .65rem .75rem;color:#fff;box-shadow:0 18px 45px rgba(2,6,23,.35),0 8px 24px rgba(255,90,31,.32);transition:transform .2s ease,box-shadow .2s ease}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:754:.bk-contact-dock-toggle:hover{transform:translateY(-3px);box-shadow:0 24px 55px rgba(2,6,23,.4),0 12px 30px rgba(255,90,31,.42)}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:755:.bk-contact-dock-icon{width:2.2rem;height:2.2rem;padding:.45rem;border-radius:999px;background:rgba(255,255,255,.18)}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:756:.bk-contact-dock-label{display:grid;text-align:left;line-height:1.1}.bk-contact-dock-label strong{font-size:.95rem}.bk-contact-dock-label small{margin-top:.25rem;color:rgba(255,255,255,.82);font-size:.7rem}
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:776:.bk-footer-top-actions{display:flex;flex-wrap:wrap;gap:.75rem}.bk-footer-top-actions>a,.bk-footer-top-actions>button{border:0;border-radius:6px;background:#ff5a1f;padding:.8rem 1.2rem;color:#fff;font-weight:900;transition:transform .2s ease}.bk-footer-top-actions>button{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16)}.bk-footer-top-actions>a:hover,.bk-footer-top-actions>button:hover{transform:translateY(-2px)}
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:777:.bk-footer-contact-hub{display:inline-flex;align-items:center;gap:.5rem;margin-top:.6rem;border:1px solid rgba(255,255,255,.18);border-radius:8px;background:rgba(255,255,255,.07);padding:.65rem .8rem;color:#fff;font-weight:850}.bk-footer-contact-hub:hover{border-color:#ff5a1f;color:#ff8a5c}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:778:.bk-social-links a{display:grid!important;width:42px!important;height:42px!important;place-items:center!important}.bk-social-links .bk-icon{width:1.25rem;height:1.25rem}.bk-social-links a:hover{background:#ff5a1f!important;color:#fff!important}
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:779:.bk-footer-rating-links{display:grid;gap:.55rem;margin-top:1rem}.bk-footer-rating-links a{display:flex;align-items:center;gap:.65rem;border:1px solid rgba(255,255,255,.12);border-radius:10px;background:rgba(255,255,255,.06);padding:.65rem .75rem;color:#fff}.bk-footer-rating-links a:hover{border-color:#ff5a1f}.bk-footer-rating-links .bk-icon{color:#ff5a1f}.bk-footer-rating-links span{display:grid}.bk-footer-rating-links small{color:#94a3b8;font-size:.7rem}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:780:
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:781:/* Premium Apricot-style + Epic-inspired journey detail */
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:782:.bk-trip-breadcrumb{border-bottom:1px solid #e2e8f0;background:#f8fafc}.bk-trip-breadcrumb ol{display:flex;gap:.5rem;max-width:1440px;margin:auto;padding:.75rem 1rem;overflow:auto;color:#64748b;font-size:.8rem}.bk-trip-breadcrumb a{font-weight:800;color:#0f172a}.bk-trip-breadcrumb a:hover{color:#ff5a1f}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:783:.bk-trip-showcase{position:relative;display:grid;grid-template-columns:minmax(0,1.65fr) minmax(330px,.72fr);gap:1.25rem;max-width:1440px;margin:0 auto;padding:1.5rem 1rem 2rem;background:#fff}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:784:.bk-trip-gallery-shell{min-width:0}.bk-trip-main-image{position:relative;display:block;width:100%;overflow:hidden;border:0;border-radius:18px;background:#0f172a;padding:0;box-shadow:0 18px 45px rgba(15,23,42,.16)}.bk-trip-main-image>img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;transition:transform .5s ease}.bk-trip-main-image:hover>img{transform:scale(1.015)}.bk-trip-gallery-count{position:absolute;right:1rem;bottom:1rem;border:1px solid rgba(255,255,255,.25);border-radius:999px;background:rgba(15,23,42,.72);padding:.55rem .8rem;color:#fff;font-size:.75rem;font-weight:900;backdrop-filter:blur(9px)}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:785:.bk-trip-thumbnails{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:.55rem;margin-top:.65rem}.bk-trip-thumbnails button{overflow:hidden;border:2px solid transparent;border-radius:10px;background:#e2e8f0;padding:0;opacity:.74}.bk-trip-thumbnails button:hover,.bk-trip-thumbnails button.is-active{border-color:#ff5a1f;opacity:1}.bk-trip-thumbnails img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:786:.bk-trip-summary-card{align-self:start;border:1px solid #e2e8f0;border-radius:18px;background:#fff;padding:clamp(1.25rem,2.5vw,2rem);box-shadow:0 18px 45px rgba(15,23,42,.12)}.bk-trip-summary-card h1{margin:.35rem 0 .45rem;font-size:clamp(1.8rem,3.5vw,3rem);font-weight:950;line-height:1.07;color:#0f172a}.bk-trip-destination{display:flex;align-items:center;gap:.4rem;color:#64748b;font-weight:800}.bk-trip-destination .bk-icon{color:#ff5a1f}.bk-trip-summary{margin-top:1rem;color:#475569;line-height:1.7}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:787:.bk-trip-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem;margin-top:1.25rem;padding-top:1.1rem;border-top:1px solid #e2e8f0}.bk-trip-facts>div{display:flex;align-items:center;gap:.55rem;border-radius:10px;background:#f8fafc;padding:.7rem}.bk-trip-facts .bk-icon{color:#ff5a1f}.bk-trip-facts span{display:grid}.bk-trip-facts small{color:#64748b;font-size:.67rem;text-transform:uppercase;letter-spacing:.08em}.bk-trip-facts strong{font-size:.83rem;color:#0f172a}.bk-trip-difficulty-dot,.bk-trip-status-dot{width:12px;height:12px!important;border-radius:999px;background:#ff5a1f}.bk-trip-status-dot{background:#22c55e}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:788:.bk-trip-tags{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:1rem}.bk-trip-tags span{border-radius:999px;background:#e2e8f0;padding:.4rem .65rem;color:#334155;font-size:.72rem;font-weight:800}.bk-trip-inquiry-primary{display:flex;justify-content:center;margin-top:1.25rem;border-radius:8px;background:#ff5a1f;padding:.9rem 1rem;color:#fff;font-weight:950;text-transform:uppercase;letter-spacing:.03em;box-shadow:0 12px 25px rgba(255,90,31,.25)}.bk-trip-inquiry-primary:hover{transform:translateY(-2px);background:#ff713f}.bk-trip-contact-hub{display:flex;width:100%;align-items:center;justify-content:center;gap:.5rem;margin-top:.65rem;border:1px solid #cbd5e1;border-radius:8px;background:#fff;padding:.75rem;color:#0f172a;font-weight:900}.bk-trip-contact-hub:hover{border-color:#ff5a1f;color:#ff5a1f}.bk-trip-tools{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.8rem}.bk-trip-tools a,.bk-trip-tools button{display:inline-flex;align-items:center;gap:.35rem;border:0;background:transparent;padding:.35rem;color:#64748b;font-size:.72rem;font-weight:800}.bk-trip-tools a:hover,.bk-trip-tools button:hover{color:#ff5a1f}.bk-trip-tools .bk-icon{width:1rem;height:1rem}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:789:.bk-trip-lightbox{position:fixed;inset:0;z-index:125;display:grid;place-items:center;background:rgba(2,6,23,.96);padding:1rem}.bk-trip-lightbox[hidden]{display:none}.bk-trip-lightbox img{max-width:min(1500px,88vw);max-height:88vh;border-radius:12px;object-fit:contain}.bk-trip-lightbox button{position:absolute;display:grid;place-items:center;border:0;border-radius:999px;background:#fff;color:#0f172a;box-shadow:0 10px 30px rgba(0,0,0,.25)}.bk-trip-lightbox-close{right:1.25rem;top:1.25rem;width:46px;height:46px;font-size:1.7rem}.bk-trip-lightbox-prev,.bk-trip-lightbox-next{top:50%;width:48px;height:48px;font-size:1.2rem}.bk-trip-lightbox-prev{left:1.25rem}.bk-trip-lightbox-next{right:1.25rem}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:790:.bk-trip-section-nav{position:sticky;top:var(--bk-header-height,88px);z-index:55;display:flex;gap:.2rem;max-width:1440px;margin:0 auto;border:1px solid #e2e8f0;border-radius:12px;background:rgba(255,255,255,.94);padding:.4rem;overflow-x:auto;box-shadow:0 12px 30px rgba(15,23,42,.08);backdrop-filter:blur(12px)}.bk-trip-section-nav a{flex:0 0 auto;border-radius:8px;padding:.65rem .8rem;color:#475569;font-size:.75rem;font-weight:900}.bk-trip-section-nav a:hover,.bk-trip-section-nav a.is-current{background:#0f172a;color:#fff}.bk-trip-section-nav .bk-trip-section-inquire{margin-left:auto;background:#ff5a1f;color:#fff}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:791:.bk-trip-page-shell{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:2rem;max-width:1280px;margin:0 auto;padding:3rem 1rem}.bk-trip-content{min-width:0}.bk-trip-content-section{scroll-margin-top:180px;padding:0 0 3rem;margin-bottom:3rem;border-bottom:1px solid #e2e8f0}.bk-trip-content-section>h2,.bk-trip-section-heading h2{margin:.35rem 0 1rem;font-size:clamp(1.8rem,3vw,2.7rem);font-weight:950;line-height:1.12;color:#0f172a}.bk-trip-lead{font-size:1.15rem;line-height:1.85;color:#475569}.bk-trip-section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem}.bk-trip-section-heading>a{font-weight:900;color:#ff5a1f}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:792:.bk-departure-table-wrap{overflow:auto;border:1px solid #e2e8f0;border-radius:14px}.bk-departure-table{width:100%;min-width:760px;border-collapse:collapse}.bk-departure-table th{background:#0f172a;padding:.85rem;color:#fff;text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em}.bk-departure-table td{padding:.9rem;border-top:1px solid #e2e8f0;color:#475569;font-size:.82rem}.bk-departure-table td:first-child{color:#0f172a}.bk-departure-table td small{display:block;margin-top:.25rem;color:#64748b}.bk-departure-table tr:hover td{background:#fff7f3}.bk-departure-table a{border-radius:6px;background:#ff5a1f;padding:.45rem .65rem;color:#fff;font-weight:900}.bk-departure-status{display:inline-flex;border-radius:999px;background:#dcfce7;padding:.3rem .55rem;color:#166534;font-size:.7rem;font-weight:900}.bk-simple-departures{display:grid;gap:.6rem}.bk-simple-departures a{display:flex;justify-content:space-between;gap:1rem;border:1px solid #e2e8f0;border-radius:10px;padding:.85rem 1rem;color:#0f172a;font-weight:900}.bk-simple-departures span{color:#ff5a1f;font-size:.78rem}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:793:.bk-highlight-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}.bk-highlight-grid article{display:flex;gap:.8rem;border:1px solid #e2e8f0;border-radius:12px;background:#f8fafc;padding:1rem}.bk-highlight-grid article>span{display:grid;width:32px;height:32px;flex:0 0 32px;place-items:center;border-radius:999px;background:#ff5a1f;color:#fff;font-size:.75rem;font-weight:950}.bk-highlight-grid p{color:#475569;line-height:1.6}
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:810:@media print{.bk-site-header,.bk-footer,.bk-contact-dock,.bk-trip-section-nav,.bk-trip-sticky-inquiry,.bk-trip-tools,.bk-trip-contact-hub,.bk-trip-inquiry-primary{display:none!important}.bk-trip-showcase,.bk-trip-page-shell{display:block;max-width:none;padding:0}.bk-trip-summary-card{box-shadow:none;margin-top:1rem}.bk-trip-content-section{break-inside:avoid}}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:811:/* === END Karakoram Vision Pakistan Global Contact + Trip Experience V10 === */
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:812:
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:813:/* === Karakoram Vision Pakistan Contact Actions V10.1 === */
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:814:[hidden]{display:none!important}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:815:/* bk-floating v2 */
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:816:.bk-floating-contact-stack{position:fixed;right:1rem;bottom:1rem;z-index:220;display:grid;justify-items:end;gap:.5rem}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:817:.bk-floating-contact-button{position:relative;display:grid;place-items:center;width:46px;height:46px;min-height:0;padding:0;border:1px solid rgba(255,255,255,.2);border-radius:999px;color:#fff;font-weight:900;box-shadow:0 8px 22px rgba(2,6,23,.28);transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:818:.bk-floating-contact-button:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(2,6,23,.36);filter:brightness(1.06)}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:819:.bk-floating-contact-button .bk-icon{width:1.3rem;height:1.3rem;flex:none}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:820:.bk-floating-contact-button>span{position:absolute;right:calc(100% + .5rem);top:50%;transform:translateY(-50%);display:block;white-space:nowrap;border-radius:8px;background:#0f172a;padding:.34rem .6rem;color:#fff;font-size:.72rem;font-weight:800;line-height:1.1;text-align:right;opacity:0;pointer-events:none;transition:opacity .18s ease;box-shadow:0 8px 20px rgba(2,6,23,.3)}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:821:.bk-floating-contact-button:hover>span,.bk-floating-contact-button:focus-visible>span{opacity:1}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:822:.bk-floating-contact-button small{display:none}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:823:.bk-floating-whatsapp{background:#16a34a}.bk-floating-wechat{background:#22c55e}.bk-floating-other{background:#ff5a1f}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:824:.bk-contact-channel-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.55rem;width:100%;margin-top:.75rem}
+> D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1075:.bk-footer-hub-row {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1076:  display: flex; align-items: center; flex-wrap: wrap;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1077:  gap: 1rem 1.5rem;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1078:  margin-top: 1rem;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1079:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1080:.bk-affiliations { display: flex; flex-direction: column; align-items: flex-start; gap: .45rem; }
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1081:.bk-affiliations-label {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1082:  font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .1em;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1083:  opacity: .8; margin: 0; white-space: nowrap;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1084:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1085:.bk-affiliations-list {
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1086:  display: flex; flex-wrap: wrap; align-items: center;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1087:  gap: .75rem; margin: 0; padding: 0; list-style: none;
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1088:}
+  D:\Websites\Karakoram_Vision_Pakistan\src\assets\css\input.css:1089:.bk-affiliations-list img {
