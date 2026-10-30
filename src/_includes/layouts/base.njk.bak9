@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="{{ site.language or 'en' }}" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#062b69">
+  <meta name="color-scheme" content="light">
+  <meta name="format-detection" content="telephone=no">
+  <title>{{ seo.title or title }}{% if not (seo.title or title).includes('Karakoram Vision') %} | {{ site.name }}{% endif %}</title>
+  <meta name="description" content="{{ seo.description or answer_summary or summary or site.description }}">
+  <meta name="robots" content="{{ seo.robots or 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }}">
+  {% if seo.keywords %}<meta name="keywords" content="{{ seo.keywords }}">{% endif %}
+  {% if author %}<meta name="author" content="{{ author }}">{% endif %}
+  {% if site.verification.google %}<meta name="google-site-verification" content="{{ site.verification.google }}">{% endif %}
+  {% if site.verification.bing %}<meta name="msvalidate.01" content="{{ site.verification.bing }}">{% endif %}
+  {% set canonicalUrl = seo.canonical or (site.url + permalink) %}
+  {% set pageImage = cover_image | safeMedia(cover_source, site.seo.default_social_image) %}
+  {% set socialImage = seo.social_image | safeMedia(pageImage, site.seo.default_social_image) | absoluteUrl(site.url) %}
+  <link rel="canonical" href="{{ canonicalUrl }}">
+  <link rel="alternate" hreflang="en" href="{{ canonicalUrl }}">
+  <link rel="alternate" hreflang="x-default" href="{{ canonicalUrl }}">
+  <meta property="og:type" content="{{ 'article' if source.page_type == 'post' else 'website' }}">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{{ seo.title or title }}">
+  <meta property="og:description" content="{{ seo.description or answer_summary or summary or site.description }}">
+  <meta property="og:url" content="{{ canonicalUrl }}">
+  <meta property="og:image" content="{{ socialImage }}">
+  <meta property="og:image:alt" content="{{ title }}">
+  <meta name="twitter:card" content="summary_large_image">
+  {% if site.seo.twitter_handle %}<meta name="twitter:site" content="{{ site.seo.twitter_handle }}">{% endif %}
+  <meta name="twitter:title" content="{{ seo.title or title }}">
+  <meta name="twitter:description" content="{{ seo.description or answer_summary or summary or site.description }}">
+  <meta name="twitter:image" content="{{ socialImage }}">
+  {% if date %}<meta property="article:published_time" content="{{ date | isoDate }}">{% endif %}
+  {% if last_verified or date_modified %}<meta property="article:modified_time" content="{{ (last_verified or date_modified) | isoDate }}">{% endif %}
+  <link rel="icon" href="{{ site.favicon }}">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} Travel Guides" href="/feed.xml">
+  
+  {% set preloadImage = cover_image | safeMedia(cover_source, '') %}{% if preloadImage and preloadImage != site.seo.default_social_image %}<link rel="preload" as="image" href="{{ preloadImage }}" fetchpriority="high">{% endif %}
+  <link rel="stylesheet" href="/assets/css/site.css?v={{ assetVersion }}">
+  <link rel="stylesheet" href="/assets/css/theme-vars.css?v={{ assetVersion }}">
+  {% include "components/schema.njk" %}
+</head>
+<body data-ui-version="11.0.0" data-tawk-property="{{ site.tawk.property_id }}" data-tawk-widget="{{ site.tawk.widget_id }}" data-vitals-endpoint="{{ site.performance.web_vitals_endpoint }}" class="min-h-screen bg-white text-slate-950 antialiased" hx-boost="false" hx-indicator="#global-loader">
+{% include "components/announcement-bar.njk" %}
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div id="global-loader" class="htmx-indicator fixed left-0 top-0 z-[100] h-1 w-full bg-blue-700" role="progressbar" aria-label="Loading" aria-hidden="true"></div>
+  <noscript><div class="bg-blue-950 px-4 py-3 text-center text-sm font-semibold text-white">Core pages and contact links work without JavaScript. Search, galleries and interactive menus need JavaScript.</div></noscript>
+  {% include "components/header.njk" %}
+  <main id="main-content" tabindex="-1">{{ content | safe }}</main>
+  {% include "components/footer.njk" %}
+  {% include "components/floating-contact.njk" %}
+  {% include "components/contact-modal.njk" %}
+  {% include "components/back-to-top.njk" %}
+  <script src="/assets/vendor/htmx.min.js?v=11.0.0" defer></script>
+  <script src="/assets/js/htmx-config.js?v=11.0.0" defer></script>
+  <script src="/assets/js/alpine-app.js?v=11.0.0" defer></script>
+  <script src="/assets/vendor/alpine.min.js?v=11.0.0" defer></script>
+  <script src="/assets/js/site-core.js?v=11.0.0" defer></script>
+  <script src="/assets/js/third-party.js?v=11.0.0" defer></script>
+  <script src="/assets/js/contact-runtime-v10-1.js?v=11.0.0" defer></script>
+  <script src="/assets/js/search-runtime-v10-4.js?v=11.0.0" defer></script>
+  <script src="/assets/js/trip-form.js?v=11.0.0" defer></script>
+</body>
+</html>

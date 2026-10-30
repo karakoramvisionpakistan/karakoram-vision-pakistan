@@ -1,0 +1,38 @@
+{
+  "enabled": true,
+  "sticky": true,
+  "top_strip": {
+    "enabled": true,
+    "left_text": "Skardu-based Tours, Trekking, Expeditions and Jeep Journey in Gilgit Baltistan",
+    "show_hours": true,
+    "hours": "9AM–9PM (GMT+5)",
+    "show_phone": true,
+    "show_email": true
+  },
+  "brand": {
+    "logo_override": "",
+    "logo_alt": "Karakoram Vision Pakistan",
+    "show_support_block": true,
+    "support_title": "9AM – 9PM (PKT)",
+    "support_subtitle": "Skardu travel support",
+    "support_icon": "☎"
+  },
+  "search": {
+    "enabled": true,
+    "placeholder": "Search tours, treks, expeditions and destinations",
+    "button_label": "Search"
+  },
+  "language_selector": {
+    "enabled": true,
+    "default_label": "English"
+  },
+  "primary_cta": {
+    "enabled": true,
+    "label": "Plan a Trip",
+    "url": "/plan-a-trip/#trip-request-form"
+  },
+  "navigation": {
+    "enabled": true,
+    "mobile_button_label": "Menu"
+  }
+}

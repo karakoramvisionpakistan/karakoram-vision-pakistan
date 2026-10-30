@@ -1431,3 +1431,92 @@ h1, h2, h3, h4,
   color: rgba(255, 255, 255, 0.92);
 }
 /* === Design polish END === */
+
+
+/* === Header + hero polish (V11.18) === */
+/* @layer ke baahar — oopar wali har cheez par bhaari. Wapas lena ho to
+   poora block hata dein. */
+
+/* ---- Menu ki patti: safed, narangi sirf hover par ---------------------
+   Mobile ka drawer bilkul nahi chhua ja raha, sirf baRi screen. */
+@media (min-width: 1024px) {
+  .bk-navigation-wrap {
+    background: #ffffff;
+    border-top: 1px solid rgba(15, 23, 42, 0.08);
+    border-bottom: 1px solid rgba(15, 23, 42, 0.10);
+  }
+  .bk-desktop-nav { gap: 0.05rem; }
+  .bk-nav-link {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    color: #0f172a;
+    font-size: 0.9rem;
+  }
+  .bk-nav-toggle { color: #64748b; }
+  .bk-nav-link:hover,
+  .bk-nav-toggle:hover,
+  .bk-nav-item:hover .bk-nav-link,
+  .bk-nav-item:hover .bk-nav-toggle {
+    color: var(--bk-accent);
+  }
+}
+
+/* ---- Search ka dabba chhota ------------------------------------------ */
+.bk-header-search input {
+  width: 14rem;
+  max-width: 100%;
+}
+
+/* ---- Language dropdown halka ----------------------------------------- */
+.bk-language select {
+  padding: 0.4rem 0.6rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+/* ---- Hero: safed chaukor ki jagah halki dhalaan -----------------------
+   Chaukor parhne ke liye to theek tha magar patti jaisa lagta tha. Ab
+   tasveer par neeche se oopar halka andhera, aur likhai saadi safed. */
+.bk-hero-mark {
+  background: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  color: #ffffff;
+  text-shadow: 0 2px 20px rgba(2, 6, 23, 0.6), 0 1px 3px rgba(2, 6, 23, 0.55);
+}
+
+.bk-hero-shade {
+  background: linear-gradient(
+    to top,
+    rgba(2, 6, 23, 0.74) 0%,
+    rgba(2, 6, 23, 0.40) 38%,
+    rgba(2, 6, 23, 0.08) 70%,
+    rgba(2, 6, 23, 0) 100%
+  );
+}
+
+/* ---- Scroll par header simat jata hai --------------------------------- */
+.bk-site-header .bk-info-strip,
+.bk-site-header .bk-brand-row,
+.bk-site-header .bk-brand-link img {
+  transition: all 0.18s ease;
+}
+
+.bk-site-header.is-compact .bk-info-strip { display: none; }
+
+.bk-site-header.is-compact .bk-brand-row {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.bk-site-header.is-compact .bk-brand-link img {
+  height: 36px;
+  width: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bk-site-header .bk-info-strip,
+  .bk-site-header .bk-brand-row,
+  .bk-site-header .bk-brand-link img { transition: none; }
+}
+/* === Header + hero polish END === */

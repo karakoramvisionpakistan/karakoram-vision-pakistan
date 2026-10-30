@@ -90,7 +90,7 @@
         {% if h.search.enabled !== false %}
         <form action="/search/" method="get" class="bk-header-search" role="search" data-global-search-form hx-boost="false" autocomplete="off">
           <input type="hidden" name="type" value="all">
-          <input type="search" name="q" placeholder="{{ h.search.placeholder or 'Search tours, treks, expeditions and destinations' }}" aria-label="Search entire website" enterkeyhint="search" autocomplete="off" required>
+          <input type="search" name="q" placeholder="{{ h.search.placeholder or 'Search' }}" aria-label="Search entire website" enterkeyhint="search" autocomplete="off" required>
           <button type="submit" aria-label="{{ h.search.button_label or 'Search' }}">⌕</button>
         </form>
         {% endif %}

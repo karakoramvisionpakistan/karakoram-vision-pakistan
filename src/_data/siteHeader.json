@@ -12,14 +12,14 @@
   "brand": {
     "logo_override": "",
     "logo_alt": "Karakoram Vision Pakistan",
-    "show_support_block": true,
+    "show_support_block": false,
     "support_title": "9AM – 9PM (PKT)",
     "support_subtitle": "Skardu travel support",
     "support_icon": "☎"
   },
   "search": {
     "enabled": true,
-    "placeholder": "Search tours, treks, expeditions and destinations",
+    "placeholder": "Search",
     "button_label": "Search"
   },
   "language_selector": {

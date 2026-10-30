@@ -1,0 +1,139 @@
+{% macro desktopChildren(items, level=1) %}
+<ul class="bk-submenu bk-submenu-level-{{ level }}" role="menu">
+  {% for item in items %}{% if item.enabled !== false %}
+  <li class="bk-submenu-item{% if item.children %} bk-has-children{% endif %}" role="none">
+    {% if item.children %}
+      <button type="button" class="bk-submenu-trigger{% if item.featured %} is-featured{% endif %}" data-submenu-trigger aria-expanded="false" role="menuitem">
+        <span class="bk-menu-label">{% if item.icon %}<span class="bk-menu-icon" aria-hidden="true">{{ item.icon }}</span>{% endif %}{{ item.label }}</span>
+        <span class="bk-caret-right" aria-hidden="true">›</span>
+      </button>
+      {{ desktopChildren(item.children, level + 1) }}
+    {% else %}
+      <a class="bk-submenu-link{% if item.featured %} is-featured{% endif %}" href="{{ item.url or '#' }}"{% if item.target_blank %} target="_blank" rel="noopener"{% endif %} role="menuitem">
+        <span class="bk-menu-label">{% if item.icon %}<span class="bk-menu-icon" aria-hidden="true">{{ item.icon }}</span>{% endif %}{{ item.label }}</span>
+      </a>
+    {% endif %}
+  </li>
+  {% endif %}{% endfor %}
+</ul>
+{% endmacro %}
+
+{% macro mobileChildren(items, level=1) %}
+<div class="bk-mobile-level bk-mobile-level-{{ level }}">
+  {% for item in items %}{% if item.enabled !== false %}
+    {% if item.children %}
+      <details class="bk-mobile-details">
+        <summary>{% if item.icon %}<span aria-hidden="true">{{ item.icon }}</span>{% endif %}<span>{{ item.label }}</span><span class="ml-auto" aria-hidden="true">⌄</span></summary>
+        {% if item.url %}
+        <a class="bk-mobile-parent-link" href="{{ item.url }}" hx-boost="false" @click="closeMobileMenu()"{% if item.target_blank %} target="_blank" rel="noopener"{% endif %}>View {{ item.label }}</a>
+        {% endif %}
+        {{ mobileChildren(item.children, level + 1) }}
+      </details>
+    {% else %}
+      <a href="{{ item.url or '#' }}" class="bk-mobile-link" hx-boost="false" @click="closeMobileMenu()"{% if item.target_blank %} target="_blank" rel="noopener"{% endif %}>
+        {% if item.icon %}<span aria-hidden="true">{{ item.icon }}</span>{% endif %}<span>{{ item.label }}</span>
+      </a>
+    {% endif %}
+  {% endif %}{% endfor %}
+</div>
+{% endmacro %}
+
+{% set h = siteHeader or {} %}
+{% if h.enabled !== false %}
+<header class="bk-site-header" data-site-header role="banner"
+  x-data="{
+    mobileOpen: false,
+    closeMobileMenu() {
+      this.mobileOpen = false;
+      document.documentElement.classList.remove('overflow-hidden');
+      if(this.$refs.mobileNav) {
+        this.$refs.mobileNav.querySelectorAll('details[open]').forEach(d => d.removeAttribute('open'));
+      }
+    },
+    init() {
+      window.addEventListener('pageshow', (e) => {
+        if (e.persisted) { this.closeMobileMenu(); }
+      });
+      window.addEventListener('popstate', () => this.closeMobileMenu());
+    }
+  }"
+  @keydown.window.escape="closeMobileMenu()"
+  @click.outside="closeMobileMenu()"
+  x-effect="document.documentElement.classList.toggle('overflow-hidden', mobileOpen)"
+  {% if h.sticky === false %} data-sticky-disabled="true"{% endif %}>
+
+  {% if h.top_strip.enabled !== false %}
+  <div class="bk-info-strip">
+    <div class="bk-header-container">
+      <span>{{ h.top_strip.left_text or site.tagline }}</span>
+      <div class="bk-info-links">
+        {% if h.top_strip.show_hours !== false %}<span>{{ h.top_strip.hours or '9AM–9PM (GMT+5)' }}</span>{% endif %}
+        {% if h.top_strip.show_phone !== false and site.phone %}<a href="tel:{{ site.phone }}">{{ site.phone }}</a>{% endif %}{% if h.top_strip.show_phone !== false and site.phone_secondary %}<a href="tel:{{ site.phone_secondary }}">{{ site.phone_secondary }}</a>{% endif %}
+        {% if h.top_strip.show_email !== false and site.email %}<a href="mailto:{{ site.email }}">{{ site.email }}</a>{% endif %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="bk-brand-row">
+    <div class="bk-header-container bk-brand-inner">
+      <a href="/" class="bk-brand-link" aria-label="{{ site.name }} home" @click="closeMobileMenu()">
+        <img src="{{ h.brand.logo_override or site.logo }}" alt="{{ h.brand.logo_alt or site.name }}" width="270" height="58" decoding="async">
+      </a>
+      <div class="bk-brand-tools">
+        {% if h.brand.show_support_block !== false %}
+        <div class="bk-working-hours" aria-label="Business hours and support">
+          <span class="bk-phone-disc" aria-hidden="true">{{ h.brand.support_icon or '☎' }}</span>
+          <span><strong>{{ h.brand.support_title or h.top_strip.hours or '9AM – 9PM (GMT+5)' }}</strong><br>{{ site.phone or h.brand.support_subtitle or 'International travel support' }}</span>
+        </div>
+        {% endif %}
+        {% if h.search.enabled !== false %}
+        <form action="/search/" method="get" class="bk-header-search" role="search" data-global-search-form hx-boost="false" autocomplete="off">
+          <input type="hidden" name="type" value="all">
+          <input type="search" name="q" placeholder="{{ h.search.placeholder or 'Search tours, treks, expeditions and destinations' }}" aria-label="Search entire website" enterkeyhint="search" autocomplete="off" required>
+          <button type="submit" aria-label="{{ h.search.button_label or 'Search' }}">⌕</button>
+        </form>
+        {% endif %}
+        {% if h.language_selector.enabled !== false %}
+        <label class="bk-language" for="bk-language-select"><span class="sr-only">Language</span>
+          <select id="bk-language-select" data-language-select aria-label="Choose website language">
+            {% for language in languages %}<option value="{{ language.code }}">{{ language.flag }} {{ language.label }}</option>{% endfor %}
+          </select>
+        </label>
+        {% endif %}
+        {% if h.primary_cta.enabled !== false %}
+        <a class="bk-plan-button" href="{{ h.primary_cta.url or '/plan-a-trip/#trip-request-form' }}" @click="closeMobileMenu()">{{ h.primary_cta.label or 'Plan a Trip' }}</a>
+        {% endif %}
+      </div>
+      <button class="bk-mobile-toggle" type="button" data-mobile-menu-toggle aria-controls="bk-mobile-menu" @click.prevent="mobileOpen = !mobileOpen" :aria-expanded="mobileOpen.toString()">{{ h.navigation.mobile_button_label or 'Menu' }}</button>
+    </div>
+  </div>
+
+  {% if h.navigation.enabled !== false %}
+  {# Jo pages CMS se chhupaye gaye hain, un ke menu khanay yahan nikal jate hain. #}
+  {% set liveMenuItems = menu.items | menuWithJourneys(structuredCatalog, menuSections) | liveMenu %}
+  <div class="bk-navigation-wrap">
+    <nav class="bk-desktop-nav bk-header-container" aria-label="Primary navigation">
+      {% for item in liveMenuItems %}{% if item.enabled !== false %}
+        {% if item.children %}
+          <div class="bk-nav-item bk-has-menu" data-nav-menu>
+            <a class="bk-nav-link" href="{{ item.url or '#' }}"{% if item.target_blank %} target="_blank" rel="noopener"{% endif %}>{% if item.icon %}<span aria-hidden="true">{{ item.icon }}</span>{% endif %}<span>{{ item.label }}</span></a>
+            <button class="bk-nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open {{ item.label }} menu">⌄</button>
+            {{ desktopChildren(item.children) }}
+          </div>
+        {% else %}
+          <a class="bk-nav-link bk-nav-single" href="{{ item.url or '#' }}"{% if item.target_blank %} target="_blank" rel="noopener"{% endif %}>{% if item.icon %}<span aria-hidden="true">{{ item.icon }}</span>{% endif %}<span>{{ item.label }}</span></a>
+        {% endif %}
+      {% endif %}{% endfor %}
+    </nav>
+
+    <nav id="bk-mobile-menu" class="bk-mobile-nav" data-mobile-menu x-ref="mobileNav" x-show="mobileOpen" x-cloak aria-label="Mobile navigation" hx-boost="false" @click="if ($event.target.tagName.toLowerCase() === 'a' || $event.target.closest('a')) { closeMobileMenu(); }">
+      {{ mobileChildren(liveMenuItems) }}
+      {% if h.primary_cta.enabled !== false %}
+        <a class="bk-mobile-plan" href="{{ h.primary_cta.url or '/plan-a-trip/#trip-request-form' }}" hx-boost="false" @click="closeMobileMenu()">{{ h.primary_cta.label or 'Plan a Trip' }}</a>
+      {% endif %}
+    </nav>
+  </div>
+  {% endif %}
+</header>
+{% endif %}
