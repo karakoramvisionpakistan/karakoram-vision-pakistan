@@ -1193,6 +1193,78 @@
       "w": 2000
     }
   ],
+  "/assets/uploads/1793343897449-Screenshot--1-.webp": [
+    {
+      "src": "/assets/sized/1793343897449-screenshot-1-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/1793343897449-screenshot-1-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/sized/1793343897449-screenshot-1-1400.webp",
+      "w": 1400
+    },
+    {
+      "src": "/assets/uploads/1793343897449-Screenshot--1-.webp",
+      "w": 1920
+    }
+  ],
+  "/assets/uploads/1793343934329-Screenshot--3-.webp": [
+    {
+      "src": "/assets/sized/1793343934329-screenshot-3-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/1793343934329-screenshot-3-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/sized/1793343934329-screenshot-3-1400.webp",
+      "w": 1400
+    },
+    {
+      "src": "/assets/uploads/1793343934329-Screenshot--3-.webp",
+      "w": 1920
+    }
+  ],
+  "/assets/uploads/1793344885549-Screenshot--1-.webp": [
+    {
+      "src": "/assets/sized/1793344885549-screenshot-1-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/1793344885549-screenshot-1-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/sized/1793344885549-screenshot-1-1400.webp",
+      "w": 1400
+    },
+    {
+      "src": "/assets/uploads/1793344885549-Screenshot--1-.webp",
+      "w": 1920
+    }
+  ],
+  "/assets/uploads/1793344958707-Screenshot--3-.webp": [
+    {
+      "src": "/assets/sized/1793344958707-screenshot-3-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/1793344958707-screenshot-3-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/sized/1793344958707-screenshot-3-1400.webp",
+      "w": 1400
+    },
+    {
+      "src": "/assets/uploads/1793344958707-Screenshot--3-.webp",
+      "w": 1920
+    }
+  ],
   "/assets/uploads/brand/karakoram-vision-logo-blue.png": [
     {
       "src": "/assets/sized/brand-karakoram-vision-logo-blue-400.webp",
