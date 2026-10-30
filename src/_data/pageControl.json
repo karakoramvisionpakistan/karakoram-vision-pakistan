@@ -22,14 +22,14 @@
       "file": "src/expeditions/8000m-peaks/index.njk"
     },
     {
-      "label": "Best Sellers",
+      "label": "Best Sellers — Expeditions",
       "url": "/expeditions/best-sellers/",
       "published": true,
       "redirect_to": "",
       "file": "src/expeditions/best-sellers/index.njk"
     },
     {
-      "label": "Best Sellers",
+      "label": "Best Sellers — Tours",
       "url": "/tours/best-sellers/",
       "published": true,
       "redirect_to": "",
@@ -289,17 +289,17 @@
     },
     {
       "label": "Trekking Peaks",
-      "url": "/expeditions/trekking-peaks/",
-      "published": true,
-      "redirect_to": "",
-      "file": "src/expeditions/trekking-peaks/index.njk"
-    },
-    {
-      "label": "Trekking Peaks",
       "url": "/trekking/trekking-peaks/",
       "published": true,
       "redirect_to": "",
       "file": "src/trekking/trekking-peaks/index.njk"
+    },
+    {
+      "label": "Trekking Peaks — Expeditions",
+      "url": "/expeditions/trekking-peaks/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/expeditions/trekking-peaks/index.njk"
     },
     {
       "label": "Trending Treks",
