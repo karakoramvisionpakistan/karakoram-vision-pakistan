@@ -1,17 +1,21 @@
+{# FAQ. Pehle yeh poori tarah Alpine par chalta tha aur jawab x-cloak se
+   chhupe hue the - Alpine na chale to jawab kabhi nazar hi nahi aate the.
+   Ab browser ka apna <details> hai: bina JavaScript ke bhi khulta hai, aur
+   Google jawab parh sakta hai. Pehla sawal khula rehta hai taake visitor ko
+   foran pata chale ke yahan jawab milte hain. #}
 {% if faqs and faqs.length %}
 <section class="cv-auto mt-14 border-t border-slate-200 pt-10" aria-labelledby="faq-heading">
   <p class="eyebrow">Questions answered</p>
   <h2 id="faq-heading" class="mt-2 text-3xl font-black text-slate-950">Frequently asked questions</h2>
-  <div class="mt-6 divide-y divide-slate-200 rounded-xl border border-slate-200 bg-white" x-data="{open:null}">
+  <div class="bk-faq-list">
     {% for faq in faqs %}
-    <section class="p-5">
-      <h3>
-        <button type="button" class="flex w-full items-center justify-between gap-4 text-left text-lg font-black" @click="open=open==={{ loop.index0 }}?null:{{ loop.index0 }}" :aria-expanded="(open==={{ loop.index0 }}).toString()" aria-controls="faq-answer-{{ loop.index }}">
-          <span>{{ faq.question }}</span><span aria-hidden="true">+</span>
-        </button>
-      </h3>
-      <div id="faq-answer-{{ loop.index }}" x-cloak x-show="open==={{ loop.index0 }}" x-transition class="pt-4 leading-7 text-slate-700">{{ faq.answer | safe }}</div>
-    </section>
+    <details class="bk-faq-item"{% if loop.first %} open{% endif %}>
+      <summary>
+        <span>{{ faq.question }}</span>
+        <span class="bk-faq-sign" aria-hidden="true"></span>
+      </summary>
+      <div class="bk-faq-answer">{{ faq.answer | safe }}</div>
+    </details>
     {% endfor %}
   </div>
 </section>

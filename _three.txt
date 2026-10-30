@@ -1,0 +1,49 @@
+﻿===== src\_includes\components\affiliated-with.njk
+{# The membership badges, beside the contact hub button in the footer.
+
+   Each logo carries its own size, in the tag and in a style attribute. That
+   is on purpose: the build fills in width="1200" for images that have none,
+   and a browser holding an older stylesheet has nothing to cap them with -
+   which is how one of these once filled a whole screen. #}
+{% if affiliations and affiliations.length %}
+<div class="bk-affiliations">
+  <p class="bk-affiliations-label">{{ siteFooter.affiliations_label or "Affiliated with" }}</p>
+  <ul class="bk-affiliations-list">
+    {% for item in affiliations %}
+    <li>
+      {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" title="{{ item.name }}">{% endif %}
+        <img src="{{ item.logo }}" alt="{{ item.name }}" width="56" height="56" style="width:56px;height:56px;object-fit:contain" loading="lazy" decoding="async">
+      {% if item.url %}</a>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+===== src\_includes\components\faq-block.njk
+{% if faqs and faqs.length %}
+<section class="cv-auto mt-14 border-t border-slate-200 pt-10" aria-labelledby="faq-heading">
+  <p class="eyebrow">Questions answered</p>
+  <h2 id="faq-heading" class="mt-2 text-3xl font-black text-slate-950">Frequently asked questions</h2>
+  <div class="mt-6 divide-y divide-slate-200 rounded-xl border border-slate-200 bg-white" x-data="{open:null}">
+    {% for faq in faqs %}
+    <section class="p-5">
+      <h3>
+        <button type="button" class="flex w-full items-center justify-between gap-4 text-left text-lg font-black" @click="open=open==={{ loop.index0 }}?null:{{ loop.index0 }}" :aria-expanded="(open==={{ loop.index0 }}).toString()" aria-controls="faq-answer-{{ loop.index }}">
+          <span>{{ faq.question }}</span><span aria-hidden="true">+</span>
+        </button>
+      </h3>
+      <div id="faq-answer-{{ loop.index }}" x-cloak x-show="open==={{ loop.index0 }}" x-transition class="pt-4 leading-7 text-slate-700">{{ faq.answer | safe }}</div>
+    </section>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+===== CSS: card actions aur faq
+206: .bk-card-actions { @apply flex items-center justify-between gap-3 border-t border-slate-100 p-4; }
+207: .bk-card-actions > a:first-child { @apply text-sm font-black text-blue-700 hover:text-blue-950; }
+208: .bk-book-button { @apply rounded-full bg-blue-700 px-5 py-2.5 text-sm font-black text-white hover:bg-blue-950; }
+805: .bk-home-faq{max-width:1100px;margin:0 auto;padding:4rem 1rem}.bk-home-faq>header{text-align:center}.bk-home-faq h2{margin-top:.4rem;font-size:clamp(2rem,4vw,3.5rem);font-weight:950}.bk-home-faq-list{display:grid;gap:.7rem;margin-top:2rem}.bk-home-faq details{border:1px solid #e2e8f0;border-radius:12px;background:#fff}.bk-home-faq summary{cursor:pointer;padding:1rem 1.1rem;font-weight:900;color:#0f172a}.bk-home-faq details[open] summary{color:#ff5a1f}.bk-home-faq details p{padding:0 1.1rem 1.1rem;color:#64748b;line-height:1.75}
+1309: .bk-book-button,
+===== JS: faq ka handler

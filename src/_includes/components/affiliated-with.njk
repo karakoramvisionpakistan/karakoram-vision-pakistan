@@ -12,6 +12,7 @@
     <li>
       {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" title="{{ item.name }}">{% endif %}
         <img src="{{ item.logo }}" alt="{{ item.name }}" width="56" height="56" style="width:56px;height:56px;object-fit:contain" loading="lazy" decoding="async">
+        {% if item.name %}<span class="bk-affiliation-name">{{ item.name }}</span>{% endif %}
       {% if item.url %}</a>{% endif %}
     </li>
     {% endfor %}

@@ -1,0 +1,18 @@
+{% if faqs and faqs.length %}
+<section class="cv-auto mt-14 border-t border-slate-200 pt-10" aria-labelledby="faq-heading">
+  <p class="eyebrow">Questions answered</p>
+  <h2 id="faq-heading" class="mt-2 text-3xl font-black text-slate-950">Frequently asked questions</h2>
+  <div class="mt-6 divide-y divide-slate-200 rounded-xl border border-slate-200 bg-white" x-data="{open:null}">
+    {% for faq in faqs %}
+    <section class="p-5">
+      <h3>
+        <button type="button" class="flex w-full items-center justify-between gap-4 text-left text-lg font-black" @click="open=open==={{ loop.index0 }}?null:{{ loop.index0 }}" :aria-expanded="(open==={{ loop.index0 }}).toString()" aria-controls="faq-answer-{{ loop.index }}">
+          <span>{{ faq.question }}</span><span aria-hidden="true">+</span>
+        </button>
+      </h3>
+      <div id="faq-answer-{{ loop.index }}" x-cloak x-show="open==={{ loop.index0 }}" x-transition class="pt-4 leading-7 text-slate-700">{{ faq.answer | safe }}</div>
+    </section>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
