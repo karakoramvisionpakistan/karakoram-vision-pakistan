@@ -1524,3 +1524,31 @@ h1, h2, h3, h4,
   .bk-site-header .bk-brand-link img { transition: none; }
 }
 /* === Header + hero polish END === */
+
+
+/* === Menu bar colour fix (V11.19) === */
+/* Patti ka rang kisi purane, zyada mazboot rule se takra raha tha.
+   Yahan do classon wala selector aur !important dono isi liye hain. */
+@media (min-width: 1024px) {
+  .bk-site-header .bk-navigation-wrap,
+  header.bk-site-header .bk-navigation-wrap {
+    background: #E6E1CA !important;
+    background-image: none !important;
+  }
+
+  /* Agar neela andar wale hisse se aa raha ho to woh shaffaf ho jaye */
+  .bk-site-header .bk-desktop-nav {
+    background: transparent !important;
+    background-image: none !important;
+  }
+
+  .bk-site-header .bk-navigation-wrap .bk-nav-link { color: #16233D; }
+  .bk-site-header .bk-navigation-wrap .bk-nav-toggle { color: #4A5A75; }
+  .bk-site-header .bk-navigation-wrap .bk-nav-link:hover,
+  .bk-site-header .bk-navigation-wrap .bk-nav-item:hover .bk-nav-link,
+  .bk-site-header .bk-navigation-wrap .bk-nav-item:hover .bk-nav-toggle,
+  .bk-site-header .bk-navigation-wrap .bk-nav-toggle:hover {
+    color: #C2410C;
+  }
+}
+/* === Menu bar colour fix END === */
