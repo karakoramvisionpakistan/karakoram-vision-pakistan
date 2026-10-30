@@ -38,7 +38,7 @@
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} Travel Guides" href="/feed.xml">
   
-  {% if pageImage %}<link rel="preload" as="image" href="{{ pageImage }}" fetchpriority="high">{% endif %}
+  {% set preloadImage = cover_image | safeMedia(cover_source, '') %}{% if preloadImage and preloadImage != site.seo.default_social_image %}<link rel="preload" as="image" href="{{ preloadImage }}" fetchpriority="high">{% endif %}
   <link rel="stylesheet" href="/assets/css/site.css?v={{ assetVersion }}">
   <link rel="stylesheet" href="/assets/css/theme-vars.css?v={{ assetVersion }}">
   {% include "components/schema.njk" %}
