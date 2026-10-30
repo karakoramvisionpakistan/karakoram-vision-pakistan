@@ -111,7 +111,7 @@
 
   {% if h.navigation.enabled !== false %}
   {# Jo pages CMS se chhupaye gaye hain, un ke menu khanay yahan nikal jate hain. #}
-  {% set liveMenuItems = menu.items | liveMenu %}
+  {% set liveMenuItems = menu.items | menuWithJourneys(structuredCatalog, menuSections) | liveMenu %}
   <div class="bk-navigation-wrap">
     <nav class="bk-desktop-nav bk-header-container" aria-label="Primary navigation">
       {% for item in liveMenuItems %}{% if item.enabled !== false %}

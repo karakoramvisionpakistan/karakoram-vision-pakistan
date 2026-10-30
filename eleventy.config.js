@@ -159,6 +159,61 @@ export default function(eleventyConfig) {
     return content;
   });
   eleventyConfig.addFilter("serviceCollection", (collections,type) => { const map={"tours":"tours","trekking":"trekking","expeditions":"expeditions","jeep-safaris":"jeepSafaris","hunting-services":"huntingServices"}; return collections[map[type]]||[]; });
+  eleventyConfig.addFilter("menuWithJourneys", (items, catalog, sections, limit) => {
+    // Section ke neeche uski journeys khud juR jaati hain.
+    const max = Number(limit) || 8;
+    const norm = (value) => {
+      let s = String(value || "").trim();
+      if (!s || s === "-" || s.startsWith("#") || /^(https?:|mailto:|tel:)/i.test(s)) return s;
+      if (!s.startsWith("/")) s = "/" + s;
+      return s;
+    };
+    const index = {};
+    for (const service of Object.keys(sections || {})) {
+      for (const s of (sections[service] || [])) {
+        index["/" + service + "/" + s.slug + "/"] = { service, slug: s.slug };
+      }
+    }
+    const matches = (item, type, filter) => {
+      if (type && item && item.data && item.data.service_type !== type) return false;
+      const secs = Array.isArray(item.sections) ? item.sections : [];
+      if (secs.includes(filter)) return true;
+      if (filter === "fixed-departures") return !!item.fixed_departure;
+      if (filter === "best-sellers") return !!item.best_seller;
+      if (filter === "k2-treks") return !!item.k2_trek;
+      if (filter === "cultural-tours") return !!item.cultural_tour;
+      if (filter === "8000m-peaks") return !!item.peak_8000m;
+      return false;
+    };
+    const walk = (list) => (list || []).map((raw) => {
+      const item = Object.assign({}, raw);
+      item.url = norm(item.url);
+      let children = walk(item.children);
+      const sec = index[item.url];
+      if (sec) {
+        const journeys = (catalog || [])
+          .filter((c) => matches(c, sec.service, sec.slug))
+          .map((c) => ({ label: (c.data || {}).title, url: norm((c.data || {}).permalink) }))
+          .filter((c) => c.label && c.url)
+          .sort((a, b) => String(a.label).localeCompare(String(b.label)));
+        if (journeys.length) {
+          const merged = [{ label: "View all " + item.label, url: item.url }]
+            .concat(children || [], journeys.slice(0, max));
+          const seen = new Set();
+          children = merged.filter((c) => {
+            const key = norm(c.url);
+            if (!c.label || !key || key === "-" || seen.has(key)) return false;
+            seen.add(key);
+            return true;
+          });
+        }
+      }
+      if (children && children.length) item.children = children;
+      else delete item.children;
+      return item;
+    });
+    return walk(items);
+  });
   eleventyConfig.addFilter("catalogFilter", (arr,type,filter,query="") => {
     const normalize=value=>String(value||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").replace(/\s+/g," ").trim();
     const q=normalize(query), words=q.split(" ").filter(Boolean);

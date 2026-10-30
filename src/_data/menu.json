@@ -209,7 +209,7 @@
               "enabled": true,
               "target_blank": false,
               "label": "Islamabad",
-              "url": "tours/islamabad-city-tour"
+              "url": "/tours/islamabad-city-tour"
             },
             {
               "enabled": true,
@@ -671,7 +671,7 @@
           "children": [
             {
               "label": "Trango Expedition",
-              "url": "expeditions/trango-expedition/",
+              "url": "/expeditions/trango-expedition/",
               "enabled": true
             }
           ]
