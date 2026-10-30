@@ -111,6 +111,8 @@ seo:
   keywords: "Islamabad, City, Tour, Sightseeing, Faisal Mosque, Monument, Museum, "
   robots: index, follow, max-image-preview:large
 body: ""
+menu_sections:
+  - Cultural Tours
 ---
 
 

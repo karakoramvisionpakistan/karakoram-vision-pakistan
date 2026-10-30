@@ -1,0 +1,4898 @@
+media:
+  input: src/assets/uploads
+  output: /assets/uploads
+settings:
+  content:
+    merge: true
+  commit:
+    templates:
+      create: Create {path} via Karakoram Vision Pakistan CMS
+      update: Update {path} via Karakoram Vision Pakistan CMS
+      delete: Delete {path} via Karakoram Vision Pakistan CMS
+      rename: Rename {oldPath} to {newPath} via Karakoram Vision Pakistan CMS
+    identity: app
+components:
+  seo:
+    type: object
+    label: SEO, GEO, AEO & Social
+    fields:
+      - name: title
+        label: SEO title
+        type: string
+      - name: description
+        label: Meta description
+        type: text
+      - name: keywords
+        label: Keywords
+        type: string
+      - name: robots
+        label: Robots
+        type: string
+        description: 'Example: index, follow, max-image-preview:large'
+      - name: canonical
+        label: Custom canonical
+        type: string
+      - name: social_image
+        label: Social/OG image
+        type: image
+  faqs:
+    type: object
+    label: Frequently asked questions
+    list: true
+    fields:
+      - name: question
+        label: Question
+        type: string
+        required: true
+      - name: answer
+        label: Answer
+        type: rich-text
+        required: true
+  sources:
+    type: object
+    label: Sources and references
+    list: true
+    fields:
+      - name: label
+        label: Source label
+        type: string
+      - name: url
+        label: Source URL
+        type: string
+  key_facts:
+    type: object
+    label: Key facts
+    list: true
+    fields:
+      - name: label
+        label: Label
+        type: string
+      - name: value
+        label: Value
+        type: string
+  link_list:
+    type: object
+    label: Links
+    list: true
+    fields:
+      - name: label
+        label: Label
+        type: string
+        required: true
+      - name: url
+        label: URL
+        type: string
+        required: true
+      - name: target_blank
+        label: Open in new tab
+        type: boolean
+        default: false
+      - name: enabled
+        label: Visible
+        type: boolean
+        default: true
+content:
+  - name: tours
+    label: Tours
+    type: collection
+    path: src/content/tours
+    filename:
+      template: '{slug}.md'
+      field: create
+    operations:
+      create: true
+      rename: true
+      delete: true
+    view:
+      primary: title
+      fields:
+        - title
+        - published
+        - featured
+        - fixed_departure
+        - duration
+        - price_from
+        - destination
+        - cultural_tour
+    fields:
+      - name: _h_the_basics
+        label: The basics
+        type: heading
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: permalink
+        hidden: true
+        label: URL path
+        type: string
+        required: true
+        description: 'Example: /tours/your-slug/'
+      - name: layout
+        label: Layout
+        type: string
+        default: layouts/journey.njk
+        hidden: true
+      - name: service_type
+        label: Service type
+        type: string
+        default: tours
+        hidden: true
+      - name: service_label
+        label: Service label
+        type: string
+        default: Tours
+        hidden: true
+      - name: _h_show_it_on_the_website
+        label: Show it on the website
+        type: heading
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
+      - name: best_seller
+        label: Best seller
+        type: boolean
+        default: false
+      - name: cultural_tour
+        label: Cultural Tours
+        type: boolean
+        default: false
+        description: Shows this tour on the Cultural Tours page in the menu.
+      - name: fixed_departure
+        label: Fixed departure
+        type: boolean
+        default: false
+      - name: menu_sections
+        label: Menu sections
+        type: select
+        list: true
+        description: Which menu sections this should appear in. Choose as many as you like.
+        options:
+          - Best Sellers
+          - City Tours
+          - Pakistan Destinations
+          - Group Tours
+          - Fixed Departures
+          - Cultural Tours
+      - name: trip_status
+        label: Availability/status
+        type: select
+        options:
+          - Available
+          - Limited places
+          - On request
+          - Sold out
+          - Draft
+      - name: _h_short_descriptions
+        label: Short descriptions
+        type: heading
+      - name: summary
+        description: Do ya teen line - yeh cards par aur Google par nazar aati hai.
+        label: Short description
+        type: text
+        required: true
+      - name: _h_photos
+        label: Photos
+        type: heading
+      - name: cover_image
+        label: Cover image
+        type: image
+      - name: gallery
+        description: Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai.
+        label: Gallery images
+        type: image
+        list: true
+      - name: _h_duration_price_group_size
+        label: Duration, price & group size
+        type: heading
+      - name: duration
+        label: Duration
+        type: string
+      - name: price_from
+        label: Price from
+        type: string
+      - name: deposit
+        label: Deposit
+        type: string
+      - name: group_size
+        label: Group size
+        type: string
+      - name: difficulty
+        label: Difficulty
+        type: select
+        options:
+          - Easy
+          - Moderate
+          - Challenging
+          - Strenuous
+          - Expedition
+      - name: _h_destination
+        label: Destination
+        type: heading
+      - name: destination
+        label: Destination
+        type: string
+      - name: _h_categories_tags
+        label: Categories & tags
+        type: heading
+        collapsed: true
+      - name: categories
+        description: Group banane ke liye - jaise "Cultural", "Family". Menu aur filters inhi se bante hain.
+        label: Categories
+        type: string
+        list: true
+      - name: tags
+        description: Sirf search aur andar ke kaam ke liye - website par visitor ko nazar nahi aate.
+        label: Tags
+        type: string
+        list: true
+      - name: _h_departure_dates
+        label: Departure dates
+        type: heading
+        collapsed: true
+      - name: departures
+        label: Departure dates
+        type: date
+        list: true
+      - name: departure_details
+        description: Sirf tab bharein jab fixed dates par group ja raha ho. Warna khali chhor dein.
+        label: Detailed departure rows
+        type: object
+        list: true
+        fields:
+          - name: dates
+            label: Dates
+            type: string
+          - name: status
+            label: Status
+            type: string
+          - name: places
+            label: Places
+            type: string
+          - name: deposit
+            label: Deposit
+            type: string
+          - name: price
+            label: Full price
+            type: string
+          - name: note
+            label: Note
+            type: text
+      - name: _h_highlights_inclusions_packin
+        label: Highlights, inclusions & packing
+        type: heading
+      - name: highlights
+        description: Chaar se chh chhoti lines - safar ki sab se khaas baatein.
+        label: Highlights
+        type: string
+        list: true
+      - name: included
+        description: Qeemat mein kya shamil hai, ek line fi cheez.
+        label: Included
+        type: string
+        list: true
+      - name: excluded
+        description: Qeemat mein kya shamil nahi, ek line fi cheez.
+        label: Excluded
+        type: string
+        list: true
+      - name: packing_list
+        label: Packing list
+        type: string
+        list: true
+      - name: _h_extras_route_map_trip_leader
+        label: Extras — route map & trip leader
+        type: heading
+        collapsed: true
+      - name: route_map_url
+        label: Route map URL
+        type: string
+      - name: trip_leader
+        label: Trip leader
+        type: object
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: role
+            label: Role
+            type: string
+          - name: image
+            label: Photo
+            type: image
+          - name: bio
+            label: Biography
+            type: text
+      - name: _h_questions_key_facts_helps_go
+        label: Questions & key facts (helps Google and AI)
+        type: heading
+      - name: faqs
+        label: FAQs
+        type: object
+        list: true
+        fields:
+          - name: question
+            label: Question
+            type: string
+            required: true
+          - name: answer
+            label: Answer
+            type: rich-text
+            required: true
+      - name: _h_filled_in_automatically_open
+        label: Filled in automatically — open only to change something
+        type: heading
+        collapsed: true
+      - name: slug
+        description: Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai.
+        label: Slug
+        type: string
+        required: true
+        pattern:
+          regex: ^[a-z0-9-]+$
+          message: Use lowercase letters, numbers and hyphens only.
+      - name: departure_type
+        label: Departure type
+        type: select
+        options:
+          - Private
+          - Fixed Departure
+          - Group Departure
+          - Custom
+      - name: answer_summary
+        description: Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain.
+        label: Quick answer (AEO/GEO)
+        type: text
+      - name: cover_image_alt
+        description: Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye.
+        label: Cover image alt text
+        type: string
+      - name: duration_days
+        label: Duration in days
+        type: number
+        options:
+          min: 1
+          max: 365
+      - name: price_currency
+        label: Currency
+        type: select
+        options:
+          - USD
+          - PKR
+          - EUR
+          - GBP
+      - name: reviews
+        description: Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke "Reviews" wale hisse se publish hoti hain.
+        label: Guest reviews
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Guest name
+            type: string
+          - name: country
+            label: Country
+            type: string
+          - name: rating
+            label: Rating
+            type: number
+            options:
+              min: 1
+              max: 5
+              step: 0.1
+          - name: quote
+            label: Review
+            type: text
+          - name: date
+            label: Date
+            type: date
+      - name: key_facts
+        description: 'Chhoti label aur value - jaise "Best season: May-September". AI inhi ko seedha quote karta hai.'
+        label: Key facts
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Label
+            type: string
+          - name: value
+            label: Value
+            type: string
+      - name: author
+        description: Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai.
+        label: Prepared by
+        type: string
+      - name: reviewed_by
+        description: Kis ne check kiya. Google aur AI aise pages ko zyada ahmiyat dete hain.
+        label: Reviewed by
+        type: string
+      - name: last_verified
+        description: Aakhri baar kab check kiya tha. Saal mein ek do baar update kar dein.
+        label: Last verified
+        type: date
+      - name: sources
+        description: Hawale - sirf tab jab kisi sarkari safhe ya khabar ka hawala dena ho.
+        label: Sources
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Source label
+            type: string
+          - name: url
+            label: Source URL
+            type: string
+      - name: _h_search_social_sharing
+        label: Search & social sharing
+        type: heading
+      - name: seo
+        label: SEO, GEO, AEO & Social
+        type: object
+        fields:
+          - name: title
+            label: SEO title
+            type: string
+          - name: description
+            label: Meta description
+            type: text
+          - name: keywords
+            label: Keywords
+            type: string
+          - name: robots
+            label: Robots
+            type: string
+            description: 'Example: index, follow, max-image-preview:large'
+          - name: canonical
+            label: Custom canonical
+            type: string
+          - name: social_image
+            label: Social/OG image
+            type: image
+      - name: _h_full_content_itinerary
+        label: Full content / itinerary
+        type: heading
+      - name: body
+        label: Full content / itinerary
+        type: rich-text
+  - name: trekking
+    label: Trekking
+    type: collection
+    path: src/content/trekking
+    filename:
+      template: '{slug}.md'
+      field: create
+    operations:
+      create: true
+      rename: true
+      delete: true
+    view:
+      primary: title
+      fields:
+        - title
+        - published
+        - featured
+        - fixed_departure
+        - duration
+        - price_from
+        - destination
+        - k2_trek
+    fields:
+      - name: _h_the_basics
+        label: The basics
+        type: heading
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: permalink
+        hidden: true
+        label: URL path
+        type: string
+        required: true
+        description: 'Example: /trekking/your-slug/'
+      - name: layout
+        label: Layout
+        type: string
+        default: layouts/journey.njk
+        hidden: true
+      - name: service_type
+        label: Service type
+        type: string
+        default: trekking
+        hidden: true
+      - name: service_label
+        label: Service label
+        type: string
+        default: Trekking
+        hidden: true
+      - name: _h_show_it_on_the_website
+        label: Show it on the website
+        type: heading
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
+      - name: best_seller
+        label: Best seller
+        type: boolean
+        default: false
+      - name: k2_trek
+        label: K2 Treks
+        type: boolean
+        default: false
+        description: Shows this trek on the K2 Treks page in the menu.
+      - name: fixed_departure
+        label: Fixed departure
+        type: boolean
+        default: false
+      - name: menu_sections
+        label: Menu sections
+        type: select
+        list: true
+        description: Which menu sections this should appear in. Choose as many as you like.
+        options:
+          - All Fixed Departures
+          - K2 Treks
+          - Best Sellers
+          - Trending Treks
+          - Trekking Peaks
+      - name: trip_status
+        label: Availability/status
+        type: select
+        options:
+          - Available
+          - Limited places
+          - On request
+          - Sold out
+          - Draft
+      - name: _h_short_descriptions
+        label: Short descriptions
+        type: heading
+      - name: summary
+        description: Do ya teen line - yeh cards par aur Google par nazar aati hai.
+        label: Short description
+        type: text
+        required: true
+      - name: _h_photos
+        label: Photos
+        type: heading
+      - name: cover_image
+        label: Cover image
+        type: image
+      - name: gallery
+        description: Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai.
+        label: Gallery images
+        type: image
+        list: true
+      - name: _h_duration_price_group_size
+        label: Duration, price & group size
+        type: heading
+      - name: duration
+        label: Duration
+        type: string
+      - name: price_from
+        label: Price from
+        type: string
+      - name: deposit
+        label: Deposit
+        type: string
+      - name: group_size
+        label: Group size
+        type: string
+      - name: difficulty
+        label: Difficulty
+        type: select
+        options:
+          - Easy
+          - Moderate
+          - Challenging
+          - Strenuous
+          - Expedition
+      - name: _h_destination
+        label: Destination
+        type: heading
+      - name: destination
+        label: Destination
+        type: string
+      - name: _h_categories_tags
+        label: Categories & tags
+        type: heading
+        collapsed: true
+      - name: categories
+        description: Group banane ke liye - jaise "Cultural", "Family". Menu aur filters inhi se bante hain.
+        label: Categories
+        type: string
+        list: true
+      - name: tags
+        description: Sirf search aur andar ke kaam ke liye - website par visitor ko nazar nahi aate.
+        label: Tags
+        type: string
+        list: true
+      - name: _h_departure_dates
+        label: Departure dates
+        type: heading
+        collapsed: true
+      - name: departures
+        label: Departure dates
+        type: date
+        list: true
+      - name: departure_details
+        description: Sirf tab bharein jab fixed dates par group ja raha ho. Warna khali chhor dein.
+        label: Detailed departure rows
+        type: object
+        list: true
+        fields:
+          - name: dates
+            label: Dates
+            type: string
+          - name: status
+            label: Status
+            type: string
+          - name: places
+            label: Places
+            type: string
+          - name: deposit
+            label: Deposit
+            type: string
+          - name: price
+            label: Full price
+            type: string
+          - name: note
+            label: Note
+            type: text
+      - name: _h_highlights_inclusions_packin
+        label: Highlights, inclusions & packing
+        type: heading
+      - name: highlights
+        description: Chaar se chh chhoti lines - safar ki sab se khaas baatein.
+        label: Highlights
+        type: string
+        list: true
+      - name: included
+        description: Qeemat mein kya shamil hai, ek line fi cheez.
+        label: Included
+        type: string
+        list: true
+      - name: excluded
+        description: Qeemat mein kya shamil nahi, ek line fi cheez.
+        label: Excluded
+        type: string
+        list: true
+      - name: packing_list
+        label: Packing list
+        type: string
+        list: true
+      - name: _h_extras_route_map_trip_leader
+        label: Extras — route map & trip leader
+        type: heading
+        collapsed: true
+      - name: route_map_url
+        label: Route map URL
+        type: string
+      - name: trip_leader
+        label: Trip leader
+        type: object
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: role
+            label: Role
+            type: string
+          - name: image
+            label: Photo
+            type: image
+          - name: bio
+            label: Biography
+            type: text
+      - name: _h_questions_key_facts_helps_go
+        label: Questions & key facts (helps Google and AI)
+        type: heading
+      - name: faqs
+        label: FAQs
+        type: object
+        list: true
+        fields:
+          - name: question
+            label: Question
+            type: string
+            required: true
+          - name: answer
+            label: Answer
+            type: rich-text
+            required: true
+      - name: _h_filled_in_automatically_open
+        label: Filled in automatically — open only to change something
+        type: heading
+        collapsed: true
+      - name: slug
+        description: Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai.
+        label: Slug
+        type: string
+        required: true
+        pattern:
+          regex: ^[a-z0-9-]+$
+          message: Use lowercase letters, numbers and hyphens only.
+      - name: departure_type
+        label: Departure type
+        type: select
+        options:
+          - Private
+          - Fixed Departure
+          - Group Departure
+          - Custom
+      - name: answer_summary
+        description: Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain.
+        label: Quick answer (AEO/GEO)
+        type: text
+      - name: cover_image_alt
+        description: Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye.
+        label: Cover image alt text
+        type: string
+      - name: duration_days
+        label: Duration in days
+        type: number
+        options:
+          min: 1
+          max: 365
+      - name: price_currency
+        label: Currency
+        type: select
+        options:
+          - USD
+          - PKR
+          - EUR
+          - GBP
+      - name: reviews
+        description: Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke "Reviews" wale hisse se publish hoti hain.
+        label: Guest reviews
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Guest name
+            type: string
+          - name: country
+            label: Country
+            type: string
+          - name: rating
+            label: Rating
+            type: number
+            options:
+              min: 1
+              max: 5
+              step: 0.1
+          - name: quote
+            label: Review
+            type: text
+          - name: date
+            label: Date
+            type: date
+      - name: key_facts
+        description: 'Chhoti label aur value - jaise "Best season: May-September". AI inhi ko seedha quote karta hai.'
+        label: Key facts
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Label
+            type: string
+          - name: value
+            label: Value
+            type: string
+      - name: author
+        description: Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai.
+        label: Prepared by
+        type: string
+      - name: reviewed_by
+        description: Kis ne check kiya. Google aur AI aise pages ko zyada ahmiyat dete hain.
+        label: Reviewed by
+        type: string
+      - name: last_verified
+        description: Aakhri baar kab check kiya tha. Saal mein ek do baar update kar dein.
+        label: Last verified
+        type: date
+      - name: sources
+        description: Hawale - sirf tab jab kisi sarkari safhe ya khabar ka hawala dena ho.
+        label: Sources
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Source label
+            type: string
+          - name: url
+            label: Source URL
+            type: string
+      - name: _h_search_social_sharing
+        label: Search & social sharing
+        type: heading
+      - name: seo
+        label: SEO, GEO, AEO & Social
+        type: object
+        fields:
+          - name: title
+            label: SEO title
+            type: string
+          - name: description
+            label: Meta description
+            type: text
+          - name: keywords
+            label: Keywords
+            type: string
+          - name: robots
+            label: Robots
+            type: string
+            description: 'Example: index, follow, max-image-preview:large'
+          - name: canonical
+            label: Custom canonical
+            type: string
+          - name: social_image
+            label: Social/OG image
+            type: image
+      - name: _h_full_content_itinerary
+        label: Full content / itinerary
+        type: heading
+      - name: body
+        label: Full content / itinerary
+        type: rich-text
+  - name: expeditions
+    label: Expeditions
+    type: collection
+    path: src/content/expeditions
+    filename:
+      template: '{slug}.md'
+      field: create
+    operations:
+      create: true
+      rename: true
+      delete: true
+    view:
+      primary: title
+      fields:
+        - title
+        - published
+        - featured
+        - fixed_departure
+        - duration
+        - price_from
+        - destination
+        - peak_8000m
+    fields:
+      - name: _h_the_basics
+        label: The basics
+        type: heading
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: permalink
+        hidden: true
+        label: URL path
+        type: string
+        required: true
+        description: 'Example: /expeditions/your-slug/'
+      - name: layout
+        label: Layout
+        type: string
+        default: layouts/journey.njk
+        hidden: true
+      - name: service_type
+        label: Service type
+        type: string
+        default: expeditions
+        hidden: true
+      - name: service_label
+        label: Service label
+        type: string
+        default: Expeditions
+        hidden: true
+      - name: _h_show_it_on_the_website
+        label: Show it on the website
+        type: heading
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
+      - name: best_seller
+        label: Best seller
+        type: boolean
+        default: false
+      - name: peak_8000m
+        label: 8,000m Peaks
+        type: boolean
+        default: false
+        description: Shows this expedition on the 8,000m Peaks page in the menu.
+      - name: fixed_departure
+        label: Fixed departure
+        type: boolean
+        default: false
+      - name: menu_sections
+        label: Menu sections
+        type: select
+        list: true
+        description: Which menu sections this should appear in. Choose as many as you like.
+        options:
+          - Best Sellers
+          - Trekking Peaks
+          - Mountain Ranges
+          - 8,000m Peaks
+          - 7,000m Peaks
+          - 6,000m Peaks
+          - Rock Climbing
+          - Climbing Style
+          - All Fixed Departures
+      - name: trip_status
+        label: Availability/status
+        type: select
+        options:
+          - Available
+          - Limited places
+          - On request
+          - Sold out
+          - Draft
+      - name: _h_short_descriptions
+        label: Short descriptions
+        type: heading
+      - name: summary
+        description: Do ya teen line - yeh cards par aur Google par nazar aati hai.
+        label: Short description
+        type: text
+        required: true
+      - name: _h_photos
+        label: Photos
+        type: heading
+      - name: cover_image
+        label: Cover image
+        type: image
+      - name: gallery
+        description: Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai.
+        label: Gallery images
+        type: image
+        list: true
+      - name: _h_duration_price_group_size
+        label: Duration, price & group size
+        type: heading
+      - name: duration
+        label: Duration
+        type: string
+      - name: price_from
+        label: Price from
+        type: string
+      - name: deposit
+        label: Deposit
+        type: string
+      - name: group_size
+        label: Group size
+        type: string
+      - name: difficulty
+        label: Difficulty
+        type: select
+        options:
+          - Easy
+          - Moderate
+          - Challenging
+          - Strenuous
+          - Expedition
+      - name: peak_class
+        label: Peak height
+        type: select
+        description: Which height band this peak falls in. Used for grouping expeditions.
+        options:
+          - Trekking peak (under 6,000m)
+          - 6,000m peaks
+          - 7,000m peaks
+          - 8,000m peaks
+      - name: _h_destination
+        label: Destination
+        type: heading
+      - name: destination
+        label: Destination
+        type: string
+      - name: _h_categories_tags
+        label: Categories & tags
+        type: heading
+        collapsed: true
+      - name: categories
+        description: Group banane ke liye - jaise "Cultural", "Family". Menu aur filters inhi se bante hain.
+        label: Categories
+        type: string
+        list: true
+      - name: tags
+        description: Sirf search aur andar ke kaam ke liye - website par visitor ko nazar nahi aate.
+        label: Tags
+        type: string
+        list: true
+      - name: _h_departure_dates
+        label: Departure dates
+        type: heading
+        collapsed: true
+      - name: departures
+        label: Departure dates
+        type: date
+        list: true
+      - name: departure_details
+        description: Sirf tab bharein jab fixed dates par group ja raha ho. Warna khali chhor dein.
+        label: Detailed departure rows
+        type: object
+        list: true
+        fields:
+          - name: dates
+            label: Dates
+            type: string
+          - name: status
+            label: Status
+            type: string
+          - name: places
+            label: Places
+            type: string
+          - name: deposit
+            label: Deposit
+            type: string
+          - name: price
+            label: Full price
+            type: string
+          - name: note
+            label: Note
+            type: text
+      - name: _h_highlights_inclusions_packin
+        label: Highlights, inclusions & packing
+        type: heading
+      - name: highlights
+        description: Chaar se chh chhoti lines - safar ki sab se khaas baatein.
+        label: Highlights
+        type: string
+        list: true
+      - name: included
+        description: Qeemat mein kya shamil hai, ek line fi cheez.
+        label: Included
+        type: string
+        list: true
+      - name: excluded
+        description: Qeemat mein kya shamil nahi, ek line fi cheez.
+        label: Excluded
+        type: string
+        list: true
+      - name: packing_list
+        label: Packing list
+        type: string
+        list: true
+      - name: _h_extras_route_map_trip_leader
+        label: Extras — route map & trip leader
+        type: heading
+        collapsed: true
+      - name: route_map_url
+        label: Route map URL
+        type: string
+      - name: trip_leader
+        label: Trip leader
+        type: object
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: role
+            label: Role
+            type: string
+          - name: image
+            label: Photo
+            type: image
+          - name: bio
+            label: Biography
+            type: text
+      - name: _h_questions_key_facts_helps_go
+        label: Questions & key facts (helps Google and AI)
+        type: heading
+      - name: faqs
+        label: FAQs
+        type: object
+        list: true
+        fields:
+          - name: question
+            label: Question
+            type: string
+            required: true
+          - name: answer
+            label: Answer
+            type: rich-text
+            required: true
+      - name: _h_filled_in_automatically_open
+        label: Filled in automatically — open only to change something
+        type: heading
+        collapsed: true
+      - name: slug
+        description: Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai.
+        label: Slug
+        type: string
+        required: true
+        pattern:
+          regex: ^[a-z0-9-]+$
+          message: Use lowercase letters, numbers and hyphens only.
+      - name: departure_type
+        label: Departure type
+        type: select
+        options:
+          - Private
+          - Fixed Departure
+          - Group Departure
+          - Custom
+      - name: answer_summary
+        description: Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain.
+        label: Quick answer (AEO/GEO)
+        type: text
+      - name: cover_image_alt
+        description: Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye.
+        label: Cover image alt text
+        type: string
+      - name: duration_days
+        label: Duration in days
+        type: number
+        options:
+          min: 1
+          max: 365
+      - name: price_currency
+        label: Currency
+        type: select
+        options:
+          - USD
+          - PKR
+          - EUR
+          - GBP
+      - name: reviews
+        description: Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke "Reviews" wale hisse se publish hoti hain.
+        label: Guest reviews
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Guest name
+            type: string
+          - name: country
+            label: Country
+            type: string
+          - name: rating
+            label: Rating
+            type: number
+            options:
+              min: 1
+              max: 5
+              step: 0.1
+          - name: quote
+            label: Review
+            type: text
+          - name: date
+            label: Date
+            type: date
+      - name: key_facts
+        description: 'Chhoti label aur value - jaise "Best season: May-September". AI inhi ko seedha quote karta hai.'
+        label: Key facts
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Label
+            type: string
+          - name: value
+            label: Value
+            type: string
+      - name: author
+        description: Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai.
+        label: Prepared by
+        type: string
+      - name: reviewed_by
+        description: Kis ne check kiya. Google aur AI aise pages ko zyada ahmiyat dete hain.
+        label: Reviewed by
+        type: string
+      - name: last_verified
+        description: Aakhri baar kab check kiya tha. Saal mein ek do baar update kar dein.
+        label: Last verified
+        type: date
+      - name: sources
+        description: Hawale - sirf tab jab kisi sarkari safhe ya khabar ka hawala dena ho.
+        label: Sources
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Source label
+            type: string
+          - name: url
+            label: Source URL
+            type: string
+      - name: _h_search_social_sharing
+        label: Search & social sharing
+        type: heading
+      - name: seo
+        label: SEO, GEO, AEO & Social
+        type: object
+        fields:
+          - name: title
+            label: SEO title
+            type: string
+          - name: description
+            label: Meta description
+            type: text
+          - name: keywords
+            label: Keywords
+            type: string
+          - name: robots
+            label: Robots
+            type: string
+            description: 'Example: index, follow, max-image-preview:large'
+          - name: canonical
+            label: Custom canonical
+            type: string
+          - name: social_image
+            label: Social/OG image
+            type: image
+      - name: _h_full_content_itinerary
+        label: Full content / itinerary
+        type: heading
+      - name: body
+        label: Full content / itinerary
+        type: rich-text
+  - name: jeep_safaris
+    label: Jeep Safaris
+    type: collection
+    path: src/content/jeep-safaris
+    filename:
+      template: '{slug}.md'
+      field: create
+    operations:
+      create: true
+      rename: true
+      delete: true
+    view:
+      primary: title
+      fields:
+        - title
+        - published
+        - featured
+        - fixed_departure
+        - duration
+        - price_from
+        - destination
+    fields:
+      - name: _h_the_basics
+        label: The basics
+        type: heading
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: permalink
+        hidden: true
+        label: URL path
+        type: string
+        required: true
+        description: 'Example: /jeep-safaris/your-slug/'
+      - name: layout
+        label: Layout
+        type: string
+        default: layouts/journey.njk
+        hidden: true
+      - name: service_type
+        label: Service type
+        type: string
+        default: jeep-safaris
+        hidden: true
+      - name: service_label
+        label: Service label
+        type: string
+        default: Jeep Safaris
+        hidden: true
+      - name: _h_show_it_on_the_website
+        label: Show it on the website
+        type: heading
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
+      - name: best_seller
+        label: Best seller
+        type: boolean
+        default: false
+      - name: fixed_departure
+        label: Fixed departure
+        type: boolean
+        default: false
+      - name: menu_sections
+        label: Menu sections
+        type: select
+        list: true
+        description: Which menu sections this should appear in. Choose as many as you like.
+        options:
+          - Gilgit-Baltistan Safaris
+          - Hunza Safaris
+          - Skardu Safaris
+          - Deosai Safaris
+          - Chitral Safaris
+      - name: trip_status
+        label: Availability/status
+        type: select
+        options:
+          - Available
+          - Limited places
+          - On request
+          - Sold out
+          - Draft
+      - name: _h_short_descriptions
+        label: Short descriptions
+        type: heading
+      - name: summary
+        description: Do ya teen line - yeh cards par aur Google par nazar aati hai.
+        label: Short description
+        type: text
+        required: true
+      - name: _h_photos
+        label: Photos
+        type: heading
+      - name: cover_image
+        label: Cover image
+        type: image
+      - name: gallery
+        description: Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai.
+        label: Gallery images
+        type: image
+        list: true
+      - name: _h_duration_price_group_size
+        label: Duration, price & group size
+        type: heading
+      - name: duration
+        label: Duration
+        type: string
+      - name: price_from
+        label: Price from
+        type: string
+      - name: deposit
+        label: Deposit
+        type: string
+      - name: group_size
+        label: Group size
+        type: string
+      - name: difficulty
+        label: Difficulty
+        type: select
+        options:
+          - Easy
+          - Moderate
+          - Challenging
+          - Strenuous
+          - Expedition
+      - name: _h_destination
+        label: Destination
+        type: heading
+      - name: destination
+        label: Destination
+        type: string
+      - name: _h_categories_tags
+        label: Categories & tags
+        type: heading
+        collapsed: true
+      - name: categories
+        description: Group banane ke liye - jaise "Cultural", "Family". Menu aur filters inhi se bante hain.
+        label: Categories
+        type: string
+        list: true
+      - name: tags
+        description: Sirf search aur andar ke kaam ke liye - website par visitor ko nazar nahi aate.
+        label: Tags
+        type: string
+        list: true
+      - name: _h_departure_dates
+        label: Departure dates
+        type: heading
+        collapsed: true
+      - name: departures
+        label: Departure dates
+        type: date
+        list: true
+      - name: departure_details
+        description: Sirf tab bharein jab fixed dates par group ja raha ho. Warna khali chhor dein.
+        label: Detailed departure rows
+        type: object
+        list: true
+        fields:
+          - name: dates
+            label: Dates
+            type: string
+          - name: status
+            label: Status
+            type: string
+          - name: places
+            label: Places
+            type: string
+          - name: deposit
+            label: Deposit
+            type: string
+          - name: price
+            label: Full price
+            type: string
+          - name: note
+            label: Note
+            type: text
+      - name: _h_highlights_inclusions_packin
+        label: Highlights, inclusions & packing
+        type: heading
+      - name: highlights
+        description: Chaar se chh chhoti lines - safar ki sab se khaas baatein.
+        label: Highlights
+        type: string
+        list: true
+      - name: included
+        description: Qeemat mein kya shamil hai, ek line fi cheez.
+        label: Included
+        type: string
+        list: true
+      - name: excluded
+        description: Qeemat mein kya shamil nahi, ek line fi cheez.
+        label: Excluded
+        type: string
+        list: true
+      - name: packing_list
+        label: Packing list
+        type: string
+        list: true
+      - name: _h_extras_route_map_trip_leader
+        label: Extras — route map & trip leader
+        type: heading
+        collapsed: true
+      - name: route_map_url
+        label: Route map URL
+        type: string
+      - name: trip_leader
+        label: Trip leader
+        type: object
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: role
+            label: Role
+            type: string
+          - name: image
+            label: Photo
+            type: image
+          - name: bio
+            label: Biography
+            type: text
+      - name: _h_questions_key_facts_helps_go
+        label: Questions & key facts (helps Google and AI)
+        type: heading
+      - name: faqs
+        label: FAQs
+        type: object
+        list: true
+        fields:
+          - name: question
+            label: Question
+            type: string
+            required: true
+          - name: answer
+            label: Answer
+            type: rich-text
+            required: true
+      - name: _h_filled_in_automatically_open
+        label: Filled in automatically — open only to change something
+        type: heading
+        collapsed: true
+      - name: slug
+        description: Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai.
+        label: Slug
+        type: string
+        required: true
+        pattern:
+          regex: ^[a-z0-9-]+$
+          message: Use lowercase letters, numbers and hyphens only.
+      - name: departure_type
+        label: Departure type
+        type: select
+        options:
+          - Private
+          - Fixed Departure
+          - Group Departure
+          - Custom
+      - name: answer_summary
+        description: Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain.
+        label: Quick answer (AEO/GEO)
+        type: text
+      - name: cover_image_alt
+        description: Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye.
+        label: Cover image alt text
+        type: string
+      - name: duration_days
+        label: Duration in days
+        type: number
+        options:
+          min: 1
+          max: 365
+      - name: price_currency
+        label: Currency
+        type: select
+        options:
+          - USD
+          - PKR
+          - EUR
+          - GBP
+      - name: reviews
+        description: Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke "Reviews" wale hisse se publish hoti hain.
+        label: Guest reviews
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Guest name
+            type: string
+          - name: country
+            label: Country
+            type: string
+          - name: rating
+            label: Rating
+            type: number
+            options:
+              min: 1
+              max: 5
+              step: 0.1
+          - name: quote
+            label: Review
+            type: text
+          - name: date
+            label: Date
+            type: date
+      - name: key_facts
+        description: 'Chhoti label aur value - jaise "Best season: May-September". AI inhi ko seedha quote karta hai.'
+        label: Key facts
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Label
+            type: string
+          - name: value
+            label: Value
+            type: string
+      - name: author
+        description: Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai.
+        label: Prepared by
+        type: string
+      - name: reviewed_by
+        description: Kis ne check kiya. Google aur AI aise pages ko zyada ahmiyat dete hain.
+        label: Reviewed by
+        type: string
+      - name: last_verified
+        description: Aakhri baar kab check kiya tha. Saal mein ek do baar update kar dein.
+        label: Last verified
+        type: date
+      - name: sources
+        description: Hawale - sirf tab jab kisi sarkari safhe ya khabar ka hawala dena ho.
+        label: Sources
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Source label
+            type: string
+          - name: url
+            label: Source URL
+            type: string
+      - name: _h_search_social_sharing
+        label: Search & social sharing
+        type: heading
+      - name: seo
+        label: SEO, GEO, AEO & Social
+        type: object
+        fields:
+          - name: title
+            label: SEO title
+            type: string
+          - name: description
+            label: Meta description
+            type: text
+          - name: keywords
+            label: Keywords
+            type: string
+          - name: robots
+            label: Robots
+            type: string
+            description: 'Example: index, follow, max-image-preview:large'
+          - name: canonical
+            label: Custom canonical
+            type: string
+          - name: social_image
+            label: Social/OG image
+            type: image
+      - name: _h_full_content_itinerary
+        label: Full content / itinerary
+        type: heading
+      - name: body
+        label: Full content / itinerary
+        type: rich-text
+  - name: hunting_services
+    label: Hunting Services
+    type: collection
+    path: src/content/hunting-services
+    filename:
+      template: '{slug}.md'
+      field: create
+    operations:
+      create: true
+      rename: true
+      delete: true
+    view:
+      primary: title
+      fields:
+        - title
+        - published
+        - featured
+        - fixed_departure
+        - duration
+        - price_from
+        - destination
+    fields:
+      - name: _h_the_basics
+        label: The basics
+        type: heading
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: permalink
+        hidden: true
+        label: URL path
+        type: string
+        required: true
+        description: 'Example: /hunting-services/your-slug/'
+      - name: layout
+        label: Layout
+        type: string
+        default: layouts/journey.njk
+        hidden: true
+      - name: service_type
+        label: Service type
+        type: string
+        default: hunting-services
+        hidden: true
+      - name: service_label
+        label: Service label
+        type: string
+        default: Licensed Hunting Services
+        hidden: true
+      - name: _h_show_it_on_the_website
+        label: Show it on the website
+        type: heading
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
+      - name: best_seller
+        label: Best seller
+        type: boolean
+        default: false
+      - name: fixed_departure
+        label: Fixed departure
+        type: boolean
+        default: false
+      - name: trip_status
+        label: Availability/status
+        type: select
+        options:
+          - Available
+          - Limited places
+          - On request
+          - Sold out
+          - Draft
+      - name: _h_short_descriptions
+        label: Short descriptions
+        type: heading
+      - name: summary
+        description: Do ya teen line - yeh cards par aur Google par nazar aati hai.
+        label: Short description
+        type: text
+        required: true
+      - name: _h_photos
+        label: Photos
+        type: heading
+      - name: cover_image
+        label: Cover image
+        type: image
+      - name: gallery
+        description: Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai.
+        label: Gallery images
+        type: image
+        list: true
+      - name: _h_duration_price_group_size
+        label: Duration, price & group size
+        type: heading
+      - name: duration
+        label: Duration
+        type: string
+      - name: price_from
+        label: Price from
+        type: string
+      - name: deposit
+        label: Deposit
+        type: string
+      - name: group_size
+        label: Group size
+        type: string
+      - name: difficulty
+        label: Difficulty
+        type: select
+        options:
+          - Easy
+          - Moderate
+          - Challenging
+          - Strenuous
+          - Expedition
+      - name: _h_destination
+        label: Destination
+        type: heading
+      - name: destination
+        label: Destination
+        type: string
+      - name: _h_categories_tags
+        label: Categories & tags
+        type: heading
+        collapsed: true
+      - name: categories
+        description: Group banane ke liye - jaise "Cultural", "Family". Menu aur filters inhi se bante hain.
+        label: Categories
+        type: string
+        list: true
+      - name: tags
+        description: Sirf search aur andar ke kaam ke liye - website par visitor ko nazar nahi aate.
+        label: Tags
+        type: string
+        list: true
+      - name: _h_departure_dates
+        label: Departure dates
+        type: heading
+        collapsed: true
+      - name: departures
+        label: Departure dates
+        type: date
+        list: true
+      - name: departure_details
+        description: Sirf tab bharein jab fixed dates par group ja raha ho. Warna khali chhor dein.
+        label: Detailed departure rows
+        type: object
+        list: true
+        fields:
+          - name: dates
+            label: Dates
+            type: string
+          - name: status
+            label: Status
+            type: string
+          - name: places
+            label: Places
+            type: string
+          - name: deposit
+            label: Deposit
+            type: string
+          - name: price
+            label: Full price
+            type: string
+          - name: note
+            label: Note
+            type: text
+      - name: _h_highlights_inclusions_packin
+        label: Highlights, inclusions & packing
+        type: heading
+      - name: highlights
+        description: Chaar se chh chhoti lines - safar ki sab se khaas baatein.
+        label: Highlights
+        type: string
+        list: true
+      - name: included
+        description: Qeemat mein kya shamil hai, ek line fi cheez.
+        label: Included
+        type: string
+        list: true
+      - name: excluded
+        description: Qeemat mein kya shamil nahi, ek line fi cheez.
+        label: Excluded
+        type: string
+        list: true
+      - name: packing_list
+        label: Packing list
+        type: string
+        list: true
+      - name: _h_extras_route_map_trip_leader
+        label: Extras — route map & trip leader
+        type: heading
+        collapsed: true
+      - name: route_map_url
+        label: Route map URL
+        type: string
+      - name: trip_leader
+        label: Trip leader
+        type: object
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: role
+            label: Role
+            type: string
+          - name: image
+            label: Photo
+            type: image
+          - name: bio
+            label: Biography
+            type: text
+      - name: _h_questions_key_facts_helps_go
+        label: Questions & key facts (helps Google and AI)
+        type: heading
+      - name: faqs
+        label: FAQs
+        type: object
+        list: true
+        fields:
+          - name: question
+            label: Question
+            type: string
+            required: true
+          - name: answer
+            label: Answer
+            type: rich-text
+            required: true
+      - name: _h_filled_in_automatically_open
+        label: Filled in automatically — open only to change something
+        type: heading
+        collapsed: true
+      - name: slug
+        description: Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai.
+        label: Slug
+        type: string
+        required: true
+        pattern:
+          regex: ^[a-z0-9-]+$
+          message: Use lowercase letters, numbers and hyphens only.
+      - name: departure_type
+        label: Departure type
+        type: select
+        options:
+          - Private
+          - Fixed Departure
+          - Group Departure
+          - Custom
+      - name: answer_summary
+        description: Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain.
+        label: Quick answer (AEO/GEO)
+        type: text
+      - name: cover_image_alt
+        description: Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye.
+        label: Cover image alt text
+        type: string
+      - name: duration_days
+        label: Duration in days
+        type: number
+        options:
+          min: 1
+          max: 365
+      - name: price_currency
+        label: Currency
+        type: select
+        options:
+          - USD
+          - PKR
+          - EUR
+          - GBP
+      - name: reviews
+        description: Yahan haath se review likhne ki zarurat nahi. Mehmanon ki reviews dashboard ke "Reviews" wale hisse se publish hoti hain.
+        label: Guest reviews
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Guest name
+            type: string
+          - name: country
+            label: Country
+            type: string
+          - name: rating
+            label: Rating
+            type: number
+            options:
+              min: 1
+              max: 5
+              step: 0.1
+          - name: quote
+            label: Review
+            type: text
+          - name: date
+            label: Date
+            type: date
+      - name: key_facts
+        description: 'Chhoti label aur value - jaise "Best season: May-September". AI inhi ko seedha quote karta hai.'
+        label: Key facts
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Label
+            type: string
+          - name: value
+            label: Value
+            type: string
+      - name: author
+        description: Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai.
+        label: Prepared by
+        type: string
+      - name: reviewed_by
+        description: Kis ne check kiya. Google aur AI aise pages ko zyada ahmiyat dete hain.
+        label: Reviewed by
+        type: string
+      - name: last_verified
+        description: Aakhri baar kab check kiya tha. Saal mein ek do baar update kar dein.
+        label: Last verified
+        type: date
+      - name: sources
+        description: Hawale - sirf tab jab kisi sarkari safhe ya khabar ka hawala dena ho.
+        label: Sources
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Source label
+            type: string
+          - name: url
+            label: Source URL
+            type: string
+      - name: _h_search_social_sharing
+        label: Search & social sharing
+        type: heading
+      - name: seo
+        label: SEO, GEO, AEO & Social
+        type: object
+        fields:
+          - name: title
+            label: SEO title
+            type: string
+          - name: description
+            label: Meta description
+            type: text
+          - name: keywords
+            label: Keywords
+            type: string
+          - name: robots
+            label: Robots
+            type: string
+            description: 'Example: index, follow, max-image-preview:large'
+          - name: canonical
+            label: Custom canonical
+            type: string
+          - name: social_image
+            label: Social/OG image
+            type: image
+      - name: _h_full_content_itinerary
+        label: Full content / itinerary
+        type: heading
+      - name: body
+        label: Full content / itinerary
+        type: rich-text
+  - name: blog
+    label: Travel Guides & News
+    type: collection
+    path: src/content/blog
+    filename:
+      template: '{slug}.md'
+      field: create
+    operations:
+      create: true
+      rename: true
+      delete: true
+    view:
+      primary: title
+      fields:
+        - title
+        - published
+        - featured
+        - date
+    fields:
+      - name: _h_the_basics
+        label: The basics
+        type: heading
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: permalink
+        hidden: true
+        label: URL path
+        type: string
+        required: true
+      - name: layout
+        label: Layout
+        type: string
+        default: layouts/post.njk
+        hidden: true
+      - name: _h_show_it_on_the_website
+        label: Show it on the website
+        type: heading
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
+      - name: date
+        label: Publication date
+        type: date
+      - name: _h_description_photo
+        label: Description & photo
+        type: heading
+      - name: summary
+        description: Do ya teen line - yeh cards par aur Google par nazar aati hai.
+        label: Summary
+        type: text
+      - name: cover_image
+        label: Featured image
+        type: image
+      - name: _h_categories_tags
+        label: Categories & tags
+        type: heading
+        collapsed: true
+      - name: categories
+        description: Group banane ke liye - jaise "Cultural", "Family". Menu aur filters inhi se bante hain.
+        label: Categories
+        type: string
+        list: true
+      - name: tags
+        description: Sirf search aur andar ke kaam ke liye - website par visitor ko nazar nahi aate.
+        label: Tags
+        type: string
+        list: true
+      - name: faqs
+        label: FAQs
+        type: object
+        list: true
+        fields:
+          - name: question
+            label: Question
+            type: string
+            required: true
+          - name: answer
+            label: Answer
+            type: rich-text
+            required: true
+      - name: _h_filled_in_automatically_open
+        label: Filled in automatically — open only to change something
+        type: heading
+        collapsed: true
+      - name: slug
+        description: Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai.
+        label: Slug
+        type: string
+        required: true
+        pattern: ^[a-z0-9-]+$
+      - name: cover_image_alt
+        description: Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye.
+        label: Image alt text
+        type: string
+      - name: answer_summary
+        description: Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain.
+        label: Quick answer
+        type: text
+      - name: author
+        description: Yeh page kis ne tayar kiya. Khali chhor dein to business ka naam chala jata hai.
+        label: Author
+        type: string
+      - name: reviewed_by
+        description: Kis ne check kiya. Google aur AI aise pages ko zyada ahmiyat dete hain.
+        label: Reviewed by
+        type: string
+      - name: last_verified
+        description: Aakhri baar kab check kiya tha. Saal mein ek do baar update kar dein.
+        label: Last verified
+        type: date
+      - name: _h_search_social_sharing
+        label: Search & social sharing
+        type: heading
+      - name: seo
+        label: SEO, GEO, AEO & Social
+        type: object
+        fields:
+          - name: title
+            label: SEO title
+            type: string
+          - name: description
+            label: Meta description
+            type: text
+          - name: keywords
+            label: Keywords
+            type: string
+          - name: robots
+            label: Robots
+            type: string
+            description: 'Example: index, follow, max-image-preview:large'
+          - name: canonical
+            label: Custom canonical
+            type: string
+          - name: social_image
+            label: Social/OG image
+            type: image
+      - name: _h_article_content
+        label: Article content
+        type: heading
+      - name: body
+        label: Article content
+        type: rich-text
+  - name: vehicles
+    label: Vehicles
+    type: collection
+    path: src/content/vehicles
+    filename:
+      template: '{slug}.md'
+      field: create
+    operations:
+      create: true
+      rename: true
+      delete: true
+    view:
+      primary: title
+      fields:
+        - title
+        - published
+        - featured
+        - capacity
+        - price_from
+    fields:
+      - name: _h_the_basics
+        label: The basics
+        type: heading
+      - name: title
+        label: Vehicle name
+        type: string
+        required: true
+      - name: permalink
+        hidden: true
+        label: URL path
+        type: string
+        required: true
+      - name: layout
+        label: Layout
+        type: string
+        default: layouts/vehicle.njk
+        hidden: true
+      - name: _h_show_it_on_the_website
+        label: Show it on the website
+        type: heading
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
+      - name: _h_description_photos
+        label: Description & photos
+        type: heading
+      - name: summary
+        description: Do ya teen line - yeh cards par aur Google par nazar aati hai.
+        label: Summary
+        type: text
+      - name: cover_image
+        label: Cover image
+        type: image
+      - name: gallery
+        description: Is page ki photo gallery. Upload karein ya library se chunein; pehli photo pehle dikhti hai.
+        label: Gallery
+        type: image
+        list: true
+      - name: _h_vehicle_details
+        label: Vehicle details
+        type: heading
+      - name: capacity
+        label: Passenger capacity
+        type: string
+      - name: luggage
+        label: Luggage capacity
+        type: string
+      - name: vehicle_type
+        label: Vehicle type
+        type: string
+      - name: price_from
+        label: Price from
+        type: string
+      - name: features
+        label: Features
+        type: string
+        list: true
+      - name: _h_filled_in_automatically_open
+        label: Filled in automatically — open only to change something
+        type: heading
+        collapsed: true
+      - name: slug
+        description: Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai.
+        label: Slug
+        type: string
+        required: true
+      - name: _h_search_social_sharing
+        label: Search & social sharing
+        type: heading
+      - name: seo
+        label: SEO
+        type: object
+        fields:
+          - name: title
+            label: SEO title
+            type: string
+          - name: description
+            label: Meta description
+            type: text
+          - name: keywords
+            label: Keywords
+            type: string
+          - name: robots
+            label: Robots
+            type: string
+            description: 'Example: index, follow, max-image-preview:large'
+          - name: canonical
+            label: Custom canonical
+            type: string
+          - name: social_image
+            label: Social/OG image
+            type: image
+      - name: _h_full_description
+        label: Full description
+        type: heading
+      - name: body
+        label: Full description
+        type: rich-text
+  - name: sliders
+    label: Hero Sliders (big photos at the top of a page)
+    type: collection
+    path: src/content/sliders
+    filename: '{primary}.md'
+    view:
+      primary: title
+      fields:
+        - title
+        - sections
+        - order
+        - published
+    fields:
+      - name: title
+        label: Name (only you see this)
+        type: string
+        required: true
+        description: Sirf is list mein pehchanne ke liye - website par nazar nahi aata.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true
+      - name: sections
+        label: Which pages should show this slide
+        type: select
+        list: true
+        description: Kam az kam ek chunna zaroori hai, warna slide kahin nazar nahi aayegi. Ek slide kai pages par bhi lag sakti hai; "all" ka matlab har woh page jahan bara slider hai.
+        options:
+          - homepage
+          - tours
+          - trekking
+          - expeditions
+          - jeep-safaris
+          - hunting-services
+          - vehicles
+          - blog
+          - destinations
+          - all
+      - name: order
+        label: Order
+        type: number
+        description: Chhota number pehle. 1, 2, 3...
+        options:
+          min: 1
+          max: 99
+      - name: image
+        label: Photo
+        type: image
+        description: Chaurai mein kam az kam 1600px - yeh poori chaurai par dikhti hai. Upload karein ya library se chunein.
+      - name: image_alt
+        label: Photo description
+        type: string
+        description: Photo mein kya nazar aa raha hai, ek chhoti line. Google Images aur nabina logon ke liye.
+      - name: focus
+        label: Which part of the photo matters most
+        type: select
+        default: auto
+        description: Ise chhor dein. Website khud pehchan leti hai ke photo mein ahem hissa kahan hai aur usey bachati hai. Sirf tab badlein jab kisi photo mein galat hissa nazar aaye.
+        options:
+          - value: auto
+            label: Work it out automatically (recommended)
+          - value: top
+            label: Top
+          - value: center
+            label: Middle
+          - value: bottom
+            label: Bottom
+          - value: left
+            label: Left
+          - value: right
+            label: Right
+      - name: eyebrow
+        label: Small line above the headline
+        type: string
+      - name: heading
+        label: Headline
+        type: string
+      - name: text
+        label: Text under the headline
+        type: text
+      - name: button_label
+        label: Button text
+        type: string
+        description: Khali chhor dein to button nazar nahi aayega.
+      - name: button_url
+        label: Button link
+        type: string
+        description: Jaise /tours/ ya /plan-a-trip/
+  - name: pages
+    label: Pages (About, Destinations, Policies)
+    type: collection
+    path: src/content/pages
+    filename:
+      template: '{slug}.md'
+      field: create
+    operations:
+      create: true
+      rename: true
+      delete: true
+    view:
+      primary: title
+      fields:
+        - title
+        - published
+        - permalink
+        - featured
+    fields:
+      - name: _h_the_basics
+        label: The basics
+        type: heading
+      - name: title
+        label: Page title
+        type: string
+        required: true
+      - name: permalink
+        label: URL path
+        type: string
+        required: true
+      - name: layout
+        label: Layout
+        type: string
+        default: layouts/page.njk
+      - name: _h_show_it_on_the_website
+        label: Show it on the website
+        type: heading
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
+      - name: _h_description_photo
+        label: Description & photo
+        type: heading
+      - name: summary
+        description: Do ya teen line - yeh cards par aur Google par nazar aati hai.
+        label: Summary
+        type: text
+      - name: cover_image
+        label: Cover/hero image
+        type: image
+      - name: _h_categories
+        label: Categories
+        type: heading
+        collapsed: true
+      - name: categories
+        description: Group banane ke liye - jaise "Cultural", "Family". Menu aur filters inhi se bante hain.
+        label: Categories
+        type: string
+        list: true
+      - name: faqs
+        label: FAQs
+        type: object
+        list: true
+        fields:
+          - name: question
+            label: Question
+            type: string
+            required: true
+          - name: answer
+            label: Answer
+            type: rich-text
+            required: true
+      - name: _h_filled_in_automatically_open
+        label: Filled in automatically — open only to change something
+        type: heading
+        collapsed: true
+      - name: slug
+        description: Page ka address ka aakhri hissa, chhote haroof aur dash mein - jaise k2-base-camp-trek. Badalne se purana link toot sakta hai.
+        label: Slug
+        type: string
+        required: true
+      - name: cover_image_alt
+        description: Photo mein kya nazar aa raha hai, ek chhoti line mein. Google Images aur nabina logon ke liye.
+        label: Image alt text
+        type: string
+      - name: answer_summary
+        description: Ek saaf jumla jo bataye yeh safar kya hai. ChatGPT aur Google ke AI jawab isi ko uthate hain.
+        label: Quick answer
+        type: text
+      - name: _h_search_social_sharing
+        label: Search & social sharing
+        type: heading
+      - name: seo
+        label: SEO, GEO, AEO & Social
+        type: object
+        fields:
+          - name: title
+            label: SEO title
+            type: string
+          - name: description
+            label: Meta description
+            type: text
+          - name: keywords
+            label: Keywords
+            type: string
+          - name: robots
+            label: Robots
+            type: string
+            description: 'Example: index, follow, max-image-preview:large'
+          - name: canonical
+            label: Custom canonical
+            type: string
+          - name: social_image
+            label: Social/OG image
+            type: image
+      - name: _h_page_content
+        label: Page content
+        type: heading
+      - name: body
+        label: Page content
+        type: rich-text
+  - name: site
+    label: Business details
+    type: file
+    path: src/_data/site.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: _h_merged_site
+        label: Business name & description
+        type: heading
+      - name: name
+        label: Business/website name
+        type: string
+        required: true
+      - name: tagline
+        label: Tagline
+        type: string
+      - name: description
+        label: Default website description
+        type: text
+      - name: url
+        label: Live website URL
+        type: string
+      - name: language
+        label: Default language code
+        type: string
+      - name: _h_merged_site_logos
+        label: Logos & favicon
+        type: heading
+        collapsed: true
+      - name: logo
+        label: Main logo
+        type: image
+      - name: logo_dark
+        label: Dark-background logo
+        type: image
+      - name: logo_light
+        label: Light-background logo
+        type: image
+      - name: mobile_logo
+        label: Mobile logo
+        type: image
+      - name: favicon
+        label: Favicon
+        type: image
+      - name: _h_merged_site_contact
+        label: Phone, email & address
+        type: heading
+        collapsed: true
+      - name: phone
+        label: Phone
+        type: string
+      - name: phone_secondary
+        label: Alternate phone
+        type: string
+      - name: email
+        label: Public email
+        type: string
+      - name: booking_email
+        label: Booking email
+        type: string
+      - name: address
+        label: Primary office address
+        type: text
+      - name: _h_merged_site_business
+        label: Business details & map location
+        type: heading
+        collapsed: true
+      - name: business
+        label: Business/legal details
+        type: object
+        fields:
+          - name: legal_name
+            label: Legal name
+            type: string
+          - name: founded_year
+            label: Founded year
+            type: string
+          - name: license_number
+            label: Tourism/license number
+            type: string
+          - name: price_currency
+            label: Default currency
+            type: select
+            options:
+              - USD
+              - PKR
+              - EUR
+              - GBP
+      - name: geo
+        label: Geographic details
+        type: object
+        fields:
+          - name: country_code
+            label: Country code
+            type: string
+          - name: country
+            label: Country
+            type: string
+          - name: city
+            label: City
+            type: string
+          - name: latitude
+            label: Latitude
+            type: string
+          - name: longitude
+            label: Longitude
+            type: string
+          - name: service_areas
+            label: Service areas
+            type: string
+            list: true
+      - name: _h_merged_site_team
+        label: Team members
+        type: heading
+        collapsed: true
+      - name: team
+        label: Team members
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: role
+            label: Role
+            type: string
+          - name: photo
+            label: Photo
+            type: image
+          - name: bio
+            label: Bio
+            type: text
+          - name: email
+            label: Email
+            type: string
+  - name: site_channels
+    label: Contact channels & social
+    type: file
+    path: src/_data/site.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: _h_merged_site_channels
+        label: WhatsApp & chat channels
+        type: heading
+      - name: contact
+        label: International messaging applications
+        type: object
+        fields:
+          - name: whatsapp
+            label: WhatsApp number (country code, no +)
+            type: string
+          - name: telegram
+            label: Telegram URL
+            type: string
+          - name: messenger
+            label: Messenger URL
+            type: string
+          - name: line
+            label: LINE URL/ID
+            type: string
+          - name: wechat_id
+            label: WeChat ID
+            type: string
+          - name: wechat_qr
+            label: WeChat QR image
+            type: image
+          - name: viber
+            label: Viber URL/number
+            type: string
+          - name: kakaotalk
+            label: KakaoTalk ID/URL
+            type: string
+          - name: vk
+            label: VK URL
+            type: string
+          - name: max_russia
+            label: MAX URL
+            type: string
+          - name: signal
+            label: Signal URL/number
+            type: string
+          - name: zalo
+            label: Zalo URL/number
+            type: string
+          - name: imo
+            label: imo URL/number
+            type: string
+          - name: skype
+            label: Skype ID/URL
+            type: string
+      - name: tawk
+        label: Tawk.to live chat
+        type: object
+        fields:
+          - name: property_id
+            label: Property ID
+            type: string
+          - name: widget_id
+            label: Widget ID
+            type: string
+      - name: contact_extra
+        label: More chat channels — add as many as you like
+        type: object
+        list: true
+        description: Jo app oopar ki list mein nahi hai, usey yahan add karein. Hatane ke liye us row ka X dabayein.
+        fields:
+          - name: icon
+            label: Icon
+            type: select
+            options:
+              - whatsapp
+              - telegram
+              - messenger
+              - signal
+              - skype
+              - line
+              - wechat
+              - viber
+              - kakao
+              - zalo
+              - imo
+              - vk
+              - max
+              - chat
+              - mail
+              - phone
+          - name: label
+            label: Name
+            type: string
+            description: Jaise "Discord" ya "Botim".
+          - name: note
+            label: Small text under the name
+            type: string
+            description: Ikhtiyari - jaise "Middle East" ya "Calls only".
+          - name: url
+            label: Link
+            type: string
+            description: Poora link. Agar sirf ID copy karani ho to yeh khali chhor dein.
+          - name: copy_text
+            label: Or an ID to copy
+            type: string
+            description: Link ke bajaye ID/number - visitor click kar ke copy kar lega.
+      - name: _h_merged_site_social
+        label: Social media links
+        type: heading
+        collapsed: true
+      - name: social
+        label: Social accounts
+        type: object
+        fields:
+          - name: facebook
+            label: Facebook URL
+            type: string
+          - name: instagram
+            label: Instagram URL
+            type: string
+          - name: youtube
+            label: YouTube URL
+            type: string
+          - name: linkedin
+            label: LinkedIn URL
+            type: string
+          - name: tripadvisor
+            label: Tripadvisor URL
+            type: string
+          - name: x
+            label: X/Twitter URL
+            type: string
+          - name: tiktok
+            label: TikTok URL
+            type: string
+          - name: pinterest
+            label: Pinterest URL
+            type: string
+          - name: threads
+            label: Threads URL
+            type: string
+          - name: google_business
+            label: Google Business URL
+            type: string
+          - name: bluesky
+            label: Bluesky URL
+            type: string
+      - name: social_extra
+        label: More social accounts — add as many as you like
+        type: object
+        list: true
+        description: Jo platform oopar ki list mein nahi hai, usey yahan add karein. Hatane ke liye us row ka X dabayein.
+        fields:
+          - name: icon
+            label: Icon
+            type: select
+            options:
+              - facebook
+              - instagram
+              - youtube
+              - linkedin
+              - tripadvisor
+              - x
+              - tiktok
+              - pinterest
+              - threads
+              - google
+              - chat
+              - share
+              - mail
+          - name: label
+            label: Name
+            type: string
+            description: Jaise "Snapchat". Yeh screen reader aur hover par nazar aata hai.
+          - name: url
+            label: Link
+            type: string
+            description: Poora link, https:// ke saath.
+      - name: _h_merged_site_ratings
+        label: Review & rating links
+        type: heading
+        collapsed: true
+      - name: ratings
+        label: Review profiles
+        type: object
+        fields:
+          - name: google_score
+            label: Google score
+            type: string
+          - name: google_url
+            label: Google reviews URL
+            type: string
+          - name: tripadvisor_score
+            label: Tripadvisor score
+            type: string
+          - name: tripadvisor_url
+            label: Tripadvisor reviews URL
+            type: string
+  - name: site_faqs
+    label: Homepage questions & answers
+    type: file
+    path: src/_data/site.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: home_faqs
+        label: Global/home FAQs
+        type: object
+        list: true
+        fields:
+          - name: question
+            label: Question
+            type: string
+            required: true
+          - name: answer
+            label: Answer
+            type: rich-text
+            required: true
+  - name: site_advanced
+    label: Advanced (leave alone unless asked)
+    type: file
+    path: src/_data/site.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: _h_merged_site_verification
+        label: Google/Bing verification & sharing
+        type: heading
+      - name: verification
+        label: Search verification
+        type: object
+        fields:
+          - name: google
+            label: Google verification token
+            type: string
+          - name: bing
+            label: Bing verification token
+            type: string
+          - name: yandex
+            label: Yandex verification token
+            type: string
+      - name: seo
+        label: Global SEO
+        type: object
+        fields:
+          - name: default_social_image
+            label: Default social image
+            type: image
+          - name: twitter_handle
+            label: Twitter/X handle
+            type: string
+          - name: default_author
+            label: Default author
+            type: string
+          - name: default_reviewer
+            label: Default reviewer
+            type: string
+      - name: _h_merged_site_advanced
+        label: Advanced (leave alone unless asked)
+        type: heading
+        collapsed: true
+      - name: forms
+        label: Form endpoints
+        type: object
+        fields:
+          - name: booking_google_form
+            label: Booking Google Form URL
+            type: string
+          - name: contact_formspree
+            label: Contact Formspree endpoint
+            type: string
+          - name: newsletter_formspree
+            label: Newsletter Formspree endpoint
+            type: string
+      - name: navigation
+        label: Homepage service cards (legacy fallback)
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Label
+            type: string
+          - name: url
+            label: URL
+            type: string
+      - name: performance
+        label: Performance settings
+        type: object
+        fields:
+          - name: web_vitals_endpoint
+            label: Web Vitals endpoint
+            type: string
+          - name: service_worker
+            label: Enable service worker
+            type: boolean
+            default: true
+      - name: ai
+        label: AI/search crawler settings
+        type: object
+        fields:
+          - name: allow_search_crawlers
+            label: Allow AI search crawlers
+            type: boolean
+            default: true
+          - name: allow_model_training
+            label: Allow model-training crawlers
+            type: boolean
+            default: false
+          - name: content_license
+            label: Content license statement
+            type: text
+  - name: site_header
+    label: Header & top bar
+    type: file
+    path: src/_data/siteHeader.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: enabled
+        label: Show header
+        type: boolean
+        default: true
+      - name: sticky
+        label: Sticky header
+        type: boolean
+        default: true
+      - name: top_strip
+        label: Top information strip
+        type: object
+        fields:
+          - name: enabled
+            label: Show top strip
+            type: boolean
+            default: true
+          - name: left_text
+            label: Left text
+            type: string
+          - name: show_hours
+            label: Show hours
+            type: boolean
+            default: true
+          - name: hours
+            label: Working hours
+            type: string
+          - name: show_phone
+            label: Show phone
+            type: boolean
+            default: true
+          - name: show_email
+            label: Show email
+            type: boolean
+            default: true
+      - name: brand
+        label: Logo/support row
+        type: object
+        fields:
+          - name: logo_override
+            label: Header logo override
+            type: image
+          - name: logo_alt
+            label: Logo alt text
+            type: string
+          - name: show_support_block
+            label: Show support block
+            type: boolean
+            default: true
+          - name: support_title
+            label: Support title
+            type: string
+          - name: support_subtitle
+            label: Support subtitle
+            type: string
+          - name: support_icon
+            label: Support icon/text
+            type: string
+      - name: search
+        label: Header search
+        type: object
+        fields:
+          - name: enabled
+            label: Show search
+            type: boolean
+            default: true
+          - name: placeholder
+            label: Search placeholder
+            type: string
+          - name: button_label
+            label: Accessible button label
+            type: string
+      - name: language_selector
+        label: Language selector
+        type: object
+        fields:
+          - name: enabled
+            label: Show language selector
+            type: boolean
+            default: true
+          - name: default_label
+            label: Default label
+            type: string
+      - name: primary_cta
+        label: Primary header button
+        type: object
+        fields:
+          - name: enabled
+            label: Show button
+            type: boolean
+            default: true
+          - name: label
+            label: Button label
+            type: string
+          - name: url
+            label: Button URL
+            type: string
+      - name: navigation
+        label: Navigation row
+        type: object
+        fields:
+          - name: enabled
+            label: Show navigation
+            type: boolean
+            default: true
+          - name: mobile_button_label
+            label: Mobile menu button label
+            type: string
+  - name: navigation
+    label: Menus
+    type: file
+    path: src/_data/menu.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: items
+        label: Menu items (drag to reorder)
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Label
+            type: string
+            required: true
+          - name: url
+            label: URL
+            type: string
+          - name: icon
+            label: Icon/star
+            type: string
+          - name: featured
+            label: Featured style
+            type: boolean
+            default: false
+          - name: enabled
+            label: Visible
+            type: boolean
+            default: true
+          - name: target_blank
+            label: Open in new tab
+            type: boolean
+            default: false
+          - name: children
+            label: Submenu items
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Label
+                type: string
+                required: true
+              - name: url
+                label: URL
+                type: string
+              - name: icon
+                label: Icon/star
+                type: string
+              - name: featured
+                label: Featured style
+                type: boolean
+                default: false
+              - name: enabled
+                label: Visible
+                type: boolean
+                default: true
+              - name: target_blank
+                label: Open in new tab
+                type: boolean
+                default: false
+              - name: children
+                label: Third-level items
+                type: object
+                list: true
+                fields:
+                  - name: label
+                    label: Label
+                    type: string
+                    required: true
+                  - name: url
+                    label: URL
+                    type: string
+                  - name: icon
+                    label: Icon/star
+                    type: string
+                  - name: featured
+                    label: Featured style
+                    type: boolean
+                    default: false
+                  - name: enabled
+                    label: Visible
+                    type: boolean
+                    default: true
+                  - name: target_blank
+                    label: Open in new tab
+                    type: boolean
+                    default: false
+  - name: site_footer
+    label: Footer & newsletter
+    type: file
+    path: src/_data/siteFooter.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: enabled
+        label: Show footer
+        type: boolean
+        default: true
+      - name: newsletter
+        label: Newsletter
+        type: object
+        fields:
+          - name: enabled
+            label: Show newsletter
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: email_placeholder
+            label: Email placeholder
+            type: string
+          - name: button_label
+            label: Button label
+            type: string
+          - name: fallback_label
+            label: Email fallback label
+            type: string
+      - name: columns
+        label: Footer columns
+        type: object
+        list: true
+        fields:
+          - name: heading
+            label: Column heading
+            type: string
+          - name: links
+            label: Links
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Label
+                type: string
+                required: true
+              - name: url
+                label: URL
+                type: string
+                required: true
+              - name: target_blank
+                label: Open in new tab
+                type: boolean
+                default: false
+              - name: enabled
+                label: Visible
+                type: boolean
+                default: true
+      - name: contact
+        label: Contact column
+        type: object
+        fields:
+          - name: enabled
+            label: Show contact column
+            type: boolean
+            default: true
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: show_phone
+            label: Show phone
+            type: boolean
+            default: true
+          - name: show_whatsapp
+            label: Show WhatsApp
+            type: boolean
+            default: true
+          - name: show_email
+            label: Show email
+            type: boolean
+            default: true
+          - name: show_address
+            label: Show address
+            type: boolean
+            default: true
+          - name: show_contact_hub
+            label: Show contact hub button
+            type: boolean
+            default: true
+          - name: contact_hub_label
+            label: Contact hub label
+            type: string
+      - name: social
+        label: Social settings
+        type: object
+        fields:
+          - name: enabled
+            label: Show social links
+            type: boolean
+            default: true
+          - name: show_ratings
+            label: Show ratings
+            type: boolean
+            default: true
+          - name: platform_order
+            label: Platform order
+            type: object
+            list: true
+            fields:
+              - name: key
+                label: Site social key
+                type: string
+              - name: label
+                label: Label
+                type: string
+              - name: icon
+                label: Icon name
+                type: string
+      - name: bottom
+        label: Footer bottom bar
+        type: object
+        fields:
+          - name: copyright_template
+            label: Copyright template
+            type: string
+            description: Use {year} and {site} placeholders.
+          - name: links
+            label: Bottom links
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Label
+                type: string
+                required: true
+              - name: url
+                label: URL
+                type: string
+                required: true
+              - name: target_blank
+                label: Open in new tab
+                type: boolean
+                default: false
+              - name: enabled
+                label: Visible
+                type: boolean
+                default: true
+      - name: affiliations_label
+        label: Wording above the badges
+        type: string
+        description: Leave empty for "Affiliated with".
+  - name: homepage
+    label: Homepage sections
+    type: file
+    path: src/_data/homePage.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: hero
+        label: Homepage hero
+        type: object
+        fields:
+          - name: enabled
+            label: Show hero
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: summary
+            label: Summary
+            type: text
+          - name: slides_count
+            label: Number of slides
+            type: number
+            options:
+              min: 1
+              max: 12
+          - name: show_trip_finder
+            label: Show trip finder
+            type: boolean
+            default: true
+      - name: section_order
+        label: Homepage section order
+        type: select
+        list: true
+        options:
+          - proof
+          - services
+          - latest
+          - fixed
+          - destinations
+          - vehicles
+          - trust
+          - reviews
+          - guides
+          - resources
+          - faqs
+          - cta
+      - name: proof
+        label: Reviews/trust intro
+        type: object
+        fields:
+          - name: enabled
+            label: Show section
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+      - name: services
+        label: Service cards
+        type: object
+        fields:
+          - name: enabled
+            label: Show section
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: cards
+            label: Custom service cards (leave empty for site navigation)
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Label
+                type: string
+              - name: url
+                label: URL
+                type: string
+              - name: description
+                label: Description
+                type: text
+      - name: latest
+        label: Latest journeys
+        type: object
+        fields:
+          - name: enabled
+            label: Show section
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: button_label
+            label: Button label
+            type: string
+          - name: button_url
+            label: Button URL
+            type: string
+          - name: card_count
+            label: Cards to show
+            type: number
+            options:
+              min: 1
+              max: 24
+      - name: fixed
+        label: Fixed departures
+        type: object
+        fields:
+          - name: enabled
+            label: Show section
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: button_label
+            label: Button label
+            type: string
+          - name: button_url
+            label: Button URL
+            type: string
+          - name: card_count
+            label: Cards to show
+            type: number
+            options:
+              min: 1
+              max: 24
+      - name: destinations
+        label: Destinations
+        type: object
+        fields:
+          - name: enabled
+            label: Show section
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: button_label
+            label: Button label
+            type: string
+          - name: button_url
+            label: Button URL
+            type: string
+          - name: items
+            label: Destination cards
+            type: object
+            list: true
+            fields:
+              - name: title
+                label: Title
+                type: string
+              - name: description
+                label: Description
+                type: text
+              - name: url
+                label: URL
+                type: string
+      - name: vehicles
+        label: Vehicles
+        type: object
+        fields:
+          - name: enabled
+            label: Show section
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: button_label
+            label: Button label
+            type: string
+          - name: button_url
+            label: Button URL
+            type: string
+          - name: card_count
+            label: Cards to show
+            type: number
+            options:
+              min: 1
+              max: 12
+      - name: trust
+        label: Why choose us
+        type: object
+        fields:
+          - name: enabled
+            label: Show section
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: items
+            label: Trust points
+            type: object
+            list: true
+            fields:
+              - name: title
+                label: Title
+                type: string
+              - name: description
+                label: Description
+                type: text
+      - name: reviews
+        label: Guest reviews on homepage
+        type: object
+        fields:
+          - name: enabled
+            label: Show section
+            type: boolean
+            default: true
+            description: Reviews khud ba khud aati hain. Koi review publish na ho to section nazar nahi aayega.
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: button_label
+            label: Button label
+            type: string
+          - name: button_url
+            label: Button URL
+            type: string
+          - name: card_count
+            label: Reviews to show
+            type: number
+            options:
+              min: 1
+              max: 12
+      - name: guides
+        label: Travel guides
+        type: object
+        fields:
+          - name: enabled
+            label: Show section
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: button_label
+            label: Button label
+            type: string
+          - name: button_url
+            label: Button URL
+            type: string
+          - name: card_count
+            label: Cards to show
+            type: number
+            options:
+              min: 1
+              max: 18
+      - name: resources
+        label: Travel resources
+        type: object
+        fields:
+          - name: enabled
+            label: Show section
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: button_label
+            label: Button label
+            type: string
+          - name: button_url
+            label: Button URL
+            type: string
+          - name: items
+            label: Resource cards
+            type: object
+            list: true
+            fields:
+              - name: title
+                label: Title
+                type: string
+              - name: description
+                label: Description
+                type: text
+              - name: url
+                label: URL
+                type: string
+              - name: link_label
+                label: Link label
+                type: string
+      - name: faqs
+        label: FAQ section
+        type: object
+        fields:
+          - name: enabled
+            label: Show section
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+      - name: cta
+        label: Final CTA
+        type: object
+        fields:
+          - name: enabled
+            label: Show section
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: button_label
+            label: Button label
+            type: string
+          - name: button_url
+            label: Button URL
+            type: string
+      - name: _h_bottom_sections
+        label: Bottom of the homepage
+        type: heading
+        collapsed: true
+      - name: clients
+        label: Happy clients
+        type: object
+        fields:
+          - name: heading
+            label: Heading
+            type: string
+            description: Leave empty for "Happy clients".
+          - name: description
+            label: Line underneath
+            type: string
+      - name: partners
+        label: Our partners
+        type: object
+        fields:
+          - name: heading
+            label: Heading
+            type: string
+            description: Leave empty for "Our partners".
+          - name: description
+            label: Line underneath
+            type: string
+  - name: theme
+    label: Colours, corners & spacing
+    type: file
+    path: src/_data/theme.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: primary
+        label: Primary dark color
+        type: string
+        pattern: ^#([0-9A-Fa-f]{6})$
+      - name: primary_soft
+        label: Secondary dark color
+        type: string
+        pattern: ^#([0-9A-Fa-f]{6})$
+      - name: accent
+        label: Accent/button color
+        type: string
+        pattern: ^#([0-9A-Fa-f]{6})$
+      - name: accent_hover
+        label: Accent hover color
+        type: string
+        pattern: ^#([0-9A-Fa-f]{6})$
+      - name: surface
+        label: Main surface
+        type: string
+        pattern: ^#([0-9A-Fa-f]{6})$
+      - name: surface_muted
+        label: Muted surface
+        type: string
+        pattern: ^#([0-9A-Fa-f]{6})$
+      - name: text
+        label: Main text color
+        type: string
+        pattern: ^#([0-9A-Fa-f]{6})$
+      - name: text_muted
+        label: Muted text color
+        type: string
+        pattern: ^#([0-9A-Fa-f]{6})$
+      - name: header_glass
+        label: Header glass color
+        type: string
+      - name: header_blur_px
+        label: Header blur (px)
+        type: number
+        options:
+          min: 0
+          max: 40
+      - name: border
+        label: Glass border color
+        type: string
+      - name: radius_small_px
+        label: Small radius (px)
+        type: number
+        options:
+          min: 0
+          max: 30
+      - name: radius_card_px
+        label: Card radius (px)
+        type: number
+        options:
+          min: 0
+          max: 50
+      - name: button_radius_px
+        label: Button radius (px)
+        type: number
+        options:
+          min: 0
+          max: 40
+      - name: section_spacing_px
+        label: Section spacing (px)
+        type: number
+        options:
+          min: 24
+          max: 160
+      - name: max_width_px
+        label: Maximum content width (px)
+        type: number
+        options:
+          min: 900
+          max: 1800
+  - name: forms
+    label: Enquiry forms
+    type: file
+    path: src/_data/formsConfig.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: plan_trip
+        label: Plan-a-Trip form
+        type: object
+        fields:
+          - name: enabled
+            label: Show form
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: submit_label
+            label: Submit button label
+            type: string
+          - name: success_message
+            label: Success message
+            type: text
+          - name: fallback_note
+            label: Fallback note
+            type: text
+          - name: fields
+            label: Fields
+            type: object
+            fields:
+              - name: name
+                label: Name field
+                type: object
+                fields:
+                  - name: enabled
+                    label: Show field
+                    type: boolean
+                    default: true
+                  - name: required
+                    label: Required
+                    type: boolean
+                    default: false
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: placeholder
+                    label: Placeholder
+                    type: string
+              - name: email
+                label: Email field
+                type: object
+                fields:
+                  - name: enabled
+                    label: Show field
+                    type: boolean
+                    default: true
+                  - name: required
+                    label: Required
+                    type: boolean
+                    default: false
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: placeholder
+                    label: Placeholder
+                    type: string
+              - name: phone
+                label: Phone/WhatsApp field
+                type: object
+                fields:
+                  - name: enabled
+                    label: Show field
+                    type: boolean
+                    default: true
+                  - name: required
+                    label: Required
+                    type: boolean
+                    default: false
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: placeholder
+                    label: Placeholder
+                    type: string
+              - name: service
+                label: Service field
+                type: object
+                fields:
+                  - name: enabled
+                    label: Show field
+                    type: boolean
+                    default: true
+                  - name: required
+                    label: Required
+                    type: boolean
+                    default: false
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: placeholder
+                    label: Placeholder
+                    type: string
+              - name: journey
+                label: Journey field
+                type: object
+                fields:
+                  - name: enabled
+                    label: Show field
+                    type: boolean
+                    default: true
+                  - name: required
+                    label: Required
+                    type: boolean
+                    default: false
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: placeholder
+                    label: Placeholder
+                    type: string
+              - name: start_date
+                label: Start date field
+                type: object
+                fields:
+                  - name: enabled
+                    label: Show field
+                    type: boolean
+                    default: true
+                  - name: required
+                    label: Required
+                    type: boolean
+                    default: false
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: placeholder
+                    label: Placeholder
+                    type: string
+              - name: end_date
+                label: End date field
+                type: object
+                fields:
+                  - name: enabled
+                    label: Show field
+                    type: boolean
+                    default: true
+                  - name: required
+                    label: Required
+                    type: boolean
+                    default: false
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: placeholder
+                    label: Placeholder
+                    type: string
+              - name: travelers
+                label: Travelers field
+                type: object
+                fields:
+                  - name: enabled
+                    label: Show field
+                    type: boolean
+                    default: true
+                  - name: required
+                    label: Required
+                    type: boolean
+                    default: false
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: placeholder
+                    label: Placeholder
+                    type: string
+              - name: budget
+                label: Budget field
+                type: object
+                fields:
+                  - name: enabled
+                    label: Show field
+                    type: boolean
+                    default: true
+                  - name: required
+                    label: Required
+                    type: boolean
+                    default: false
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: placeholder
+                    label: Placeholder
+                    type: string
+              - name: destination
+                label: Destination field
+                type: object
+                fields:
+                  - name: enabled
+                    label: Show field
+                    type: boolean
+                    default: true
+                  - name: required
+                    label: Required
+                    type: boolean
+                    default: false
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: placeholder
+                    label: Placeholder
+                    type: string
+              - name: requirements
+                label: Requirements field
+                type: object
+                fields:
+                  - name: enabled
+                    label: Show field
+                    type: boolean
+                    default: true
+                  - name: required
+                    label: Required
+                    type: boolean
+                    default: false
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: placeholder
+                    label: Placeholder
+                    type: string
+          - name: service_options
+            label: Service dropdown options
+            type: string
+            list: true
+      - name: contact
+        label: Contact form
+        type: object
+        fields:
+          - name: enabled
+            label: Show contact form
+            type: boolean
+            default: true
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: heading
+            label: Heading
+            type: string
+          - name: submit_label
+            label: Submit label
+            type: string
+          - name: name_label
+            label: Name label
+            type: string
+          - name: email_label
+            label: Email label
+            type: string
+          - name: message_label
+            label: Message label
+            type: string
+          - name: endpoint_help
+            label: Endpoint help message
+            type: text
+  - name: taxonomies
+    label: Categories & dropdown lists
+    type: file
+    path: src/_data/taxonomies.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: difficulty_levels
+        label: Difficulty levels
+        type: string
+        list: true
+      - name: departure_types
+        label: Departure types
+        type: string
+        list: true
+      - name: service_types
+        label: Service types
+        type: string
+        list: true
+      - name: regions
+        label: Regions/service areas
+        type: string
+        list: true
+      - name: currencies
+        label: Currencies
+        type: string
+        list: true
+      - name: journey_statuses
+        label: Journey statuses
+        type: string
+        list: true
+  - name: content_defaults
+    label: Default packing list & inclusions
+    type: file
+    path: src/_data/contentDefaults.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: auto_fill
+        label: Fill these in automatically when a page leaves them empty
+        type: object
+        fields:
+          - name: packing_list
+            label: Packing list
+            type: boolean
+            default: true
+          - name: included
+            label: What is included
+            type: boolean
+            default: false
+            description: Pehle neeche likhi list padh kar client se confirm karwa lein - yeh qeemat ka waada hai.
+          - name: excluded
+            label: What is not included
+            type: boolean
+            default: false
+            description: Pehle neeche likhi list padh kar client se confirm karwa lein.
+      - name: sections
+        label: Default lists for each kind of journey
+        type: object
+        fields:
+          - name: tours
+            label: Tours
+            type: object
+            fields:
+              - name: packing_list
+                label: Packing list
+                type: string
+                list: true
+              - name: included
+                label: Included
+                type: string
+                list: true
+              - name: excluded
+                label: Not included
+                type: string
+                list: true
+          - name: trekking
+            label: Trekking
+            type: object
+            fields:
+              - name: packing_list
+                label: Packing list
+                type: string
+                list: true
+              - name: included
+                label: Included
+                type: string
+                list: true
+              - name: excluded
+                label: Not included
+                type: string
+                list: true
+          - name: expeditions
+            label: Expeditions
+            type: object
+            fields:
+              - name: packing_list
+                label: Packing list
+                type: string
+                list: true
+              - name: included
+                label: Included
+                type: string
+                list: true
+              - name: excluded
+                label: Not included
+                type: string
+                list: true
+          - name: jeep-safaris
+            label: Jeep safaris
+            type: object
+            fields:
+              - name: packing_list
+                label: Packing list
+                type: string
+                list: true
+              - name: included
+                label: Included
+                type: string
+                list: true
+              - name: excluded
+                label: Not included
+                type: string
+                list: true
+          - name: hunting-services
+            label: Hunting services
+            type: object
+            fields:
+              - name: packing_list
+                label: Packing list
+                type: string
+                list: true
+              - name: included
+                label: Included
+                type: string
+                list: true
+              - name: excluded
+                label: Not included
+                type: string
+                list: true
+          - name: vehicles
+            label: Vehicles
+            type: object
+            fields:
+              - name: packing_list
+                label: Packing list
+                type: string
+                list: true
+              - name: included
+                label: Included
+                type: string
+                list: true
+              - name: excluded
+                label: Not included
+                type: string
+                list: true
+  - name: hero_banners
+    label: Page banners
+    type: file
+    path: src/_data/heroSettings.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: homepage
+        label: Home page
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: tours
+        label: Tours
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: trekking
+        label: Trekking
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: expeditions
+        label: Expeditions
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: jeep-safaris
+        label: Jeep Safaris
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: hunting-services
+        label: Hunting Services
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: vehicles
+        label: Vehicles
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: blog
+        label: Travel Guides (blog)
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: news
+        label: News
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: destinations
+        label: Destinations
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: holiday-types
+        label: Holiday Types
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: special-interests
+        label: Special Interests
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: journey-categories
+        label: Journey Categories
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: international-travelers
+        label: International Travelers
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: guest-reviews
+        label: Guest Reviews
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: social-responsibility
+        label: Social Responsibility
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: plan-a-trip
+        label: Plan a Trip
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: contact-us
+        label: Contact Us
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+            default: true
+          - name: image
+            label: Or one photo instead
+            type: image
+            description: Sirf tab chalti hai jab oopar wala switch band ho. Photo lagayein to wahi jami hui nazar aayegi (slide nahi hogi). Khali chhorein to ek saada patti aayegi.
+          - name: image_alt
+            label: Photo description
+            type: string
+            description: Photo mein kya nazar aa raha hai, ek chhoti line.
+  - name: page_control
+    label: 'Pages: show or hide'
+    type: file
+    path: src/_data/pageControl.json
+    operations:
+      delete: false
+      rename: false
+    fields:
+      - name: pages
+        label: Website pages
+        type: object
+        list: true
+        description: Website ke sare pages. Kisi page ko website se hatana ho to us ka switch band kar dein - page CMS mein mojood rahega lekin website par bilkul nahi aayega. Yeh fehrist khud banti hai; naya page banay to woh apne aap yahan aa jata hai.
+        fields:
+          - name: label
+            label: Page
+            type: string
+          - name: url
+            label: Address
+            type: string
+          - name: published
+            label: Show on website
+            type: boolean
+            default: true
+          - name: redirect_to
+            label: If hidden, send visitors to
+            type: string
+            description: Khali chhor dein to page bas gayab ho jata hai - naye ya adhoore pages ke liye yahi theek hai. Lekin agar is page ka pata Google mein ya kisi aur website par maujood hai, to yahan us page ka address likh dein jahan log jana chahiye - jaise /tours/. Is se aane wala khali hath nahi lautta aur Google is page ki kamai nayi jagah ko de deta hai.
+          - name: file
+            label: File
+            type: string
+            hidden: true
+      - name: hidden
+        label: Hidden pages (automatic)
+        type: string
+        list: true
+        hidden: true
+      - name: redirects
+        label: Redirects (automatic)
+        type: object
+        list: true
+        hidden: true
+        fields:
+          - name: from
+            label: From
+            type: string
+          - name: to
+            label: To
+            type: string
+  - name: landing
+    label: Menu Pages
+    type: collection
+    path: content/landing
+    filename:
+      template: '{slug}.md'
+      field: create
+    operations:
+      create: false
+      rename: false
+      delete: false
+    view:
+      primary: title
+      fields:
+        - title
+        - url
+    fields:
+      - name: _h_page
+        label: Page basics
+        type: heading
+        description: These are the pages themselves — their heading, intro text and link cards. The tours, treks and articles that appear on them are edited in their own cards (Tours, Trekking, Travel Guides & News, and so on).
+      - name: title
+        label: Page title
+        type: string
+        required: true
+      - name: summary
+        label: Short description
+        type: text
+        description: Two lines - shown in the banner and on Google.
+      - name: hero_eyebrow
+        label: Small line above the title
+        type: string
+      - name: _h_section
+        label: Section heading
+        type: heading
+      - name: section_eyebrow
+        label: Small line above
+        type: string
+      - name: section_heading
+        label: Heading
+        type: string
+      - name: section_intro
+        label: Intro text
+        type: text
+      - name: _h_cards
+        label: Cards on this page
+        type: heading
+      - name: cards
+        label: Cards
+        type: object
+        list: true
+        description: Click a row to edit it. Add, remove or reorder as you like.
+        fields:
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: description
+            label: Description
+            type: text
+          - name: url
+            label: Link
+            type: string
+          - name: enabled
+            label: Visible
+            type: boolean
+            default: true
+      - name: _h_google
+        label: Search engines
+        type: heading
+        collapsed: true
+      - name: seo_title
+        label: SEO title
+        type: string
+      - name: seo_description
+        label: Meta description
+        type: text
+      - name: url
+        label: Page URL
+        type: string
+        hidden: true
+    description: These are the pages themselves — their heading, intro text and link cards. The tours, treks and articles that appear on them are edited in their own cards (Tours, Trekking, Travel Guides & News, and so on).
+  - name: clients
+    label: Happy Clients (homepage)
+    description: The travellers you want on the homepage, with their photo and a line about their trip. These are yours to choose — guest reviews that people send in are handled separately under Reviews.
+    type: collection
+    path: content/clients
+    filename:
+      template: '{slug}.md'
+      field: create
+    view:
+      primary: title
+      fields:
+        - title
+        - country
+        - published
+    fields:
+      - name: title
+        label: Name
+        type: string
+        required: true
+      - name: photo
+        label: Photo
+        type: image
+        description: A square photo works best — it is shown in a circle.
+      - name: country
+        label: Country
+        type: string
+      - name: quote
+        label: What they said
+        type: text
+        required: true
+      - name: order
+        label: Order
+        type: number
+        description: Lower numbers come first.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true
+  - name: partners
+    label: Our Partners (homepage)
+    description: Partner and affiliate logos, shown just above the footer. Each logo opens that partner's own website.
+    type: collection
+    path: content/partners
+    filename:
+      template: '{slug}.md'
+      field: create
+    view:
+      primary: title
+      fields:
+        - title
+        - url
+        - published
+    fields:
+      - name: title
+        label: Partner name
+        type: string
+        required: true
+      - name: logo
+        label: Logo
+        type: image
+        required: true
+        description: PNG or SVG with a see-through background looks best.
+      - name: url
+        label: Their website
+        type: string
+        description: Opens in a new tab. Leave empty for a logo with no link.
+      - name: order
+        label: Order
+        type: number
+        description: Lower numbers come first.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true
+  - name: announcements
+    label: Announcement Bar (top of every page)
+    description: A thin strip at the very top of the site. With more than one message they take turns. A reader can close it; it comes back when you change the wording.
+    type: collection
+    path: content/announcements
+    filename:
+      template: '{slug}.md'
+      field: create
+    view:
+      primary: title
+      fields:
+        - message
+        - published
+    fields:
+      - name: title
+        label: Name for this list
+        type: string
+        required: true
+        description: Just so you can find it again — "Winter closure", "2027 Baltoro dates". Not shown on the website.
+      - name: message
+        label: Message
+        type: text
+        required: true
+        description: Keep it to one line — it sits above everything else.
+      - name: link_url
+        label: Link
+        type: string
+        description: Optional. Where the message leads.
+      - name: link_label
+        label: Link wording
+        type: string
+        description: Leave empty for "Find out more".
+      - name: order
+        label: Order
+        type: number
+        description: Lower numbers come first.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true
+  - name: affiliations
+    label: Affiliated With (footer)
+    description: Bodies you belong to or are licensed by — a tourism board, an alpine club, a ministry. Shown small inside the footer. Partner companies go in Our Partners instead.
+    type: collection
+    path: content/affiliations
+    filename:
+      template: '{slug}.md'
+      field: create
+    view:
+      primary: title
+      fields:
+        - title
+        - url
+        - published
+    fields:
+      - name: title
+        label: Name
+        type: string
+        required: true
+      - name: logo
+        label: Logo
+        type: image
+        required: true
+        description: A see-through background works best — these are shown in grey.
+      - name: url
+        label: Their website
+        type: string
+        description: Optional. Opens in a new tab.
+      - name: order
+        label: Order
+        type: number
+        description: Lower numbers come first.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true
+  - name: gallery
+    label: Photo Gallery
+    description: Albums of photographs shown on the Gallery page. Each album becomes a filter button at the top of that page. An album with no photos is not shown.
+    type: collection
+    path: content/gallery
+    filename:
+      template: '{slug}.md'
+      field: create
+    view:
+      primary: title
+      fields:
+        - title
+        - published
+    fields:
+      - name: title
+        label: Album name
+        type: string
+        required: true
+        description: Shown on the filter button — keep it short, like "K2 Base Camp" or "Hunza Valley".
+      - name: photos
+        label: Photos
+        type: image
+        list: true
+        required: true
+        description: Upload or pick from the Media Library. Drag the arrows to set the order.
+      - name: order
+        label: Order
+        type: number
+        description: Lower numbers come first.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true
+  - name: team
+    label: Our Team
+    description: Guides, drivers and office staff, shown on the Our Team page. The group name decides which heading a person appears under — type the same group name for everyone who belongs together.
+    type: collection
+    path: content/team
+    filename:
+      template: '{slug}.md'
+      field: create
+    view:
+      primary: title
+      fields:
+        - title
+        - role
+        - section
+        - published
+    fields:
+      - name: title
+        label: Name
+        type: string
+        required: true
+      - name: role
+        label: Role
+        type: string
+        description: Shown under the name — "Expedition Leader", "Driver", "Office Manager".
+      - name: photo
+        label: Photo
+        type: image
+        description: A standing photo works best — it is shown taller than it is wide.
+      - name: bio
+        label: About them
+        type: text
+        description: A few lines. These slide up over the photo when someone hovers.
+      - name: section
+        label: Group
+        type: string
+        description: The heading they appear under — "Mountain Guides", "Office Team", "Drivers". Leave empty for "Our Team".
+      - name: order
+        label: Order
+        type: number
+        description: Lower numbers come first. The first person's group is the first group on the page.
+      - name: published
+        label: Show on the website
+        type: boolean
+        default: true

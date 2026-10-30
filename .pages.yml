@@ -154,19 +154,6 @@ content:
         label: Featured
         type: boolean
         default: false
-      - name: best_seller
-        label: Best seller
-        type: boolean
-        default: false
-      - name: cultural_tour
-        label: Cultural Tours
-        type: boolean
-        default: false
-        description: Shows this tour on the Cultural Tours page in the menu.
-      - name: fixed_departure
-        label: Fixed departure
-        type: boolean
-        default: false
       - name: menu_sections
         label: Menu sections
         type: select
@@ -541,19 +528,6 @@ content:
         label: Featured
         type: boolean
         default: false
-      - name: best_seller
-        label: Best seller
-        type: boolean
-        default: false
-      - name: k2_trek
-        label: K2 Treks
-        type: boolean
-        default: false
-        description: Shows this trek on the K2 Treks page in the menu.
-      - name: fixed_departure
-        label: Fixed departure
-        type: boolean
-        default: false
       - name: menu_sections
         label: Menu sections
         type: select
@@ -925,19 +899,6 @@ content:
         default: true
       - name: featured
         label: Featured
-        type: boolean
-        default: false
-      - name: best_seller
-        label: Best seller
-        type: boolean
-        default: false
-      - name: peak_8000m
-        label: 8,000m Peaks
-        type: boolean
-        default: false
-        description: Shows this expedition on the 8,000m Peaks page in the menu.
-      - name: fixed_departure
-        label: Fixed departure
         type: boolean
         default: false
       - name: menu_sections
@@ -1323,14 +1284,6 @@ content:
         default: true
       - name: featured
         label: Featured
-        type: boolean
-        default: false
-      - name: best_seller
-        label: Best seller
-        type: boolean
-        default: false
-      - name: fixed_departure
-        label: Fixed departure
         type: boolean
         default: false
       - name: menu_sections
