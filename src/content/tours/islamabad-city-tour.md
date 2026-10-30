@@ -1,6 +1,6 @@
 ---
 title: Islamabad City Tour
-permalink: ""
+permalink: /tours/islamabad-city-tour/
 layout: layouts/journey.njk
 service_type: tours
 service_label: Tours
@@ -19,7 +19,7 @@ summary: >-
   Pakistan’s capital.
 cover_image: /assets/uploads/1793287396814-Faisal-Mosque.webp
 gallery: []
-duration: ""
+duration: "1 Days"
 price_from: ""
 deposit: ""
 group_size: ""
@@ -49,7 +49,15 @@ highlights:
   - business Center
 included: []
 excluded: []
-packing_list: []
+packing_list:
+  - "Comfortable walking shoes and a pair of sandals"
+  - "Light jacket or fleece for the evenings"
+  - "Warm layer for high passes and early mornings"
+  - "Sun hat, sunglasses and high-factor sunscreen"
+  - "Refillable water bottle"
+  - "Personal medication and a small first-aid kit"
+  - "Power bank and a universal plug adapter"
+  - "Copy of passport and travel insurance details"
 route_map_url: ""
 trip_leader:
   name: ""
@@ -91,9 +99,9 @@ key_facts:
   - label: Tour Duration
     value: 4-8
   - {}
-author: ""
-reviewed_by: ""
-last_verified: ""
+author: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
+last_verified: "2026-10-29"
 sources: []
 seo:
   title: Islamabad City Tour With Karakoram Vision Pakistan

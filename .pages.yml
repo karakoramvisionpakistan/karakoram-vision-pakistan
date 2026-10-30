@@ -4853,8 +4853,8 @@ content:
     type: collection
     path: content/clients
     filename:
-      template: "{title}.md"
-      field: title
+      template: "{slug}.md"
+      field: create
     view:
       primary: title
       fields:
@@ -4893,8 +4893,8 @@ content:
     type: collection
     path: content/partners
     filename:
-      template: "{title}.md"
-      field: title
+      template: "{slug}.md"
+      field: create
     view:
       primary: title
       fields:
@@ -4932,8 +4932,8 @@ content:
     type: collection
     path: content/announcements
     filename:
-      template: "{title}.md"
-      field: title
+      template: "{slug}.md"
+      field: create
     view:
       primary: title
       fields:
@@ -4977,8 +4977,8 @@ content:
     type: collection
     path: content/affiliations
     filename:
-      template: "{title}.md"
-      field: title
+      template: "{slug}.md"
+      field: create
     view:
       primary: title
       fields:
@@ -5016,8 +5016,8 @@ content:
     type: collection
     path: content/gallery
     filename:
-      template: "{title}.md"
-      field: title
+      template: "{slug}.md"
+      field: create
     view:
       primary: title
       fields:
@@ -5056,8 +5056,8 @@ content:
     type: collection
     path: content/team
     filename:
-      template: "{title}.md"
-      field: title
+      template: "{slug}.md"
+      field: create
     view:
       primary: title
       fields:

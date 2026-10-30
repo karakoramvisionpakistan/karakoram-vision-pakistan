@@ -1,37 +1,37 @@
 {
-  "/assets/uploads/1792994179291-K2.BP.KVP.webp": {
+  "/assets/uploads/1793285693888-K2-KVP.webp": {
     "wide": [
       {
-        "src": "/assets/hero/1792994179291-k2-bp-kvp--wide-1280.webp",
+        "src": "/assets/hero/1793285693888-k2-kvp--wide-1280.webp",
         "w": 1280,
         "h": 800
       },
       {
-        "src": "/assets/hero/1792994179291-k2-bp-kvp--wide-1920.webp",
+        "src": "/assets/hero/1793285693888-k2-kvp--wide-1920.webp",
         "w": 1920,
         "h": 1200
       }
     ],
     "mid": [
       {
-        "src": "/assets/hero/1792994179291-k2-bp-kvp--mid-840.webp",
+        "src": "/assets/hero/1793285693888-k2-kvp--mid-840.webp",
         "w": 840,
         "h": 672
       },
       {
-        "src": "/assets/hero/1792994179291-k2-bp-kvp--mid-1400.webp",
+        "src": "/assets/hero/1793285693888-k2-kvp--mid-1400.webp",
         "w": 1400,
         "h": 1120
       }
     ],
     "tall": [
       {
-        "src": "/assets/hero/1792994179291-k2-bp-kvp--tall-420.webp",
+        "src": "/assets/hero/1793285693888-k2-kvp--tall-420.webp",
         "w": 420,
         "h": 747
       },
       {
-        "src": "/assets/hero/1792994179291-k2-bp-kvp--tall-840.webp",
+        "src": "/assets/hero/1793285693888-k2-kvp--tall-840.webp",
         "w": 840,
         "h": 1493
       }
@@ -334,6 +334,44 @@
         "src": "/assets/hero/1793270184022-baltit-fort-kvp--tall-269.webp",
         "w": 269,
         "h": 479
+      }
+    ]
+  },
+  "/assets/uploads/1793287396814-Faisal-Mosque.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793287396814-faisal-mosque--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1793287396814-faisal-mosque--wide-1800.webp",
+        "w": 1800,
+        "h": 1125
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793287396814-faisal-mosque--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793287396814-faisal-mosque--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793287396814-faisal-mosque--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793287396814-faisal-mosque--tall-633.webp",
+        "w": 633,
+        "h": 1125
       }
     ]
   },

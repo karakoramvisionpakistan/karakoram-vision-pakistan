@@ -198,9 +198,11 @@
     }
   ],
   "hidden": [
-    "src/content/vehicles/coaster-group-transport.md"
+    "src/content/vehicles/coaster-group-transport.md",
+    "src/international-travelers/index.njk"
   ],
   "hiddenUrls": [
+    "/international-travelers/",
     "/vehicles/coaster-group-transport/"
   ],
   "redirects": []
