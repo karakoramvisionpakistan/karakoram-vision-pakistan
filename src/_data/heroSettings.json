@@ -88,5 +88,45 @@
     "enabled": false,
     "image": "",
     "image_alt": ""
+  },
+  "about-us": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "our-team": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "faqs": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "privacy-policy": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "refund-policy": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "terms-and-conditions": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "equipment-checklist": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "gallery": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
   }
 }

@@ -4491,6 +4491,110 @@ content:
             label: Photo description
             type: string
             description: Photo mein kya nazar aa raha hai, ek chhoti line.
+      - name: about-us
+        label: About
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+          - name: image
+            label: Or one photo instead
+            type: image
+          - name: image_alt
+            label: Photo description
+            type: string
+      - name: our-team
+        label: Our Team
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+          - name: image
+            label: Or one photo instead
+            type: image
+          - name: image_alt
+            label: Photo description
+            type: string
+      - name: faqs
+        label: FAQs
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+          - name: image
+            label: Or one photo instead
+            type: image
+          - name: image_alt
+            label: Photo description
+            type: string
+      - name: privacy-policy
+        label: Privacy Policy
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+          - name: image
+            label: Or one photo instead
+            type: image
+          - name: image_alt
+            label: Photo description
+            type: string
+      - name: refund-policy
+        label: Refund Policy
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+          - name: image
+            label: Or one photo instead
+            type: image
+          - name: image_alt
+            label: Photo description
+            type: string
+      - name: terms-and-conditions
+        label: Terms & Conditions
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+          - name: image
+            label: Or one photo instead
+            type: image
+          - name: image_alt
+            label: Photo description
+            type: string
+      - name: equipment-checklist
+        label: Equipment Check list
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+          - name: image
+            label: Or one photo instead
+            type: image
+          - name: image_alt
+            label: Photo description
+            type: string
+      - name: gallery
+        label: Gallery
+        type: object
+        fields:
+          - name: enabled
+            label: Show the sliding banner
+            type: boolean
+          - name: image
+            label: Or one photo instead
+            type: image
+          - name: image_alt
+            label: Photo description
+            type: string
   - name: page_control
     label: 'Pages: show or hide'
     type: file

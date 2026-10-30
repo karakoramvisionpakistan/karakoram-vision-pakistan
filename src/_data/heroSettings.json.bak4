@@ -1,0 +1,92 @@
+{
+  "homepage": {
+    "enabled": true,
+    "image": "",
+    "image_alt": ""
+  },
+  "tours": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "trekking": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "expeditions": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "jeep-safaris": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "hunting-services": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "vehicles": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "blog": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "news": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "destinations": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "holiday-types": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "special-interests": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "journey-categories": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "international-travelers": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "guest-reviews": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "social-responsibility": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "plan-a-trip": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  },
+  "contact-us": {
+    "enabled": false,
+    "image": "",
+    "image_alt": ""
+  }
+}

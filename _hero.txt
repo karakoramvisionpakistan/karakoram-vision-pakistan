@@ -1,0 +1,156 @@
+﻿===== src\_includes\components\landing-hero.njk
+{# Hero banner.
+
+   CMS se control: "Big banner" wali screen par har page ke liye teen surtein -
+   slider chalu, ya slider band + ek jami hui photo, ya slider band aur sirf ek
+   saada patti. Teenon mein page ka unwaan (h1) rehta hai, kyunke usey gayab
+   karna Google ke liye nuqsan-deh hai.
+
+   Banner chalu ho to do tareeqe se chalta hai:
+   1. Client ne CMS ke "Hero Sliders" mein us section ki slides banayi hon to
+      wahi dikhti hain - har slide ki apni photo, heading, text aur button.
+   2. Warna purana khud-kar slider chalta hai jo journeys ki cover photos uthata hai.
+
+   PHOTO KI SHAKAL
+   Har photo ki teen katayein pehle se bani hoti hain - bari screen ke liye
+   chauri, tablet ke liye darmiyani, mobile ke liye lambi. Browser apni screen
+   ke mutabiq sahi wali uthata hai. Na kuch khinchta hai, na koi khali patti
+   banti hai, aur mobile par chhoti file utarti hai to page tez khulta hai.
+   Katai tools/hero-crops.mjs banata hai; fehrist src/_data/heroImages.json
+   mein hoti hai. Kisi photo ki katai na bani ho to asli photo chal jati hai.
+
+   LIKHAI: har line ke peechay apna chhota chaukor hota hai (bk-hero-mark).
+   Isi liye har likhai ek <span> ke andar lipti hui hai - CSS us span par
+   background lagata hai, aur box-decoration-break har line ko alag chaukor
+   deta hai. Photo par koi chadar nahi parti. #}
+{% set heroPageKey = page.url | heroKey %}
+{% set heroCfg = heroSettings | heroConfig(heroPageKey) %}
+
+{% if not heroCfg.enabled and heroCfg.image %}
+  {# Slider band hai lekin client ne ek photo lagai hai - wahi jami hui dikhao.
+     Markup slider jaisa hi hai, bas data-hero-slider nahi, to JS isey nahi chhuta. #}
+  {% set staticImage = heroCfg.image | safeMedia('', '/assets/uploads/placeholder.svg') %}
+  {% set staticAlt = heroCfg.image_alt or heroHeading or title %}
+  {% set staticPic = heroImages | heroPicture(staticImage) %}
+  <section class="bk-hero bk-hero-compact">
+    <div class="bk-hero-stage">
+      <article class="bk-hero-slide is-active">
+        {% if staticPic %}
+        <picture>
+          <source media="(max-width: 767px)" sizes="100vw" srcset="{{ staticPic.tall }}">
+          <source media="(max-width: 1279px)" sizes="100vw" srcset="{{ staticPic.mid }}">
+          <source sizes="100vw" srcset="{{ staticPic.wide }}">
+          <img class="bk-hero-photo" src="{{ staticPic.fallback }}" alt="{{ staticAlt }}" width="{{ staticPic.w }}" height="{{ staticPic.h }}" fetchpriority="high" decoding="async">
+        </picture>
+        {% else %}
+        <img class="bk-hero-photo" src="{{ staticImage }}" alt="{{ staticAlt }}" width="1920" height="1080" fetchpriority="high" decoding="async">
+        {% endif %}
+        <div class="bk-hero-shade"></div>
+        <div class="bk-hero-copy">
+          <p class="bk-hero-eyebrow"><span class="bk-hero-mark">{{ heroEyebrow or site.tagline or site.name }}</span></p>
+          <h1><span class="bk-hero-mark">{{ heroHeading or title }}</span></h1>
+          {% if heroSummary or summary %}<p class="bk-hero-summary"><span class="bk-hero-mark">{{ heroSummary or summary }}</span></p>{% endif %}
+        </div>
+      </article>
+    </div>
+    {% if heroFinder %}<div class="bk-hero-finder-wrap">{% include "components/trip-finder.njk" %}</div>{% endif %}
+  </section>
+
+{% elif not heroCfg.enabled %}
+  {# Slider bhi band aur photo bhi nahi - saada patti. Unwaan phir bhi rehta hai. #}
+  <section class="bk-page-header">
+    <div class="bk-page-header-inner">
+      <p class="eyebrow">{{ heroEyebrow or site.tagline or site.name }}</p>
+      <h1>{{ heroHeading or title }}</h1>
+      {% if heroSummary or summary %}<p>{{ heroSummary or summary }}</p>{% endif %}
+    </div>
+    {% if heroFinder %}<div class="bk-page-header-finder">{% include "components/trip-finder.njk" %}</div>{% endif %}
+  </section>
+
+{% else %}
+
+{% set sliderKey = heroSection or service_type or 'homepage' %}
+{% set customSlides = collections.sliders | slidesFor(sliderKey) %}
+{% set autoSlides = heroItems | limit(6) %}
+{% set useCustom = customSlides.length > 0 %}
+{% set slides = customSlides if useCustom else autoSlides %}
+<section class="bk-hero{% if heroCompact %} bk-hero-compact{% endif %}" data-hero-slider data-autoplay="6500" aria-label="{{ heroHeading or title }} featured journeys">
+  <div class="bk-hero-stage">
+    {% for item in slides %}
+      {% if useCustom %}
+        {% set slideImage = item.data.image | safeMedia('', '/assets/uploads/placeholder.svg') %}
+        {% set slideHeading = item.data.heading or heroHeading or title %}
+        {% set slideAlt = item.data.image_alt or item.data.heading or item.data.title %}
+      {% else %}
+        {% set slideImage = item.data.cover_image | safeMedia(item.data.cover_source, '/assets/uploads/placeholder.svg') %}
+        {% set slideHeading = heroHeading or title %}
+        {% set slideAlt = item.data.cover_image_alt or item.data.title %}
+      {% endif %}
+      {% set slidePic = heroImages | heroPicture(slideImage) %}
+      <article class="bk-hero-slide{% if loop.first %} is-active{% elif loop.index0 == 1 %} is-next{% elif loop.last %} is-prev{% endif %}" data-hero-slide data-index="{{ loop.index0 }}" aria-hidden="{{ 'false' if loop.first else 'true' }}">
+        {% if slidePic %}
+        <picture>
+          <source media="(max-width: 767px)" sizes="100vw" srcset="{{ slidePic.tall }}">
+          <source media="(max-width: 1279px)" sizes="100vw" srcset="{{ slidePic.mid }}">
+          <source sizes="100vw" srcset="{{ slidePic.wide }}">
+          <img class="bk-hero-photo" src="{{ slidePic.fallback }}" alt="{{ slideAlt }}" width="{{ slidePic.w }}" height="{{ slidePic.h }}" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
+        </picture>
+        {% else %}
+        <img class="bk-hero-photo" src="{{ slideImage }}" alt="{{ slideAlt }}" width="1920" height="1080" {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
+        {% endif %}
+        <div class="bk-hero-shade"></div>
+        <div class="bk-hero-copy">
+          {% if useCustom %}
+            <p class="bk-hero-eyebrow"><span class="bk-hero-mark">{{ item.data.eyebrow or heroEyebrow or site.tagline or site.name }}</span></p>
+            {% if loop.first %}<h1><span class="bk-hero-mark">{{ slideHeading }}</span></h1>{% else %}<h2><span class="bk-hero-mark">{{ slideHeading }}</span></h2>{% endif %}
+            {% if item.data.text %}<p class="bk-hero-summary"><span class="bk-hero-mark">{{ item.data.text }}</span></p>{% endif %}
+            <div class="bk-hero-actions">
+              {% if item.data.button_url %}<a class="bk-hero-primary" href="{{ item.data.button_url }}">{{ item.data.button_label or 'View details' }}</a>{% endif %}
+              <a class="bk-hero-secondary" href="/plan-a-trip/#trip-request-form">Plan a trip</a>
+            </div>
+          {% else %}
+            <p class="bk-hero-eyebrow"><span class="bk-hero-mark">{{ heroEyebrow or item.data.service_label or 'Karakoram Vision Pakistan' }}</span></p>
+            {% if loop.first %}<h1><span class="bk-hero-mark">{{ slideHeading }}</span></h1>{% else %}<h2><span class="bk-hero-mark">{{ slideHeading }}</span></h2>{% endif %}
+            <p class="bk-hero-feature-title"><span class="bk-hero-mark">{{ item.data.title }}</span></p>
+            <p class="bk-hero-summary"><span class="bk-hero-mark">{{ heroSummary or summary or item.data.summary }}</span></p>
+            <div class="bk-hero-actions">
+              <a class="bk-hero-primary" href="{{ item.url }}">View details</a>
+              <a class="bk-hero-secondary" href="/plan-a-trip/?journey={{ item.data.title | urlencode }}&service={{ item.data.service_type | urlencode }}#trip-request-form">Book now</a>
+            </div>
+          {% endif %}
+        </div>
+      </article>
+    {% else %}
+      <article class="bk-hero-slide is-active" data-hero-slide data-index="0" aria-hidden="false">
+        <img class="bk-hero-photo" src="/assets/uploads/placeholder.svg" alt="Karakoram Vision Pakistan mountain journey" width="1920" height="1080" fetchpriority="high" decoding="async">
+        <div class="bk-hero-shade"></div>
+        <div class="bk-hero-copy"><p class="bk-hero-eyebrow"><span class="bk-hero-mark">Karakoram Vision Pakistan</span></p><h1><span class="bk-hero-mark">{{ heroHeading or title }}</span></h1><p class="bk-hero-summary"><span class="bk-hero-mark">{{ heroSummary or summary }}</span></p><div class="bk-hero-actions"><a class="bk-hero-primary" href="/plan-a-trip/#trip-request-form">Plan a trip</a></div></div>
+      </article>
+    {% endfor %}
+  </div>
+  {% if slides.length > 1 %}
+  <button class="bk-hero-control bk-hero-prev" type="button" data-hero-prev aria-label="Previous slide">‹</button>
+  <button class="bk-hero-control bk-hero-next" type="button" data-hero-next aria-label="Next slide">›</button>
+  <div class="bk-hero-dots" role="tablist" aria-label="Choose slide">
+    {% for item in slides %}<button type="button" data-hero-dot data-index="{{ loop.index0 }}" class="{% if loop.first %}is-active{% endif %}" aria-label="Show slide {{ loop.index }}" aria-selected="{{ 'true' if loop.first else 'false' }}"></button>{% endfor %}
+  </div>
+  {% endif %}
+  {% if heroFinder %}<div class="bk-hero-finder-wrap">{% include "components/trip-finder.njk" %}</div>{% endif %}
+</section>
+{% endif %}
+
+===== src\_includes\layouts\page.njk
+---
+layout: layouts/base.njk
+---
+<section class="border-b border-slate-200 bg-slate-50 py-16"><div class="mx-auto max-w-7xl px-4"><p class="eyebrow">{{ site.name }}</p><h1 class="mt-3 max-w-4xl text-4xl font-black leading-tight md:text-6xl">{{ title }}</h1>{% if summary %}<p class="mt-5 max-w-3xl text-lg text-slate-600">{{ summary }}</p>{% endif %}</div></section>
+<div class="mx-auto grid max-w-7xl gap-10 px-4 py-14 lg:grid-cols-[minmax(0,1fr)_340px]"><article x-data="contentEnhancer" class="min-w-0">{% include "components/answer-block.njk" %}<div class="prose-clean mt-10">{{ content | safe }}</div>{% include "components/faq-block.njk" %}{% include "components/trust-block.njk" %}</article><aside class="h-max rounded-xl border border-slate-200 bg-slate-50 p-6 lg:sticky lg:top-28"><p class="eyebrow">Plan your journey</p><h2 class="mt-2 text-2xl font-black">Ask our travel team</h2><p class="mt-3 text-slate-600">Get dates, pricing and a private itinerary.</p>{% include "components/contact-buttons.njk" %}</aside></div>
+
+===== heroPageKey kahan set hota hai
+src\_includes\components\landing-hero.njk:18: Katai tools/hero-crops.mjs banata hai; fehrist src/_data/heroImages.json
+src\_includes\components\landing-hero.njk:25: {% set heroPageKey = page.url | heroKey %}
+src\_includes\components\landing-hero.njk:26: {% set heroCfg = heroSettings | heroConfig(heroPageKey) %}
+src\_includes\components\landing-hero.njk:33: {% set staticPic = heroImages | heroPicture(staticImage) %}
+src\_includes\components\landing-hero.njk:88: {% set slidePic = heroImages | heroPicture(slideImage) %}
+eleventy.config.js:39: eleventyConfig.addFilter("heroConfig", (settings, key) => {
+eleventy.config.js:46: // katai banai hai, yeh us ki fehrist (src/_data/heroImages.json) mein se us
