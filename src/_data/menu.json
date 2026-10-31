@@ -148,30 +148,6 @@
               "target_blank": false,
               "label": "Islamabad",
               "url": "/tours/islamabad-city-tour"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Lahore",
-              "url": "/search/?type=tours&q=lahore"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Peshawar",
-              "url": "/search/?type=tours&q=peshawar"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Karachi",
-              "url": "/search/?type=tours&q=karachi"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Skardu",
-              "url": "/search/?type=tours&q=skardu"
             }
           ],
           "url": "/tours/city-tours/"
@@ -859,6 +835,70 @@
     }
   ],
   "trash": [
+    {
+      "id": "1793430145373-aryu84",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Skardu",
+        "url": "/search/?type=tours&q=skardu"
+      },
+      "parentPath": [
+        2,
+        1
+      ],
+      "index": 1,
+      "label": "Skardu",
+      "at": "2026-10-31T07:02:25.373Z"
+    },
+    {
+      "id": "1793430128413-awpyup",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Karachi",
+        "url": "/search/?type=tours&q=karachi"
+      },
+      "parentPath": [
+        2,
+        1
+      ],
+      "index": 1,
+      "label": "Karachi",
+      "at": "2026-10-31T07:02:08.413Z"
+    },
+    {
+      "id": "1793430120965-inblsc",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Peshawar",
+        "url": "/search/?type=tours&q=peshawar"
+      },
+      "parentPath": [
+        2,
+        1
+      ],
+      "index": 1,
+      "label": "Peshawar",
+      "at": "2026-10-31T07:02:00.965Z"
+    },
+    {
+      "id": "1793430110333-ettv9b",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Lahore",
+        "url": "/search/?type=tours&q=lahore"
+      },
+      "parentPath": [
+        2,
+        1
+      ],
+      "index": 1,
+      "label": "Lahore",
+      "at": "2026-10-31T07:01:50.333Z"
+    },
     {
       "id": "1793423126824-hm2jqn",
       "item": {
