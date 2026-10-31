@@ -53,14 +53,6 @@
       "label": "Best Sellers"
     },
     {
-      "slug": "trekking-peaks",
-      "label": "Trekking Peaks"
-    },
-    {
-      "slug": "mountain-ranges",
-      "label": "Mountain Ranges"
-    },
-    {
       "slug": "8000m-peaks",
       "label": "8,000m Peaks"
     },
@@ -77,12 +69,20 @@
       "label": "Rock Climbing"
     },
     {
-      "slug": "climbing-style",
-      "label": "Climbing Style"
+      "slug": "trekking-peaks",
+      "label": "Trekking Peaks"
     },
     {
       "slug": "fixed-departures",
       "label": "All Fixed Departures"
+    },
+    {
+      "slug": "mountain-ranges",
+      "label": "Mountain Ranges"
+    },
+    {
+      "slug": "climbing-style",
+      "label": "Climbing Style"
     }
   ],
   "jeep-safaris": [

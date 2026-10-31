@@ -908,14 +908,14 @@ content:
         description: Which menu sections this should appear in. Choose as many as you like.
         options:
           - Best Sellers
-          - Trekking Peaks
-          - Mountain Ranges
           - 8,000m Peaks
           - 7,000m Peaks
           - 6,000m Peaks
           - Rock Climbing
-          - Climbing Style
+          - Trekking Peaks
           - All Fixed Departures
+          - Mountain Ranges
+          - Climbing Style
       - name: trip_status
         label: Availability/status
         type: select
