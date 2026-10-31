@@ -36,6 +36,7 @@ tags:
   - "trekking "
   - "Expedition "
   - Mountains
+  - karakoram
 departures: []
 departure_details: []
 highlights:

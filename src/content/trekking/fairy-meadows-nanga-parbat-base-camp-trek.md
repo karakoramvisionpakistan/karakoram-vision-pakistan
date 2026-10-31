@@ -31,6 +31,7 @@ tags:
   - Fairy Meadows
   - Beyal Camp
   - base camp
+  - himalaya
 departures: []
 departure_details: []
 highlights:

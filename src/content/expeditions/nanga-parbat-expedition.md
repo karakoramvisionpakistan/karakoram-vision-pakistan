@@ -41,6 +41,8 @@ tags:
   - DiamirFace
   - HinduKush
   - Chilas
+  - himalaya
+  - 8000m
 departures:
   - 25/05 to 05/07/2027
 departure_details:

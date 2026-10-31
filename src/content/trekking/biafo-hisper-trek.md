@@ -36,6 +36,7 @@ categories: []
 tags:
   - trekking
   - biafohisper
+  - karakoram
 departures: []
 departure_details: []
 highlights: []

@@ -40,6 +40,7 @@ tags:
   - rockclimbing
   - trekkingpermit
   - trekkingpeak
+  - karakoram
 departures:
   - 22/06 to 21/07/2027
 departure_details:

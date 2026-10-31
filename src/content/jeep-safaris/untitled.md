@@ -49,6 +49,7 @@ tags:
   - chitral
   - swat
   - gb
+  - hindu kush
 departures: []
 departure_details: []
 highlights:

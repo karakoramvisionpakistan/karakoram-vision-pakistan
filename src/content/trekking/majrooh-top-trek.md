@@ -44,6 +44,7 @@ tags:
   - nangmavalley
   - trekking
   - hiking
+  - karakoram
 departures: []
 departure_details: []
 highlights: []

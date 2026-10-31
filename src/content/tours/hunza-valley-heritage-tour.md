@@ -31,6 +31,7 @@ tags:
   - culture
   - heritage
   - family tour
+  - karakoram
 departures: []
 departure_details: []
 highlights:

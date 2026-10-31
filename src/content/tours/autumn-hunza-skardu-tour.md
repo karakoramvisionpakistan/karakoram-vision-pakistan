@@ -37,6 +37,7 @@ tags:
   - winter
   - khaplu
   - spring
+  - karakoram
 departures: []
 departure_details: []
 highlights:

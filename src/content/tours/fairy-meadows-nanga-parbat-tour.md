@@ -31,6 +31,7 @@ tags:
   - Nanga Parbat
   - family adventure
   - short trek
+  - himalaya
 departures: []
 departure_details: []
 highlights:

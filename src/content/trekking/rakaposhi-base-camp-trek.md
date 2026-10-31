@@ -32,6 +32,7 @@ tags:
   - Nagar
   - base camp
   - moderate trek
+  - karakoram
 departures: []
 departure_details: []
 highlights:

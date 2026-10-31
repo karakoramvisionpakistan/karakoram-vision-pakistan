@@ -32,6 +32,7 @@ tags:
   - Shigar
   - Khaplu
   - pass trek
+  - karakoram
 departures: []
 departure_details: []
 highlights:

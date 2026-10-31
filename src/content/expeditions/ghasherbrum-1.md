@@ -44,6 +44,7 @@ tags:
   - pakistan
   - gilgitbaltistan
   - skardu
+  - 8000m
 departures:
   - 22/06 to 10/08/2027
 departure_details:

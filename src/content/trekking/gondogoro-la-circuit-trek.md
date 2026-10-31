@@ -34,6 +34,7 @@ tags:
   - Gondogoro La
   - Baltoro circuit
   - Hushe
+  - karakoram
 departures: []
 departure_details: []
 highlights:

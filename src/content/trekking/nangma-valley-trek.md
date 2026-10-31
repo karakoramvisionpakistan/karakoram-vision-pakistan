@@ -57,6 +57,7 @@ tags:
   - hiking
   - climbing
   - kandayvalley
+  - karakoram
 departures: []
 departure_details: []
 highlights:

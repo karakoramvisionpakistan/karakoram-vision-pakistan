@@ -31,6 +31,7 @@ tags:
   - Hunza
   - Skardu
   - grand tour
+  - karakoram
 departures: []
 departure_details: []
 highlights:
