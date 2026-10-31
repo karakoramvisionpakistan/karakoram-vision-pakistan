@@ -235,6 +235,39 @@
       }
     ]
   },
+  "/assets/uploads/1793431509638-Cycling-on-KKH.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793431509638-cycling-on-kkh--wide-1080.webp",
+        "w": 1080,
+        "h": 675
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793431509638-cycling-on-kkh--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793431509638-cycling-on-kkh--mid-1080.webp",
+        "w": 1080,
+        "h": 864
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793431509638-cycling-on-kkh--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793431509638-cycling-on-kkh--tall-608.webp",
+        "w": 608,
+        "h": 1080
+      }
+    ]
+  },
   "/assets/uploads/1792995980556-Deosai.webp": {
     "wide": [
       {
@@ -372,6 +405,29 @@
         "src": "/assets/hero/1793287396814-faisal-mosque--tall-633.webp",
         "w": 633,
         "h": 1125
+      }
+    ]
+  },
+  "/assets/uploads/1793426522247-Minare-Pak.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793426522247-minare-pak--wide-690.webp",
+        "w": 690,
+        "h": 431
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793426522247-minare-pak--mid-554.webp",
+        "w": 554,
+        "h": 443
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793426522247-minare-pak--tall-249.webp",
+        "w": 249,
+        "h": 443
       }
     ]
   },
@@ -583,6 +639,52 @@
         "src": "/assets/hero/1793271552139-rakaposhi-trek-kvp--tall-254.webp",
         "w": 254,
         "h": 452
+      }
+    ]
+  },
+  "/assets/uploads/1793434180692-Rush-Lake.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793434180692-rush-lake--wide-399.webp",
+        "w": 399,
+        "h": 249
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793434180692-rush-lake--mid-399.webp",
+        "w": 399,
+        "h": 319
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793434180692-rush-lake--tall-282.webp",
+        "w": 282,
+        "h": 501
+      }
+    ]
+  },
+  "/assets/uploads/1793433698734-Thalay-Broq.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793433698734-thalay-broq--wide-610.webp",
+        "w": 610,
+        "h": 381
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793433698734-thalay-broq--mid-476.webp",
+        "w": 476,
+        "h": 381
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793433698734-thalay-broq--tall-214.webp",
+        "w": 214,
+        "h": 381
       }
     ]
   },

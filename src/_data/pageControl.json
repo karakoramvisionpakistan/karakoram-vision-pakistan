@@ -43,6 +43,13 @@
       "file": "src/trekking/best-sellers/index.njk"
     },
     {
+      "label": "Camping",
+      "url": "/holiday-types/camping/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/holiday-types/camping/index.njk"
+    },
+    {
       "label": "Chitral Safaris",
       "url": "/jeep-safaris/chitral-safaris/",
       "published": true,
@@ -78,6 +85,13 @@
       "file": "src/tours/cultural-tours/index.njk"
     },
     {
+      "label": "Cycle Touring",
+      "url": "/special-interests/cycle-touring/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/special-interests/cycle-touring/index.njk"
+    },
+    {
       "label": "Deosai Safaris",
       "url": "/jeep-safaris/deosai-safaris/",
       "published": true,
@@ -92,11 +106,32 @@
       "file": "src/destinations/index.njk"
     },
     {
+      "label": "Eco Tourism",
+      "url": "/special-interests/eco-tourism/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/special-interests/eco-tourism/index.njk"
+    },
+    {
       "label": "Expeditions",
       "url": "/expeditions/",
       "published": true,
       "redirect_to": "",
       "file": "src/expeditions/index.njk"
+    },
+    {
+      "label": "Family Holidays",
+      "url": "/holiday-types/family-holidays/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/holiday-types/family-holidays/index.njk"
+    },
+    {
+      "label": "Festivals of Pakistan",
+      "url": "/special-interests/festivals-of-pakistan/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/special-interests/festivals-of-pakistan/index.njk"
     },
     {
       "label": "Fixed Departure Expeditions",
@@ -190,6 +225,20 @@
       "file": "src/hunting-services/index.njk"
     },
     {
+      "label": "Motorcycle Touring",
+      "url": "/special-interests/motorcycle-touring/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/special-interests/motorcycle-touring/index.njk"
+    },
+    {
+      "label": "Mountain Passes",
+      "url": "/special-interests/mountain-passes/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/special-interests/mountain-passes/index.njk"
+    },
+    {
       "label": "Mountain Ranges",
       "url": "/expeditions/mountain-ranges/",
       "published": true,
@@ -225,11 +274,25 @@
       "file": "src/gallery/index.njk"
     },
     {
+      "label": "Photography Tours",
+      "url": "/special-interests/photography-tours/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/special-interests/photography-tours/index.njk"
+    },
+    {
       "label": "Plan a Custom Trip",
       "url": "/plan-a-trip/",
       "published": true,
       "redirect_to": "",
       "file": "src/plan-a-trip/index.njk"
+    },
+    {
+      "label": "Road Trips",
+      "url": "/holiday-types/road-trips/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/holiday-types/road-trips/index.njk"
     },
     {
       "label": "Rock Climbing",
@@ -244,6 +307,20 @@
       "published": true,
       "redirect_to": "",
       "file": "src/jeep-safaris/skardu-safaris/index.njk"
+    },
+    {
+      "label": "Ski & Winter Adventures",
+      "url": "/special-interests/ski-winter-adventures/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/special-interests/ski-winter-adventures/index.njk"
+    },
+    {
+      "label": "Social Responsibility",
+      "url": "/social-responsibility/",
+      "published": true,
+      "redirect_to": "",
+      "file": "src/social-responsibility/index.njk"
     },
     {
       "label": "Special Interests",
@@ -324,19 +401,5 @@
     "/international-travelers/",
     "/vehicles/coaster-group-transport/"
   ],
-  "redirects": [],
-  "_trash_pages": [
-    {
-      "id": "1793426919377-nxygde",
-      "item": {
-        "label": "Social Responsibility",
-        "url": "/social-responsibility/",
-        "published": true,
-        "redirect_to": "",
-        "file": "src/social-responsibility/index.njk"
-      },
-      "idx": 35,
-      "at": "2026-10-31T06:08:39.377Z"
-    }
-  ]
+  "redirects": []
 }

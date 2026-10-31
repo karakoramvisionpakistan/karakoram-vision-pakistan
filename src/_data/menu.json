@@ -115,19 +115,19 @@
               "enabled": true,
               "target_blank": false,
               "label": "Gilgit & Hunza Tours",
-              "url": "/search/?type=tours&q=hunza"
+              "url": "/destinations/hunza/"
             },
             {
               "enabled": true,
               "target_blank": false,
               "label": "Deosai National Park",
-              "url": "/search/?type=tours&q=deosai"
+              "url": "/destinations/deosai/"
             },
             {
               "enabled": true,
               "target_blank": false,
               "label": "Skardu Holidays",
-              "url": "/search/?type=tours&q=skardu"
+              "url": "/destinations/skardu/"
             },
             {
               "enabled": true,
@@ -173,13 +173,13 @@
               "enabled": true,
               "target_blank": false,
               "label": "Hunza",
-              "url": "/search/?type=tours&q=hunza"
+              "url": "/destinations/hunza/"
             },
             {
               "enabled": true,
               "target_blank": false,
               "label": "Skardu",
-              "url": "/search/?type=tours&q=skardu"
+              "url": "/destinations/skardu/"
             },
             {
               "enabled": true,
@@ -313,7 +313,7 @@
               "enabled": true,
               "target_blank": false,
               "label": "Fairy Meadows Trek",
-              "url": "/search/?type=trekking&q=fairy%20meadows"
+              "url": "/destinations/fairy-meadows/"
             },
             {
               "enabled": true,
@@ -685,7 +685,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Camping",
-          "url": "/search/?type=tours&q=camping"
+          "url": "/holiday-types/camping/"
         },
         {
           "enabled": true,
@@ -704,7 +704,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Family Holidays",
-          "url": "/search/?type=tours&q=family"
+          "url": "/holiday-types/family-holidays/"
         },
         {
           "enabled": true,
@@ -716,7 +716,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Road Trips",
-          "url": "/search/?type=tours&q=road%20trip"
+          "url": "/holiday-types/road-trips/"
         },
         {
           "enabled": true,
@@ -736,43 +736,43 @@
           "enabled": true,
           "target_blank": false,
           "label": "Cycle Touring",
-          "url": "/search/?type=tours&q=cycle"
+          "url": "/special-interests/cycle-touring/"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Eco Tourism",
-          "url": "/search/?type=tours&q=eco"
+          "url": "/special-interests/eco-tourism/"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Motorcycle Touring",
-          "url": "/search/?type=tours&q=motorcycle"
+          "url": "/special-interests/motorcycle-touring/"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Mountain Passes",
-          "url": "/search/?type=trekking&q=pass"
+          "url": "/special-interests/mountain-passes/"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Festivals of Pakistan",
-          "url": "/search/?type=tours&q=festival"
+          "url": "/special-interests/festivals-of-pakistan/"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Photography Tours",
-          "url": "/search/?type=tours&q=photography"
+          "url": "/special-interests/photography-tours/"
         },
         {
           "enabled": true,
           "target_blank": false,
           "label": "Ski & Winter Adventures",
-          "url": "/search/?type=tours&q=winter"
+          "url": "/special-interests/ski-winter-adventures/"
         }
       ]
     },

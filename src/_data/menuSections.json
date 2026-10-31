@@ -107,5 +107,49 @@
       "label": "Chitral Safaris"
     }
   ],
-  "hunting-services": []
+  "hunting-services": [],
+  "special-interests": [
+    {
+      "slug": "cycle-touring",
+      "label": "Cycle Touring"
+    },
+    {
+      "slug": "eco-tourism",
+      "label": "Eco Tourism"
+    },
+    {
+      "slug": "motorcycle-touring",
+      "label": "Motorcycle Touring"
+    },
+    {
+      "slug": "mountain-passes",
+      "label": "Mountain Passes"
+    },
+    {
+      "slug": "festivals-of-pakistan",
+      "label": "Festivals of Pakistan"
+    },
+    {
+      "slug": "photography-tours",
+      "label": "Photography Tours"
+    },
+    {
+      "slug": "ski-winter-adventures",
+      "label": "Ski & Winter Adventures"
+    }
+  ],
+  "holiday-types": [
+    {
+      "slug": "camping",
+      "label": "Camping"
+    },
+    {
+      "slug": "family-holidays",
+      "label": "Family Holidays"
+    },
+    {
+      "slug": "road-trips",
+      "label": "Road Trips"
+    }
+  ]
 }

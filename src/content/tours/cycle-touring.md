@@ -1,6 +1,6 @@
 ---
 title: Cycling on KKH
-permalink: ""
+permalink: /tours/cycle-touring/
 layout: layouts/journey.njk
 service_type: tours
 service_label: Tours
@@ -47,7 +47,15 @@ highlights:
   - Khunjerab
 included: []
 excluded: []
-packing_list: []
+packing_list:
+  - "Comfortable walking shoes and a pair of sandals"
+  - "Light jacket or fleece for the evenings"
+  - "Warm layer for high passes and early mornings"
+  - "Sun hat, sunglasses and high-factor sunscreen"
+  - "Refillable water bottle"
+  - "Personal medication and a small first-aid kit"
+  - "Power bank and a universal plug adapter"
+  - "Copy of passport and travel insurance details"
 route_map_url: ""
 trip_leader:
   name: ""
@@ -87,8 +95,8 @@ key_facts:
   - label: Best Place for Cycling
     value: Karakoram Highway is the best road for cycle touring.
 author: KVP Team
-reviewed_by: ""
-last_verified: ""
+reviewed_by: "Karakoram Vision Pakistan Private Limited"
+last_verified: "2026-10-31"
 sources: []
 seo:
   title: Cycle Touring On Karakoram Highway Pakistan Karakoram Vision

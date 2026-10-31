@@ -41,6 +41,8 @@ const SERVICES = {
   'expeditions': 'Expeditions',
   'jeep-safaris': 'Jeep Safaris',
   'hunting-services': 'Hunting Services',
+  'special-interests': 'Special Interests',
+  'holiday-types': 'Holiday Types',
 };
 
 /* collection ka naam .pages.yml mein */
@@ -151,8 +153,7 @@ layout: layouts/base.njk
 permalink: /${service}/${sec.slug}/
 title: ${sec.label}
 summary: Explore ${sec.label.toLowerCase()} from Karakoram Vision Pakistan.
-service_type: ${service}
-structured_filter: ${sec.slug}
+${(service === 'special-interests' || service === 'holiday-types') ? '' : 'service_type: ' + service + '\n'}structured_filter: ${sec.slug}
 filter_label: ${sec.label}
 filter_eyebrow: ${serviceLabel} collection
 seo:
@@ -245,6 +246,7 @@ for (const c of doc.content || []) for (const f of c.fields || []) beforeNames.a
 let ymlChanged = false;
 for (const [service] of Object.entries(SERVICES)) {
   const collName = COLLECTION_OF[service];
+  if (!collName) continue;   // in ki apni koi collection nahi
   const coll = (doc.content || []).find((c) => c.name === collName);
   if (!coll) { console.log('   !   collection nahi mili: ' + collName); continue; }
   const opts = sectionsByService[service].map((s) => s.label);

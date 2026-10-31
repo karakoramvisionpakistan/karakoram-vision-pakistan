@@ -192,7 +192,7 @@ export default function(eleventyConfig) {
       const sec = index[item.url];
       if (sec) {
         const journeys = (catalog || [])
-          .filter((c) => matches(c, sec.service, sec.slug))
+          .filter((c) => matches(c, (sec.service === "special-interests" || sec.service === "holiday-types") ? "" : sec.service, sec.slug))
           .map((c) => ({ label: (c.data || {}).title, url: norm((c.data || {}).permalink) }))
           .filter((c) => c.label && c.url)
           .sort((a, b) => String(a.label).localeCompare(String(b.label)));

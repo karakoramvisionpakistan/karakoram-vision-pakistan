@@ -7,6 +7,43 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '..');
 const folders = ['tours','trekking','expeditions','jeep-safaris','hunting-services','blog','vehicles','pages'];
 const items = [];
+const autoSections = (() => {
+  // Special Interests aur Holiday Types ke woh sections jin mein journeys
+  // khud ba khud aati hain. Har ek ke pehchan wale alfaaz.
+  const WORDS = {
+    'cycle-touring': ['cycle', 'cycling', 'bicycle', 'bike', 'biking'],
+    'eco-tourism': ['eco', 'ecotourism', 'sustainable', 'responsible'],
+    'motorcycle-touring': ['motorcycle', 'motorbike', 'motorcycling'],
+    'mountain-passes': ['pass', 'passes', 'khunjerab', 'babusar', 'shandur', 'gondogoro', 'thalle', 'shimshal'],
+    'festivals-of-pakistan': ['festival', 'festivals', 'polo', 'kalash', 'jashn'],
+    'photography-tours': ['photography', 'photo', 'photographer'],
+    'ski-winter-adventures': ['ski', 'skiing', 'snowboard', 'winter', 'snow'],
+    'camping': ['camp', 'camping', 'campsite', 'tented'],
+    'family-holidays': ['family', 'families', 'kids', 'children'],
+    'road-trips': ['road', 'roadtrip', 'highway', 'kkh', 'overland', 'drive', 'driving'],
+  };
+  // Aam lafz jo har safhe par mil jate hain — in par koi faisla nahi hota,
+  // warna har trek "Mountain Passes" mein chala jata.
+  const SKIP = [
+    'tour', 'tours', 'touring', 'trip', 'trips', 'holiday', 'holidays',
+    'tourism', 'adventure', 'adventures', 'mountain', 'mountains',
+    'pakistan', 'and', 'the', 'of',
+  ];
+  try {
+    const raw = fs.readFileSync(path.join(root, 'src', '_data', 'menuSections.json'), 'utf8');
+    const all = JSON.parse(raw);
+    const list = [].concat(all['special-interests'] || [], all['holiday-types'] || []);
+    return list.map((s) => {
+      const fromLabel = String(s.label).toLowerCase()
+        .replace(/[^a-z0-9]+/g, ' ').split(' ')
+        .filter((w) => w.length > 3 && !SKIP.includes(w));
+      return { slug: s.slug, words: [...new Set([...(WORDS[s.slug] || []), ...fromLabel])] };
+    });
+  } catch {
+    return [];
+  }
+})();
+
 const sectionLookup = (() => {
   // naam ("K2 Treks") aur slug ("k2-treks") dono ko slug par le jata hai
   const map = {};
@@ -117,6 +154,15 @@ for (const folder of folders) {
       culturalTour && 'cultural-tours',
       peak8000 && '8000m-peaks',
     ].filter(Boolean);
+
+    // Special Interests aur Holiday Types khud ba khud. Sirf unwaan, tags
+    // aur categories — poora mazmoon nahi, warna har safha har jagah ghus jata.
+    const autoHaystack = normalize([data.title, tagsText, categoriesText].join(' ')).split(' ');
+    for (const auto of autoSections) {
+      if (auto.words.some((w) => autoHaystack.includes(w)) && !sections.includes(auto.slug)) {
+        sections.push(auto.slug);
+      }
+    }
 
     const flat = {
       title: data.title ?? '',
