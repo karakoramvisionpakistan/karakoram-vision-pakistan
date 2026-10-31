@@ -54,13 +54,13 @@ departure_details:
     places: Shigar
     status: Available
 highlights:
-  - "Small villages, Rivers, Glaciers, Mountains, Concordia, "
+  - "Small villages, Rivers, Glaciers, Mountains, Concordia"
   - Baltoro Glacier
   - Gasherbrum-IV
   - Broad Peak
-  - Snow Doom peak
+  - Snow Dome Peak
   - Mitre Peak
-  - Mashabrum Peak
+  - Masherbrum Peak
   - "Mustagh Tower "
 included:
   - Airport Pick/Drop
@@ -201,25 +201,31 @@ itinerary:
     hours: 4-5 hrs
     overnight: Camping
   - day: '11'
-    title: Trek to Base Camp.
+    title: Trek to K2 Base Camp
     description: The last walking day, up the Godwin-Austen glacier from Broad Peak base camp to K2 base camp, directly beneath the south face. The Gilkey Memorial stands on the ridge above the tents. This is home for the next six weeks.
     altitude: 5,000 m
     overnight: Base camp
-  - day: '12'
-    title: 40 days climbing
+  - day: 12-53
+    title: Climbing period on the Abruzzi Spur
     description: Forty days on the mountain. The Abruzzi Spur is the normal route, with camps at roughly 6,000m, 6,700m, 7,400m and 8,000m, and the Bottleneck beneath the summit serac at around 8,200m. The summit is 8,611m. K2 offers fewer weather windows than any other eight-thousander, and more expeditions go home without one than with. Base camp runs throughout with cook, kitchen and communications.
-    altitude: 6,000 m
+    altitude: 5,000 m base camp to 8,611 m summit
     overnight: Camping
   - day: 54-57
-    title: 4 days for return back to Askoli via same route
+    title: Return to Askole by the same route
     description: Four days down the Godwin-Austen and the Baltoro to Askole, past Concordia, Goro and Urdukas. After two months on the mountain the descent into thicker air and the first green at Paiju is the part most climbers remember.
     overnight: Camping
   - day: '58'
     title: Drive back to Skardu
     description: Jeeps from Askole down the Braldu valley to Skardu, six to seven hours. Hotel, hot water, and the end of camp life.
     overnight: Hotel
-  - day: '59'
-    title: 'Fly to Islamabad Hotel 59 Debriefing in Islamabad Hotel Day 60: Transfer to airport for your own destination and goodbye'
+  - day: 59
+    title: Fly to Islamabad and expedition debriefing
+    altitude: 507 m
+    description: The flight from Skardu to Islamabad, weather permitting, or the road if not. The expedition debriefing is completed in the city, which closes out the climbing permit and the liaison officer report. Hotel in Islamabad, and the first evening in two months that does not involve a tent.
+    overnight: Hotel
+  - day: 60
+    title: Transfer to airport and departure
+    altitude: 507 m
     description: Two months on K2 end at a departure gate in Islamabad. A day room can be arranged if you are flying late.
     overnight: Not applicable
 related:
@@ -228,4 +234,4 @@ related:
   - Gasherbrum II Expedition
 ---
 
-<h2><strong>About this journey</strong></h2><p>K2 needs no introduction to climbers. At 8,611m it is the second highest mountain on earth and, by most accounts, the hardest of the fourteen 8,000m peaks - steep from low on the route, exposed to serious weather, and with summit windows that can be measured in hours rather than days.</p><p><strong>What this programme is.</strong> Sixty days from Islamabad to Islamabad: travel and preparation, the seven-day Baltoro trek to base camp, roughly forty days on the mountain for rotations and a summit window, and the return. The schedule is built for the weather that actually occurs on the Baltoro, not the weather anyone hopes for.</p><p><strong>Who it is for.</strong> Climbers with previous 8,000m experience, or at minimum a successful 7,000m climb with high-altitude rotations.</p><p><strong>What we provide.</strong> Climbing permit and the invitation letter for the Pakistan mountaineering visa, liaison officer, transport and hotels in Islamabad and Skardu, porters to base camp, and a full base camp with kitchen, dining tent, shower tent and generator. Oxygen, climbing gear, high-altitude porters above base camp and helicopter rescue arrangements are quoted separately so each team pays only for what it uses.</p><p><strong>Fact &amp; Figures:</strong><br>Duration of Expedition: &nbsp; &nbsp; &nbsp; &nbsp; 60 Days Islamabad to Islamabad<br>Hotel Nights:&nbsp; 06 Nights&nbsp; &nbsp; &nbsp; Camping Nights:&nbsp; &nbsp; &nbsp; 14 Nights<br>Days for Climbing:&nbsp; 40 Days&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Group Size: 04+ &nbsp; &nbsp;</p><p>Best Time:&nbsp; &nbsp;20 June to 15 August<br>Type of Expedition:&nbsp; Unguided (services up to base camp only)</p><p>K2 is located on the border of Pakistan and China. Being the second highest mountain in the world, it is thought by many climbers to be the ultimate climbing challenge. The giant Pyramid Peak towers in isolation 12,000 feet above the wide Concordia glacial field at the head of the Baltoro Glacier.</p><p>The sheer icy summit is flanked by six equally steep ridges. Each of its faces presents a maze of precipices and overhangs. K2 was long considered to be impossible to climb. Attempts in 1902, 1909, 1934, 1938, 1939 and 1953 had all but failed.</p><p><strong>K2 EXPEDITION PROGRAM</strong></p>
+<h2><strong>About this journey</strong></h2><p>K2 needs no introduction to climbers. At 8,611m it is the second highest mountain on earth and, by most accounts, the hardest of the fourteen 8,000m peaks - steep from low on the route, exposed to serious weather, and with summit windows that can be measured in hours rather than days.</p><p><strong>What this programme is.</strong> Sixty days from Islamabad to Islamabad: travel and preparation, the seven-day Baltoro trek to base camp, roughly forty days on the mountain for rotations and a summit window, and the return. The schedule is built for the weather that actually occurs on the Baltoro, not the weather anyone hopes for.</p><p><strong>Who it is for.</strong> Climbers with previous 8,000m experience, or at minimum a successful 7,000m climb with high-altitude rotations.</p><p><strong>What we provide.</strong> Climbing permit and the invitation letter for the Pakistan mountaineering visa, liaison officer, transport and hotels in Islamabad and Skardu, porters to base camp, and a full base camp with kitchen, dining tent, shower tent and generator. Oxygen, climbing gear, high-altitude porters above base camp and helicopter rescue arrangements are quoted separately so each team pays only for what it uses.</p><p><strong>Fact &amp; Figures:</strong><br>Duration of Expedition: &nbsp; &nbsp; &nbsp; &nbsp; 60 Days Islamabad to Islamabad<br>Hotel Nights:&nbsp; 06 Nights&nbsp; &nbsp; &nbsp; Camping Nights:&nbsp; &nbsp; &nbsp; 14 Nights<br>Days for Climbing:&nbsp; 40 Days&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Group Size: 04+ &nbsp; &nbsp;</p><p>Best Time:&nbsp; &nbsp;20 June to 15 August<br>Type of Expedition:&nbsp; Unguided (services up to base camp only)</p><p>K2 is located on the border of Pakistan and China. Being the second highest mountain in the world, it is thought by many climbers to be the ultimate climbing challenge. The giant Pyramid Peak towers in isolation 12,000 feet above the wide Concordia glacial field at the head of the Baltoro Glacier.</p><p>The sheer icy summit is flanked by six equally steep ridges. Each of its faces presents a maze of precipices and overhangs. K2 was long considered to be impossible to climb. Attempts in 1902, 1909, 1934, 1938, 1939 and 1953 had all failed.</p><p><strong>K2 EXPEDITION PROGRAM</strong></p>
