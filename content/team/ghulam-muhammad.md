@@ -9,8 +9,9 @@ bio: >-
   safe, memorable, and authentic trekking experiences. His dedication and hospitality make every
   mountain adventure special.
 section: Field Staff
-order: 1
+order: 5
 published: true
 slug: ghulam-muhammad
 ---
+
 
