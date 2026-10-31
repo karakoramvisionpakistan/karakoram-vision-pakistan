@@ -95,56 +95,6 @@
     {
       "enabled": true,
       "target_blank": false,
-      "label": "Holiday Types",
-      "url": "/holiday-types/",
-      "children": [
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "All Holidays",
-          "url": "/tours/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Camping",
-          "url": "/search/?type=tours&q=camping"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "City Tours",
-          "url": "/tours/cultural-tours/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Family Holidays",
-          "url": "/search/?type=tours&q=family"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Hiking Adventures",
-          "url": "/trekking/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Road Trips",
-          "url": "/search/?type=tours&q=road%20trip"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Trekking Holidays",
-          "url": "/trekking/"
-        }
-      ]
-    },
-    {
-      "enabled": true,
-      "target_blank": false,
       "label": "Tours",
       "url": "/tours/",
       "children": [
@@ -740,6 +690,56 @@
           "target_blank": false,
           "label": "View All Jeep Safaris",
           "url": "/jeep-safaris/"
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "target_blank": false,
+      "label": "Holiday Types",
+      "url": "/holiday-types/",
+      "children": [
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "All Holidays",
+          "url": "/tours/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Camping",
+          "url": "/search/?type=tours&q=camping"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "City Tours",
+          "url": "/tours/cultural-tours/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Family Holidays",
+          "url": "/search/?type=tours&q=family"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Hiking Adventures",
+          "url": "/trekking/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Road Trips",
+          "url": "/search/?type=tours&q=road%20trip"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Trekking Holidays",
+          "url": "/trekking/"
         }
       ]
     },
