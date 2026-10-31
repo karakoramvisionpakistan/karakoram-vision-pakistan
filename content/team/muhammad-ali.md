@@ -1,6 +1,6 @@
 ---
 name: Muhammad Ali
-role: CEO
+role: CEO/GM
 photo: /assets/uploads/1793271820934-ali1.webp
 bio: >-
   Muhammad Ali, CEO of Karakoram Vision Pakistan, plays a key role in leading the organization and
@@ -13,7 +13,9 @@ section: Office Team
 order: 1
 published: true
 slug: untitled
+title: Muhammad Ali
 ---
+
 
 
 
