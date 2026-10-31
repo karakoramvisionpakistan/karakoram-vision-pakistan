@@ -161,7 +161,7 @@
     ]
   },
   "reviews": {
-    "enabled": true,
+    "enabled": false,
     "eyebrow": "Traveller feedback",
     "heading": "What our guests say",
     "description": "Reviews from travellers who have joined our tours, treks and expeditions.",
@@ -179,7 +179,7 @@
     "card_count": 6
   },
   "resources": {
-    "enabled": true,
+    "enabled": false,
     "eyebrow": "Prepare for the journey",
     "heading": "Travel resources before you depart",
     "description": "Review fitness, equipment, insurance, altitude, permits and responsible-travel guidance.",
