@@ -1,0 +1,53 @@
+﻿===== contentDefaults.json ke khaane
+auto_fill  ->  object
+sections  ->  object
+===== contentDefaults kaun istemaal karta hai
+tools\apply-cms-simplify.mjs:374: '  path: src/_data/contentDefaults.json',
+tools\autofill-content.mjs:23: //   packing_list     <- contentDefaults.json se (section ke hisaab se)
+tools\autofill-content.mjs:24: //   included/excluded<- contentDefaults.json se, LEKIN sirf tab jab us ka switch on ho
+tools\autofill-content.mjs:35: const DEFAULTS = 'src/_data/contentDefaults.json';
+tools\autofill-content.mjs:403: // --- packing_list / included / excluded (contentDefaults.json se)
+===== K2 trek ki front matter: faqs, packing, included
+included:
+  - Private or shared ground transport according to the itinerary
+  - Accommodation stated in the confirmed proposal
+  - Experienced local coordination and route support
+  - Breakfast and selected meals as confirmed
+  - Permit and entry coordination where applicable
+excluded:
+  - International and domestic flights unless listed
+  - Travel insurance and emergency evacuation cover
+  - Personal equipment, tips and optional activities
+  - Services not listed in the final confirmed proposal
+packing_list:
+  - Layered clothing suitable for the route
+  - Comfortable walking or trekking footwear
+  - Sun protection and refillable water bottle
+  - Personal medication and travel documents
+faqs:
+  - question: How hard is the K2 base camp trek?
+    answer: >-
+      It is a demanding trek rather than a climb. There is no technical climbing, but you walk six
+      to eight hours a day for about two weeks, much of it on the rough moraine of the Baltoro
+      Glacier, and you sleep above 4,000m for several nights. Regular hill walking with a loaded
+      pack for three to four months beforehand is the best preparation.
+  - question: When is the best time for the K2 base camp trek?
+    answer: >-
+      Late June to early September. July and August are the most settled, which is also when the
+      expedition teams are on the Baltoro, so the glacier feels busy and alive. Shoulder dates can
+      bring snow on the higher camps.
+  - question: Do I need a permit for the Baltoro and Concordia?
+    answer: >-
+      Yes. The route runs through Central Karakoram National Park, so park fees and trekking
+      paperwork apply, and foreign trekkers are registered before leaving Skardu. We handle the
+      permits, registration and the Askole road arrangements.
+  - question: What is included and what do I carry myself?
+    answer: >-
+      Porters carry the group kit and your duffle up to an agreed weight; you walk with a daypack.
+      Tents, kitchen, cook, guide, permits and transport from Skardu are arranged by us. Send your
+      dates for a written list of inclusions and current costs.
+key_facts:
+  - label: Operating base
+    value: Skardu, Gilgit-Baltistan
+  - label: Availability
+    value: Private dates on request

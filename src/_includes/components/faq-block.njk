@@ -3,12 +3,13 @@
    Ab browser ka apna <details> hai: bina JavaScript ke bhi khulta hai, aur
    Google jawab parh sakta hai. Pehla sawal khula rehta hai taake visitor ko
    foran pata chale ke yahan jawab milte hain. #}
-{% if faqs and faqs.length %}
+{% set allFaqs = faqs | withFaqBank(faqBank, service_type) %}
+{% if allFaqs and allFaqs.length %}
 <section class="cv-auto mt-14 border-t border-slate-200 pt-10" aria-labelledby="faq-heading">
   <p class="eyebrow">Questions answered</p>
   <h2 id="faq-heading" class="mt-2 text-3xl font-black text-slate-950">Frequently asked questions</h2>
   <div class="bk-faq-list">
-    {% for faq in faqs %}
+    {% for faq in allFaqs %}
     <details class="bk-faq-item"{% if loop.first %} open{% endif %}>
       <summary>
         <span>{{ faq.question }}</span>

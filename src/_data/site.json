@@ -143,5 +143,20 @@
       "answer": "Website pages are planning information. Current prices, services, permits and road conditions are reconfirmed in writing before booking."
     }
   ],
-  "team": []
+  "team": [],
+  "credentials": {
+    "show": true,
+    "licence_label": "Government licence",
+    "licence_number": "DTS-GB-TO/00071",
+    "memberships": [
+      "PATO",
+      "GBTOA",
+      "BAATO"
+    ],
+    "registered_with": [
+      "SECP",
+      "FBR"
+    ],
+    "experience_note": "35 years in Pakistan tourism; our first company was registered in 2005"
+  }
 }

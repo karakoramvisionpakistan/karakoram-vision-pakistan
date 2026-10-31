@@ -214,6 +214,17 @@ export default function(eleventyConfig) {
     });
     return walk(items);
   });
+  eleventyConfig.addFilter("withFaqBank", (faqs, bank, serviceType) => {
+    // Trip ke apne sawalon ke baad aam sawalon ka bank. Jo sawal trip ne
+    // khud likha ho, bank ka wahi sawal chhoR diya jata hai — trip ka
+    // apna jawab hamesha bhaari rehta hai.
+    const own = Array.isArray(faqs) ? faqs : [];
+    if (!serviceType) return own;              // sirf journeys par
+    const extra = Array.isArray(bank) ? bank : [];
+    const key = (q) => String(q || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+    const seen = new Set(own.map((f) => key(f && f.question)));
+    return own.concat(extra.filter((f) => f && f.question && !seen.has(key(f.question))));
+  });
   eleventyConfig.addFilter("catalogFilter", (arr,type,filter,query="") => {
     const normalize=value=>String(value||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").replace(/\s+/g," ").trim();
     const q=normalize(query), words=q.split(" ").filter(Boolean);

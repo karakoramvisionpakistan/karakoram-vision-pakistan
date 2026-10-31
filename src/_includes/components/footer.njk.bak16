@@ -1,0 +1,62 @@
+{% from "components/icon.njk" import icon %}
+{% set f = siteFooter or {} %}
+{% if f.enabled !== false %}
+<footer class="bk-footer">
+  <div class="bk-footer-top">
+    {% if f.newsletter.enabled !== false %}
+    <section>
+      <p class="eyebrow">{{ f.newsletter.eyebrow or 'Travel updates' }}</p>
+      <h2>{{ f.newsletter.heading or 'Get current departures and route ideas' }}</h2>
+      <p>{{ f.newsletter.description or 'Receive occasional journey updates.' }}</p>
+      {% if site.forms.newsletter_formspree %}
+      <form class="bk-newsletter-form" action="{{ site.forms.newsletter_formspree }}" method="post">
+        <label class="sr-only" for="footer-newsletter-email">Email address</label>
+        <input id="footer-newsletter-email" name="email" type="email" placeholder="{{ f.newsletter.email_placeholder or 'Your email address' }}" required>
+        <button type="submit">{{ f.newsletter.button_label or 'Subscribe' }}</button>
+      </form>
+      {% else %}
+      <a class="bk-footer-cta" href="mailto:{{ site.email }}?subject=Karakoram%20Vision%20Pakistan%20tour%20updates">{{ f.newsletter.fallback_label or 'Subscribe by email' }}</a>
+      {% endif %}
+      {% if f.social.show_ratings !== false %}
+      <div class="bk-footer-rating-links">
+        {% if site.ratings.google_url %}<a href="{{ site.ratings.google_url }}" target="_blank" rel="noopener">{{ icon('google') }}<span><strong>{{ site.ratings.google_score or 'Google' }}</strong><small>Google reviews</small></span></a>{% endif %}
+        {% if site.ratings.tripadvisor_url or site.social.tripadvisor %}<a href="{{ site.ratings.tripadvisor_url or site.social.tripadvisor }}" target="_blank" rel="noopener">{{ icon('tripadvisor') }}<span><strong>{{ site.ratings.tripadvisor_score or 'Tripadvisor' }}</strong><small>Traveller reviews</small></span></a>{% endif %}
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    {% for column in f.columns %}
+    <section class="bk-footer-links">
+      <h2>{{ column.heading }}</h2>
+      {% for link in column.links %}{% if link.enabled !== false %}<a href="{{ link.url }}"{% if link.target_blank %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>{% endif %}{% endfor %}
+    </section>
+    {% endfor %}
+
+    {% if f.contact.enabled !== false %}
+    <section>
+      <h2>{{ f.contact.heading or site.business.legal_name or site.name }}</h2>
+      {% if f.contact.show_phone !== false and site.phone %}<p><strong>Phone:</strong> <a href="tel:{{ site.phone }}">{{ site.phone }}</a>{% if site.phone_secondary %} <span aria-hidden="true">·</span> <a href="tel:{{ site.phone_secondary }}">{{ site.phone_secondary }}</a>{% endif %}</p>{% endif %}
+      {% if f.contact.show_whatsapp !== false and site.contact.whatsapp %}<p><strong>WhatsApp:</strong> <a href="https://wa.me/{{ site.contact.whatsapp }}">{{ site.contact.whatsapp }}</a></p>{% endif %}
+      {% if f.contact.show_email !== false and site.email %}<p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>{% endif %}
+      {% if f.contact.show_address !== false and site.address %}<p><strong>Office:</strong> {{ site.address }}</p>{% endif %}
+      {% if f.contact.description %}<p>{{ f.contact.description }}</p>{% endif %}
+      <div class="bk-footer-hub-row">
+      {% if f.contact.show_contact_hub !== false %}<button type="button" class="bk-footer-contact-hub" data-open-contact>{{ icon('chat') }} {{ f.contact.contact_hub_label or 'International contact hub' }}</button>{% endif %}
+        {% include "components/affiliated-with.njk" %}
+      </div>
+      {% if f.social.enabled !== false %}
+      <div class="bk-social-links" aria-label="Social media accounts">
+        {% for platform in f.social.platform_order %}{% if site.social[platform.key] %}<a href="{{ site.social[platform.key] }}" target="_blank" rel="noopener" aria-label="{{ platform.label }}">{{ icon(platform.icon or 'chat') }}</a>{% endif %}{% endfor %}
+        {% for extra in site.social_extra %}{% if extra.url %}<a href="{{ extra.url }}" target="_blank" rel="noopener" aria-label="{{ extra.label or 'Social account' }}">{{ icon(extra.icon or 'share') }}</a>{% endif %}{% endfor %}
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+  </div>
+  <div class="bk-footer-bottom">
+    <span>{{ (f.bottom.copyright_template or '© {year} {site}. All rights reserved.') | replace('{year}', ('' | year)) | replace('{site}', site.name) }}</span>
+    <nav aria-label="Footer navigation">{% for link in f.bottom.links %}{% if link.enabled !== false %}<a href="{{ link.url }}"{% if link.target_blank %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>{% endif %}{% endfor %}</nav>
+  </div>
+</footer>
+{% endif %}

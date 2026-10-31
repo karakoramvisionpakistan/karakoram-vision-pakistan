@@ -54,6 +54,7 @@
     </section>
     {% endif %}
   </div>
+  {% include "components/credentials.njk" %}
   <div class="bk-footer-bottom">
     <span>{{ (f.bottom.copyright_template or '© {year} {site}. All rights reserved.') | replace('{year}', ('' | year)) | replace('{site}', site.name) }}</span>
     <nav aria-label="Footer navigation">{% for link in f.bottom.links %}{% if link.enabled !== false %}<a href="{{ link.url }}"{% if link.target_blank %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>{% endif %}{% endfor %}</nav>

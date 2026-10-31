@@ -1,0 +1,147 @@
+{
+  "name": "Karakoram Vision Pakistan (KVP) Private Limited",
+  "tagline": "Tours, Treks, Expeditions & Mountain Journeys in Gilgit Baltistan",
+  "url": "https://www.karakoramvision.com",
+  "description": "Adventure, Trekking, Climbing, Tours, Expedition || Karakoram Vision Pakistan",
+  "language": "en",
+  "email": "office@karakoramvision.com",
+  "booking_email": "karakoramvision@gmail.com",
+  "phone": "+92 346 5450637",
+  "phone_secondary": "+92 312 5450637",
+  "address": "Green House, Haji Gam, Sherthang, Skardu, Gilgit-Baltistan, Pakistan",
+  "logo": "/assets/uploads/brand/karakoram-vision-logo-light.png",
+  "logo_dark": "/assets/uploads/brand/karakoram-vision-logo-light.png",
+  "logo_light": "/assets/uploads/brand/karakoram-vision-logo-blue.png",
+  "mobile_logo": "/assets/uploads/brand/karakoram-vision-mobile-light.png",
+  "favicon": "/assets/uploads/brand/favicon.png",
+  "forms": {
+    "booking_google_form": "",
+    "contact_formspree": "",
+    "newsletter_formspree": ""
+  },
+  "contact": {
+    "whatsapp": "923465450637",
+    "telegram": "",
+    "messenger": "",
+    "line": "",
+    "wechat_id": "",
+    "wechat_qr": "",
+    "viber": "",
+    "kakaotalk": "",
+    "vk": "",
+    "max_russia": "",
+    "signal": "",
+    "zalo": "",
+    "imo": "",
+    "skype": ""
+  },
+  "contact_extra": [],
+  "tawk": {
+    "property_id": "",
+    "widget_id": "default"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/KarakoramVisionPakistan/",
+    "instagram": "https://www.instagram.com/karakoramvisionpakistan/",
+    "youtube": "",
+    "linkedin": "https://www.linkedin.com/in/karakoram-vision-pakistan-a33901446/",
+    "tripadvisor": "https://www.tripadvisor.com/Profile/karakoramvision",
+    "x": "",
+    "tiktok": "https://www.tiktok.com/@karakoramvision",
+    "pinterest": "",
+    "threads": "",
+    "google_business": "",
+    "bluesky": ""
+  },
+  "social_extra": [],
+  "ratings": {
+    "google_score": "",
+    "google_url": "",
+    "tripadvisor_score": "",
+    "tripadvisor_url": ""
+  },
+  "seo": {
+    "default_social_image": "/assets/uploads/brand/karakoram-vision-og.jpg",
+    "twitter_handle": "",
+    "default_author": "Karakoram Vision Editorial Team",
+    "default_reviewer": "Karakoram Vision Travel Team"
+  },
+  "navigation": [
+    {
+      "label": "Tours",
+      "url": "/tours/"
+    },
+    {
+      "label": "Trekking",
+      "url": "/trekking/"
+    },
+    {
+      "label": "Expeditions",
+      "url": "/expeditions/"
+    },
+    {
+      "label": "Jeep Safaris",
+      "url": "/jeep-safaris/"
+    },
+    {
+      "label": "Vehicles",
+      "url": "/vehicles/"
+    }
+  ],
+  "business": {
+    "legal_name": "Karakoram Vision Pakistan Private Limited",
+    "founded_year": "2007",
+    "license_number": "DTS-GB-TO-26-00071",
+    "price_currency": "USD",
+    "opening_hours": {
+      "opens": "09:00",
+      "closes": "21:00"
+    }
+  },
+  "geo": {
+    "country_code": "PK",
+    "country": "Pakistan",
+    "city": "Skardu",
+    "latitude": "35.27463067919916",
+    "longitude": "75.63192067301429",
+    "service_areas": [
+      "Pakistan",
+      "Gilgit-Baltistan",
+      "Skardu",
+      "Hunza",
+      "Karakoram",
+      "Himalaya",
+      "Hindu Kush"
+    ],
+    "region": "Gilgit-Baltistan"
+  },
+  "verification": {
+    "google": "",
+    "bing": "",
+    "yandex": ""
+  },
+  "performance": {
+    "web_vitals_endpoint": "",
+    "service_worker": true
+  },
+  "ai": {
+    "allow_search_crawlers": true,
+    "allow_model_training": false,
+    "content_license": "All rights reserved. Public pages may be quoted with attribution and a link to the canonical URL."
+  },
+  "home_faqs": [
+    {
+      "question": "Can I request a private trip?",
+      "answer": "Yes. Share your dates, group size, destination and comfort preference for a current proposal."
+    },
+    {
+      "question": "Where is Karakoram Vision Pakistan based?",
+      "answer": "The company office is in Haji Gam, Sherthang, Skardu, Gilgit-Baltistan."
+    },
+    {
+      "question": "Are prices and routes confirmed online?",
+      "answer": "Website pages are planning information. Current prices, services, permits and road conditions are reconfirmed in writing before booking."
+    }
+  ],
+  "team": []
+}

@@ -2589,6 +2589,31 @@ content:
           - name: email
             label: Email
             type: string
+      - name: credentials
+        label: Licence and memberships
+        type: object
+        description: Shown at the bottom of every page.
+        fields:
+          - name: show
+            label: Show this
+            type: boolean
+          - name: licence_label
+            label: Licence label
+            type: string
+          - name: licence_number
+            label: Licence number
+            type: string
+          - name: memberships
+            label: Memberships
+            type: string
+            list: true
+          - name: registered_with
+            label: Registered with
+            type: string
+            list: true
+          - name: experience_note
+            label: Experience note
+            type: text
   - name: site_channels
     label: Contact channels & social
     type: file
