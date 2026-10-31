@@ -1,5 +1,5 @@
 ---
-title: Islamabad City Tour
+title: Islamabad
 permalink: /tours/islamabad-city-tour/
 layout: layouts/journey.njk
 service_type: tours
@@ -19,7 +19,7 @@ summary: >-
   Pakistan’s capital.
 cover_image: /assets/uploads/1793287396814-Faisal-Mosque.webp
 gallery: []
-duration: "1 Days"
+duration: 1 Days
 price_from: ""
 deposit: ""
 group_size: ""
@@ -50,14 +50,14 @@ highlights:
 included: []
 excluded: []
 packing_list:
-  - "Comfortable walking shoes and a pair of sandals"
-  - "Light jacket or fleece for the evenings"
-  - "Warm layer for high passes and early mornings"
-  - "Sun hat, sunglasses and high-factor sunscreen"
-  - "Refillable water bottle"
-  - "Personal medication and a small first-aid kit"
-  - "Power bank and a universal plug adapter"
-  - "Copy of passport and travel insurance details"
+  - Comfortable walking shoes and a pair of sandals
+  - Light jacket or fleece for the evenings
+  - Warm layer for high passes and early mornings
+  - Sun hat, sunglasses and high-factor sunscreen
+  - Refillable water bottle
+  - Personal medication and a small first-aid kit
+  - Power bank and a universal plug adapter
+  - Copy of passport and travel insurance details
 route_map_url: ""
 trip_leader:
   name: ""
@@ -99,8 +99,8 @@ key_facts:
   - label: Tour Duration
     value: 4-8
   - {}
-author: "Karakoram Vision Pakistan Private Limited"
-reviewed_by: "Karakoram Vision Pakistan Private Limited"
+author: Karakoram Vision Pakistan Private Limited
+reviewed_by: Karakoram Vision Pakistan Private Limited
 last_verified: "2026-10-29"
 sources: []
 seo:
@@ -114,6 +114,7 @@ body: ""
 menu_sections:
   - Cultural Tours
 ---
+
 
 
 <p>Discover the beauty of Islamabad, the capital city of Pakistan, with an unforgettable city tour. Explore iconic landmarks such as Faisal Mosque, Pakistan Monument, Daman-e-Koh, and the scenic Margalla Hills. Experience the city’s peaceful atmosphere, modern architecture, lush green landscapes, and rich cultural heritage. Our Islamabad City Tour offers a wonderful opportunity to enjoy the city’s famous attractions, capture beautiful memories, and experience the charm of Pakistan’s capital.</p>
