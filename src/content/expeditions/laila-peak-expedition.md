@@ -99,8 +99,63 @@ peak_class: Trekking peak (under 6,000m)
 menu_sections:
   - Best Sellers
   - All Fixed Departures
+itinerary:
+  - day: '01'
+    title: Arrival In Islamabad
+    description: Met at Islamabad airport and transferred to the hotel. Expedition paperwork and the climbing permit are finalised, and the team meets the liaison officer.
+    overnight: Hotel
+  - day: '02'
+    title: Flight to Skardu or drive to Chilas
+    description: The flight to Skardu when the weather allows; otherwise the two-day drive by road, starting with Chilas on the Karakoram Highway. Expeditions build this uncertainty into the schedule.
+    overnight: Hotel
+  - day: '03'
+    title: Free day in Skardu or drive to Skardu from Chilas Briefing in Skardu
+    description: A day in Skardu for the official briefing, final equipment checks and hiring whatever is still needed from the bazaar. Loads are packed for the porters and the kitchen team is assembled.
+    overnight: Hotel
+  - day: '04'
+    title: Drive to Hushe
+    description: By jeep up the Shyok and into the Hushe valley, a long rough drive ending at Hushe village beneath Masherbrum. Most of Baltistan’s high-altitude porters and guides come from here.
+    overnight: Camping
+  - day: '05'
+    title: Trek to Shaicho
+    description: On foot up the Hushe valley to Shaicho, a meadow camp beside the river with birch and juniper on the slopes. An easy day that gets the team walking together before the glacier.
+    altitude: 3,400 m
+    overnight: Camping
+  - day: '06'
+    title: Trek to Base Camp
+    description: Up onto the Gondogoro glacier and across to base camp below the peak. Laila stands directly above — a thin, leaning blade of rock and ice, one of the most photographed mountains in the Karakoram and one of the most committing of its size.
+    altitude: 4,200 m
+    overnight: Camping
+  - day: 07-25
+    title: Climbing days
+    description: The climbing period. Nineteen days gives room to establish the route, acclimatise on the lower slopes, wait out weather and make an attempt — and to make a second one if the first is turned back. The face is sustained steep ice and teams are self-sufficient above base camp. Base camp runs throughout with cook, kitchen and communications.
+    overnight: Base camp
+  - day: '26'
+    title: Trek back to Hushe
+    description: Down off the glacier and back to Hushe, the loads lighter and the valley green after weeks on ice.
+    overnight: Camping
+  - day: '27'
+    title: Drive back to Skardu and Debriefing
+    description: Jeeps back to Skardu, then the debriefing at the tourism office, which closes the expedition formally.
+    overnight: Hotel
+  - day: '28'
+    title: Fly to Islamabad or drive to Chilas.
+    description: The flight to Islamabad if it operates; otherwise the drive to Chilas and on the following day.
+    overnight: Hotel
+  - day: '29'
+    title: Sightseeing, or drive to Islamabad
+    description: A day in Islamabad — spare if the flight was delayed, and sightseeing if it was not.
+    overnight: Hotel
+  - day: '30'
+    title: Fly to your own destination.
+    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    overnight: Not applicable
+related:
+  - Nangma Valley Trek
+  - Khaplu and Shyok Valley Guide
+  - Trango Expedition
 ---
 
 
 
-<h2><strong>About this journey</strong></h2><p>Laila Peak is one of the most photographed mountains in Pakistan and one of the most recognisable shapes in the Karakoram - a thin, leaning spire above the Gondogoro glacier in the Hushe valley. Its north-west face has been both climbed and skied, and it remains a serious alpine objective rather than a trekking peak.</p><p><strong>What this programme is.</strong> Thirty days from Islamabad: road travel to Skardu and the Hushe valley, a few days of approach trekking up to the Gondogoro glacier that doubles as acclimatisation, the climbing period, and the return.</p><p><strong>Who it is for.</strong> Alpinists with solid snow and ice experience. The face is sustained and steep, and teams are expected to be self-sufficient on the route.</p><p><strong>What we provide.</strong> Permits and liaison officer where required, transport from Islamabad and Skardu, porters from Hushe, base camp with cook and kitchen, and the local knowledge of a team that works in this valley every season. Laila Peak combines naturally with a Gondogoro La crossing or with time in Nangma valley.</p><p><strong>Program</strong></p><p><strong>Day 01: Arrival&nbsp; In Islamabad</strong></p><p><strong>Day 02: Flight to Skardu or drive to Chilas</strong></p><p><strong>Day 03: Free day in Skardu or drive to Skardu from Chilas Briefing in Skardu</strong></p><p><strong>Day 04: Drive to Hushe</strong></p><p><strong>Day 05: Trek to Shaicho</strong></p><p><strong>Day 06: Trek &nbsp;to Base Camp</strong></p><p><strong>Day 07 to 25: Climbing&nbsp;&nbsp; days</strong></p><p><strong>Day 26: Trek back to Hushe</strong></p><p><strong>Day 27: Drive back to Skardu and Debriefing</strong></p><p><strong>Day 28: Fly to Islamabad or drive to Chilas.</strong></p><p><strong>Day 29: Sightseeing, or drive to Islamabad&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p><p><strong>Day 30: Fly to your own destination.</strong></p><p></p><h2><strong>Planning notes:</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel:</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p><h2><strong>Related journeys</strong></h2><ul><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/trekking/nangma-valley-trek/">Nangma Valley trek</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/destinations/khaplu/">Khaplu travel guide</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/expeditions/trango-expedition/">Trango Tower expedition</a></p></li></ul><p></p>
+<h2><strong>About this journey</strong></h2><p>Laila Peak is one of the most photographed mountains in Pakistan and one of the most recognisable shapes in the Karakoram - a thin, leaning spire above the Gondogoro glacier in the Hushe valley. Its north-west face has been both climbed and skied, and it remains a serious alpine objective rather than a trekking peak.</p><p><strong>What this programme is.</strong> Thirty days from Islamabad: road travel to Skardu and the Hushe valley, a few days of approach trekking up to the Gondogoro glacier that doubles as acclimatisation, the climbing period, and the return.</p><p><strong>Who it is for.</strong> Alpinists with solid snow and ice experience. The face is sustained and steep, and teams are expected to be self-sufficient on the route.</p><p><strong>What we provide.</strong> Permits and liaison officer where required, transport from Islamabad and Skardu, porters from Hushe, base camp with cook and kitchen, and the local knowledge of a team that works in this valley every season. Laila Peak combines naturally with a Gondogoro La crossing or with time in Nangma valley.</p><p><strong>Program</strong></p><h2><strong>Planning notes:</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel:</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>

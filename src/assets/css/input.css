@@ -1658,3 +1658,134 @@ h1, h2, h3, h4,
 .bk-credentials strong { color: rgba(255, 255, 255, 0.92); font-weight: 600; }
 .bk-credentials-note { margin-top: 0.2rem !important; opacity: 0.82; }
 /* === Credentials END === */
+
+
+/* === Itinerary (V11.22) === */
+/* Desktop par teen khaane, mobile par alag alag card.
+   Table mobile par parhi nahi jati, is liye grid. */
+
+.bk-itin { margin-top: 1.25rem; border: 1px solid #e2e8f0; border-radius: 14px; overflow: hidden; }
+
+.bk-itin-head {
+  display: none;
+  background: #0f172a;
+  color: #ffffff;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.bk-itin-row {
+  display: grid;
+  gap: .5rem 1rem;
+  padding: 1rem 1.1rem;
+  border-top: 1px solid #e2e8f0;
+  background: #ffffff;
+}
+.bk-itin-row:first-of-type { border-top: 0; }
+.bk-itin-row:nth-of-type(even) { background: #f8fafc; }
+
+.bk-itin-day > span {
+  display: inline-grid;
+  place-items: center;
+  min-width: 2.2rem;
+  padding: .25rem .5rem;
+  border-radius: 999px;
+  background: #0f172a;
+  color: #ffffff;
+  font-size: .78rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.bk-itin-main h3 { margin: 0; font-size: 1rem; font-weight: 600; color: #0f172a; }
+
+.bk-itin-meta { display: flex; flex-wrap: wrap; gap: .35rem; margin: .4rem 0 0; }
+.bk-itin-meta span {
+  padding: .15rem .5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #475569;
+  font-size: .72rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.bk-itin-map {
+  padding: .15rem .5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1d4ed8;
+  font-size: .72rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.bk-itin-map:hover,
+.bk-itin-map:focus-visible { background: #eff6ff; border-color: #93c5fd; }
+
+.bk-itin-text { margin: .55rem 0 0; color: #475569; line-height: 1.65; font-size: .92rem; }
+
+.bk-itin-night-label {
+  display: inline-block;
+  margin-right: .35rem;
+  color: #64748b;
+  font-size: .7rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.bk-itin-night-value { color: #0f172a; font-weight: 600; font-size: .85rem; }
+
+@media (min-width: 820px) {
+  .bk-itin-head { display: grid; }
+  .bk-itin-head,
+  .bk-itin-row {
+    grid-template-columns: 5rem minmax(0, 1fr) 9rem;
+    align-items: start;
+  }
+  .bk-itin-head span { padding: .6rem 1.1rem; }
+  .bk-itin-night-label { display: none; }
+  .bk-itin-night { padding-top: .15rem; }
+}
+/* === Itinerary END === */
+
+
+/* === Related journeys (V11.23) === */
+.bk-related {
+  display: grid;
+  gap: .6rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin: 1.1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bk-related-item > a {
+  display: block;
+  height: 100%;
+  padding: .85rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #ffffff;
+  text-decoration: none;
+  transition: border-color .15s ease, background-color .15s ease;
+}
+.bk-related-item > a:hover,
+.bk-related-item > a:focus-visible { border-color: #cbd5e1; background: #f8fafc; }
+
+.bk-related-title {
+  display: block;
+  color: #0f172a;
+  font-weight: 600;
+  font-size: .95rem;
+  line-height: 1.4;
+}
+.bk-related-meta {
+  display: block;
+  margin-top: .25rem;
+  color: #64748b;
+  font-size: .78rem;
+}
+/* === Related journeys END === */

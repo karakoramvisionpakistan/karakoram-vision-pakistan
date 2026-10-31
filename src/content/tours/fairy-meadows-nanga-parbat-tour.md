@@ -87,6 +87,43 @@ service_label: Tours
 duration_days: 8
 menu_sections:
   - Best Sellers
+itinerary:
+  - day: '01'
+    title: Arrive in Islamabad
+    description: 'Met at Islamabad airport and driven to the hotel. The evening is for the briefing: the road north, the jeep ride at Raikot, and the walk up to Fairy Meadows that follows it.'
+    overnight: Hotel
+  - day: '02'
+    title: Drive to Chilas or Raikot
+    description: North on the Karakoram Highway into the Indus gorges, around nine hours with stops. Where the night is spent depends on the season and the road — Chilas on the highway, or closer to the Raikot bridge.
+    overnight: Hotel
+  - day: '03'
+    title: Raikot Bridge to Fairy Meadows
+    description: A jeep from Raikot bridge up one of the more alarming roads in Pakistan, then an hour or two on foot or by pony to Fairy Meadows. The meadow opens suddenly, and the Raikot face of Nanga Parbat fills the head of the valley.
+    overnight: Guesthouse
+  - day: '04'
+    title: Beyal Camp walk
+    description: A day walk up the meadow to Beyal camp and on towards the Nanga Parbat viewpoint, three to four hours each way on an easy path through birch and pasture. The face is closest here, and the ice falls audibly through the afternoon.
+    overnight: Camping
+  - day: '05'
+    title: Fairy Meadows leisure
+    description: A free day. Most people walk a little, photograph a great deal and sleep in the afternoon. The light on the Raikot face at dawn and at dusk is the reason to stay the second night.
+    overnight: Guesthouse
+  - day: '06'
+    title: Return to Chilas/Naran
+    description: Down to the Raikot bridge on foot and by jeep, and back onto the Karakoram Highway. Where the group stops depends on the season — Chilas, or over the Babusar pass to Naran when it is open.
+    overnight: Hotel
+  - day: '07'
+    title: Drive to Islamabad
+    description: The last stretch south through the Hazara hills, arriving in Islamabad in the afternoon. The evening is free.
+    overnight: Hotel
+  - day: '08'
+    title: Drop to the Airport
+    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    overnight: Not applicable
+related:
+  - Fairy Meadows and Nanga Parbat Guide
+  - Fairy Meadows and Nanga Parbat Base Camp Trek
+  - Nanga Parbat Expedition
 ---
 
 
@@ -99,9 +136,6 @@ menu_sections:
 <p><strong>What we handle.</strong> Transport along the Karakoram Highway, the local jeep to Tato, huts or tented camp at Fairy Meadows, meals and a guide. Accommodation up there is simple and cold at night - the view from the door is the reason people come.</p>
 <!-- /page-intro -->
 
-<p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><p><strong>Day 1: Arrive in Islamabad</strong></p><h3><strong>Day 2: Drive to Chilas or Raikot</strong></h3><p>Travel along the Karakoram Highway with planned rest stops.</p><h3><strong>Day 3: Raikot Bridge to Fairy Meadows</strong></h3><p>Local jeep transfer to Tattu followed by the walk to Fairy Meadows.</p><h3><strong>Day 4: Beyal Camp walk</strong></h3><p>A guided day walk toward Beyal Camp, adjusted to guest fitness.</p><h3><strong>Day 5: Fairy Meadows leisure</strong></h3><p>Photography, village interaction and recovery time.</p><h3><strong>Day 6: Return to Chilas/Naran</strong></h3><p>Walk and jeep transfer back to the highway.</p><h3><strong>Day 7: Drive to Islamabad</strong></h3><p>5-6 hours drive </p><p><strong>Day 8: Drop to the Airport </strong></p><p>for your own destinations </p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+<p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
 
 <!-- related-journeys -->
-<h2><strong>Related journeys</strong></h2>
-<ul><li><a href="/destinations/fairy-meadows/">Fairy Meadows travel guide</a></li><li><a href="/trekking/fairy-meadows-base-camp-trek/">Fairy Meadows base camp trek</a></li><li><a href="/expeditions/nanga-parbat-expedition/">Nanga Parbat expedition</a></li></ul>
-<!-- /related-journeys -->

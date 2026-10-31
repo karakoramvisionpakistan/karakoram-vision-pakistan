@@ -270,6 +270,104 @@ content:
           - name: note
             label: Note
             type: text
+      - name: _h_itinerary
+        label: Itinerary
+        type: heading
+      - name: itinerary
+        label: Itinerary, day by day
+        type: object
+        list: true
+        description: One row per day. The day number, what happens, and where the group sleeps. Altitude, distance and walking hours are what set a good itinerary apart — fill them where you know them.
+        fields:
+          - name: day
+            label: Day
+            type: string
+            description: Such as 01, or 04-05 for two days together.
+          - name: title
+            label: Programme
+            type: string
+            description: 'One line: Askole to Jhola, or Rest and acclimatisation at Urdukas.'
+          - name: description
+            label: What happens that day
+            type: text
+            description: Two or three sentences. The ground underfoot, what you see, how the day feels. This is what readers and search engines are looking for.
+          - name: altitude
+            label: Altitude
+            type: string
+            description: Write it in metres, such as 3,420 m. The feet figure is worked out and shown on its own, so you never have to convert anything.
+          - name: coords
+            label: GPS coordinates
+            type: string
+            description: 'Optional, and worth filling where your guides have them: the latitude and longitude of that night''s camp, such as 35.8825, 76.5133. It puts the camp on the map for the reader and into the structured data for Google. No other operator in Pakistan publishes these.'
+          - name: distance
+            label: Distance
+            type: string
+            description: Such as 12 km
+          - name: hours
+            label: Walking hours
+            type: string
+            description: Such as 5-6 hrs
+          - name: overnight
+            label: Over night
+            type: select
+            options:
+              - Hotel
+              - Guesthouse
+              - Camping
+              - Base camp
+              - Tented camp
+              - Flight
+              - Not applicable
+      - name: related
+        label: Related journeys and guides
+        type: select
+        list: true
+        options:
+          - Autumn Colours of Hunza and Skardu
+          - Best Time to Visit Skardu
+          - Biafo Hisper Pass Trek
+          - Broad Peak Expedition
+          - Car
+          - Cycling on KKH
+          - Deosai High Plateau Trip
+          - Deosai National Park and Khaplu Tour
+          - Deosai National Park Guide
+          - Fairy Meadows and Nanga Parbat Base Camp Trek
+          - Fairy Meadows and Nanga Parbat Guide
+          - Fairy Meadows and Nanga Parbat View Tour
+          - Gasherbrum II Expedition
+          - Gasherbrum-I
+          - Gilgit-Baltistan Grand Circuit
+          - Gondogoro La Circuit Trek
+          - How to Prepare for the K2 Base Camp Trek
+          - Hunza Valley Heritage Tour
+          - Hunza Valley Travel Guide
+          - Ibex Hunting in GB
+          - Islamabad
+          - K2 Base Camp Trek
+          - K2 Expedition
+          - Khaplu and Shyok Valley Guide
+          - Lahore
+          - Laila Peak Expedition
+          - Majrooh Top Trek
+          - Mountains & Villages Safari
+          - Nanga Parbat Expedition
+          - Nangma Valley Trek
+          - Northern Pakistan Packing Checklist
+          - Rakaposhi Base Camp Trek
+          - Responsible Travel in Gilgit-Baltistan
+          - Rush Lake Trek
+          - Shigar Valley Guide
+          - Shigar, Basho and Khaplu Adventure Trip
+          - Skardu and Shigar Valley Explorer
+          - Skardu Travel Guide
+          - Spantik Peak Expedition
+          - Spring Bloosom Tour
+          - Thaley La Trek
+          - Toyota Hiace Van
+          - Toyota Prado 4x4
+          - Trango Expedition
+        description: Pick as many as you like — other trips, destination guides or articles. They appear under the itinerary as links.
       - name: _h_highlights_inclusions_packin
         label: Highlights, inclusions & packing
         type: heading
@@ -643,6 +741,104 @@ content:
           - name: note
             label: Note
             type: text
+      - name: _h_itinerary
+        label: Itinerary
+        type: heading
+      - name: itinerary
+        label: Itinerary, day by day
+        type: object
+        list: true
+        description: One row per day. The day number, what happens, and where the group sleeps. Altitude, distance and walking hours are what set a good itinerary apart — fill them where you know them.
+        fields:
+          - name: day
+            label: Day
+            type: string
+            description: Such as 01, or 04-05 for two days together.
+          - name: title
+            label: Programme
+            type: string
+            description: 'One line: Askole to Jhola, or Rest and acclimatisation at Urdukas.'
+          - name: description
+            label: What happens that day
+            type: text
+            description: Two or three sentences. The ground underfoot, what you see, how the day feels. This is what readers and search engines are looking for.
+          - name: altitude
+            label: Altitude
+            type: string
+            description: Write it in metres, such as 3,420 m. The feet figure is worked out and shown on its own, so you never have to convert anything.
+          - name: coords
+            label: GPS coordinates
+            type: string
+            description: 'Optional, and worth filling where your guides have them: the latitude and longitude of that night''s camp, such as 35.8825, 76.5133. It puts the camp on the map for the reader and into the structured data for Google. No other operator in Pakistan publishes these.'
+          - name: distance
+            label: Distance
+            type: string
+            description: Such as 12 km
+          - name: hours
+            label: Walking hours
+            type: string
+            description: Such as 5-6 hrs
+          - name: overnight
+            label: Over night
+            type: select
+            options:
+              - Hotel
+              - Guesthouse
+              - Camping
+              - Base camp
+              - Tented camp
+              - Flight
+              - Not applicable
+      - name: related
+        label: Related journeys and guides
+        type: select
+        list: true
+        options:
+          - Autumn Colours of Hunza and Skardu
+          - Best Time to Visit Skardu
+          - Biafo Hisper Pass Trek
+          - Broad Peak Expedition
+          - Car
+          - Cycling on KKH
+          - Deosai High Plateau Trip
+          - Deosai National Park and Khaplu Tour
+          - Deosai National Park Guide
+          - Fairy Meadows and Nanga Parbat Base Camp Trek
+          - Fairy Meadows and Nanga Parbat Guide
+          - Fairy Meadows and Nanga Parbat View Tour
+          - Gasherbrum II Expedition
+          - Gasherbrum-I
+          - Gilgit-Baltistan Grand Circuit
+          - Gondogoro La Circuit Trek
+          - How to Prepare for the K2 Base Camp Trek
+          - Hunza Valley Heritage Tour
+          - Hunza Valley Travel Guide
+          - Ibex Hunting in GB
+          - Islamabad
+          - K2 Base Camp Trek
+          - K2 Expedition
+          - Khaplu and Shyok Valley Guide
+          - Lahore
+          - Laila Peak Expedition
+          - Majrooh Top Trek
+          - Mountains & Villages Safari
+          - Nanga Parbat Expedition
+          - Nangma Valley Trek
+          - Northern Pakistan Packing Checklist
+          - Rakaposhi Base Camp Trek
+          - Responsible Travel in Gilgit-Baltistan
+          - Rush Lake Trek
+          - Shigar Valley Guide
+          - Shigar, Basho and Khaplu Adventure Trip
+          - Skardu and Shigar Valley Explorer
+          - Skardu Travel Guide
+          - Spantik Peak Expedition
+          - Spring Bloosom Tour
+          - Thaley La Trek
+          - Toyota Hiace Van
+          - Toyota Prado 4x4
+          - Trango Expedition
+        description: Pick as many as you like — other trips, destination guides or articles. They appear under the itinerary as links.
       - name: _h_highlights_inclusions_packin
         label: Highlights, inclusions & packing
         type: heading
@@ -1029,6 +1225,104 @@ content:
           - name: note
             label: Note
             type: text
+      - name: _h_itinerary
+        label: Itinerary
+        type: heading
+      - name: itinerary
+        label: Itinerary, day by day
+        type: object
+        list: true
+        description: One row per day. The day number, what happens, and where the group sleeps. Altitude, distance and walking hours are what set a good itinerary apart — fill them where you know them.
+        fields:
+          - name: day
+            label: Day
+            type: string
+            description: Such as 01, or 04-05 for two days together.
+          - name: title
+            label: Programme
+            type: string
+            description: 'One line: Askole to Jhola, or Rest and acclimatisation at Urdukas.'
+          - name: description
+            label: What happens that day
+            type: text
+            description: Two or three sentences. The ground underfoot, what you see, how the day feels. This is what readers and search engines are looking for.
+          - name: altitude
+            label: Altitude
+            type: string
+            description: Write it in metres, such as 3,420 m. The feet figure is worked out and shown on its own, so you never have to convert anything.
+          - name: coords
+            label: GPS coordinates
+            type: string
+            description: 'Optional, and worth filling where your guides have them: the latitude and longitude of that night''s camp, such as 35.8825, 76.5133. It puts the camp on the map for the reader and into the structured data for Google. No other operator in Pakistan publishes these.'
+          - name: distance
+            label: Distance
+            type: string
+            description: Such as 12 km
+          - name: hours
+            label: Walking hours
+            type: string
+            description: Such as 5-6 hrs
+          - name: overnight
+            label: Over night
+            type: select
+            options:
+              - Hotel
+              - Guesthouse
+              - Camping
+              - Base camp
+              - Tented camp
+              - Flight
+              - Not applicable
+      - name: related
+        label: Related journeys and guides
+        type: select
+        list: true
+        options:
+          - Autumn Colours of Hunza and Skardu
+          - Best Time to Visit Skardu
+          - Biafo Hisper Pass Trek
+          - Broad Peak Expedition
+          - Car
+          - Cycling on KKH
+          - Deosai High Plateau Trip
+          - Deosai National Park and Khaplu Tour
+          - Deosai National Park Guide
+          - Fairy Meadows and Nanga Parbat Base Camp Trek
+          - Fairy Meadows and Nanga Parbat Guide
+          - Fairy Meadows and Nanga Parbat View Tour
+          - Gasherbrum II Expedition
+          - Gasherbrum-I
+          - Gilgit-Baltistan Grand Circuit
+          - Gondogoro La Circuit Trek
+          - How to Prepare for the K2 Base Camp Trek
+          - Hunza Valley Heritage Tour
+          - Hunza Valley Travel Guide
+          - Ibex Hunting in GB
+          - Islamabad
+          - K2 Base Camp Trek
+          - K2 Expedition
+          - Khaplu and Shyok Valley Guide
+          - Lahore
+          - Laila Peak Expedition
+          - Majrooh Top Trek
+          - Mountains & Villages Safari
+          - Nanga Parbat Expedition
+          - Nangma Valley Trek
+          - Northern Pakistan Packing Checklist
+          - Rakaposhi Base Camp Trek
+          - Responsible Travel in Gilgit-Baltistan
+          - Rush Lake Trek
+          - Shigar Valley Guide
+          - Shigar, Basho and Khaplu Adventure Trip
+          - Skardu and Shigar Valley Explorer
+          - Skardu Travel Guide
+          - Spantik Peak Expedition
+          - Spring Bloosom Tour
+          - Thaley La Trek
+          - Toyota Hiace Van
+          - Toyota Prado 4x4
+          - Trango Expedition
+        description: Pick as many as you like — other trips, destination guides or articles. They appear under the itinerary as links.
       - name: _h_highlights_inclusions_packin
         label: Highlights, inclusions & packing
         type: heading
@@ -1401,6 +1695,104 @@ content:
           - name: note
             label: Note
             type: text
+      - name: _h_itinerary
+        label: Itinerary
+        type: heading
+      - name: itinerary
+        label: Itinerary, day by day
+        type: object
+        list: true
+        description: One row per day. The day number, what happens, and where the group sleeps. Altitude, distance and walking hours are what set a good itinerary apart — fill them where you know them.
+        fields:
+          - name: day
+            label: Day
+            type: string
+            description: Such as 01, or 04-05 for two days together.
+          - name: title
+            label: Programme
+            type: string
+            description: 'One line: Askole to Jhola, or Rest and acclimatisation at Urdukas.'
+          - name: description
+            label: What happens that day
+            type: text
+            description: Two or three sentences. The ground underfoot, what you see, how the day feels. This is what readers and search engines are looking for.
+          - name: altitude
+            label: Altitude
+            type: string
+            description: Write it in metres, such as 3,420 m. The feet figure is worked out and shown on its own, so you never have to convert anything.
+          - name: coords
+            label: GPS coordinates
+            type: string
+            description: 'Optional, and worth filling where your guides have them: the latitude and longitude of that night''s camp, such as 35.8825, 76.5133. It puts the camp on the map for the reader and into the structured data for Google. No other operator in Pakistan publishes these.'
+          - name: distance
+            label: Distance
+            type: string
+            description: Such as 12 km
+          - name: hours
+            label: Walking hours
+            type: string
+            description: Such as 5-6 hrs
+          - name: overnight
+            label: Over night
+            type: select
+            options:
+              - Hotel
+              - Guesthouse
+              - Camping
+              - Base camp
+              - Tented camp
+              - Flight
+              - Not applicable
+      - name: related
+        label: Related journeys and guides
+        type: select
+        list: true
+        options:
+          - Autumn Colours of Hunza and Skardu
+          - Best Time to Visit Skardu
+          - Biafo Hisper Pass Trek
+          - Broad Peak Expedition
+          - Car
+          - Cycling on KKH
+          - Deosai High Plateau Trip
+          - Deosai National Park and Khaplu Tour
+          - Deosai National Park Guide
+          - Fairy Meadows and Nanga Parbat Base Camp Trek
+          - Fairy Meadows and Nanga Parbat Guide
+          - Fairy Meadows and Nanga Parbat View Tour
+          - Gasherbrum II Expedition
+          - Gasherbrum-I
+          - Gilgit-Baltistan Grand Circuit
+          - Gondogoro La Circuit Trek
+          - How to Prepare for the K2 Base Camp Trek
+          - Hunza Valley Heritage Tour
+          - Hunza Valley Travel Guide
+          - Ibex Hunting in GB
+          - Islamabad
+          - K2 Base Camp Trek
+          - K2 Expedition
+          - Khaplu and Shyok Valley Guide
+          - Lahore
+          - Laila Peak Expedition
+          - Majrooh Top Trek
+          - Mountains & Villages Safari
+          - Nanga Parbat Expedition
+          - Nangma Valley Trek
+          - Northern Pakistan Packing Checklist
+          - Rakaposhi Base Camp Trek
+          - Responsible Travel in Gilgit-Baltistan
+          - Rush Lake Trek
+          - Shigar Valley Guide
+          - Shigar, Basho and Khaplu Adventure Trip
+          - Skardu and Shigar Valley Explorer
+          - Skardu Travel Guide
+          - Spantik Peak Expedition
+          - Spring Bloosom Tour
+          - Thaley La Trek
+          - Toyota Hiace Van
+          - Toyota Prado 4x4
+          - Trango Expedition
+        description: Pick as many as you like — other trips, destination guides or articles. They appear under the itinerary as links.
       - name: _h_highlights_inclusions_packin
         label: Highlights, inclusions & packing
         type: heading
@@ -1770,6 +2162,104 @@ content:
           - name: note
             label: Note
             type: text
+      - name: _h_itinerary
+        label: Itinerary
+        type: heading
+      - name: itinerary
+        label: Itinerary, day by day
+        type: object
+        list: true
+        description: One row per day. The day number, what happens, and where the group sleeps. Altitude, distance and walking hours are what set a good itinerary apart — fill them where you know them.
+        fields:
+          - name: day
+            label: Day
+            type: string
+            description: Such as 01, or 04-05 for two days together.
+          - name: title
+            label: Programme
+            type: string
+            description: 'One line: Askole to Jhola, or Rest and acclimatisation at Urdukas.'
+          - name: description
+            label: What happens that day
+            type: text
+            description: Two or three sentences. The ground underfoot, what you see, how the day feels. This is what readers and search engines are looking for.
+          - name: altitude
+            label: Altitude
+            type: string
+            description: Write it in metres, such as 3,420 m. The feet figure is worked out and shown on its own, so you never have to convert anything.
+          - name: coords
+            label: GPS coordinates
+            type: string
+            description: 'Optional, and worth filling where your guides have them: the latitude and longitude of that night''s camp, such as 35.8825, 76.5133. It puts the camp on the map for the reader and into the structured data for Google. No other operator in Pakistan publishes these.'
+          - name: distance
+            label: Distance
+            type: string
+            description: Such as 12 km
+          - name: hours
+            label: Walking hours
+            type: string
+            description: Such as 5-6 hrs
+          - name: overnight
+            label: Over night
+            type: select
+            options:
+              - Hotel
+              - Guesthouse
+              - Camping
+              - Base camp
+              - Tented camp
+              - Flight
+              - Not applicable
+      - name: related
+        label: Related journeys and guides
+        type: select
+        list: true
+        options:
+          - Autumn Colours of Hunza and Skardu
+          - Best Time to Visit Skardu
+          - Biafo Hisper Pass Trek
+          - Broad Peak Expedition
+          - Car
+          - Cycling on KKH
+          - Deosai High Plateau Trip
+          - Deosai National Park and Khaplu Tour
+          - Deosai National Park Guide
+          - Fairy Meadows and Nanga Parbat Base Camp Trek
+          - Fairy Meadows and Nanga Parbat Guide
+          - Fairy Meadows and Nanga Parbat View Tour
+          - Gasherbrum II Expedition
+          - Gasherbrum-I
+          - Gilgit-Baltistan Grand Circuit
+          - Gondogoro La Circuit Trek
+          - How to Prepare for the K2 Base Camp Trek
+          - Hunza Valley Heritage Tour
+          - Hunza Valley Travel Guide
+          - Ibex Hunting in GB
+          - Islamabad
+          - K2 Base Camp Trek
+          - K2 Expedition
+          - Khaplu and Shyok Valley Guide
+          - Lahore
+          - Laila Peak Expedition
+          - Majrooh Top Trek
+          - Mountains & Villages Safari
+          - Nanga Parbat Expedition
+          - Nangma Valley Trek
+          - Northern Pakistan Packing Checklist
+          - Rakaposhi Base Camp Trek
+          - Responsible Travel in Gilgit-Baltistan
+          - Rush Lake Trek
+          - Shigar Valley Guide
+          - Shigar, Basho and Khaplu Adventure Trip
+          - Skardu and Shigar Valley Explorer
+          - Skardu Travel Guide
+          - Spantik Peak Expedition
+          - Spring Bloosom Tour
+          - Thaley La Trek
+          - Toyota Hiace Van
+          - Toyota Prado 4x4
+          - Trango Expedition
+        description: Pick as many as you like — other trips, destination guides or articles. They appear under the itinerary as links.
       - name: _h_highlights_inclusions_packin
         label: Highlights, inclusions & packing
         type: heading

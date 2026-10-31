@@ -106,7 +106,112 @@ menu_sections:
   - Best Sellers
   - All Fixed Departures
   - K2 Treks
+itinerary:
+  - day: '01'
+    title: Arrive in Islamabad
+    description: Drop to the hotel and in the evening will do some sightseeing. in Islamabad.
+    overnight: Hotel
+  - day: '02'
+    title: Fly to Skardu
+    description: The morning flight to Skardu runs along Nanga Parbat and over the Indus gorges when the weather allows, and is cancelled when it does not. If that happens the alternative is the road, two days along the Karakoram Highway, and the programme absorbs it.
+    overnight: Hotel
+  - day: '03'
+    title: Preparation day
+    description: 'A day in Skardu for the things that must be done before a Baltoro trek: trekker registration, Central Karakoram National Park permits, hiring any outstanding equipment in the bazaar, and the briefing with your guide. The porter and kitchen team is put together.'
+    overnight: Hotel
+  - day: '04'
+    title: Drive to Askoli
+    description: Six to seven hours by jeep up the Braldu valley, the road narrowing to a ledge cut above the river. Askole is the last village and the roadhead for the whole Baltoro. Camp beside the village; loads are weighed and porters registered.
+    altitude: 3,048 m
+    overnight: Camping
+  - day: '05'
+    title: Trek to Jula
+    description: An easy first day on foot along the Braldu, crossing the river by cable bridge. The ground is stony and the valley hot and dry at this height, which surprises people who came for a glacier trek.
+    altitude: 3,200 m
+    hours: 4-5 hrs
+    overnight: Camping
+  - day: '06'
+    title: Trek to Paiju
+    description: A longer day up the valley with the Trango group coming into view ahead and the dirty snout of the Baltoro closing the head of the valley. Paiju has running water and the last trees you will see for a fortnight.
+    altitude: 3,450 m
+    hours: 6-7 hrs
+    overnight: Camping
+  - day: '07'
+    title: Rest day at Paiju
+    description: A day at Paiju for acclimatisation, while the porters bake bread for the glacier and loads are reorganised for the ice. Short walks up the hillside behind camp help the body adjust and give the first clear sight of the Baltoro.
+    altitude: 3,450 m
+    overnight: Camping
+  - day: '08'
+    title: Trek to Khoburtze
+    description: On to the Baltoro. The climb over the glacier snout is awkward going, loose rubble lying on ice, and then the route follows the southern side of the glacier. Khoburtse is a small camp on a moraine shelf.
+    altitude: 3,800 m
+    overnight: Camping
+  - day: '09'
+    title: Trek to Urdukas
+    description: A short, steep day to Urdukas, a series of grassy ledges set high above the glacier and used as a camp for more than a century. The Trango Towers and the Cathedral spires stand directly across the ice.
+    altitude: 4,130 m
+    overnight: Camping
+  - day: '10'
+    title: Trek to Goro-I
+    description: Out onto the open glacier, walking on ice and moraine all day with Masherbrum rising to the south. The surroundings reduce to rock, ice and sky, and camp is pitched on the glacier.
+    altitude: 4,300 m
+    overnight: Camping
+  - day: '11'
+    title: Trek to Concordia
+    description: The day the mountain appears. Where the Godwin-Austen glacier joins the Baltoro, K2 comes into view at the head of the valley with Broad Peak and the Gasherbrums around it. Concordia is a camp on the ice and one of the great mountain amphitheatres on earth.
+    altitude: 4,600 m
+    overnight: Camping
+  - day: '12'
+    title: Rest day at Concordia
+    description: A day at Concordia to acclimatise before the pass. Those with the legs for it can walk up the Godwin-Austen towards K2 base camp and back; the rest stay and watch the light move across the faces. Your guide assesses the group for the crossing.
+    altitude: 4,600 m
+    overnight: Camping
+  - day: '13'
+    title: Trek to Ali camp
+    description: A short day south towards the Gondogoro glacier to Ali Camp, the staging point for the pass. Everyone eats early and sleeps early — the crossing begins in the small hours, while the snow is still frozen hard.
+    altitude: 5,000 m
+    overnight: Camping
+  - day: '14'
+    title: Trek to Khuspang over Gondogoro Pass
+    description: An alpine start around one in the morning, climbing the snow slope to the Gondogoro La by first light. From the top, four of the world’s fourteen eight-thousanders are in sight at once. Fixed ropes are used on both sides and the descent to Khuspang is long and steep. The pass is crossed only if snow conditions and the group allow, and your guide’s decision on that is final.
+    altitude: 5,585 m
+    overnight: Camping
+  - day: '15'
+    title: Free day at Khuspang or climb Gondogoro peak
+    description: A day at Khuspang beneath Laila Peak. Strong parties can attempt Gondogoro Peak from here; everyone else rests, and after yesterday most choose to.
+    altitude: 4,650 m
+    overnight: Camping
+  - day: '16'
+    title: Trek to Shaicho
+    description: Down the Gondogoro glacier and into the Hushe valley, and the first green since Paiju — juniper, birch and grazing animals. Shaicho is a meadow camp beside the river.
+    altitude: 3,400 m
+    overnight: Camping
+  - day: '17'
+    title: Trek to Hushe
+    description: An easy last walk down the valley to Hushe, the village that many of Baltistan’s high-altitude porters and guides come from. The trek ends here.
+    altitude: 3,050 m
+    overnight: Camping
+  - day: '18'
+    title: Drive to Skardu
+    description: Jeeps down the Hushe valley to the Shyok and on to Skardu, six to seven hours in all. Hotel, a shower, and the debriefing at the tourism office.
+    overnight: Hotel
+  - day: '19'
+    title: Fly to Islamabad or drive to Chilas.
+    description: If the Skardu flight operates you are in Islamabad by lunchtime. If it does not, the group drives to Chilas and continues the following day — which is exactly why the reserve day is there.
+    overnight: Hotel
+  - day: '20'
+    title: Reserve day
+    description: A spare day held back for the Skardu flight, which is cancelled often enough that it should be planned for rather than hoped against. If it is not needed, it is a free day in Islamabad.
+    overnight: Hotel
+  - day: '21'
+    title: Fly out
+    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    overnight: Not applicable
+related:
+  - K2 Base Camp Trek
+  - Biafo Hisper Pass Trek
+  - Skardu Travel Guide
 ---
 
 
-<h2><strong>About this journey</strong></h2><p>The Gondogoro La circuit takes everything the K2 base camp trek offers and adds the finest viewpoint in the Karakoram. The route in is the same - Askole, the Baltoro, Concordia, the K2 base camp area - but instead of retracing its steps, the group crosses the Gondogoro La into the Hushe valley. From the pass, in the early morning, K2, Broad Peak, Gasherbrum I and II and Masherbrum stand around you at once.</p><p><strong>Who it suits.</strong> Strong trekkers who want more than a there-and-back route. The crossing is a pre-dawn climb on snow and ice using fixed ropes, harness and crampons, led by our climbing guides. Prior glacier experience helps but is not essential; fitness and a steady head on steep ground matter more.</p><p><strong>When to go.</strong> Mid-July to late August, when the pass is most likely to be in condition. The decision to cross is always made on the mountain, and the itinerary carries spare days so that a closed pass does not end the trip - the group returns down the Baltoro instead.</p><p><strong>What we handle.</strong> Permits, park fees, transport, porters, camp equipment, cook, trekking guide and the climbing guides who fix the ropes on the pass.</p><p>A strenuous Baltoro circuit that links Concordia with the Hushe Valley through Gondogoro La when conditions and team readiness permit. KVP plans this programme around confirmed road access, accommodation, weather and local operating conditions. The pass crossing is never guaranteed and depends on snow, weather, fixed-rope condition and guide assessment.</p><p><strong>Program</strong></p><p><strong>Day 1: Arrive in Islamabad</strong></p><p>Drop to the hotel and in the evening will do some sightseeing</p><p>in Islamabad</p><p><strong>Day 2: Fly to Skardu</strong></p><p><strong>Day 3: Preparation day</strong></p><p><strong>Day 4: Drive to Askoli</strong></p><p><strong>Day 5: Trek to Jula</strong></p><p><strong>Day 6: Trek to Paiju</strong></p><p><strong>Day 7: Rest day at Paiju</strong></p><p><strong>Day 8: Trek to Khoburtze</strong></p><p><strong>Day 9: Trek to Urdukas&nbsp;</strong></p><p><strong>Day 10: Trek to Goro-I</strong></p><p><strong>Day 11: Trek to Concordia&nbsp;</strong></p><p><strong>Day 12: Rest day at Concordia</strong></p><p><strong>Day 13: Trek to Ali camp</strong></p><p><strong>Day 14: Trek to Khuspang over Gondogoro Pass</strong></p><p><strong>Day 15: Free day at Khuspang or climb Gondogoro peak</strong></p><p><strong>Day 16: Trek to Shaicho</strong></p><p><strong>Day 17: Trek to Hushe</strong></p><p><strong>Day 18: Drive to Skardu</strong></p><p><strong>Day 19: Fly to Islamabad or drive to Chilas.</strong></p><p><strong>Day 20: Reserve day</strong></p><p><strong>Day 21: Fly out</strong></p><p>Drop to the airport for your own destinations</p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p><h2><strong>Related journeys</strong></h2><ul><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/trekking/k2-base-camp-trek/">K2 base camp trek</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/trekking/biafo-hispar-trek/">Biafo Hispar Pass trek</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/destinations/skardu/">Skardu travel guide</a></p></li></ul><p></p>
+<h2><strong>About this journey</strong></h2><p>The Gondogoro La circuit takes everything the K2 base camp trek offers and adds the finest viewpoint in the Karakoram. The route in is the same - Askole, the Baltoro, Concordia, the K2 base camp area - but instead of retracing its steps, the group crosses the Gondogoro La into the Hushe valley. From the pass, in the early morning, K2, Broad Peak, Gasherbrum I and II and Masherbrum stand around you at once.</p><p><strong>Who it suits.</strong> Strong trekkers who want more than a there-and-back route. The crossing is a pre-dawn climb on snow and ice using fixed ropes, harness and crampons, led by our climbing guides. Prior glacier experience helps but is not essential; fitness and a steady head on steep ground matter more.</p><p><strong>When to go.</strong> Mid-July to late August, when the pass is most likely to be in condition. The decision to cross is always made on the mountain, and the itinerary carries spare days so that a closed pass does not end the trip - the group returns down the Baltoro instead.</p><p><strong>What we handle.</strong> Permits, park fees, transport, porters, camp equipment, cook, trekking guide and the climbing guides who fix the ropes on the pass.</p><p>A strenuous Baltoro circuit that links Concordia with the Hushe Valley through Gondogoro La when conditions and team readiness permit. KVP plans this programme around confirmed road access, accommodation, weather and local operating conditions. The pass crossing is never guaranteed and depends on snow, weather, fixed-rope condition and guide assessment.</p><p><strong>Program</strong></p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>

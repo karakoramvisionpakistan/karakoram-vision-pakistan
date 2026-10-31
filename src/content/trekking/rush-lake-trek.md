@@ -97,6 +97,67 @@ service_type: trekking
 service_label: Trekking
 menu_sections:
   - Best Sellers
+itinerary:
+  - day: '01'
+    title: Arrival in Islamabad
+    description: Briefing and logistics check.
+    overnight: Hotel
+  - day: '02'
+    title: Drive to Gilgit
+    description: 10 hours drive.
+    overnight: Hotel
+  - day: '03'
+    title: Drive to Hoper
+    description: to start the trek.
+    overnight: Guesthouse
+  - day: '04'
+    title: Trek to Bericho Kor
+    description: Cross the initial glacier terrain with local guidance.
+    overnight: Camping
+  - day: '05'
+    title: Trek to Chidin Harai
+    description: Climb through alpine camps.
+    overnight: Camping
+  - day: '06'
+    title: Trek to Rush Lake
+    description: Reach the high lake area.
+    overnight: Camping
+  - day: '07'
+    title: Acclimatisation and viewpoint
+    description: Optional higher walk according to conditions.
+    overnight: Camping
+  - day: '08'
+    title: Begin descent
+    description: Return through established camps.
+    overnight: Camping
+  - day: '09'
+    title: Glacier crossing stages
+    description: Continue toward Hoper.
+    overnight: Camping
+  - day: '10'
+    title: Return to Hoper
+    description: Complete trekking.
+    overnight: Guesthouse
+  - day: '11'
+    title: Hunza recovery
+    description: Drive to Hunza for rest.
+    overnight: Hotel
+  - day: '12'
+    title: Drive to Naran
+    description: 8 hours drive.
+    overnight: Hotel
+  - day: '13'
+    title: Drive to Islamabad
+    description: 5-6 hours drive.
+    overnight: Hotel
+  - day: '14'
+    title: Fly Out
+    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    overnight: Not applicable
+related:
+  - Rakaposhi Base Camp Trek
+  - Spantik Peak Expedition
+  - Hunza Valley Travel Guide
 ---
 
-<h2><strong>About this journey</strong></h2><p>Rush Lake lies at about 4,694m above the Nagar valley, counted among the highest alpine lakes in the world, with Rush Pari peak rising just beyond it. From the ridge above the lake the view takes in Rakaposhi, Diran, Spantik and the Miar and Golden Peak glaciers - an unusually complete Karakoram panorama for a trek that requires no climbing skill.</p><p><strong>Who it suits.</strong> Trekkers with previous experience who are comfortable with altitude and cold camps. The ground is steep in places and the air is thin at the lake, but there is no technical climbing. Fourteen days allows a careful acclimatisation profile and spare days for weather, which is why we do not run this route in a rush.</p><p><strong>When to go.</strong> Late June to mid-September, once snow has cleared from the upper meadows and the lake is reachable.</p><p><strong>What we handle.</strong> Transport from Gilgit or Hunza to Nagar, porters, tents and camp kitchen, cook and an experienced guide. The route starts and ends within reach of the Karakoram Highway, so it fits neatly with time in Hunza.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><strong>Day 1: Arrival in Islamabad</strong></h3><p>Briefing and logistics check.</p><h3><strong>Day 2: Drive to Gilgit</strong></h3><p>10 hours drive</p><p><strong>Day 3: Drive to Hoper</strong></p><p><strong>to start the trek</strong></p><h3><strong>Day 4: Trek to Bericho Kor</strong></h3><p>Cross the initial glacier terrain with local guidance.</p><h3><strong>Day 5: Trek to Chidin Harai</strong></h3><p>Climb through alpine camps.</p><h3><strong>Day 6: Trek to Rush Lake</strong></h3><p>Reach the high lake area.</p><h3><strong>Day 7: Acclimatisation and viewpoint</strong></h3><p>Optional higher walk according to conditions.</p><h3><strong>Day 8: Begin descent</strong></h3><p>Return through established camps.</p><h3><strong>Day 9: Glacier crossing stages</strong></h3><p>Continue toward Hoper.</p><h3><strong>Day 10: Return to Hoper</strong></h3><p>Complete trekking.</p><h3><strong>Day 11: Hunza recovery</strong></h3><p>Drive to Hunza for rest.</p><h3><strong>Day 12: Drive to Naran</strong></h3><p>8 hours drive</p><p><strong>Day 13: Drive to Islamabad</strong></p><p>5-6 hours drive</p><h3><strong>Day 14: Fly Out</strong></h3><p>transfer to the airport for your own destinations</p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates <strong>and group profile are received.</strong></p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p><h2><strong>Related journeys</strong></h2><ul><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/trekking/rakaposhi-base-camp-trek/">Rakaposhi base camp trek</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/expeditions/spantik-peak-expedition/">Spantik expedition</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/destinations/hunza/">Hunza valley guide</a></p></li></ul><p></p>
+<h2><strong>About this journey</strong></h2><p>Rush Lake lies at about 4,694m above the Nagar valley, counted among the highest alpine lakes in the world, with Rush Pari peak rising just beyond it. From the ridge above the lake the view takes in Rakaposhi, Diran, Spantik and the Miar and Golden Peak glaciers - an unusually complete Karakoram panorama for a trek that requires no climbing skill.</p><p><strong>Who it suits.</strong> Trekkers with previous experience who are comfortable with altitude and cold camps. The ground is steep in places and the air is thin at the lake, but there is no technical climbing. Fourteen days allows a careful acclimatisation profile and spare days for weather, which is why we do not run this route in a rush.</p><p><strong>When to go.</strong> Late June to mid-September, once snow has cleared from the upper meadows and the lake is reachable.</p><p><strong>What we handle.</strong> Transport from Gilgit or Hunza to Nagar, porters, tents and camp kitchen, cook and an experienced guide. The route starts and ends within reach of the Karakoram Highway, so it fits neatly with time in Hunza.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates <strong>and group profile are received.</strong></p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>

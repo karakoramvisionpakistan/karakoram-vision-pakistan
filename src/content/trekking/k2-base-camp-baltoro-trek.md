@@ -109,7 +109,96 @@ menu_sections:
   - Best Sellers
   - All Fixed Departures
   - K2 Treks
+itinerary:
+  - day: '01'
+    title: Arrival in Islamabad
+    description: Documentation and briefing.
+    overnight: Hotel
+  - day: '02'
+    title: Fly to Skardu
+    description: Flight or road contingency according to conditions.
+    overnight: Hotel
+  - day: '03'
+    title: Skardu preparation
+    description: Equipment check and operational briefing.
+    overnight: Hotel
+  - day: '04'
+    title: Drive to Askole
+    description: 4x4 access into the Braldu valley.
+    overnight: Camping
+  - day: '05'
+    title: Trek to Jhola
+    description: Begin the approach with the support team.
+    overnight: Camping
+  - day: '06'
+    title: Trek to Paiju
+    description: Continue along the Baltoro approach.
+    overnight: Camping
+  - day: '07'
+    title: Paiju acclimatization
+    description: Rest and acclimatization day.
+    overnight: Camping
+  - day: '08'
+    title: Trek to Khorbortze
+    description: Move onto the glacier route and camp in the green and dry place.
+    overnight: Camping
+  - day: '09'
+    title: Trek to Urdukas
+    description: Camp above the glacier.
+    overnight: Camping
+  - day: '10'
+    title: Trek to Goro II
+    description: Progress deeper into the central Karakoram.
+    overnight: Camping
+  - day: '11'
+    title: Reach Concordia
+    description: Arrive at the meeting point of major glaciers.
+    overnight: Camping
+  - day: '12'
+    title: Trek to K2 base-camp excursion
+    description: Long day toward Broad Peak and K2 base-camp areas, subject to conditions.
+    overnight: Camping
+  - day: '13'
+    title: Concordia recovery
+    description: Weather and recovery day.
+    overnight: Camping
+  - day: '14'
+    title: Return toward Goro
+    description: Begin descent.
+    overnight: Camping
+  - day: '15'
+    title: Trek to Urdukas
+    description: Continue down-glacier.
+    overnight: Camping
+  - day: '16'
+    title: Trek to Paiju
+    description: Return to lower camps.
+    overnight: Camping
+  - day: '17'
+    title: Trek to Jhola
+    description: Trek toward the road head.
+    overnight: Camping
+  - day: '18'
+    title: Trek to Askole
+    description: Complete trekking and return by jeep.
+    overnight: Camping
+  - day: '19'
+    title: Drive to Skardu
+    description: 5-6 hrs drive time.
+    overnight: Hotel
+  - day: '20'
+    title: Fly to Islamabad
+    description: 50 minutes fly time.
+    overnight: Hotel
+  - day: '21'
+    title: Fly out
+    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    overnight: Not applicable
+related:
+  - Gondogoro La Circuit Trek
+  - K2 Expedition
+  - How to Prepare for the K2 Base Camp Trek
 ---
 
 
-<h2><strong>About this journey</strong></h2><p>This is the walk to the foot of the second highest mountain on earth, and for many trekkers it is the finest fortnight of their lives. From Askole the route follows the Braldu river into the Baltoro, a river of ice forty-five kilometres long, and climbs steadily past the Trango Towers and Masherbrum to Concordia - the amphitheatre where four great glaciers meet and four 8,000m peaks stand in view at once. From there it is a day's walk to the K2 base camp area below the mountain itself.</p><p><strong>Who it suits.</strong> Trekkers with good general fitness and a tolerance for long days and simple camp life. There is no technical climbing and no rope work on the standard route, but you will walk six to eight hours a day for about two weeks on rough glacial moraine, and sleep several nights above 4,000m.</p><p><strong>When to go.</strong> Late June to early September, with July and August the most settled.</p><p><strong>What we handle.</strong> Permits and park fees, registration, transport from Skardu to Askole, porters, tents, kitchen and cook, and an experienced guide from these valleys. The itinerary includes spare days, because weather on the Baltoro decides the pace.</p><p>A demanding Karakoram trek through the Baltoro Glacier to Concordia and the K2 base-camp region, planned with local support. Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions. This route requires strong fitness, acclimatization and appropriate rescue insurance.</p><h2><strong>PROGRAM</strong></h2><h3><strong>Day 1: Arrival in Islamabad</strong></h3><p>Documentation and briefing.</p><h3><strong>Day 2: Fly to Skardu</strong></h3><p>Flight or road contingency according to conditions.</p><h3><strong>Day 3: Skardu preparation</strong></h3><p>Equipment check and operational briefing.</p><h3><strong>Day 4: Drive to Askole</strong></h3><p>4x4 access into the Braldu valley.</p><h3><strong>Day 5: Trek to Jhola</strong></h3><p>Begin the approach with the support team.</p><h3><strong>Day 6: Trek to Paiju</strong></h3><p>Continue along the Baltoro approach.</p><h3><strong>Day 7: Paiju acclimatization</strong></h3><p>Rest and acclimatization day.</p><h3><strong>Day 8: Trek to Khorbortze</strong></h3><p>Move onto the glacier route and camp in the green and dry place</p><h3><strong>Day 9: Trek to Urdukas</strong></h3><p>Camp above the glacier.</p><h3><strong>Day 10: Trek to Goro II</strong></h3><p>Progress deeper into the central Karakoram.</p><h3><strong>Day 11: Reach Concordia</strong></h3><p>Arrive at the meeting point of major glaciers.</p><h3><strong>Day 12: Trek to K2 base-camp excursion</strong></h3><p>Long day toward Broad Peak and K2 base-camp areas, subject to conditions.</p><h3><strong>Day 13: Concordia recovery</strong></h3><p>Weather and recovery day.</p><h3><strong>Day 14: Return toward Goro</strong></h3><p>Begin descent.</p><h3><strong>Day 15: Trek to Urdukas</strong></h3><p>Continue down-glacier.</p><h3><strong>Day 16: Trek to Paiju</strong></h3><p>Return to lower camps.</p><h3><strong>Day 17: Trek to Jhola</strong></h3><p>Trek toward the road head.</p><h3><strong>Day 18: Trek to Askole</strong></h3><p>Complete trekking and return by jeep.</p><h3><strong>Day 19: Drive to Skardu</strong></h3><p>5-6 hrs drive time</p><h3><strong>Day 20: Fly to Islamabad</strong></h3><p>50 minutes fly time</p><p><strong>Day 21: Fly out</strong></p><p>Transfer to the airport for your oen destinations</p><p></p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p><h2><strong>Related journeys</strong></h2><ul><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/trekking/gondogoro-la-circuit-trek/">Gondogoro La circuit trek</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/expeditions/k2-expedition/">K2 expedition</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/blog/prepare-for-k2-base-camp-trek/">How to prepare for the K2 base camp trek</a></p></li></ul><p></p>
+<h2><strong>About this journey</strong></h2><p>This is the walk to the foot of the second highest mountain on earth, and for many trekkers it is the finest fortnight of their lives. From Askole the route follows the Braldu river into the Baltoro, a river of ice forty-five kilometres long, and climbs steadily past the Trango Towers and Masherbrum to Concordia - the amphitheatre where four great glaciers meet and four 8,000m peaks stand in view at once. From there it is a day's walk to the K2 base camp area below the mountain itself.</p><p><strong>Who it suits.</strong> Trekkers with good general fitness and a tolerance for long days and simple camp life. There is no technical climbing and no rope work on the standard route, but you will walk six to eight hours a day for about two weeks on rough glacial moraine, and sleep several nights above 4,000m.</p><p><strong>When to go.</strong> Late June to early September, with July and August the most settled.</p><p><strong>What we handle.</strong> Permits and park fees, registration, transport from Skardu to Askole, porters, tents, kitchen and cook, and an experienced guide from these valleys. The itinerary includes spare days, because weather on the Baltoro decides the pace.</p><p>A demanding Karakoram trek through the Baltoro Glacier to Concordia and the K2 base-camp region, planned with local support. Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions. This route requires strong fitness, acclimatization and appropriate rescue insurance.</p><h2><strong>PROGRAM</strong></h2><h3><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>

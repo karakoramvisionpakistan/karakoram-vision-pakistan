@@ -11,3 +11,9 @@ __pycache__/
 .vscode/
 RUNTIME_CATALOG_REPORT.json
 *_REPORT.json
+
+# Scripts ki purani naqlein
+*.bak*
+
+# Audit aur report files
+_*.txt

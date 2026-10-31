@@ -93,6 +93,31 @@ seo:
 layout: layouts/journey.njk
 service_type: jeep-safaris
 service_label: Jeep Safaris
+itinerary:
+  - day: '01'
+    title: Skardu arrival
+    description: Vehicle and route briefing.
+    overnight: Hotel
+  - day: '02'
+    title: Skardu to Deosai
+    description: Enter the plateau through the agreed access road.
+    overnight: Hotel
+  - day: '03'
+    title: Deosai exploration
+    description: Visit suitable areas with low-impact wildlife observation.
+    overnight: Camping
+  - day: '04'
+    title: Return to Skardu
+    description: Scenic transfer and optional Satpara stop.
+    overnight: Hotel
+  - day: '05'
+    title: Departure
+    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    overnight: Not applicable
+related:
+  - Deosai National Park Guide
+  - Deosai National Park and Khaplu Tour
+  - Skardu Travel Guide
 ---
 
-<h2><strong>About this journey</strong></h2><p>Deosai means the land of giants, and at around 4,000m it is one of the highest plateaus on earth - an enormous open grassland between the Karakoram and the Himalaya, cut by streams and covered in wildflowers for a few short weeks each summer. It is also one of the last refuges of the Himalayan brown bear.</p><p><strong>What the journey covers.</strong> Five days by 4x4 from Skardu: the climb onto the plateau, Sheosar Lake, the open crossing with its river fords, and the descent back toward Skardu or on toward Astore.</p><p><strong>Who it suits.</strong> Travellers who want wilderness without walking, and wildlife and landscape photographers. The grading is easy, but the tracks are rough and the days can be long.</p><p><strong>When to go.</strong> The plateau road normally opens late May or June and closes around late September or October. We only run this journey when the route is officially open.</p><p><strong>What we handle.</strong> A 4x4 jeep with an experienced mountain driver, accommodation, meals and a guide. The plateau is high and cold at night, even in July.</p><p>A five-day 4x4 programme through Skardu and the Deosai Plateau, operated only when seasonal roads are officially open.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions. Access normally depends on seasonal road opening and weather.</p><h2>Suggested itinerary</h2><h3>Day 1: Skardu arrival</h3><p>Vehicle and route briefing.</p><h3>Day 2: Skardu to Deosai</h3><p>Enter the plateau through the agreed access road.</p><h3>Day 3: Deosai exploration</h3><p>Visit suitable areas with low-impact wildlife observation.</p><h3>Day 4: Return to Skardu</h3><p>Scenic transfer and optional Satpara stop.</p><h3>Day 5: Departure</h3><p>Airport or road transfer.</p><h2>Planning notes</h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2>Responsible travel</h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p><h2><strong>Related journeys</strong></h2><ul><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/destinations/deosai/">Deosai National Park guide</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/tours/deosai-khaplu-tour/">Deosai and Khaplu tour</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/destinations/skardu/">Skardu travel guide</a></p></li></ul><p></p>
+<h2><strong>About this journey</strong></h2><p>Deosai means the land of giants, and at around 4,000m it is one of the highest plateaus on earth - an enormous open grassland between the Karakoram and the Himalaya, cut by streams and covered in wildflowers for a few short weeks each summer. It is also one of the last refuges of the Himalayan brown bear.</p><p><strong>What the journey covers.</strong> Five days by 4x4 from Skardu: the climb onto the plateau, Sheosar Lake, the open crossing with its river fords, and the descent back toward Skardu or on toward Astore.</p><p><strong>Who it suits.</strong> Travellers who want wilderness without walking, and wildlife and landscape photographers. The grading is easy, but the tracks are rough and the days can be long.</p><p><strong>When to go.</strong> The plateau road normally opens late May or June and closes around late September or October. We only run this journey when the route is officially open.</p><p><strong>What we handle.</strong> A 4x4 jeep with an experienced mountain driver, accommodation, meals and a guide. The plateau is high and cold at night, even in July.</p><p>A five-day 4x4 programme through Skardu and the Deosai Plateau, operated only when seasonal roads are officially open.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions. Access normally depends on seasonal road opening and weather.</p><h2>Suggested itinerary</h2><h2>Planning notes</h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2>Responsible travel</h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>

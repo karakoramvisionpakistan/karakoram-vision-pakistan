@@ -225,6 +225,88 @@ export default function(eleventyConfig) {
     const seen = new Set(own.map((f) => key(f && f.question)));
     return own.concat(extra.filter((f) => f && f.question && !seen.has(key(f.question))));
   });
+  // Bulandi: client sirf metre likhta hai, feet yahan bante hain. Europe
+  // aur America ke trekkers feet mein sochte hain, aur unhein tarjuma khud
+  // karne dena ek chhoti si rukawat hai jo muqabil chhoR dete hain.
+  eleventyConfig.addFilter("altitudeBoth", (v) => {
+    const s = String(v || "").trim();
+    if (!s) return "";
+    if (/ft|feet|'/i.test(s)) return s;              // pehle se feet mein hai
+    // Ek se zyada adad ka matlab range hai ("4,200-4,600 m"). Us par ek hi
+    // feet ka hindsa lagana ghalat tasveer deta, is liye chhoR dete hain.
+    const nums = s.replace(/,/g, "").match(/\d{2,5}/g);
+    if (!nums || nums.length !== 1) return s;
+    const metres = Number(nums[0]);
+    if (!metres || metres < 100 || metres > 9000) return s;
+    const feet = Math.round((metres * 3.28084) / 10) * 10;
+    return s + " / " + feet.toLocaleString("en-US") + " ft";
+  });
+
+  // Wahi adad Google ke liye — likhai nahi, sirf number.
+  eleventyConfig.addFilter("altitudeMetres", (v) => {
+    const nums = String(v || "").replace(/,/g, "").match(/\d{2,5}/g);
+    if (!nums || nums.length !== 1) return null;    // range par koi ek adad nahi
+    const metres = Number(nums[0]);
+    return metres >= 100 && metres <= 9000 ? metres : null;
+  });
+
+  // "35.8825, 76.5133" -> alag alag. Ghalat likha ho to kuch nahi lautata,
+  // taake safhe par toota hua naqsha ka link kabhi na aaye.
+  const geoParts = (v) => {
+    const m = String(v || "").match(/(-?\d{1,3}(?:\.\d+)?)\s*[,; ]\s*(-?\d{1,3}(?:\.\d+)?)/);
+    if (!m) return null;
+    const lat = Number(m[1]);
+    const lon = Number(m[2]);
+    if (!isFinite(lat) || !isFinite(lon)) return null;
+    if (lat < -90 || lat > 90 || lon < -180 || lon > 180) return null;
+    return { lat, lon };
+  };
+  eleventyConfig.addFilter("geoLat", (v) => { const g = geoParts(v); return g ? g.lat : null; });
+  eleventyConfig.addFilter("geoLon", (v) => { const g = geoParts(v); return g ? g.lon : null; });
+  eleventyConfig.addFilter("relatedJourneys", (picked, catalog, selfUrl) => {
+    // Client form mein sirf naam chunta hai. Link yahan catalogue se nikalta
+    // hai, is liye naam badal jane par toota hua link nahi rehta — woh entry
+    // khamoshi se ghaib ho jati hai.
+    const want = Array.isArray(picked) ? picked : (picked ? [picked] : []);
+    if (!want.length) return [];
+
+    // Catalogue ke andar jahan bhi naam aur pata dono mile, woh trip hai.
+    const JOURNEY_URL = /^\/(tours|trekking|expeditions|jeep-safaris|hunting-services|destinations|blog|vehicles)\/[^/]+\/?$/;
+    const found = [];
+    const walk = (node, depth) => {
+      if (!node || depth > 5) return;
+      if (Array.isArray(node)) { for (const n of node) walk(n, depth + 1); return; }
+      if (typeof node !== "object") return;
+      const t = node.title || node.label || node.name;
+      const u = node.url || node.permalink || node.href || node.path;
+      if (typeof t === "string" && typeof u === "string" && JOURNEY_URL.test(u)) {
+        found.push({ ...node, title: t.trim(), url: u });
+        return;
+      }
+      for (const v of Object.values(node)) walk(v, depth + 1);
+    };
+    walk(catalog, 0);
+
+    const key = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+    const byTitle = new Map();
+    for (const it of found) {
+      const t = key(it.title);
+      if (t && !byTitle.has(t)) byTitle.set(t, it);
+    }
+
+    const out = [];
+    const seen = new Set();
+    for (const w of want) {
+      const it = byTitle.get(key(w));
+      if (!it) continue;
+      if (selfUrl && it.url === selfUrl) continue;   // apne aap se link nahi
+      if (seen.has(it.url)) continue;
+      seen.add(it.url);
+      out.push(it);
+    }
+    return out;
+  });
   eleventyConfig.addFilter("catalogFilter", (arr,type,filter,query="") => {
     const normalize=value=>String(value||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").replace(/\s+/g," ").trim();
     const q=normalize(query), words=q.split(" ").filter(Boolean);

@@ -1,0 +1,52 @@
+{# Din ba din itinerary.
+
+   Teen khaane: Day, Programme, Over night. Desktop par qatarein, mobile
+   par alag alag card — table mobile par parhi nahi jati.
+
+   Bulandi, faasla aur chalne ke ghante Programme ke andar chhote adad ke
+   tor par aate hain. Yehi woh tafseel hai jo achhe itinerary ko aam se
+   alag karti hai, aur jisay log safha chhoR kar kisi aur ke paas
+   dhoondhne jate hain. #}
+{% if itinerary and itinerary.length %}
+<section id="itinerary" class="bk-trip-content-section">
+  <p class="eyebrow">Day by day</p>
+  <h2>Itinerary</h2>
+
+  <div class="bk-itin">
+    <div class="bk-itin-head" aria-hidden="true">
+      <span>Day</span><span>Programme</span><span>Over night</span>
+    </div>
+
+    {% for d in itinerary %}
+    <article class="bk-itin-row">
+      <div class="bk-itin-day"><span>{{ d.day or loop.index }}</span></div>
+
+      <div class="bk-itin-main">
+        {% if d.title %}<h3>{{ d.title }}</h3>{% endif %}
+        {% if d.altitude or d.distance or d.hours or d.coords %}
+        <p class="bk-itin-meta">
+          {% if d.altitude %}<span title="Altitude">{{ d.altitude | altitudeBoth }}</span>{% endif %}
+          {% if d.distance %}<span title="Distance">{{ d.distance }}</span>{% endif %}
+          {% if d.hours %}<span title="Walking hours">{{ d.hours }}</span>{% endif %}
+          {% if d.coords | geoLat %}
+          <a class="bk-itin-map"
+             href="https://www.openstreetmap.org/?mlat={{ d.coords | geoLat }}&amp;mlon={{ d.coords | geoLon }}#map=12/{{ d.coords | geoLat }}/{{ d.coords | geoLon }}"
+             target="_blank" rel="noopener"
+             title="{{ d.coords }}">On the map</a>
+          {% endif %}
+        </p>
+        {% endif %}
+        {% if d.description %}<p class="bk-itin-text">{{ d.description }}</p>{% endif %}
+      </div>
+
+      <div class="bk-itin-night">
+        {% if d.overnight and d.overnight != 'Not applicable' %}
+          <span class="bk-itin-night-label">Over night</span>
+          <span class="bk-itin-night-value">{{ d.overnight }}</span>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

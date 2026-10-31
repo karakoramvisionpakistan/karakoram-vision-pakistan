@@ -98,6 +98,47 @@ service_type: trekking
 service_label: Trekking
 menu_sections:
   - Best Sellers
+itinerary:
+  - day: '01'
+    title: Arrival in Skardu
+    description: Briefing and preparation.
+    overnight: Hotel
+  - day: '02'
+    title: Drive to Shigar and trailhead
+    description: Begin the valley approach.
+    overnight: Camping
+  - day: '03'
+    title: Trek through Thalle Valley
+    description: Move through villages and pasture.
+    overnight: Camping
+  - day: '04'
+    title: Upper camp
+    description: Gain altitude gradually.
+    overnight: Camping
+  - day: '05'
+    title: Thalle La crossing
+    description: Cross the pass when conditions are suitable.
+    overnight: Camping
+  - day: '06'
+    title: Descent camp
+    description: Enter the Khaplu side.
+    overnight: Camping
+  - day: '07'
+    title: Trek to road head
+    description: Complete the walking route.
+    overnight: Camping
+  - day: '08'
+    title: Khaplu and Skardu
+    description: Road transfer with heritage stop.
+    overnight: Hotel
+  - day: '09'
+    title: Fly Out
+    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    overnight: Not applicable
+related:
+  - Khaplu and Shyok Valley Guide
+  - Shigar Valley Guide
+  - Nangma Valley Trek
 ---
 
-<h2><strong>About this journey</strong></h2><p>Long before there were roads, the Thalle La was how people moved between Shigar and Khaplu. This trek follows that old route: up through apricot villages and summer pastures on one side, over the pass, and down into the Thalle valley toward Khaplu on the other. It is a trek through inhabited country rather than to a base camp, and the people you meet - shepherds at the summer settlements, families in the villages - are as much the point as the mountains.</p><p><strong>Who it suits.</strong> First-time trekkers, walkers who prefer villages to glaciers, and anyone with nine days to spend in Baltistan. The crossing is a walk rather than a climb and the grading is easy.</p><p><strong>When to go.</strong> June to September, when the pass is clear of snow and the high pastures are occupied.</p><p><strong>What we handle.</strong> Hotels in Skardu, Shigar and Khaplu at either end, tented camps on the trek, porters, cook and guide, and the jeep transport between the valleys. Khaplu Palace at the finish is worth an extra night.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><strong>Day 1: Arrival in Skardu</strong></h3><p>Briefing and preparation.</p><h3><strong>Day 2: Drive to Shigar and trailhead</strong></h3><p>Begin the valley approach.</p><h3><strong>Day 3: Trek through Thalle Valley</strong></h3><p>Move through villages and pasture.</p><h3><strong>Day 4: Upper camp</strong></h3><p>Gain altitude gradually.</p><h3><strong>Day 5: Thalle La crossing</strong></h3><p>Cross the pass when conditions are suitable.</p><h3><strong>Day 6: Descent camp</strong></h3><p>Enter the Khaplu side.</p><h3><strong>Day 7: Trek to road head</strong></h3><p>Complete the walking route.</p><h3><strong>Day 8: Khaplu and Skardu</strong></h3><p>Road transfer with heritage stop.</p><h3><strong>Day 9: Fly Out</strong></h3><p>Airport transfer.</p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p><h2><strong>Related journeys</strong></h2><ul><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/destinations/khaplu/">Khaplu travel guide</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/destinations/shigar/">Shigar valley guide</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/trekking/nangma-valley-trek/">Nangma Valley trek</a></p></li></ul><p></p>
+<h2><strong>About this journey</strong></h2><p>Long before there were roads, the Thalle La was how people moved between Shigar and Khaplu. This trek follows that old route: up through apricot villages and summer pastures on one side, over the pass, and down into the Thalle valley toward Khaplu on the other. It is a trek through inhabited country rather than to a base camp, and the people you meet - shepherds at the summer settlements, families in the villages - are as much the point as the mountains.</p><p><strong>Who it suits.</strong> First-time trekkers, walkers who prefer villages to glaciers, and anyone with nine days to spend in Baltistan. The crossing is a walk rather than a climb and the grading is easy.</p><p><strong>When to go.</strong> June to September, when the pass is clear of snow and the high pastures are occupied.</p><p><strong>What we handle.</strong> Hotels in Skardu, Shigar and Khaplu at either end, tented camps on the trek, porters, cook and guide, and the jeep transport between the valleys. Khaplu Palace at the finish is worth an extra night.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>

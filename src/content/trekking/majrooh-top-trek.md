@@ -119,6 +119,51 @@ seo:
 body: ""
 menu_sections:
   - Best Sellers
+itinerary:
+  - day: '01'
+    title: Arrival in Islamabad
+    description: Met at Islamabad airport and driven to the hotel. The afternoon is free, and in the evening your guide runs through the plan, checks kit and answers questions before the journey north.
+    overnight: Hotel
+  - day: '02'
+    title: Fly to Skardu or drive to Chilas
+    description: The morning flight to Skardu runs when the mountain weather allows and is cancelled when it does not. If it goes, you are in Baltistan by lunchtime; if not, the group drives to Chilas on the Karakoram Highway and continues the next day.
+    overnight: Hotel
+  - day: '03'
+    title: Free in Skardu or drive to Skardu
+    description: Either a free day in Skardu — Kharpocho fort, the bazaar, the Indus — or the drive up from Chilas if yesterday’s flight did not operate. Trekker registration and permits are completed, and the crew is assembled.
+    overnight: Hotel
+  - day: '04'
+    title: Skardu to Kanday by Jeep
+    description: By jeep up the Shyok and into the Hushe valley to Kanday, around five hours on a road that narrows and roughens as it climbs. Kanday is a farming village of apricot terraces and poplar, and the trek starts from its upper fields.
+    overnight: Camping
+  - day: '05'
+    title: Trek to Karpo braqbU
+    description: The first day on foot, climbing steadily out of the cultivated valley onto open pasture. Karpo Braqbu is a summer grazing ground used by Kanday families, and the camp sits where there is water and level grass.
+    overnight: Camping
+  - day: '06'
+    title: Trek to Majrooh Top And back to Karpo Braqbu
+    description: The day the trek is named for. A long climb to Majrooh Top and back down to the same camp, carrying only a daypack. From the top the central Karakoram opens out — K2, Gasherbrum II, Broad Peak and Masherbrum in one sweep, which is a remarkable return for a short, non-technical trek.
+    overnight: Camping
+  - day: '07'
+    title: Trek to Kanday village
+    description: Back down the pasture to Kanday, an easy descent with the valley widening below and the first trees and irrigation channels reappearing. The trekking ends here.
+    overnight: Camping
+  - day: '08'
+    title: Drive back to Skardu (By Jeep)
+    description: Jeeps back down the Hushe valley to the Shyok and on to Skardu. Hotel, hot water, and the debriefing at the tourism office.
+    overnight: Hotel
+  - day: '09'
+    title: Skardu to Naran/Chilas
+    description: The long road day back down the Indus gorge and onto the Karakoram Highway. Where the group stops depends on the road and the season — Chilas on the highway, or over the Babusar pass to Naran when it is open.
+    overnight: Hotel
+  - day: '10'
+    title: Naran/Chilas to Islamabad and mid night transfer to the airport for your own destinations.
+    description: Related journeys. Thalle La trek. Skardu travel guide. Best time to visit Skardu.
+    overnight: Not applicable
+related:
+  - Thaley La Trek
+  - Skardu Travel Guide
+  - Best Time to Visit Skardu
 ---
 
-<h2><strong>About this journey</strong></h2><p>Majrooh Top is the short route to a big view. At 4,850m the top gives a wide panorama across the central Karakoram, and the walk up is non-technical and quiet - this is not a trail that appears on every itinerary. It was explored in 2008 by Muhammad Ali, the founder of Karakoram Vision Pakistan, and we have run it ever since.</p><p><strong>Who it suits.</strong> Travellers who want a high Karakoram viewpoint without committing two or three weeks to a glacier route. The grading is easy, but the top is high, so the days are planned to let the body adjust. Anyone comfortable walking uphill for a few hours a day will manage it.</p><p><strong>When to go.</strong> June to September, when the high pastures are open and the top is clear of snow.</p><p><strong>What we handle.</strong> Transport from Skardu, porters, camp equipment, cook and a local guide. Because the route is short, it fits well either side of a Skardu valley tour or before a longer trek as acclimatisation.</p><p><strong>Fact &amp; Figures:</strong></p><p>Altitude: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4850 M &nbsp; &nbsp; &nbsp; &nbsp; Range: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Karakoram &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Location: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kanday Duration: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10 Days &nbsp; &nbsp; &nbsp;</p><p>Hotel Nights: &nbsp; &nbsp;06 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Camping Nights: &nbsp; &nbsp;04&nbsp;</p><p>Type of Trek: &nbsp; &nbsp; Easy &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Zone type: &nbsp; &nbsp; &nbsp; &nbsp;Open &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>Ideal Time: &nbsp; &nbsp;June - 15 September</p><p>This route is discovered, non-technical route, explored by Mr. Muhammad Ali Majrooh CEO of Karakoram Vision Pakistan in 2008. This is the shortest possible trek in the area to see central Karakoram Mountains including K-2, the second highest in the world and G-II, Broad peak, Mashabrum and etc. Majrooh Top is at minimum 4850 meters having less traveled and still lesser known trek in the vicinity of Kanday village. Five hours jeep drives take you to the Kanday village from Skardu. The trek begins from the village for two days ascend through the summer settlements to the top and two days descend to Kanday village for return road journey to Skardu and Islamabad.</p><p></p><p><strong>Program</strong></p><p><strong>Day 1: Arrival in Islamabad</strong></p><p><strong>Day 2: Fly to Skardu or drive to Chilas</strong></p><p><strong>Day 3: Free &nbsp;in Skardu or drive to Skardu</strong></p><p><strong>Day 4: Skardu to Kanday by Jeep</strong></p><p><strong>Day 5: Trek to Karpo braqbU</strong></p><p><strong>Day 6: Trek to Majrooh Top And back to &nbsp;Karpo Braqbu</strong></p><p><strong>Day 7: Trek &nbsp;to Kanday village</strong></p><p><strong>Day 8: Drive back to Skardu (By Jeep)</strong></p><p><strong>Day 9: Skardu to Naran/Chilas</strong></p><p><strong>Day 10: Naran/Chilas to Islamabad and mid night transfer to the airport for your own destinations.</strong></p><h2><strong>Related journeys</strong></h2><ul><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/trekking/thalle-la-trek/">Thalle La trek</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/destinations/skardu/">Skardu travel guide</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/blog/best-time-to-visit-skardu/">Best time to visit Skardu</a></p></li></ul><p></p>
+<h2><strong>About this journey</strong></h2><p>Majrooh Top is the short route to a big view. At 4,850m the top gives a wide panorama across the central Karakoram, and the walk up is non-technical and quiet - this is not a trail that appears on every itinerary. It was explored in 2008 by Muhammad Ali, the founder of Karakoram Vision Pakistan, and we have run it ever since.</p><p><strong>Who it suits.</strong> Travellers who want a high Karakoram viewpoint without committing two or three weeks to a glacier route. The grading is easy, but the top is high, so the days are planned to let the body adjust. Anyone comfortable walking uphill for a few hours a day will manage it.</p><p><strong>When to go.</strong> June to September, when the high pastures are open and the top is clear of snow.</p><p><strong>What we handle.</strong> Transport from Skardu, porters, camp equipment, cook and a local guide. Because the route is short, it fits well either side of a Skardu valley tour or before a longer trek as acclimatisation.</p><p><strong>Fact &amp; Figures:</strong></p><p>Altitude: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4850 M &nbsp; &nbsp; &nbsp; &nbsp; Range: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Karakoram &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Location: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kanday Duration: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10 Days &nbsp; &nbsp; &nbsp;</p><p>Hotel Nights: &nbsp; &nbsp;06 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Camping Nights: &nbsp; &nbsp;04&nbsp;</p><p>Type of Trek: &nbsp; &nbsp; Easy &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Zone type: &nbsp; &nbsp; &nbsp; &nbsp;Open &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>Ideal Time: &nbsp; &nbsp;June - 15 September</p><p>This route is discovered, non-technical route, explored by Mr. Muhammad Ali Majrooh CEO of Karakoram Vision Pakistan in 2008. This is the shortest possible trek in the area to see central Karakoram Mountains including K-2, the second highest in the world and G-II, Broad peak, Mashabrum and etc. Majrooh Top is at minimum 4850 meters having less traveled and still lesser known trek in the vicinity of Kanday village. Five hours jeep drives take you to the Kanday village from Skardu. The trek begins from the village for two days ascend through the summer settlements to the top and two days descend to Kanday village for return road journey to Skardu and Islamabad.</p><p><strong>Program</strong></p>

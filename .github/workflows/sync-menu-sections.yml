@@ -7,6 +7,7 @@ on:
   push:
     branches: [main]
     paths:
+      - 'src/content/**'
       - 'src/_data/menu.json'
   workflow_dispatch:
 
@@ -27,6 +28,11 @@ jobs:
 
       - name: Build menu sections
         run: node tools/build-menu-sections.mjs --write
+
+      - name: Refresh related journeys list
+        run: |
+          npm run build
+          node tools/sync-related-options.mjs --write
 
       - name: Commit if anything changed
         run: |

@@ -56,6 +56,7 @@
       "touristType":{{ (service_label or service_type) | json | safe }},
       {% if destination %}"touristDestination":{"@type":"TouristDestination","name":{{ destination | json | safe }}},{% endif %}
       {% if duration %}"duration":{{ duration | json | safe }},{% endif %}
+      {% if itinerary and itinerary.length %}"itinerary":{"@type":"ItemList","numberOfItems":{{ itinerary.length }},"itemListElement":[{% for d in itinerary %}{"@type":"ListItem","position":{{ loop.index }},"item":{"@type":"Place","name":{{ (d.title or ('Day ' + (d.day or loop.index))) | json | safe }}{% if d.description %},"description":{{ d.description | json | safe }}{% endif %}{% if d.altitude | altitudeMetres %},"elevation":{{ d.altitude | altitudeMetres }}{% endif %}{% if d.coords | geoLat %},"geo":{"@type":"GeoCoordinates","latitude":{{ d.coords | geoLat }},"longitude":{{ d.coords | geoLon }}}{% endif %}}}{% if not loop.last %},{% endif %}{% endfor %}]},{% endif %}
       "isPartOf":{"@id":{{ (site.url + '/#website') | json | safe }}},
       "inLanguage":{{ (site.language or 'en') | json | safe }}
     },

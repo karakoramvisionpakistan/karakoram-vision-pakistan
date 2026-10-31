@@ -1,0 +1,30 @@
+{# Itinerary ke neechay related journeys.
+
+   Client form mein naam chunta hai; link yahan catalogue se banta hai.
+   Safha apne aap se link nahi karta, aur jo naam catalogue mein na ho
+   woh khamoshi se chhoR diya jata hai — toota hua link kabhi nahi
+   dikhta. #}
+{% set relatedPicked = related | relatedJourneys(structuredCatalog, page.url) %}
+{% if relatedPicked and relatedPicked.length %}
+<section id="related" class="bk-trip-content-section">
+  <p class="eyebrow">You might also like</p>
+  <h2>Related journeys</h2>
+
+  <ul class="bk-related">
+    {% for r in relatedPicked %}
+    <li class="bk-related-item">
+      <a href="{{ r.url or r.permalink }}">
+        <span class="bk-related-title">{{ r.title or r.label }}</span>
+        {% if r.duration or r.difficulty %}
+        <span class="bk-related-meta">
+          {% if r.duration %}{{ r.duration }}{% endif %}
+          {% if r.duration and r.difficulty %} &middot; {% endif %}
+          {% if r.difficulty %}{{ r.difficulty }}{% endif %}
+        </span>
+        {% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

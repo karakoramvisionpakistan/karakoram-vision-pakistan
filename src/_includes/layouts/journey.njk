@@ -60,6 +60,7 @@ layout: layouts/base.njk
   {% if departure_details and departure_details.length or departures and departures.length %}<a href="#dates-prices">Dates & prices</a>{% endif %}
   {% if highlights and highlights.length %}<a href="#highlights">Highlights</a>{% endif %}
   <a href="#trip-details">Trip details</a>
+  {% if itinerary and itinerary.length %}<a href="#itinerary">Itinerary</a>{% endif %}
   {% if included and included.length or excluded and excluded.length %}<a href="#included">Included</a>{% endif %}
   {% if packing_list and packing_list.length %}<a href="#packing">Packing</a>{% endif %}
   {% if trip_leader %}<a href="#trip-leader">Trip leader</a>{% endif %}
@@ -91,6 +92,10 @@ layout: layouts/base.njk
     {% if highlights and highlights.length %}<section id="highlights" class="bk-trip-content-section"><p class="eyebrow">Why this journey</p><h2>Trip highlights</h2><div class="bk-highlight-grid">{% for highlight in highlights %}<article><span>{{ loop.index }}</span><p>{{ highlight }}</p></article>{% endfor %}</div></section>{% endif %}
 
     <section id="trip-details" class="bk-trip-content-section"><p class="eyebrow">Complete information</p><h2>Trip details and itinerary</h2><article x-data="contentEnhancer" class="prose-clean">{{ content | safe }}</article></section>
+
+    {% include "components/itinerary.njk" %}
+
+    {% include "components/related-journeys.njk" %}
 
     {% if included and included.length or excluded and excluded.length %}<section id="included" class="bk-trip-content-section"><p class="eyebrow">What to expect</p><h2>Included and excluded</h2><div class="bk-inclusion-grid">{% if included and included.length %}<article><h3>Included</h3><ul>{% for item in included %}<li>{{ item }}</li>{% endfor %}</ul></article>{% endif %}{% if excluded and excluded.length %}<article><h3>Not included</h3><ul>{% for item in excluded %}<li>{{ item }}</li>{% endfor %}</ul></article>{% endif %}</div></section>{% endif %}
 
