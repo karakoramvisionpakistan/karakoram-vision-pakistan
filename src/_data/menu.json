@@ -14,26 +14,14 @@
       "url": "/about-us/",
       "children": [
         {
-          "label": "Our Team",
-          "url": "/our-team/"
-        },
-        {
           "enabled": true,
           "target_blank": false,
           "label": "About Karakoram Vision Pakistan",
           "url": "/about-us/"
         },
         {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Social Responsibility",
-          "url": "/social-responsibility/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Vehicles",
-          "url": "/vehicles/"
+          "label": "Our Team",
+          "url": "/our-team/"
         },
         {
           "enabled": true,
@@ -864,6 +852,36 @@
     }
   ],
   "trash": [
+    {
+      "id": "1793423126824-hm2jqn",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Vehicles",
+        "url": "/vehicles/"
+      },
+      "parentPath": [
+        1
+      ],
+      "index": 2,
+      "label": "Vehicles",
+      "at": "2026-10-31T05:05:26.824Z"
+    },
+    {
+      "id": "1793423120056-cpz7e0",
+      "item": {
+        "enabled": true,
+        "target_blank": false,
+        "label": "Social Responsibility",
+        "url": "/social-responsibility/"
+      },
+      "parentPath": [
+        1
+      ],
+      "index": 2,
+      "label": "Social Responsibility",
+      "at": "2026-10-31T05:05:20.056Z"
+    },
     {
       "id": "1793282456246-7tnimn",
       "item": {
