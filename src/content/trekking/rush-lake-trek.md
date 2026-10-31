@@ -14,9 +14,10 @@ summary: >-
 answer_summary: >-
   A challenging Nagar Valley trek toward high-altitude Rush Lake with glacier terrain and wide
   Karakoram views.
-cover_image: /assets/uploads/journeys/rush-lake-trek.svg
-cover_image_alt: "Rush Lake reflecting the Karakoram peaks above Nagar valley"
-gallery: []
+cover_image: /assets/uploads/1793434180692-Rush-Lake.webp
+cover_image_alt: Rush Lake reflecting the Karakoram peaks above Nagar valley
+gallery:
+  - /assets/uploads/1793434188195-Rush-Lake-KVP.webp
 duration: 14 Days
 price_from: On request
 deposit: Confirmed with proposal
@@ -55,14 +56,23 @@ packing_list:
   - Sun protection and refillable water bottle
   - Personal medication and travel documents
 faqs:
-  - question: "How high is Rush Lake?"
-    answer: "Rush Lake lies at about 4,694m, with Rush Pari peak above it, and is counted among the highest alpine lakes in the world. The views take in Rakaposhi, Diran and the Spantik massif."
-  - question: "Why does this trek take 14 days?"
-    answer: "The extra days are for acclimatisation and weather. Gaining almost 4,700m from Nagar valley needs a careful profile, and spare days keep the summit-day views from depending on a single morning."
-  - question: "How difficult is it?"
-    answer: "Challenging. There is no technical climbing, but the ground is steep in places, the altitude is real, and camps are high and cold. Previous trekking experience is a good idea."
-  - question: "When is the best time for Rush Lake?"
-    answer: "Late June to mid-September, once the snow has cleared from the upper meadows and the lake is reachable."
+  - question: How high is Rush Lake?
+    answer: >-
+      Rush Lake lies at about 4,694m, with Rush Pari peak above it, and is counted among the highest
+      alpine lakes in the world. The views take in Rakaposhi, Diran and the Spantik massif.
+  - question: Why does this trek take 14 days?
+    answer: >-
+      The extra days are for acclimatisation and weather. Gaining almost 4,700m from Nagar valley
+      needs a careful profile, and spare days keep the summit-day views from depending on a single
+      morning.
+  - question: How difficult is it?
+    answer: >-
+      Challenging. There is no technical climbing, but the ground is steep in places, the altitude
+      is real, and camps are high and cold. Previous trekking experience is a good idea.
+  - question: When is the best time for Rush Lake?
+    answer: >-
+      Late June to mid-September, once the snow has cleared from the upper meadows and the lake is
+      reachable.
 reviews: []
 key_facts:
   - label: Operating base
@@ -74,9 +84,10 @@ reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 duration_days: "14"
 seo:
-  title: "Rush Lake Trek, Nagar Valley - 14 Days | Karakoram Vision"
+  title: Rush Lake Trek, Nagar Valley - 14 Days | Karakoram Vision
   description: >-
-    Fourteen days to Rush Lake, one of the world's highest alpine lakes, high above Nagar valley. Guides, porters and camps included. Ask for dates and costs.
+    Fourteen days to Rush Lake, one of the world's highest alpine lakes, high above Nagar valley.
+    Guides, porters and camps included. Ask for dates and costs.
   keywords: Rush Lake, Nagar, high altitude, glacier trek
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""
@@ -88,17 +99,4 @@ menu_sections:
   - Best Sellers
 ---
 
-<!-- page-intro -->
-<h2><strong>About this journey</strong></h2>
-<p>Rush Lake lies at about 4,694m above the Nagar valley, counted among the highest alpine lakes in the world, with Rush Pari peak rising just beyond it. From the ridge above the lake the view takes in Rakaposhi, Diran, Spantik and the Miar and Golden Peak glaciers - an unusually complete Karakoram panorama for a trek that requires no climbing skill.</p>
-<p><strong>Who it suits.</strong> Trekkers with previous experience who are comfortable with altitude and cold camps. The ground is steep in places and the air is thin at the lake, but there is no technical climbing. Fourteen days allows a careful acclimatisation profile and spare days for weather, which is why we do not run this route in a rush.</p>
-<p><strong>When to go.</strong> Late June to mid-September, once snow has cleared from the upper meadows and the lake is reachable.</p>
-<p><strong>What we handle.</strong> Transport from Gilgit or Hunza to Nagar, porters, tents and camp kitchen, cook and an experienced guide. The route starts and ends within reach of the Karakoram Highway, so it fits neatly with time in Hunza.</p>
-<!-- /page-intro -->
-
-<p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><strong>Day 1: Arrival in Islamabad</strong></h3><p>Briefing and logistics check.</p><h3><strong>Day 2: Drive to Gilgit </strong></h3><p>10 hours drive</p><p><strong>Day 3: Drive to Hoper</strong></p><p><strong>to start the trek </strong></p><h3><strong>Day 4: Trek to Bericho Kor</strong></h3><p>Cross the initial glacier terrain with local guidance.</p><h3><strong>Day 5: Trek to Chidin Harai</strong></h3><p>Climb through alpine camps.</p><h3><strong>Day 6: Trek to Rush Lake</strong></h3><p>Reach the high lake area.</p><h3><strong>Day 7: Acclimatisation and viewpoint</strong></h3><p>Optional higher walk according to conditions.</p><h3><strong>Day 8: Begin descent</strong></h3><p>Return through established camps.</p><h3><strong>Day 9: Glacier crossing stages</strong></h3><p>Continue toward Hoper.</p><h3><strong>Day 10: Return to Hoper</strong></h3><p>Complete trekking.</p><h3><strong>Day 11: Hunza recovery</strong></h3><p>Drive to Hunza for rest.</p><h3><strong>Day 12: Drive to Naran</strong></h3><p>8 hours drive</p><p><strong>Day 13: Drive to Islamabad </strong></p><p>5-6 hours drive</p><h3><strong>Day 14: Fly Out </strong></h3><p>transfer to the airport for your own destinations </p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates <strong>and group profile are received.</strong></p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
-
-<!-- related-journeys -->
-<h2><strong>Related journeys</strong></h2>
-<ul><li><a href="/trekking/rakaposhi-base-camp-trek/">Rakaposhi base camp trek</a></li><li><a href="/expeditions/spantik-peak-expedition/">Spantik expedition</a></li><li><a href="/destinations/hunza/">Hunza valley guide</a></li></ul>
-<!-- /related-journeys -->
+<h2><strong>About this journey</strong></h2><p>Rush Lake lies at about 4,694m above the Nagar valley, counted among the highest alpine lakes in the world, with Rush Pari peak rising just beyond it. From the ridge above the lake the view takes in Rakaposhi, Diran, Spantik and the Miar and Golden Peak glaciers - an unusually complete Karakoram panorama for a trek that requires no climbing skill.</p><p><strong>Who it suits.</strong> Trekkers with previous experience who are comfortable with altitude and cold camps. The ground is steep in places and the air is thin at the lake, but there is no technical climbing. Fourteen days allows a careful acclimatisation profile and spare days for weather, which is why we do not run this route in a rush.</p><p><strong>When to go.</strong> Late June to mid-September, once snow has cleared from the upper meadows and the lake is reachable.</p><p><strong>What we handle.</strong> Transport from Gilgit or Hunza to Nagar, porters, tents and camp kitchen, cook and an experienced guide. The route starts and ends within reach of the Karakoram Highway, so it fits neatly with time in Hunza.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><strong>Day 1: Arrival in Islamabad</strong></h3><p>Briefing and logistics check.</p><h3><strong>Day 2: Drive to Gilgit</strong></h3><p>10 hours drive</p><p><strong>Day 3: Drive to Hoper</strong></p><p><strong>to start the trek</strong></p><h3><strong>Day 4: Trek to Bericho Kor</strong></h3><p>Cross the initial glacier terrain with local guidance.</p><h3><strong>Day 5: Trek to Chidin Harai</strong></h3><p>Climb through alpine camps.</p><h3><strong>Day 6: Trek to Rush Lake</strong></h3><p>Reach the high lake area.</p><h3><strong>Day 7: Acclimatisation and viewpoint</strong></h3><p>Optional higher walk according to conditions.</p><h3><strong>Day 8: Begin descent</strong></h3><p>Return through established camps.</p><h3><strong>Day 9: Glacier crossing stages</strong></h3><p>Continue toward Hoper.</p><h3><strong>Day 10: Return to Hoper</strong></h3><p>Complete trekking.</p><h3><strong>Day 11: Hunza recovery</strong></h3><p>Drive to Hunza for rest.</p><h3><strong>Day 12: Drive to Naran</strong></h3><p>8 hours drive</p><p><strong>Day 13: Drive to Islamabad</strong></p><p>5-6 hours drive</p><h3><strong>Day 14: Fly Out</strong></h3><p>transfer to the airport for your own destinations</p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates <strong>and group profile are received.</strong></p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p><h2><strong>Related journeys</strong></h2><ul><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/trekking/rakaposhi-base-camp-trek/">Rakaposhi base camp trek</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/expeditions/spantik-peak-expedition/">Spantik expedition</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="/destinations/hunza/">Hunza valley guide</a></p></li></ul><p></p>
