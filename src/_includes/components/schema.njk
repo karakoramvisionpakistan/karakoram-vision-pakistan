@@ -1,6 +1,9 @@
 {% set canonicalUrl = seo.canonical or (site.url + permalink) %}
 {% set primaryImagePath = (seo.social_image or cover_image) | safeMedia('', site.seo.default_social_image) %}
 {% set primaryImage = primaryImagePath | absoluteUrl(site.url) %}
+{# Trip ke apne sawal aur aam sawalon ka bank — wahi filter jo safhe par chalta hai,
+   taake jo nazar aaye wahi Google ko bhi mile. #}
+{% set allFaqs = faqs | withFaqBank(faqBank, service_type) %}
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -27,6 +30,8 @@
       "address":{"@type":"PostalAddress","streetAddress":{{ site.address | json | safe }}{% if site.geo.city %},"addressLocality":{{ site.geo.city | json | safe }}{% endif %}{% if site.geo.region %},"addressRegion":{{ site.geo.region | json | safe }}{% endif %},"addressCountry":{{ (site.geo.country_code or 'PK') | json | safe }}},
       {% if site.geo.latitude and site.geo.longitude %}"geo":{"@type":"GeoCoordinates","latitude":{{ site.geo.latitude | json | safe }},"longitude":{{ site.geo.longitude | json | safe }}},{% endif %}
       "areaServed":[{% for area in site.geo.service_areas %}{"@type":"Place","name":{{ area | json | safe }}}{% if not loop.last %},{% endif %}{% endfor %}],
+      {% if site.credentials.licence_number %}"identifier":[{"@type":"PropertyValue","name":{{ (site.credentials.licence_label or 'Government tour operator licence') | json | safe }},"value":{{ site.credentials.licence_number | json | safe }}}],{% endif %}
+      {% if site.credentials.memberships and site.credentials.memberships.length %}"memberOf":[{% for m in site.credentials.memberships %}{"@type":"Organization","name":{{ m | json | safe }}}{% if not loop.last %},{% endif %}{% endfor %}],{% endif %}
       "knowsAbout":["Pakistan tours","Karakoram trekking","mountaineering expeditions","jeep safaris","travel planning"]
     },
     {
@@ -88,11 +93,11 @@
       "inLanguage":{{ (site.language or 'en') | json | safe }}
     }
     {% endif %}
-    {% if faqs and faqs.length %},
+    {% if allFaqs and allFaqs.length %},
     {
       "@type":"FAQPage",
       "@id":{{ (canonicalUrl + '#faq') | json | safe }},
-      "mainEntity":[{% for faq in faqs %}{"@type":"Question","name":{{ faq.question | json | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ faq.answer | stripHtml | json | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]
+      "mainEntity":[{% for faq in allFaqs %}{"@type":"Question","name":{{ faq.question | json | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ faq.answer | stripHtml | json | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]
     }
     {% endif %}
   ]

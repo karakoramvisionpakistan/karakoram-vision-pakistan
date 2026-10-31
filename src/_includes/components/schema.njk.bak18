@@ -1,0 +1,100 @@
+{% set canonicalUrl = seo.canonical or (site.url + permalink) %}
+{% set primaryImagePath = (seo.social_image or cover_image) | safeMedia('', site.seo.default_social_image) %}
+{% set primaryImage = primaryImagePath | absoluteUrl(site.url) %}
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":["Organization","TravelAgency","LocalBusiness"],
+      "@id":{{ (site.url + '/#organization') | json | safe }},
+      "name":{{ site.name | json | safe }},
+      "legalName":{{ (site.business.legal_name or site.name) | json | safe }},
+      "url":{{ site.url | json | safe }},
+      "description":{{ site.description | json | safe }},
+      "email":{{ site.email | json | safe }},
+      {% if site.phone %}"telephone":{{ site.phone | json | safe }},{% endif %}
+      {% set socialLinks = [] %}
+      {% for socialKey, socialUrl in site.social %}{% if socialUrl %}{% set _ = socialLinks.push(socialUrl) %}{% endif %}{% endfor %}
+      {% if site.ratings.google_url %}{% set _ = socialLinks.push(site.ratings.google_url) %}{% endif %}
+      {% if site.ratings.tripadvisor_url %}{% set _ = socialLinks.push(site.ratings.tripadvisor_url) %}{% endif %}
+      {% if socialLinks.length %}"sameAs":[{% for link in socialLinks %}{{ link | json | safe }}{% if not loop.last %},{% endif %}{% endfor %}],{% endif %}
+      {% if site.business.founded_year %}"foundingDate":{{ site.business.founded_year | json | safe }},{% endif %}
+      {% if site.business.opening_hours and site.business.opening_hours.opens %}"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":{{ site.business.opening_hours.opens | json | safe }},"closes":{{ site.business.opening_hours.closes | json | safe }}}],{% endif %}
+      "contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":{{ (site.booking_email or site.email) | json | safe }}{% if site.phone %},"telephone":{{ site.phone | json | safe }}{% endif %},"areaServed":"PK","availableLanguage":["English","Urdu"]}],
+      "logo":{"@type":"ImageObject","url":{{ (site.logo | absoluteUrl(site.url)) | json | safe }}},
+      "image":{{ (site.seo.default_social_image | absoluteUrl(site.url)) | json | safe }},
+      "address":{"@type":"PostalAddress","streetAddress":{{ site.address | json | safe }}{% if site.geo.city %},"addressLocality":{{ site.geo.city | json | safe }}{% endif %}{% if site.geo.region %},"addressRegion":{{ site.geo.region | json | safe }}{% endif %},"addressCountry":{{ (site.geo.country_code or 'PK') | json | safe }}},
+      {% if site.geo.latitude and site.geo.longitude %}"geo":{"@type":"GeoCoordinates","latitude":{{ site.geo.latitude | json | safe }},"longitude":{{ site.geo.longitude | json | safe }}},{% endif %}
+      "areaServed":[{% for area in site.geo.service_areas %}{"@type":"Place","name":{{ area | json | safe }}}{% if not loop.last %},{% endif %}{% endfor %}],
+      "knowsAbout":["Pakistan tours","Karakoram trekking","mountaineering expeditions","jeep safaris","travel planning"]
+    },
+    {
+      "@type":"WebSite",
+      "@id":{{ (site.url + '/#website') | json | safe }},
+      "url":{{ site.url | json | safe }},
+      "name":{{ site.name | json | safe }},
+      "description":{{ site.description | json | safe }},
+      "publisher":{"@id":{{ (site.url + '/#organization') | json | safe }}},
+      "inLanguage":{{ (site.language or 'en') | json | safe }},
+      "potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":{{ (site.url + '/search/?q={search_term_string}') | json | safe }}},"query-input":"required name=search_term_string"}
+    },
+    {% if service_type %}
+    {
+      "@type":["WebPage","TouristTrip"],
+      "@id":{{ (canonicalUrl + '#trip') | json | safe }},
+      "url":{{ canonicalUrl | json | safe }},
+      "name":{{ title | json | safe }},
+      "description":{{ (answer_summary or seo.description or summary or site.description) | stripHtml | json | safe }},
+      "image":{{ primaryImage | json | safe }},
+      "provider":{"@id":{{ (site.url + '/#organization') | json | safe }}},
+      "touristType":{{ (service_label or service_type) | json | safe }},
+      {% if destination %}"touristDestination":{"@type":"TouristDestination","name":{{ destination | json | safe }}},{% endif %}
+      {% if duration %}"duration":{{ duration | json | safe }},{% endif %}
+      "isPartOf":{"@id":{{ (site.url + '/#website') | json | safe }}},
+      "inLanguage":{{ (site.language or 'en') | json | safe }}
+    },
+    {"@type":"BreadcrumbList","@id":{{ (canonicalUrl + '#breadcrumbs') | json | safe }},"itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Home","item":{{ (site.url + '/') | json | safe }}},
+      {"@type":"ListItem","position":2,"name":{{ (service_label or title or service_type) | json | safe }},"item":{{ (site.url + '/' + service_type + '/') | json | safe }}},
+      {"@type":"ListItem","position":3,"name":{{ title | json | safe }},"item":{{ canonicalUrl | json | safe }}}
+    ]}
+    {% elif source.page_type == 'post' %}
+    {
+      "@type":"Article",
+      "@id":{{ (canonicalUrl + '#article') | json | safe }},
+      "mainEntityOfPage":{{ canonicalUrl | json | safe }},
+      "headline":{{ title | json | safe }},
+      "description":{{ (answer_summary or seo.description or summary or site.description) | stripHtml | json | safe }},
+      "image":{{ primaryImage | json | safe }},
+      {% if date %}"datePublished":{{ (date | isoDate) | json | safe }},{% endif %}
+      {% if last_verified or date_modified %}"dateModified":{{ ((last_verified or date_modified) | isoDate) | json | safe }},{% endif %}
+      "author":{"@type":"Person","name":{{ (author or site.name + ' Editorial Team') | json | safe }}},
+      "reviewedBy":{"@type":"Person","name":{{ (reviewed_by or site.name + ' Travel Team') | json | safe }}},
+      "publisher":{"@id":{{ (site.url + '/#organization') | json | safe }}},
+      "isPartOf":{"@id":{{ (site.url + '/#website') | json | safe }}},
+      "inLanguage":{{ (site.language or 'en') | json | safe }}
+    }
+    {% else %}
+    {
+      "@type":"WebPage",
+      "@id":{{ (canonicalUrl + '#webpage') | json | safe }},
+      "url":{{ canonicalUrl | json | safe }},
+      "name":{{ title | json | safe }},
+      "description":{{ (answer_summary or seo.description or summary or site.description) | stripHtml | json | safe }},
+      "primaryImageOfPage":{"@type":"ImageObject","url":{{ primaryImage | json | safe }}},
+      "isPartOf":{"@id":{{ (site.url + '/#website') | json | safe }}},
+      "about":{"@id":{{ (site.url + '/#organization') | json | safe }}},
+      "inLanguage":{{ (site.language or 'en') | json | safe }}
+    }
+    {% endif %}
+    {% if faqs and faqs.length %},
+    {
+      "@type":"FAQPage",
+      "@id":{{ (canonicalUrl + '#faq') | json | safe }},
+      "mainEntity":[{% for faq in faqs %}{"@type":"Question","name":{{ faq.question | json | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ faq.answer | stripHtml | json | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]
+    }
+    {% endif %}
+  ]
+}
+</script>
