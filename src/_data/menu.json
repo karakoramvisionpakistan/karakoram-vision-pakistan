@@ -63,7 +63,7 @@
               "enabled": true,
               "target_blank": false,
               "label": "Gear & Packing",
-              "url": "/search/?type=blog&q=packing"
+              "url": "/blog/northern-pakistan-packing-checklist/"
             },
             {
               "enabled": true,
@@ -128,12 +128,6 @@
               "target_blank": false,
               "label": "Skardu Holidays",
               "url": "/destinations/skardu/"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Kalash Festival",
-              "url": "/search/?type=tours&q=kalash"
             }
           ],
           "url": "/tours/best-sellers/"
@@ -180,24 +174,6 @@
               "target_blank": false,
               "label": "Skardu",
               "url": "/destinations/skardu/"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Chitral",
-              "url": "/search/?type=tours&q=chitral"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Swat",
-              "url": "/search/?type=tours&q=swat"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Kashmir",
-              "url": "/search/?type=tours&q=kashmir"
             },
             {
               "enabled": true,
@@ -261,19 +237,7 @@
               "enabled": true,
               "target_blank": false,
               "label": "K2 & Gondogoro La",
-              "url": "/search/?type=trekking&q=gondogoro%20la"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Four 8,000m Base Camps",
-              "url": "/search/?type=trekking&q=four%20base%20camps"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Five 8,000m Base Camps",
-              "url": "/search/?type=trekking&q=five%20base%20camps"
+              "url": "/trekking/gondogoro-la-circuit-trek/"
             },
             {
               "enabled": true,
@@ -301,13 +265,13 @@
               "enabled": true,
               "target_blank": false,
               "label": "Gondogoro La Circuit",
-              "url": "/search/?type=trekking&q=gondogoro"
+              "url": "/trekking/gondogoro-la-circuit-trek/"
             },
             {
               "enabled": true,
               "target_blank": false,
               "label": "Nanga Parbat Trek",
-              "url": "/search/?type=trekking&q=nanga%20parbat"
+              "url": "/trekking/fairy-meadows-base-camp-trek/"
             },
             {
               "enabled": true,
@@ -319,7 +283,7 @@
               "enabled": true,
               "target_blank": false,
               "label": "Rakaposhi Base Camp",
-              "url": "/search/?type=trekking&q=rakaposhi"
+              "url": "/trekking/rakaposhi-base-camp-trek/"
             },
             {
               "enabled": true,
@@ -339,31 +303,13 @@
               "enabled": true,
               "target_blank": false,
               "label": "Snow Lake Trek",
-              "url": "/search/?type=trekking&q=snow%20lake"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Nanga Parbat Circular",
-              "url": "/search/?type=trekking&q=nanga%20parbat%20circular"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Shimshal Pass Trek",
-              "url": "/search/?type=trekking&q=shimshal%20pass"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Batura Glacier Trek",
-              "url": "/search/?type=trekking&q=batura"
+              "url": "/trekking/biafo-hispar-trek/"
             },
             {
               "enabled": true,
               "target_blank": false,
               "label": "Rush Lake Trek",
-              "url": "/search/?type=trekking&q=rush%20lake"
+              "url": "/trekking/rush-lake-trek/"
             }
           ],
           "url": "/trekking/trending-treks/"
@@ -372,32 +318,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Trekking Peaks",
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Gondogoro Peak",
-              "url": "/search/?type=trekking&q=gondogoro%20peak"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Khosar Gang Peak",
-              "url": "/search/?type=trekking&q=khosar%20gang"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Pastore Peak",
-              "url": "/search/?type=trekking&q=pastore"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Khayrut Peak",
-              "url": "/search/?type=trekking&q=khayrut"
-            }
-          ],
+          "children": [],
           "url": "/trekking/trekking-peaks/"
         },
         {
@@ -432,7 +353,7 @@
               "enabled": true,
               "target_blank": false,
               "label": "Gasherbrum II (8,035m)",
-              "url": "/search/?type=expeditions&q=gasherbrum%20ii"
+              "url": "/expeditions/gasherbrum-ii-expedition/"
             },
             {
               "enabled": true,
@@ -444,13 +365,13 @@
               "enabled": true,
               "target_blank": false,
               "label": "Spantik (7,027m)",
-              "url": "/search/?type=expeditions&q=spantik"
+              "url": "/expeditions/spantik-peak-expedition/"
             },
             {
               "enabled": true,
               "target_blank": false,
               "label": "Nanga Parbat (8,126m)",
-              "url": "/search/?type=expeditions&q=nanga%20parbat"
+              "url": "/expeditions/nanga-parbat-expedition/"
             }
           ],
           "url": "/expeditions/best-sellers/"
@@ -488,7 +409,7 @@
               "enabled": true,
               "target_blank": false,
               "label": "Gasherbrum II",
-              "url": "/search/?type=expeditions&q=gasherbrum%20ii"
+              "url": "/expeditions/gasherbrum-ii-expedition/"
             },
             {
               "enabled": true,
@@ -535,32 +456,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Trekking Peaks",
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Gondogoro Peak",
-              "url": "/search/?type=expeditions&q=gondogoro%20peak"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Khosar Gang",
-              "url": "/search/?type=expeditions&q=khosar%20gang"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Pastore Peak",
-              "url": "/search/?type=expeditions&q=pastore"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Minglik Sar",
-              "url": "/search/?type=expeditions&q=minglik"
-            }
-          ],
+          "children": [],
           "url": "/expeditions/trekking-peaks/"
         },
         {
@@ -585,20 +481,8 @@
             {
               "enabled": true,
               "target_blank": false,
-              "label": "Himalayan Range",
-              "url": "/search/?type=expeditions&q=himalaya"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
               "label": "Hindu Kush Range",
               "url": "/search/?type=expeditions&q=hindu%20kush"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Pamir Range",
-              "url": "/search/?type=expeditions&q=pamir"
             }
           ],
           "url": "/expeditions/mountain-ranges/"
@@ -607,20 +491,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "Climbing Style",
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Alpine Style",
-              "url": "/search/?type=expeditions&q=alpine%20style"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Expedition Style",
-              "url": "/search/?type=expeditions&q=expedition%20style"
-            }
-          ],
+          "children": [],
           "url": "/expeditions/climbing-style/"
         }
       ]
@@ -817,7 +688,7 @@
           "enabled": true,
           "target_blank": false,
           "label": "K2 & Expedition Updates",
-          "url": "/search/?type=blog&q=k2"
+          "url": "/blog/"
         },
         {
           "enabled": true,
