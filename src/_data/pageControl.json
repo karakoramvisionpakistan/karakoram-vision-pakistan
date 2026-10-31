@@ -246,13 +246,6 @@
       "file": "src/jeep-safaris/skardu-safaris/index.njk"
     },
     {
-      "label": "Social Responsibility",
-      "url": "/social-responsibility/",
-      "published": true,
-      "redirect_to": "",
-      "file": "src/social-responsibility/index.njk"
-    },
-    {
       "label": "Special Interests",
       "url": "/special-interests/",
       "published": true,
@@ -331,5 +324,19 @@
     "/international-travelers/",
     "/vehicles/coaster-group-transport/"
   ],
-  "redirects": []
+  "redirects": [],
+  "_trash_pages": [
+    {
+      "id": "1793426919377-nxygde",
+      "item": {
+        "label": "Social Responsibility",
+        "url": "/social-responsibility/",
+        "published": true,
+        "redirect_to": "",
+        "file": "src/social-responsibility/index.njk"
+      },
+      "idx": 35,
+      "at": "2026-10-31T06:08:39.377Z"
+    }
+  ]
 }
