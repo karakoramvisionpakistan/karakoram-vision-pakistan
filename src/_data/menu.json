@@ -229,6 +229,12 @@
         {
           "enabled": true,
           "target_blank": false,
+          "label": "Group Tours",
+          "url": "/tours/group-tours/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
           "label": "Pakistan Destinations",
           "children": [
             {
@@ -279,12 +285,6 @@
         {
           "enabled": true,
           "target_blank": false,
-          "label": "Group Tours",
-          "url": "/tours/group-tours/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
           "label": "Fixed Departures",
           "icon": "◷",
           "url": "/tours/fixed-departures/"
@@ -321,7 +321,7 @@
         {
           "enabled": true,
           "target_blank": false,
-          "label": "K2 Treks",
+          "label": "Baltoro Treks",
           "icon": "★",
           "featured": true,
           "children": [
