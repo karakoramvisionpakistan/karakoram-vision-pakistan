@@ -167,7 +167,7 @@ itinerary:
     overnight: Hotel
   - day: '42'
     title: Fly to on ward destination - End of our services.
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: Transfer to the airport, and the end of our services. Six weeks on the Diamir face lie behind you. A room can be held for a late flight.
     overnight: Not applicable
 related:
   - Fairy Meadows and Nanga Parbat Base Camp Trek

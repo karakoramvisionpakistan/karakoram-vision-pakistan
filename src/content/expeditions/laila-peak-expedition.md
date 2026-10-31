@@ -148,7 +148,7 @@ itinerary:
     overnight: Hotel
   - day: '30'
     title: Fly to your own destination.
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: Transfer to the airport. Thirty days after arriving, the expedition closes. A day room is available if you are leaving late in the day.
     overnight: Not applicable
 related:
   - Nangma Valley Trek

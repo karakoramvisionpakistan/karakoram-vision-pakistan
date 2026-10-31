@@ -99,52 +99,52 @@ itinerary:
     overnight: Hotel
   - day: '02'
     title: Fly to Skardu/ Chilas
-    description: a) Fly to Skardu by PK 451. (Flight is subject to weather). Upon arrival transfer to hotel for overnight. b) In case of cancellation of flight (11-12 hrs) drive by coach to Chilas (480 km) on Karakoram Highway. Overnight at hotel.
+    description: 'a) PK 451 to Skardu, weather permitting — the flight threads between the ranges and is cancelled about as often as it operates. Hotel on arrival. b) Otherwise it is the road: eleven to twelve hours and 480 kilometres by coach along the Karakoram Highway to Chilas, with a hotel night there.'
     overnight: Hotel
   - day: '03'
     title: Preparation day in Skardu or drive to Skardu
-    description: a) Day free at Skardu. b) If you are driving, complete road journey (08–09 hrs) to Skardu (275 km) En-route has good view of Nanga Parbat (8125m) at junction of Indus River and the rapids and fall of Indus River. Overnight at hotel.
+    description: a) A free day in Skardu for those who flew. b) For those driving, eight to nine hours and 275 kilometres remain. The road passes the Indus junction where Nanga Parbat rises 8,125m above the water with the rapids below. Hotel in Skardu, and the final preparations.
     altitude: 8,125 m
     overnight: Hotel
   - day: '04'
     title: Drive to Askoli
-    description: By jeeps drive to Askole (6-7 hrs). The last village of about 80 houses. The villagers grow their own cereals, vegetable and fruit and own large herds of sheep's, goats, yaks. Overnight in tent.
+    description: The jeep road up the Braldu takes six to seven hours to Askole. Eighty or so houses, terraced plots of cereal and vegetables, fruit trees and big herds of sheep, goats and yaks — the last settlement before the glaciers. Camp beside the village while loads are weighed.
     altitude: 3,000 m
     overnight: Camping
   - day: '05'
     title: Trek to Jhola camp
-    description: Start 2-3 hours, walk across wasteland and traverse Biafo Glacier, a tortured Ocean of moving boulders and crevasses 2 km wide. Cross the glacier and after a lunch break continue to Jhola (4-5 hrs). Cross-Dumurdo River Bridge and camp at the campsite surrounded by a few bushes with a side stream. Overnight in tent.
+    description: Two to three hours across stony wasteland and then the crossing of the Biafo, a two-kilometre tide of boulders and crevasses. Lunch beyond it, then four to five hours to Jhola over the Dumurdo river bridge. The campsite has bushes and a side stream, and both are welcome.
     altitude: 3,200 m
     distance: 2 km
     hours: 2-3 hrs
     overnight: Camping
   - day: '06'
     title: Trek to Paiju
-    description: Start on a relatively easy trail for 3-4 hrs. Crossing Bardumal campsites along a 2-km stretch of sandy River beach. After a lunch break continue towards Paiju for another 2-3 hrs. trail climbs to a Vantage Point providing view of the Snout of Baltoro. And in the far distance a magnificent Panorama of Cathedral Towers and triangle of K2 to the left for the first time. Paiju is a crowded campsite. Overnight in tent.
+    description: An easy three to four hours past Bardumal and along a long sandy beach beside the river, then two to three hours after lunch to Paiju. The trail lifts to a vantage point above the Baltoro snout where the Cathedral Towers appear and, far off, the triangle of K2. Paiju is crowded in season.
     altitude: 3,600 m
     hours: 3-4 hrs
     overnight: Camping
   - day: '07'
     title: Rest day in Paiju
-    description: Traditional rest day at Paiju for local exploration and its needs of the low porters for their food preparation etc. Overnight at tent.
+    description: The traditional rest day at Paiju. Gasherbrum teams use it to reorganise loads for the glacier while the porters prepare their food. It is also the last green campsite — from here to base camp the ground is stone and ice.
     altitude: 3,600 m
     overnight: Camping
   - day: '08'
     title: Trek to Urdokas
-    description: (4200m). Start for a 7-8 hrs. Gradual climb up Baltoro Glacier on the southern edge. After about two hours the path divides at the snout of Baltoro glacier where the left branch goes to the BC of Trango Tower and the Sarpo Lago pass. Continue to the right climbing up on to the glacier that stretches up the valley 62 km long and 2 km wide. Further 2-3 hours steady climb on a long diagonal to the other side. Follow the southern edge to Liliwa and onward to Khuburtze lovely walks for about 90 minutes to the campsite and with clear water. 4-5 hours lovely walk mostly along the crest of lateral moraine with stunning views of Paiyu Peak, Chorichi, Uli Biaho, Trango Towers and so on. Urdukas is a spectacular campsite. However like Paiyu this site is over used and polluted. Overnight at tent.
+    description: A long day of seven to eight hours up the southern edge of the Baltoro. The path splits at the snout, the left branch heading for Trango base camp and the Sarpo Laggo; the route keeps right and climbs onto a glacier 62 kilometres long and two across, taking a diagonal of two to three hours to reach the far side. Liliwa, then Khoburtse, then four to five hours along the lateral moraine with Paiju Peak, Choricho, Uli Biaho and the Trango Towers above. Urdukas is a fine camp, if an overused one.
     altitude: 4,200 m
     distance: 62 km
     hours: 7-8 hrs
     overnight: Camping
   - day: '09'
     title: Trek to Goro II
-    description: 5-6 hours walk on the glacier. The first hour walk is across difficult side crevasses, however the way is smoother and easy in the center. Continue for 2-3 hours to Goro-I opposite of Yermanendo Glacier falling down from the Mashebrum pass. For the next 2-3 hrs continue east up the Baltoro glacier. Following telephone wire from army HQ Goro to Gasherbrum IV. Goro-II campsite is pitched on the rough stones and ice in the center of the glacier with water from the glacier melt. Overnight at tent.
+    description: Five to six hours on the glacier. The first hour picks through side crevasses; after that the centre is smoother. Two to three hours brings Goro I, opposite the Yermanendu glacier coming down from the Masherbrum pass, and two to three more lead east along the telephone wire strung from the army post at Goro to Gasherbrum IV — which is, by now, the head of your own valley. Goro II is camped on stone and ice with glacier meltwater.
     altitude: 4,500 m
     hours: 5-6 hrs
     overnight: Camping
   - day: '10'
     title: Trek to Shaqring (Shama)
-    description: 4-5 hours slightly easy walk, with spectacular views and gigantic mountain panorama, including Muztagh Tower, Gasherbrum IV, Mitre Peak and the mighty K-2. Lunch at Concordia.After lunch you will have the view of Chogolisa, Baltoro Kangari and G-V. Overnight at tent.
+    description: 'Four to five hours of easier going into the amphitheatre: Muztagh Tower, Gasherbrum IV, Mitre Peak and K2. Lunch at Concordia, and then the route turns away from the K2 valley and up the South Gasherbrum glacier. Chogolisa, Baltoro Kangri and Gasherbrum V come into view through the afternoon. Camp at Shaqring, which Baltis also call Shama.'
     altitude: 4,800 m
     hours: 4-5 hrs
     overnight: Camping
@@ -156,7 +156,7 @@ itinerary:
     overnight: Camping
   - day: 12-42
     title: 31 days climbing
-    description: 1st camp at 6000m (Approx.). 2nd camp at 6500m (Approx.). 3rd camp at 7300m (Approx.). Summit at 8035m.
+    description: 'Thirty-one days on the mountain. The normal route on Gasherbrum II places camps at roughly 6,000m, 6,500m and 7,300m before the summit slopes to 8,035m. It is considered one of the more approachable eight-thousanders, which is not the same thing as an easy one: the upper ridge is exposed and the weather window is short. Base camp runs throughout with cook, kitchen and communications.'
     altitude: 6,000 m
     overnight: Camping
   - day: 43-46
@@ -177,7 +177,7 @@ itinerary:
     overnight: Hotel
   - day: '50'
     title: Transfer to airport for your own destination and goodbye
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: The final transfer to the airport. Seven weeks of permits, porters, glacier and altitude end at a departure gate. A room is available if your flight is late.
     overnight: Not applicable
 related:
   - Gasherbrum-I

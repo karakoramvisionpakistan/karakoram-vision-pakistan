@@ -152,7 +152,7 @@ itinerary:
     overnight: Hotel
   - day: '35'
     title: Fly to onward destination.
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: We see you off at the airport. Five weeks, one seven-thousander and a long glacier walk end here; a day room is available if you need one.
     overnight: Not applicable
 related:
   - Rush Lake Trek

@@ -152,7 +152,7 @@ itinerary:
     overnight: Hotel
   - day: '14'
     title: Fly Out
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: A morning run down to the airport for your flight out. A day room can be arranged if you are leaving late in the day.
     overnight: Not applicable
 related:
   - Rakaposhi Base Camp Trek

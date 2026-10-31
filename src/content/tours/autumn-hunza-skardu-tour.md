@@ -160,7 +160,7 @@ itinerary:
     overnight: Hotel
   - day: '14'
     title: Fly Out
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: A last morning in Islamabad before the transfer to the airport. If your flight is late we can hold a day room, and most people spend those hours sorting photographs from a fortnight of orchards and snow.
     overnight: Not applicable
 related:
   - Best Time to Visit Skardu

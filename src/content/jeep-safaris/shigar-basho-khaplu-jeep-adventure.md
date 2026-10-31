@@ -116,7 +116,7 @@ itinerary:
     overnight: Hotel
   - day: '06'
     title: Return or departure
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: Transfer according to your onward plans, whether that is the airport or further travel in Baltistan. A day room is available if you need one.
     overnight: Not applicable
 related:
   - Shigar Valley Guide

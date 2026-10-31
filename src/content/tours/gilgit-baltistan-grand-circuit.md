@@ -152,7 +152,7 @@ itinerary:
     overnight: Hotel
   - day: '14'
     title: Transfer to the airport for your own destinations
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: The transfer to the airport, and the end of the circuit. Fourteen days, three valleys and a good deal of road lie behind you. A day room can be arranged for a late departure.
     overnight: Not applicable
 related:
   - Hunza Valley Travel Guide

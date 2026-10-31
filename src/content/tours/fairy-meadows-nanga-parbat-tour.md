@@ -118,7 +118,7 @@ itinerary:
     overnight: Hotel
   - day: '08'
     title: Drop to the Airport
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: Transfer to the airport for your flight home. A day room is available if you have hours to fill — and the Nanga Parbat photographs will take longer to sort than you expect.
     overnight: Not applicable
 related:
   - Fairy Meadows and Nanga Parbat Guide

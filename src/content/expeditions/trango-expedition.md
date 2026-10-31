@@ -176,7 +176,7 @@ itinerary:
     overnight: Hotel
   - day: '33'
     title: Fly Out
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: Driven to the airport for your flight home. The towers stay where they are, and teams come back for them. A day room can be arranged for a late departure.
     overnight: Not applicable
 related:
   - K2 Base Camp Trek

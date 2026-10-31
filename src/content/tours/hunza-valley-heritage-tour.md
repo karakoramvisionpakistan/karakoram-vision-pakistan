@@ -138,7 +138,7 @@ itinerary:
     overnight: Hotel
   - day: '10'
     title: Drop to the airport for your own destinations
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: Driven to the airport for your onward flight. Should your departure be late in the day, a room is kept for you until then.
     overnight: Not applicable
 related:
   - Hunza Valley Travel Guide

@@ -138,7 +138,7 @@ itinerary:
     overnight: Hotel
   - day: '10'
     title: Fly out
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: Transfer to the airport. After ten days of mountain air the city feels loud; a day room is there if you would rather wait somewhere quiet.
     overnight: Not applicable
 related:
   - Fairy Meadows and Nanga Parbat View Tour

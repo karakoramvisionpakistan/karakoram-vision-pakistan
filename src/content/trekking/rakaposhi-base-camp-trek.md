@@ -117,7 +117,7 @@ itinerary:
     overnight: Guesthouse
   - day: '07'
     title: Departure
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: Transfer onward to Gilgit, Hunza or the airport, depending on what comes next for you. We can hold a room if the wait is long.
     overnight: Not applicable
 related:
   - Hunza Valley Heritage Tour

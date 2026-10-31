@@ -124,7 +124,7 @@ itinerary:
     overnight: Hotel
   - day: '07'
     title: Drop to the airport
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: The last transfer, to Skardu or Islamabad airport depending on your routing. A day room is available if the wait is a long one.
     overnight: Not applicable
 related:
   - Skardu Travel Guide

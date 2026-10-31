@@ -192,7 +192,7 @@ itinerary:
     overnight: Hotel
   - day: '21'
     title: Fly out
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: Transfer to the airport. Three weeks ago K2 was a photograph; today it is a place you have stood beneath. A day room is available if your flight is late.
     overnight: Not applicable
 related:
   - Gondogoro La Circuit Trek

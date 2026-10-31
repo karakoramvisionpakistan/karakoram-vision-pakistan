@@ -205,7 +205,7 @@ itinerary:
     overnight: Hotel
   - day: '21'
     title: Fly out
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: Three weeks and one 5,585-metre pass after you arrived, the transfer to the airport. A day room can be arranged for a late departure.
     overnight: Not applicable
 related:
   - K2 Base Camp Trek

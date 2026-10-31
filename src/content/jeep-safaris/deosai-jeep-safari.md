@@ -112,7 +112,7 @@ itinerary:
     overnight: Hotel
   - day: '05'
     title: Departure
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: The final transfer, by road or to the airport as your plans require. A room can be held if there are hours to fill.
     overnight: Not applicable
 related:
   - Deosai National Park Guide

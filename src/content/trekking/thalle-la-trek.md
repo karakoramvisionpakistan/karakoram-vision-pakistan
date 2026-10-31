@@ -133,7 +133,7 @@ itinerary:
     overnight: Hotel
   - day: '09'
     title: Fly Out
-    description: Transfer to the airport for your onward flight. A day room can be arranged if your departure is late in the day. This is where our services end — and where, we hope, the planning for the next trip begins.
+    description: The airport transfer, and the end of the trek. A day room is available for a late flight.
     overnight: Not applicable
 related:
   - Khaplu and Shyok Valley Guide
