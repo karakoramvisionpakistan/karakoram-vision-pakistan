@@ -715,7 +715,14 @@
           "enabled": true,
           "target_blank": false,
           "label": "City Tours",
-          "url": "/tours/cultural-tours/"
+          "url": "/tours/cultural-tours/",
+          "children": [
+            {
+              "label": "Lahore",
+              "url": "tours/lahore-city-tour",
+              "enabled": true
+            }
+          ]
         },
         {
           "enabled": true,
