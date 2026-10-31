@@ -1,0 +1,111 @@
+{
+  "tours": [
+    {
+      "slug": "best-sellers",
+      "label": "Best Sellers"
+    },
+    {
+      "slug": "city-tours",
+      "label": "City Tours"
+    },
+    {
+      "slug": "pakistan-destinations",
+      "label": "Pakistan Destinations"
+    },
+    {
+      "slug": "group-tours",
+      "label": "Group Tours"
+    },
+    {
+      "slug": "fixed-departures",
+      "label": "Fixed Departures"
+    },
+    {
+      "slug": "cultural-tours",
+      "label": "Cultural Tours"
+    }
+  ],
+  "trekking": [
+    {
+      "slug": "fixed-departures",
+      "label": "All Fixed Departures"
+    },
+    {
+      "slug": "k2-treks",
+      "label": "K2 Treks"
+    },
+    {
+      "slug": "best-sellers",
+      "label": "Best Sellers"
+    },
+    {
+      "slug": "trending-treks",
+      "label": "Trending Treks"
+    },
+    {
+      "slug": "trekking-peaks",
+      "label": "Trekking Peaks"
+    }
+  ],
+  "expeditions": [
+    {
+      "slug": "best-sellers",
+      "label": "Best Sellers"
+    },
+    {
+      "slug": "trekking-peaks",
+      "label": "Trekking Peaks"
+    },
+    {
+      "slug": "mountain-ranges",
+      "label": "Mountain Ranges"
+    },
+    {
+      "slug": "8000m-peaks",
+      "label": "8,000m Peaks"
+    },
+    {
+      "slug": "7000m-peaks",
+      "label": "7,000m Peaks"
+    },
+    {
+      "slug": "6000m-peaks",
+      "label": "6,000m Peaks"
+    },
+    {
+      "slug": "rock-climbing",
+      "label": "Rock Climbing"
+    },
+    {
+      "slug": "climbing-style",
+      "label": "Climbing Style"
+    },
+    {
+      "slug": "fixed-departures",
+      "label": "All Fixed Departures"
+    }
+  ],
+  "jeep-safaris": [
+    {
+      "slug": "gilgit-baltistan-safaris",
+      "label": "Gilgit-Baltistan Safaris"
+    },
+    {
+      "slug": "hunza-safaris",
+      "label": "Hunza Safaris"
+    },
+    {
+      "slug": "skardu-safaris",
+      "label": "Skardu Safaris"
+    },
+    {
+      "slug": "deosai-safaris",
+      "label": "Deosai Safaris"
+    },
+    {
+      "slug": "chitral-safaris",
+      "label": "Chitral Safaris"
+    }
+  ],
+  "hunting-services": []
+}

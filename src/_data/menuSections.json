@@ -9,12 +9,12 @@
       "label": "City Tours"
     },
     {
-      "slug": "pakistan-destinations",
-      "label": "Pakistan Destinations"
-    },
-    {
       "slug": "group-tours",
       "label": "Group Tours"
+    },
+    {
+      "slug": "pakistan-destinations",
+      "label": "Pakistan Destinations"
     },
     {
       "slug": "fixed-departures",
@@ -32,7 +32,7 @@
     },
     {
       "slug": "k2-treks",
-      "label": "K2 Treks"
+      "label": "Baltoro Treks"
     },
     {
       "slug": "best-sellers",

@@ -162,8 +162,8 @@ content:
         options:
           - Best Sellers
           - City Tours
-          - Pakistan Destinations
           - Group Tours
+          - Pakistan Destinations
           - Fixed Departures
           - Cultural Tours
       - name: trip_status
@@ -535,7 +535,7 @@ content:
         description: Which menu sections this should appear in. Choose as many as you like.
         options:
           - All Fixed Departures
-          - K2 Treks
+          - Baltoro Treks
           - Best Sellers
           - Trending Treks
           - Trekking Peaks
