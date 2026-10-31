@@ -1,11 +1,12 @@
 ---
-title: "Winter Expedition "
-message: We are going to organize a winter expedition for Spantik peak
-link_url: ""
-link_label: ""
+title: Winter Trips
+message: "Nangma Valley is one of the best place for winter trips. Let's plan a trip with us. "
+link_url: trekking/nangma-valley-trek/
+link_label: trekking/nangma-valley-trek/
 order: null
 published: true
 slug: winter-expedition
 ---
+
 
 
