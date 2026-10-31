@@ -719,7 +719,7 @@
           "children": [
             {
               "label": "Lahore",
-              "url": "tours/lahore-city-tour",
+              "url": "/tours/lahore-city-tour/",
               "enabled": true
             }
           ]
