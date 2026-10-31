@@ -532,71 +532,6 @@
         {
           "enabled": true,
           "target_blank": false,
-          "label": "Trekking Peaks",
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Gondogoro Peak",
-              "url": "/search/?type=expeditions&q=gondogoro%20peak"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Khosar Gang",
-              "url": "/search/?type=expeditions&q=khosar%20gang"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Pastore Peak",
-              "url": "/search/?type=expeditions&q=pastore"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Minglik Sar",
-              "url": "/search/?type=expeditions&q=minglik"
-            }
-          ],
-          "url": "/expeditions/trekking-peaks/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "Mountain Ranges",
-          "icon": "◉",
-          "children": [
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Karakoram Range",
-              "url": "/search/?type=expeditions&q=karakoram"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Himalayan Range",
-              "url": "/search/?type=expeditions&q=himalaya"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Hindu Kush Range",
-              "url": "/search/?type=expeditions&q=hindu%20kush"
-            },
-            {
-              "enabled": true,
-              "target_blank": false,
-              "label": "Pamir Range",
-              "url": "/search/?type=expeditions&q=pamir"
-            }
-          ],
-          "url": "/expeditions/mountain-ranges/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
           "label": "8,000m Peaks",
           "children": [
             {
@@ -673,6 +608,78 @@
         {
           "enabled": true,
           "target_blank": false,
+          "label": "Trekking Peaks",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Gondogoro Peak",
+              "url": "/search/?type=expeditions&q=gondogoro%20peak"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Khosar Gang",
+              "url": "/search/?type=expeditions&q=khosar%20gang"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Pastore Peak",
+              "url": "/search/?type=expeditions&q=pastore"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Minglik Sar",
+              "url": "/search/?type=expeditions&q=minglik"
+            }
+          ],
+          "url": "/expeditions/trekking-peaks/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "All Fixed Departures",
+          "icon": "◷",
+          "url": "/expeditions/fixed-departures/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
+          "label": "Mountain Ranges",
+          "icon": "◉",
+          "children": [
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Karakoram Range",
+              "url": "/search/?type=expeditions&q=karakoram"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Himalayan Range",
+              "url": "/search/?type=expeditions&q=himalaya"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Hindu Kush Range",
+              "url": "/search/?type=expeditions&q=hindu%20kush"
+            },
+            {
+              "enabled": true,
+              "target_blank": false,
+              "label": "Pamir Range",
+              "url": "/search/?type=expeditions&q=pamir"
+            }
+          ],
+          "url": "/expeditions/mountain-ranges/"
+        },
+        {
+          "enabled": true,
+          "target_blank": false,
           "label": "Climbing Style",
           "children": [
             {
@@ -689,13 +696,6 @@
             }
           ],
           "url": "/expeditions/climbing-style/"
-        },
-        {
-          "enabled": true,
-          "target_blank": false,
-          "label": "All Fixed Departures",
-          "icon": "◷",
-          "url": "/expeditions/fixed-departures/"
         }
       ]
     },
