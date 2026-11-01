@@ -2395,6 +2395,92 @@
       "w": 447
     }
   ],
+  "/assets/uploads/1793544001226-Skardu-City.webp": [
+    {
+      "src": "/assets/sized/1793544001226-skardu-city-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/1793544001226-skardu-city-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/sized/1793544001226-skardu-city-1400.webp",
+      "w": 1400
+    },
+    {
+      "src": "/assets/uploads/1793544001226-Skardu-City.webp",
+      "w": 1600
+    }
+  ],
+  "/assets/uploads/1793544051530-Khaplu-Fort.webp": [
+    {
+      "src": "/assets/sized/1793544051530-khaplu-fort-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/1793544051530-khaplu-fort-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/uploads/1793544051530-Khaplu-Fort.webp",
+      "w": 1200
+    }
+  ],
+  "/assets/uploads/1793544165984-Phandar-valley.webp": [
+    {
+      "src": "/assets/sized/1793544165984-phandar-valley-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/1793544165984-phandar-valley-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/sized/1793544165984-phandar-valley-1400.webp",
+      "w": 1400
+    },
+    {
+      "src": "/assets/uploads/1793544165984-Phandar-valley.webp",
+      "w": 1600
+    }
+  ],
+  "/assets/uploads/1793544169535-shangrila.webp": [
+    {
+      "src": "/assets/sized/1793544169535-shangrila-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/1793544169535-shangrila-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/sized/1793544169535-shangrila-1400.webp",
+      "w": 1400
+    },
+    {
+      "src": "/assets/uploads/1793544169535-shangrila.webp",
+      "w": 1600
+    }
+  ],
+  "/assets/uploads/1793544172998-Skardu-Colddesert.webp": [
+    {
+      "src": "/assets/sized/1793544172998-skardu-colddesert-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/1793544172998-skardu-colddesert-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/sized/1793544172998-skardu-colddesert-1400.webp",
+      "w": 1400
+    },
+    {
+      "src": "/assets/uploads/1793544172998-Skardu-Colddesert.webp",
+      "w": 1600
+    }
+  ],
   "/assets/uploads/Expedition/1792826653498-IMG_0560.webp": [
     {
       "src": "/assets/sized/expedition-1792826653498-img-0560-400.webp",
