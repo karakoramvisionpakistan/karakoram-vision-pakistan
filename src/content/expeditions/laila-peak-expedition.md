@@ -16,13 +16,15 @@ answer_summary: >-
   local logistics.
 cover_image: /assets/uploads/1792997162644-Laila-Peak.webp
 cover_image_alt: The blade-shaped summit of Laila Peak above the Gondogoro Glacier
-gallery: []
+gallery:
+  - /assets/uploads/1793542726028-0e2fb989-f547-4080-a716-e23fad30a8b4.webp
+  - /assets/uploads/1793542730462-IMG_4353.webp
 duration: 30 Days
 price_from: On request
-deposit: Confirmed with proposal
+deposit: 50 %
 price_currency: USD
-group_size: Expedition team
-difficulty: Expedition
+group_size: 02 +
+difficulty: Challenging
 destination: Hushe & Laila Peak
 categories:
   - Expeditions
@@ -32,7 +34,7 @@ tags:
   - Hushe
   - Karakoram
 departures:
-  - 24/07 to 23/08/2027
+  - "2027-07-24"
 departure_details:
   - dates: 24/07/2027
 highlights:
@@ -99,62 +101,89 @@ peak_class: Trekking peak (under 6,000m)
 menu_sections:
   - Best Sellers
   - All Fixed Departures
+  - 6,000m Peaks
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Arrival In Islamabad
-    description: Met at Islamabad airport and transferred to the hotel. Expedition paperwork and the climbing permit are finalised, and the team meets the liaison officer.
+    description: >-
+      Met at Islamabad airport and transferred to the hotel. Expedition paperwork and the climbing
+      permit are finalised, and the team meets the liaison officer.
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Flight to Skardu or drive to Chilas
-    description: The flight to Skardu when the weather allows; otherwise the two-day drive by road, starting with Chilas on the Karakoram Highway. Expeditions build this uncertainty into the schedule.
+    description: >-
+      The flight to Skardu when the weather allows; otherwise the two-day drive by road, starting
+      with Chilas on the Karakoram Highway. Expeditions build this uncertainty into the schedule.
     overnight: Hotel
-  - day: '03'
+  - day: "03"
     title: Free day in Skardu or drive to Skardu from Chilas Briefing in Skardu
-    description: A day in Skardu for the official briefing, final equipment checks and hiring whatever is still needed from the bazaar. Loads are packed for the porters and the kitchen team is assembled.
+    description: >-
+      A day in Skardu for the official briefing, final equipment checks and hiring whatever is still
+      needed from the bazaar. Loads are packed for the porters and the kitchen team is assembled.
     overnight: Hotel
-  - day: '04'
+  - day: "04"
     title: Drive to Hushe
-    description: By jeep up the Shyok and into the Hushe valley, a long rough drive ending at Hushe village beneath Masherbrum. Most of Baltistan’s high-altitude porters and guides come from here.
+    description: >-
+      By jeep up the Shyok and into the Hushe valley, a long rough drive ending at Hushe village
+      beneath Masherbrum. Most of Baltistan’s high-altitude porters and guides come from here.
     overnight: Camping
-  - day: '05'
+  - day: "05"
     title: Trek to Shaicho
-    description: On foot up the Hushe valley to Shaicho, a meadow camp beside the river with birch and juniper on the slopes. An easy day that gets the team walking together before the glacier.
+    description: >-
+      On foot up the Hushe valley to Shaicho, a meadow camp beside the river with birch and juniper
+      on the slopes. An easy day that gets the team walking together before the glacier.
     altitude: 3,400 m
     overnight: Camping
-  - day: '06'
+  - day: "06"
     title: Trek to Base Camp
-    description: Up onto the Gondogoro glacier and across to base camp below the peak. Laila stands directly above — a thin, leaning blade of rock and ice, one of the most photographed mountains in the Karakoram and one of the most committing of its size.
+    description: >-
+      Up onto the Gondogoro glacier and across to base camp below the peak. Laila stands directly
+      above — a thin, leaning blade of rock and ice, one of the most photographed mountains in the
+      Karakoram and one of the most committing of its size.
     altitude: 4,200 m
     overnight: Camping
   - day: 07-25
     title: Climbing days
-    description: The climbing period. Nineteen days gives room to establish the route, acclimatise on the lower slopes, wait out weather and make an attempt — and to make a second one if the first is turned back. The face is sustained steep ice and teams are self-sufficient above base camp. Base camp runs throughout with cook, kitchen and communications.
+    description: >-
+      The climbing period. Nineteen days gives room to establish the route, acclimatise on the lower
+      slopes, wait out weather and make an attempt — and to make a second one if the first is turned
+      back. The face is sustained steep ice and teams are self-sufficient above base camp. Base camp
+      runs throughout with cook, kitchen and communications.
     overnight: Base camp
-  - day: '26'
+  - day: "26"
     title: Trek back to Hushe
-    description: Down off the glacier and back to Hushe, the loads lighter and the valley green after weeks on ice.
+    description: >-
+      Down off the glacier and back to Hushe, the loads lighter and the valley green after weeks on
+      ice.
     overnight: Camping
-  - day: '27'
+  - day: "27"
     title: Drive back to Skardu and Debriefing
-    description: Jeeps back to Skardu, then the debriefing at the tourism office, which closes the expedition formally.
+    description: >-
+      Jeeps back to Skardu, then the debriefing at the tourism office, which closes the expedition
+      formally.
     overnight: Hotel
-  - day: '28'
+  - day: "28"
     title: Fly to Islamabad or drive to Chilas
-    description: The flight to Islamabad if it operates; otherwise the drive to Chilas and on the following day.
+    description: >-
+      The flight to Islamabad if it operates; otherwise the drive to Chilas and on the following
+      day.
     overnight: Hotel
-  - day: '29'
+  - day: "29"
     title: Sightseeing, or drive to Islamabad
     description: A day in Islamabad — spare if the flight was delayed, and sightseeing if it was not.
     overnight: Hotel
-  - day: '30'
+  - day: "30"
     title: Fly to your own destination
-    description: Transfer to the airport. Thirty days after arriving, the expedition closes. A day room is available if you are leaving late in the day.
+    description: >-
+      Transfer to the airport. Thirty days after arriving, the expedition closes. A day room is
+      available if you are leaving late in the day.
     overnight: Not applicable
 related:
   - Nangma Valley Trek
   - Khaplu and Shyok Valley Guide
   - Trango Expedition
 ---
+
 
 
 
