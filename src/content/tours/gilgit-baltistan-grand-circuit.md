@@ -16,7 +16,12 @@ answer_summary: >-
   travel.
 cover_image: /assets/uploads/1792996010652-Khaplu-Valley.webp
 cover_image_alt: The Karakoram Highway winding through the mountains of Gilgit-Baltistan
-gallery: []
+gallery:
+  - /assets/uploads/1792995956889-Fairy-Meadow.webp
+  - /assets/uploads/1792995980556-Deosai.webp
+  - /assets/uploads/1792996062127-Skardu-City.webp
+  - /assets/uploads/1793270072385-Shanngrila.webp
+  - /assets/uploads/1793270056058-Baltit-Fort.webp
 duration: 14 Days
 price_from: On request
 deposit: Confirmed with proposal
@@ -32,7 +37,11 @@ tags:
   - Skardu
   - grand tour
   - karakoram
-departures: []
+departures:
+  - "2027-05-10"
+  - "2027-06-12"
+  - "2027-07-12"
+  - "2027-08-14"
 departure_details: []
 highlights:
   - Two major mountain gateways
@@ -98,66 +107,71 @@ service_label: Tours
 menu_sections:
   - Best Sellers
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Arrival in Islamabad
-    description: Transfer to hotel and in the afternoon will do some sightseeing in Islamabad, visit like, Fsilsal Mosque, Pakistan Monument and Dam e Koh.
+    description: >-
+      Transfer to hotel and in the afternoon will do some sightseeing in Islamabad, visit like,
+      Fsilsal Mosque, Pakistan Monument and Dam e Koh.
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Drive to Gilgit
     description: 10 hours drive from Islamabad via KKH.
     overnight: Hotel
-  - day: '03'
+  - day: "03"
     title: Gilgit to Hunza
     description: Drive through Nagar and Rakaposhi viewpoints.
     overnight: Hotel
-  - day: '04'
+  - day: "04"
     title: Hunza heritage
     description: Forts and village walks.
     overnight: Hotel
-  - day: '05'
+  - day: "05"
     title: Upper Hunza
     description: Attabad, Passu and upper-valley landscapes.
     overnight: Hotel
-  - day: '06'
+  - day: "06"
     title: Return to Gilgit
     description: Flexible cultural stops.
     overnight: Hotel
-  - day: '07'
+  - day: "07"
     title: Drive to Skardu
     description: Travel through the Indus corridor, subject to road conditions.
     overnight: Hotel
-  - day: '08'
+  - day: "08"
     title: Skardu lakes
     description: Kachura lakes and city sights.
     overnight: Hotel
-  - day: '09'
+  - day: "09"
     title: Shigar Valley
     description: Heritage and cold-desert landscapes.
     overnight: Hotel
-  - day: '10'
+  - day: "10"
     title: Khaplu
     description: Drive through the Shyok Valley.
     overnight: Hotel
-  - day: '11'
+  - day: "11"
     title: Khaplu exploration
     description: Palace, mosque and villages.
     overnight: Hotel
-  - day: '12'
+  - day: "12"
     title: Return to Skardu
     description: Scenic transfer and final evening.
     overnight: Hotel
-  - day: '13'
+  - day: "13"
     title: Fly to Islamabad
     description: 50 minutes fly time.
     overnight: Hotel
-  - day: '14'
+  - day: "14"
     title: Transfer to the airport for your own destinations
-    description: The transfer to the airport, and the end of the circuit. Fourteen days, three valleys and a good deal of road lie behind you. A day room can be arranged for a late departure.
+    description: >-
+      The transfer to the airport, and the end of the circuit. Fourteen days, three valleys and a
+      good deal of road lie behind you. A day room can be arranged for a late departure.
     overnight: Not applicable
 related:
   - Hunza Valley Travel Guide
   - Skardu Travel Guide
   - Deosai National Park and Khaplu Tour
 ---
+
 
 <h2><strong>About this journey</strong></h2><p>This is the journey for travellers who want the whole region rather than one valley. Fourteen days linking Gilgit, Hunza, Skardu, Shigar and Khaplu: the Karakoram Highway and the Hunza forts on one side, the Indus valley, the cold desert and the Balti palaces on the other, with the mountains changing character as you cross between them.</p><p><strong>Who it suits.</strong> First-time visitors with time, and travellers who would rather see the contrast between Hunza and Baltistan than choose one. Nothing requires trekking; the days are a mix of driving, sightseeing and short walks.</p><p><strong>When to go.</strong> May to October. Summer opens every road including Deosai; October brings autumn colour and clear air.</p><p><strong>What we handle.</strong> Hotels throughout, a private vehicle with an experienced mountain driver, a local guide, and the route planning that keeps driving days to a sensible length. Fourteen days is the shortest comfortable version of this circuit - shorter means long days behind glass, longer means free days in the valleys you like most.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
