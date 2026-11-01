@@ -48,9 +48,10 @@ seo:
   keywords: K2 training, Baltoro gear, Altitude planning
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: trekking/k2-base-camp-trek/    trekking/gondogoro-la-circuit-trek/
-  social_image: /assets/uploads/journeys/prepare-for-k2-base-camp-trek.svg
+  social_image: ""
 layout: layouts/post.njk
 ---
+
 
 
 <h2><strong>What the trek actually demands</strong></h2>
