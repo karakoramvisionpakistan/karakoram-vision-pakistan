@@ -1,5 +1,5 @@
 ---
-title: Shigar, Basho and Khaplu Adventure Trip
+title: Skardu Shigar Basho and Khaplu Trip
 slug: shigar-basho-khaplu-jeep-safari
 permalink: /jeep-safaris/shigar-basho-khaplu-jeep-safari/
 published: true
@@ -16,13 +16,16 @@ answer_summary: >-
   road to Khaplu.
 cover_image: /assets/uploads/1792996037202-Shigar-Valley.webp
 cover_image_alt: Jeep track through the green meadows of Basho valley near Shigar
-gallery: []
+gallery:
+  - /assets/uploads/1793543998144-Basho.webp
+  - /assets/uploads/1793544051530-Khaplu-Fort.webp
+  - /assets/uploads/1793544001226-Skardu-City.webp
 duration: 6 Days
 price_from: On request
-deposit: Confirmed with proposal
+deposit: 50 %
 price_currency: USD
 group_size: 2–50 travelers
-difficulty: Moderate
+difficulty: Easy
 destination: Shigar, Basho & Khaplu
 categories:
   - Jeep Safaris
@@ -31,7 +34,8 @@ tags:
   - Basho
   - Khaplu
   - jeep adventure
-departures: []
+departures:
+  - "2027-06-12"
 departure_details: []
 highlights:
   - Shigar and Khaplu heritage
@@ -94,34 +98,41 @@ layout: layouts/journey.njk
 service_type: jeep-safaris
 service_label: Jeep Safaris
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Skardu arrival
     description: Meet the driver and review the road plan.
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Shigar Valley
     description: Heritage visits and village roads.
     overnight: Hotel
-  - day: '03'
+  - day: "03"
     title: Basho excursion
     description: 4x4 day trip subject to track conditions.
     overnight: Camping
-  - day: '04'
+  - day: "04"
     title: Drive to Khaplu
     description: Follow the Shyok Valley.
     overnight: Hotel
-  - day: '05'
+  - day: "05"
     title: Khaplu exploration
     description: Palace, mosque and nearby villages.
     overnight: Hotel
-  - day: '06'
+  - day: "06"
     title: Return or departure
-    description: Transfer according to your onward plans, whether that is the airport or further travel in Baltistan. A day room is available if you need one.
+    description: >-
+      Transfer according to your onward plans, whether that is the airport or further travel in
+      Baltistan. A day room is available if you need one.
     overnight: Not applicable
 related:
   - Shigar Valley Guide
   - Khaplu and Shyok Valley Guide
   - Skardu and Shigar Valley Explorer
+menu_sections:
+  - Skardu Safaris
+  - Gilgit-Baltistan Safaris
+  - ""
 ---
+
 
 <h2><strong>About this journey</strong></h2><p>This journey takes the two best valleys near Skardu and the quiet green one in between. Shigar has its fort-palace and the road toward Askole; Khaplu has the restored palace above the Shyok river and the Hushe road climbing toward the big peaks. Between them lies Basho - forest, meadows and streams, reachable only by jeep, which is why it stays empty.</p><p><strong>What the journey covers.</strong> Six days by 4x4 through all three valleys, with nights in hotels and guest houses rather than camps.</p><p><strong>Who it suits.</strong> Travellers who want to get off the main road without trekking. The grading is moderate - mostly driving with short walks, but mountain tracks are bumpy and the Basho road in particular is rough.</p><p><strong>When to go.</strong> May to October. Basho is greenest in June and July; September and October bring clear views and autumn colour in Shigar and Khaplu.</p><p><strong>What we handle.</strong> Private 4x4 and driver, hotels, meals and a local guide who knows which tracks are passable that week.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2>Suggested itinerary</h2><h2>Planning notes</h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2>Responsible travel</h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
