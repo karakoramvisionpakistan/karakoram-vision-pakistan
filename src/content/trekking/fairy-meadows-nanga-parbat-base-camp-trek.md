@@ -105,6 +105,7 @@ duration_days: 10
 menu_sections:
   - Best Sellers
   - Trending Treks
+  - All Fixed Departures
 itinerary:
   - day: "01"
     title: Arrival in Islamabad
@@ -154,6 +155,7 @@ related:
   - Fairy Meadows and Nanga Parbat Guide
   - Nanga Parbat Expedition
 ---
+
 
 
 
