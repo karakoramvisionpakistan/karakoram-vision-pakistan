@@ -17,13 +17,15 @@ summary: >-
   landscapes, and rich cultural heritage. Our Islamabad City Tour offers a wonderful opportunity to
   enjoy the city’s famous attractions, capture beautiful memories, and experience the charm of
   Pakistan’s capital.
-cover_image: /assets/uploads/1793287396814-Faisal-Mosque.webp
-gallery: []
+cover_image: /assets/uploads/1793536808994-Isb.webp
+gallery:
+  - /assets/uploads/1793536867006-Isb.webp
+  - /assets/uploads/1793536869869-Monument.webp
 duration: 1 Days
 price_from: ""
-deposit: ""
-group_size: ""
-difficulty: ""
+deposit: 20 %
+group_size: 2+
+difficulty: Easy
 destination: Islamabad Pakistan
 categories:
   - City
@@ -114,11 +116,19 @@ body: ""
 menu_sections:
   - Cultural Tours
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Islamabad in a day
     overnight: Not applicable
-    description: Collected from your hotel in the morning. The day takes in the Faisal Mosque, set against the Margalla Hills and one of the largest mosques in the world, and the Pakistan Monument on the Shakarparian ridge, whose petals open towards the city. The viewpoint at Daman-e-Koh looks down over the whole grid of Islamabad, and is best in the late afternoon when the light softens. Along the way there is time for the bazaars and for tea. A full day, or a half day if you have a flight to catch, and easily combined with Taxila for anyone interested in the Gandhara sites.
+    description: >-
+      Collected from your hotel in the morning. The day takes in the Faisal Mosque, set against the
+      Margalla Hills and one of the largest mosques in the world, and the Pakistan Monument on the
+      Shakarparian ridge, whose petals open towards the city. The viewpoint at Daman-e-Koh looks
+      down over the whole grid of Islamabad, and is best in the late afternoon when the light
+      softens. Along the way there is time for the bazaars and for tea. A full day, or a half day if
+      you have a flight to catch, and easily combined with Taxila for anyone interested in the
+      Gandhara sites.
 ---
+
 
 
 
