@@ -566,39 +566,39 @@
       }
     ]
   },
-  "/assets/uploads/1792998495291-IMG_9381.webp": {
+  "/assets/uploads/1793540998497-IMG_9458.webp": {
     "wide": [
       {
-        "src": "/assets/hero/1792998495291-img-9381--wide-1280.webp",
+        "src": "/assets/hero/1793540998497-img-9458--wide-1280.webp",
         "w": 1280,
         "h": 800
       },
       {
-        "src": "/assets/hero/1792998495291-img-9381--wide-1500.webp",
+        "src": "/assets/hero/1793540998497-img-9458--wide-1500.webp",
         "w": 1500,
         "h": 938
       }
     ],
     "mid": [
       {
-        "src": "/assets/hero/1792998495291-img-9381--mid-840.webp",
+        "src": "/assets/hero/1793540998497-img-9458--mid-840.webp",
         "w": 840,
         "h": 672
       },
       {
-        "src": "/assets/hero/1792998495291-img-9381--mid-1400.webp",
+        "src": "/assets/hero/1793540998497-img-9458--mid-1400.webp",
         "w": 1400,
         "h": 1120
       }
     ],
     "tall": [
       {
-        "src": "/assets/hero/1792998495291-img-9381--tall-420.webp",
+        "src": "/assets/hero/1793540998497-img-9458--tall-420.webp",
         "w": 420,
         "h": 747
       },
       {
-        "src": "/assets/hero/1792998495291-img-9381--tall-840.webp",
+        "src": "/assets/hero/1793540998497-img-9458--tall-840.webp",
         "w": 840,
         "h": 1493
       }
