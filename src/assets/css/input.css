@@ -2121,3 +2121,154 @@ h1, h2, h3, h4,
   }
 }
 /* === V11.26 END === */
+
+
+/* === Developer credit: signature plate (V11.27) === */
+/* Rang site ke apne variable se liya jata hai agar mojood ho; warna
+   aakhir mein likha hua orange chalta hai. Agar yeh orange site ke
+   button se mel na khaye to sirf --bk-dev-accent ki qeemat badal dein,
+   baqi kuch chhune ki zaroorat nahi. */
+
+.bk-footer .bk-devcredit {
+  --bk-dev-accent: var(--bk-accent, var(--accent, var(--brand, var(--color-accent, #f47421))));
+  --bk-dev-soft: color-mix(in srgb, var(--bk-dev-accent) 16%, transparent);
+  --bk-dev-line: rgba(255, 255, 255, 0.14);
+}
+
+.bk-footer .bk-devcredit-plate {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.5rem 1rem 0.5rem 0.75rem;
+  border: 1px solid var(--bk-dev-line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.035);
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-color .18s ease, background .18s ease, transform .18s ease;
+}
+
+.bk-footer .bk-devcredit-plate:hover,
+.bk-footer .bk-devcredit-menu[open] .bk-devcredit-plate {
+  border-color: var(--bk-dev-accent);
+  background: rgba(244, 116, 33, 0.16);   /* purane browser */
+  background: var(--bk-dev-soft);
+  transform: translateY(-1px);
+}
+
+.bk-footer .bk-devcredit-plate--static {
+  cursor: default;
+}
+
+.bk-footer .bk-devcredit-glyph {
+  flex: none;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--bk-dev-accent);
+  background: rgba(244, 116, 33, 0.16);   /* purane browser */
+  background: var(--bk-dev-soft);
+}
+
+.bk-footer .bk-devcredit-lines {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+  text-align: left;
+}
+
+.bk-footer .bk-devcredit-pre {
+  font-size: 0.68rem;
+  opacity: 0.68;
+}
+
+.bk-footer .bk-devcredit-name {
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.bk-footer .bk-devcredit-role {
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.62;
+}
+
+/* ---- ek se zyada link: menu ---- */
+
+.bk-footer .bk-devcredit-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.bk-footer .bk-devcredit-menu > summary {
+  list-style: none;
+}
+
+.bk-footer .bk-devcredit-menu > summary::-webkit-details-marker {
+  display: none;
+}
+
+.bk-footer .bk-devcredit-caret {
+  width: 0;
+  height: 0;
+  margin-left: 0.15rem;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid currentColor;
+  opacity: 0.55;
+  transition: transform .18s ease;
+}
+
+.bk-footer .bk-devcredit-menu[open] .bk-devcredit-caret {
+  transform: rotate(180deg);
+}
+
+.bk-footer .bk-devcredit-links {
+  position: absolute;
+  bottom: calc(100% + 0.5rem);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.45rem;
+  border: 1px solid var(--bk-dev-line);
+  border-radius: 0.6rem;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(6px);
+  white-space: nowrap;
+  z-index: 5;
+}
+
+.bk-footer .bk-devcredit-links a {
+  font-size: 0.76rem;
+  text-decoration: none;
+  border: 1px solid var(--bk-dev-line);
+  border-radius: 0.4rem;
+  padding: 0.3rem 0.65rem;
+  opacity: 0.8;
+}
+
+.bk-footer .bk-devcredit-links a:hover {
+  opacity: 1;
+  border-color: var(--bk-dev-accent);
+}
+
+.bk-footer .bk-devcredit-plate:focus-visible,
+.bk-footer .bk-devcredit-links a:focus-visible {
+  outline: 2px solid var(--bk-dev-accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bk-footer .bk-devcredit-plate,
+  .bk-footer .bk-devcredit-caret {
+    transition: none;
+  }
+}
+/* === V11.27 END === */

@@ -1,26 +1,46 @@
-{# Banane wale ka naam, footer ke bilkul neechay, beech mein.
-
-   Agar site.developer.links mein ek bhi link hai to naam ek chhota menu
-   ban jata hai jo click par khulta hai (details/summary — is ke liye koi
-   JavaScript nahi chahiye, aur keyboard se bhi khulta hai). Links khaali
-   hon to naam saada likha aata hai.
-
-   Naye link daalne ke liye site.json mein developer.links mein entry
-   barha dein; khaali url wali entry chhor di jati hai. #}
+{# Developer credit — "signature plate".
+   Footer ki neechay wali patti mein beech mein baithta hai.
+   .bk-devcredit wali class V11.26 ke centering ke liye zaroori hai.
+   Andar ka design V11.27 mein hai. #}
 {% set d = site.developer or {} %}
 {% if d.show !== false and d.name %}
 <div class="bk-devcredit">
-  <p class="bk-devcredit-line">
-    {%- if d.prefix %}<span class="bk-devcredit-prefix">{{ d.prefix }}</span> {% endif -%}
-    {%- if d.links and d.links.length -%}
-    <details class="bk-devcredit-menu">
-      <summary>{{ d.name }}</summary>
-      <div class="bk-devcredit-links">
-        {%- for l in d.links %}{% if l.url %}<a href="{{ l.url }}" target="_blank" rel="noopener me">{{ l.label or l.url }}</a>{% endif %}{% endfor -%}
-      </div>
-    </details>
-    {%- else -%}<span class="bk-devcredit-name">{{ d.name }}</span>{%- endif -%}
-  </p>
-  {% if d.role %}<p class="bk-devcredit-role">{{ d.role }}</p>{% endif %}
+{% if d.links and d.links | length > 1 %}
+  {# ek se zyada link: click par menu #}
+  <details class="bk-devcredit-menu">
+    <summary class="bk-devcredit-plate" aria-label="{{ d.name }} — links">
+  <span class="bk-devcredit-glyph" aria-hidden="true">&lt;/&gt;</span>
+  <span class="bk-devcredit-lines">
+    {% if d.prefix %}<span class="bk-devcredit-pre">{{ d.prefix }}</span>{% endif %}
+    <span class="bk-devcredit-name">{{ d.name }}</span>
+    {% if d.role %}<span class="bk-devcredit-role">{{ d.role }}</span>{% endif %}
+  </span>
+      <span class="bk-devcredit-caret" aria-hidden="true"></span>
+    </summary>
+    <div class="bk-devcredit-links">
+      {% for l in d.links %}{% if l.url %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label or l.url }}</a>{% endif %}{% endfor %}
+    </div>
+  </details>
+{% elif d.links and d.links | length == 1 and d.links[0].url %}
+  {# ek link: poora plate hi link hai #}
+  <a class="bk-devcredit-plate" href="{{ d.links[0].url }}" target="_blank" rel="noopener">
+  <span class="bk-devcredit-glyph" aria-hidden="true">&lt;/&gt;</span>
+  <span class="bk-devcredit-lines">
+    {% if d.prefix %}<span class="bk-devcredit-pre">{{ d.prefix }}</span>{% endif %}
+    <span class="bk-devcredit-name">{{ d.name }}</span>
+    {% if d.role %}<span class="bk-devcredit-role">{{ d.role }}</span>{% endif %}
+  </span>
+  </a>
+{% else %}
+  {# koi link nahi: sirf dikhawa #}
+  <span class="bk-devcredit-plate bk-devcredit-plate--static">
+  <span class="bk-devcredit-glyph" aria-hidden="true">&lt;/&gt;</span>
+  <span class="bk-devcredit-lines">
+    {% if d.prefix %}<span class="bk-devcredit-pre">{{ d.prefix }}</span>{% endif %}
+    <span class="bk-devcredit-name">{{ d.name }}</span>
+    {% if d.role %}<span class="bk-devcredit-role">{{ d.role }}</span>{% endif %}
+  </span>
+  </span>
+{% endif %}
 </div>
 {% endif %}

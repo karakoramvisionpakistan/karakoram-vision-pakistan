@@ -3136,6 +3136,27 @@ content:
               - name: url
                 label: URL
                 type: string
+      - name: ratings
+        label: Review scores
+        type: object
+        description: Shown in the footer, under the Subscribe box.
+        fields:
+          - name: google_score
+            label: Google score
+            type: string
+            description: 'Such as: 5.0 (12 reviews). Leave empty to show only the word Google.'
+          - name: google_url
+            label: Google profile link
+            type: string
+            description: The Google Maps link for the business profile.
+          - name: tripadvisor_score
+            label: Tripadvisor score
+            type: string
+            description: Leave empty to show only the word Tripadvisor.
+          - name: tripadvisor_url
+            label: Tripadvisor link
+            type: string
+            description: Leave empty to use the Tripadvisor link from Social channels.
   - name: site_channels
     label: Contact channels & social
     type: file
