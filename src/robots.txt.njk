@@ -17,4 +17,22 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
+# Anthropic: search and user-initiated fetches are allowed; training crawl is opted out.
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+Disallow: /
+
+# Perplexity answers may cite public pages.
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+
+# Common Crawl feeds third-party model training.
+User-agent: CCBot
+Disallow: /
+
 Sitemap: {{ site.url }}/sitemap.xml

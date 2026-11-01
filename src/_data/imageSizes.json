@@ -1461,6 +1461,48 @@
       "w": 678
     }
   ],
+  "/assets/uploads/brand/karakoram-vision-logo-blue.png": [
+    {
+      "src": "/assets/sized/brand-karakoram-vision-logo-blue-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/brand-karakoram-vision-logo-blue-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/uploads/brand/karakoram-vision-logo-blue.png",
+      "w": 1080
+    }
+  ],
+  "/assets/uploads/brand/karakoram-vision-logo-light.png": [
+    {
+      "src": "/assets/sized/brand-karakoram-vision-logo-light-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/brand-karakoram-vision-logo-light-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/uploads/brand/karakoram-vision-logo-light.png",
+      "w": 1080
+    }
+  ],
+  "/assets/uploads/brand/karakoram-vision-og.jpg": [
+    {
+      "src": "/assets/sized/brand-karakoram-vision-og-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/brand-karakoram-vision-og-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/uploads/brand/karakoram-vision-og.jpg",
+      "w": 1200
+    }
+  ],
   "/assets/uploads/Expedition/1792826653498-IMG_0560.webp": [
     {
       "src": "/assets/sized/expedition-1792826653498-img-0560-400.webp",
@@ -1631,48 +1673,6 @@
     {
       "src": "/assets/uploads/Expedition/1792831659925-g2-c-1-kvp.webp",
       "w": 640
-    }
-  ],
-  "/assets/uploads/brand/karakoram-vision-logo-blue.png": [
-    {
-      "src": "/assets/sized/brand-karakoram-vision-logo-blue-400.webp",
-      "w": 400
-    },
-    {
-      "src": "/assets/sized/brand-karakoram-vision-logo-blue-800.webp",
-      "w": 800
-    },
-    {
-      "src": "/assets/uploads/brand/karakoram-vision-logo-blue.png",
-      "w": 1080
-    }
-  ],
-  "/assets/uploads/brand/karakoram-vision-logo-light.png": [
-    {
-      "src": "/assets/sized/brand-karakoram-vision-logo-light-400.webp",
-      "w": 400
-    },
-    {
-      "src": "/assets/sized/brand-karakoram-vision-logo-light-800.webp",
-      "w": 800
-    },
-    {
-      "src": "/assets/uploads/brand/karakoram-vision-logo-light.png",
-      "w": 1080
-    }
-  ],
-  "/assets/uploads/brand/karakoram-vision-og.jpg": [
-    {
-      "src": "/assets/sized/brand-karakoram-vision-og-400.webp",
-      "w": 400
-    },
-    {
-      "src": "/assets/sized/brand-karakoram-vision-og-800.webp",
-      "w": 800
-    },
-    {
-      "src": "/assets/uploads/brand/karakoram-vision-og.jpg",
-      "w": 1200
     }
   ]
 }
