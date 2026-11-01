@@ -16,10 +16,14 @@ answer_summary: >-
   viewpoint route.
 cover_image: /assets/uploads/1792832376446-nanga-parbat.kvp.webp
 cover_image_alt: Green meadows at Fairy Meadows below the Raikot face of Nanga Parbat
-gallery: []
+gallery:
+  - /assets/uploads/1793539782014-Fairy-Meadow.webp
+  - /assets/uploads/1793539785848-Family-Trip.webp
+  - /assets/uploads/1792933332527-Nanga-Parbat--Copy-.webp
+  - /assets/uploads/1792933340671-Nanga-Parbat.webp
 duration: 10 Days
 price_from: On request
-deposit: Confirmed with proposal
+deposit: 50 %
 price_currency: USD
 group_size: 2–12 travelers
 difficulty: Moderate
@@ -32,7 +36,9 @@ tags:
   - Beyal Camp
   - base camp
   - himalaya
-departures: []
+departures:
+  - "2027-06-14"
+  - "2027-07-10"
 departure_details: []
 highlights:
   - Nanga Parbat Raikot face
@@ -98,52 +104,56 @@ service_label: Trekking
 duration_days: 10
 menu_sections:
   - Best Sellers
+  - Trending Treks
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Arrival in Islamabad
     description: drop to the hotel and in the evening will do some. sightseeing in Islamabad.
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Drive to Chilas
     description: 8-10 hours drive from Islamabad.
     overnight: Hotel
-  - day: '03'
+  - day: "03"
     title: Drive to Raikot and Jeep drive and walk to Fairy Meadow
     description: Local jeep to Tattu from Raikot and 2 hrs hike to the. meadows.
     hours: 2 hrs
     overnight: Hotel
-  - day: '04'
+  - day: "04"
     title: Trek to Beyal Camp
     description: Move closer to the Raikot Glacier.
     overnight: Camping
-  - day: '05'
+  - day: "05"
     title: Base-camp viewpoint day
     description: Continue as far as conditions and fitness safely allow.
     overnight: Camping
-  - day: '06'
+  - day: "06"
     title: Return to Fairy Meadow
     description: Descend to the meadows.
     overnight: Guesthouse
-  - day: '07'
+  - day: "07"
     title: Rest day
     description: Flexible photography and recovery.
     overnight: Guesthouse
-  - day: '08'
+  - day: "08"
     title: Return to Raikot by Jeep and then further drive to Naran
     description: 5-6 hrs drive time.
     overnight: Hotel
-  - day: '09'
+  - day: "09"
     title: Drive to Islamabad
     description: 5-6 hrs drive time.
     overnight: Hotel
-  - day: '10'
+  - day: "10"
     title: Fly out
-    description: Transfer to the airport. After ten days of mountain air the city feels loud; a day room is there if you would rather wait somewhere quiet.
+    description: >-
+      Transfer to the airport. After ten days of mountain air the city feels loud; a day room is
+      there if you would rather wait somewhere quiet.
     overnight: Not applicable
 related:
   - Fairy Meadows and Nanga Parbat View Tour
   - Fairy Meadows and Nanga Parbat Guide
   - Nanga Parbat Expedition
 ---
+
 
 <h2><strong>About this journey</strong></h2><p>Fairy Meadows is the green shelf of pasture that sits directly beneath the Raikot face of Nanga Parbat, the ninth highest mountain in the world. From the Karakoram Highway at Raikot Bridge a jeep climbs the famous mountain track to Tato, and from there it is a walk up through pine forest to the meadows. Beyond lies Beyal camp and the viewpoint above the Nanga Parbat base camp area, where the mountain fills the sky.</p><p><strong>Who it suits.</strong> Travellers who want a genuine Himalayan trek without a two-week commitment. The walking is moderate, the days are short, and the highest nights are comfortable by Karakoram standards - which makes this a good first trek and a good family option for teenagers.</p><p><strong>When to go.</strong> The jeep road is generally open from May to October. June to September gives the most settled weather and the clearest views of the Raikot face.</p><p><strong>What we handle.</strong> Transport along the Karakoram Highway, the local jeep to Tato, accommodation in huts or tented camps, meals, porters and a guide who knows the Raikot valley.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>PROGRAM</strong></h2><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
