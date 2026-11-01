@@ -16,9 +16,11 @@ gallery:
   - /assets/uploads/1793431549334-Attabad-Lake.webp
   - /assets/uploads/1793431553100-Hunza.webp
   - /assets/uploads/1793431556794-Khunjerab.webp
+  - /assets/uploads/1792995926341-Hunza.webp
+  - /assets/uploads/1793270184022-Baltit-fort-kvp.webp
 duration: "10"
 price_from: On request
-deposit: 20%
+deposit: 50%
 group_size: 2+
 difficulty: Strenuous
 destination: Karakoram Highway Gilgit Baltistan Pakistan
@@ -33,7 +35,9 @@ tags:
   - Cycling
   - Bycile
   - ""
-departures: []
+departures:
+  - "2027-04-10"
+  - "2027-04-20"
 departure_details: []
 highlights:
   - City
@@ -48,14 +52,14 @@ highlights:
 included: []
 excluded: []
 packing_list:
-  - "Comfortable walking shoes and a pair of sandals"
-  - "Light jacket or fleece for the evenings"
-  - "Warm layer for high passes and early mornings"
-  - "Sun hat, sunglasses and high-factor sunscreen"
-  - "Refillable water bottle"
-  - "Personal medication and a small first-aid kit"
-  - "Power bank and a universal plug adapter"
-  - "Copy of passport and travel insurance details"
+  - Comfortable walking shoes and a pair of sandals
+  - Light jacket or fleece for the evenings
+  - Warm layer for high passes and early mornings
+  - Sun hat, sunglasses and high-factor sunscreen
+  - Refillable water bottle
+  - Personal medication and a small first-aid kit
+  - Power bank and a universal plug adapter
+  - Copy of passport and travel insurance details
 route_map_url: ""
 trip_leader:
   name: ""
@@ -95,7 +99,7 @@ key_facts:
   - label: Best Place for Cycling
     value: Karakoram Highway is the best road for cycle touring.
 author: KVP Team
-reviewed_by: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: Karakoram Vision Pakistan Private Limited
 last_verified: "2026-10-31"
 sources: []
 seo:
@@ -110,43 +114,63 @@ seo:
 body: ""
 _in_review: false
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Arrival in Islamabad
-    description: Arrival at Islamabad International Airport. Meet and greet by the Karakoram Vision Pakistan team. Transfer to the hotel. Bicycle inspection and tour briefing.
+    description: >-
+      Arrival at Islamabad International Airport. Meet and greet by the Karakoram Vision Pakistan
+      team. Transfer to the hotel. Bicycle inspection and tour briefing.
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Islamabad – Chilas
-    description: Drive along the legendary Karakoram Highway. Enjoy spectacular mountain and river scenery. Overnight stay in Chilas.
+    description: >-
+      Drive along the legendary Karakoram Highway. Enjoy spectacular mountain and river scenery.
+      Overnight stay in Chilas.
     overnight: Hotel
-  - day: '03'
+  - day: "03"
     title: Chilas – Gilgit
-    description: Continue towards Gilgit along the Indus River. Enjoy breathtaking views of the surrounding mountains. Explore Gilgit city and local markets. Overnight stay in Gilgit.
+    description: >-
+      Continue towards Gilgit along the Indus River. Enjoy breathtaking views of the surrounding
+      mountains. Explore Gilgit city and local markets. Overnight stay in Gilgit.
     overnight: Hotel
-  - day: '04'
+  - day: "04"
     title: Gilgit – Hunza
-    description: Begin cycling towards the beautiful Hunza Valley. Enjoy views of Rakaposhi and the surrounding peaks. Visit Rakaposhi Viewpoint and local villages. Overnight stay in Karimabad, Hunza.
+    description: >-
+      Begin cycling towards the beautiful Hunza Valley. Enjoy views of Rakaposhi and the surrounding
+      peaks. Visit Rakaposhi Viewpoint and local villages. Overnight stay in Karimabad, Hunza.
     overnight: Hotel
-  - day: '05'
+  - day: "05"
     title: Explore Hunza Valley
-    description: Cycling and sightseeing around Karimabad. Visit Baltit Fort and Altit Fort. Explore the traditional streets of Hunza. Enjoy spectacular views of the Karakoram Mountains. Overnight stay in Hunza.
+    description: >-
+      Cycling and sightseeing around Karimabad. Visit Baltit Fort and Altit Fort. Explore the
+      traditional streets of Hunza. Enjoy spectacular views of the Karakoram Mountains. Overnight
+      stay in Hunza.
     overnight: Hotel
-  - day: '06'
+  - day: "06"
     title: Hunza – Passu
-    description: Cycle along the beautiful Karakoram Highway. Visit Attabad Lake and enjoy its turquoise waters. Explore Gulmit village and Passu. Enjoy views of Passu Cones. Overnight stay in Passu.
+    description: >-
+      Cycle along the beautiful Karakoram Highway. Visit Attabad Lake and enjoy its turquoise
+      waters. Explore Gulmit village and Passu. Enjoy views of Passu Cones. Overnight stay in Passu.
     overnight: Hotel
-  - day: '07'
+  - day: "07"
     title: Passu – Khunjerab Pass
-    description: Excursion towards the famous Khunjerab Pass. Experience the spectacular high-altitude mountain landscape. Visit the Pakistan-China border area, subject to access and weather conditions. Return to Passu or Sost for an overnight stay.
+    description: >-
+      Excursion towards the famous Khunjerab Pass. Experience the spectacular high-altitude mountain
+      landscape. Visit the Pakistan-China border area, subject to access and weather conditions.
+      Return to Passu or Sost for an overnight stay.
     overnight: Hotel
-  - day: '08'
+  - day: "08"
     title: Passu – Gilgit
-    description: Return towards Gilgit with beautiful mountain scenery. Enjoy photography stops and local hospitality. Overnight stay in Gilgit.
+    description: >-
+      Return towards Gilgit with beautiful mountain scenery. Enjoy photography stops and local
+      hospitality. Overnight stay in Gilgit.
     overnight: Hotel
-  - day: '09'
+  - day: "09"
     title: Gilgit – Naran
-    description: Travel towards Naran through the scenic mountain region. Enjoy the beautiful landscapes of northern Pakistan. Overnight stay in Naran.
+    description: >-
+      Travel towards Naran through the scenic mountain region. Enjoy the beautiful landscapes of
+      northern Pakistan. Overnight stay in Naran.
     overnight: Hotel
-  - day: '10'
+  - day: "10"
     title: Naran – Islamabad
     description: Drive back to Islamabad. Transfer to the airport or hotel. End of the cycling adventure.
     overnight: Hotel
@@ -155,5 +179,6 @@ related:
   - Skardu Travel Guide
   - Gilgit-Baltistan Grand Circuit
 ---
+
 
 <h2><strong>Cycling Tour in Pakistan – Discover Pakistan on Two Wheels</strong></h2><p>Experience the breathtaking beauty of Pakistan on an unforgettable cycling adventure with Karakoram Vision Pakistan. From the mighty peaks of the Karakoram and Himalayas to green valleys, mountain villages, crystal-clear rivers, and historic Silk Road routes, Pakistan offers some of the world's most spectacular cycling experiences.</p><p>Our cycling tours take you through stunning mountain roads, traditional villages, and beautiful landscapes, offering a unique opportunity to discover local cultures, meet welcoming communities, and experience the true spirit of adventure.</p><p>Whether you are an experienced cyclist or an adventure enthusiast, our tours offer an incredible combination of cycling, nature, culture, and exploration.</p><p><strong>Tour Highlights</strong></p><ul><li><p>Cycling on the legendary Karakoram Highway.</p></li><li><p>Discovering the beautiful Hunza and Gilgit valleys.</p></li><li><p>Spectacular views of Rakaposhi and Passu Cones.</p></li><li><p>Exploring Attabad Lake and traditional mountain villages.</p></li><li><p>Visiting historic Baltit and Altit forts.</p></li><li><p>Experiencing local culture, food, and hospitality.</p></li><li><p>Exploring the magnificent Khunjerab Pass region.</p></li></ul><p><strong>Why Choose Karakoram Vision Pakistan?</strong></p><p>At Karakoram Vision Pakistan, we are passionate about creating unforgettable adventure experiences. Our experienced local team provides professional tour support, route guidance, accommodation arrangements, and logistical assistance to make your cycling journey safe, comfortable, and memorable.</p><p><strong>Ride through the mountains, explore hidden valleys, and discover the extraordinary beauty of Pakistan – one pedal at a time!</strong></p><p>Important tour note: This is a suggested 10-day itinerary combining cycling and vehicle transfers. The Khunjerab section is particularly high-altitude, so cycling distance, acclimatization, weather, road conditions, and border access should be assessed before confirming the final program.</p>
