@@ -48,9 +48,10 @@ seo:
   keywords: responsible travel, local communities, leave no trace
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""
-  social_image: /assets/uploads/journeys/responsible-travel-gilgit-baltistan.svg
+  social_image: ""
 layout: layouts/post.njk
 ---
+
 
 
 <h2><strong>Why this matters here</strong></h2>
