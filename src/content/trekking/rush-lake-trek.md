@@ -18,12 +18,13 @@ cover_image: /assets/uploads/1793434180692-Rush-Lake.webp
 cover_image_alt: Rush Lake reflecting the Karakoram peaks above Nagar valley
 gallery:
   - /assets/uploads/1793434188195-Rush-Lake-KVP.webp
+  - /assets/uploads/1792995926341-Hunza.webp
 duration: 14 Days
 price_from: On request
-deposit: Confirmed with proposal
+deposit: 50 %
 price_currency: USD
 group_size: 2–12 travelers
-difficulty: Challenging
+difficulty: Moderate
 destination: Nagar Valley & Rush Lake
 categories:
   - Trekking
@@ -32,7 +33,8 @@ tags:
   - Nagar
   - high altitude
   - glacier trek
-departures: []
+departures:
+  - "2027-07-10"
 departure_details: []
 highlights:
   - High-altitude Rush Lake
@@ -96,68 +98,71 @@ layout: layouts/journey.njk
 service_type: trekking
 service_label: Trekking
 menu_sections:
-  - Best Sellers
+  - All Fixed Departures
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Arrival in Islamabad
     description: Briefing and logistics check.
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Drive to Gilgit
     description: 10 hours drive.
     overnight: Hotel
-  - day: '03'
+  - day: "03"
     title: Drive to Hoper
     description: to start the trek.
     overnight: Guesthouse
-  - day: '04'
+  - day: "04"
     title: Trek to Bericho Kor
     description: Cross the initial glacier terrain with local guidance.
     overnight: Camping
-  - day: '05'
+  - day: "05"
     title: Trek to Chidin Harai
     description: Climb through alpine camps.
     overnight: Camping
-  - day: '06'
+  - day: "06"
     title: Trek to Rush Lake
     description: Reach the high lake area.
     overnight: Camping
-  - day: '07'
+  - day: "07"
     title: Acclimatisation and viewpoint
     description: Optional higher walk according to conditions.
     overnight: Camping
-  - day: '08'
+  - day: "08"
     title: Begin descent
     description: Return through established camps.
     overnight: Camping
-  - day: '09'
+  - day: "09"
     title: Glacier crossing stages
     description: Continue toward Hoper.
     overnight: Camping
-  - day: '10'
+  - day: "10"
     title: Return to Hoper
     description: Complete trekking.
     overnight: Guesthouse
-  - day: '11'
+  - day: "11"
     title: Hunza recovery
     description: Drive to Hunza for rest.
     overnight: Hotel
-  - day: '12'
+  - day: "12"
     title: Drive to Naran
     description: 8 hours drive.
     overnight: Hotel
-  - day: '13'
+  - day: "13"
     title: Drive to Islamabad
     description: 5-6 hours drive.
     overnight: Hotel
-  - day: '14'
+  - day: "14"
     title: Fly Out
-    description: A morning run down to the airport for your flight out. A day room can be arranged if you are leaving late in the day.
+    description: >-
+      A morning run down to the airport for your flight out. A day room can be arranged if you are
+      leaving late in the day.
     overnight: Not applicable
 related:
   - Rakaposhi Base Camp Trek
   - Spantik Peak Expedition
   - Hunza Valley Travel Guide
 ---
+
 
 <h2><strong>About this journey</strong></h2><p>Rush Lake lies at about 4,694m above the Nagar valley, counted among the highest alpine lakes in the world, with Rush Pari peak rising just beyond it. From the ridge above the lake the view takes in Rakaposhi, Diran, Spantik and the Miar and Golden Peak glaciers - an unusually complete Karakoram panorama for a trek that requires no climbing skill.</p><p><strong>Who it suits.</strong> Trekkers with previous experience who are comfortable with altitude and cold camps. The ground is steep in places and the air is thin at the lake, but there is no technical climbing. Fourteen days allows a careful acclimatisation profile and spare days for weather, which is why we do not run this route in a rush.</p><p><strong>When to go.</strong> Late June to mid-September, once snow has cleared from the upper meadows and the lake is reachable.</p><p><strong>What we handle.</strong> Transport from Gilgit or Hunza to Nagar, porters, tents and camp kitchen, cook and an experienced guide. The route starts and ends within reach of the Karakoram Highway, so it fits neatly with time in Hunza.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates <strong>and group profile are received.</strong></p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
