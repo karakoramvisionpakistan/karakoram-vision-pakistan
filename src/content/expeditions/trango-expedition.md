@@ -23,11 +23,13 @@ answer_summary: >-
   expeditions to the Karakoram region to climb these granite faces.
 cover_image: /assets/uploads/1792997042059-Trango.webp
 cover_image_alt: The granite towers of Trango above the Baltoro Glacier
-gallery: []
+gallery:
+  - /assets/uploads/1793543217241-Trango-kvp.webp
+  - /assets/uploads/1793543221595-Trango.webp
 duration: 33 Days
 duration_days: 33
 price_from: On Request
-deposit: 50%
+deposit: 50 %
 price_currency: USD
 group_size: 2+
 difficulty: Moderate
@@ -42,9 +44,9 @@ tags:
   - trekkingpeak
   - karakoram
 departures:
-  - 22/06 to 21/07/2027
+  - "2027-06-24"
 departure_details:
-  - dates: 22/06/2027
+  - dates: 24/06/2027
 highlights:
   - Trango Towers are very beautiful rock walls in the karakoram
 included:
@@ -122,67 +124,107 @@ peak_class: Trekking peak (under 6,000m)
 menu_sections:
   - Best Sellers
   - All Fixed Departures
+  - Trekking Peaks
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Arrival at Islamabad
-    description: The first day of Trango Tower Expedition. Upon arrival one of our staff will pick up the guest from Islamabad Airport and escort them to the hotel. You can spot our staff holding our company card at Islamabad Airport. You are bound to provide flight details 3 to 4 days before arrival. Our staff will pick you up and transfer you to a partner hotel in Islamabad close to Margalla hills. At the hotel, after relax and rest clients are bound to pay their dues upon late arrival payment of dues and briefing will be conducted in Skardu.
+    description: >-
+      The first day of Trango Tower Expedition. Upon arrival one of our staff will pick up the guest
+      from Islamabad Airport and escort them to the hotel. You can spot our staff holding our
+      company card at Islamabad Airport. You are bound to provide flight details 3 to 4 days before
+      arrival. Our staff will pick you up and transfer you to a partner hotel in Islamabad close to
+      Margalla hills. At the hotel, after relax and rest clients are bound to pay their dues upon
+      late arrival payment of dues and briefing will be conducted in Skardu.
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Flight to Skardu
-    description: On the second day of the Trango Tower Expedition, we will fly to Skardu in the morning. Skardu is the logistic hub of the expeditions and trekking’s in the Karakoram and range. The flight from Islamabad to Skardu will provide spectacular views of the Himalaya and Karakoram mountains and we should be able to see Nanga Parbat towering among other peaks. Upon arrival in Skardu, one of our staff will be waiting at Skardu Airport and will escort the clients to the partner hotel. Upon early arrival, we would have enough time to rest and pay a visit to the local Bazar and the outskirts of Skardu city.
+    description: >-
+      On the second day of the Trango Tower Expedition, we will fly to Skardu in the morning. Skardu
+      is the logistic hub of the expeditions and trekking’s in the Karakoram and range. The flight
+      from Islamabad to Skardu will provide spectacular views of the Himalaya and Karakoram
+      mountains and we should be able to see Nanga Parbat towering among other peaks. Upon arrival
+      in Skardu, one of our staff will be waiting at Skardu Airport and will escort the clients to
+      the partner hotel. Upon early arrival, we would have enough time to rest and pay a visit to
+      the local Bazar and the outskirts of Skardu city.
     overnight: Hotel
-  - day: '03'
+  - day: "03"
     title: Preparation Day in Skardu
-    description: Skardu is a mountainous town along the Indus River, surrounded by mountains. After breakfast, we will check our equipment for the Trango tower expedition, and will buy or rent if something is missing. If we are done with our equipment, we will go on an acclimatization hike to the kharpocho and old castle some hundred meters hike from Skardu Bazars. The fort provides a breathtaking view of the Indus River, Skardu, and its Surroundings.
+    description: >-
+      Skardu is a mountainous town along the Indus River, surrounded by mountains. After breakfast,
+      we will check our equipment for the Trango tower expedition, and will buy or rent if something
+      is missing. If we are done with our equipment, we will go on an acclimatization hike to the
+      kharpocho and old castle some hundred meters hike from Skardu Bazars. The fort provides a
+      breathtaking view of the Indus River, Skardu, and its Surroundings.
     overnight: Hotel
-  - day: '04'
+  - day: "04"
     title: Drive to Askole
-    description: By jeeps drive to Askole (6-7 hrs). The last village of about 80 houses. The villagers grow their own cereals, vegetable and fruit and own large herds of sheep's, goats, yaks. Overnight in tent.
+    description: >-
+      By jeeps drive to Askole (6-7 hrs). The last village of about 80 houses. The villagers grow
+      their own cereals, vegetable and fruit and own large herds of sheep's, goats, yaks. Overnight
+      in tent.
     overnight: Camping
-  - day: '05'
+  - day: "05"
     title: Trek to Johla
-    description: Start 2-3 hours, walk across wasteland and traverse Biafo Glacier, a tortured Ocean of moving boulders and crevasses 2 km wide. Cross the glacier and after a lunch break continue to Jhola (4-5 hrs). Cross-Dumordo River Bridge and camp at the campsite surrounded by a few bushes with a side stream. Overnight in tent.
+    description: >-
+      Start 2-3 hours, walk across wasteland and traverse Biafo Glacier, a tortured Ocean of moving
+      boulders and crevasses 2 km wide. Cross the glacier and after a lunch break continue to Jhola
+      (4-5 hrs). Cross-Dumordo River Bridge and camp at the campsite surrounded by a few bushes with
+      a side stream. Overnight in tent.
     distance: 2 km
     hours: 2-3 hrs
     overnight: Camping
-  - day: '06'
+  - day: "06"
     title: Trek to Paju
-    description: Early in the morning, we will leave for Paju. At Paju Camp where our porters, climbing assistants, and kitchen crew will join us. Our staff establishes tents and the participants will be served a hot cup of tea with cookies and snacks. We will take dinner in our mess tent and camp overnight in a fully serviced campsite.
+    description: >-
+      Early in the morning, we will leave for Paju. At Paju Camp where our porters, climbing
+      assistants, and kitchen crew will join us. Our staff establishes tents and the participants
+      will be served a hot cup of tea with cookies and snacks. We will take dinner in our mess tent
+      and camp overnight in a fully serviced campsite.
     overnight: Camping
-  - day: '07'
+  - day: "07"
     title: Trek to Trango Tower Base Camp
-    description: On this day of Trango Tower Expedition, we will start trekking towards the base camp. It will be a hard and long day if we have to trek from Mongrong camp, otherwise, it is a normal trekking day from Paju camp to Trango Tower base camp. After an hour's walk from Paju camp, you can see Trango Towers, Uli Baiho, and Paju Peak. We will turn left to the Trango base camp at the snout of Baltoro Glacier leaving the regular trekking route that leads to K2 and other peaks. After 6-7 hours of trekking on the rough moraine of Glacier, we will be at Trango Base Camp and camp overnight there.
+    description: >-
+      On this day of Trango Tower Expedition, we will start trekking towards the base camp. It will
+      be a hard and long day if we have to trek from Mongrong camp, otherwise, it is a normal
+      trekking day from Paju camp to Trango Tower base camp. After an hour's walk from Paju camp,
+      you can see Trango Towers, Uli Baiho, and Paju Peak. We will turn left to the Trango base camp
+      at the snout of Baltoro Glacier leaving the regular trekking route that leads to K2 and other
+      peaks. After 6-7 hours of trekking on the rough moraine of Glacier, we will be at Trango Base
+      Camp and camp overnight there.
     hours: 6-7 hrs
     overnight: Base camp
   - day: 08-28
     title: Trango Tower Climbing Days
     description: Reserved Climbing days at Trango tower.
     overnight: Base camp
-  - day: '29'
+  - day: "29"
     title: Trek Back to Mongrong Camp
     description: Drive back to Skardu through the beautiful Shigar valley.
     overnight: Camping
-  - day: '30'
+  - day: "30"
     title: Drive Back to Skardu
     description: Drive back to Skardu through the beautiful Shigar valley.
     overnight: Hotel
-  - day: '31'
+  - day: "31"
     title: Fly to Islamabad
     description: Fly to Islamabad is around 50 minutes from Skardu.
     overnight: Hotel
-  - day: '32'
+  - day: "32"
     title: Contingency Day
     description: Rest day at Islamabad or drive to Islamabad from Chilas in case of flight cancelation.
     overnight: Hotel
-  - day: '33'
+  - day: "33"
     title: Fly Out
-    description: Driven to the airport for your flight home. The towers stay where they are, and teams come back for them. A day room can be arranged for a late departure.
+    description: >-
+      Driven to the airport for your flight home. The towers stay where they are, and teams come
+      back for them. A day room can be arranged for a late departure.
     overnight: Not applicable
 related:
   - K2 Base Camp Trek
   - Laila Peak Expedition
   - Shigar Valley Guide
 ---
+
 
 
 
