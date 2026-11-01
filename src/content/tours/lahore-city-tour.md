@@ -18,7 +18,7 @@ gallery:
   - /assets/uploads/1793426558776-Wagha-Boader.webp
 duration: "4"
 price_from: On Request
-deposit: ""
+deposit: 20 %
 group_size: 2 +
 difficulty: Easy
 destination: Lahore
@@ -45,14 +45,14 @@ highlights:
 included: []
 excluded: []
 packing_list:
-  - "Comfortable walking shoes and a pair of sandals"
-  - "Light jacket or fleece for the evenings"
-  - "Warm layer for high passes and early mornings"
-  - "Sun hat, sunglasses and high-factor sunscreen"
-  - "Refillable water bottle"
-  - "Personal medication and a small first-aid kit"
-  - "Power bank and a universal plug adapter"
-  - "Copy of passport and travel insurance details"
+  - Comfortable walking shoes and a pair of sandals
+  - Light jacket or fleece for the evenings
+  - Warm layer for high passes and early mornings
+  - Sun hat, sunglasses and high-factor sunscreen
+  - Refillable water bottle
+  - Personal medication and a small first-aid kit
+  - Power bank and a universal plug adapter
+  - Copy of passport and travel insurance details
 route_map_url: ""
 trip_leader:
   name: ""
@@ -86,7 +86,7 @@ key_facts:
   - label: Best Time
     value: The best time to visit Lahore is from October to March.
 author: Office Team
-reviewed_by: "Karakoram Vision Pakistan Private Limited"
+reviewed_by: Karakoram Vision Pakistan Private Limited
 last_verified: "2026-10-31"
 sources: []
 seo:
@@ -103,11 +103,20 @@ related:
   - Islamabad
   - Skardu Travel Guide
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Mughal Lahore and the Walled City
     overnight: Not applicable
-    description: A full day through the old city. The Lahore Fort and the Badshahi Mosque face each other across the Hazuri Bagh, and together they are the centrepiece of Mughal Lahore — the Sheesh Mahal and the Naulakha pavilion are inside the fort, and the mosque’s courtyard holds a hundred thousand people. The Wazir Khan Mosque, deep in the Walled City, is the finest tilework in Pakistan and the walk to it through Delhi Gate and the Shahi Hammam is half the pleasure. Shalimar Gardens and the tomb of Jahangir sit a short drive out. The day ends with Lahori food on Fort Road, and in the evening the flag-lowering ceremony at the Wagah border can be added for those who want it.
+    description: >-
+      A full day through the old city. The Lahore Fort and the Badshahi Mosque face each other
+      across the Hazuri Bagh, and together they are the centrepiece of Mughal Lahore — the Sheesh
+      Mahal and the Naulakha pavilion are inside the fort, and the mosque’s courtyard holds a
+      hundred thousand people. The Wazir Khan Mosque, deep in the Walled City, is the finest
+      tilework in Pakistan and the walk to it through Delhi Gate and the Shahi Hammam is half the
+      pleasure. Shalimar Gardens and the tomb of Jahangir sit a short drive out. The day ends with
+      Lahori food on Fort Road, and in the evening the flag-lowering ceremony at the Wagah border
+      can be added for those who want it.
 ---
+
 
 
 
