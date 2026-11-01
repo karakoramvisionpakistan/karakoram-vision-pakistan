@@ -370,41 +370,26 @@
       }
     ]
   },
-  "/assets/uploads/1793287396814-Faisal-Mosque.webp": {
+  "/assets/uploads/1793536808994-Isb.webp": {
     "wide": [
       {
-        "src": "/assets/hero/1793287396814-faisal-mosque--wide-1280.webp",
-        "w": 1280,
-        "h": 800
-      },
-      {
-        "src": "/assets/hero/1793287396814-faisal-mosque--wide-1800.webp",
-        "w": 1800,
-        "h": 1125
+        "src": "/assets/hero/1793536808994-isb--wide-547.webp",
+        "w": 547,
+        "h": 342
       }
     ],
     "mid": [
       {
-        "src": "/assets/hero/1793287396814-faisal-mosque--mid-840.webp",
-        "w": 840,
-        "h": 672
-      },
-      {
-        "src": "/assets/hero/1793287396814-faisal-mosque--mid-1400.webp",
-        "w": 1400,
-        "h": 1120
+        "src": "/assets/hero/1793536808994-isb--mid-456.webp",
+        "w": 456,
+        "h": 365
       }
     ],
     "tall": [
       {
-        "src": "/assets/hero/1793287396814-faisal-mosque--tall-420.webp",
-        "w": 420,
-        "h": 747
-      },
-      {
-        "src": "/assets/hero/1793287396814-faisal-mosque--tall-633.webp",
-        "w": 633,
-        "h": 1125
+        "src": "/assets/hero/1793536808994-isb--tall-205.webp",
+        "w": 205,
+        "h": 365
       }
     ]
   },
