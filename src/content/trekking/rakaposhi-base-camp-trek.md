@@ -18,9 +18,11 @@ cover_image: /assets/uploads/1793271552139-Rakaposhi-Trek-KVP.webp
 cover_image_alt: Rakaposhi base camp meadow below the glacier in Nagar valley
 gallery:
   - /assets/uploads/1793271559926-Rakaposhi-BC.webp
+  - /assets/uploads/1793541404424-Rakaposhi.webp
+  - /assets/uploads/1793541406892-Rakaposhi1.webp
 duration: 7 Days
 price_from: On request
-deposit: Confirmed with proposal
+deposit: 50 %
 price_currency: USD
 group_size: 2–30 travelers
 difficulty: Moderate
@@ -33,7 +35,8 @@ tags:
   - base camp
   - moderate trek
   - karakoram
-departures: []
+departures:
+  - "2027-06-01"
 departure_details: []
 highlights:
   - Rakaposhi and Diran views
@@ -98,31 +101,40 @@ service_type: trekking
 service_label: Trekking
 menu_sections:
   - Best Sellers
+  - All Fixed Departures
+  - Trending Treks
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Arrival in Gilgit
     description: Meet and transfer.
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Drive to Minapin
-    description: 'Enter Nagar Valley and prepare for trekking. D ay 3: Trek to Hapakun. Climb through forest and pasture.'
+    description: >-
+      Enter Nagar Valley and prepare for trekking. D ay 3: Trek to Hapakun. Climb through forest and
+      pasture.
     overnight: Guesthouse
-  - day: '04'
+  - day: "04"
     title: Trek to Tagaphar
-    description: 'Reach the main Rakaposhi viewpoint area. D ay 5: Exploration day. Short walks and glacier views according to conditions.'
+    description: >-
+      Reach the main Rakaposhi viewpoint area. D ay 5: Exploration day. Short walks and glacier
+      views according to conditions.
     overnight: Camping
-  - day: '06'
+  - day: "06"
     title: Descend to Minapin
     description: Return to the village.
     overnight: Guesthouse
-  - day: '07'
+  - day: "07"
     title: Departure
-    description: Transfer onward to Gilgit, Hunza or the airport, depending on what comes next for you. We can hold a room if the wait is long.
+    description: >-
+      Transfer onward to Gilgit, Hunza or the airport, depending on what comes next for you. We can
+      hold a room if the wait is long.
     overnight: Not applicable
 related:
   - Hunza Valley Heritage Tour
   - Rush Lake Trek
   - Hunza Valley Travel Guide
 ---
+
 
 <h2><strong>About this journey</strong></h2><p>Rakaposhi rises almost six thousand metres in one unbroken sweep from the Hunza river to its summit at 7,788m - one of the greatest vertical rises on earth. This short trek walks up into that view. From Minapin village the path climbs through terraced fields and birch forest to Hapakun, then on to Tagafari base camp on the edge of the Minapin glacier, with the ice falling directly from the Rakaposhi face above the tents.</p><p><strong>Who it suits.</strong> Anyone reasonably fit who wants a real Karakoram trek inside a week. Walking days are four to six hours, nights are in tents at around 3,000m to 3,500m, and there is no technical ground. It is one of the best introductions to trekking in Pakistan.</p><p><strong>When to go.</strong> May to early October. June and July give green meadows and wildflowers; late September and October bring clear air and autumn colour in Nagar valley.</p><p><strong>What we handle.</strong> Transport from Gilgit or Hunza, porters, camp equipment, cook and guide. Minapin sits on the Karakoram Highway, so this trek combines easily with Karimabad, Attabad Lake and Passu.</p><p>A seven-day moderate trekking programme from Minapin toward Rakaposhi base camp with Nagar Valley scenery.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Pgrogram</strong></h2><h3><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
