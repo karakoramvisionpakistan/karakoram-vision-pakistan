@@ -16,10 +16,15 @@ answer_summary: >-
   Khaplu.
 cover_image: /assets/uploads/1792995980556-Deosai.webp
 cover_image_alt: Sheosar Lake on the Deosai plateau under an open sky
-gallery: []
+gallery:
+  - /assets/uploads/1792995980556-Deosai.webp
+  - /assets/uploads/1792995956889-Fairy-Meadow.webp
+  - /assets/uploads/1792996037202-Shigar-Valley.webp
+  - /assets/uploads/1792996010652-Khaplu-Valley.webp
+  - /assets/uploads/1792996062127-Skardu-City.webp
 duration: 8 Days
 price_from: On request
-deposit: Confirmed with proposal
+deposit: 50 %
 price_currency: USD
 group_size: 2–12 travelers
 difficulty: Moderate
@@ -31,7 +36,11 @@ tags:
   - Khaplu
   - Skardu
   - national park
-departures: []
+departures:
+  - "2027-07-10"
+  - "2027-07-14"
+  - "2027-07-22"
+  - "2027-08-08"
 departure_details: []
 highlights:
   - Deosai high plateau
@@ -97,42 +106,50 @@ service_label: Tours
 menu_sections:
   - Best Sellers
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Arrival in Skardu
     description: Meet the team and review the road and weather plan.
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Drive to Deosai
     description: Enter the high plateau via Satpara and camp or lodge according to the selected package.
     overnight: Camping
-  - day: '03'
+  - day: "03"
     title: Deosai exploration
     description: Visit suitable viewpoints and wildlife observation areas without disturbing habitats.
     overnight: Camping
-  - day: '04'
+  - day: "04"
     title: Return to Skardu
     description: Drive back with scenic stops.
     overnight: Hotel
-  - day: '05'
+  - day: "05"
     title: Shigar heritage
     description: Visit Shigar Fort and the traditional settlement.
     overnight: Hotel
-  - day: '06'
+  - day: "06"
     title: Drive to Khaplu
     description: Follow the Shyok Valley to Khaplu.
     overnight: Hotel
-  - day: '07'
+  - day: "07"
     title: Khaplu day
     description: Visit Khaplu Palace, Chaqchan Mosque and nearby villages.
     overnight: Hotel
-  - day: '08'
+  - day: "08"
     title: Drop to the Skardu airport
-    description: Return or continue according to the confirmed transport plan. Planning notes. This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received. Responsible travel. Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services. Related journeys. Deosai jeep safari. Deosai National Park guide. Khaplu travel guide.
+    description: >-
+      Return or continue according to the confirmed transport plan. Planning notes. This is a
+      starter itinerary rather than a binding quotation. Final services, permits, safety
+      arrangements, hotel category and payment schedule are confirmed in writing after the travel
+      dates and group profile are received. Responsible travel. Guests are expected to respect local
+      communities, cultural sites, protected areas and mountain waste rules. The operating plan
+      prioritizes realistic travel times and local services. Related journeys. Deosai jeep safari.
+      Deosai National Park guide. Khaplu travel guide.
     overnight: Hotel
 related:
   - Deosai High Plateau Trip
   - Deosai National Park Guide
   - Khaplu and Shyok Valley Guide
 ---
+
 
 <h2><strong>About this journey</strong></h2><p>Deosai is the second highest plateau in the world, an ocean of grass and wildflowers at around 4,000m where the horizon is wider than anything else in Pakistan and the Himalayan brown bear still lives. Khaplu, on the other side of this journey, is its opposite: a green valley of apricot orchards below the restored palace, with the Shyok river running toward the Hushe peaks.</p><p><strong>What the journey covers.</strong> Eight days from Skardu, taking in Sheosar Lake and the plateau crossing, the Shigar valley, and Khaplu with its palace and old mosque.</p><p><strong>Who it suits.</strong> Travellers who want wilderness and heritage in one trip without trekking. The plateau is high, so the itinerary reaches it after time in Skardu to allow some adjustment.</p><p><strong>When to go.</strong> Late May or June until around late September, depending entirely on snow - Deosai can only be crossed when the road is officially open.</p><p><strong>What we handle.</strong> 4x4 transport with a driver who knows the plateau tracks, hotels, meals and a local guide.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions.</p><h2><strong>Program</strong></h2><h3><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
