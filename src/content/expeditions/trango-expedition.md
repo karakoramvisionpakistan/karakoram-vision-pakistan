@@ -136,12 +136,12 @@ itinerary:
     description: Skardu is a mountainous town along the Indus River, surrounded by mountains. After breakfast, we will check our equipment for the Trango tower expedition, and will buy or rent if something is missing. If we are done with our equipment, we will go on an acclimatization hike to the kharpocho and old castle some hundred meters hike from Skardu Bazars. The fort provides a breathtaking view of the Indus River, Skardu, and its Surroundings.
     overnight: Hotel
   - day: '04'
-    title: Drive to Askoli
+    title: Drive to Askole
     description: By jeeps drive to Askole (6-7 hrs). The last village of about 80 houses. The villagers grow their own cereals, vegetable and fruit and own large herds of sheep's, goats, yaks. Overnight in tent.
     overnight: Camping
   - day: '05'
     title: Trek to Johla
-    description: Start 2-3 hours, walk across wasteland and traverse Biafo Glacier, a tortured Ocean of moving boulders and crevasses 2 km wide. Cross the glacier and after a lunch break continue to Jhola (4-5 hrs). Cross-Dumurdo River Bridge and camp at the campsite surrounded by a few bushes with a side stream. Overnight in tent.
+    description: Start 2-3 hours, walk across wasteland and traverse Biafo Glacier, a tortured Ocean of moving boulders and crevasses 2 km wide. Cross the glacier and after a lunch break continue to Jhola (4-5 hrs). Cross-Dumordo River Bridge and camp at the campsite surrounded by a few bushes with a side stream. Overnight in tent.
     distance: 2 km
     hours: 2-3 hrs
     overnight: Camping

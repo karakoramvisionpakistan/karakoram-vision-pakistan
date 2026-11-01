@@ -93,8 +93,8 @@ date: "2026-09-06"
 </ul>
 
 <h2><strong>Getting there, and why it affects your dates</strong></h2>
-<p>Skardu is reached by air from Islamabad in under an hour, or by road in roughly eighteen to twenty-four hours along the Karakoram Highway and the Indus valley. The flight is spectacular but weather-dependent and cancellations happen in any season, most often in winter and during cloudy spells.</p>
-<p>For that reason we plan every itinerary with a road contingency, and we recommend keeping a spare day at the end of a trip before any international connection. If your dates are tight, the road journey in one direction and the flight in the other is often the most reliable combination.</p>
+<p>Skardu is an hour from Islamabad by air and the better part of two days from it by road. The flight is the quick option and also the unreliable one: it is flown on sight between the ranges rather than on instruments, so it is cancelled in every month of the year, and most often in winter and through cloudy spells.</p>
+<p>This is why the month you pick matters more here than it would in most places. A cancellation in February can cost three days; the same cancellation in September usually costs one. Whatever season you travel in, leave a clear day in Islamabad before any international connection, and if your dates are tight, plan the road one way and the aircraft the other.</p>
 
 <h2><strong>So which month should you choose?</strong></h2>
 <p>If you want to trek to <a href="/trekking/k2-base-camp-trek/">K2 base camp</a> or cross a high pass, you have a window: late June to early September, and nothing else will do. If you want <a href="/jeep-safaris/deosai-jeep-safari/">Deosai</a>, aim for July or August. If you want colour, photographs and comfortable walking, come in mid-October. If you want blossom and empty roads, come in April.</p>

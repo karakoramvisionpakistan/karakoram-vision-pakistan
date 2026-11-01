@@ -6,7 +6,7 @@ sections:
 order: 1
 image: /assets/uploads/1792997236591-Biafo-glacier.webp
 image_alt: Biafo Glacier
-eyebrow: Snow Lake and Biafo Hisper Trek
+eyebrow: Snow Lake and Biafo Hispar Trek
 heading: Biafo Glacier
 text: ""
 button_label: ""

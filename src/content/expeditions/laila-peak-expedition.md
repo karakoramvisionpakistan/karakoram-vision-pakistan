@@ -139,7 +139,7 @@ itinerary:
     description: Jeeps back to Skardu, then the debriefing at the tourism office, which closes the expedition formally.
     overnight: Hotel
   - day: '28'
-    title: Fly to Islamabad or drive to Chilas.
+    title: Fly to Islamabad or drive to Chilas
     description: The flight to Islamabad if it operates; otherwise the drive to Chilas and on the following day.
     overnight: Hotel
   - day: '29'
@@ -147,7 +147,7 @@ itinerary:
     description: A day in Islamabad — spare if the flight was delayed, and sightseeing if it was not.
     overnight: Hotel
   - day: '30'
-    title: Fly to your own destination.
+    title: Fly to your own destination
     description: Transfer to the airport. Thirty days after arriving, the expedition closes. A day room is available if you are leaving late in the day.
     overnight: Not applicable
 related:

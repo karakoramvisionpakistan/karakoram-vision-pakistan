@@ -23,13 +23,18 @@
         {% if site.ratings.tripadvisor_url or site.social.tripadvisor %}<a href="{{ site.ratings.tripadvisor_url or site.social.tripadvisor }}" target="_blank" rel="noopener">{{ icon('tripadvisor') }}<span><strong>{{ site.ratings.tripadvisor_score or 'Tripadvisor' }}</strong><small>Traveller reviews</small></span></a>{% endif %}
       </div>
       {% endif %}
+      {# Column 1 chhota tha aur us ke neechay jagah bach rahi thi. #}
+      {% include "components/affiliated-with.njk" %}
     </section>
     {% endif %}
 
     {% for column in f.columns %}
+    {% set isLastColumn = loop.last %}
     <section class="bk-footer-links">
       <h2>{{ column.heading }}</h2>
       {% for link in column.links %}{% if link.enabled !== false %}<a href="{{ link.url }}"{% if link.target_blank %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>{% endif %}{% endfor %}
+      {# Social logos ab yahan, contact ke khane ki jagah. #}
+      {% if isLastColumn %}{% include "components/social-links.njk" %}{% endif %}
     </section>
     {% endfor %}
 
@@ -43,20 +48,16 @@
       {% if f.contact.description %}<p>{{ f.contact.description }}</p>{% endif %}
       <div class="bk-footer-hub-row">
       {% if f.contact.show_contact_hub !== false %}<button type="button" class="bk-footer-contact-hub" data-open-contact>{{ icon('chat') }} {{ f.contact.contact_hub_label or 'International contact hub' }}</button>{% endif %}
-        {% include "components/affiliated-with.njk" %}
       </div>
-      {% if f.social.enabled !== false %}
-      <div class="bk-social-links" aria-label="Social media accounts">
-        {% for platform in f.social.platform_order %}{% if site.social[platform.key] %}<a href="{{ site.social[platform.key] }}" target="_blank" rel="noopener" aria-label="{{ platform.label }}">{{ icon(platform.icon or 'chat') }}</a>{% endif %}{% endfor %}
-        {% for extra in site.social_extra %}{% if extra.url %}<a href="{{ extra.url }}" target="_blank" rel="noopener" aria-label="{{ extra.label or 'Social account' }}">{{ icon(extra.icon or 'share') }}</a>{% endif %}{% endfor %}
-      </div>
-      {% endif %}
+      {# Licence aur registration company ke apne khane mein. Yeh wahi
+         maloomat hai jo naam, phone aur pate ke saath chalti hai. #}
+      {% include "components/credentials.njk" %}
     </section>
     {% endif %}
   </div>
-  {% include "components/credentials.njk" %}
   <div class="bk-footer-bottom">
     <span>{{ (f.bottom.copyright_template or '© {year} {site}. All rights reserved.') | replace('{year}', ('' | year)) | replace('{site}', site.name) }}</span>
+    {% include "components/developer-credit.njk" %}
     <nav aria-label="Footer navigation">{% for link in f.bottom.links %}{% if link.enabled !== false %}<a href="{{ link.url }}"{% if link.target_blank %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>{% endif %}{% endfor %}</nav>
   </div>
 </footer>

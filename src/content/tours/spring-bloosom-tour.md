@@ -1,5 +1,5 @@
 ---
-title: Spring Bloosom Tour
+title: Spring Blossom Tour
 slug: spring-blossom-tour
 permalink: /tours/spring-blossom-tour/
 layout: layouts/journey.njk

@@ -90,7 +90,7 @@
   ],
   "business": {
     "legal_name": "Karakoram Vision Pakistan Private Limited",
-    "founded_year": "2007",
+    "founded_year": "2005",
     "license_number": "DTS-GB-TO-26-00071",
     "price_currency": "USD",
     "opening_hours": {
@@ -157,6 +157,13 @@
       "SECP",
       "FBR"
     ],
-    "experience_note": "35 years in Pakistan tourism; our first company was registered in 2005"
+    "experience_note": "Our team and the companies behind it bring more than 35 years of Pakistan tourism experience; the first of those companies was registered in 2005."
+  },
+  "developer": {
+    "show": true,
+    "prefix": "Designed and developed by",
+    "name": "Ibrahim Khalil",
+    "role": "Software developer",
+    "links": []
   }
 }

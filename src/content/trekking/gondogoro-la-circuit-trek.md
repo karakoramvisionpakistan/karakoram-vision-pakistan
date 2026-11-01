@@ -143,7 +143,7 @@ itinerary:
       In between there is time for Kharpocho fort, which is a stiff half-hour climb above the town for a view across the whole valley, and for the bazaar, where dried apricots and walnuts are worth buying for the glacier days. Eat well tonight. The food on trek is good, but it is not this.
     overnight: Hotel
   - day: '04'
-    title: Drive to Askoli
+    title: Drive to Askole
     description: |-
       The jeep road up the Braldu is the part of the journey most trekkers remember with a particular expression. Six to seven hours from Skardu, the road leaves the cultivated Shigar valley, climbs into a defile, and narrows to a ledge cut into the cliff above the river, with a drop on one side and loose rock above on the other. Jeeps pass each other by reversing. It is safe in the sense that it is driven every day by people who have driven it for years, and alarming in every other sense.
 
@@ -344,7 +344,7 @@ itinerary:
       The evening is free and most groups spend it together. It is worth noting that the altitude here is still 2,200 metres and the body is extremely tired; the beer that people have been dreaming about since Urdukas has a stronger effect than usual, and there is a long travel day tomorrow.
     overnight: Hotel
   - day: '19'
-    title: Fly to Islamabad or drive to Chilas.
+    title: Fly to Islamabad or drive to Chilas
     description: |-
       A flight day, with the same uncertainty as the one that brought you in.
 
@@ -384,7 +384,7 @@ itinerary:
     overnight: Not applicable
 related:
   - K2 Base Camp Trek
-  - Biafo Hisper Pass Trek
+  - Biafo Hispar Pass Trek
   - Skardu Travel Guide
 ---
 

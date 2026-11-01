@@ -138,89 +138,89 @@ menu_sections:
 itinerary:
   - day: '01'
     title: Arrive Islamabad and transfer to hotel
-    description: Met on arrival at Islamabad and transferred to the hotel. This is where the paperwork is done — permit, royalty, park fees and liaison officer — and where the team gathers before the journey to Baltistan.
+    description: Met on arrival. The permit for an 8,080-metre peak, the royalty, the park fee and the liaison officer are all settled in Islamabad first.
     overnight: Hotel
   - day: '02'
     title: Fly to Skardu/ Chilas
-    description: a) The scheduled PK 451 to Skardu when the weather over the ranges allows, with transfer to the hotel on arrival. b) When it does not, the alternative is eleven to twelve hours by coach — 480 kilometres of Karakoram Highway to Chilas, and a night there.
+    description: To Skardu by air if the ranges are clear, to Chilas by road if they are not. Hidden Peak teams are experienced enough not to be surprised by either.
     overnight: Hotel
   - day: '03'
     title: Preparation day in Skardu or drive to Skardu
-    description: a) Those who flew have the day free in Skardu. b) Those on the road have eight to nine hours and 275 kilometres still to cover, past the Indus junction where the 8,125m wall of Nanga Parbat stands over the river and its rapids. Hotel in Skardu.
-    altitude: 8,125 m
+    description: 'A day for final preparations in Skardu: inventory against the permit, the official briefing, and whatever the bazaar can still supply.'
+    altitude: 2,228 m
     overnight: Hotel
   - day: '04'
-    title: Drive to Askoli
-    description: Askole is six to seven hours away by jeep up the Braldu. It is the last village — eighty houses, terraced cereal and vegetable plots, fruit trees, and herds of sheep, goats and yaks. The road ends; from here everything moves on backs. Camp by the village.
+    title: Drive to Askole
+    description: Askole. Beyond the village there are no wheels and no electricity for six weeks, and every kilogram above this point is carried.
     altitude: 3,000 m
     overnight: Camping
   - day: '05'
     title: Trek to Jhola camp
-    description: The day opens with two to three hours over wasteland before the Biafo has to be crossed — two kilometres of tilted boulders and open crevasses. Lunch on the far bank, then four to five hours to Jhola across the Dumurdo bridge, where the camp sits in scrub beside a side stream.
+    description: Jhola. Little height is gained today, which suits a team whose objective sits three kilometres higher than anything it will sleep on this week.
     altitude: 3,200 m
     distance: 2 km
     hours: 2-3 hrs
     overnight: Camping
   - day: '06'
     title: Trek to Paiju
-    description: Three to four hours of easy walking past Bardumal and along two kilometres of river beach, then two to three hours more to Paiju after lunch. Near the end the trail climbs to a viewpoint over the Baltoro snout; the Cathedral Towers stand up the valley and K2 shows its triangle for the first time. Paiju is a busy place in July.
+    description: Paiju. The last trees of the journey. Hidden Peak is a week away and, true to its name, completely invisible from here.
     altitude: 3,600 m
     hours: 3-4 hrs
     overnight: Camping
   - day: '07'
     title: Rest day in Paiju
-    description: The rest day at Paiju, kept by every Baltoro expedition. The porters bake for the glacier stages while the team walks locally, checks loads and sleeps. Hidden Peak is still a week away.
+    description: The rest day every Baltoro expedition keeps. Porters bake for the glacier; the team walks a little, checks loads, and sleeps.
     altitude: 3,600 m
     overnight: Camping
   - day: '08'
-    title: Trek to Urdokas
-    description: Seven to eight hours climbing gradually onto the Baltoro’s southern edge. After two hours the path divides at the snout — left for Trango base camp and the Sarpo Laggo pass, right for the glacier itself, 62 kilometres long and two wide. A diagonal of two to three hours crosses to the far side, then Liliwa and Khoburtse, then four to five hours along the moraine crest under Paiju Peak, Choricho, Uli Biaho and the Trango Towers. Urdukas is one of the great campsites of the range, and one of the busiest.
+    title: Trek to Urdukas
+    description: Urdukas, on its terraces above the ice. The Trango walls stand opposite; the Gasherbrum group is still screened by everything in front of it.
     altitude: 4,200 m
     distance: 62 km
     hours: 7-8 hrs
     overnight: Camping
   - day: '09'
     title: Trek to Goro II
-    description: Five to six hours on ice. The first hour works through side crevasses before the middle of the glacier opens and the pace picks up. Goro I comes after two to three hours, opposite the Yermanendu glacier spilling from the Masherbrum pass; two to three hours more lead east beside the telephone wire strung from the army post at Goro to Gasherbrum IV. Camp at Goro II on stones and ice, with meltwater nearby.
+    description: Goro II. Gasherbrum IV dominates the head of the valley &mdash; the very wall that has kept this mountain out of sight since 1856.
     altitude: 4,500 m
     hours: 5-6 hrs
     overnight: Camping
   - day: '10'
     title: Trek to Shaqring (Shama)
-    description: Four to five hours of gentler walking, with Muztagh Tower, Gasherbrum IV, Mitre Peak and K2 around you. Lunch at Concordia, then the route leaves the K2 valley for the South Gasherbrum glacier, with Chogolisa, Baltoro Kangri and Gasherbrum V opening up ahead. Camp at Shaqring, known locally as Shama.
+    description: Concordia, then east off the main glacier and up the South Gasherbrum branch to Shaqring, known locally as Shama. Our ' + '<a href="' + K2BC + '">K2 base camp page</a>' + ' describes the Baltoro itself in full.
     altitude: 4,800 m
     hours: 4-5 hrs
     overnight: Camping
   - day: '11'
     title: Trek to Base Camp
-    description: 'The final approach day, up the South Gasherbrum glacier to the base camp the Gasherbrum peaks share. Hidden Peak earns its name here: it stays out of sight until you are almost beneath it. Camp is built for a month’s stay.'
+    description: 'The final approach to the base camp both Gasherbrum eight-thousanders share. Hidden Peak proves its name today: it appears only once you are nearly standing beneath it.'
     altitude: 5,100 m
     hours: 2-3 hrs
     overnight: Camping
   - day: 12-42
     title: 31 days climbing
-    description: Thirty-one days on the mountain. The usual line is the Japanese Couloir on the north-west face, with camps at roughly 5,900m, 6,400m and 7,100m before the summit at 8,080m. Gasherbrum I is the eleventh highest mountain in the world and was the first eight-thousander climbed by an American team, in 1958. Base camp runs throughout with cook, kitchen and communications.
+    description: Thirty-one days on the mountain. The usual line is the Japanese Couloir on the north-west face, with camps at roughly 5,900m, 6,400m and 7,100m below the summit at 8,080m. Fixing the couloir, acclimatisation cycles, and then the window. Base camp runs throughout with cook, kitchen and communications.
     altitude: 6,000 m
     overnight: Camping
   - day: 43-46
-    title: 4 days for return back to Askoli via same route
-    description: Four days back down the Baltoro to Askole. The route is the one the team walked in on, but in reverse and acclimatised it passes quickly, and the first grass at Paiju is a welcome sight after weeks of rock and ice.
+    title: 4 days for return back to Askole via same route
+    description: Down the Baltoro to Askole, acclimatised and travelling light. The first grass at Paiju lands differently after six weeks on moraine.
     overnight: Camping
   - day: '47'
     title: Drive back to Skardu
-    description: By jeep from Askole down the Braldu to Skardu, the road clinging to the cliff above the river for most of the way. Hotel, a shower, and a proper bed.
+    description: Askole down to Skardu by jeep, the road cut into the cliff above the Braldu for most of the way.
     overnight: Hotel
   - day: '48'
     title: Fly to Islamabad by PK 452
-    description: The flight from Skardu to Islamabad if the weather allows; otherwise the road, and the spare days at this end of the programme are there for exactly that.
+    description: Skardu to Islamabad by air if the weather permits, by road if it does not. The reserve days at this end of the programme exist for that question.
     overnight: Hotel
   - day: '49'
     title: Debriefing in Islamabad
-    description: The official debriefing in Islamabad, filing the expedition report with the Ministry of Tourism and closing the permit. The evening is free.
+    description: 'The official debriefing: expedition report filed, permit closed, and the paperwork of six weeks finally finished.'
     overnight: Hotel
   - day: '50'
     title: Transfer to airport for your own destination and goodbye
-    description: Transfer to the airport and the formal end of the expedition. If your flight leaves late in the day, a room is kept for you until then.
+    description: Transfer to the airport and the formal close of the expedition. A room can be kept for the day if you fly out late.
     overnight: Not applicable
 related:
   - Gasherbrum II Expedition
@@ -228,4 +228,4 @@ related:
   - Gondogoro La Circuit Trek
 ---
 
-<h2><strong>About this journey</strong></h2><p>Gasherbrum I, 8,080m, is also known as Hidden Peak - the name given by early surveyors because the mountain stays out of sight behind the Gasherbrum wall until you are deep in the upper Baltoro. It is the eleventh highest mountain in the world and a considerably harder proposition than its neighbour Gasherbrum II, with steeper ground on the Japanese Couloir and a long, committing summit day.</p><p><strong>What this programme is.</strong> Fifty days from Islamabad, including the Baltoro approach, acclimatisation rotations, the summit window in the usual July period, and the return.</p><p><strong>Who it is for.</strong> Experienced high-altitude climbers, most of whom arrive having already climbed an 8,000m peak.</p><p><strong>What we provide.</strong> Climbing permit, park fees and liaison officer, the mountaineering visa invitation letter, transport and hotels, Baltoro porters and a stocked base camp with kitchen and dining. Because Gasherbrum I and II share a base camp, combining both in one expedition adds little beyond the second permit - tell us if that is your plan.</p><p><strong>Gasherbrum I</strong>,<a target="_blank" rel="noopener noreferrer nofollow" href="https://en.wikipedia.org/wiki/Gasherbrum_I#cite_note-5"> </a>originally surveyed as <strong>K5</strong>, and also known as <strong>Hidden Peak</strong>, is the 11th highest mountain in the world at 8,080 meters above sea level. It is located between Shigar District in the Gilgit–Baltistan region of Pakistan and Tashkurgan in the Xinjiang province of China. Gasherbrum I is part of the Gasherbrum Massif, located in the Karakoram range. Gasherbrum I was designated K5 (meaning the 5th peak of the Karakoram) by T.G. Montgomerie in 1856 when he first spotted the peaks of the Karakoram from more than 200 km away during the Great Trigonometric Survey of India. In 1892, William Martin Conway provided the alternate name, Hidden Peak, in reference to its extreme remoteness, due to which it remains <em>hidden</em> behind anterior peaks of the Gasherbrum group for most of the way along the Baltoro glacier.</p><p>Gasherbrum I was first climbed on July 5, 1958, by Pete Schoening and Andy Kauffman of an eight-man American expedition led by Nicholas B. Clinch, Richard K. Irvin, Tom Nevison, Tom McCormack, Bob Swift and Gil Roberts were also members of the team.</p><h2><strong>Fact &amp; Figures:</strong><br>Duration of Expedition:&nbsp; &nbsp; 52 Days Islamabad to Islamabad<br>Hotel Nights:&nbsp; 06 Nights&nbsp; &nbsp;&nbsp; Camping Nights:&nbsp; &nbsp; 14 Nights<br>Days for Climbing:&nbsp; 30 Days&nbsp; &nbsp; &nbsp; &nbsp;Group Size:&nbsp; &nbsp; 08+ &nbsp; &nbsp;&nbsp;<br>Best Time: 20 June to 15 August<br>Type of Expedition: Unguided (services up to base camp only)</h2><p><strong><u>G-I EXPEDITION PROGRAM</u></strong></p><h2><strong>Planning notes:</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel:</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
+<h2><strong>About this journey</strong></h2><p>Gasherbrum I, 8,080 metres, is the eleventh highest mountain on earth and the harder of the two Gasherbrum eight-thousanders by a considerable margin. Climbers know it as Hidden Peak, and the name is literal: the mountain stays out of view behind the Gasherbrum wall for almost the entire length of the Baltoro and only appears when you are nearly standing underneath it.</p><p>The expedition runs fifty days, of which thirty-one are spent at or above base camp. Almost everyone who comes to this mountain has stood on top of an eight-thousander before, and the standard route explains why that is the sensible order to do things in.</p><h2><strong>Why it is called Hidden Peak</strong></h2><p>In 1856 a survey officer working on the Great Trigonometrical Survey of India picked out the main Karakoram summits from a station more than two hundred kilometres away in Kashmir and gave them reference numbers. This one became <strong>K5</strong>, the fifth peak of the Karakoram. K1 turned out to be Masherbrum and acquired its local name back; K2 kept its number permanently; K5 ended up with two names and uses neither of its originals much today.</p><p>The second name arrived in 1892, when Martin Conway came up the Baltoro on the expedition that also named Snow Lake and Concordia. The mountain is screened the whole way by the Gasherbrum massif in front of it, and Conway called it Hidden Peak for exactly that reason. Walk the Baltoro yourself and the name stops being poetic: Gasherbrum IV dominates the head of the valley for days, Gasherbrum II shows itself from Concordia, and Gasherbrum I appears only once the route has turned off the main glacier and climbed the South Gasherbrum branch to base camp.</p><p>It sits on the border, with Shigar district in Gilgit-Baltistan on the Pakistani side and Xinjiang on the Chinese, and it is climbed from Pakistan.</p><h2><strong>The route</strong></h2><p>The standard line today is the <strong>Japanese Couloir</strong> on the north-west face, with camps at roughly 5,900, 6,400 and 7,100 metres before a long summit day to 8,080 metres. The couloir is the reason this is a harder mountain than its neighbour: steeper ground, rock and ice rather than snow slopes, a genuine need for fixed rope, and real exposure to stonefall and avalanche depending on conditions and the hour.</p><p>Above the couloir the route joins the upper face and the summit day is long, cold and committing, with no quick retreat once the party has gone high. Teams that climb Gasherbrum II and then look at Gasherbrum I from the same base camp often describe the step up between them as larger than the four hundred and fifty metres of extra height suggests.</p><h2><strong>The 1958 first ascent</strong></h2><p>Gasherbrum I was climbed on 5 July 1958 by Pete Schoening and Andy Kauffman, members of an eight-man American expedition led by Nicholas Clinch, with Richard Irvin, Tom Nevison, Tom McCormack, Bob Swift and Gil Roberts completing the team.</p><p>It was the first eight-thousand-metre peak to be first-climbed by Americans, and it came five years after Schoening had held five falling climbers on a single ice axe belay on K2 in the accident that killed Art Gilkey &mdash; the memorial for whom stands on the glacier a day&rsquo;s walk from here. The 1958 expedition was by the south-east ridge rather than the Japanese Couloir, which was established as the normal route a quarter of a century later.</p><h2><strong>1975: the ascent that changed how eight-thousanders are climbed</strong></h2><p>Gasherbrum I has a place in mountaineering history out of all proportion to how often it is climbed, and it has nothing to do with the first ascent.</p><p>In August 1975 Reinhold Messner and Peter Habeler climbed this mountain as a team of two, by a new route on the north-west face, in three days from the glacier. No porters above base camp. No supplementary oxygen. No fixed ropes, no established camps, no siege. They carried what they needed and went up.</p><p>Until then every eight-thousander had been climbed in expedition style &mdash; a pyramid of camps, fixed rope and load-carrying built up over weeks, with the summit pair standing on the work of everyone below. Messner and Habeler demonstrated that an eight-thousand-metre peak could be climbed the way the Alps are climbed, by a small party moving fast and light. Three years later the same pair applied the logic to Everest without oxygen.</p><p>Almost every lightweight ascent in the Karakoram since descends from that week on Gasherbrum I. Climbers arriving at base camp today are, whether they think about it or not, standing at the place where modern high-altitude mountaineering was argued into existence.</p><p><strong>In winter</strong>, the mountain fell on 9 March 2012 to Adam Bielecki and Janusz Go&#322;&#261;b, a Polish pair &mdash; another of the Karakoram winter ascents that came, as they nearly all did, from Poland.</p><h2><strong>Harder than Gasherbrum II &mdash; the honest comparison</strong></h2><p>Both mountains are climbed from the same base camp and are routinely discussed in the same breath, which obscures a real difference.</p><ul><li><p><strong>Gasherbrum II, 8,035 m</strong> &mdash; mostly snow and ice, no sustained technical ground, a shorter summit day, and the eight-thousander most often recommended as a first.</p></li><li><p><strong>Gasherbrum I, 8,080 m</strong> &mdash; the Japanese Couloir is steep and objectively exposed, the summit day is long and committing, and a far smaller proportion of attempts succeed.</p></li></ul><p>If this is your first peak above eight thousand metres, we will say so and suggest <a href="/expeditions/gasherbrum-ii-expedition/">Gasherbrum II</a> instead. That is not a sales position; it is what the two routes are.</p><h2><strong>Climbing both in one season</strong></h2><p>Because the two peaks share base camp, adding Gasherbrum I to a Gasherbrum II expedition costs the second permit royalty and the extra days rather than a second expedition. Acclimatisation carries across directly.</p><p>The usual sequence is Gasherbrum II first and Gasherbrum I afterwards, in that order, for the obvious reason. Tell us at the planning stage so that the permits, the liaison officer and the base camp provisioning cover both from the beginning.</p><h2><strong>Season</strong></h2><p><strong>20 June to 15 August</strong>, with the summit window almost always in July. Teams reach base camp in late June, rotate through the couloir and the upper camps, and wait.</p><h2><strong>The Gasherbrum cirque</strong></h2><p>The last two days of the walk in leave the Baltoro and climb a side branch into an enclosed basin that most Karakoram trekkers never see, and it is worth understanding what stands around you there.</p><p><strong>Gasherbrum IV</strong>, 7,925 metres, is the wall that hides everything behind it. Its west face is one of the most celebrated pieces of ground in mountaineering, climbed in 1985 in a style that is still discussed, and it is the face that dominates the upper Baltoro for days before you ever reach the Gasherbrum glacier. It is not an eight-thousander and it is considerably harder than either of the two that are.</p><p>Behind it the basin holds the two eight-thousanders themselves &mdash; <strong>Gasherbrum I</strong> and <strong>Gasherbrum II</strong>, 8,080 and 8,035 metres respectively &mdash; with <strong>Gasherbrum III</strong>, <strong>V</strong> and <strong>VI</strong> filling the rest of the rim &mdash; six named summits in one cirque, three of them above seven and a half thousand metres. Chogolisa and Baltoro Kangri close the view back towards Concordia.</p><p>The name itself is often translated as &ldquo;shining wall&rdquo;, which is an attractive phrase attached to the wrong mountain &mdash; it belongs to Gasherbrum IV&rsquo;s west face catching the evening light. The Balti root is closer to &ldquo;beautiful mountain&rdquo;. Standing on the glacier below the cirque at dusk, both readings feel defensible.</p><h2><strong>Planning notes</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>

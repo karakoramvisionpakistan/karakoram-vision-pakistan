@@ -3104,6 +3104,38 @@ content:
           - name: experience_note
             label: Experience note
             type: text
+      - name: developer
+        label: Website credit
+        type: object
+        description: Shown at the very bottom of every page.
+        fields:
+          - name: show
+            label: Show this
+            type: boolean
+          - name: prefix
+            label: Lead-in text
+            type: string
+            description: 'Such as: Designed and developed by'
+          - name: name
+            label: Name
+            type: string
+          - name: role
+            label: Role
+            type: string
+            description: Shown in small capitals under the name.
+          - name: links
+            label: Links
+            type: object
+            list: true
+            description: Add one or more. The name then becomes a menu that opens on click. Rows with an empty URL are skipped, so you can leave one ready and fill it later.
+            fields:
+              - name: label
+                label: Label
+                type: string
+                description: 'Such as: GitHub'
+              - name: url
+                label: URL
+                type: string
   - name: site_channels
     label: Contact channels & social
     type: file

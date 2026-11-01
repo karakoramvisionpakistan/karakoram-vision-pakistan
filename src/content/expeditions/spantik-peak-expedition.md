@@ -102,8 +102,8 @@ menu_sections:
   - All Fixed Departures
 itinerary:
   - day: '01'
-    title: Arival at Islamabad airport transfer to hotel.
-    description: Met at Islamabad airport and transferred to the hotel. The climbing permit, park fees and liaison officer arrangements are completed, and the team meets before travelling north.
+    title: Arrival at Islamabad airport transfer to hotel
+    description: Arrival at Islamabad and transfer to the hotel. Spantik is a seven-thousand-metre peak, so it carries a climbing permit and a royalty of its own, and both are completed in the city along with the liaison officer arrangements. The afternoon is free to recover from the flight; the briefing follows in the evening.
     overnight: Hotel
   - day: '02'
     title: Fly to Skardu or drive to Naran/Chilas
@@ -114,11 +114,11 @@ itinerary:
     description: 'Either the drive up from Naran or Chilas, or a preparation day in Skardu: the official briefing, final kit checks, food packed for base camp and porter loads made up.'
     overnight: Hotel
   - day: '04'
-    title: Drive to Arandu, overnight camping.
+    title: Drive to Arandu, overnight camping
     description: By jeep from Skardu up the Basha valley to Arandu, the last village before the Chogo Lungma glacier. The road is rough and the drive long. Camp is pitched beside the village and the porter team is registered.
     overnight: Camping
   - day: '05'
-    title: Trek via Chogo Lungma glacier.
+    title: Trek via Chogo Lungma glacier
     description: Onto the Chogo Lungma, one of the great Karakoram glaciers, following the lateral moraine with the ice spread out to one side and the valley walls rising on the other. Rough, slow ground, and the first real day of the expedition.
     overnight: Camping
   - day: '06'
@@ -131,7 +131,7 @@ itinerary:
     description: The climbing period. Twenty days allows the route to be fixed, camps established at around 5,000m and 5,900m, proper acclimatisation rotations, and a summit window with weather to spare. Spantik is often chosen as a first 7,000er because the ground is straightforward — but 7,027m is still 7,027m, and the long summit day is where most attempts turn back.
     overnight: Base camp
   - day: 27-29
-    title: Trek back from Spantik base camp to Arandu.
+    title: Trek back from Spantik base camp to Arandu
     description: Three days back down the Chogo Lungma to Arandu, retracing the approach with the porters who come back up to meet the team.
     overnight: Camping
   - day: '30'
@@ -139,7 +139,7 @@ itinerary:
     description: Jeeps down the Basha valley to Skardu. Hotel, a shower, and the first proper meal off the mountain.
     overnight: Hotel
   - day: '31'
-    title: Debriefing in Skardu.
+    title: Debriefing in Skardu
     description: The official debriefing in Skardu, where the expedition is formally closed and the summit report filed.
     overnight: Hotel
   - day: '32'
@@ -151,7 +151,7 @@ itinerary:
     description: A reserve day held back for the Skardu flight. If it is not needed it is a free day in Islamabad, and after five weeks on a glacier most people are glad of it.
     overnight: Hotel
   - day: '35'
-    title: Fly to onward destination.
+    title: Fly to onward destination
     description: We see you off at the airport. Five weeks, one seven-thousander and a long glacier walk end here; a day room is available if you need one.
     overnight: Not applicable
 related:

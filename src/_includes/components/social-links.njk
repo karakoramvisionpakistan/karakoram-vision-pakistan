@@ -1,0 +1,17 @@
+{# Social links. Footer aur About, dono jagah yahi chalta hai.
+
+   Har link ke andar do cheezein hain: gola jis mein nishan hai, aur naam
+   jo sirf hover par upar nazar aata hai. Naam is liye ke gole dekh kar
+   har koi nahi pehchanta ke kaun sa kya hai, aur yeh bhi pata chale ke
+   cheez clickable hai.
+
+   aria-label waise hi rehta hai, to screen reader ko pehle bhi naam
+   milta tha aur ab bhi. #}
+{% from "components/icon.njk" import icon %}
+{% set f = siteFooter or {} %}
+{% if f.social.enabled !== false %}
+<div class="bk-social-links" aria-label="Social media accounts">
+  {%- for platform in f.social.platform_order %}{% if site.social[platform.key] %}<a class="bk-social-link" href="{{ site.social[platform.key] }}" target="_blank" rel="noopener" aria-label="{{ platform.label }}"><span class="bk-social-glyph">{{ icon(platform.icon or 'chat') }}</span><span class="bk-social-name" aria-hidden="true">{{ platform.label }}</span></a>{% endif %}{% endfor -%}
+  {%- for extra in site.social_extra %}{% if extra.url %}<a class="bk-social-link" href="{{ extra.url }}" target="_blank" rel="noopener" aria-label="{{ extra.label or 'Social account' }}"><span class="bk-social-glyph">{{ icon(extra.icon or 'share') }}</span><span class="bk-social-name" aria-hidden="true">{{ extra.label or 'Social' }}</span></a>{% endif %}{% endfor -%}
+</div>
+{% endif %}

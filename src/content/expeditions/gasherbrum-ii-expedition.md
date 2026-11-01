@@ -95,89 +95,89 @@ menu_sections:
 itinerary:
   - day: '01'
     title: Arrive Islamabad and transfer to hotel
-    description: Collected from Islamabad airport and taken to the hotel. The climbing permit and royalty, the park fees and the liaison officer are arranged here, and the team has its first full briefing that evening.
+    description: Collected on arrival. The climbing permit and its royalty, the national park fee and the liaison officer are dealt with in Islamabad, and the team has its first full briefing over dinner.
     overnight: Hotel
   - day: '02'
     title: Fly to Skardu/ Chilas
-    description: 'a) PK 451 to Skardu, weather permitting — the flight threads between the ranges and is cancelled about as often as it operates. Hotel on arrival. b) Otherwise it is the road: eleven to twelve hours and 480 kilometres by coach along the Karakoram Highway to Chilas, with a hotel night there.'
+    description: Skardu by the scheduled flight when the weather over the ranges cooperates; Chilas by coach when it does not. Either way the programme absorbs it.
     overnight: Hotel
   - day: '03'
     title: Preparation day in Skardu or drive to Skardu
-    description: a) A free day in Skardu for those who flew. b) For those driving, eight to nine hours and 275 kilometres remain. The road passes the Indus junction where Nanga Parbat rises 8,125m above the water with the rapids below. Hotel in Skardu, and the final preparations.
-    altitude: 8,125 m
+    description: A preparation day. Gasherbrum teams hire or buy whatever is still missing in the Skardu bazaar, where thirty years of expeditions have left a surprising amount behind.
+    altitude: 2,228 m
     overnight: Hotel
   - day: '04'
-    title: Drive to Askoli
-    description: The jeep road up the Braldu takes six to seven hours to Askole. Eighty or so houses, terraced plots of cereal and vegetables, fruit trees and big herds of sheep, goats and yaks — the last settlement before the glaciers. Camp beside the village while loads are weighed.
+    title: Drive to Askole
+    description: Askole. The jeep road ends, the porter team is engaged, and the loads for a month at base camp are weighed and split.
     altitude: 3,000 m
     overnight: Camping
   - day: '05'
     title: Trek to Jhola camp
-    description: Two to three hours across stony wasteland and then the crossing of the Biafo, a two-kilometre tide of boulders and crevasses. Lunch beyond it, then four to five hours to Jhola over the Dumurdo river bridge. The campsite has bushes and a side stream, and both are welcome.
+    description: Jhola. A long low-level day that gains almost no height, which is exactly what a team with five and a half thousand metres ahead of it wants.
     altitude: 3,200 m
     distance: 2 km
     hours: 2-3 hrs
     overnight: Camping
   - day: '06'
     title: Trek to Paiju
-    description: An easy three to four hours past Bardumal and along a long sandy beach beside the river, then two to three hours after lunch to Paiju. The trail lifts to a vantage point above the Baltoro snout where the Cathedral Towers appear and, far off, the triangle of K2. Paiju is crowded in season.
+    description: Paiju. Trees, a spring, and the last running water. From here to base camp the ground is stone and ice.
     altitude: 3,600 m
     hours: 3-4 hrs
     overnight: Camping
   - day: '07'
     title: Rest day in Paiju
-    description: The traditional rest day at Paiju. Gasherbrum teams use it to reorganise loads for the glacier while the porters prepare their food. It is also the last green campsite — from here to base camp the ground is stone and ice.
+    description: Rest day. The porters bake for the glacier stages; the team repacks and sleeps. Nothing of the Gasherbrum group is visible yet.
     altitude: 3,600 m
     overnight: Camping
   - day: '08'
-    title: Trek to Urdokas
-    description: A long day of seven to eight hours up the southern edge of the Baltoro. The path splits at the snout, the left branch heading for Trango base camp and the Sarpo Laggo; the route keeps right and climbs onto a glacier 62 kilometres long and two across, taking a diagonal of two to three hours to reach the far side. Liliwa, then Khoburtse, then four to five hours along the lateral moraine with Paiju Peak, Choricho, Uli Biaho and the Trango Towers above. Urdukas is a fine camp, if an overused one.
+    title: Trek to Urdukas
+    description: Urdukas, and the last grass anyone on this team will see for six weeks. Gasherbrum IV appears ahead for the first time; the two peaks the expedition actually came for remain concealed behind it until base camp.
     altitude: 4,200 m
     distance: 62 km
     hours: 7-8 hrs
     overnight: Camping
   - day: '09'
     title: Trek to Goro II
-    description: Five to six hours on the glacier. The first hour picks through side crevasses; after that the centre is smoother. Two to three hours brings Goro I, opposite the Yermanendu glacier coming down from the Masherbrum pass, and two to three more lead east along the telephone wire strung from the army post at Goro to Gasherbrum IV — which is, by now, the head of your own valley. Goro II is camped on stone and ice with glacier meltwater.
+    description: Goro II. Gasherbrum IV now fills the skyline ahead &mdash; the wall that screens the two eight-thousanders this expedition has come for.
     altitude: 4,500 m
     hours: 5-6 hrs
     overnight: Camping
   - day: '10'
     title: Trek to Shaqring (Shama)
-    description: 'Four to five hours of easier going into the amphitheatre: Muztagh Tower, Gasherbrum IV, Mitre Peak and K2. Lunch at Concordia, and then the route turns away from the K2 valley and up the South Gasherbrum glacier. Chogolisa, Baltoro Kangri and Gasherbrum V come into view through the afternoon. Camp at Shaqring, which Baltis also call Shama.'
+    description: 'Concordia, and then the parting of ways: the K2 valley goes north, and this route turns east up the South Gasherbrum glacier. Camp at Shaqring, which Baltis call Shama.'
     altitude: 4,800 m
     hours: 4-5 hrs
     overnight: Camping
   - day: '11'
     title: Trek to Base Camp
-    description: The last walking day. Up the South Gasherbrum glacier to base camp, with Gasherbrum II, Gasherbrum I and Broad Peak standing around the basin. Tents go up, the kitchen is built, and this is home for the next month.
+    description: A short final pull to base camp at 5,100 metres, shared with Gasherbrum I. Tents, kitchen, dining and communications go up for a month's stay.
     altitude: 5,100 m
     hours: 2-3 hrs
     overnight: Camping
   - day: 12-42
     title: 31 days climbing
-    description: 'Thirty-one days on the mountain. The normal route on Gasherbrum II places camps at roughly 6,000m, 6,500m and 7,300m before the summit slopes to 8,035m. It is considered one of the more approachable eight-thousanders, which is not the same thing as an easy one: the upper ridge is exposed and the weather window is short. Base camp runs throughout with cook, kitchen and communications.'
+    description: Thirty-one days on the mountain. The route crosses the Gasherbrum icefall and places camps at roughly 6,000m, 6,500m and 7,300m below the summit slopes to 8,035m. Two or three acclimatisation cycles through the icefall, then the window. Base camp runs throughout with cook, kitchen and communications.
     altitude: 6,000 m
     overnight: Camping
   - day: 43-46
-    title: 4 days for return back to Askoli via same route
-    description: Four days down the Baltoro from base camp to Askole, retracing the approach. Coming off the ice after a month and a half at altitude, most teams find these the easiest walking days of the whole expedition.
+    title: 4 days for return back to Askole via same route
+    description: Back down the Baltoro to Askole. Six weeks of base camp comes out with the team, waste included &mdash; the Gasherbrum camps are inside the national park.
     overnight: Camping
   - day: '47'
     title: Drive back to Skardu
-    description: Jeeps down the Braldu valley from Askole to Skardu, six to seven hours on the rough road above the river. Hotel, hot water, and the first meal that somebody else shopped for.
+    description: Askole to Skardu. Porter wages are settled and the expedition's accounts closed in town.
     overnight: Hotel
   - day: '48'
     title: Fly to Islamabad by PK 452
-    description: The scheduled flight from Skardu to Islamabad, weather permitting. If it does not operate the alternative is the two-day drive, which is why the programme carries spare days at this end.
+    description: The scheduled flight to Islamabad if conditions permit; the two-day drive if not. The programme keeps spare days here for precisely this.
     overnight: Hotel
   - day: '49'
     title: Debriefing in Islamabad
-    description: 'The official debriefing in Islamabad: the expedition report is filed with the Ministry of Tourism and the permit formally closed. The rest of the day is free.'
+    description: Debriefing. The expedition report goes to the authorities and the permit is formally closed out.
     overnight: Hotel
   - day: '50'
     title: Transfer to airport for your own destination and goodbye
-    description: The final transfer to the airport. Seven weeks of permits, porters, glacier and altitude end at a departure gate. A room is available if your flight is late.
+    description: The last transfer to the airport. If your flight is an evening one, a room stays available until then.
     overnight: Not applicable
 related:
   - Gasherbrum-I
@@ -185,15 +185,4 @@ related:
   - K2 Base Camp Trek
 ---
 
-
-<!-- page-intro -->
-<h2><strong>About this journey</strong></h2>
-<p>Gasherbrum II, 8,035m, sits at the head of the Baltoro behind the great wall of Gasherbrum IV. It is widely considered one of the more approachable 8,000m peaks: the normal route is mostly snow and ice without sustained technical difficulty, and the base camp on the South Gasherbrum glacier is shared with Gasherbrum I, which makes a two-peak season possible.</p>
-<p><strong>What this programme is.</strong> Fifty days from Islamabad - the Baltoro trek in, acclimatisation rotations through the icefall and the upper camps, a summit window and the return.</p>
-<p><strong>Who it is for.</strong> Climbers ready for their first 8,000m peak with previous high-altitude experience, and teams using it as preparation for harder objectives.</p>
-<p><strong>What we provide.</strong> Climbing permit, Central Karakoram National Park fees and liaison officer, the invitation letter for the Pakistan mountaineering visa, transport and hotels, porters for the Baltoro approach, and base camp with kitchen, dining and communications. Oxygen, personal climbing equipment and support above base camp are arranged separately on request.</p>
-<!-- /page-intro -->
-
-<p>A Gasherbrum II expedition programme covering permits, Baltoro access, base camp and staged high-altitude support.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions. Final service scope must define oxygen, ropes, high-altitude staff, communication and rescue arrangements ect which are not included in our service.</p><h2><strong>Fact &amp; Figures:</strong><br>Duration of Expedition:&nbsp; &nbsp; 52 Days Islamabad to Islamabad<br>Hotel Nights:&nbsp; 06 Nights&nbsp; &nbsp;&nbsp;  Camping Nights:&nbsp; &nbsp; 14 Nights<br>Days for Climbing:&nbsp; 30 Days&nbsp; &nbsp; &nbsp; &nbsp;Group Size:&nbsp; &nbsp;  08+ &nbsp; &nbsp;&nbsp;<br>Best Time: 20 June to 15 August<br>Type of Expedition: Unguided (services up to base camp only)</h2><p><strong>G2 EXPEDITION PROGRAM</strong></p><h2><strong>Planning notes:</strong></h2><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel:</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
-
-<!-- related-journeys -->
+<h2><strong>About this journey</strong></h2><p>Gasherbrum II, 8,035 metres, sits at the head of the Baltoro behind the great wall of Gasherbrum IV, and it is the eight-thousander most often recommended to climbers attempting their first. The normal route is predominantly snow and ice without sustained technical difficulty, the base camp on the South Gasherbrum glacier is comfortable and well established, and it is shared with Gasherbrum I, which makes a two-peak season genuinely practical.</p><p>The whole programme occupies fifty days, thirty-one of them at or above base camp. The approach follows the standard Baltoro route as far as Concordia and then turns east; that walk is set out stage by stage on our <a href="/trekking/k2-base-camp-trek/">K2 base camp trek page</a>.</p><h2><strong>The route</strong></h2><p>From base camp at around 5,100 metres the route crosses the Gasherbrum icefall and then climbs the south-west ridge, with camps at roughly 6,000, 6,500 and 7,300 metres. Above the last camp the summit slopes lead to a final ridge and the top at 8,035 metres.</p><p>Technically it asks little: snow plodding, some ice, fixed rope on short steeper sections, and a summit day that is long rather than difficult. What it asks instead is patience with altitude and a tolerance for waiting. Gasherbrum II windows are usually good when they come, and they do not come often.</p><h2><strong>The icefall</strong></h2><p>The one genuine hazard on this mountain deserves naming separately, because it is where most of the objective danger on the route is concentrated.</p><p>The Gasherbrum icefall sits between base camp and Camp 1 and has to be crossed on every rotation and every carry. It is a moving, crevassed, seracked section of glacier that changes through the season as the ice melts and shifts, and the line through it is re-rigged and re-routed by the teams in residence rather than being fixed once. Most groups cross it before dawn, when the ice is frozen hard, for exactly the reasons you would expect.</p><p>Nothing about it is beyond a competent alpinist. It is, however, the part of the mountain where the hazard does not care how fit or experienced you are, and the reason teams here cross early and cross quickly.</p><h2><strong>The first ascent</strong></h2><p>Gasherbrum II was climbed on 7 July 1956 by an Austrian party &mdash; Fritz Moravec, Josef Larch and Hans Willenpart &mdash; who reached the summit after their supplies ran low and they committed to a lightweight push from a high camp rather than retreating down the mountain. It was a bold piece of decision-making for the period and, like the Broad Peak ascent the following year, it was done without supplementary oxygen.</p><h2><strong>&ldquo;The most achievable eight-thousander&rdquo;</strong></h2><p>Gasherbrum II carries that reputation, and the reputation is broadly fair. It is worth being precise about what it means and what it does not.</p><p><strong>What it means:</strong> no sustained technical climbing on the normal route, a well-established and comfortable base camp, a shorter and less committing summit day than most of its neighbours, and a high proportion of parties reaching the top in a reasonable season.</p><p><strong>What it does not mean:</strong> that it is easy. It is above eight thousand metres, which is the part that does not negotiate. The icefall is dangerous, the weather window is short, the upper ridge is exposed, and people have died on this mountain in every decade since it was climbed. &ldquo;More approachable than Gasherbrum I or K2&rdquo; is a comparison, not a reassurance.</p><h2><strong>Gasherbrum I and II in one season</strong></h2><p>The two peaks share base camp on the South Gasherbrum glacier, which is unusual and useful: a team acclimatised on one is positioned for the other without moving camp, losing days or re-walking the Baltoro.</p><p>In practice most teams climb Gasherbrum II first and use the acclimatisation for an attempt on Gasherbrum I afterwards, which is the harder of the two. The additional cost is largely the second permit royalty rather than a second expedition&rsquo;s logistics. Tell us at the planning stage if that is the intention, because the permit and the liaison officer arrangements must cover both from the start.</p><h2><strong>Season</strong></h2><p><strong>20 June to 15 August.</strong> Teams normally reach base camp in the last week of June or the first of July, rotate through the icefall and the upper camps across two or three cycles, and look for a window from mid-July.</p><p>The Skardu flight is the least predictable element of the whole programme in either direction, and the itinerary carries spare days at both ends because of it rather than because of the mountain.</p><h2><strong>February 2011: the first winter eight-thousander in Pakistan</strong></h2><p>For years the Karakoram was thought to be effectively closed in winter. Not difficult &mdash; closed. The combination of latitude, altitude and the wind that comes off the Tibetan plateau had turned back every attempt on every Pakistani eight-thousander for three decades.</p><p>Gasherbrum II was where that ended. On 2 February 2011, Simone Moro, Denis Urubko and Cory Richards reached the summit, the first winter ascent of any eight-thousand-metre peak in Pakistan. They did it as a self-contained team of three, without supplementary oxygen, in temperatures that froze the moisture inside their suits.</p><p>The descent nearly ended it. The three were caught in an avalanche low on the mountain and swept some distance before it stopped; the footage Richards shot in the minutes afterwards, with his face iced over and his composure gone, became one of the most widely seen pieces of mountaineering film ever made. All three walked out.</p><p>It is worth knowing this about the mountain you have chosen as an achievable eight-thousander, because it says something accurate about it. Gasherbrum II is approachable in July. It is also a mountain where three of the strongest high-altitude climbers alive were nearly killed by the glacier on the way home.</p><h2><strong>Who reaches the top</strong></h2><p>Gasherbrum II has one of the better summit rates among the eight-thousanders in a settled season, and most teams that fail here fail for one of two reasons: the window never came, or the icefall closed the route for long enough to eat the acclimatisation.</p><p>Fitness is rarely the limiting factor on this mountain. Patience usually is. Teams that arrive with fifty days and the willingness to spend thirty of them waiting do substantially better than teams that arrive with a tight schedule and a return flight to make.</p><h2><strong>Life at 5,100 metres</strong></h2><p>A Gasherbrum expedition spends most of its fifty days in one place, and that place deserves a description, because climbers who have only done shorter trips underestimate what a month at base camp is actually like.</p><p>The camp sits on moraine beside the South Gasherbrum glacier, enclosed by Gasherbrum I, II and VI and the wall of Gasherbrum IV behind. It is comfortable as these things go: a mess tent with a table, a dedicated kitchen with a cook and assistants who stay the whole season, individual sleeping tents, a toilet tent, and a communications set-up that works. Fresh food lasts the first fortnight and the diet narrows after that.</p><p>What takes people by surprise is the rhythm. A climbing month is not thirty-one days of climbing: it is two or three rotations of three to five days each, long stretches of doing almost nothing between them, and then a sudden compression when a forecast firms up. Bring books, downloaded films, a hard drive, something to work on. The climbers who cope best with Gasherbrum are usually the ones who came prepared to be bored.</p><h2><strong>Planning notes</strong></h2><p>A Gasherbrum II expedition programme covering permits, Baltoro access, base camp and staged high-altitude support.</p><p>Karakoram Vision Pakistan plans this programme around confirmed road access, accommodation, weather and local operating conditions. Final service scope must define oxygen, ropes, high-altitude staff, communication and rescue arrangements etc which are not included in our service.</p><p>This is a starter itinerary rather than a binding quotation. Final services, permits, safety arrangements, hotel category and payment schedule are confirmed in writing after the travel dates and group profile are received.</p><h2><strong>Responsible travel</strong></h2><p>Guests are expected to respect local communities, cultural sites, protected areas and mountain waste rules. The operating plan prioritizes realistic travel times and local services.</p>
