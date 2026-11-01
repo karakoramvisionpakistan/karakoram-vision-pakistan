@@ -7,7 +7,7 @@ featured: true
 best_seller: true
 fixed_departure: true
 departure_type: Custom
-trip_status: On request
+trip_status: Available
 summary: >-
   A supported expedition plan for Spantik Peak with permit coordination, approach trekking,
   base-camp logistics and weather contingency.
@@ -16,13 +16,17 @@ answer_summary: >-
   base-camp logistics and weather contingency.
 cover_image: /assets/uploads/1792996783273-Spantik-peak.KVP.webp
 cover_image_alt: Spantik, the Golden Peak, lit by evening light above Nagar
-gallery: []
+gallery:
+  - /assets/uploads/1793543079450-Spantik-peak1.webp
+  - /assets/uploads/1793543083399-spantik-C-1.webp
+  - /assets/uploads/1793543087044-Spantik-C1.webp
+  - /assets/uploads/1793543090980-Spantik.webp
 duration: 35 Days
 price_from: On request
 deposit: Confirmed with proposal
 price_currency: USD
-group_size: Expedition team
-difficulty: Expedition
+group_size: 02 +
+difficulty: Moderate
 destination: Nagar side Golden Peak and Arandu side Spantik Peak
 categories:
   - Expeditions
@@ -32,7 +36,7 @@ tags:
   - mountaineering
   - Karakoram
 departures:
-  - 01/08 to 05/09/2027
+  - "2027-08-01"
 departure_details:
   - dates: 01/08/2027
 highlights:
@@ -100,65 +104,99 @@ peak_class: 7,000m peaks
 menu_sections:
   - Best Sellers
   - All Fixed Departures
+  - 7,000m Peaks
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Arrival at Islamabad airport transfer to hotel
-    description: Arrival at Islamabad and transfer to the hotel. Spantik is a seven-thousand-metre peak, so it carries a climbing permit and a royalty of its own, and both are completed in the city along with the liaison officer arrangements. The afternoon is free to recover from the flight; the briefing follows in the evening.
+    description: >-
+      Arrival at Islamabad and transfer to the hotel. Spantik is a seven-thousand-metre peak, so it
+      carries a climbing permit and a royalty of its own, and both are completed in the city along
+      with the liaison officer arrangements. The afternoon is free to recover from the flight; the
+      briefing follows in the evening.
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Fly to Skardu or drive to Naran/Chilas
-    description: The flight to Skardu when the weather allows, otherwise the road through Naran or Chilas. Expeditions plan for both, because the mountain weather decides and not the schedule.
+    description: >-
+      The flight to Skardu when the weather allows, otherwise the road through Naran or Chilas.
+      Expeditions plan for both, because the mountain weather decides and not the schedule.
     overnight: Hotel
-  - day: '03'
+  - day: "03"
     title: Drive to Skardu or preparation day
-    description: 'Either the drive up from Naran or Chilas, or a preparation day in Skardu: the official briefing, final kit checks, food packed for base camp and porter loads made up.'
+    description: >-
+      Either the drive up from Naran or Chilas, or a preparation day in Skardu: the official
+      briefing, final kit checks, food packed for base camp and porter loads made up.
     overnight: Hotel
-  - day: '04'
+  - day: "04"
     title: Drive to Arandu, overnight camping
-    description: By jeep from Skardu up the Basha valley to Arandu, the last village before the Chogo Lungma glacier. The road is rough and the drive long. Camp is pitched beside the village and the porter team is registered.
+    description: >-
+      By jeep from Skardu up the Basha valley to Arandu, the last village before the Chogo Lungma
+      glacier. The road is rough and the drive long. Camp is pitched beside the village and the
+      porter team is registered.
     overnight: Camping
-  - day: '05'
+  - day: "05"
     title: Trek via Chogo Lungma glacier
-    description: Onto the Chogo Lungma, one of the great Karakoram glaciers, following the lateral moraine with the ice spread out to one side and the valley walls rising on the other. Rough, slow ground, and the first real day of the expedition.
+    description: >-
+      Onto the Chogo Lungma, one of the great Karakoram glaciers, following the lateral moraine with
+      the ice spread out to one side and the valley walls rising on the other. Rough, slow ground,
+      and the first real day of the expedition.
     overnight: Camping
-  - day: '06'
+  - day: "06"
     title: Trek to Spantik base camp
-    description: Up the glacier to Spantik base camp. The peak, which Nagar people call Golden Peak for the colour the summit pyramid takes at sunset, stands above — with the Golden Pillar on its north-west face, one of the hardest lines in the range. The normal south-east ridge from this side is a non-technical but serious snow climb.
+    description: >-
+      Up the glacier to Spantik base camp. The peak, which Nagar people call Golden Peak for the
+      colour the summit pyramid takes at sunset, stands above — with the Golden Pillar on its
+      north-west face, one of the hardest lines in the range. The normal south-east ridge from this
+      side is a non-technical but serious snow climb.
     altitude: 4,300 m
     overnight: Camping
   - day: 07-26
     title: CLIMBING DAYS
-    description: The climbing period. Twenty days allows the route to be fixed, camps established at around 5,000m and 5,900m, proper acclimatisation rotations, and a summit window with weather to spare. Spantik is often chosen as a first 7,000er because the ground is straightforward — but 7,027m is still 7,027m, and the long summit day is where most attempts turn back.
+    description: >-
+      The climbing period. Twenty days allows the route to be fixed, camps established at around
+      5,000m and 5,900m, proper acclimatisation rotations, and a summit window with weather to
+      spare. Spantik is often chosen as a first 7,000er because the ground is straightforward — but
+      7,027m is still 7,027m, and the long summit day is where most attempts turn back.
     overnight: Base camp
   - day: 27-29
     title: Trek back from Spantik base camp to Arandu
-    description: Three days back down the Chogo Lungma to Arandu, retracing the approach with the porters who come back up to meet the team.
+    description: >-
+      Three days back down the Chogo Lungma to Arandu, retracing the approach with the porters who
+      come back up to meet the team.
     overnight: Camping
-  - day: '30'
+  - day: "30"
     title: Drive to Skardu,
-    description: Jeeps down the Basha valley to Skardu. Hotel, a shower, and the first proper meal off the mountain.
+    description: >-
+      Jeeps down the Basha valley to Skardu. Hotel, a shower, and the first proper meal off the
+      mountain.
     overnight: Hotel
-  - day: '31'
+  - day: "31"
     title: Debriefing in Skardu
-    description: The official debriefing in Skardu, where the expedition is formally closed and the summit report filed.
+    description: >-
+      The official debriefing in Skardu, where the expedition is formally closed and the summit
+      report filed.
     overnight: Hotel
-  - day: '32'
+  - day: "32"
     title: Fly to Islamabad
     description: The flight to Islamabad if it operates.
     overnight: Hotel
-  - day: '34'
+  - day: "34"
     title: Reserve day incase of flight cancellation
-    description: A reserve day held back for the Skardu flight. If it is not needed it is a free day in Islamabad, and after five weeks on a glacier most people are glad of it.
+    description: >-
+      A reserve day held back for the Skardu flight. If it is not needed it is a free day in
+      Islamabad, and after five weeks on a glacier most people are glad of it.
     overnight: Hotel
-  - day: '35'
+  - day: "35"
     title: Fly to onward destination
-    description: We see you off at the airport. Five weeks, one seven-thousander and a long glacier walk end here; a day room is available if you need one.
+    description: >-
+      We see you off at the airport. Five weeks, one seven-thousander and a long glacier walk end
+      here; a day room is available if you need one.
     overnight: Not applicable
 related:
   - Rush Lake Trek
   - Broad Peak Expedition
   - Hunza Valley Travel Guide
 ---
+
 
 
 
