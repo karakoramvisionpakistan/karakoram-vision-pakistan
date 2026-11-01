@@ -47,10 +47,11 @@ seo:
   keywords: Skardu seasons, Summer road access, Autumn colours
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   canonical: ""
-  social_image: /assets/uploads/journeys/best-time-to-visit-skardu.svg
+  social_image: ""
 layout: layouts/post.njk
 date: "2026-09-06"
 ---
+
 
 
 <h2><strong>The short answer</strong></h2>
