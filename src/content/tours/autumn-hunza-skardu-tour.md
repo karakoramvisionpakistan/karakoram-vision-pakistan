@@ -26,7 +26,7 @@ gallery:
   - /assets/uploads/1793534370983-Thalay-Valley.webp
 duration: 14 Days
 price_from: On request
-deposit: Confirmed with proposal
+deposit: 50 %
 price_currency: USD
 group_size: 2–12 travelers
 difficulty: Easy
@@ -215,6 +215,7 @@ related:
   - Hunza Valley Heritage Tour
   - Skardu Travel Guide
 ---
+
 
 
 
