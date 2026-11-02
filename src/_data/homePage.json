@@ -12,10 +12,10 @@
     "fixed",
     "latest",
     "destinations",
+    "guides",
     "services",
     "vehicles",
     "trust",
-    "guides",
     "resources",
     "faqs",
     "cta",
@@ -80,7 +80,7 @@
     "card_count": 6
   },
   "destinations": {
-    "enabled": true,
+    "enabled": false,
     "eyebrow": "Destinations",
     "heading": "Explore Gilgit Baltistan by region",
     "description": "Discover high mountains, heritage cities, national parks and remote valleys.",
