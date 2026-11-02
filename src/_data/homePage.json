@@ -67,7 +67,7 @@
     "description": "Choose the journey which you want to do",
     "button_label": "Browse all journeys",
     "button_url": "/journey-categories/",
-    "card_count": 9,
+    "card_count": 6,
     "pages": 3
   },
   "fixed": {
@@ -80,7 +80,7 @@
     "card_count": 6
   },
   "destinations": {
-    "enabled": true,
+    "enabled": false,
     "eyebrow": "Destinations",
     "heading": "Explore Gilgit Baltistan by region",
     "description": "Discover high mountains, heritage cities, national parks and remote valleys.",
