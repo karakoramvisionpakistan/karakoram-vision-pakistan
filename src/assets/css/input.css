@@ -2272,3 +2272,32 @@ h1, h2, h3, h4,
   }
 }
 /* === V11.27 END === */
+
+/* === V11.28 START === */
+/* Narangi par safaid matan ka contrast 3.12 tha, WCAG 4.5 maangta hai.
+   Brand ka narangi waisa hi hai; sirf matan gehra kiya hai:
+     #ff5a1f par #0f172a  ->  5.72
+     #ff713f par #0f172a  ->  6.53
+   Yeh block sab se aakhir mein hai, is liye upar wale rules par ghalib hai. */
+.bk-plan-button,
+.bk-plan-button:hover,
+.bk-plan-button:focus-visible,
+.bk-mobile-plan,
+.bk-mobile-plan:hover,
+.bk-mobile-plan:focus-visible,
+.bk-mobile-toggle,
+.bk-mobile-toggle:hover,
+.bk-mobile-toggle:focus-visible,
+.bk-footer-top > a,
+.bk-footer-top > a:hover,
+.bk-footer-top > a:focus-visible,
+.bk-newsletter-form button,
+.bk-newsletter-form button:hover,
+.bk-newsletter-form button:focus-visible,
+.bk-footer-cta,
+.bk-footer-cta:hover,
+.bk-footer-cta:focus-visible,
+.bk-social-name {
+  color: #0f172a;
+}
+/* === V11.28 END === */

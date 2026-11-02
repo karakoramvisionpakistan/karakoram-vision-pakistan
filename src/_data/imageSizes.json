@@ -1051,24 +1051,6 @@
       "w": 960
     }
   ],
-  "/assets/uploads/1793276336582-Screenshot--1-.webp": [
-    {
-      "src": "/assets/sized/1793276336582-screenshot-1-400.webp",
-      "w": 400
-    },
-    {
-      "src": "/assets/sized/1793276336582-screenshot-1-800.webp",
-      "w": 800
-    },
-    {
-      "src": "/assets/sized/1793276336582-screenshot-1-1400.webp",
-      "w": 1400
-    },
-    {
-      "src": "/assets/uploads/1793276336582-Screenshot--1-.webp",
-      "w": 1920
-    }
-  ],
   "/assets/uploads/1793283324589-Skardu-City.webp": [
     {
       "src": "/assets/sized/1793283324589-skardu-city-400.webp",
@@ -1191,92 +1173,6 @@
     {
       "src": "/assets/uploads/1793287396814-Faisal-Mosque.webp",
       "w": 2000
-    }
-  ],
-  "/assets/uploads/1793343897449-Screenshot--1-.webp": [
-    {
-      "src": "/assets/sized/1793343897449-screenshot-1-400.webp",
-      "w": 400
-    },
-    {
-      "src": "/assets/sized/1793343897449-screenshot-1-800.webp",
-      "w": 800
-    },
-    {
-      "src": "/assets/sized/1793343897449-screenshot-1-1400.webp",
-      "w": 1400
-    },
-    {
-      "src": "/assets/uploads/1793343897449-Screenshot--1-.webp",
-      "w": 1920
-    }
-  ],
-  "/assets/uploads/1793343934329-Screenshot--3-.webp": [
-    {
-      "src": "/assets/sized/1793343934329-screenshot-3-400.webp",
-      "w": 400
-    },
-    {
-      "src": "/assets/sized/1793343934329-screenshot-3-800.webp",
-      "w": 800
-    },
-    {
-      "src": "/assets/sized/1793343934329-screenshot-3-1400.webp",
-      "w": 1400
-    },
-    {
-      "src": "/assets/uploads/1793343934329-Screenshot--3-.webp",
-      "w": 1920
-    }
-  ],
-  "/assets/uploads/1793344885549-Screenshot--1-.webp": [
-    {
-      "src": "/assets/sized/1793344885549-screenshot-1-400.webp",
-      "w": 400
-    },
-    {
-      "src": "/assets/sized/1793344885549-screenshot-1-800.webp",
-      "w": 800
-    },
-    {
-      "src": "/assets/sized/1793344885549-screenshot-1-1400.webp",
-      "w": 1400
-    },
-    {
-      "src": "/assets/uploads/1793344885549-Screenshot--1-.webp",
-      "w": 1920
-    }
-  ],
-  "/assets/uploads/1793344958707-Screenshot--3-.webp": [
-    {
-      "src": "/assets/sized/1793344958707-screenshot-3-400.webp",
-      "w": 400
-    },
-    {
-      "src": "/assets/sized/1793344958707-screenshot-3-800.webp",
-      "w": 800
-    },
-    {
-      "src": "/assets/sized/1793344958707-screenshot-3-1400.webp",
-      "w": 1400
-    },
-    {
-      "src": "/assets/uploads/1793344958707-Screenshot--3-.webp",
-      "w": 1920
-    }
-  ],
-  "/assets/uploads/1793423451327-KVP-Logo.webp": [
-    {
-      "src": "/assets/sized/1793423451327-kvp-logo-400.webp",
-      "w": 400
-    },
-    {
-      "src": "/assets/sized/1793423451327-kvp-logo-800.webp",
-      "w": 800
-    },
-    {
-      "src": "/assets/uploads/1793423451327-KVP-Logo.webp",
-      "w": 1024
     }
   ],
   "/assets/uploads/1793423512289-L1280139.webp": [
@@ -2511,6 +2407,48 @@
       "w": 480
     }
   ],
+  "/assets/uploads/brand/karakoram-vision-logo-blue.png": [
+    {
+      "src": "/assets/sized/brand-karakoram-vision-logo-blue-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/brand-karakoram-vision-logo-blue-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/uploads/brand/karakoram-vision-logo-blue.png",
+      "w": 1080
+    }
+  ],
+  "/assets/uploads/brand/karakoram-vision-logo-light.png": [
+    {
+      "src": "/assets/sized/brand-karakoram-vision-logo-light-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/brand-karakoram-vision-logo-light-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/uploads/brand/karakoram-vision-logo-light.png",
+      "w": 1080
+    }
+  ],
+  "/assets/uploads/brand/karakoram-vision-og.jpg": [
+    {
+      "src": "/assets/sized/brand-karakoram-vision-og-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/sized/brand-karakoram-vision-og-800.webp",
+      "w": 800
+    },
+    {
+      "src": "/assets/uploads/brand/karakoram-vision-og.jpg",
+      "w": 1200
+    }
+  ],
   "/assets/uploads/Expedition/1792826653498-IMG_0560.webp": [
     {
       "src": "/assets/sized/expedition-1792826653498-img-0560-400.webp",
@@ -2681,48 +2619,6 @@
     {
       "src": "/assets/uploads/Expedition/1792831659925-g2-c-1-kvp.webp",
       "w": 640
-    }
-  ],
-  "/assets/uploads/brand/karakoram-vision-logo-blue.png": [
-    {
-      "src": "/assets/sized/brand-karakoram-vision-logo-blue-400.webp",
-      "w": 400
-    },
-    {
-      "src": "/assets/sized/brand-karakoram-vision-logo-blue-800.webp",
-      "w": 800
-    },
-    {
-      "src": "/assets/uploads/brand/karakoram-vision-logo-blue.png",
-      "w": 1080
-    }
-  ],
-  "/assets/uploads/brand/karakoram-vision-logo-light.png": [
-    {
-      "src": "/assets/sized/brand-karakoram-vision-logo-light-400.webp",
-      "w": 400
-    },
-    {
-      "src": "/assets/sized/brand-karakoram-vision-logo-light-800.webp",
-      "w": 800
-    },
-    {
-      "src": "/assets/uploads/brand/karakoram-vision-logo-light.png",
-      "w": 1080
-    }
-  ],
-  "/assets/uploads/brand/karakoram-vision-og.jpg": [
-    {
-      "src": "/assets/sized/brand-karakoram-vision-og-400.webp",
-      "w": 400
-    },
-    {
-      "src": "/assets/sized/brand-karakoram-vision-og-800.webp",
-      "w": 800
-    },
-    {
-      "src": "/assets/uploads/brand/karakoram-vision-og.jpg",
-      "w": 1200
     }
   ]
 }
