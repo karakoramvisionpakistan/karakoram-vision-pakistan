@@ -9,9 +9,9 @@
   },
   "section_order": [
     "proof",
+    "fixed",
     "services",
     "latest",
-    "fixed",
     "destinations",
     "vehicles",
     "trust",
