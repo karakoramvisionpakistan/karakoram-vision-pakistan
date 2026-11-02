@@ -9,18 +9,17 @@
   },
   "section_order": [
     "proof",
-    "services",
     "latest",
     "fixed",
     "destinations",
+    "services",
     "vehicles",
     "trust",
     "guides",
     "resources",
     "faqs",
     "cta",
-    "reviews",
-    ""
+    "reviews"
   ],
   "proof": {
     "enabled": true,
