@@ -17,3 +17,6 @@ RUNTIME_CATALOG_REPORT.json
 
 # Audit aur report files
 _*.txt
+
+# clean-uploads.mjs ne yahan ghair-istemal photos rakhi hain
+_unused/
