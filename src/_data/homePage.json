@@ -9,8 +9,8 @@
   },
   "section_order": [
     "proof",
-    "latest",
     "fixed",
+    "latest",
     "destinations",
     "services",
     "vehicles",
