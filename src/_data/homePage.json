@@ -9,9 +9,9 @@
   },
   "section_order": [
     "proof",
-    "fixed",
     "services",
     "latest",
+    "fixed",
     "destinations",
     "vehicles",
     "trust",
@@ -19,7 +19,8 @@
     "resources",
     "faqs",
     "cta",
-    "reviews"
+    "reviews",
+    ""
   ],
   "proof": {
     "enabled": true,
@@ -67,7 +68,7 @@
     "description": "Choose the journey which you want to do",
     "button_label": "Browse all journeys",
     "button_url": "/journey-categories/",
-    "card_count": 6,
+    "card_count": 9,
     "pages": 3
   },
   "fixed": {
@@ -80,7 +81,7 @@
     "card_count": 6
   },
   "destinations": {
-    "enabled": false,
+    "enabled": true,
     "eyebrow": "Destinations",
     "heading": "Explore Gilgit Baltistan by region",
     "description": "Discover high mountains, heritage cities, national parks and remote valleys.",
