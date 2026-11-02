@@ -28,7 +28,7 @@
     "description": "Start with a researched itinerary, then confirm current roads, flights, permits, hotels and services in one written proposal."
   },
   "services": {
-    "enabled": true,
+    "enabled": false,
     "eyebrow": "Choose your journey",
     "heading": "Distinct travel services, one expert team",
     "description": "Tours, trekking and expeditions remain separate so travelers can find the right level of adventure quickly.",
