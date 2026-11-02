@@ -86,7 +86,7 @@
         {% set slideAlt = item.data.cover_image_alt or item.data.title %}
       {% endif %}
       {% set slidePic = heroImages | heroPicture(slideImage) %}
-      <article class="bk-hero-slide{% if loop.first %} is-active{% elif loop.index0 == 1 %} is-next{% elif loop.last %} is-prev{% endif %}" data-hero-slide data-index="{{ loop.index0 }}" aria-hidden="{{ 'false' if loop.first else 'true' }}">
+      <article class="bk-hero-slide{% if loop.first %} is-active{% elif loop.index0 == 1 %} is-next{% elif loop.last %} is-prev{% endif %}" data-hero-slide{% if not loop.first %} inert{% endif %} data-index="{{ loop.index0 }}" aria-hidden="{{ 'false' if loop.first else 'true' }}">
         {% if slidePic %}
         <picture>
           <source media="(max-width: 767px)" sizes="100vw" srcset="{{ slidePic.tall }}">
@@ -130,8 +130,8 @@
   {% if slides.length > 1 %}
   <button class="bk-hero-control bk-hero-prev" type="button" data-hero-prev aria-label="Previous slide">‹</button>
   <button class="bk-hero-control bk-hero-next" type="button" data-hero-next aria-label="Next slide">›</button>
-  <div class="bk-hero-dots" role="tablist" aria-label="Choose slide">
-    {% for item in slides %}<button type="button" data-hero-dot data-index="{{ loop.index0 }}" class="{% if loop.first %}is-active{% endif %}" aria-label="Show slide {{ loop.index }}" aria-selected="{{ 'true' if loop.first else 'false' }}"></button>{% endfor %}
+  <div class="bk-hero-dots" role="group" aria-label="Choose slide">
+    {% for item in slides %}<button type="button" data-hero-dot data-index="{{ loop.index0 }}" class="{% if loop.first %}is-active{% endif %}" aria-label="Show slide {{ loop.index }}" aria-current="{{ 'true' if loop.first else 'false' }}"></button>{% endfor %}
   </div>
   {% endif %}
   {% if heroFinder %}<div class="bk-hero-finder-wrap">{% include "components/trip-finder.njk" %}</div>{% endif %}

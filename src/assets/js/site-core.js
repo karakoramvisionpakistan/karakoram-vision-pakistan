@@ -80,10 +80,11 @@
           else if (index === previous) slide.classList.add('is-prev');
           else if (index === following) slide.classList.add('is-next');
           slide.setAttribute('aria-hidden', String(index !== active));
+          slide.toggleAttribute('inert', index !== active);
         });
         dots.forEach((dot, index) => {
           dot.classList.toggle('is-active', index === active);
-          dot.setAttribute('aria-selected', String(index === active));
+          dot.setAttribute('aria-current', String(index === active));
         });
       };
       const stop = () => { if (timer) clearInterval(timer); timer = null; };
