@@ -1,7 +1,7 @@
 ---
 title: Ghulam Muhammad
 role: Guide / Sirdar
-photo: /assets/uploads/1793424579054-IMG_9765.webp
+photo: /assets/uploads/1793694247389-Ghulam-Done.webp
 bio: >-
   Ghulam Muhammad is an experienced trekking guide at Karakoram Vision Pakistan, passionate about
   exploring the majestic mountains and beautiful valleys of Gilgit-Baltistan. With a strong
@@ -13,5 +13,6 @@ order: 5
 published: true
 slug: ghulam-muhammad
 ---
+
 
 
