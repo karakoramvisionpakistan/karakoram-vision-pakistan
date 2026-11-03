@@ -18,7 +18,7 @@ cover_image: /assets/uploads/1793690775195-khosar-ghang-kvp.webp
 gallery:
   - /assets/uploads/1793690802825-khosar-ghang-peak.webp
   - /assets/uploads/1793690805943-Khosar-Ghang.webp
-duration: "12 "
+duration: 12 Days
 price_from: On Request
 deposit: 50 %
 group_size: Any size
@@ -193,5 +193,6 @@ seo:
 body: ""
 _in_review: false
 ---
+
 
 <h3><strong>Khosar Gang Peak </strong> with Karakoram Vision Pakistan could be an exciting high-altitude adventure in the Karakoram Range.</h3><p>Khosar Gang, also spelled Khosar Ghang or Koser Gunge, is in the Shigar Valley of Baltistan. Its commonly quoted elevation is around 6,040–6,046 metres, although some expedition operators list it at approximately 6,400 metres. The climb involves high-altitude snow and glacier travel, so proper acclimatization, suitable equipment, and experienced mountain guides are essential.</p><p>For beginners, the expedition can be a rewarding introduction to mountaineering with proper physical preparation, experienced guides, and suitable climbing equipment. Basic trekking experience and good fitness are recommended, while learning essential climbing skills before the expedition can make the journey safer and more enjoyable.</p><p><strong>Khosar Ghang Peak is an opportunity to take your first steps into the world of high-altitude mountaineering and discover the incredible beauty of the Karakoram.</strong></p><p>&nbsp;</p><p><strong>Expedition planning at a glance</strong></p><p><strong>Destination:</strong> Shigar Valley, Gilgit-Baltistan</p><p><strong>Best Time:</strong> Generally June– September</p><p>&nbsp;</p><p><strong>Duration:</strong> Approximately 10–15 days, depending on the itinerary and weather buffer.</p><p><strong>Important trekking and climbing notes</strong> </p><p>•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Difficulty:</strong> This is a mountaineering climb, not simply a hiking trek. Snow travel, crampons, an ice axe, glacier awareness, and fixed-rope skills may be required. </p><p>•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Acclimatization:</strong> Don't rush the ascent. Your guide should adjust the itinerary to your fitness, symptoms, and conditions. </p><p>•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Weather buffer:</strong> Twelve days is a workable outline, but adding 2–3 spare days is sensible, especially if traveling from Islamabad. </p><p>•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Equipment and support:</strong> Arrange a qualified local climbing guide, appropriate safety equipment, emergency communications, and insurance that explicitly covers high-altitude mountaineering. </p><p></p><h2><strong>Related Journeys: </strong></h2><p>Trekking Peaks</p><p>Climbing</p><p>Easy Peak</p><p>For the bingers </p>
