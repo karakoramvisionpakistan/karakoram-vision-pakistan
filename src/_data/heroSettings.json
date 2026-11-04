@@ -1,132 +1,132 @@
 {
   "homepage": {
     "enabled": true,
-    "image": "",
+    "image": "/assets/uploads/1792850035755-IMG_2429.webp",
     "image_alt": ""
   },
   "tours": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792995956889-Fairy-Meadow.webp",
     "image_alt": ""
   },
   "trekking": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792850035755-IMG_2429.webp",
     "image_alt": ""
   },
   "expeditions": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792932777377-113.webp",
     "image_alt": ""
   },
   "jeep-safaris": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792996010652-Khaplu-Valley.webp",
     "image_alt": ""
   },
   "hunting-services": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1793544538914-Ibex-kvp.webp",
     "image_alt": ""
   },
   "vehicles": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792994704174-Hiace-Van.webp",
     "image_alt": ""
   },
   "blog": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792942699991-116.webp",
     "image_alt": ""
   },
   "news": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792997162644-Laila-Peak.webp",
     "image_alt": ""
   },
   "destinations": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1793270072385-Shanngrila.webp",
     "image_alt": ""
   },
   "holiday-types": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792996062127-Skardu-City.webp",
     "image_alt": ""
   },
   "special-interests": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792843663813-G1.KVP.webp",
     "image_alt": ""
   },
   "journey-categories": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792995980556-Deosai.webp",
     "image_alt": ""
   },
   "international-travelers": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1793284289857-6eea8203-d035-4677-a66d-250d92c387d7.webp",
     "image_alt": ""
   },
   "guest-reviews": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792942699991-116.webp",
     "image_alt": ""
   },
   "social-responsibility": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1793270675293-Blosson-in-Baltistan.webp",
     "image_alt": ""
   },
   "plan-a-trip": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792993862389-Baltoro.webp",
     "image_alt": ""
   },
   "contact-us": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1793274829328-614d6932-d313-4209-bfe3-033e7e7d0fde.webp",
     "image_alt": ""
   },
   "about-us": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1793787028675-Gol-Logo.webp",
     "image_alt": ""
   },
   "our-team": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1793275845689-28aeb64e-87bc-4f45-8774-b6d2ec8132be.webp",
     "image_alt": ""
   },
   "faqs": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792994509864-Biafo.webp",
     "image_alt": ""
   },
   "privacy-policy": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1793690805943-Khosar-Ghang.webp",
     "image_alt": ""
   },
   "refund-policy": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1793284278434-Gondogoro.webp",
     "image_alt": ""
   },
   "terms-and-conditions": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1793431549334-Attabad-Lake.webp",
     "image_alt": ""
   },
   "equipment-checklist": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1792996316377-Equipment-checklist.webp",
     "image_alt": ""
   },
   "gallery": {
     "enabled": false,
-    "image": "",
+    "image": "/assets/uploads/1793540544072-IMG_9732.webp",
     "image_alt": ""
   }
 }
