@@ -3,6 +3,24 @@
 // The panel on the photo only ever shows as much as fits - anything longer is
 // trimmed - so this is the way to read the rest.
 (function () {
+  // Phone par hover nahi hota: photo ya kone ka "+" dabane se bio khulta hai,
+  // dobara dabane (ya kahin aur dabane) se band. Desktop par hover pehle jaisa.
+  var noHover = window.matchMedia && window.matchMedia("(hover: none)").matches;
+  function setOpen(card, open) {
+    card.classList.toggle("is-open", open);
+    var t = card.querySelector("[data-team-toggle]");
+    if (t) t.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+  document.addEventListener("click", function (e) {
+    if (e.target.closest("[data-team-more]")) return;
+    var card = e.target.closest(".bk-team-card");
+    var hit = card && card.querySelector(".bk-team-panel")
+      && (e.target.closest("[data-team-toggle]") || (noHover && e.target.closest(".bk-team-photo")));
+    var open = document.querySelectorAll(".bk-team-card.is-open");
+    for (var i = 0; i < open.length; i++) if (!hit || open[i] !== card) setOpen(open[i], false);
+    if (hit) setOpen(card, !card.classList.contains("is-open"));
+  });
+
   var modal = document.querySelector("[data-team-modal]");
   if (!modal) return;
 

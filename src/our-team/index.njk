@@ -13,7 +13,7 @@ seo:
 {% include "components/landing-hero.njk" %}
 
 {% if team and team.length %}
-{% for group in team %}
+{% for group in team %}{% set teamGroup = loop.index %}
 <section class="bk-team">
   <h2 class="bk-team-title">{{ group.title }}</h2>
   <div class="bk-team-grid">
@@ -27,7 +27,11 @@ seo:
         {# The panel keeps to the lower part of the photo and the words are
            trimmed to fit. A long biography used to stretch it until the
            picture was gone. #}
-        <div class="bk-team-panel">
+        <button type="button" class="bk-team-toggle" data-team-toggle aria-expanded="false" aria-controls="team-bio-{{ teamGroup }}-{{ loop.index }}">
+          <span class="bk-team-toggle-label">About {{ person.name }}</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <div class="bk-team-panel" id="team-bio-{{ teamGroup }}-{{ loop.index }}">
           <h3>{{ person.name }}</h3>
           {% if person.role %}<p class="bk-team-panel-role">{{ person.role }}</p>{% endif %}
           <p class="bk-team-panel-bio">{{ person.bio }}</p>
