@@ -19,7 +19,6 @@ cover_image_alt: Autumn colour in the orchards of Hunza below snow-covered peaks
 gallery:
   - /assets/uploads/1792995926341-Hunza.webp
   - /assets/uploads/1793270072385-Shanngrila.webp
-  - /assets/uploads/1793534359761-Rakaposhi-BC.webp
   - /assets/uploads/1793534362779-Rakaposhi-Trek-KVP.webp
   - /assets/uploads/1793534365592-Rush-Lake-KVP.webp
   - /assets/uploads/1793534368391-Rush-Lake.webp
@@ -215,6 +214,9 @@ related:
   - Hunza Valley Heritage Tour
   - Skardu Travel Guide
 ---
+
+
+
 
 
 
