@@ -1953,6 +1953,26 @@
       "w": 738
     }
   ],
+  "/assets/uploads/brand/icon-512.png": [
+    {
+      "src": "/assets/sized/brand-icon-512-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/uploads/brand/icon-512.png",
+      "w": 512
+    }
+  ],
+  "/assets/uploads/brand/icon-maskable-512.png": [
+    {
+      "src": "/assets/sized/brand-icon-maskable-512-400.webp",
+      "w": 400
+    },
+    {
+      "src": "/assets/uploads/brand/icon-maskable-512.png",
+      "w": 512
+    }
+  ],
   "/assets/uploads/brand/karakoram-vision-logo-blue.png": [
     {
       "src": "/assets/sized/brand-karakoram-vision-logo-blue-400.webp",

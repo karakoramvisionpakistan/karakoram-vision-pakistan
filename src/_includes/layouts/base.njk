@@ -35,6 +35,8 @@
   {% if date %}<meta property="article:published_time" content="{{ date | isoDate }}">{% endif %}
   {% if last_verified or date_modified %}<meta property="article:modified_time" content="{{ (last_verified or date_modified) | isoDate }}">{% endif %}
   <link rel="icon" href="{{ site.favicon }}">
+  <link rel="icon" href="/assets/uploads/brand/favicon.ico" sizes="48x48">
+  <link rel="apple-touch-icon" href="/assets/uploads/brand/apple-touch-icon.png">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} Travel Guides" href="/feed.xml">
   
