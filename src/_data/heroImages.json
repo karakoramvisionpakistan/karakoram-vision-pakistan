@@ -288,6 +288,44 @@
       }
     ]
   },
+  "/assets/uploads/1792932788738-117.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792932788738-117--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792932788738-117--wide-1600.webp",
+        "w": 1600,
+        "h": 1000
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792932788738-117--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792932788738-117--mid-1333.webp",
+        "w": 1333,
+        "h": 1066
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792932788738-117--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792932788738-117--tall-600.webp",
+        "w": 600,
+        "h": 1066
+      }
+    ]
+  },
   "/assets/uploads/1792996010652-Khaplu-Valley.webp": {
     "wide": [
       {
@@ -354,6 +392,44 @@
         "src": "/assets/hero/1792994704174-hiace-van--tall-198.webp",
         "w": 198,
         "h": 352
+      }
+    ]
+  },
+  "/assets/uploads/1792942699991-116.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792942699991-116--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792942699991-116--wide-1600.webp",
+        "w": 1600,
+        "h": 1000
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792942699991-116--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792942699991-116--mid-1333.webp",
+        "w": 1333,
+        "h": 1066
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792942699991-116--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792942699991-116--tall-600.webp",
+        "w": 600,
+        "h": 1066
       }
     ]
   },
@@ -636,6 +712,39 @@
         "src": "/assets/hero/1793787028675-gol-logo--tall-432.webp",
         "w": 432,
         "h": 768
+      }
+    ]
+  },
+  "/assets/uploads/1793275845689-28aeb64e-87bc-4f45-8774-b6d2ec8132be.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793275845689-28aeb64e-87bc-4f45-8774-b6d2ec8132be--wide-960.webp",
+        "w": 960,
+        "h": 600
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793275845689-28aeb64e-87bc-4f45-8774-b6d2ec8132be--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793275845689-28aeb64e-87bc-4f45-8774-b6d2ec8132be--mid-960.webp",
+        "w": 960,
+        "h": 768
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793275845689-28aeb64e-87bc-4f45-8774-b6d2ec8132be--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793275845689-28aeb64e-87bc-4f45-8774-b6d2ec8132be--tall-720.webp",
+        "w": 720,
+        "h": 1280
       }
     ]
   },

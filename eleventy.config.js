@@ -58,6 +58,22 @@ export default function(eleventyConfig) {
       fallback: big.src, w: big.w, h: big.h,
     };
   });
+
+  // Share image (og:image): pehli asli photo, SVG chhor kar. Agar us ki
+  // 1200x630 JPG tools/og-images.mjs ne banai hai to wahi, naap ke sath.
+  eleventyConfig.addFilter("ogPick", (candidates, ogMap, fallback) => {
+    const map = ogMap || {};
+    for (const raw of candidates || []) {
+      const v = String(raw || "").trim();
+      if (!v || /\.svg(\?|$)/i.test(v)) continue;
+      if (fallback && v === fallback) continue;   // OG khane mein default banner ho to use chunav na samjho
+      if (/apricot[-_ ]?tours|beyond[-_ ]?karakoram/i.test(v)) continue;
+      const hit = map[v];
+      if (hit) return { src: hit.src, w: hit.w, h: hit.h, type: "image/jpeg" };
+      return { src: v, w: 0, h: 0, type: "" };
+    }
+    return { src: fallback || "", w: 0, h: 0, type: "" };
+  });
   // Har photo ke naap ki fehrist - tools/image-sizes.mjs build ke waqt banata
   // hai. Yahan ek dafa parh lete hain taake har <img> ko alag se dena na pare.
   const __imageSizes = (() => {

@@ -1,5 +1,5 @@
 {% set canonicalUrl = seo.canonical or (site.url + permalink) %}
-{% set primaryImagePath = (seo.social_image or cover_image) | safeMedia('', site.seo.default_social_image) %}
+{% set primaryImagePath = socialPick.src if (socialPick and socialPick.src) else ((seo.social_image or cover_image) | safeMedia('', site.seo.default_social_image)) %}
 {% set primaryImage = primaryImagePath | absoluteUrl(site.url) %}
 {# Trip ke apne sawal aur aam sawalon ka bank — wahi filter jo safhe par chalta hai,
    taake jo nazar aaye wahi Google ko bhi mile. #}
