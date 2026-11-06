@@ -212,6 +212,588 @@
       }
     ]
   },
+  "/assets/uploads/1792850035755-IMG_2429.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792850035755-img-2429--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792850035755-img-2429--wide-1500.webp",
+        "w": 1500,
+        "h": 938
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792850035755-img-2429--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792850035755-img-2429--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792850035755-img-2429--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792850035755-img-2429--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
+  "/assets/uploads/1792995956889-Fairy-Meadow.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792995956889-fairy-meadow--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792995956889-fairy-meadow--wide-1728.webp",
+        "w": 1728,
+        "h": 1080
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792995956889-fairy-meadow--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792995956889-fairy-meadow--mid-1350.webp",
+        "w": 1350,
+        "h": 1080
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792995956889-fairy-meadow--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792995956889-fairy-meadow--tall-608.webp",
+        "w": 608,
+        "h": 1080
+      }
+    ]
+  },
+  "/assets/uploads/1792996010652-Khaplu-Valley.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792996010652-khaplu-valley--wide-415.webp",
+        "w": 415,
+        "h": 259
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792996010652-khaplu-valley--mid-415.webp",
+        "w": 415,
+        "h": 332
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792996010652-khaplu-valley--tall-415.webp",
+        "w": 415,
+        "h": 738
+      }
+    ]
+  },
+  "/assets/uploads/1793544538914-Ibex-kvp.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793544538914-ibex-kvp--wide-536.webp",
+        "w": 536,
+        "h": 335
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793544538914-ibex-kvp--mid-419.webp",
+        "w": 419,
+        "h": 335
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793544538914-ibex-kvp--tall-188.webp",
+        "w": 188,
+        "h": 335
+      }
+    ]
+  },
+  "/assets/uploads/1792994704174-Hiace-Van.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792994704174-hiace-van--wide-563.webp",
+        "w": 563,
+        "h": 352
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792994704174-hiace-van--mid-440.webp",
+        "w": 440,
+        "h": 352
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792994704174-hiace-van--tall-198.webp",
+        "w": 198,
+        "h": 352
+      }
+    ]
+  },
+  "/assets/uploads/1792997162644-Laila-Peak.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792997162644-laila-peak--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792997162644-laila-peak--wide-1800.webp",
+        "w": 1800,
+        "h": 1125
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792997162644-laila-peak--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792997162644-laila-peak--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792997162644-laila-peak--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792997162644-laila-peak--tall-633.webp",
+        "w": 633,
+        "h": 1125
+      }
+    ]
+  },
+  "/assets/uploads/1793270072385-Shanngrila.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793270072385-shanngrila--wide-387.webp",
+        "w": 387,
+        "h": 242
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793270072385-shanngrila--mid-387.webp",
+        "w": 387,
+        "h": 310
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793270072385-shanngrila--tall-290.webp",
+        "w": 290,
+        "h": 516
+      }
+    ]
+  },
+  "/assets/uploads/1792996062127-Skardu-City.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792996062127-skardu-city--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792996062127-skardu-city--wide-1552.webp",
+        "w": 1552,
+        "h": 970
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792996062127-skardu-city--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792996062127-skardu-city--mid-1213.webp",
+        "w": 1213,
+        "h": 970
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792996062127-skardu-city--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792996062127-skardu-city--tall-546.webp",
+        "w": 546,
+        "h": 970
+      }
+    ]
+  },
+  "/assets/uploads/1792843663813-G1.KVP.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792843663813-g1-kvp--wide-640.webp",
+        "w": 640,
+        "h": 400
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792843663813-g1-kvp--mid-600.webp",
+        "w": 600,
+        "h": 480
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792843663813-g1-kvp--tall-270.webp",
+        "w": 270,
+        "h": 480
+      }
+    ]
+  },
+  "/assets/uploads/1792995980556-Deosai.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792995980556-deosai--wide-1242.webp",
+        "w": 1242,
+        "h": 776
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792995980556-deosai--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792995980556-deosai--mid-1242.webp",
+        "w": 1242,
+        "h": 994
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792995980556-deosai--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792995980556-deosai--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
+  "/assets/uploads/1793284289857-6eea8203-d035-4677-a66d-250d92c387d7.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793284289857-6eea8203-d035-4677-a66d-250d92c387d7--wide-964.webp",
+        "w": 964,
+        "h": 603
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793284289857-6eea8203-d035-4677-a66d-250d92c387d7--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793284289857-6eea8203-d035-4677-a66d-250d92c387d7--mid-964.webp",
+        "w": 964,
+        "h": 771
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793284289857-6eea8203-d035-4677-a66d-250d92c387d7--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793284289857-6eea8203-d035-4677-a66d-250d92c387d7--tall-720.webp",
+        "w": 720,
+        "h": 1280
+      }
+    ]
+  },
+  "/assets/uploads/1793270675293-Blosson-in-Baltistan.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793270675293-blosson-in-baltistan--wide-452.webp",
+        "w": 452,
+        "h": 283
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793270675293-blosson-in-baltistan--mid-452.webp",
+        "w": 452,
+        "h": 362
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793270675293-blosson-in-baltistan--tall-381.webp",
+        "w": 381,
+        "h": 678
+      }
+    ]
+  },
+  "/assets/uploads/1793786835717-PNG.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793786835717-png--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1793786835717-png--wide-1878.webp",
+        "w": 1878,
+        "h": 1174
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793786835717-png--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793786835717-png--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793786835717-png--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793786835717-png--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
+  "/assets/uploads/1793787028675-Gol-Logo.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793787028675-gol-logo--wide-1024.webp",
+        "w": 1024,
+        "h": 640
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793787028675-gol-logo--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793787028675-gol-logo--mid-960.webp",
+        "w": 960,
+        "h": 768
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793787028675-gol-logo--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793787028675-gol-logo--tall-432.webp",
+        "w": 432,
+        "h": 768
+      }
+    ]
+  },
+  "/assets/uploads/1793690805943-Khosar-Ghang.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793690805943-khosar-ghang--wide-480.webp",
+        "w": 480,
+        "h": 300
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793690805943-khosar-ghang--mid-480.webp",
+        "w": 480,
+        "h": 384
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793690805943-khosar-ghang--tall-360.webp",
+        "w": 360,
+        "h": 640
+      }
+    ]
+  },
+  "/assets/uploads/1793284278434-Gondogoro.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793284278434-gondogoro--wide-1204.webp",
+        "w": 1204,
+        "h": 753
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793284278434-gondogoro--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793284278434-gondogoro--mid-1204.webp",
+        "w": 1204,
+        "h": 963
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793284278434-gondogoro--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793284278434-gondogoro--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
+  "/assets/uploads/1793431549334-Attabad-Lake.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793431549334-attabad-lake--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1793431549334-attabad-lake--wide-1920.webp",
+        "w": 1920,
+        "h": 1200
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793431549334-attabad-lake--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793431549334-attabad-lake--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793431549334-attabad-lake--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793431549334-attabad-lake--tall-720.webp",
+        "w": 720,
+        "h": 1280
+      }
+    ]
+  },
+  "/assets/uploads/1792996316377-Equipment-checklist.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792996316377-equipment-checklist--wide-720.webp",
+        "w": 720,
+        "h": 450
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792996316377-equipment-checklist--mid-563.webp",
+        "w": 563,
+        "h": 450
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792996316377-equipment-checklist--tall-253.webp",
+        "w": 253,
+        "h": 450
+      }
+    ]
+  },
+  "/assets/uploads/1793540544072-IMG_9732.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793540544072-img-9732--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1793540544072-img-9732--wide-1920.webp",
+        "w": 1920,
+        "h": 1200
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793540544072-img-9732--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793540544072-img-9732--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793540544072-img-9732--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793540544072-img-9732--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
   "/assets/uploads/1793270056058-Baltit-Fort.webp": {
     "wide": [
       {
@@ -268,39 +850,6 @@
       }
     ]
   },
-  "/assets/uploads/1792995980556-Deosai.webp": {
-    "wide": [
-      {
-        "src": "/assets/hero/1792995980556-deosai--wide-1242.webp",
-        "w": 1242,
-        "h": 776
-      }
-    ],
-    "mid": [
-      {
-        "src": "/assets/hero/1792995980556-deosai--mid-840.webp",
-        "w": 840,
-        "h": 672
-      },
-      {
-        "src": "/assets/hero/1792995980556-deosai--mid-1242.webp",
-        "w": 1242,
-        "h": 994
-      }
-    ],
-    "tall": [
-      {
-        "src": "/assets/hero/1792995980556-deosai--tall-420.webp",
-        "w": 420,
-        "h": 747
-      },
-      {
-        "src": "/assets/hero/1792995980556-deosai--tall-840.webp",
-        "w": 840,
-        "h": 1493
-      }
-    ]
-  },
   "/assets/uploads/1792832376446-nanga-parbat.kvp.webp": {
     "wide": [
       {
@@ -321,29 +870,6 @@
         "src": "/assets/hero/1792832376446-nanga-parbat-kvp--tall-270.webp",
         "w": 270,
         "h": 480
-      }
-    ]
-  },
-  "/assets/uploads/1792996010652-Khaplu-Valley.webp": {
-    "wide": [
-      {
-        "src": "/assets/hero/1792996010652-khaplu-valley--wide-415.webp",
-        "w": 415,
-        "h": 259
-      }
-    ],
-    "mid": [
-      {
-        "src": "/assets/hero/1792996010652-khaplu-valley--mid-415.webp",
-        "w": 415,
-        "h": 332
-      }
-    ],
-    "tall": [
-      {
-        "src": "/assets/hero/1792996010652-khaplu-valley--tall-415.webp",
-        "w": 415,
-        "h": 738
       }
     ]
   },
@@ -535,6 +1061,29 @@
         "src": "/assets/hero/1793271325131-kvp-k2-concordia--tall-830.webp",
         "w": 830,
         "h": 1476
+      }
+    ]
+  },
+  "/assets/uploads/1793690775195-khosar-ghang-kvp.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793690775195-khosar-ghang-kvp--wide-638.webp",
+        "w": 638,
+        "h": 399
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793690775195-khosar-ghang-kvp--mid-600.webp",
+        "w": 600,
+        "h": 480
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793690775195-khosar-ghang-kvp--tall-270.webp",
+        "w": 270,
+        "h": 480
       }
     ]
   },
@@ -795,44 +1344,6 @@
       }
     ]
   },
-  "/assets/uploads/1792997162644-Laila-Peak.webp": {
-    "wide": [
-      {
-        "src": "/assets/hero/1792997162644-laila-peak--wide-1280.webp",
-        "w": 1280,
-        "h": 800
-      },
-      {
-        "src": "/assets/hero/1792997162644-laila-peak--wide-1800.webp",
-        "w": 1800,
-        "h": 1125
-      }
-    ],
-    "mid": [
-      {
-        "src": "/assets/hero/1792997162644-laila-peak--mid-840.webp",
-        "w": 840,
-        "h": 672
-      },
-      {
-        "src": "/assets/hero/1792997162644-laila-peak--mid-1400.webp",
-        "w": 1400,
-        "h": 1120
-      }
-    ],
-    "tall": [
-      {
-        "src": "/assets/hero/1792997162644-laila-peak--tall-420.webp",
-        "w": 420,
-        "h": 747
-      },
-      {
-        "src": "/assets/hero/1792997162644-laila-peak--tall-633.webp",
-        "w": 633,
-        "h": 1125
-      }
-    ]
-  },
   "/assets/uploads/1792933304428-nanga--Copy-.webp": {
     "wide": [
       {
@@ -1051,29 +1562,6 @@
         "src": "/assets/hero/1792994621774-coaster--tall-312.webp",
         "w": 312,
         "h": 554
-      }
-    ]
-  },
-  "/assets/uploads/1792994704174-Hiace-Van.webp": {
-    "wide": [
-      {
-        "src": "/assets/hero/1792994704174-hiace-van--wide-563.webp",
-        "w": 563,
-        "h": 352
-      }
-    ],
-    "mid": [
-      {
-        "src": "/assets/hero/1792994704174-hiace-van--mid-440.webp",
-        "w": 440,
-        "h": 352
-      }
-    ],
-    "tall": [
-      {
-        "src": "/assets/hero/1792994704174-hiace-van--tall-198.webp",
-        "w": 198,
-        "h": 352
       }
     ]
   },

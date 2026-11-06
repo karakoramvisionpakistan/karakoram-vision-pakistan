@@ -1,6 +1,6 @@
 ---
 title: Khosar Gang Peak
-permalink: ""
+permalink: /trekking/khosar-gang-peak/
 layout: layouts/journey.njk
 service_type: trekking
 service_label: Trekking

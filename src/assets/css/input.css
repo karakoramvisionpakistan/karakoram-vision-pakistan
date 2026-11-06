@@ -2301,3 +2301,38 @@ h1, h2, h3, h4,
   color: #0f172a;
 }
 /* === V11.28 END === */
+
+/* === V11.29 START === */
+/* Contrast ka aakhri hissa. Rang browser mein canvas se naape gaye hain.
+   Narangi CMS se aata hai (theme-vars.css: #F97316 / #FB8A3C).
+   Class jaan boojh kar 2-3 baar likhi hai — matlab wahi, wazan zyada —
+   kyunki V11.28 `.bk-footer-cta` par footer ke bhari rule se haar gaya tha. */
+
+/* eyebrow (.bk-home-contact, .bk-landing-cta): 2.95 -> 6.47 */
+.bk-home-contact .eyebrow.eyebrow,
+.bk-landing-cta .eyebrow.eyebrow {
+  color: var(--bk-accent, #ff5a1f);
+}
+
+/* .bk-footer-rating-links small: 4.40 -> 5.49 */
+.bk-footer-rating-links.bk-footer-rating-links small {
+  color: #a8b6c9;
+}
+
+/* .bk-credential dt: 4.03 -> 8.57 */
+.bk-credential.bk-credential.bk-credential dt {
+  opacity: 1;
+}
+
+/* .bk-devcredit-role: 4.14 -> 8.26 */
+.bk-devcredit-role.bk-devcredit-role.bk-devcredit-role {
+  opacity: 1;
+}
+
+/* .bk-footer-cta: 2.59 -> 6.37 */
+.bk-footer-cta.bk-footer-cta.bk-footer-cta,
+.bk-footer-cta.bk-footer-cta.bk-footer-cta:hover,
+.bk-footer-cta.bk-footer-cta.bk-footer-cta:focus-visible {
+  color: #0f172a;
+}
+/* === V11.29 END === */
