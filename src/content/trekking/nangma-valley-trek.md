@@ -11,28 +11,18 @@ best_seller: true
 fixed_departure: true
 departure_type: Custom
 trip_status: Available
-summary: >
-  Trekking to Nangma Valley (The Yosemite of Pakistan)
-
-  Where is Nangma Valley?
-
-  Nangma Valley is located in the Ghanche district of Gilgit-Baltistan, about a 5-hour drive from
-  the bustling trekker’s hub of Skardu. It is part of the Central Karakoram National Park, and one
-  of the more accessible treks to do in the region. The gateway to Nangma Valley is the village of
-  Khanday, or Kanday, or one of the many other spelling variations you’ll find in the area. While
-  Pakistan is starting to gain a little traction with international tourism, this region remains
-  more low-key and lesser-visited than the hubs of Skardu and the Hunza Valley.
-answer_summary: >
-  Trekking to Nangma Valley (The Yosemite of Pakistan)
-
-  Where is Nangma Valley?
-
-  Nangma Valley is located in the Ghanche district of Gilgit-Baltistan, about a 5-hour drive from
-  the bustling trekker’s hub of Skardu. It is part of the Central Karakoram National Park, and one
-  of the more accessible treks to do in the region. The gateway to Nangma Valley is the village of
-  Khanday, or Kanday, or one of the many other spelling variations you’ll find in the area. While
-  Pakistan is starting to gain a little traction with international tourism, this region remains
-  more low-key and lesser-visited than the hubs of Skardu and the Hunza Valley.
+summary: >-
+  The Nangma Valley trek is a 10-day trip from Islamabad to the granite valley above Kanday village
+  in the Hushe region of Baltistan, often called the Yosemite of Pakistan. It is one of the easiest
+  treks in the Karakoram: two short walking days to a grassy base camp below the towers, a free day
+  in the valley and an easy walk out. Best from June to September, run privately for two or more
+  people.
+answer_summary: >-
+  The Nangma Valley trek is a 10-day trip from Islamabad to the granite valley above Kanday village
+  in the Hushe region of Baltistan, often called the Yosemite of Pakistan. It is one of the easiest
+  treks in the Karakoram: two short walking days to a grassy base camp below the towers, a free day
+  in the valley and an easy walk out. Best from June to September, run privately for two or more
+  people.
 cover_image: /assets/uploads/1793540998497-IMG_9458.webp
 cover_image_alt: Granite walls above the green floor of Nangma Valley near Kanday
 gallery:
@@ -69,9 +59,12 @@ departures:
   - "2027-08-02"
 departure_details: []
 highlights:
-  - Beautiful-valley
-  - Kanday-Valley
-  - Nangma-Valley
+  - Granite walls and towers that draw big-wall climbers from around the world
+  - Kanday village and its apricot terraces at the end of the Hushe road
+  - Camping on the green valley floor beneath the towers
+  - A free day for photography and side walks on the moraine
+  - "Short walking days: one of the easiest treks in Baltistan"
+  - The drive through the Shyok and Hushe valleys, past Khaplu
 included:
   - Trekking permit and trekker registration where applicable
   - Jeep transport Skardu - Kanday and return, through the Shyok and Hushe valleys
@@ -135,7 +128,7 @@ key_facts:
     value: On request
 author: KVP Office Team
 reviewed_by: KVP Team
-last_verified: "2026-09-18"
+last_verified: "2026-11-07"
 sources: []
 seo:
   title: Nangma Valley Trek, Kanday - 10 Days | Karakoram Vision
@@ -217,5 +210,10 @@ related:
   - Laila Peak Expedition
 ---
 
-
-<h2><strong>About this journey</strong></h2><p>Nangma is the valley climbers call the Yosemite of Pakistan. Above Kanday village in the Hushe region, soft green pasture runs between vertical granite walls and towers that draw big-wall climbers from around the world. For trekkers the attraction is the same scenery without the ropes: an easy walk in, a base camp on the valley floor, and days spent wandering among the boulders and side valleys beneath the walls.</p><p><strong>Who it suits.</strong> Beginners, families and anyone short of time. The walking days are short, the base camp is reached in a day or two from the village, and the altitude is gentle compared with the Baltoro routes.</p><p><strong>When to go.</strong> June to September, when the shepherds are at the summer settlements and the valley is green.</p><p><strong>What we handle.</strong> Jeep transport from Skardu through the Shyok valley and the Hushe road - around five hours - porters from Kanday village, camp equipment, cook and guide. For climbing teams we can arrange extended camp support for stays of several weeks.</p><p><strong><em>Trekking to Nangma Valley (The Yosemite of Pakistan)</em></strong></p><p><strong>Where is Nangma Valley?</strong></p><p>Nangma Valley is located in the Ghanche district of Gilgit-Baltistan, about a 5-hour drive from the bustling trekker’s hub of Skardu. It is part of the Central Karakoram National Park, and one of the more accessible treks to do in the region. The gateway to Nangma Valley is the village of Kanday, or Kanday, or one of the many other spelling variations you’ll find in the area.</p><p><strong>How To Get To Nangma Valley.</strong></p><p>Nangma Valley is no easy feat to get to, and that’s not even including the hiking. Your first step would be to make it to Skardu, the largest city in the Baltistan region. It has a small but bustling airport with multiple daily flights from both Islamabad and Lahore. The flight is about 45 minutes long, and likely the most scenic you will ever take in your life. Flights are very sensitive to weather and can be prone to cancellation. <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.airsial.com/"><strong>AirSial</strong></a> has been the most reliable airline for Skardu, followed by <strong>Pakistan International Airlines</strong>. <strong>AirBlue</strong> is a last resort. Alternatively, <strong>buses</strong> from Islamabad go to Skardu and even all the way to Khaplu and then by <strong>jeep or car</strong> to Kanday village and from there the trek to Nangma Valley will start.</p><p><strong>Organizing the Nangma Valley Trek.</strong></p><p>Booking a Nangma Valley tour is easy. It just depends on how much you want to pay. The most affordable way to do the Nangma Valley trek is to make your own way to Kanday village and arrange for guides and porters there.</p><p><strong>PROGRAM</strong></p>
+<h2><strong>About this journey</strong></h2><p>Nangma is the valley climbers call the Yosemite of Pakistan. Above Kanday village in the Hushe region, soft green pasture runs between vertical granite walls and towers that draw big-wall climbers from around the world. For trekkers the attraction is the same scenery without the ropes: an easy walk in, a base camp on the valley floor, and days spent wandering among the boulders and side valleys beneath the walls.</p><p><strong>Who it suits.</strong> Beginners, families and anyone short of time. The walking days are short, the base camp is reached in a day or two from the village, and the altitude is gentle compared with the Baltoro routes.</p><p><strong>When to go.</strong> June to September, when the shepherds are at the summer settlements and the valley is green.</p><p><strong>What we handle.</strong> Jeep transport from Skardu through the Shyok valley and the Hushe road - around five hours - porters from Kanday village, camp equipment, cook and guide. For climbing teams we can arrange extended camp support for stays of several weeks.</p><h2><strong>Getting to Kanday</strong></h2>
+<p>Every Nangma trip starts in Skardu. The flight from Islamabad takes under an hour, but it only operates in clear weather, which is why the programme keeps a spare day at the end; the alternative is two days by road up the Karakoram Highway. From Skardu we drive east along the Indus and the Shyok, past Khaplu, and up the Hushe valley to Kanday, around five hours in all. Kanday, at roughly 2,900 m, is where the road ends, the porters join and the walking starts.</p>
+<h2><strong>How hard is the Nangma trek?</strong></h2>
+<p>We grade it easy. The walking days are three to five hours on a clear shepherds' path, there are no glacier crossings or technical sections, and the base camp sits well below the altitudes of the Baltoro routes. If you can walk a full day in hills at home, you can do this trek. It also works well as a first taste of the Karakoram before a longer trip such as the <a href="/trekking/thalle-la-trek/">Thalle La trek</a> or the <a href="/trekking/k2-base-camp-trek/">K2 base camp trek</a>.</p>
+<h2><strong>With us or on your own?</strong></h2>
+<p>Independent trekkers can hire a guide and porters in Kanday. What a programme with us adds is the organisation around the walk: registration in Skardu, jeeps that turn up, a cook and full camp, porters with agreed loads, and a plan for a cancelled flight or a sick member of the group. Climbing teams staying for the walls can keep the base camp running with us for as long as they need it.</p>
+<p><strong>PROGRAM</strong></p>
