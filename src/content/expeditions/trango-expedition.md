@@ -32,7 +32,7 @@ price_from: On Request
 deposit: 50 %
 price_currency: USD
 group_size: 2+
-difficulty: Moderate
+difficulty: Challenging
 destination: Trango Tower
 categories:
   - Climbing
@@ -198,22 +198,28 @@ itinerary:
     description: Reserved Climbing days at Trango tower.
     overnight: Base camp
   - day: "29"
-    title: Trek Back to Mongrong Camp
-    description: Down from base camp and out along the Baltoro and the Braldu, retracing the walk in.
-    overnight: Camping
+    title: Base Camp to Paiju
+    description: Down from base camp to the Baltoro and along the moraine to Paiju, around five to six hours.
+    overnight: Camp
   - day: "30"
-    title: Drive Back to Skardu
-    description: Drive back to Skardu through the beautiful Shigar valley.
-    overnight: Hotel
+    title: Paiju to Askole
+    description: >-
+      A long day out along the Braldu, past Jhola and across the snout of the Biafo glacier to
+      Askole, eight to nine hours. Teams that prefer two shorter days camp at Jhola and use one of
+      the spare days from the climbing period.
+    overnight: Camp
   - day: "31"
-    title: Fly to Islamabad
-    description: The flight to Islamabad takes about 50 minutes when it operates.
+    title: Drive to Skardu
+    description: >-
+      By jeep from Askole down the Braldu gorge and through the Shigar valley to Skardu, six to
+      seven hours.
     overnight: Hotel
   - day: "32"
-    title: Contingency Day
+    title: Fly to Islamabad
     description: >-
-      A spare day in Islamabad. If the Skardu flight was cancelled, this is the day we use to drive
-      down the Karakoram Highway via Chilas instead.
+      The flight to Islamabad takes about 50 minutes when it operates. If it is cancelled, we drive
+      down the Karakoram Highway instead, which takes two days, and use a spare day from the
+      climbing period.
     overnight: Hotel
   - day: "33"
     title: Fly Out
