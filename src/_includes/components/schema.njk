@@ -3,7 +3,7 @@
 {% set primaryImage = primaryImagePath | absoluteUrl(site.url) %}
 {# Trip ke apne sawal aur aam sawalon ka bank — wahi filter jo safhe par chalta hai,
    taake jo nazar aaye wahi Google ko bhi mile. #}
-{% set allFaqs = faqs | withFaqBank(faqBank, service_type) %}
+{% set allFaqs = faqs | withFaqBank((faqBank | faqFor(service_type)), service_type) %}
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",

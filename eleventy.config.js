@@ -61,6 +61,9 @@ export default function(eleventyConfig) {
 
   // Share image (og:image): pehli asli photo, SVG chhor kar. Agar us ki
   // 1200x630 JPG tools/og-images.mjs ne banai hai to wahi, naap ke sath.
+  // FAQ bank: har sawal ki "types" ho to sirf unhi trips par, warna har trip par.
+  // (City tour par porter aur altitude ke sawal bematlab thay.)
+  eleventyConfig.addFilter("faqFor", (bank, type) => (Array.isArray(bank) ? bank : []).filter((q) => !Array.isArray(q.types) || !q.types.length || q.types.includes(String(type || "").toLowerCase())));
   eleventyConfig.addFilter("ogPick", (candidates, ogMap, fallback) => {
     const map = ogMap || {};
     for (const raw of candidates || []) {
