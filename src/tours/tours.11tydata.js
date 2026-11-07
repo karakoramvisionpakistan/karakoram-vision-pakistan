@@ -23,7 +23,9 @@ const config = {
       if (seo.robots) return seo;
       const list = Array.isArray(data.structuredCatalog) ? data.structuredCatalog : [];
       const count = list.filter((item) => matches(item, data.service_type, data.structured_filter)).length;
-      if (count === 0) seo.robots = 'noindex, follow';
+      // 3 se kam trips wali category Google ke liye patli hai: noindex (aur sitemap se bahar).
+      // Kisi page ko hamesha index rakhna ho to front matter mein index_always: true
+      if (count < (Number(data.min_journeys_to_index) || 3) && !data.index_always) seo.robots = 'noindex, follow';
       return seo;
     },
   },

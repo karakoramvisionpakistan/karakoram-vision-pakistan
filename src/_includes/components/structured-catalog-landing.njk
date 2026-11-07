@@ -21,4 +21,5 @@
   {% if items.length > 48 %}<div class="bk-load-more" hx-get="/api/catalog?type={{ service_type }}&filter={{ structured_filter }}&page=2&size=48" hx-trigger="revealed" hx-swap="outerHTML"><span>Loading more matching journeys…</span></div>{% endif %}
   {% else %}<div class="rounded-xl bg-slate-50 p-8 text-slate-700"><h2 class="text-xl font-black">No matching journeys are published yet</h2><p class="mt-2">Update the relevant journey records in Pages CMS, then rebuild the website.</p></div>{% endif %}
 </section>
+{% if guide_html %}<section class="bk-catalog-shell bk-landing-guide"><div class="mx-auto max-w-3xl space-y-4 text-base leading-relaxed text-slate-700">{{ guide_html | safe }}</div></section>{% endif %}
 <section class="bk-landing-cta"><div><p class="eyebrow">Need different dates?</p><h2>Request a private or tailored departure</h2><p>Share your route, preferred dates, group size and comfort level.</p></div><a href="/plan-a-trip/?service={{ service_type | urlencode }}#trip-request-form">Plan a custom trip</a></section>

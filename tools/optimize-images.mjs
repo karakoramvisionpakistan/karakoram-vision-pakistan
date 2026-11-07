@@ -32,7 +32,10 @@ for (const file of walk(root)) {
     else if (ext === '.webp') img = img.webp({ quality: 82 });
     else img = img.jpeg({ quality: 82, mozjpeg: true });
     const out = await img.toBuffer();
-    if (out.length < size) {
+    // Sirf tab likho jab photo waqai chhoti hui ho (10%+) ya chaurai kam hui ho.
+    // Pehle 1 KB ki bachat par bhi har build mein dobara likhti thi: har dafa
+    // thori quality jati thi aur git mein file "modified" aati thi.
+    if (out.length < size * 0.9 || ((meta.width || 0) > MAX_WIDTH && out.length < size)) {
       writeFileSync(file, out); done++; saved += size - out.length;
       console.log(`optimized: ${relative(process.cwd(), file)}  ${(size / 1024) | 0} KB -> ${(out.length / 1024) | 0} KB`);
     }
