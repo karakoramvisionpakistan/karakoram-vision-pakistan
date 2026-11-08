@@ -96,7 +96,7 @@ seo:
   title: Lahore City Tour With Karakoram Vision Pakistan
   keywords: Lahore, City, Tour, Historical, Places, Town, People, Culture, Mosque, MinarePakistan
   robots: index, follow, max-image-preview:large
-  canonical: /tours/islamabad-city-tour/
+  canonical: ''
 body: ""
 _in_review: false
 related:

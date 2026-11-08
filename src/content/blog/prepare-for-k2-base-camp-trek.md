@@ -47,7 +47,7 @@ seo:
     trek - advice from the team that runs the route.
   keywords: K2 training, Baltoro gear, Altitude planning
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
-  canonical: trekking/k2-base-camp-trek/    trekking/gondogoro-la-circuit-trek/
+  canonical: ''
   social_image: ""
 layout: layouts/post.njk
 ---

@@ -4,6 +4,8 @@
 {# Trip ke apne sawal aur aam sawalon ka bank — wahi filter jo safhe par chalta hai,
    taake jo nazar aaye wahi Google ko bhi mile. #}
 {% set allFaqs = faqs | withFaqBank((faqBank | faqFor(service_type)), service_type) %}
+{# schemaCanonFix: canonical kabhi adhoora (/abc/) ho to schema mein poora URL #}
+{% if canonicalUrl and canonicalUrl.indexOf('http') != 0 %}{% set canonicalUrl = site.url + canonicalUrl %}{% endif %}
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -65,7 +67,8 @@
       {"@type":"ListItem","position":2,"name":{{ (service_label or title or service_type) | json | safe }},"item":{{ (site.url + '/' + service_type + '/') | json | safe }}},
       {"@type":"ListItem","position":3,"name":{{ title | json | safe }},"item":{{ canonicalUrl | json | safe }}}
     ]}
-    {% elif source.page_type == 'post' %}
+    {# schemaPostFix: blog posts /blog/... par hain, page_type un par nahi hota #}
+    {% elif source.page_type == 'post' or (page.url and page.url.indexOf('/blog/') == 0 and page.url != '/blog/' and page.url.indexOf('/blog/page') != 0) %}
     {
       "@type":"Article",
       "@id":{{ (canonicalUrl + '#article') | json | safe }},
@@ -75,12 +78,19 @@
       "image":{{ primaryImage | json | safe }},
       {% if date %}"datePublished":{{ (date | isoDate) | json | safe }},{% endif %}
       {% if last_verified or date_modified %}"dateModified":{{ ((last_verified or date_modified) | isoDate) | json | safe }},{% endif %}
-      "author":{"@type":"Person","name":{{ (author or site.name + ' Editorial Team') | json | safe }}},
+      {# schemaAuthorFix: 'Team' ek idara hai, insaan nahi #}
+      {% if author and author.indexOf('Team') == -1 %}"author":{"@type":"Person","name":{{ author | json | safe }}},
+      {% else %}"author":{"@type":"Organization","@id":{{ (site.url + '/#organization') | json | safe }},"name":{{ (author or site.name + ' Editorial Team') | json | safe }}},{% endif %}
       "reviewedBy":{"@type":"Person","name":{{ (reviewed_by or site.name + ' Travel Team') | json | safe }}},
       "publisher":{"@id":{{ (site.url + '/#organization') | json | safe }}},
       "isPartOf":{"@id":{{ (site.url + '/#website') | json | safe }}},
       "inLanguage":{{ (site.language or 'en') | json | safe }}
-    }
+    },
+    {"@type":"BreadcrumbList","@id":{{ (canonicalUrl + '#post-breadcrumbs') | json | safe }},"itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Home","item":{{ (site.url + '/') | json | safe }}},
+      {"@type":"ListItem","position":2,"name":"Blog","item":{{ (site.url + '/blog/') | json | safe }}},
+      {"@type":"ListItem","position":3,"name":{{ title | json | safe }},"item":{{ canonicalUrl | json | safe }}}
+    ]}
     {% else %}
     {
       "@type":"WebPage",
