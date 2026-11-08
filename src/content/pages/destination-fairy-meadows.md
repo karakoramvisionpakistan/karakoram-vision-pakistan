@@ -10,7 +10,7 @@ summary: >-
 answer_summary: >-
   Fairy Meadows guide: the jeep road from Raikot Bridge, the walk up, where to stay, when Nanga
   Parbat shows clearest, and how to continue to the base camp viewpoint.
-cover_image: /assets/uploads/1792995956889-Fairy-Meadow.webp
+cover_image: /assets/uploads/1794032529687-Fairy-Meadow.KVP.webp
 gallery: []
 faqs:
   - question: How do you get to Fairy Meadows?

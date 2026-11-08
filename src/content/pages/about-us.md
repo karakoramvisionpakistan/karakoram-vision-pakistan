@@ -10,7 +10,7 @@ summary: >-
 answer_summary: >-
   Karakoram Vision Pakistan is a Skardu-based travel company planning tours, treks, expeditions and
   mountain transport across northern Pakistan.
-cover_image: /assets/uploads/1793787028675-Gol-Logo.webp
+cover_image: /assets/uploads/1794032395105-IMG_4619.webp
 gallery: []
 faqs: []
 author: Karakoram Vision Editorial Team

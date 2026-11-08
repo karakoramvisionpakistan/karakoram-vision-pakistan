@@ -10,7 +10,7 @@ summary: >-
 answer_summary: >-
   Hunza valley travel guide: Baltit and Altit forts, Attabad Lake, Passu Cones and Khunjerab, with
   the best months for blossom and autumn colour and how many days to allow.
-cover_image: /assets/uploads/1792995926341-Hunza.webp
+cover_image: /assets/uploads/1794139505250-Baltit-fort-kvp.webp
 gallery: []
 faqs:
   - question: How many days do you need in Hunza?
