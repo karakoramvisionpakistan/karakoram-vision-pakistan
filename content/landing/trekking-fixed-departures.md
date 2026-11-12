@@ -1,6 +1,6 @@
 ---
 url: /trekking/fixed-departures/
-title: Fixed Departure Treks
+title: Fixed Departure Treks in Pakistan
 summary: >-
   Browse scheduled trekking departures, published dates and group journeys
   across the Karakoram, Himalaya and Hindu Kush.

@@ -1,5 +1,5 @@
 ---
-title: Khosar Gang Peak
+title: Khosar Gang Peak Climb
 permalink: /trekking/khosar-gang-peak/
 layout: layouts/journey.njk
 service_type: trekking
@@ -102,10 +102,10 @@ itinerary:
     description: "•\tFly back to Islamabad, weather permitting.\L\n•\tIf your international flight is close, arrange additional buffer time.\L\n•\tConsider adding an extra day in Skardu or Islamabad for weather delays.\L\n"
     altitude: 540 M
 related:
-  - Autumn Colours of Hunza and Skardu
+  - Hunza and Skardu Autumn Tour
   - Best Time to Visit Skardu
-  - Skardu and Shigar Valley Explorer
-  - Shigar Valley Guide
+  - Skardu and Shigar Valley Tour
+  - Shigar Valley Travel Guide
 highlights:
   - Climbing
   - Villages
@@ -182,7 +182,7 @@ reviewed_by: HAG Team
 last_verified: "2025-12-10"
 sources: []
 seo:
-  title: Khosar Ghang Peak Shigar Baltistan Karakoram Vision Pakistan
+  title: "Khosar Gang Peak Climb, Shigar | Karakoram Vision"
   description: >
     Khosar Gang, also spelled Khosar Ghang or Koser Gunge, is in the Shigar Valley of Baltistan. Its
     commonly quoted elevation is around 6,040–6,046 metres although

@@ -193,8 +193,8 @@ itinerary:
     description: Related journeys. Thalle La trek. Skardu travel guide. Best time to visit Skardu.
     overnight: Not applicable
 related:
-  - Thaley La Trek
-  - Skardu Travel Guide
+  - Thalle La Trek
+  - Skardu Valley Travel Guide
   - Best Time to Visit Skardu
 ---
 

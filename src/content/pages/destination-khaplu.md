@@ -1,5 +1,5 @@
 ---
-title: Khaplu and Shyok Valley Guide
+title: Khaplu Valley Travel Guide
 slug: destination-khaplu
 permalink: /destinations/khaplu/
 published: true

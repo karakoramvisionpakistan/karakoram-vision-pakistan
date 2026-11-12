@@ -1,5 +1,5 @@
 ---
-title: Islamabad
+title: Islamabad City Tour
 permalink: /tours/islamabad-city-tour/
 layout: layouts/journey.njk
 service_type: tours
@@ -106,10 +106,8 @@ reviewed_by: Karakoram Vision Pakistan Private Limited
 last_verified: "2026-10-29"
 sources: []
 seo:
-  title: Islamabad City Tour With Karakoram Vision Pakistan
-  description: >-
-    Islamabad is the capital city of Pakistan is the most beautiful and greenery city  in the world.
-    People love to visit Islamabad. 
+  title: "Islamabad City Tour & Sightseeing | Karakoram Vision"
+  description: Islamabad city tour with a local guide, covering Faisal Mosque, Pakistan Monument, Daman-e-Koh, Lok Virsa Museum and the Margalla Hills.
   keywords: "Islamabad, City, Tour, Sightseeing, Faisal Mosque, Monument, Museum, "
   robots: index, follow, max-image-preview:large
 body: ""

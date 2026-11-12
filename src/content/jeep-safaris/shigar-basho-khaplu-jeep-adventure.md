@@ -1,5 +1,5 @@
 ---
-title: Skardu Shigar Basho and Khaplu Trip
+title: Shigar, Basho and Khaplu Jeep Safari
 slug: shigar-basho-khaplu-jeep-safari
 permalink: /jeep-safaris/shigar-basho-khaplu-jeep-safari/
 published: true
@@ -125,9 +125,9 @@ itinerary:
       Baltistan. A day room is available if you need one.
     overnight: Not applicable
 related:
-  - Shigar Valley Guide
-  - Khaplu and Shyok Valley Guide
-  - Skardu and Shigar Valley Explorer
+  - Shigar Valley Travel Guide
+  - Khaplu Valley Travel Guide
+  - Skardu and Shigar Valley Tour
 menu_sections:
   - Skardu Safaris
   - Gilgit-Baltistan Safaris

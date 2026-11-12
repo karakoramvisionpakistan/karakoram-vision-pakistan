@@ -1,6 +1,6 @@
 ---
 url: /special-interests/
-title: Special Interests
+title: Special Interest Tours in Pakistan
 summary: >-
   Cycle touring, eco travel, motorcycle journeys, mountain passes, festivals,
   photography and winter adventures.

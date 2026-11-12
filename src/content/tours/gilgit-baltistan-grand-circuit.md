@@ -1,5 +1,5 @@
 ---
-title: Gilgit-Baltistan Grand Circuit
+title: Gilgit-Baltistan Grand Circuit Tour
 slug: gilgit-baltistan-grand-circuit
 permalink: /tours/gilgit-baltistan-grand-circuit/
 published: true
@@ -169,7 +169,7 @@ itinerary:
     overnight: Not applicable
 related:
   - Hunza Valley Travel Guide
-  - Skardu Travel Guide
+  - Skardu Valley Travel Guide
   - Deosai National Park and Khaplu Tour
 ---
 

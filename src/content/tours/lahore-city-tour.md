@@ -1,5 +1,5 @@
 ---
-title: Lahore
+title: Lahore City Tour
 permalink: /tours/lahore-city-tour/
 layout: layouts/journey.njk
 service_type: tours
@@ -93,15 +93,15 @@ seo:
   description: >-
     Explore the vibrant city of Lahore, the cultural capital of Pakistan, where history,
     architecture, food, and traditions come together. 
-  title: Lahore City Tour With Karakoram Vision Pakistan
+  title: "Lahore City Tour & Sightseeing | Karakoram Vision"
   keywords: Lahore, City, Tour, Historical, Places, Town, People, Culture, Mosque, MinarePakistan
   robots: index, follow, max-image-preview:large
   canonical: ''
 body: ""
 _in_review: false
 related:
-  - Islamabad
-  - Skardu Travel Guide
+  - Islamabad City Tour
+  - Skardu Valley Travel Guide
 itinerary:
   - day: "01"
     title: Mughal Lahore and the Walled City

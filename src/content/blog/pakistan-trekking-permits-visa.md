@@ -55,7 +55,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-11-07"
 seo:
-  title: Pakistan Trekking Permit & Visa Guide 2027 | Karakoram Vision
+  title: "Pakistan Trekking Permit & Visa Guide | Karakoram Vision"
   description: >-
     Which Pakistan visa to get for trekking, which routes need a permit, the documents required and
     how long it takes, for K2, the Baltoro and Gondogoro La.

@@ -148,7 +148,7 @@ itinerary:
     overnight: Not applicable
 related:
   - Hunza Valley Travel Guide
-  - Autumn Colours of Hunza and Skardu
+  - Hunza and Skardu Autumn Tour
   - Rakaposhi Base Camp Trek
 ---
 

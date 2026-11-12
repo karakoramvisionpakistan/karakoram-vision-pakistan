@@ -1,6 +1,6 @@
 ---
 url: /expeditions/8000m-peaks/
-title: 8,000m Peak Expeditions
+title: "8000m Peak Expeditions in Pakistan"
 summary: >-
   Explore Karakoram Vision Pakistan expedition pages connected with Pakistan's
   8,000-metre peaks.

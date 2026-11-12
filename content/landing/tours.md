@@ -1,6 +1,6 @@
 ---
 url: /tours/
-title: Tours
+title: Pakistan Tour Packages
 summary: Cultural journeys, sightseeing, family holidays and custom travel programmes.
 seo_title: Pakistan Tour Packages - Hunza & Skardu | Karakoram Vision
 seo_description: >-

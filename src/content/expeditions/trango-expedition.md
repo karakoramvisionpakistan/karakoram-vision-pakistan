@@ -1,5 +1,5 @@
 ---
-title: Trango Expedition
+title: Trango Tower Expedition
 slug: trango-expedition
 permalink: /expeditions/trango-expedition/
 layout: layouts/journey.njk
@@ -230,7 +230,7 @@ itinerary:
 related:
   - K2 Base Camp Trek
   - Laila Peak Expedition
-  - Shigar Valley Guide
+  - Shigar Valley Travel Guide
 ---
 
 <h2><strong>About this journey</strong></h2><p>The Trango Towers rise above the Baltoro glacier as some of the largest granite walls on earth. Great Trango carries one of the world's highest cliffs; the Nameless Tower beside it is among the most sought-after big-wall objectives anywhere. Teams have been coming here since the 1970s and new lines are still being climbed.</p><p><strong>What this programme is.</strong> Thirty-three days from Islamabad, covering the Baltoro trek in to base camp below the towers, the climbing period, and the return. Longer stays can be arranged for teams planning more than one route.</p><p><strong>Who it is for.</strong> Experienced big-wall and aid climbers who are self-sufficient on vertical ground at altitude. The approach is a normal Baltoro trek; everything above base camp is on you.</p><p><strong>What we provide.</strong> Climbing permit, park fees and liaison officer, the mountaineering visa invitation letter, transport and hotels, porters to base camp, and base camp with cook and kitchen for the duration of your stay on the wall.</p><h2><strong>The Trango group</strong></h2>

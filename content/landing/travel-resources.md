@@ -1,6 +1,6 @@
 ---
 url: /travel-resources/
-title: Travel Resources
+title: Pakistan Travel Resources
 summary: >-
   Use these guides as a starting point for fitness, gear, insurance, health,
   visas, altitude and responsible mountain travel. Final requirements vary by

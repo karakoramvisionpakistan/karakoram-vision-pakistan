@@ -207,8 +207,8 @@ itinerary:
       held for a late departure.
     overnight: Not applicable
 related:
-  - Fairy Meadows and Nanga Parbat Base Camp Trek
-  - Fairy Meadows and Nanga Parbat Guide
+  - Nanga Parbat Base Camp Trek via Fairy Meadows
+  - Fairy Meadows Travel Guide
   - K2 Expedition
 ---
 

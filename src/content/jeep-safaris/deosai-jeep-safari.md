@@ -1,5 +1,5 @@
 ---
-title: Deosai High Plateau Trip
+title: Deosai Jeep Safari
 slug: deosai-jeep-safari
 permalink: /jeep-safaris/deosai-jeep-safari/
 published: true
@@ -122,9 +122,9 @@ itinerary:
       there are hours to fill.
     overnight: Not applicable
 related:
-  - Deosai National Park Guide
+  - Deosai National Park Travel Guide
   - Deosai National Park and Khaplu Tour
-  - Skardu Travel Guide
+  - Skardu Valley Travel Guide
 menu_sections:
   - Deosai Safaris
 ---

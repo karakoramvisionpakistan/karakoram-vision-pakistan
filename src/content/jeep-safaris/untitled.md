@@ -1,5 +1,5 @@
 ---
-title: "Mountains & Villages Safari "
+title: Mountains and Villages Jeep Safari
 slug: mountains-villages-safari
 permalink: /jeep-safaris/mountains-villages-safari/
 layout: layouts/journey.njk
@@ -568,7 +568,7 @@ itinerary:
       valley guide. Prado 4x4 hire.
     overnight: Hotel
 related:
-  - Gilgit-Baltistan Grand Circuit
+  - Gilgit-Baltistan Grand Circuit Tour
   - Hunza Valley Travel Guide
   - Toyota Prado 4x4
 menu_sections:

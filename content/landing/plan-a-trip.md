@@ -1,6 +1,6 @@
 ---
 url: /plan-a-trip/
-title: Plan a Custom Trip
+title: Plan a Custom Trip to Pakistan
 summary: >-
   Tell Karakoram Vision Pakistan where you want to travel and our team will
   prepare a tailored proposal.

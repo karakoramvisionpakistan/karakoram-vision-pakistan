@@ -135,7 +135,7 @@ reviewed_by: "Karakoram Vision Pakistan Field Staff "
 last_verified: "2026-10-24"
 sources: []
 seo:
-  title: K2 Expedition, Pakistan - 60 Days | Karakoram Vision
+  title: "K2 Expedition 2027 (8,611 m) - 60 Days | Karakoram Vision"
   description: >-
     K2 expedition, 60 days from Islamabad with permits, Baltoro approach, base camp services,
     high-altitude porters and oxygen support from Karakoram Vision.

@@ -1,6 +1,6 @@
 ---
 url: /holiday-types/
-title: Holiday Types
+title: Holiday Types in Pakistan
 summary: >-
   Find cultural tours, family holidays, luxury journeys, road trips, trekking holidays and weekend
   escapes.

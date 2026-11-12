@@ -1,5 +1,5 @@
 ---
-title: "Car "
+title: Car Rental in Skardu
 permalink: /vehicles/car/
 layout: layouts/vehicle.njk
 published: true
@@ -26,7 +26,7 @@ seo:
   description: >-
     Karakoram Vision Pakistan offers private car rental services with professional drivers
     throughout Gilgit-Baltistan, Pakistan. Enjoy comfortable, safe, and…
-  title: Car Service from KVP
+  title: "Car Rental in Skardu | Karakoram Vision"
   keywords: "vehicle, Transport, Car,  "
 body: ""
 ---

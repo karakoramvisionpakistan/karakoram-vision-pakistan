@@ -19,6 +19,10 @@ const config = {
   eleventyComputed: {
     seo: (data) => {
       const seo = Object.assign({}, data.seo || {});
+      // seoBatch2: CMS (Menu Pages) ka SEO title/description yahan bhi lagu
+      const lp = (data.landing || {})[String((data.page && data.page.url) || '')];
+      if (lp && lp.seo_title) seo.title = lp.seo_title;
+      if (lp && lp.seo_description) seo.description = lp.seo_description;
       if (!data.structured_filter) return seo;
       if (seo.robots) return seo;
       const list = Array.isArray(data.structuredCatalog) ? data.structuredCatalog : [];

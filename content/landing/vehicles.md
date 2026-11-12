@@ -1,6 +1,6 @@
 ---
 url: /vehicles/
-title: Vehicles
+title: Vehicle Rental in Skardu and Gilgit
 summary: >-
   Mountain jeeps, SUVs, vans, coasters and transport options for tours and
   expeditions.

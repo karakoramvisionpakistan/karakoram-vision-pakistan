@@ -1,5 +1,5 @@
 ---
-title: "Biafo Hispar Pass Trek "
+title: Biafo Hispar Snow Lake Trek
 slug: biafo-hispar-trek
 permalink: /trekking/biafo-hispar-trek/
 layout: layouts/journey.njk
@@ -113,7 +113,7 @@ reviewed_by: Karakoram Vision Pakistan Private Limited
 last_verified: "2026-09-22"
 sources: []
 seo:
-  title: Biafo Hispar Pass Trek - 22 Days | Karakoram Vision
+  title: "Biafo Hispar Snow Lake Trek - 22 Days | Karakoram Vision"
   description: >-
     Biafo Hispar Pass trek, 22 days across the longest glacier system outside the poles, with Skardu
     logistics, permits and guides from Karakoram Vision.
@@ -318,9 +318,9 @@ itinerary:
       foot. Not many people can say that, and the ones who can tend to come back.
     overnight: Not applicable
 related:
-  - Gondogoro La Circuit Trek
+  - K2 Base Camp and Gondogoro La Trek
   - Hunza Valley Travel Guide
-  - Shigar Valley Guide
+  - Shigar Valley Travel Guide
 ---
 
 

@@ -323,50 +323,53 @@ content:
         type: select
         list: true
         options:
-          - Autumn Colours of Hunza and Skardu
           - Best Time to Visit Skardu
-          - Biafo Hispar Pass Trek
+          - Biafo Hispar Snow Lake Trek
           - Broad Peak Expedition
-          - Car
-          - Cycling on KKH
-          - Deosai High Plateau Trip
+          - Car Rental in Skardu
+          - Deosai Jeep Safari
           - Deosai National Park and Khaplu Tour
-          - Deosai National Park Guide
-          - Fairy Meadows and Nanga Parbat Base Camp Trek
-          - Fairy Meadows and Nanga Parbat Guide
+          - Deosai National Park Travel Guide
           - Fairy Meadows and Nanga Parbat View Tour
+          - Fairy Meadows Travel Guide
+          - Gasherbrum I Expedition
           - Gasherbrum II Expedition
-          - Gasherbrum-I
-          - Gilgit-Baltistan Grand Circuit
-          - Gondogoro La Circuit Trek
+          - Gilgit-Baltistan Grand Circuit Tour
           - How to Prepare for the K2 Base Camp Trek
+          - Hunza and Skardu Autumn Tour
+          - Hunza Spring Blossom Tour
           - Hunza Valley Heritage Tour
           - Hunza Valley Travel Guide
-          - Ibex Hunting in GB
-          - Islamabad
+          - Ibex and Markhor Hunting in Gilgit-Baltistan
+          - Islamabad City Tour
+          - K2 Base Camp and Gondogoro La Trek
           - K2 Base Camp Trek
+          - 'K2 Base Camp Trek Cost: What You Pay For and Why Prices Differ'
           - K2 Expedition
-          - Khaplu and Shyok Valley Guide
-          - Lahore
+          - Karakoram Highway Cycling Tour
+          - Khaplu Valley Travel Guide
+          - Khosar Gang Peak Climb
+          - Lahore City Tour
           - Laila Peak Expedition
           - Majrooh Top Trek
-          - Mountains & Villages Safari
+          - Mountains and Villages Jeep Safari
+          - Nanga Parbat Base Camp Trek via Fairy Meadows
           - Nanga Parbat Expedition
           - Nangma Valley Trek
           - Northern Pakistan Packing Checklist
+          - 'Pakistan Trekking Permits and Visa: A Step-by-Step Guide'
           - Rakaposhi Base Camp Trek
           - Responsible Travel in Gilgit-Baltistan
           - Rush Lake Trek
-          - Shigar Valley Guide
-          - Skardu and Shigar Valley Explorer
-          - Skardu Shigar Basho and Khaplu Trip
-          - Skardu Travel Guide
+          - Shigar Valley Travel Guide
+          - Shigar, Basho and Khaplu Jeep Safari
+          - Skardu and Shigar Valley Tour
+          - Skardu Valley Travel Guide
           - Spantik Peak Expedition
-          - Spring Blossom Tour
-          - Thaley La Trek
+          - Thalle La Trek
           - Toyota Hiace Van
           - Toyota Prado 4x4
-          - Trango Expedition
+          - Trango Tower Expedition
         description: Pick as many as you like — other trips, destination guides or articles. They appear under the itinerary as links.
       - name: _h_highlights_inclusions_packin
         label: Highlights, inclusions & packing
@@ -794,50 +797,53 @@ content:
         type: select
         list: true
         options:
-          - Autumn Colours of Hunza and Skardu
           - Best Time to Visit Skardu
-          - Biafo Hispar Pass Trek
+          - Biafo Hispar Snow Lake Trek
           - Broad Peak Expedition
-          - Car
-          - Cycling on KKH
-          - Deosai High Plateau Trip
+          - Car Rental in Skardu
+          - Deosai Jeep Safari
           - Deosai National Park and Khaplu Tour
-          - Deosai National Park Guide
-          - Fairy Meadows and Nanga Parbat Base Camp Trek
-          - Fairy Meadows and Nanga Parbat Guide
+          - Deosai National Park Travel Guide
           - Fairy Meadows and Nanga Parbat View Tour
+          - Fairy Meadows Travel Guide
+          - Gasherbrum I Expedition
           - Gasherbrum II Expedition
-          - Gasherbrum-I
-          - Gilgit-Baltistan Grand Circuit
-          - Gondogoro La Circuit Trek
+          - Gilgit-Baltistan Grand Circuit Tour
           - How to Prepare for the K2 Base Camp Trek
+          - Hunza and Skardu Autumn Tour
+          - Hunza Spring Blossom Tour
           - Hunza Valley Heritage Tour
           - Hunza Valley Travel Guide
-          - Ibex Hunting in GB
-          - Islamabad
+          - Ibex and Markhor Hunting in Gilgit-Baltistan
+          - Islamabad City Tour
+          - K2 Base Camp and Gondogoro La Trek
           - K2 Base Camp Trek
+          - 'K2 Base Camp Trek Cost: What You Pay For and Why Prices Differ'
           - K2 Expedition
-          - Khaplu and Shyok Valley Guide
-          - Lahore
+          - Karakoram Highway Cycling Tour
+          - Khaplu Valley Travel Guide
+          - Khosar Gang Peak Climb
+          - Lahore City Tour
           - Laila Peak Expedition
           - Majrooh Top Trek
-          - Mountains & Villages Safari
+          - Mountains and Villages Jeep Safari
+          - Nanga Parbat Base Camp Trek via Fairy Meadows
           - Nanga Parbat Expedition
           - Nangma Valley Trek
           - Northern Pakistan Packing Checklist
+          - 'Pakistan Trekking Permits and Visa: A Step-by-Step Guide'
           - Rakaposhi Base Camp Trek
           - Responsible Travel in Gilgit-Baltistan
           - Rush Lake Trek
-          - Shigar Valley Guide
-          - Skardu and Shigar Valley Explorer
-          - Skardu Shigar Basho and Khaplu Trip
-          - Skardu Travel Guide
+          - Shigar Valley Travel Guide
+          - Shigar, Basho and Khaplu Jeep Safari
+          - Skardu and Shigar Valley Tour
+          - Skardu Valley Travel Guide
           - Spantik Peak Expedition
-          - Spring Blossom Tour
-          - Thaley La Trek
+          - Thalle La Trek
           - Toyota Hiace Van
           - Toyota Prado 4x4
-          - Trango Expedition
+          - Trango Tower Expedition
         description: Pick as many as you like — other trips, destination guides or articles. They appear under the itinerary as links.
       - name: _h_highlights_inclusions_packin
         label: Highlights, inclusions & packing
@@ -1278,50 +1284,53 @@ content:
         type: select
         list: true
         options:
-          - Autumn Colours of Hunza and Skardu
           - Best Time to Visit Skardu
-          - Biafo Hispar Pass Trek
+          - Biafo Hispar Snow Lake Trek
           - Broad Peak Expedition
-          - Car
-          - Cycling on KKH
-          - Deosai High Plateau Trip
+          - Car Rental in Skardu
+          - Deosai Jeep Safari
           - Deosai National Park and Khaplu Tour
-          - Deosai National Park Guide
-          - Fairy Meadows and Nanga Parbat Base Camp Trek
-          - Fairy Meadows and Nanga Parbat Guide
+          - Deosai National Park Travel Guide
           - Fairy Meadows and Nanga Parbat View Tour
+          - Fairy Meadows Travel Guide
+          - Gasherbrum I Expedition
           - Gasherbrum II Expedition
-          - Gasherbrum-I
-          - Gilgit-Baltistan Grand Circuit
-          - Gondogoro La Circuit Trek
+          - Gilgit-Baltistan Grand Circuit Tour
           - How to Prepare for the K2 Base Camp Trek
+          - Hunza and Skardu Autumn Tour
+          - Hunza Spring Blossom Tour
           - Hunza Valley Heritage Tour
           - Hunza Valley Travel Guide
-          - Ibex Hunting in GB
-          - Islamabad
+          - Ibex and Markhor Hunting in Gilgit-Baltistan
+          - Islamabad City Tour
+          - K2 Base Camp and Gondogoro La Trek
           - K2 Base Camp Trek
+          - 'K2 Base Camp Trek Cost: What You Pay For and Why Prices Differ'
           - K2 Expedition
-          - Khaplu and Shyok Valley Guide
-          - Lahore
+          - Karakoram Highway Cycling Tour
+          - Khaplu Valley Travel Guide
+          - Khosar Gang Peak Climb
+          - Lahore City Tour
           - Laila Peak Expedition
           - Majrooh Top Trek
-          - Mountains & Villages Safari
+          - Mountains and Villages Jeep Safari
+          - Nanga Parbat Base Camp Trek via Fairy Meadows
           - Nanga Parbat Expedition
           - Nangma Valley Trek
           - Northern Pakistan Packing Checklist
+          - 'Pakistan Trekking Permits and Visa: A Step-by-Step Guide'
           - Rakaposhi Base Camp Trek
           - Responsible Travel in Gilgit-Baltistan
           - Rush Lake Trek
-          - Shigar Valley Guide
-          - Skardu and Shigar Valley Explorer
-          - Skardu Shigar Basho and Khaplu Trip
-          - Skardu Travel Guide
+          - Shigar Valley Travel Guide
+          - Shigar, Basho and Khaplu Jeep Safari
+          - Skardu and Shigar Valley Tour
+          - Skardu Valley Travel Guide
           - Spantik Peak Expedition
-          - Spring Blossom Tour
-          - Thaley La Trek
+          - Thalle La Trek
           - Toyota Hiace Van
           - Toyota Prado 4x4
-          - Trango Expedition
+          - Trango Tower Expedition
         description: Pick as many as you like — other trips, destination guides or articles. They appear under the itinerary as links.
       - name: _h_highlights_inclusions_packin
         label: Highlights, inclusions & packing
@@ -1748,50 +1757,53 @@ content:
         type: select
         list: true
         options:
-          - Autumn Colours of Hunza and Skardu
           - Best Time to Visit Skardu
-          - Biafo Hispar Pass Trek
+          - Biafo Hispar Snow Lake Trek
           - Broad Peak Expedition
-          - Car
-          - Cycling on KKH
-          - Deosai High Plateau Trip
+          - Car Rental in Skardu
+          - Deosai Jeep Safari
           - Deosai National Park and Khaplu Tour
-          - Deosai National Park Guide
-          - Fairy Meadows and Nanga Parbat Base Camp Trek
-          - Fairy Meadows and Nanga Parbat Guide
+          - Deosai National Park Travel Guide
           - Fairy Meadows and Nanga Parbat View Tour
+          - Fairy Meadows Travel Guide
+          - Gasherbrum I Expedition
           - Gasherbrum II Expedition
-          - Gasherbrum-I
-          - Gilgit-Baltistan Grand Circuit
-          - Gondogoro La Circuit Trek
+          - Gilgit-Baltistan Grand Circuit Tour
           - How to Prepare for the K2 Base Camp Trek
+          - Hunza and Skardu Autumn Tour
+          - Hunza Spring Blossom Tour
           - Hunza Valley Heritage Tour
           - Hunza Valley Travel Guide
-          - Ibex Hunting in GB
-          - Islamabad
+          - Ibex and Markhor Hunting in Gilgit-Baltistan
+          - Islamabad City Tour
+          - K2 Base Camp and Gondogoro La Trek
           - K2 Base Camp Trek
+          - 'K2 Base Camp Trek Cost: What You Pay For and Why Prices Differ'
           - K2 Expedition
-          - Khaplu and Shyok Valley Guide
-          - Lahore
+          - Karakoram Highway Cycling Tour
+          - Khaplu Valley Travel Guide
+          - Khosar Gang Peak Climb
+          - Lahore City Tour
           - Laila Peak Expedition
           - Majrooh Top Trek
-          - Mountains & Villages Safari
+          - Mountains and Villages Jeep Safari
+          - Nanga Parbat Base Camp Trek via Fairy Meadows
           - Nanga Parbat Expedition
           - Nangma Valley Trek
           - Northern Pakistan Packing Checklist
+          - 'Pakistan Trekking Permits and Visa: A Step-by-Step Guide'
           - Rakaposhi Base Camp Trek
           - Responsible Travel in Gilgit-Baltistan
           - Rush Lake Trek
-          - Shigar Valley Guide
-          - Skardu and Shigar Valley Explorer
-          - Skardu Shigar Basho and Khaplu Trip
-          - Skardu Travel Guide
+          - Shigar Valley Travel Guide
+          - Shigar, Basho and Khaplu Jeep Safari
+          - Skardu and Shigar Valley Tour
+          - Skardu Valley Travel Guide
           - Spantik Peak Expedition
-          - Spring Blossom Tour
-          - Thaley La Trek
+          - Thalle La Trek
           - Toyota Hiace Van
           - Toyota Prado 4x4
-          - Trango Expedition
+          - Trango Tower Expedition
         description: Pick as many as you like — other trips, destination guides or articles. They appear under the itinerary as links.
       - name: _h_highlights_inclusions_packin
         label: Highlights, inclusions & packing
@@ -2215,50 +2227,53 @@ content:
         type: select
         list: true
         options:
-          - Autumn Colours of Hunza and Skardu
           - Best Time to Visit Skardu
-          - Biafo Hispar Pass Trek
+          - Biafo Hispar Snow Lake Trek
           - Broad Peak Expedition
-          - Car
-          - Cycling on KKH
-          - Deosai High Plateau Trip
+          - Car Rental in Skardu
+          - Deosai Jeep Safari
           - Deosai National Park and Khaplu Tour
-          - Deosai National Park Guide
-          - Fairy Meadows and Nanga Parbat Base Camp Trek
-          - Fairy Meadows and Nanga Parbat Guide
+          - Deosai National Park Travel Guide
           - Fairy Meadows and Nanga Parbat View Tour
+          - Fairy Meadows Travel Guide
+          - Gasherbrum I Expedition
           - Gasherbrum II Expedition
-          - Gasherbrum-I
-          - Gilgit-Baltistan Grand Circuit
-          - Gondogoro La Circuit Trek
+          - Gilgit-Baltistan Grand Circuit Tour
           - How to Prepare for the K2 Base Camp Trek
+          - Hunza and Skardu Autumn Tour
+          - Hunza Spring Blossom Tour
           - Hunza Valley Heritage Tour
           - Hunza Valley Travel Guide
-          - Ibex Hunting in GB
-          - Islamabad
+          - Ibex and Markhor Hunting in Gilgit-Baltistan
+          - Islamabad City Tour
+          - K2 Base Camp and Gondogoro La Trek
           - K2 Base Camp Trek
+          - 'K2 Base Camp Trek Cost: What You Pay For and Why Prices Differ'
           - K2 Expedition
-          - Khaplu and Shyok Valley Guide
-          - Lahore
+          - Karakoram Highway Cycling Tour
+          - Khaplu Valley Travel Guide
+          - Khosar Gang Peak Climb
+          - Lahore City Tour
           - Laila Peak Expedition
           - Majrooh Top Trek
-          - Mountains & Villages Safari
+          - Mountains and Villages Jeep Safari
+          - Nanga Parbat Base Camp Trek via Fairy Meadows
           - Nanga Parbat Expedition
           - Nangma Valley Trek
           - Northern Pakistan Packing Checklist
+          - 'Pakistan Trekking Permits and Visa: A Step-by-Step Guide'
           - Rakaposhi Base Camp Trek
           - Responsible Travel in Gilgit-Baltistan
           - Rush Lake Trek
-          - Shigar Valley Guide
-          - Skardu and Shigar Valley Explorer
-          - Skardu Shigar Basho and Khaplu Trip
-          - Skardu Travel Guide
+          - Shigar Valley Travel Guide
+          - Shigar, Basho and Khaplu Jeep Safari
+          - Skardu and Shigar Valley Tour
+          - Skardu Valley Travel Guide
           - Spantik Peak Expedition
-          - Spring Blossom Tour
-          - Thaley La Trek
+          - Thalle La Trek
           - Toyota Hiace Van
           - Toyota Prado 4x4
-          - Trango Expedition
+          - Trango Tower Expedition
         description: Pick as many as you like — other trips, destination guides or articles. They appear under the itinerary as links.
       - name: _h_highlights_inclusions_packin
         label: Highlights, inclusions & packing

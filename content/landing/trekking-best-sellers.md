@@ -1,6 +1,6 @@
 ---
 url: /trekking/best-sellers/
-title: Best-Selling Treks
+title: Best Treks in Pakistan
 summary: >-
   Explore featured and most-requested trekking journeys from Karakoram Vision
   Pakistan.

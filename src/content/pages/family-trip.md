@@ -1,5 +1,5 @@
 ---
-title: Family Trip
+title: Family Tours in Pakistan
 slug: family-tours
 permalink: /family-tours/
 layout: layouts/page.njk

@@ -1,6 +1,6 @@
 ---
 url: /destinations/
-title: Destinations
+title: Destinations in Northern Pakistan
 summary: >-
   Explore Pakistan’s mountain regions, heritage cities, valleys, national parks
   and trekking gateways.

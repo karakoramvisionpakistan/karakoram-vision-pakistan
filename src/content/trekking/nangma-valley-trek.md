@@ -205,8 +205,8 @@ itinerary:
     description: Related journeys. Thalle La trek. Khaplu travel guide. Laila Peak expedition.
     overnight: Not applicable
 related:
-  - Thaley La Trek
-  - Khaplu and Shyok Valley Guide
+  - Thalle La Trek
+  - Khaplu Valley Travel Guide
   - Laila Peak Expedition
 ---
 

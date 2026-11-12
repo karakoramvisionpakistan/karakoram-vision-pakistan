@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions
+title: Pakistan Travel FAQs
 slug: faqs
 permalink: /faqs/
 published: true

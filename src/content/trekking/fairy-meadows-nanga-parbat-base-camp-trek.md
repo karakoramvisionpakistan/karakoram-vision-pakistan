@@ -1,5 +1,5 @@
 ---
-title: Fairy Meadows and Nanga Parbat Base Camp Trek
+title: Nanga Parbat Base Camp Trek via Fairy Meadows
 slug: fairy-meadows-base-camp-trek
 permalink: /trekking/fairy-meadows-base-camp-trek/
 published: true
@@ -90,7 +90,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Fairy Meadows Base Camp Trek - 10 Days | Karakoram Vision
+  title: "Nanga Parbat Base Camp Trek - 10 Days | Karakoram Vision"
   description: >-
     Ten days from Raikot Bridge to Fairy Meadows, Beyal camp and the Nanga Parbat base camp
     viewpoint. Small groups and local guides. Ask for the day plan.
@@ -152,7 +152,7 @@ itinerary:
     overnight: Not applicable
 related:
   - Fairy Meadows and Nanga Parbat View Tour
-  - Fairy Meadows and Nanga Parbat Guide
+  - Fairy Meadows Travel Guide
   - Nanga Parbat Expedition
 ---
 

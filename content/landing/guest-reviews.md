@@ -1,6 +1,6 @@
 ---
 url: /guest-reviews/
-title: Guest Reviews
+title: Karakoram Vision Pakistan Guest Reviews
 summary: >-
   Traveler feedback and verified journey experiences with Karakoram Vision
   Pakistan.

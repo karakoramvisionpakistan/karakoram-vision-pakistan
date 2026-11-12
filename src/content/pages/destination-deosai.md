@@ -1,5 +1,5 @@
 ---
-title: Deosai National Park Guide
+title: Deosai National Park Travel Guide
 slug: destination-deosai
 permalink: /destinations/deosai/
 published: true

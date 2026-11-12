@@ -1,5 +1,5 @@
 ---
-title: Skardu Travel Guide
+title: Skardu Valley Travel Guide
 slug: destination-skardu
 permalink: /destinations/skardu/
 published: true

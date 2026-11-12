@@ -1,6 +1,6 @@
 ---
 url: /expeditions/
-title: Expeditions
+title: Mountaineering Expeditions in Pakistan
 summary: >-
   Technical and non-technical mountaineering expeditions with logistics and
   local coordination.

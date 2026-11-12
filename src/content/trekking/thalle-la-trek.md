@@ -1,5 +1,5 @@
 ---
-title: Thaley La Trek
+title: Thalle La Trek
 slug: thalle-la-trek
 permalink: /trekking/thalle-la-trek/
 published: true
@@ -139,8 +139,8 @@ itinerary:
     description: The airport transfer, and the end of the trek. A day room is available for a late flight.
     overnight: Not applicable
 related:
-  - Khaplu and Shyok Valley Guide
-  - Shigar Valley Guide
+  - Khaplu Valley Travel Guide
+  - Shigar Valley Travel Guide
   - Nangma Valley Trek
 ---
 

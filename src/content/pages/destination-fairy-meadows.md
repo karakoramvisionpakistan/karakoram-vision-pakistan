@@ -1,5 +1,5 @@
 ---
-title: Fairy Meadows and Nanga Parbat Guide
+title: Fairy Meadows Travel Guide
 slug: destination-fairy-meadows
 permalink: /destinations/fairy-meadows/
 published: true

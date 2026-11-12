@@ -1,6 +1,6 @@
 ---
 url: /jeep-safaris/
-title: Jeep Safaris
+title: Jeep Safaris in Pakistan
 summary: >-
   Mountain road journeys, remote valley access and private 4x4 safari
   programmes.

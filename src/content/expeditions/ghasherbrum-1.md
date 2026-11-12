@@ -1,5 +1,5 @@
 ---
-title: "Gasherbrum-I "
+title: Gasherbrum I Expedition
 slug: gasherbrum-i-expedition
 permalink: /expeditions/gasherbrum-i-expedition/
 layout: layouts/journey.njk
@@ -261,7 +261,7 @@ itinerary:
 related:
   - Gasherbrum II Expedition
   - K2 Expedition
-  - Gondogoro La Circuit Trek
+  - K2 Base Camp and Gondogoro La Trek
 ---
 
 

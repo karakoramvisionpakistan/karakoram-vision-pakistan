@@ -1,6 +1,6 @@
 ---
 url: /trekking/k2-treks/
-title: K2 Treks
+title: K2 and Baltoro Glacier Treks
 summary: Explore K2 Base Camp, Gondogoro La and related Karakoram trekking routes.
 seo_title: K2 Treks & Baltoro Glacier Routes | Karakoram Vision
 seo_description: >-

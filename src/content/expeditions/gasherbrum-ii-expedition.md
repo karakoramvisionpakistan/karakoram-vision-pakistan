@@ -229,7 +229,7 @@ itinerary:
       until then.
     overnight: Not applicable
 related:
-  - Gasherbrum-I
+  - Gasherbrum I Expedition
   - Broad Peak Expedition
   - K2 Base Camp Trek
 peak_class: 8,000m peaks

@@ -1,6 +1,6 @@
 ---
 url: /trip-calendar/
-title: Trip Calendar
+title: Trip Calendar and Departure Dates
 summary: >-
   Browse scheduled departures, availability and starting prices. Exact dates,
   permits and places remain subject to confirmation by our travel team.

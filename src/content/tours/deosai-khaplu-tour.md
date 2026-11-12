@@ -146,9 +146,9 @@ itinerary:
       Deosai National Park guide. Khaplu travel guide.
     overnight: Hotel
 related:
-  - Deosai High Plateau Trip
-  - Deosai National Park Guide
-  - Khaplu and Shyok Valley Guide
+  - Deosai Jeep Safari
+  - Deosai National Park Travel Guide
+  - Khaplu Valley Travel Guide
 ---
 
 

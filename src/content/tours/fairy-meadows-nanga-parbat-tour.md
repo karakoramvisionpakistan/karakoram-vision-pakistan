@@ -158,8 +158,8 @@ itinerary:
       fill — and the Nanga Parbat photographs will take longer to sort than you expect.
     overnight: Not applicable
 related:
-  - Fairy Meadows and Nanga Parbat Guide
-  - Fairy Meadows and Nanga Parbat Base Camp Trek
+  - Fairy Meadows Travel Guide
+  - Nanga Parbat Base Camp Trek via Fairy Meadows
   - Nanga Parbat Expedition
 ---
 

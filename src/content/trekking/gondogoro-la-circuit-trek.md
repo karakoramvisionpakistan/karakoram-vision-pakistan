@@ -1,5 +1,5 @@
 ---
-title: Gondogoro La Circuit Trek
+title: K2 Base Camp and Gondogoro La Trek
 slug: gondogoro-la-circuit-trek
 permalink: /trekking/gondogoro-la-circuit-trek/
 published: true
@@ -94,7 +94,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: Gondogoro La Trek, Pakistan - 21 Days | Karakoram Vision
+  title: "K2 & Gondogoro La Trek - 21 Days | Karakoram Vision"
   description: >-
     Cross Gondogoro La on a 21-day Baltoro circuit from Concordia down to Hushe. Fixed ropes,
     climbing guides and permits handled. Ask for this season's dates.
@@ -769,8 +769,8 @@ itinerary:
     overnight: Not applicable
 related:
   - K2 Base Camp Trek
-  - Biafo Hispar Pass Trek
-  - Skardu Travel Guide
+  - Biafo Hispar Snow Lake Trek
+  - Skardu Valley Travel Guide
 ---
 
 

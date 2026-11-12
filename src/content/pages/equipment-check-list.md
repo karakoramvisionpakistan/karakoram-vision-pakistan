@@ -1,5 +1,5 @@
 ---
-title: Equipment Checklist
+title: Trekking Equipment Checklist
 slug: equipment-check-list
 permalink: /equipment-checklist/
 layout: layouts/page.njk

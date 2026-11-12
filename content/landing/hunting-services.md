@@ -1,6 +1,6 @@
 ---
 url: /hunting-services/
-title: Licensed Hunting Services
+title: Licensed Hunting Services in Gilgit-Baltistan
 summary: >-
   Compliance-led logistics and travel coordination for officially authorized
   conservation programmes.

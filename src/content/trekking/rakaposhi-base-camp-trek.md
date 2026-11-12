@@ -88,7 +88,7 @@ reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 duration_days: "7"
 seo:
-  title: "Rakaposhi Base Camp Trek - 7 Days | Karakoram Vision "
+  title: "Rakaposhi Base Camp Trek - 7 Days | Karakoram Vision"
   description: >-
     Seven days from Minapin up to Rakaposhi base camp, with glacier views over Nagar valley. A good
     first Karakoram trek. Ask for dates, costs and the plan.

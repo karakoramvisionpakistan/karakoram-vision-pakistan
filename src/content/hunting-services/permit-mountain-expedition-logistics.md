@@ -1,5 +1,5 @@
 ---
-title: Ibex Hunting in GB
+title: Ibex and Markhor Hunting in Gilgit-Baltistan
 slug: ibex-markhor-hunting-permits
 permalink: /hunting-services/ibex-markhor-hunting-permits/
 published: true
@@ -125,7 +125,7 @@ itinerary:
       Plan a trip. Travel FAQs.
     overnight: Hotel
 related:
-  - Khaplu and Shyok Valley Guide
+  - Khaplu Valley Travel Guide
 ---
 
 

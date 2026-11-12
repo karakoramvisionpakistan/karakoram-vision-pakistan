@@ -11,7 +11,7 @@ seo:
 {% set lp = landing[page.url] or {} %}
 
 {% set form = formsConfig.plan_trip %}
-{% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = 'Plan a Trip' %}{% set heroSummary = summary %}{% set heroEyebrow = lp.hero_eyebrow or 'Custom journey planner' %}{% set heroCompact = true %}
+{% set heroItems = collections.journeys | limit(6) %}{% set heroHeading = lp.title or 'Plan a Trip' %}{% set heroSummary = summary %}{% set heroEyebrow = lp.hero_eyebrow or 'Custom journey planner' %}{% set heroCompact = true %}
 {% include "components/landing-hero.njk" %}
 {% if form.enabled !== false %}
 <section id="trip-request-form" class="bk-trip-request-anchor mx-auto max-w-5xl px-4 py-12" data-trip-request-section tabindex="-1">

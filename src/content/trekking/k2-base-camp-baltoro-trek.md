@@ -101,7 +101,7 @@ author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"
 seo:
-  title: K2 Base Camp Trek, Pakistan - 21 Days | Karakoram Vision
+  title: "K2 Base Camp Trek 2027 - 21 Days | Karakoram Vision"
   description: >-
     Trek the Baltoro Glacier to Concordia and K2 base camp in 21 days. Permits, porters, cook and
     guide arranged by our Skardu team. Ask for dates and costs.
@@ -560,7 +560,7 @@ itinerary:
     overnight: Not applicable
     altitude: 507 m
 related:
-  - Gondogoro La Circuit Trek
+  - K2 Base Camp and Gondogoro La Trek
   - K2 Expedition
   - How to Prepare for the K2 Base Camp Trek
 ---

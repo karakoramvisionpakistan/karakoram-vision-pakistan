@@ -1,5 +1,5 @@
 ---
-title: Autumn Colours of Hunza and Skardu
+title: Hunza and Skardu Autumn Tour
 slug: autumn-hunza-skardu-tour
 permalink: /tours/autumn-hunza-skardu-tour/
 published: true
@@ -212,7 +212,7 @@ itinerary:
 related:
   - Best Time to Visit Skardu
   - Hunza Valley Heritage Tour
-  - Skardu Travel Guide
+  - Skardu Valley Travel Guide
 ---
 
 

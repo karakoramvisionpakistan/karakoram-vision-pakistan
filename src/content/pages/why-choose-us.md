@@ -1,5 +1,5 @@
 ---
-title: Why Travel With Us
+title: Why Travel with Karakoram Vision Pakistan
 slug: why-choose-us
 permalink: /why-choose-us/
 published: true

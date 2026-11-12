@@ -1,5 +1,5 @@
 ---
-title: Skardu and Shigar Valley Explorer
+title: Skardu and Shigar Valley Tour
 slug: skardu-shigar-valley-explorer
 permalink: /tours/skardu-shigar-valley-explorer/
 published: true
@@ -133,8 +133,8 @@ itinerary:
       available if the wait is a long one.
     overnight: Not applicable
 related:
-  - Skardu Travel Guide
-  - Shigar Valley Guide
+  - Skardu Valley Travel Guide
+  - Shigar Valley Travel Guide
   - Shigar, Basho and Khaplu Adventure Trip
 ---
 

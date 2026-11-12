@@ -1,6 +1,6 @@
 ---
 url: /trekking/
-title: Trekking
+title: Trekking in Pakistan
 summary: >-
   High-altitude treks, base-camp routes, glacier crossings and short mountain
   hikes.

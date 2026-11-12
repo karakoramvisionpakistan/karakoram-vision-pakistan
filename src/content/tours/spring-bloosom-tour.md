@@ -1,5 +1,5 @@
 ---
-title: Spring Blossom Tour
+title: Hunza Spring Blossom Tour
 slug: spring-blossom-tour
 permalink: /tours/spring-blossom-tour/
 layout: layouts/journey.njk

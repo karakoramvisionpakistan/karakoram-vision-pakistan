@@ -1,5 +1,5 @@
 ---
-title: Cycling on KKH
+title: Karakoram Highway Cycling Tour
 permalink: /tours/cycle-touring/
 layout: layouts/journey.njk
 service_type: tours
@@ -103,7 +103,7 @@ reviewed_by: Karakoram Vision Pakistan Private Limited
 last_verified: "2026-10-31"
 sources: []
 seo:
-  title: Cycle Touring On Karakoram Highway Pakistan Karakoram Vision
+  title: "Karakoram Highway Cycling Tour | Karakoram Vision"
   description: >-
     Experience the breathtaking beauty of Pakistan on an unforgettable cycling adventure with
     Karakoram Vision Pakistan. From the mighty peaks of the Karakoram. 
@@ -176,8 +176,8 @@ itinerary:
     overnight: Hotel
 related:
   - Hunza Valley Travel Guide
-  - Skardu Travel Guide
-  - Gilgit-Baltistan Grand Circuit
+  - Skardu Valley Travel Guide
+  - Gilgit-Baltistan Grand Circuit Tour
 ---
 
 

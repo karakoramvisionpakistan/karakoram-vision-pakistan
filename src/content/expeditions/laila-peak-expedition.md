@@ -180,8 +180,8 @@ itinerary:
     overnight: Not applicable
 related:
   - Nangma Valley Trek
-  - Khaplu and Shyok Valley Guide
-  - Trango Expedition
+  - Khaplu Valley Travel Guide
+  - Trango Tower Expedition
 ---
 
 

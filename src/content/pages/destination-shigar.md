@@ -1,5 +1,5 @@
 ---
-title: Shigar Valley Guide
+title: Shigar Valley Travel Guide
 slug: destination-shigar
 permalink: /destinations/shigar/
 published: true

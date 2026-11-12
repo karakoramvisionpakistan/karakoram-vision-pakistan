@@ -1,6 +1,6 @@
 ---
 url: /blog/
-title: Travel Guides
+title: Pakistan Travel Guides
 summary: >-
   Destination research, practical travel information, culture, food, safety and
   route inspiration.
