@@ -26,7 +26,7 @@ cards:
     url: /search/?type=blog&q=altitude
   - title: Pakistan travel information
     description: Transport, culture, money, connectivity and arrival guidance.
-    url: /international-travelers/
+    url: /blog/
   - title: Permits & compliance
     description: Route permits, restricted areas, climbing and wildlife programme rules.
     url: /contact-us/

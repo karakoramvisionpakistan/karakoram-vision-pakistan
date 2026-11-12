@@ -2357,3 +2357,8 @@ h1, h2, h3, h4,
   color: #0f172a;
 }
 /* === V11.29 END === */
+
+/* seoBatch1: custom slider par page ka H1 chhoti line (eyebrow) ki shakal mein.
+   @layer ke baahar, is liye .bk-hero-copy h1 ke bare font par bhaari. */
+.bk-hero .bk-hero-copy h1.bk-hero-eyebrow { margin: 0 0 .3rem; max-width: none; font-size: .75rem; font-weight: 900;
+  line-height: 1.5; letter-spacing: .22em; text-transform: uppercase; color: #bfdbfe; }

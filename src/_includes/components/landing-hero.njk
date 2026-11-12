@@ -100,8 +100,9 @@
         <div class="bk-hero-shade"></div>
         <div class="bk-hero-copy">
           {% if useCustom %}
-            <p class="bk-hero-eyebrow"><span class="bk-hero-mark">{{ item.data.eyebrow or heroEyebrow or site.tagline or site.name }}</span></p>
-            {% if loop.first %}<h1><span class="bk-hero-mark">{{ slideHeading }}</span></h1>{% else %}<h2><span class="bk-hero-mark">{{ slideHeading }}</span></h2>{% endif %}
+            {# seoBatch1: slide ki apni heading ho to woh H2 hai; page ka unwaan H1 (chhoti line ki shakal mein) #}
+            {% if loop.first and item.data.heading %}<h1 class="bk-hero-eyebrow"><span class="bk-hero-mark">{{ heroHeading or title }}</span></h1>{% else %}<p class="bk-hero-eyebrow"><span class="bk-hero-mark">{{ item.data.eyebrow or heroEyebrow or site.tagline or site.name }}</span></p>{% endif %}
+            {% if loop.first and not item.data.heading %}<h1><span class="bk-hero-mark">{{ slideHeading }}</span></h1>{% else %}<h2><span class="bk-hero-mark">{{ slideHeading }}</span></h2>{% endif %}
             {% if item.data.text %}<p class="bk-hero-summary"><span class="bk-hero-mark">{{ item.data.text }}</span></p>{% endif %}
             <div class="bk-hero-actions">
               {% if item.data.button_url %}<a class="bk-hero-primary" href="{{ item.data.button_url }}">{{ item.data.button_label or 'View details' }}</a>{% endif %}
