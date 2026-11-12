@@ -1112,6 +1112,44 @@
       }
     ]
   },
+  "/assets/uploads/1793540535502-Concordia.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793540535502-concordia--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1793540535502-concordia--wide-1920.webp",
+        "w": 1920,
+        "h": 1200
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793540535502-concordia--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793540535502-concordia--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793540535502-concordia--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793540535502-concordia--tall-840.webp",
+        "w": 840,
+        "h": 1493
+      }
+    ]
+  },
   "/assets/uploads/1792840088009-L1280423--Copy-.webp": {
     "wide": [
       {

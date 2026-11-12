@@ -394,11 +394,15 @@
     }
   ],
   "hidden": [
+    "src/content/trekking/five-8000m-base-camp-trek.md",
+    "src/content/trekking/k2-concordia-trek.md",
     "src/content/vehicles/coaster-group-transport.md",
     "src/international-travelers/index.njk"
   ],
   "hiddenUrls": [
     "/international-travelers/",
+    "/trekking/five-8000m-base-camp-trek/",
+    "/trekking/k2-concordia-trek/",
     "/vehicles/coaster-group-transport/"
   ],
   "redirects": []
