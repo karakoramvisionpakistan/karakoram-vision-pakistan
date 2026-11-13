@@ -57,7 +57,7 @@ date: '2026-11-13'
 <li><strong>Winter:</strong> the valleys are cold and quiet. The trailhead roads close and flights to Skardu are unreliable.</li>
 </ul>
 <h2><strong>Route by route</strong></h2>
-<p><strong><a href="/trekking/k2-base-camp-trek/">K2 Base Camp Trek</a>:</strong> late June to early September. July and August are the most settled, and the expedition teams are on the glacier then. Nights at Concordia fall below freezing in every month of the season.</p>
+<p><strong><a href="/trekking/k2-base-camp-trek/">K2 Base Camp Trek</a>:</strong> late June to early September. July and August are the most settled, and the <a href="/expeditions/k2-expedition/">K2 expedition</a> teams are on the glacier then. Nights at Concordia fall below freezing in every month of the season.</p>
 <p><strong><a href="/trekking/gondogoro-la-circuit-trek/">Gondogoro La</a>:</strong> mid-July to late August. June is usually too early, because the pass still carries deep snow and the ropes may not be fixed. Late August is quieter, but the pass can close with little warning.</p>
 <p><strong><a href="/trekking/biafo-hispar-trek/">Biafo Hispar Snow Lake</a>:</strong> July and August.</p>
 <p><strong><a href="/trekking/fairy-meadows-base-camp-trek/">Nanga Parbat base camp via Fairy Meadows</a>:</strong> the road is open from about May to October. June to September gives the clearest views, and mornings are usually clearer than afternoons.</p>

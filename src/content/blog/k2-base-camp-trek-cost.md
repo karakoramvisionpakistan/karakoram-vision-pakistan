@@ -79,7 +79,7 @@ date: "2026-11-07"
 <h2><strong>What is not included</strong></h2>
 <ul>
 <li>International flights and the Pakistan visa fee</li>
-<li>Travel insurance that covers search and rescue at high altitude, which is compulsory</li>
+<li>Travel insurance that covers search and rescue at high altitude, which is compulsory (see our <a href="/blog/travel-insurance-for-trekking-in-pakistan/">trekking insurance guide</a>)</li>
 <li>Tips for the guide, cook and porters</li>
 <li>Personal equipment such as boots, a sleeping bag and a down jacket (much of it can be rented in Skardu)</li>
 <li>Extra hotel nights if the Skardu flight is cancelled or a road is closed</li>
@@ -94,7 +94,7 @@ date: "2026-11-07"
 <li>Join a scheduled group departure rather than travelling privately.</li>
 <li>Travel with friends: a group of 10 or more gets the best price.</li>
 <li>Rent bulky gear in Skardu instead of buying it.</li>
-<li>Book early, before the summer permits and flights fill up.</li>
+<li>Book early, before the summer permits and flights fill up. Our guide on <a href="/blog/how-to-book-a-trek-in-pakistan/">how to book a trek in Pakistan</a> shows the timeline.</li>
 </ul>
 <h2><strong>How payment works</strong></h2>
 <p>A deposit of 50% confirms your place. The remaining 50% is paid after you arrive in Islamabad, before you travel to the mountains. Cancellation charges are set out in our <a href="/terms-and-conditions/">terms and conditions</a>.</p>

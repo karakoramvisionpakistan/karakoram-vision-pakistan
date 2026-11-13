@@ -129,6 +129,11 @@
     "w": 1200,
     "h": 630
   },
+  "/assets/uploads/1793689742545-Concordia-KVP.webp": {
+    "src": "/assets/og/1793689742545-concordia-kvp.jpg",
+    "w": 1200,
+    "h": 630
+  },
   "/assets/uploads/1792935730426-Biafo-glacier.webp": {
     "src": "/assets/og/1792935730426-biafo-glacier.jpg",
     "w": 1200,
@@ -136,6 +141,11 @@
   },
   "/assets/uploads/1793542495058-K2-KVP.webp": {
     "src": "/assets/og/1793542495058-k2-kvp.jpg",
+    "w": 1200,
+    "h": 630
+  },
+  "/assets/uploads/1793540535502-Concordia.webp": {
+    "src": "/assets/og/1793540535502-concordia.jpg",
     "w": 1200,
     "h": 630
   },
@@ -163,11 +173,6 @@
     "src": "/assets/og/1792933304428-nanga-copy.jpg",
     "w": 640,
     "h": 336
-  },
-  "/assets/uploads/1793540535502-Concordia.webp": {
-    "src": "/assets/og/1793540535502-concordia.jpg",
-    "w": 1200,
-    "h": 630
   },
   "/assets/uploads/1793541404424-Rakaposhi.webp": {
     "src": "/assets/og/1793541404424-rakaposhi.jpg",

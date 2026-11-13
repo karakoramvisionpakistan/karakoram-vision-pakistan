@@ -5,10 +5,8 @@ permalink: /blog/pakistan-trekking-permits-visa/
 published: true
 featured: true
 summary: >-
-  To trek in northern Pakistan you need the right visa and, for most famous routes such as K2 and
-  the Baltoro, a trekking permit that only a licensed tour operator can apply for. This guide
-  explains which visa to choose, which areas need a permit, what documents are needed and how long
-  it takes.
+  A Pakistan trekking permit and visa guide: which visa to choose, which areas need a trekking
+  permit through a licensed operator, what documents you need and how long it takes.
 answer_summary: >-
   To trek in northern Pakistan you need the right visa and, for most famous routes such as K2 and
   the Baltoro, a trekking permit that only a licensed tour operator can apply for. This guide
@@ -97,7 +95,7 @@ date: "2026-11-07"
 <h2><strong>Step 5: registration in Skardu</strong></h2>
 <p>Before you leave Skardu for the mountains, every foreign trekker is registered with the authorities, and your guide carries the permit for checks along the way. We arrange this on your rest day in Skardu, so there is nothing to queue for yourself.</p>
 <h2><strong>Climbing above 6,500 metres</strong></h2>
-<p>Peaks above 6,500 m are climbed on a <strong>mountaineering permit</strong>, not a trekking permit. It carries a royalty that depends on the height of the peak, an environment fee and a <strong>liaison officer</strong> who travels with the expedition. The royalty is paid in Pakistan, after the visa is granted. Applications should be made several months in advance. See our <a href="/expeditions/">expeditions</a> for peaks we organise.</p>
+<p>Peaks above 6,500 m are climbed on a <strong>mountaineering permit</strong>, not a trekking permit. It carries a royalty that depends on the height of the peak, an environment fee and a <strong>liaison officer</strong> who travels with the expedition. The royalty is paid in Pakistan, after the visa is granted. Our <a href="/blog/pakistan-mountaineering-royalty-fees/">mountaineering royalty fee guide</a> lists the fee for K2, the 8,000-metre and the 7,000-metre peaks. Applications should be made several months in advance. See our <a href="/expeditions/">expeditions</a> for peaks we organise.</p>
 <h2><strong>Timeline: when to start</strong></h2>
 <ul>
 <li><strong>3 months before:</strong> book your trek and send us the group details.</li>

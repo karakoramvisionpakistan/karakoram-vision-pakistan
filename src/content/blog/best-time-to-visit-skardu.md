@@ -66,7 +66,7 @@ date: "2026-09-06"
 <p>This is the main season, and for good reason. Daytime temperatures in Skardu sit comfortably in the twenties, nights are cool, and almost every road in the region is open.</p>
 <ul>
 <li><strong>Deosai</strong> usually opens from late May or June and stays open until around late September. July is when the plateau is covered in wildflowers and when brown bear sightings are most often reported.</li>
-<li><strong>Baltoro and K2</strong> trekking runs from late June to early September. July and August are the most settled weeks, and also when the expedition teams are on the glacier.</li>
+<li><strong>Baltoro and K2</strong> trekking runs from late June to early September. July and August are the most settled weeks, and also when the <a href="/expeditions/k2-expedition/">K2 expedition</a> teams are on the glacier.</li>
 <li><strong>Hushe, Nangma and the side valleys</strong> are fully accessible, with shepherds up at the summer settlements.</li>
 </ul>
 <p>Two things to plan around. First, the monsoon does not properly reach Baltistan — it is blocked by the mountains — but it can still bring cloudy spells and road damage on the Karakoram Highway further south, especially in late July and August. Second, this is the busiest season for domestic tourism, so hotels in Skardu fill up and should be booked early.</p>

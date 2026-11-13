@@ -5,8 +5,8 @@ permalink: /blog/prepare-for-k2-base-camp-trek/
 published: true
 featured: false
 summary: >-
-  Training, altitude, gear, insurance and paperwork for the K2 base camp trek - a practical
-  preparation plan from the team that runs the route from Skardu.
+  K2 base camp trek training and preparation: fitness, altitude, gear, insurance and
+  paperwork, a practical plan from the team that runs the route from Skardu.
 answer_summary: >-
   Training, altitude, gear, insurance and paperwork for the K2 base camp trek - a practical
   preparation plan from the team that runs the route from Skardu.
@@ -69,7 +69,7 @@ layout: layouts/post.njk
 <p>If you live somewhere flat, stairs, a treadmill on incline, or a loaded pack on long walks all work. Consistency beats intensity.</p>
 
 <h2><strong>Altitude: the part you cannot train for</strong></h2>
-<p>You cannot train for altitude at sea level, and nobody knows in advance how they will respond to it. What you can do is follow a sensible profile, and our itinerary is built around exactly that: a gradual gain from Askole at around 3,000m to Concordia at about 4,600m and the K2 base camp area higher still, with rest and acclimatisation days built in.</p>
+<p>You cannot train for altitude at sea level, and nobody knows in advance how they will respond to it. What you can do is follow a sensible profile, and our itinerary is built around exactly that: a gradual gain from Askole at around 3,000m to Concordia at about 4,600m and the K2 base camp area higher still, with rest and acclimatisation days built in.</p><p>If you would rather not retrace the Baltoro on the way out, the <a href="/trekking/gondogoro-la-circuit-trek/">K2 base camp and Gondogoro La trek</a> crosses the pass to Hushe instead. For the budget side, see <a href="/blog/k2-base-camp-trek-cost/">K2 base camp trek cost</a>.</p>
 <p>Three rules matter on the trail. Walk slowly - slower than feels natural, especially on the first days. Drink far more than you think you need, three to four litres a day. Report headaches, nausea or unusual breathlessness to the guide early; mild symptoms treated early are routine, ignored ones are not.</p>
 <p>If you want to discuss altitude medication, do it with your own doctor before you travel, and bring whatever you agree on in its original packaging.</p>
 
@@ -85,10 +85,10 @@ layout: layouts/post.njk
 
 <h2><strong>Insurance and evacuation</strong></h2>
 <p>This is not optional and it is not the place to save money. Your policy must cover trekking to the maximum altitude on your itinerary, and it must cover helicopter evacuation. Read the altitude clause specifically - many standard policies stop at 4,000m, which is below where you will be walking for days.</p>
-<p>In Pakistan, helicopter rescue is arranged through the authorities and normally requires a financial guarantee in advance. We will explain how this works for your group before departure, and we need your insurance details before the trek starts.</p>
+<p>In Pakistan, helicopter rescue is arranged through the authorities and normally requires a financial guarantee in advance. We will explain how this works for your group before departure, and we need your insurance details before the trek starts. Our <a href="/blog/travel-insurance-for-trekking-in-pakistan/">travel insurance guide for trekking in Pakistan</a> lists what the policy must cover.</p>
 
 <h2><strong>Permits and paperwork</strong></h2>
-<p>The route passes through Central Karakoram National Park, so park fees and trekking registration apply, and foreign trekkers are registered before leaving Skardu. We handle the permits, the registration and the Askole road arrangements - what we need from you is your passport details and arrival dates well in advance.</p>
+<p>The route passes through Central Karakoram National Park, so park fees and trekking registration apply, and foreign trekkers are registered before leaving Skardu. We handle the permits, the registration and the Askole road arrangements - what we need from you is your passport details and arrival dates well in advance. Our <a href="/blog/pakistan-trekking-permits-visa/">Pakistan trekking permit and visa guide</a> explains each step.</p>
 
 <h2><strong>Food, water and the small things</strong></h2>
 <p>Our cook travels with the group and meals are cooked fresh at camp - the food is better than most people expect. Water is boiled or treated; carry a bottle you can refill rather than relying on plastic. Tell us about dietary requirements when you book, not at the first camp, as supplies are carried in from Skardu.</p>

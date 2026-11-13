@@ -5,8 +5,8 @@ permalink: /why-choose-us/
 published: true
 featured: true
 summary: >-
-  Local Skardu knowledge, flexible private planning and direct communication for journeys across
-  Gilgit-Baltistan.
+  Why travel with Karakoram Vision Pakistan: local Skardu knowledge, flexible private planning
+  and direct communication for journeys across Gilgit-Baltistan.
 answer_summary: >-
   Local Skardu knowledge, flexible private planning and direct communication for journeys across
   Gilgit-Baltistan.

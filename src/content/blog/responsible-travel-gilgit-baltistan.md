@@ -84,7 +84,7 @@ layout: layouts/post.njk
 
 <h2><strong>Spending where it stays</strong></h2>
 <p>The money that helps most is the money that stays in the valley: local guest houses, family-run hotels, village cooks, local drivers and porters, and craft bought directly from the people who made it. Bargaining hard over small amounts in a village shop saves you very little and costs the seller a great deal.</p>
-<p>Choosing a locally based operator has the same effect. We are based in Skardu, our guides, drivers and cooks are from these valleys, and the wages stay here.</p>
+<p>Choosing a locally based operator has the same effect. We are based in Skardu, our guides, drivers and cooks are from these valleys, and the wages stay here.</p><p>On the big glacier treks, such as the <a href="/trekking/k2-base-camp-trek/">K2 base camp trek</a> and the <a href="/trekking/gondogoro-la-circuit-trek/">Gondogoro La trek</a>, porter welfare matters most. Before you book with any operator, ask about load limits, wages, insurance and the clothing and shelter porters are given.</p>
 
 <h2><strong>Wildlife</strong></h2>
 <p>Deosai is home to the Himalayan brown bear, a protected and still-recovering population. If you see one, stay in the vehicle, keep your distance, and do not approach or try to attract it for a photograph. The same applies to ibex and markhor in the side valleys. Feeding wild animals, and leaving food waste that attracts them to campsites, puts both animals and people at risk.</p>
