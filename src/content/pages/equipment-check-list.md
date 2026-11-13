@@ -6,9 +6,9 @@ layout: layouts/page.njk
 published: true
 featured: true
 summary: >-
-  The packing list we send our own guests before a trek or expedition in the Karakoram: documents,
-  clothing in layers, footwear, sleeping gear, a first-aid kit and the technical equipment needed on
-  expeditions, with notes on porter weight limits and on what you can buy or rent in Skardu.
+  The trekking equipment list we send our own guests before a trek or expedition in the
+  Karakoram: documents, layered clothing, footwear, sleeping gear, first aid and technical
+  kit.
 cover_image: /assets/uploads/1792996316377-Equipment-checklist.webp
 cover_image_alt: Trekking equipment laid out before a Karakoram expedition
 categories: []

@@ -9,7 +9,7 @@ fixed_departure: false
 departure_type: Custom
 trip_status: Available
 summary: >-
-  An eight-day cultural journey through Gilgit, Nagar and Hunza with forts, village walks and
+  A Hunza valley tour package through Gilgit, Nagar and Hunza, with forts, village walks and
   Karakoram Highway viewpoints.
 answer_summary: >-
   An eight-day cultural journey through Gilgit, Nagar and Hunza with forts, village walks and

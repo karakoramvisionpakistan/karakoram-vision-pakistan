@@ -5,9 +5,9 @@ permalink: /blog/k2-base-camp-trek-cost/
 published: true
 featured: true
 summary: >-
-  Our scheduled K2 Base Camp trek departures start from USD 2,000 per person for groups of 10 or
-  more. Smaller and private groups are priced individually. This guide explains what the price
-  covers, what it does not, and why one quote can be higher than another.
+  The K2 base camp trek cost on our scheduled departures starts from USD 2,000 per person for
+  groups of 10 or more. Smaller and private groups are priced individually, and this guide
+  explains what the price covers.
 answer_summary: >-
   Our scheduled K2 Base Camp trek departures start from USD 2,000 per person for groups of 10 or
   more. Smaller and private groups are priced individually. This guide explains what the price

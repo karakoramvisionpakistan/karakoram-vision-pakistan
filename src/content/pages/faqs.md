@@ -5,8 +5,8 @@ permalink: /faqs/
 published: true
 featured: true
 summary: >-
-  Answers about booking, seasons, trekking, visas, permits, insurance and safety for trips in
-  northern Pakistan.
+  Pakistan travel FAQ: answers about booking, seasons, trekking, visas, permits, insurance and
+  safety for trips in northern Pakistan.
 answer_summary: >-
   Answers about booking, seasons, trekking, visas, permits, insurance and safety for trips in
   northern Pakistan.

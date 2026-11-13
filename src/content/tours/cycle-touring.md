@@ -9,8 +9,8 @@ featured: true
 menu_sections: []
 trip_status: Available
 summary: >-
-  Experience the breathtaking beauty of Pakistan on an unforgettable cycling adventure with
-  Karakoram Vision Pakistan.
+  A Karakoram Highway cycling tour with Karakoram Vision Pakistan, riding through the mountain
+  valleys of northern Pakistan.
 cover_image: /assets/uploads/1793431509638-Cycling-on-KKH.webp
 gallery:
   - /assets/uploads/1793431549334-Attabad-Lake.webp

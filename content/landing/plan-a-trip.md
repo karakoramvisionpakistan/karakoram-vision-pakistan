@@ -2,8 +2,8 @@
 url: /plan-a-trip/
 title: Plan a Custom Trip to Pakistan
 summary: >-
-  Tell Karakoram Vision Pakistan where you want to travel and our team will
-  prepare a tailored proposal.
+  Plan a custom Pakistan tour: tell us where you want to travel and our team will prepare a
+  tailored proposal.
 hero_eyebrow: Custom journey planner
 section_eyebrow: Prefer instant messaging?
 section_heading: Email, WhatsApp or another contact app

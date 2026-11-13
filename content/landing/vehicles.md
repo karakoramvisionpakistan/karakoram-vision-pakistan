@@ -2,8 +2,8 @@
 url: /vehicles/
 title: Vehicle Rental in Skardu and Gilgit
 summary: >-
-  Mountain jeeps, SUVs, vans, coasters and transport options for tours and
-  expeditions.
+  Vehicle rental in Skardu: mountain jeeps, SUVs, vans and coasters with drivers for tours,
+  treks and expeditions.
 hero_eyebrow: Ground transport
 section_eyebrow: Choose your transport
 section_heading: Available vehicles

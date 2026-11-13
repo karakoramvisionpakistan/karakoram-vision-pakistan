@@ -2,8 +2,8 @@
 url: /guest-reviews/
 title: Karakoram Vision Pakistan Guest Reviews
 summary: >-
-  Traveler feedback and verified journey experiences with Karakoram Vision
-  Pakistan.
+  Karakoram Vision Pakistan reviews: feedback from travellers on our tours, treks and
+  expeditions in northern Pakistan.
 hero_eyebrow: Traveler experiences
 seo_title: Guest Reviews & Testimonials | Karakoram Vision Pakistan
 seo_description: >-

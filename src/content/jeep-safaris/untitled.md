@@ -12,11 +12,8 @@ fixed_departure: false
 departure_type: Custom
 trip_status: Available
 summary: >-
-  The Northern Areas of Pakistan are a breathtakingly beautiful and geologically fascinating region,
-  encompassing Gilgit-Baltistan and parts of Khyber Pakhtunkhwa, including Chitral, Swat, Mansehra,
-  and Naran. This region is renowned for its majestic landscapes, which include some of the highest
-  mountains in the world, such as K2 and Nanga Parbat, along with vast glaciers, serene valleys, and
-  crystal-clear lakes. 
+  A 22-day northern Pakistan jeep safari through Gilgit-Baltistan and parts of Khyber
+  Pakhtunkhwa, including Chitral, Swat and Mansehra.
 answer_summary: >-
   The Northern Areas of Pakistan are a breathtakingly beautiful and geologically fascinating region,
   encompassing Gilgit-Baltistan and parts of Khyber Pakhtunkhwa, including Chitral, Swat, Mansehra,

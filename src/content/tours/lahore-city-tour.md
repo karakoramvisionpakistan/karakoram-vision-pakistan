@@ -10,8 +10,8 @@ menu_sections:
   - City Tours
 trip_status: Available
 summary: >-
-  Discover the rich history, magnificent architecture, and cultural treasures of Lahore, famously
-  known as the Heart of Pakistan.
+  A Lahore city tour of the history, architecture and cultural treasures of Lahore, known as
+  the heart of Pakistan.
 cover_image: /assets/uploads/1793426522247-Minare-Pak.webp
 gallery:
   - /assets/uploads/1793426556018-Badshahi-Mosque.webp

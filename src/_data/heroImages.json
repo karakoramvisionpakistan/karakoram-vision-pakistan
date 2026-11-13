@@ -982,6 +982,44 @@
       }
     ]
   },
+  "/assets/uploads/1793287396814-Faisal-Mosque.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793287396814-faisal-mosque--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1793287396814-faisal-mosque--wide-1800.webp",
+        "w": 1800,
+        "h": 1125
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793287396814-faisal-mosque--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793287396814-faisal-mosque--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793287396814-faisal-mosque--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793287396814-faisal-mosque--tall-633.webp",
+        "w": 633,
+        "h": 1125
+      }
+    ]
+  },
   "/assets/uploads/1793270184022-Baltit-fort-kvp.webp": {
     "wide": [
       {
@@ -1028,6 +1066,39 @@
       }
     ]
   },
+  "/assets/uploads/1793431553100-Hunza.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793431553100-hunza--wide-1200.webp",
+        "w": 1200,
+        "h": 750
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793431553100-hunza--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793431553100-hunza--mid-1003.webp",
+        "w": 1003,
+        "h": 802
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793431553100-hunza--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793431553100-hunza--tall-451.webp",
+        "w": 451,
+        "h": 802
+      }
+    ]
+  },
   "/assets/uploads/1793426522247-Minare-Pak.webp": {
     "wide": [
       {
@@ -1048,6 +1119,67 @@
         "src": "/assets/hero/1793426522247-minare-pak--tall-249.webp",
         "w": 249,
         "h": 443
+      }
+    ]
+  },
+  "/assets/uploads/1793431556794-Khunjerab.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793431556794-khunjerab--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1793431556794-khunjerab--wide-1920.webp",
+        "w": 1920,
+        "h": 1200
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793431556794-khunjerab--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793431556794-khunjerab--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793431556794-khunjerab--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793431556794-khunjerab--tall-750.webp",
+        "w": 750,
+        "h": 1333
+      }
+    ]
+  },
+  "/assets/uploads/1793426556018-Badshahi-Mosque.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793426556018-badshahi-mosque--wide-494.webp",
+        "w": 494,
+        "h": 309
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793426556018-badshahi-mosque--mid-494.webp",
+        "w": 494,
+        "h": 395
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793426556018-badshahi-mosque--tall-348.webp",
+        "w": 348,
+        "h": 619
       }
     ]
   },
@@ -1109,6 +1241,44 @@
         "src": "/assets/hero/1793270667431-spting-blossom--tall-338.webp",
         "w": 338,
         "h": 601
+      }
+    ]
+  },
+  "/assets/uploads/1792933340671-Nanga-Parbat.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1792933340671-nanga-parbat--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1792933340671-nanga-parbat--wide-1920.webp",
+        "w": 1920,
+        "h": 1200
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1792933340671-nanga-parbat--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1792933340671-nanga-parbat--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1792933340671-nanga-parbat--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1792933340671-nanga-parbat--tall-840.webp",
+        "w": 840,
+        "h": 1493
       }
     ]
   },
@@ -1346,6 +1516,44 @@
       }
     ]
   },
+  "/assets/uploads/1793536367814-Passu-Cons.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793536367814-passu-cons--wide-1280.webp",
+        "w": 1280,
+        "h": 800
+      },
+      {
+        "src": "/assets/hero/1793536367814-passu-cons--wide-1600.webp",
+        "w": 1600,
+        "h": 1000
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793536367814-passu-cons--mid-840.webp",
+        "w": 840,
+        "h": 672
+      },
+      {
+        "src": "/assets/hero/1793536367814-passu-cons--mid-1400.webp",
+        "w": 1400,
+        "h": 1120
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793536367814-passu-cons--tall-420.webp",
+        "w": 420,
+        "h": 747
+      },
+      {
+        "src": "/assets/hero/1793536367814-passu-cons--tall-675.webp",
+        "w": 675,
+        "h": 1200
+      }
+    ]
+  },
   "/assets/uploads/1793433698734-Thalay-Broq.webp": {
     "wide": [
       {
@@ -1511,6 +1719,29 @@
         "src": "/assets/hero/1792933304428-nanga-copy--tall-270.webp",
         "w": 270,
         "h": 480
+      }
+    ]
+  },
+  "/assets/uploads/1793541404424-Rakaposhi.webp": {
+    "wide": [
+      {
+        "src": "/assets/hero/1793541404424-rakaposhi--wide-400.webp",
+        "w": 400,
+        "h": 250
+      }
+    ],
+    "mid": [
+      {
+        "src": "/assets/hero/1793541404424-rakaposhi--mid-400.webp",
+        "w": 400,
+        "h": 320
+      }
+    ],
+    "tall": [
+      {
+        "src": "/assets/hero/1793541404424-rakaposhi--tall-281.webp",
+        "w": 281,
+        "h": 500
       }
     ]
   },

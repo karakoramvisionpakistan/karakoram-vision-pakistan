@@ -164,6 +164,16 @@
     "w": 640,
     "h": 336
   },
+  "/assets/uploads/1793540535502-Concordia.webp": {
+    "src": "/assets/og/1793540535502-concordia.jpg",
+    "w": 1200,
+    "h": 630
+  },
+  "/assets/uploads/1793541404424-Rakaposhi.webp": {
+    "src": "/assets/og/1793541404424-rakaposhi.jpg",
+    "w": 400,
+    "h": 210
+  },
   "/assets/uploads/1792996783273-Spantik-peak.KVP.webp": {
     "src": "/assets/og/1792996783273-spantik-peak-kvp.jpg",
     "w": 1200,
@@ -249,6 +259,11 @@
     "w": 640,
     "h": 336
   },
+  "/assets/uploads/1793287396814-Faisal-Mosque.webp": {
+    "src": "/assets/og/1793287396814-faisal-mosque.jpg",
+    "w": 1200,
+    "h": 630
+  },
   "/assets/uploads/1793270184022-Baltit-fort-kvp.webp": {
     "src": "/assets/og/1793270184022-baltit-fort-kvp.jpg",
     "w": 640,
@@ -259,10 +274,25 @@
     "w": 547,
     "h": 287
   },
+  "/assets/uploads/1793431553100-Hunza.webp": {
+    "src": "/assets/og/1793431553100-hunza.jpg",
+    "w": 1200,
+    "h": 630
+  },
   "/assets/uploads/1793426522247-Minare-Pak.webp": {
     "src": "/assets/og/1793426522247-minare-pak.jpg",
     "w": 690,
     "h": 362
+  },
+  "/assets/uploads/1793431556794-Khunjerab.webp": {
+    "src": "/assets/og/1793431556794-khunjerab.jpg",
+    "w": 1200,
+    "h": 630
+  },
+  "/assets/uploads/1793426556018-Badshahi-Mosque.webp": {
+    "src": "/assets/og/1793426556018-badshahi-mosque.jpg",
+    "w": 494,
+    "h": 259
   },
   "/assets/uploads/1793270418264-Skardu-City.webp": {
     "src": "/assets/og/1793270418264-skardu-city.jpg",
@@ -274,8 +304,8 @@
     "w": 510,
     "h": 268
   },
-  "/assets/uploads/1793540535502-Concordia.webp": {
-    "src": "/assets/og/1793540535502-concordia.jpg",
+  "/assets/uploads/1792933340671-Nanga-Parbat.webp": {
+    "src": "/assets/og/1792933340671-nanga-parbat.jpg",
     "w": 1200,
     "h": 630
   },
@@ -298,6 +328,11 @@
     "src": "/assets/og/1793271552139-rakaposhi-trek-kvp.jpg",
     "w": 678,
     "h": 356
+  },
+  "/assets/uploads/1793536367814-Passu-Cons.webp": {
+    "src": "/assets/og/1793536367814-passu-cons.jpg",
+    "w": 1200,
+    "h": 630
   },
   "/assets/uploads/1793433698734-Thalay-Broq.webp": {
     "src": "/assets/og/1793433698734-thalay-broq.jpg",

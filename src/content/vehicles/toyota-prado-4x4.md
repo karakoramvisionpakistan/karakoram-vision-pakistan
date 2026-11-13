@@ -5,8 +5,8 @@ permalink: /vehicles/toyota-prado-4x4/
 published: true
 featured: true
 summary: >-
-  Comfortable 4x4 transport for private road journeys, airport transfers and selected mountain
-  routes.
+  Toyota Prado rental in Skardu: comfortable 4x4 transport for private road journeys, airport
+  transfers and selected mountain routes.
 cover_image: /assets/uploads/1792994729639-Prado.webp
 cover_image_alt: Toyota Prado 4x4 on a mountain road in Gilgit-Baltistan
 vehicle_type: Toyota Prado 4x4

@@ -9,8 +9,8 @@ fixed_departure: false
 departure_type: Custom
 trip_status: Available
 summary: >-
-  A six-day private jeep journey combining Shigar heritage, Basho landscapes and the Shyok Valley
-  road to Khaplu.
+  A six-day Skardu jeep safari combining Shigar heritage, the Basho valley and the Shyok
+  Valley road to Khaplu.
 answer_summary: >-
   A six-day private jeep journey combining Shigar heritage, Basho landscapes and the Shyok Valley
   road to Khaplu.

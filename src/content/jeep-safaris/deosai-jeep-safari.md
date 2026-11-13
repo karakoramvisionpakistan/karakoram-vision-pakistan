@@ -9,8 +9,8 @@ fixed_departure: false
 departure_type: Custom
 trip_status: Available
 summary: >-
-  A five-day 4x4 programme through Skardu and the Deosai Plateau, operated only when seasonal roads
-  are officially open.
+  A five-day Deosai jeep safari from Skardu across the Deosai Plateau, run only when the
+  seasonal road is officially open.
 answer_summary: >-
   A five-day 4x4 programme through Skardu and the Deosai Plateau, operated only when seasonal roads
   are officially open.

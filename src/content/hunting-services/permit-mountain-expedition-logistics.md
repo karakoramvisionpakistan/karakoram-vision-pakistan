@@ -9,8 +9,8 @@ fixed_departure: false
 departure_type: Private
 trip_status: Available
 summary: >-
-  Compliance-first travel and field-logistics consultation for officially authorized wildlife
-  programmes in Pakistan.
+  Ibex hunting in Pakistan under officially authorized conservation programmes:
+  compliance-first travel and field logistics in Gilgit-Baltistan.
 answer_summary: >-
   Compliance-first travel and field-logistics consultation for officially authorized wildlife
   programmes in Pakistan.

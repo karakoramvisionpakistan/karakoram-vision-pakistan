@@ -2,8 +2,8 @@
 url: /hunting-services/
 title: Licensed Hunting Services in Gilgit-Baltistan
 summary: >-
-  Compliance-led logistics and travel coordination for officially authorized
-  conservation programmes.
+  Trophy hunting in Pakistan under officially authorized conservation programmes, with
+  compliance-led logistics and travel coordination.
 seo_title: Hunting Permits & Logistics in Pakistan | Karakoram Vision
 seo_description: >-
   Permit paperwork, trophy-area access, guides and camps for officially

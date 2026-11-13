@@ -5,8 +5,8 @@ permalink: /about-us/
 published: true
 featured: true
 summary: >-
-  Karakoram Vision Pakistan is a Skardu-based travel company planning tours, treks, expeditions and
-  mountain transport across northern Pakistan.
+  Karakoram Vision Pakistan is a licensed tour operator in Skardu, planning tours, treks,
+  expeditions and mountain transport across northern Pakistan.
 answer_summary: >-
   Karakoram Vision Pakistan is a Skardu-based travel company planning tours, treks, expeditions and
   mountain transport across northern Pakistan.

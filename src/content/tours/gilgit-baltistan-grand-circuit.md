@@ -9,8 +9,8 @@ fixed_departure: false
 departure_type: Custom
 trip_status: Available
 summary: >-
-  A twelve-day private circuit covering Gilgit, Hunza, Skardu, Shigar and Khaplu with scenic road
-  travel.
+  A Gilgit-Baltistan tour covering Gilgit, Hunza, Skardu, Shigar and Khaplu on a private road
+  circuit.
 answer_summary: >-
   A twelve-day private circuit covering Gilgit, Hunza, Skardu, Shigar and Khaplu with scenic road
   travel.

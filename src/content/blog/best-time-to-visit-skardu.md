@@ -5,8 +5,8 @@ permalink: /blog/best-time-to-visit-skardu/
 published: true
 featured: false
 summary: >-
-  A month-by-month guide to Skardu: when the roads and lakes open, when Deosai is reachable, when
-  autumn colour peaks, and what each season actually feels like.
+  The best time to visit Skardu, month by month: when the roads and lakes open, when Deosai is
+  reachable, when autumn colour peaks, and what each season feels like.
 answer_summary: >-
   A month-by-month guide to Skardu: when the roads and lakes open, when Deosai is reachable, when
   autumn colour peaks, and what each season actually feels like.

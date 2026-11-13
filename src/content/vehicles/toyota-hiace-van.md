@@ -4,7 +4,9 @@ slug: toyota-hiace-van
 permalink: /vehicles/toyota-hiace-van/
 published: true
 featured: true
-summary: Group transport for tours, city transfers and long road journeys with luggage planning.
+summary: >-
+  Toyota Hiace rental in Skardu for group transport, city transfers and long road journeys,
+  with luggage planning.
 cover_image: /assets/uploads/1792994704174-Hiace-Van.webp
 cover_image_alt: Toyota Hiace van parked on the Karakoram Highway
 vehicle_type: Toyota Hiace Van

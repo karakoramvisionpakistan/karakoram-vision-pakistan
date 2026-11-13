@@ -2,9 +2,8 @@
 url: /travel-resources/
 title: Pakistan Travel Resources
 summary: >-
-  Use these guides as a starting point for fitness, gear, insurance, health,
-  visas, altitude and responsible mountain travel. Final requirements vary by
-  route and season.
+  Pakistan travel resources: guides to fitness, gear, insurance, health, visas, altitude and
+  responsible mountain travel. Requirements vary by route and season.
 hero_eyebrow: Prepare with confidence
 section_eyebrow: Need a specific answer?
 section_heading: Talk directly with the travel team

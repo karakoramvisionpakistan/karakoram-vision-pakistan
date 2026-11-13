@@ -2,8 +2,8 @@
 url: /destinations/
 title: Destinations in Northern Pakistan
 summary: >-
-  Explore Pakistan’s mountain regions, heritage cities, valleys, national parks
-  and trekking gateways.
+  Places to visit in northern Pakistan: travel guides to Hunza, Skardu, Fairy Meadows, Deosai,
+  Shigar and Khaplu, with how to get there and when to go.
 hero_eyebrow: Where will you go next?
 section_eyebrow: Explore by place
 section_heading: Popular destinations

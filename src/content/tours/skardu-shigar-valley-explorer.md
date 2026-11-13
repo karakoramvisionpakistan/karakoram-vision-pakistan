@@ -9,8 +9,8 @@ fixed_departure: false
 departure_type: Custom
 trip_status: Available
 summary: >-
-  A seven-day Skardu holiday combining lakes, Shigar heritage, Sarfaranga landscapes and flexible
-  day excursions.
+  A Skardu tour package combining the lakes, Shigar heritage, the Sarfaranga cold desert and
+  flexible day excursions.
 answer_summary: >-
   A seven-day Skardu holiday combining lakes, Shigar heritage, Sarfaranga landscapes and flexible
   day excursions.

@@ -5,8 +5,8 @@ permalink: /blog/northern-pakistan-packing-checklist/
 published: true
 featured: false
 summary: >-
-  What to actually pack for northern Pakistan, by trip type - clothing, footwear, documents and
-  health kit, plus the gear you can hire in Skardu instead of carrying from home.
+  A northern Pakistan packing list by trip type: clothing, footwear, documents and health kit,
+  plus the gear you can hire in Skardu instead of carrying from home.
 answer_summary: >-
   What to actually pack for northern Pakistan, by trip type - clothing, footwear, documents and
   health kit, plus the gear you can hire in Skardu instead of carrying from home.

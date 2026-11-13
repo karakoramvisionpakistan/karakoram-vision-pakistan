@@ -394,15 +394,35 @@
     }
   ],
   "hidden": [
+    "src/content/expeditions/masherbrum-expedition.md",
+    "src/content/expeditions/pastore-peak-expedition.md",
+    "src/content/expeditions/rakaposhi-expedition.md",
+    "src/content/tours/classic-pakistan-tour.md",
+    "src/content/tours/gandhara-buddhist-heritage-tour.md",
+    "src/content/tours/kalash-chilam-joshi-festival-tour.md",
+    "src/content/tours/shandur-polo-festival-tour.md",
+    "src/content/tours/sikh-pilgrimage-tour.md",
+    "src/content/trekking/around-nanga-parbat-trek.md",
     "src/content/trekking/five-8000m-base-camp-trek.md",
     "src/content/trekking/k2-concordia-trek.md",
+    "src/content/trekking/shimshal-pass-trek.md",
     "src/content/vehicles/coaster-group-transport.md",
     "src/international-travelers/index.njk"
   ],
   "hiddenUrls": [
+    "/expeditions/masherbrum-expedition/",
+    "/expeditions/pastore-peak-expedition/",
+    "/expeditions/rakaposhi-expedition/",
     "/international-travelers/",
+    "/tours/classic-pakistan-tour/",
+    "/tours/gandhara-buddhist-heritage-tour/",
+    "/tours/kalash-chilam-joshi-festival-tour/",
+    "/tours/shandur-polo-festival-tour/",
+    "/tours/sikh-pilgrimage-tour/",
+    "/trekking/around-nanga-parbat-trek/",
     "/trekking/five-8000m-base-camp-trek/",
     "/trekking/k2-concordia-trek/",
+    "/trekking/shimshal-pass-trek/",
     "/vehicles/coaster-group-transport/"
   ],
   "redirects": []
