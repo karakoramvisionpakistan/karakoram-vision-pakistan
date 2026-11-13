@@ -173,7 +173,7 @@ itinerary:
     description: A long day up the Godwin-Austen Glacier. You pass Broad Peak base camp on the way and
       continue to the base of K2, then return to Concordia in the afternoon. Two of the five base camps
       are reached today.
-    altitude: 5,000 m (sleep at 4,600 m)
+    altitude: 5,100 m (sleep at 4,600 m)
     overnight: Camping
   - day: '13'
     title: Concordia recovery

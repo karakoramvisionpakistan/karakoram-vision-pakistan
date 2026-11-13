@@ -32,6 +32,17 @@ faqs:
     answer: >-
       Yes, in the town itself, but not in the side valleys or on any trekking route. Carry enough
       cash for the whole trip, including tips.
+  - question: "What are the best places to visit in Skardu?"
+    answer: >-
+      Shangrila and Upper Kachura lakes, the cold deserts of Katpana and Sarfaranga, Kharpocho
+      Fort, and day trips to Shigar, Khaplu and the Deosai plateau.
+  - question: "How high is Skardu?"
+    answer: >-
+      Skardu town is at around 2,200 to 2,500 metres, where the Indus and Shigar rivers meet.
+  - question: "When is the best time to visit Skardu?"
+    answer: >-
+      April for blossom, June to September when every road including Deosai is open, and
+      mid-October for autumn colour and the clearest air.
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"

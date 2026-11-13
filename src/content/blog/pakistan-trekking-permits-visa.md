@@ -27,8 +27,8 @@ faqs:
   - question: Do I need a permit to trek in Pakistan?
     answer: >-
       Only in restricted areas. Many valleys in Gilgit-Baltistan and Chitral are open and need no
-      permit. The best-known routes, including the Baltoro to K2 base camp, the Gondogoro La and the
-      Biafo-Hispar, are in restricted zones, where a trekking permit, a licensed guide and porters
+      permit. The best-known routes, including the Baltoro to K2 base camp and the Gondogoro La,
+      are in restricted zones, where a trekking permit, a licensed guide and porters
       are compulsory.
   - question: Which visa do I need for the K2 base camp trek?
     answer: >-
@@ -80,7 +80,7 @@ date: "2026-11-07"
 </ul>
 <p>You will need a passport valid for at least six months, a recent photo, your itinerary and the invitation or confirmation letter from your tour operator, which we send you after booking. Visa fees depend on your nationality and are shown on the portal when you apply.</p>
 <h2><strong>Step 2: does your route need a permit?</strong></h2>
-<p>Gilgit-Baltistan has <strong>open areas</strong>, where you can trek without a permit, and <strong>restricted areas</strong>, where a permit is required before you set off. The Baltoro and K2, the Gondogoro La, Snow Lake and the Biafo and Hispar glaciers are all restricted. So are the border strips: the area along the Line of Control and the strip along the Wakhan corridor, where photography is not allowed.</p>
+<p>Gilgit-Baltistan has <strong>open areas</strong>, where you can trek without a permit, and <strong>restricted areas</strong>, where a permit is required before you set off. The Baltoro and K2 and the Gondogoro La are restricted. The Biafo and Hispar glaciers and Snow Lake are in an open zone. So are the border strips: the area along the Line of Control and the strip along the Wakhan corridor, where photography is not allowed.</p>
 <p>In restricted areas the rules are simple: you must trek with a <strong>licensed guide and porters</strong>, organised by a licensed tour operator. Solo, unregistered trekking is not allowed there.</p>
 <h2><strong>Step 3: the trekking permit</strong></h2>
 <p>Your tour operator applies to the Gilgit-Baltistan Tourism Department with:</p>

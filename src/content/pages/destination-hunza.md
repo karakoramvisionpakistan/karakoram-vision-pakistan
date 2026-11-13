@@ -29,6 +29,22 @@ faqs:
     answer: >-
       Very much so. The roads are good by mountain standards, nothing requires trekking, and the
       valley is relaxed and used to visitors.
+  - question: "Where is Hunza valley?"
+    answer: >-
+      Hunza runs along the Karakoram Highway in northern Gilgit-Baltistan, from about 2,000 metres
+      at the river to the Khunjerab Pass on the Chinese border.
+  - question: "How do you get to Hunza from Islamabad?"
+    answer: >-
+      By road along the Karakoram Highway, a long two-day drive broken at Chilas or Naran. Hunza
+      is two to three hours north of Gilgit, and flights to Gilgit depend on the weather.
+  - question: "What are the best places to visit in Hunza?"
+    answer: >-
+      Baltit and Altit forts, Attabad Lake, the Passu Cones and the Hussaini suspension bridge,
+      Eagle's Nest above Duikar, and Khunjerab Pass.
+  - question: "What is the best time to visit Hunza?"
+    answer: >-
+      Late March to mid-April for blossom, May to September for warm days and an open Khunjerab
+      Pass, and mid-October to early November for autumn colour.
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
 last_verified: "2026-07-14"

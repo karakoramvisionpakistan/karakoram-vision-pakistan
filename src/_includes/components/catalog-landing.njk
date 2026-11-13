@@ -19,4 +19,5 @@
   </div>
   {% if items.length > 24 %}<div class="bk-load-more" hx-get="/api/catalog?type={{ service_type }}&page=2" hx-trigger="revealed" hx-swap="outerHTML"><span>Loading more {{ title | lower }}…</span></div>{% endif %}
 </section>
+{% if guide_html %}<section class="bk-catalog-shell bk-landing-guide"><div class="mx-auto max-w-3xl space-y-4 text-base leading-relaxed text-slate-700">{{ guide_html | safe }}</div></section>{% endif %}
 <section class="bk-landing-cta"><div><p class="eyebrow">Need a tailored itinerary?</p><h2>Build this journey around your dates and group</h2><p>Share your route, preferred comfort level, budget and travel window.</p></div><a href="/plan-a-trip/?service={{ title | urlencode }}#trip-request-form">Plan a custom trip</a></section>
