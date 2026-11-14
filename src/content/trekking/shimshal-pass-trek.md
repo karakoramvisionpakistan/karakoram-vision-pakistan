@@ -3,18 +3,25 @@ title: Shimshal Pass Trek
 slug: shimshal-pass-trek
 permalink: /trekking/shimshal-pass-trek/
 published: false
-featured: false
+featured: true
 best_seller: false
 fixed_departure: false
 departure_type: Custom
-trip_status: Draft
-summary: A 16-day trek from Shimshal village, the highest settlement in upper Hunza, to the Shimshal Pass
+trip_status: Available
+summary: >-
+  A 16-day trek from Shimshal village, the highest settlement in upper Hunza, to the Shimshal Pass
   (4,735 m) and its lakes in the Shimshal Pamir.
-answer_summary: A 16-day trek from Shimshal village, the highest settlement in upper Hunza, to the Shimshal
-  Pass (4,735 m) and its lakes in the Shimshal Pamir.
-cover_image: /assets/uploads/1793536367814-Passu-Cons.webp
+answer_summary: >-
+  A 16-day trek from Shimshal village, the highest settlement in upper Hunza, to the Shimshal Pass
+  (4,735 m) and its lakes in the Shimshal Pamir.
+cover_image: /assets/uploads/1794638959119-shimshal-trek.webp
 cover_image_alt: The Passu Cones above the upper Hunza valley
-gallery: []
+gallery:
+  - /assets/uploads/1794638993525-mingling-sar.webp
+  - /assets/uploads/1794638995959-shimshal-pass-.webp
+  - /assets/uploads/1794638998557-shimshal-pass-trek.webp
+  - /assets/uploads/1794639001065-shimshal-trek.webp
+  - /assets/uploads/1794639003402-shimshal-village.webp
 duration: 16 Days
 price_from: On request
 deposit: 50 %
@@ -66,96 +73,98 @@ key_facts:
     value: Private dates on request
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
-last_verified: '2026-11-13'
+last_verified: "2026-11-13"
 packing_list:
-  - "Broken-in trekking boots and camp shoes"
-  - "Sleeping bag rated to -10C or lower"
-  - "Insulated jacket, fleece and waterproof shell"
-  - "Trekking trousers, thermal base layers and warm socks"
-  - "Daypack of 30-40 litres"
-  - "Trekking poles, head torch and spare batteries"
-  - "Sun hat, glacier sunglasses and high-factor sunscreen"
-  - "Water bottles or hydration bladder and purification tablets"
-  - "Personal medication, blister kit and basic first aid"
-  - "Power bank - there is no mains electricity on trek"
+  - Broken-in trekking boots and camp shoes
+  - Sleeping bag rated to -10C or lower
+  - Insulated jacket, fleece and waterproof shell
+  - Trekking trousers, thermal base layers and warm socks
+  - Daypack of 30-40 litres
+  - Trekking poles, head torch and spare batteries
+  - Sun hat, glacier sunglasses and high-factor sunscreen
+  - Water bottles or hydration bladder and purification tablets
+  - Personal medication, blister kit and basic first aid
+  - Power bank - there is no mains electricity on trek
 seo:
   title: Shimshal Pass Trek (4,735 m) - 16 Days | Karakoram Vision
-  description: Trek from Shimshal village to the Shimshal Pass (4,735 m) and its lakes in upper Hunza.
-    Wakhi villages and high pastures. 16 days, June to September.
+  description: >-
+    Trek from Shimshal village to the Shimshal Pass (4,735 m) and its lakes in upper Hunza. Wakhi
+    villages and high pastures. 16 days, June to September.
   keywords: shimshal pass trek, shimshal valley trek, shimshal pamir, hunza trekking
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
-  canonical: ''
-  social_image: /assets/uploads/1793536367814-Passu-Cons.webp
+  canonical: ""
+  social_image: /assets/uploads/1794638995959-shimshal-pass-.webp
 layout: layouts/journey.njk
 service_type: trekking
 service_label: Trekking
 duration_days: 16
 menu_sections:
   - Trending Treks
+  - Best Sellers
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Arrival in Islamabad
     description: Meet at the airport and transfer to the hotel.
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Fly to Gilgit
     description: A morning flight to Gilgit, or the drive to Chilas if the flight is cancelled.
     overnight: Hotel
-  - day: '03'
+  - day: "03"
     title: Drive to Karimabad
     description: Up the Karakoram Highway to Hunza.
     overnight: Hotel
-  - day: '04'
+  - day: "04"
     title: Drive to Shimshal
     description: By jeep on the Shimshal road, four to five hours, to the village.
     overnight: Guesthouse
-  - day: '05'
+  - day: "05"
     title: Shimshal village
     description: A day to rest, walk around the village and meet Wakhi families.
     overnight: Guesthouse
-  - day: '06'
+  - day: "06"
     title: Trek to Wuch Furzeen
     description: Out of the village and up the valley.
     overnight: Camping
-  - day: '07'
+  - day: "07"
     title: Trek to Purien-e-Ben
     description: Higher into the summer pasture country.
     overnight: Camping
-  - day: 08
+  - day: 8
     title: Reach Shimshal Pass
     description: Up to the pass and the lakes.
     altitude: 4,735 m
     overnight: Camping
-  - day: 09
+  - day: 9
     title: Day at the pass
     description: Walks around the lakes and the summer settlement at Shuwert.
     altitude: 4,735 m
     overnight: Camping
-  - day: '10'
+  - day: "10"
     title: Return to Purien-e-Ben
     description: The walk back begins.
     overnight: Camping
-  - day: '11'
+  - day: "11"
     title: Trek to Wuch Furzeen
     description: Down the valley.
     overnight: Camping
-  - day: '12'
+  - day: "12"
     title: Trek to Shimshal village
     description: Back to the village.
     overnight: Guesthouse
-  - day: '13'
+  - day: "13"
     title: Drive to Karimabad
     description: By jeep back to Hunza.
     overnight: Hotel
-  - day: '14'
+  - day: "14"
     title: Drive to Gilgit
     description: Down the Karakoram Highway.
     overnight: Hotel
-  - day: '15'
+  - day: "15"
     title: Fly to Islamabad
     description: The flight to Islamabad, or the road journey if needed.
     overnight: Hotel
-  - day: '16'
+  - day: "16"
     title: Fly out
     description: Transfer to the airport.
     overnight: Not applicable
@@ -163,6 +172,7 @@ related:
   - Rush Lake Trek
   - Hunza Valley Heritage Tour
 ---
+
 <h2><strong>About this journey</strong></h2>
 <p>Shimshal is the highest village in upper Hunza and the home of Wakhi herders who take their animals over the Shimshal Pass to summer pastures every year. The trek follows their route through the Shimshal Pamir to the pass at 4,735 metres, with its lakes and wide grassland on the watershed between the Indus and the Tarim basins.</p>
 <h2><strong>How hard is it?</strong></h2>

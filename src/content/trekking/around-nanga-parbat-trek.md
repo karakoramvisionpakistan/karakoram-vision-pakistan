@@ -3,18 +3,23 @@ title: Around Nanga Parbat Trek
 slug: around-nanga-parbat-trek
 permalink: /trekking/around-nanga-parbat-trek/
 published: false
-featured: false
+featured: true
 best_seller: false
 fixed_departure: false
 departure_type: Custom
-trip_status: Draft
-summary: A 22-day trek from the Rupal face of Nanga Parbat over the Mazeno La to Fairy Meadows, crossing
+trip_status: Available
+summary: >-
+  A 22-day trek from the Rupal face of Nanga Parbat over the Mazeno La to Fairy Meadows, crossing
   half of the mountain from south to north.
-answer_summary: A 22-day trek from the Rupal face of Nanga Parbat over the Mazeno La to Fairy Meadows,
-  crossing half of the mountain from south to north.
+answer_summary: >-
+  A 22-day trek from the Rupal face of Nanga Parbat over the Mazeno La to Fairy Meadows, crossing
+  half of the mountain from south to north.
 cover_image: /assets/uploads/1792933340671-Nanga-Parbat.webp
 cover_image_alt: Nanga Parbat seen from the north
-gallery: []
+gallery:
+  - /assets/uploads/1794638321319-around-nanga.webp
+  - /assets/uploads/1794638324047-around-nangaparbat.webp
+  - /assets/uploads/1794638327087-nangaparbat-trek.webp
 duration: 22 Days
 price_from: On request
 deposit: 50 %
@@ -51,8 +56,9 @@ excluded:
   - Costs caused by flight cancellations, road closures or weather
 faqs:
   - question: Does the Around Nanga Parbat trek go all the way round the mountain?
-    answer: No. It goes about halfway round, from the Rupal valley on the south side over the Mazeno La
-      to Fairy Meadows on the north side.
+    answer: >-
+      No. It goes about halfway round, from the Rupal valley on the south side over the Mazeno La to
+      Fairy Meadows on the north side.
   - question: How high is the Mazeno La?
     answer: About 5,400 metres. It is a glacier pass crossed with ropes and crampons.
   - question: How long is the Around Nanga Parbat trek?
@@ -67,119 +73,120 @@ key_facts:
     value: Private dates on request
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
-last_verified: '2026-11-13'
+last_verified: "2026-11-13"
 packing_list:
-  - "Broken-in trekking boots and camp shoes"
-  - "Sleeping bag rated to -10C or lower"
-  - "Insulated jacket, fleece and waterproof shell"
-  - "Trekking trousers, thermal base layers and warm socks"
-  - "Daypack of 30-40 litres"
-  - "Trekking poles, head torch and spare batteries"
-  - "Sun hat, glacier sunglasses and high-factor sunscreen"
-  - "Water bottles or hydration bladder and purification tablets"
-  - "Personal medication, blister kit and basic first aid"
-  - "Power bank - there is no mains electricity on trek"
+  - Broken-in trekking boots and camp shoes
+  - Sleeping bag rated to -10C or lower
+  - Insulated jacket, fleece and waterproof shell
+  - Trekking trousers, thermal base layers and warm socks
+  - Daypack of 30-40 litres
+  - Trekking poles, head torch and spare batteries
+  - Sun hat, glacier sunglasses and high-factor sunscreen
+  - Water bottles or hydration bladder and purification tablets
+  - Personal medication, blister kit and basic first aid
+  - Power bank - there is no mains electricity on trek
 seo:
   title: Around Nanga Parbat Trek - 22 Days | Karakoram Vision
-  description: Trek from the Rupal face of Nanga Parbat over the Mazeno La to Fairy Meadows. A strenuous
-    22-day crossing of the western Himalaya from Islamabad.
+  description: >-
+    Trek from the Rupal face of Nanga Parbat over the Mazeno La to Fairy Meadows. A strenuous 22-day
+    crossing of the western Himalaya from Islamabad.
   keywords: around nanga parbat trek, mazeno la trek, rupal valley trek, nanga parbat circuit
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
-  canonical: ''
-  social_image: /assets/uploads/1792933340671-Nanga-Parbat.webp
+  canonical: ""
+  social_image: /assets/uploads/1794638372618-around-nangaparbat.webp
 layout: layouts/journey.njk
 service_type: trekking
 service_label: Trekking
 duration_days: 22
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Arrival in Islamabad
     description: Meet at the airport and transfer to the hotel.
     altitude: 507 m
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Drive to Chilas
     description: Along the Karakoram Highway or over Babusar Pass.
     overnight: Hotel
-  - day: '03'
+  - day: "03"
     title: Drive to Astore
     description: Up the Astore valley.
     overnight: Hotel
-  - day: '04'
+  - day: "04"
     title: Drive to Tarashing
     description: To the roadhead below the Rupal face.
     overnight: Camping
-  - day: '05'
+  - day: "05"
     title: Trek to Herrligkoffer base camp
     description: Under the Rupal face of Nanga Parbat.
     overnight: Camping
-  - day: '06'
+  - day: "06"
     title: Trek to Latobah
     description: Along the Rupal valley.
     overnight: Camping
-  - day: '07'
+  - day: "07"
     title: Trek to Shaigiri
     description: Further west up the valley.
     overnight: Camping
-  - day: 08
+  - day: 8
     title: Trek to Mazeno base camp
     description: To the foot of the Mazeno Glacier.
     overnight: Camping
-  - day: 09
+  - day: 9
     title: Rest at Mazeno base camp
     description: Acclimatization before the pass.
     overnight: Camping
-  - day: '10'
+  - day: "10"
     title: Trek to Mazeno high camp
     description: Up the glacier to the high camp.
     overnight: Camping
-  - day: '11'
+  - day: "11"
     title: Cross the Mazeno La
     description: An early start over the pass, about 5,400 m, and down to the meadows on the far side.
     overnight: Camping
-  - day: '12'
+  - day: "12"
     title: Trek to Zangot
     description: Down the valley on the west side of the mountain.
     overnight: Camping
-  - day: '13'
+  - day: "13"
     title: Rest at Zangot
     description: A rest day after the pass.
     overnight: Camping
-  - day: '14'
+  - day: "14"
     title: Trek to Shaichi
     description: Northward around the mountain.
     overnight: Camping
-  - day: '15'
+  - day: "15"
     title: Trek to Gutum Sagar
     description: Across high pastures.
     overnight: Camping
-  - day: '16'
+  - day: "16"
     title: Trek to Jalipur high camp
     description: Towards the north side.
     overnight: Camping
-  - day: '17'
+  - day: "17"
     title: Trek to Beyal
     description: Down to the pastures below the Raikot face.
     overnight: Camping
-  - day: '18'
+  - day: "18"
     title: Trek to Fairy Meadows
     description: A short day to the meadows.
     altitude: 3,300 m
     overnight: Guesthouse
-  - day: '19'
+  - day: "19"
     title: Nanga Parbat base camp
     description: A day walk to the base camp area below the Raikot face and back.
     overnight: Guesthouse
-  - day: '20'
+  - day: "20"
     title: Walk out and drive to Chilas
     description: Down to Tato, by jeep to Raikot Bridge and on to Chilas.
     overnight: Hotel
-  - day: '21'
+  - day: "21"
     title: Drive to Islamabad
     description: The road journey back to Islamabad.
     altitude: 507 m
     overnight: Hotel
-  - day: '22'
+  - day: "22"
     title: Fly out
     description: Transfer to the airport.
     altitude: 507 m
@@ -187,7 +194,12 @@ itinerary:
 related:
   - Nanga Parbat Base Camp Trek via Fairy Meadows
   - Fairy Meadows and Nanga Parbat View Tour
+menu_sections:
+  - Trending Treks
+  - Best Sellers
+  - Trending Treks
 ---
+
 <h2><strong>About this journey</strong></h2>
 <p>This trek crosses Nanga Parbat (8,126 m) from south to north. It starts in the Rupal valley under the Rupal face, one of the highest mountain walls on earth, follows the valley west, crosses the Mazeno La at about 5,400 metres, and works around the western side of the mountain to Fairy Meadows. Despite the name, it goes about halfway round the mountain.</p>
 <h2><strong>How hard is it?</strong></h2>

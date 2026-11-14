@@ -3,18 +3,24 @@ title: Masherbrum Expedition
 slug: masherbrum-expedition
 permalink: /expeditions/masherbrum-expedition/
 published: false
-featured: false
+featured: true
 best_seller: false
 fixed_departure: false
 departure_type: Custom
-trip_status: Draft
-summary: A 41-day expedition to Masherbrum (7,821 m), the peak first surveyed as K1, from Hushe village
+trip_status: Available
+summary: >-
+  A 41-day expedition to Masherbrum (7,821 m), the peak first surveyed as K1, from Hushe village
   through the Masherbrum valley to base camp.
-answer_summary: A 41-day expedition to Masherbrum (7,821 m), the peak first surveyed as K1, from Hushe
-  village through the Masherbrum valley to base camp.
-cover_image: /assets/uploads/1792840088009-L1280423--Copy-.webp
+answer_summary: >-
+  A 41-day expedition to Masherbrum (7,821 m), the peak first surveyed as K1, from Hushe village
+  through the Masherbrum valley to base camp.
+cover_image: /assets/uploads/1794639236100-Mashabrum-Peak.webp
 cover_image_alt: Climbers on a high glacier in the Karakoram
-gallery: []
+gallery:
+  - /assets/uploads/1794639227787-mashabrum-climb.webp
+  - /assets/uploads/1794639230190-mashabrum-peak-view.webp
+  - /assets/uploads/1794639233035-Mashabrum-peak.webp
+  - /assets/uploads/1794639236100-Mashabrum-Peak.webp
 duration: 41 Days
 price_from: On request
 deposit: 50 %
@@ -51,7 +57,8 @@ excluded:
   - Costs caused by flight cancellations, road closures or weather
 faqs:
   - question: Why is Masherbrum called K1?
-    answer: In 1856 the survey of the Karakoram labelled the two most prominent peaks K1 and K2. K1 was
+    answer: >-
+      In 1856 the survey of the Karakoram labelled the two most prominent peaks K1 and K2. K1 was
       Masherbrum, and the local name was kept.
   - question: How high is Masherbrum?
     answer: Masherbrum is 7,821 metres, above the Hushe valley in Baltistan.
@@ -67,25 +74,26 @@ key_facts:
     value: Private dates on request
 author: Karakoram Vision Editorial Team
 reviewed_by: Karakoram Vision Travel Team
-last_verified: '2026-11-13'
+last_verified: "2026-11-13"
 packing_list:
-  - "Double boots suitable for high altitude"
-  - "Down suit or heavy down jacket and trousers"
-  - "Sleeping bag rated to -30C with an insulated mat"
-  - "Harness, helmet, crampons, ice axe and jumar"
-  - "Glacier glasses, goggles and expedition-grade gloves"
-  - "Head torch with spare batteries"
-  - "Personal medication and altitude first-aid kit"
-  - "Duffle bags for porter loads"
-  - "Solar charger or power bank for base camp"
+  - Double boots suitable for high altitude
+  - Down suit or heavy down jacket and trousers
+  - Sleeping bag rated to -30C with an insulated mat
+  - Harness, helmet, crampons, ice axe and jumar
+  - Glacier glasses, goggles and expedition-grade gloves
+  - Head torch with spare batteries
+  - Personal medication and altitude first-aid kit
+  - Duffle bags for porter loads
+  - Solar charger or power bank for base camp
 seo:
-  title: Masherbrum K1 Expedition 7,821 m - 41 Days | Karakoram Vision
-  description: Climb Masherbrum (K1), 7,821 m, from Hushe village in Baltistan. Permit, liaison officer,
-    base camp and logistics arranged. 41 days from Islamabad.
+  title: Masherbrum K1 Expedition 7,821 m - 41 Days | Karakoram Visio
+  description: >-
+    Climb Masherbrum (K1), 7,821 m, from Hushe village in Baltistan. Permit, liaison officer, base
+    camp and logistics arranged. 41 days from Islamabad.
   keywords: masherbrum expedition, K1 expedition, climb masherbrum, masherbrum 7821m
   robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
-  canonical: ''
-  social_image: /assets/uploads/1792840088009-L1280423--Copy-.webp
+  canonical: ""
+  social_image: /assets/uploads/1794639257092-Mashabrum-Peak.webp
 layout: layouts/journey.njk
 service_type: expeditions
 service_label: Expeditions
@@ -93,198 +101,229 @@ duration_days: 41
 peak_class: 7,000m peaks
 menu_sections:
   - 7,000m Peaks
+  - Climbing Style
 itinerary:
-  - day: '01'
+  - day: "01"
     title: Arrival in Islamabad
     description: Meet at the airport, transfer to the hotel and the expedition briefing.
     overnight: Hotel
-  - day: '02'
+  - day: "02"
     title: Fly to Skardu
     description: A morning flight to Skardu, or the road journey if the flight is cancelled.
     overnight: Hotel
-  - day: '03'
+  - day: "03"
     title: Skardu preparation
     description: Briefing at the tourism office, final shopping and packing.
     overnight: Hotel
-  - day: '04'
+  - day: "04"
     title: Drive to Hushe
     description: By jeep along the Indus and Shyok rivers and up the Hushe valley.
     overnight: Camping
-  - day: '05'
+  - day: "05"
     title: Trek to Brumbramah
     description: Into the Masherbrum valley to the camp at Brumbramah.
     overnight: Camping
-  - day: '06'
+  - day: "06"
     title: Trek to base camp
     description: A short day to base camp below the mountain.
     overnight: Base camp
-  - day: '07'
+  - day: "07"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: 08
+  - day: 8
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: 09
+  - day: 9
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '10'
+  - day: "10"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '11'
+  - day: "11"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '12'
+  - day: "12"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '13'
+  - day: "13"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '14'
+  - day: "14"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '15'
+  - day: "15"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '16'
+  - day: "16"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '17'
+  - day: "17"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '18'
+  - day: "18"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '19'
+  - day: "19"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '20'
+  - day: "20"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '21'
+  - day: "21"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '22'
+  - day: "22"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '23'
+  - day: "23"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '24'
+  - day: "24"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '25'
+  - day: "25"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '26'
+  - day: "26"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '27'
+  - day: "27"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '28'
+  - day: "28"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '29'
+  - day: "29"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '30'
+  - day: "30"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '31'
+  - day: "31"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '32'
+  - day: "32"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '33'
+  - day: "33"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '34'
+  - day: "34"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '35'
+  - day: "35"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '36'
+  - day: "36"
     title: Climbing period
-    description: Days on the mountain for acclimatization rotations, carrying loads to the high camps
-      and the summit attempt, as weather allows.
+    description: >-
+      Days on the mountain for acclimatization rotations, carrying loads to the high camps and the
+      summit attempt, as weather allows.
     overnight: Base camp
-  - day: '37'
+  - day: "37"
     title: Trek to Hushe
     description: Base camp is cleared and the team walks out to the village.
     overnight: Camping
-  - day: '38'
+  - day: "38"
     title: Drive to Skardu
     description: Back by jeep to Skardu.
     overnight: Hotel
-  - day: '39'
+  - day: "39"
     title: Fly to Islamabad
     description: The flight to Islamabad, or the start of the road journey if the weather closes the airport.
     overnight: Hotel
-  - day: '40'
+  - day: "40"
     title: Debriefing in Islamabad
     description: Debriefing at the tourism ministry, and a spare day for delays.
     overnight: Hotel
-  - day: '41'
+  - day: "41"
     title: Fly out
     description: Transfer to the airport.
     overnight: Not applicable
@@ -292,6 +331,7 @@ related:
   - Laila Peak Expedition
   - K2 Expedition
 ---
+
 <h2><strong>About this expedition</strong></h2>
 <p>Masherbrum (7,821 m) rises at the head of the Masherbrum valley above Hushe, the last village in the valley. It was the first peak labelled by the 1856 survey of the Karakoram, as K1; K2 was the second. The standard route is from the south-east, approached from Hushe in two days.</p>
 <h2><strong>Base camp service or full board</strong></h2>
