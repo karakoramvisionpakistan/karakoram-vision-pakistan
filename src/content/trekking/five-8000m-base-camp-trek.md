@@ -2,7 +2,7 @@
 title: Five 8000m Base Camp Trek
 slug: five-8000m-base-camp-trek
 permalink: /trekking/five-8000m-base-camp-trek/
-published: false
+published: true
 featured: true
 best_seller: false
 fixed_departure: false

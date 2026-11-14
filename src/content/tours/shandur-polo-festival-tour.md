@@ -2,7 +2,7 @@
 title: Shandur Polo Festival Tour
 slug: shandur-polo-festival-tour
 permalink: /tours/shandur-polo-festival-tour/
-published: false
+published: true
 featured: true
 best_seller: false
 fixed_departure: false

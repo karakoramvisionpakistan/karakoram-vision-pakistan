@@ -2,7 +2,7 @@
 title: K2 Concordia Trek
 slug: k2-concordia-trek
 permalink: /trekking/k2-concordia-trek/
-published: false
+published: true
 featured: true
 best_seller: false
 fixed_departure: false

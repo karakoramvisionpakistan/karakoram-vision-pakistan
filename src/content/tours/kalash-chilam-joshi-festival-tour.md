@@ -2,7 +2,7 @@
 title: Kalash Chilam Joshi Festival Tour
 slug: kalash-chilam-joshi-festival-tour
 permalink: /tours/kalash-chilam-joshi-festival-tour/
-published: false
+published: true
 featured: true
 best_seller: false
 fixed_departure: false

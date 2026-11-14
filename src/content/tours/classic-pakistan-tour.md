@@ -2,7 +2,7 @@
 title: Classic Pakistan Tour
 slug: classic-pakistan-tour
 permalink: /tours/classic-pakistan-tour/
-published: false
+published: true
 featured: true
 best_seller: false
 fixed_departure: false

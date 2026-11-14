@@ -2,7 +2,7 @@
 title: Masherbrum Expedition
 slug: masherbrum-expedition
 permalink: /expeditions/masherbrum-expedition/
-published: false
+published: true
 featured: true
 best_seller: false
 fixed_departure: false

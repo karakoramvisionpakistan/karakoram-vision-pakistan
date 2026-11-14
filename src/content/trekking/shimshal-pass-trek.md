@@ -2,7 +2,7 @@
 title: Shimshal Pass Trek
 slug: shimshal-pass-trek
 permalink: /trekking/shimshal-pass-trek/
-published: false
+published: true
 featured: true
 best_seller: false
 fixed_departure: false

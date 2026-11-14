@@ -2,7 +2,7 @@
 title: Pastore Peak Expedition
 slug: pastore-peak-expedition
 permalink: /expeditions/pastore-peak-expedition/
-published: false
+published: true
 featured: true
 best_seller: false
 fixed_departure: false

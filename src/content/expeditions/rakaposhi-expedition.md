@@ -2,7 +2,7 @@
 title: Rakaposhi Expedition
 slug: rakaposhi-expedition
 permalink: /expeditions/rakaposhi-expedition/
-published: false
+published: true
 featured: true
 best_seller: false
 fixed_departure: false

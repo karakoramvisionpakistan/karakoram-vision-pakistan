@@ -2,7 +2,7 @@
 title: Sikh Pilgrimage Tour
 slug: sikh-pilgrimage-tour
 permalink: /tours/sikh-pilgrimage-tour/
-published: false
+published: true
 featured: true
 best_seller: false
 fixed_departure: false

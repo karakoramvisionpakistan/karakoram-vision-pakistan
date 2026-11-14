@@ -2,7 +2,7 @@
 title: Around Nanga Parbat Trek
 slug: around-nanga-parbat-trek
 permalink: /trekking/around-nanga-parbat-trek/
-published: false
+published: true
 featured: true
 best_seller: false
 fixed_departure: false
