@@ -1,7 +1,7 @@
 ---
 title: Inayat Ali
 role: Cook
-photo: /assets/uploads/1793689742545-Concordia-KVP.webp
+photo: /assets/uploads/1795671217857-IMG_2362.webp
 bio: >-
   Inayat Ali is a passionate and hardworking cook from the beautiful village of Hushe,
   Gilgit-Baltistan. Known for his dedication to cooking and love for preparing delicious meals, he
